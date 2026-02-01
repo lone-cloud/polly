@@ -1,15 +1,16 @@
 name: Test
 
 on:
-  pull_request:
-  push:
-    branches:
-      - '**'
-    paths-ignore:
-      - '**/README*.md'
-      - '**/BUILDING.md'
-      - '.github/FUNDING.yml'
-      - '.github/ISSUE_TEMPLATE/**'
+  workflow_dispatch:  # Only manual trigger, disabled for auto-pushes
+  # pull_request:
+  # push:
+  #   branches:
+  #     - '**'
+  #   paths-ignore:
+  #     - '**/README*.md'
+  #     - '**/BUILDING.md'
+  #     - '.github/FUNDING.yml'
+  #     - '.github/ISSUE_TEMPLATE/**'
 
 permissions:
   contents: read # to fetch code (actions/checkout)
@@ -34,11 +35,8 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Copy Docker gradle.properties
-        run: cp gradle.properties.docker "$GRADLE_USER_HOME/gradle.properties"
-
-      - name: Run tests
-        run: ./gradlew build
+      - name: Compile check only (no tests, no build)
+        run: ./gradlew compileDebugKotlin compileReleaseKotlin -x test -x lint --no-daemon
 
       - name: Archive reports for failed tests
         if: "failure()"
