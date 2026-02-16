@@ -49,19 +49,19 @@ fun MollySocketQrScanScreen(
     }
 
     QrScanResult.NetworkError -> {
-      QrScanResultDialog(message = stringResource(R.string.MollySocketLink_experienced_a_network_error_please_try_again), onDismiss = onQrResultHandled)
+      QrScanResultDialog(message = stringResource(R.string.PollySocketLink_experienced_a_network_error_please_try_again), onDismiss = onQrResultHandled)
     }
 
     QrScanResult.QrNotFound -> {
       QrScanResultDialog(
         title = stringResource(R.string.UsernameLinkSettings_qr_code_not_found),
-        message = stringResource(R.string.MollySocketLink_try_scanning_another_image_containing_a_mollysocket_qr_code),
+        message = stringResource(R.string.PollySocketLink_try_scanning_another_image_containing_a_mollysocket_qr_code),
         onDismiss = onQrResultHandled
       )
     }
 
     is QrScanResult.NotFound -> {
-      QrScanResultDialog(message = stringResource(R.string.MollySocketLink_mollysocket_server_not_found_at_s, qrScanResult.data), onDismiss = onQrResultHandled)
+      QrScanResultDialog(message = stringResource(R.string.PollySocketLink_mollysocket_server_not_found_at_s, qrScanResult.data), onDismiss = onQrResultHandled)
     }
 
     is QrScanResult.Success -> {
@@ -94,7 +94,7 @@ fun MollySocketQrScanScreen(
         },
         hasPermission = hasCameraPermission,
         onRequestPermissions = onOpenCameraClicked,
-        qrHeaderLabelString = stringResource(R.string.MollySocketLink_scan_the_qr_code)
+        qrHeaderLabelString = stringResource(R.string.PollySocketLink_scan_the_qr_code)
       )
       FloatingActionButton(
         shape = CircleShape,
