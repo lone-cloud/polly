@@ -31,13 +31,15 @@ jobs:
         run: |
           # Get the latest Molly tag
           latest_molly_tag=$(git tag -l --sort=-version:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+-[0-9]+$' | head -1)
-          
-          # Get our latest tag
-          our_latest_tag=$(git tag -l --sort=-version:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+-[0-9]+-minimalist$' | head -1 | sed 's/-minimalist$//')
-          
+
+          # Find the newest Molly tag that is actually an ancestor of main
+          our_latest_tag=$(git tag -l --sort=-version:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+-[0-9]+$' | while read tag; do
+            git merge-base --is-ancestor "$tag" HEAD && echo "$tag" && break
+          done)
+
           echo "Latest Molly tag: $latest_molly_tag"
           echo "Our latest base tag: $our_latest_tag"
-          
+
           if [ "$latest_molly_tag" != "$our_latest_tag" ]; then
             echo "new_tag=$latest_molly_tag" >> $GITHUB_OUTPUT
             echo "has_new_tag=true" >> $GITHUB_OUTPUT
@@ -49,38 +51,13 @@ jobs:
         if: steps.check_new_tag.outputs.has_new_tag == 'true'
         run: |
           NEW_TAG="${{ steps.check_new_tag.outputs.new_tag }}"
-          
-          # Delete remote branch if it exists from previous run
-          git push origin --delete "rebase-${NEW_TAG}" 2>/dev/null || true
-          
-          # Create a new branch for the rebase
-          git checkout -b "rebase-${NEW_TAG}"
-          
+
           # Rebase our changes on top of the new Molly tag
           git rebase "$NEW_TAG" || {
             echo "Rebase failed. Manual intervention required."
             git rebase --abort
             exit 1
           }
-          
-          # Tag the new version
-          git tag "${NEW_TAG}-minimalist"
-          
-          # Push the new branch and tag (force push in case of retry)
-          git push -f origin "rebase-${NEW_TAG}"
-          git push origin "${NEW_TAG}-minimalist"
 
-      - name: Create Pull Request
-        if: steps.check_new_tag.outputs.has_new_tag == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.PUBLISH_PAT || secrets.GITHUB_TOKEN }}
-        run: |
-          NEW_TAG="${{ steps.check_new_tag.outputs.new_tag }}"
-          gh pr create \
-            --base main \
-            --head "rebase-${NEW_TAG}" \
-            --title "Rebase on Molly ${NEW_TAG}" \
-            --body "Automated rebase on Molly release ${NEW_TAG}
-
-          Please review the changes and merge if successful." \
-            --label automated,upstream-sync || echo "PR may already exist"
+          # Force push since rebase rewrites history
+          git push --force-with-lease origin HEAD:main
