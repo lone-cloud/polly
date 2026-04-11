@@ -1,9 +1,12 @@
 name: Release
 
 on:
-  push:
-    tags:
-      - "v*"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version tag (e.g., v7.68.5-1-mini)'
+        required: true
+        type: string
   workflow_call:
     inputs:
       version:
@@ -11,12 +14,12 @@ on:
         type: string
 
 permissions:
-  contents: read # to fetch code (actions/checkout)
+  contents: write # to create releases and upload assets
 
 env:
   TAG_REF: "${{ inputs.version || github.ref_name }}"
-  BUILD_ENV_FILE: ${{ vars.BUILD_ENV_FILE || 'beta-stable.env' }}
-  HAVE_KEYSTORE: ${{ secrets.SECRET_KEYSTORE != '' }}
+  BUILD_ENV_FILE: "mini.env"  # Always use mini config
+  HAVE_KEYSTORE: ${{ secrets.KEYSTORE_FILE != '' }}
 
 jobs:
   build:
@@ -40,8 +43,6 @@ jobs:
 
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
-        with:
-          cache-read-only: true
 
       - name: Build Docker image
         run: docker compose build
@@ -71,7 +72,7 @@ jobs:
         run: printenv KEYSTORE | base64 -d > certs/keystore.jks
         working-directory: reproducible-builds
         env:
-          KEYSTORE: ${{ secrets.SECRET_KEYSTORE }}
+          KEYSTORE: ${{ secrets.KEYSTORE_FILE }}
 
       - name: Build without signing
         if: "env.HAVE_KEYSTORE == 'false'"
@@ -84,8 +85,8 @@ jobs:
         working-directory: reproducible-builds
         env:
           CI_KEYSTORE_PATH: certs/keystore.jks
-          CI_KEYSTORE_ALIAS: ${{ secrets.SECRET_KEYSTORE_ALIAS }}
-          CI_KEYSTORE_PASSWORD: ${{ secrets.SECRET_KEYSTORE_PASSWORD }}
+          CI_KEYSTORE_ALIAS: ${{ secrets.KEY_ALIAS }}
+          CI_KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
 
       - name: Clean up keystore
         if: "always()"
@@ -133,7 +134,11 @@ jobs:
 
       - name: Create release draft
         if: "steps.check_release.outputs.release_exists == 'false'"
-        run: gh release create -d --verify-tag -t "$TAG_REF" "$TAG_REF"
+        run: |
+          RELEASE_NOTES="Based on Molly [$TAG_REF](https://github.com/mollyim/mollyim-android/releases/tag/$TAG_REF)
+          
+          See upstream release notes for changes and updates."
+          gh release create -d --verify-tag -t "$TAG_REF" -n "$RELEASE_NOTES" "$TAG_REF"
         env:
           GITHUB_TOKEN: ${{ secrets.PUBLISH_PAT || secrets.GITHUB_TOKEN }}
 
@@ -176,6 +181,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload APKs to GitHub release
-        run: gh release upload "$TAG_REF" ./apk/*/release/*.apk --clobber
+        run: gh release upload "$TAG_REF" ./apk/*/release/*.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.PUBLISH_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Publish release
+        run: gh release edit "$TAG_REF" --draft=false
         env:
           GITHUB_TOKEN: ${{ secrets.PUBLISH_PAT || secrets.GITHUB_TOKEN }}

@@ -7,7 +7,7 @@
   <!-- Removed by excludeNonTranslatables <string name="install_url" translatable="false">https://signal.org/install</string> -->
   <!-- Removed by excludeNonTranslatables <string name="donate_url" translatable="false">https://signal.org/donate</string> -->
   <!-- Removed by excludeNonTranslatables <string name="backup_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="remote_backup_support_url" translatable="false">https://support.signal.org/hc/articles/9708267671322</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="backup_failed_support_url" translatable="false">https://support.signal.org/hc/articles/9708267671322</string> -->
   <!-- Removed by excludeNonTranslatables <string name="transfer_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string> -->
   <!-- Removed by excludeNonTranslatables <string name="support_center_url" translatable="false">https://support.signal.org/</string> -->
   <!-- Removed by excludeNonTranslatables <string name="terms_and_privacy_policy_url" translatable="false">https://signal.org/legal</string> -->
@@ -43,12 +43,12 @@
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Molly is tans besig met bywerking…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">Polly is tans besig met bywerking…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Jy het nog nie \'n wagwoord gespesifiseer nie!</string>
     <string name="ApplicationPreferencesActivity_disable_passphrase">Deaktiveer wagwoord?</string>
-    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Hierdie sal Molly- en boodskapkennisgewings permanent ontsluit</string>
+    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Hierdie sal Polly- en boodskapkennisgewings permanent ontsluit</string>
     <string name="ApplicationPreferencesActivity_disable">Deaktiveer</string>
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">Kon nie aan die bediener konnekteer nie!</string>
     <string name="ApplicationPreferencesActivity_pins_are_required_for_registration_lock">PIN’s word vereis vir registrasieslot. Om PIN’s te deaktiveer, deaktiveer eers die registrasieslot.</string>
@@ -93,7 +93,7 @@
     <string name="AttachmentKeyboard_location">Ligging</string>
     <!-- Text for a button that will allow users to create a poll -->
     <string name="AttachmentKeyboard_poll">Meningsopname</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Molly benodig toestemming om jou foto\'s en videos te wys</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Polly benodig toestemming om jou foto\'s en videos te wys</string>
     <!-- Text for a button prompting users to allow Signal access to their gallery storage -->
     <string name="AttachmentKeyboard_allow_access">Gee toegang</string>
     <string name="AttachmentKeyboard_payment">Betaling</string>
@@ -104,34 +104,34 @@
     <!-- Option in menu to go to settings -->
     <string name="AttachmentKeyboard_go_to_settings">Gaan na Instellings</string>
     <!-- Text explaining that Signal has limited access to photos -->
-    <string name="AttachmentKeyboard_signal_has_limited_access">Molly het beperkte toegang tot foto\'s of video\'s</string>
+    <string name="AttachmentKeyboard_signal_has_limited_access">Polly het beperkte toegang tot foto\'s of video\'s</string>
     <!-- Text shown when user has given no photos for Signal to access and an explanation on how to change those permissions -->
     <string name="AttachmentKeyboard_no_photos_found">Geen foto\'s gevind nie, kies foto\'s en video\'s om hier te verskyn of verander toestemmings</string>
 
     <!-- MediaGalleryFragment -->
     <!-- Text describing that no photos or videos are currently found in the gallery and that Signal can only access media that the user allows -->
-    <string name="MediaGalleryFragment__no_photos_found">Geen foto\'s of video\'s gevind nie. Molly het slegs toegang tot foto\'s en video\'s wat jy gekies het.</string>
+    <string name="MediaGalleryFragment__no_photos_found">Geen foto\'s of video\'s gevind nie. Polly het slegs toegang tot foto\'s en video\'s wat jy gekies het.</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Kan nie \'n program vind om media te kies nie.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Molly benodig die Berging-toestemming om foto\'s, videos of klank aan te heg, maar dit is permanent geweier. Gaan asseblief na die programinstellingsmenu, kies \"Toestemmings\" en aktiveer \"Berging\".</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Molly benodig toestemming vir Kontakte om kontakinligting aan te heg, maar dit is permanent geweier. Gaan asseblief na die programinstellingsmenu, kies \"Toestemmings\" en aktiveer \"Kontakte\".</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Molly benodig toestemming vir Plek om \'n plek aan te heg, maar dit is permanent geweier. Gaan asseblief na die programinstellingsmenu, kies \"Toestemmings\" en aktiveer \"Plek\".</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Polly benodig die Berging-toestemming om foto\'s, videos of klank aan te heg, maar dit is permanent geweier. Gaan asseblief na die programinstellingsmenu, kies \"Toestemmings\" en aktiveer \"Berging\".</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Polly benodig toestemming vir Kontakte om kontakinligting aan te heg, maar dit is permanent geweier. Gaan asseblief na die programinstellingsmenu, kies \"Toestemmings\" en aktiveer \"Kontakte\".</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Polly benodig toestemming vir Plek om \'n plek aan te heg, maar dit is permanent geweier. Gaan asseblief na die programinstellingsmenu, kies \"Toestemmings\" en aktiveer \"Plek\".</string>
 
     <!-- Dialog title asking users for location permission -->
     <string name="AttachmentManager_signal_allow_access_location">Laat toegang tot jou ligging toe</string>
     <!-- Dialog description that will explain the steps needed to give location permission -->
     <string name="AttachmentManager_signal_to_send_location">Om jou ligging te stuur:</string>
     <!-- Alert dialog description asking for location permission -->
-    <string name="AttachmentManager_signal_allow_signal_access_location">Laat Molly toegang toe om jou ligging te stuur.</string>
+    <string name="AttachmentManager_signal_allow_signal_access_location">Laat Polly toegang toe om jou ligging te stuur.</string>
     <!-- Toast text explaining Signal\'s need for location access -->
-    <string name="AttachmentManager_signal_needs_location_access">Molly benodig liggingstoegang om jou ligging te stuur.</string>
+    <string name="AttachmentManager_signal_needs_location_access">Polly benodig liggingstoegang om jou ligging te stuur.</string>
     <!-- Dialog title asking users for gallery storage permission -->
     <string name="AttachmentManager_signal_allow_storage">Laat toegang tot stoorruimte toe</string>
     <!-- Dialog description that will explain the steps needed to give gallery storage permission -->
     <string name="AttachmentManager_signal_to_show_photos">Om foto\'s en video\'s te wys:</string>
     <!-- Toast text explaining Signal\'s need for storage access -->
-    <string name="AttachmentManager_signal_needs_storage_access">Molly benodig toegang om jou foto\'s en videos te wys.</string>
+    <string name="AttachmentManager_signal_needs_storage_access">Polly benodig toegang om jou foto\'s en videos te wys.</string>
 
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s het nie Betalings geaktiveer nie </string>
@@ -287,25 +287,25 @@
     <!-- Dialog title asking users for microphone permission -->
     <string name="CameraXFragment_allow_access_microphone">Laat toegang tot jou mikrofoon toe</string>
     <!-- Text explaining why Signal needs camera access in order to take photos -->
-    <string name="CameraXFragment_to_capture_photos_allow_camera">Laat Molly toegang tot die kamera toe om foto\'s te neem.</string>
+    <string name="CameraXFragment_to_capture_photos_allow_camera">Laat Polly toegang tot die kamera toe om foto\'s te neem.</string>
     <!-- Text explaining why Signal needs camera access in order to take photos and videos -->
-    <string name="CameraXFragment_to_capture_photos_and_video_allow_camera">Laat Molly toegang tot die kamera om foto\'s en video op te neem.</string>
+    <string name="CameraXFragment_to_capture_photos_and_video_allow_camera">Laat Polly toegang tot die kamera om foto\'s en video op te neem.</string>
     <!-- Text explaining why Signal needs camera and microphone access in order to take photos and videos -->
-    <string name="CameraXFragment_to_capture_photos_and_video_allow_camera_microphone">Laat Molly toegang tot die kamera en mikrofoon toe om foto\'s en video\'s te neem.</string>
+    <string name="CameraXFragment_to_capture_photos_and_video_allow_camera_microphone">Laat Polly toegang tot die kamera en mikrofoon toe om foto\'s en video\'s te neem.</string>
     <!-- Text explaining why Signal needs microphone access to take videos -->
-    <string name="CameraXFragment_to_capture_videos_with_sound">Om video\'s met klank te neem, laat Molly toegang tot jou mikrofoon toe.</string>
+    <string name="CameraXFragment_to_capture_videos_with_sound">Om video\'s met klank te neem, laat Polly toegang tot jou mikrofoon toe.</string>
     <!-- Text explaining why Signal needs camera access to scan QR codes -->
-    <string name="CameraXFragment_to_scan_qr_code_allow_camera">Om \'n QR-kode te skandeer, laat Molly toegang tot die kamera toe.</string>
+    <string name="CameraXFragment_to_scan_qr_code_allow_camera">Om \'n QR-kode te skandeer, laat Polly toegang tot die kamera toe.</string>
     <!-- Toast dialog explaining why Signal needs camera permissions when capturing photos -->
-    <string name="CameraXFragment_signal_needs_camera_access_capture_photos">Molly benodig kameratoegang om foto\'s te neem</string>
+    <string name="CameraXFragment_signal_needs_camera_access_capture_photos">Polly benodig kameratoegang om foto\'s te neem</string>
     <!-- Toast dialog explaining why Signal needs camera permissions when scanning QR codes -->
-    <string name="CameraXFragment_signal_needs_camera_access_scan_qr_code">Molly benodig kameratoegang om QR-kodes te skandeer</string>
+    <string name="CameraXFragment_signal_needs_camera_access_scan_qr_code">Polly benodig kameratoegang om QR-kodes te skandeer</string>
     <!-- Toast dialog explaining why Signal needs microphone permissions -->
-    <string name="CameraXFragment_signal_needs_microphone_access_video">Molly benodig mikrofoontoegang om video\'s te neem</string>
+    <string name="CameraXFragment_signal_needs_microphone_access_video">Polly benodig mikrofoontoegang om video\'s te neem</string>
     <!-- Dialog description that explains the steps needed to give camera permission -->
-    <string name="CameraXFragment_to_capture_photos">Om foto\'s in Molly te neem:</string>
+    <string name="CameraXFragment_to_capture_photos">Om foto\'s in Polly te neem:</string>
     <!-- Dialog description that explains the steps needed to give camera and microphone permission -->
-    <string name="CameraXFragment_to_capture_photos_videos">Om foto\'s en video\'s in Molly te neem:</string>
+    <string name="CameraXFragment_to_capture_photos_videos">Om foto\'s en video\'s in Polly te neem:</string>
     <!-- Dialog description that explains the steps needed to give microphone permission -->
     <string name="CameraXFragment_to_capture_videos">Om video\'s met klank te neem:</string>
     <!-- Dialog description that explains the steps needed to give Signal camera permissions -->
@@ -338,7 +338,7 @@
     <string name="CameraContacts_no_signal_contacts">Geen Signal-kontakte nie</string>
     <string name="CameraContacts_you_can_only_use_the_camera_button">Jy kan net die kameraknoppie gebruik om foto\'s na Signal-kontakte te stuur. </string>
     <string name="CameraContacts_cant_find_who_youre_looking_for">Kan nie kry wie jy soek nie?</string>
-    <string name="CameraContacts_invite_a_contact_to_join_signal">Nooi \'n kontakpersoon om by Molly aan te sluit</string>
+    <string name="CameraContacts_invite_a_contact_to_join_signal">Nooi \'n kontakpersoon om by Polly aan te sluit</string>
     <string name="CameraContacts__menu_search">Soek</string>
 
     <!-- Censorship Circumvention Megaphone -->
@@ -352,12 +352,12 @@
     <string name="CensorshipCircumventionMegaphone_no_thanks">Nee dankie</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Werk Molly by</string>
+    <string name="ClientDeprecatedActivity_update_signal">Werk Polly by</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Hierdie weergawe van die toepassing word nie meer ondersteun nie. Om voort te gaan om boodskappe te stuur en te ontvang, doen \'n bywerking van die jongste weergawe.</string>
     <string name="ClientDeprecatedActivity_update">Werk by</string>
     <string name="ClientDeprecatedActivity_dont_update">Moenie bywerk nie</string>
     <string name="ClientDeprecatedActivity_warning">Waarskuwing</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Jou weergawe van Molly het verval. Jy sal na jou boodskapgeskiedenis kan kyk, maar jy sal nie boodskappe kan stuur of ontvang totdat jy jou weergawe bywerk nie.</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Jou weergawe van Polly het verval. Jy sal na jou boodskapgeskiedenis kan kyk, maar jy sal nie boodskappe kan stuur of ontvang totdat jy jou weergawe bywerk nie.</string>
 
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Geen webblaaier gevind nie.</string>
@@ -379,7 +379,7 @@
     <!-- Title on dialog when quick restore qr code is scanned in system camera -->
     <string name="CommunicationActions__transfer_dialog_title">Dra rekening oor na nuwe toestel?</string>
     <!-- Message on dialog when quick restore qr code is scanned in system camera -->
-    <string name="CommunicationActions__transfer_dialog_message">Om hierdie rekening na \'n nuwe toestel oor te dra, tik op \"Gaan voort\" en skandeer die QR-kode weer met die Molly-kamera. Maak seker jy skandeer slegs QR-kodes wat direk van Molly af kom.</string>
+    <string name="CommunicationActions__transfer_dialog_message">Om hierdie rekening na \'n nuwe toestel oor te dra, tik op \"Gaan voort\" en skandeer die QR-kode weer met die Polly-kamera. Maak seker jy skandeer slegs QR-kodes wat direk van Polly af kom.</string>
     <string name="CommunicationActions__dont_transfer">Moenie oordra nie</string>
 
     <!-- ConfirmIdentityDialog -->
@@ -403,8 +403,8 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">Boodskap %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">Molly-stemoproep %1$s</string>
-    <string name="ContactsDatabase_signal_video_call_s">Molly-video-oproep %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">Polly-stemoproep %1$s</string>
+    <string name="ContactsDatabase_signal_video_call_s">Polly-video-oproep %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -508,13 +508,12 @@
     <string name="ConversationActivity_transport_signal">Signal-boodskap</string>
     <!-- The content description for button to send a message in a conversation -->
     <string name="ConversationActivity_send_message_content_description">Stuur boodskap</string>
-    <string name="ConversationActivity_lets_switch_to_signal">Kom ons skakel oor na Molly %1$s</string>
+    <string name="ConversationActivity_lets_switch_to_signal">Kom ons skakel oor na Polly %1$s</string>
     <string name="ConversationActivity_specify_recipient">Kies asseblief \'n kontak</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Die aanhangsel oorskry die groottegrense vir die tipe boodskap wat jy stuur.</string>
     <string name="ConversationActivity_unable_to_record_audio">Kan nie klank opneem nie!</string>
     <string name="ConversationActivity_you_cant_send_messages_to_this_group">Jy kan nie boodskappe aan hierdie groep stuur nie, want jy is nie meer \'n lid nie.</string>
-  <!-- Removed by excludeNonTranslatables <string name="DisabledInputView__incognito_mode" translatable="false">Incognito mode (Labs)</string> -->
-    <string name="ConversationActivity_you_cant_send_messages_because_group_ended">Jy kan nie boodskappe stuur nie, want die groep is beëindig.</string>
+    <string name="DisabledInputView__incognito_mode">Incognito mode</string>
     <string name="ConversationActivity_only_s_can_send_messages">Slegs %1$s kan boodskappe stuur.</string>
     <string name="ConversationActivity_admins">admins</string>
     <string name="ConversationActivity_message_an_admin">Stuur ’n boodskap aan admin</string>
@@ -529,18 +528,18 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="ConversationActivity_signal_to_send_audio_messages">Om stemboodskappe te stuur:</string>
     <!-- Alert dialog description asking for microphone permission in order to send voice messages -->
-    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Om stemboodskappe te stuur, laat Molly toegang tot jou mikrofoon toe.</string>
+    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Om stemboodskappe te stuur, laat Polly toegang tot jou mikrofoon toe.</string>
     <!-- Toast text explaining Signal\'s need for microphone access -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Molly benodig mikrofoontoegang om \'n stemboodskap op te neem.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Molly benodig toestemming vir die Mikrofoon om klankboodskappe te stuur, maar dit is permanent geweier. Gaan asseblief na die programinstellings, kies \"Toestemmings\" en aktiveer \"Mikrofoon\".</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Polly benodig mikrofoontoegang om \'n stemboodskap op te neem.</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Polly benodig toestemming vir die Mikrofoon om klankboodskappe te stuur, maar dit is permanent geweier. Gaan asseblief na die programinstellings, kies \"Toestemmings\" en aktiveer \"Mikrofoon\".</string>
 
-    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Molly benodig toestemming vir die Mikrofoon en Kamera om %1$s te kan bel, maar dit is permanent geweier. Gaan asseblief na die programinstellings, kies \"Toestemmings\" en skakel \"Mikrofoon\" en \"Kamera\" aan.</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Laat Molly toegang tot die kamera om foto\'s en video op te neem.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Molly het die Kamera-toestemming nodig om foto\'s of video\'s te neem, maar dit is permanent geweier. Gaan asseblief na die programinstellings, kies \"Toestemmings\" en aktiveer \"Kamera\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Molly benodig toestemming om jou kamera te gebruik om foto\'s en videos te neem</string>
+    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Polly benodig toestemming vir die Mikrofoon en Kamera om %1$s te kan bel, maar dit is permanent geweier. Gaan asseblief na die programinstellings, kies \"Toestemmings\" en skakel \"Mikrofoon\" en \"Kamera\" aan.</string>
+    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Laat Polly toegang tot die kamera om foto\'s en video op te neem.</string>
+    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Polly het die Kamera-toestemming nodig om foto\'s of video\'s te neem, maar dit is permanent geweier. Gaan asseblief na die programinstellings, kies \"Toestemmings\" en aktiveer \"Kamera\".</string>
+    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Polly benodig toestemming om jou kamera te gebruik om foto\'s en videos te neem</string>
     <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Aktiveer die toestemming van die mikrofoon om videos met klank op te neem.</string>
-    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Molly het mikrofoontoestemmings nodig om video\'s op te neem, maar dit is geweier. Gaan asseblief na die programinstellings, kies \"Toestemmings\" en skakel \"Mikrofoon\" en \"Kamera\" aan.</string>
-    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Molly mikrofoontoestemming nodig om videos op te neem.</string>
+    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Polly het mikrofoontoestemmings nodig om video\'s op te neem, maar dit is geweier. Gaan asseblief na die programinstellings, kies \"Toestemmings\" en skakel \"Mikrofoon\" en \"Kamera\" aan.</string>
+    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Polly mikrofoontoestemming nodig om videos op te neem.</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
     <string name="ConversationActivity_no">Nee</string>
@@ -561,9 +560,9 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions for a voice call -->
     <string name="ConversationActivity__to_start_call">Om \'n oproep te begin:</string>
     <!-- Alert dialog description asking for microphone permission in order to start a voice call -->
-    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Om \'n oproep te begin, laat Molly toegang tot jou mikrofoon toe.</string>
+    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Om \'n oproep te begin, laat Polly toegang tot jou mikrofoon toe.</string>
     <!-- Toast text explaining Signal\'s need for microphone access for a voice call -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Molly benodig mikrofoontoegang om \'n oproep te begin.</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Polly benodig mikrofoontoegang om \'n oproep te begin.</string>
 
 
     <string name="ConversationActivity_join">Sluit aan</string>
@@ -577,9 +576,9 @@
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">SMS-boodskappe word nie meer in Signal ondersteun nie. Nooi %1$s na Signal om die gesprek hier te hou.</string>
     <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
-    <string name="ConversationActivity__this_person_is_no_longer_using_signal">Hierdie persoon gebruik nie meer Molly nie. Nooi hulle na Molly om die gesprek hier te hou.</string>
+    <string name="ConversationActivity__this_person_is_no_longer_using_signal">Hierdie persoon gebruik nie meer Polly nie. Nooi hulle na Polly om die gesprek hier te hou.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__invite_to_signal">Nooi na Molly</string>
+    <string name="ConversationActivity__invite_to_signal">Nooi na Polly</string>
     <!-- Snackbar message shown after dismissing the full screen sms export megaphone indicating we\'ll do it again soon -->
     <string name="ConversationActivity__you_will_be_reminded_again_soon">Jy sal binnekort weer hieraan herinner word.</string>
     <!-- Toast message shown when trying to record a voice message during an ongoing call -->
@@ -636,8 +635,8 @@
     <string name="ConversationFragment_delete_for_everyone_title">Skrap vir almal?</string>
     <!-- Body of dialog explaining what happens during deletion -->
     <plurals name="ConversationFragment_delete_for_everyone_body">
-        <item quantity="one">Groeplede op die jongste weergawe van Signal sal sien jy het hierdie boodskap geskrap.</item>
-        <item quantity="other">Groeplede op die jongste weergawe van Signal sal sien jy het hierdie boodskappe geskrap.</item>
+        <item quantity="one">Group members on the latest versions of Signal will see that you deleted this message.</item>
+        <item quantity="other">Group members on the latest versions of Signal will see that you deleted these messages.</item>
     </plurals>
     <!-- Dialog button for deleting one or more note-to-self messages only on this device, leaving that same message intact on other devices. -->
     <string name="ConversationFragment_delete_on_this_device">Skrap van hierdie toestel af</string>
@@ -654,11 +653,7 @@
     <string name="ConversationFragment_view_once_media_is_deleted_after_sending">Eenkeerkyk-media word uitgevee nadat dit gestuur is</string>
     <string name="ConversationFragment_you_already_viewed_this_message">Jy het reeds na hierdie boodskap gekyk</string>
     <string name="ConversationFragment__you_can_add_notes_for_yourself_in_this_conversation">Jy kan notas vir jouself in hierdie klets byvoeg. Indien daar enige toestelle aan jou rekening gekoppel is, sal nuwe notas gesinchroniseer word.</string>
-    <!-- Text in banner to show how many people have the same name. -->
-    <plurals name="ConversationFragment__d_group_members_have_the_same_name">
-        <item quantity="one">%1$d groeplid het dieselfde naam.</item>
-        <item quantity="other">%1$d groeplede het dieselfde naam.</item>
-    </plurals>
+    <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d groepslede het dieselfde naam.</string>
     <string name="ConversationFragment__tap_to_review">Tik om te hersien</string>
     <!-- The body of a banner that can show up at the top of a chat, letting the user know that you have two contacts with the same name -->
     <string name="ConversationFragment__review_banner_body">Hierdie persoon het dieselfde naam as \'n ander kontak</string>
@@ -678,13 +673,13 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">Versper</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">Werk Molly by</string>
+    <string name="ConversationFragment__update_build">Werk Polly by</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Herregistreer Molly</string>
+    <string name="ConversationFragment__reregister_signal">Herregistreer Polly</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">Navigeer terug.</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Maak Molly oop</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">Maak Polly oop</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">Nie meer geverifieer nie</string>
     <!-- Button shown in conversation header when in a message request state and no groups in common to show new message safety tips -->
@@ -751,7 +746,7 @@
     <!-- Title of tip 0 -->
     <string name="SafetyTips_tip0_title">Vals name en rekeninge</string>
     <!-- Message of tip 0 -->
-    <string name="SafetyTips_tip0_message">Molly sal jou nooit vir jou registrasiekode of PIN kontak nie. Wees versigtig vir rekeninge wat ander naboots. Profielname word deur hul rekeninghouer gekies en word nie geverifieer nie.</string>
+    <string name="SafetyTips_tip0_message">Polly sal jou nooit vir jou registrasiekode of PIN kontak nie. Wees versigtig vir rekeninge wat ander naboots. Profielname word deur hul rekeninghouer gekies en word nie geverifieer nie.</string>
     <!-- Title of tip 1 -->
     <string name="SafetyTips_tip1_title">Kripto- of geldslenters</string>
     <!-- Message of tip 1 -->
@@ -904,9 +899,9 @@
     <!-- Toolbar title for this screen -->
     <string name="WhoCanSeeMyPhoneNumberFragment__who_can_find_me_by_number">Wie kan my volgens my nommer vind?</string>
     <!-- Description for radio item stating anyone can see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">Enigiemand wat jou telefoonnommer het, sal sien jy is op Molly en kan met jou begin klets.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">Enigiemand wat jou telefoonnommer het, sal sien jy is op Polly en kan met jou begin klets.</string>
     <!-- Description for radio item stating no one will be able to see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">Niemand sal kan sien jy is op Molly nie, tensy jy vir hulle \'n boodskap stuur of \'n bestaande klets met hulle het.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">Niemand sal kan sien jy is op Polly nie, tensy jy vir hulle \'n boodskap stuur of \'n bestaande klets met hulle het.</string>
 
     <!-- ChooseBackupFragment -->
     <string name="ChooseBackupFragment__restore_from_backup">Herstel van rugsteun af?</string>
@@ -983,7 +978,7 @@
     <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Toets jou wagwoordfrase en verifieer dat dit ooreenkom</string>
     <string name="BackupsPreferenceFragment__turn_on">Skakel rugsteun aan</string>
     <string name="BackupsPreferenceFragment__turn_off">Skakel af</string>
-    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Om 'n rugsteun te herwin, installeer 'n nuwe kopie van Molly. Maak die toepassing oop, tik op \"Herwin vanaf rugsteun\" en spoor dan 'n rugsteunlêer op. %1$s"</string>
+    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Om \'n rugsteun te herwin, installeer \'n nuwe kopie van Polly. Maak die toepassing oop, tik op \"Herwin vanaf rugsteun\" en spoor dan \'n rugsteunlêer op. %1$s"</string>
     <string name="BackupsPreferenceFragment__learn_more">Vind meer uit</string>
     <string name="BackupsPreferenceFragment__in_progress">Aan die gang…</string>
     <!-- Status text shown in backup preferences when verifying a backup -->
@@ -992,7 +987,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">%1$d tot dusver…</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">%1$s%% tot dusver…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Molly benodig toestemming om ekstern te stoor ten einde rugsteunkopieë te maak, maar dit is permanent geweier. Gaan asseblief na die toepassinginstellings, kies \"Toestemmings\" en aktiveer \"Storing\".</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Polly benodig toestemming om ekstern te stoor ten einde rugsteunkopieë te maak, maar dit is permanent geweier. Gaan asseblief na die toepassinginstellings, kies \"Toestemmings\" en aktiveer \"Storing\".</string>
     <!-- Title of dialog shown when picking the time to perform a chat backup -->
     <string name="BackupsPreferenceFragment__set_backup_time">Stel tyd vir rugsteun</string>
 
@@ -1074,7 +1069,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">Kletssessie het verfris</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Molly gebruik end-tot-end-enkriptering en gaan dalk soms van jou kletssessies moet verfris. Dit beïnvloed nie die sekuriteit van jou kletssessie nie, maar jy kon dalk ’n boodskap van hierdie kontak gemis het; jy kan hulle vra om dit weer te stuur.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Polly gebruik end-tot-end-enkriptering en gaan dalk soms van jou kletssessies moet verfris. Dit beïnvloed nie die sekuriteit van jou kletssessie nie, maar jy kon dalk ’n boodskap van hierdie kontak gemis het; jy kan hulle vra om dit weer te stuur.</string>
 
     <!-- LinkDeviceFragment -->
     <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
@@ -1189,7 +1184,7 @@
     <!-- Bottom sheet title telling users to complete the linking process on the other device  -->
     <string name="AddLinkDeviceFragment__finish_linking_on_other_device">Voltooi koppeling op jou ander toestel</string>
     <!-- Bottom sheet description telling users to complete the linking process -->
-    <string name="AddLinkDeviceFragment__finish_linking_signal">Voltooi koppeling van Molly op jou ander toestel.</string>
+    <string name="AddLinkDeviceFragment__finish_linking_signal">Voltooi koppeling van Polly op jou ander toestel.</string>
     <!-- Title of dialog when the QR code being scanned is invalid -->
     <string name="AddLinkDeviceFragment__linking_device_failed">Kon nie toestel koppel nie</string>
     <!-- Text shown in a dialog when the QR code being scanned is invalid -->
@@ -1236,19 +1231,19 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">Optimaliseer vir vermiste Play Services</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Hierdie toestel ondersteun nie Play Services nie. Tik om die optimering van die stelselbatterye uit te skakel wat verhoed dat Molly boodskappe ophaal terwyl hulle onaktief is.</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Hierdie toestel ondersteun nie Play Services nie. Tik om die optimering van die stelselbatterye uit te skakel wat verhoed dat Polly boodskappe ophaal terwyl hulle onaktief is.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Hierdie weergawe van Molly het verval. Werk dit nou by om boodskappe te kan stuur en ontvang</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Hierdie weergawe van Polly het verval. Werk dit nou by om boodskappe te kan stuur en ontvang</string>
     <string name="ExpiredBuildReminder_update_now">Werk nou by</string>
 
     <!-- A message in a banner shown at the top of the screen indicating that the user must upgrade their device to use signal. -->
     <string name="DeprecatedSdkBanner_body">Signal werk nie meer op hierdie toestel nie. Om Signal weer te gebruik, opdateer jou toestel met \'n nuwer weergawe van Android of skakel oor na \'n nuwer toestel.</string>
 
     <!-- Title of notification telling users to update Signal -->
-    <string name="DeprecatedNotificationJob_update_signal">Werk Molly by</string>
+    <string name="DeprecatedNotificationJob_update_signal">Werk Polly by</string>
     <!-- Message body of notification telling users that this current version of Signal has expired. If pressed, we will direct them to the website APK or PlayStore page -->
-    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Hierdie weergawe van Molly het verval. Tik hier om te opdateer en boodskappe te stuur en te ontvang.</string>
+    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Hierdie weergawe van Polly het verval. Tik hier om te opdateer en boodskappe te stuur en te ontvang.</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
     <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -1398,7 +1393,7 @@
     <!-- Message for dialog asking user to submit logs for debugging a crash -->
     <string name="PromptLogsSlowNotificationsDialog__message">Ontfoutlogs help ons om die probleem te diagnoseer en reg te stel, en bevat nie identifiserende inligting nie.</string>
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
-    <string name="PromptLogsSlowNotificationsDialog__title_crash">Molly het \'n probleem ondervind. Dien ontfoutlog in?</string>
+    <string name="PromptLogsSlowNotificationsDialog__title_crash">Polly het \'n probleem ondervind. Dien ontfoutlog in?</string>
     <!-- Title for dialog asking user to submit logs for a situation where they\'re not able to connect to the signal service -->
     <string name="PromptLogsSlowNotificationsDialog__title_connectivity_warning">Jy sal dalk nie boodskappe ontvang nie. Dien ontfout-log in?</string>
 
@@ -1406,12 +1401,12 @@
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
     <string name="PromptBatterySaverBottomSheet__title">Kennisgewings kan vertraag word as gevolg van batteryoptimalisering</string>
     <!-- Message explaining that battery saver may delay notifications -->
-    <string name="PromptBatterySaverBottomSheet__message">Jy kan batteryoptimalisering vir Molly deaktiveer om te verseker dat boodskapkennisgewings nie vertraag word nie.</string>
+    <string name="PromptBatterySaverBottomSheet__message">Jy kan batteryoptimalisering vir Polly deaktiveer om te verseker dat boodskapkennisgewings nie vertraag word nie.</string>
 
     <!-- Title in bottom sheet that states that notifications for this device could be delayed -->
     <string name="DeviceSpecificNotificationBottomSheet__notifications_may_be_delayed">Kennisgewings kan vertraag word as gevolg van batteryoptimalisering</string>
     <!-- Message in bottom sheet prompting users to fix potential issues by disabling battery optimizations -->
-    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Deaktiveer batteryoptimalisering vir Molly om te verseker dat boodskapkennisgewings nie vertraag word nie. Tik \"Gaan voort\" om toestelspesifieke aanwysings te sien.</string>
+    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Deaktiveer batteryoptimalisering vir Polly om te verseker dat boodskapkennisgewings nie vertraag word nie. Tik \"Gaan voort\" om toestelspesifieke aanwysings te sien.</string>
     <!-- Button to dismiss notification help prompt -->
     <string name="DeviceSpecificNotificationBottomSheet__no_thanks">Nee dankie</string>
     <!-- Button to continue and go to Signal support website -->
@@ -1420,7 +1415,7 @@
     <!-- Title of a bottom sheet that is shown when the user is having connectivity issues -->
     <string name="ConnectivityWarningBottomSheet_title">Jy sal dalk nie boodskappe ontvang nie</string>
     <!-- Body of a bottom sheet that is shown when the user is having connectivity issues -->
-    <string name="ConnectivityWarningBottomSheet_body">Deur jou toestel te herlaai, kan dalk help om die boodskapafleweringskwessie op te los. As hierdie probleem voortduur, kontak die Molly-steundiens.</string>
+    <string name="ConnectivityWarningBottomSheet_body">Deur jou toestel te herlaai, kan dalk help om die boodskapafleweringskwessie op te los. As hierdie probleem voortduur, kontak die Polly-steundiens.</string>
     <!-- Text for a button in a bottom sheet that is shown when the user is having connectivity issues. Clicking it will dismiss the bottom sheet. -->
     <string name="ConnectivityWarningBottomSheet_dismiss_button">Ek verstaan</string>
 
@@ -1567,9 +1562,9 @@
     <!-- Dialog title displayed when remote restore failed because of an outdated backup version. -->
     <string name="RemoteRestoreActivity__couldnt_restore">Kon nie hierdie rugsteun herwin nie</string>
     <!-- Dialog message explaining that an update to Signal is required to restore the backup. -->
-    <string name="RemoteRestoreActivity__update_latest">Hierdie weergawe van Molly kan nie jou rugsteun herwin nie. Doen \'n opdatering na die jongste weergawe en probeer weer.</string>
+    <string name="RemoteRestoreActivity__update_latest">Hierdie weergawe van Polly kan nie jou rugsteun herwin nie. Doen \'n opdatering na die jongste weergawe en probeer weer.</string>
     <!-- Text on button that when pressed will redirect them to update Signal -->
-    <string name="RemoteRestoreActivity__update_signal">Werk Molly by</string>
+    <string name="RemoteRestoreActivity__update_signal">Werk Polly by</string>
     <!-- Text label button to dismiss the dialog -->
     <string name="RemoteRestoreActivity__not_now">Nie nou nie</string>
     <!-- Text shown on restore screen as information on what will happen if you skip -->
@@ -1679,8 +1674,6 @@
     <string name="GroupJoinBottomSheetDialogFragment_unable_to_join_group_please_try_again_later">Kon nie by groep aansluit nie. Probeer asb. later weer.</string>
     <string name="GroupJoinBottomSheetDialogFragment_encountered_a_network_error">Netwerkfout teëgekom.</string>
     <string name="GroupJoinBottomSheetDialogFragment_this_group_link_is_not_active">Hierdie groepskakel is nie aktief nie.</string>
-    <!-- Toast message shown when trying to join a group via link but the group has been ended -->
-    <string name="GroupJoinBottomSheetDialogFragment_this_group_has_been_ended">Kon nie by hierdie groep aansluit nie.</string>
     <!-- Toast message shown when trying to join a group by link but the group is full -->
     <string name="GroupJoinBottomSheetDialogFragment_group_limit_reached">Groepbeperking bereik, kan nie by groep aansluit nie</string>
     <!-- Title shown when there was an known issue getting group information from a group link -->
@@ -1752,13 +1745,13 @@
     <string name="InviteActivity_cancel">Kanselleer</string>
     <string name="InviteActivity_sending">Stuur tans…</string>
     <string name="InviteActivity_invitations_sent">Uitnodigings gestuur!</string>
-    <string name="InviteActivity_invite_to_signal">Nooi na Molly</string>
+    <string name="InviteActivity_invite_to_signal">Nooi na Polly</string>
     <string name="InviteActivity_send_sms">Stuur SMS (%1$d)</string>
     <plurals name="InviteActivity_send_sms_invites">
         <item quantity="one">Stuur %1$d SMS uitnodiging?</item>
         <item quantity="other">Stuur %1$d SMS uitnodigings?</item>
     </plurals>
-    <string name="InviteActivity_lets_switch_to_signal">Kom ons skakel oor na Molly: %1$s</string>
+    <string name="InviteActivity_lets_switch_to_signal">Kom ons skakel oor na Polly: %1$s</string>
     <!-- Toast shown when Signal is unable to find an external app to share the Invite text string to -->
     <string name="InviteActivity_no_app_to_share_to">Dit lyk asof jy geen programme het om mee te deel nie.</string>
 
@@ -1773,7 +1766,7 @@
     <string name="LongMessageActivity_your_message">Jou boodskap</string>
 
     <!-- MessageRetrievalService -->
-    <string name="MessageRetrievalService_signal">Molly</string>
+    <string name="MessageRetrievalService_signal">Polly</string>
     <string name="MessageRetrievalService_background_connection_enabled">Agtergrondverbinding geaktiveer</string>
 
     <!-- MediaOverviewActivity -->
@@ -1781,8 +1774,6 @@
     <string name="MediaOverviewActivity_Files">Lêers</string>
     <string name="MediaOverviewActivity_Audio">Klank</string>
     <string name="MediaOverviewActivity_All">Alle</string>
-    <string name="MediaOverviewActivity_Links">Skakels</string>
-    <string name="MediaOverviewActivity_link">Skakel</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">Verwyder gekose item?</item>
         <item quantity="other">Skrap gekose items?</item>
@@ -1829,7 +1820,6 @@
     <string name="MediaOverviewActivity_sent_by_you_to_s">Deur jou aan %1$s gestuur</string>
     <!-- Error message shown when the user is trying to open a media that is not sent yet. -->
     <string name="MediaOverviewActivity_this_media_is_not_sent_yet">Hierdie media is nog nie gestuur nie.</string>
-    <string name="MediaOverviewActivity_jump_to_message">Jump to message</string>
 
     <!-- Megaphones -->
     <string name="Megaphones_remind_me_later">Herinner my later</string>
@@ -1853,21 +1843,11 @@
     <!-- Title of a bottom sheet to render messages that all quote a specific message -->
     <string name="MessageQuotesBottomSheet_replies">Antwoorde</string>
 
-    <!-- StarredMessagesFragment -->
-    <!-- Title for the starred messages screen -->
-  <!-- Removed by excludeNonTranslatables <string name="StarredMessagesActivity__starred_messages" translatable="false">Starred messages</string> -->
-    <!-- Empty state text when there are no starred messages -->
-  <!-- Removed by excludeNonTranslatables <string name="StarredMessagesFragment__no_starred_messages" translatable="false">No starred messages</string> -->
-    <!-- Empty state description when there are no starred messages -->
-  <!-- Removed by excludeNonTranslatables <string name="StarredMessagesFragment__tap_and_hold_on_a_message_to_star_it" translatable="false">Tap and hold on a message to star it.</string> -->
-    <!-- Format for starred message source label, e.g. "Alice › Book Club" -->
-  <!-- Removed by excludeNonTranslatables <string name="StarredMessages__s_chevron_s" translatable="false">%1$s \u203A %2$s</string> -->
-
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Bevestig Molly-oproep</string>
+    <string name="NotificationBarManager__establishing_signal_call">Bevestig Polly-oproep</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Besig om Molly-oproepdiens te begin</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Besig om Molly-oproepdiens te beëindig</string>
+    <string name="NotificationBarManager__starting_signal_call_service">Besig om Polly-oproepdiens te begin</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">Besig om Polly-oproepdiens te beëindig</string>
     <string name="NotificationBarManager__cancel_call">Kanselleer oproep</string>
 
     <!-- NotificationsMegaphone -->
@@ -1897,12 +1877,6 @@
     <string name="MessageRecord_left_group">Jy het die groep verlaat.</string>
     <string name="MessageRecord_you_updated_group">Jy het die groep bygewerk.</string>
     <string name="MessageRecord_the_group_was_updated">Die groep is bygewerk.</string>
-    <!-- Update message shown a group is terminated, but the person that terminated it is unknown. -->
-    <string name="MessageRecord_the_group_was_terminated">Die groep is beëindig.</string>
-    <!-- Update message shown when a group is terminated, placeholder is the name of the person that terminated the group. -->
-    <string name="MessageRecord_s_terminated_the_group">%1$s het die groep beëindig</string>
-    <!-- Update message shown when a group is terminated by you -->
-    <string name="MessageRecord_you_terminated_the_group">Jy het die groep beëindig</string>
     <!-- Update message shown when placing an outgoing 1:1 voice/audio call -->
     <string name="MessageRecord_outgoing_voice_call">Uitgaande stemoproep</string>
     <!-- Update message shown when placing an outgoing 1:1 video call -->
@@ -1919,10 +1893,6 @@
     <string name="MessageRecord_declined_voice_call">Stemoproep geweier</string>
     <!-- Update message shown when receiving an incoming 1:1 video call and not answered -->
     <string name="MessageRecord_declined_video_call">Video-oproep geweier</string>
-    <!-- Update message shown when placing an outgoing 1:1 voice/audio call and the remote party did not answer -->
-    <string name="MessageRecord_unanswered_voice_call">Onbeantwoorde stemoproep</string>
-    <!-- Update message shown when placing an outgoing 1:1 video call and the remote party did not answer -->
-    <string name="MessageRecord_unanswered_video_call">Onbeantwoorde video-oproep</string>
     <!-- Update message shown when receiving an incoming voice call and declined due to notification profile -->
     <string name="MessageRecord_missed_voice_call_notification_profile">Gemiste stemoproep terwyl kennisgewingprofiel aan was</string>
     <!-- Update message shown when receiving an incoming video call and declined due to notification profile -->
@@ -2209,7 +2179,7 @@
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
     <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">Jy sal binnekort nie meer SMS-boodskappe vanaf Signal kan stuur nie. Nooi %1$s na Signal om die gesprek hier te hou.</string>
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Jy kan nie meer SMS-boodskappe in Molly stuur nie. Nooi %1$s na Molly om die gesprek hier te hou.</string>
+    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Jy kan nie meer SMS-boodskappe in Polly stuur nie. Nooi %1$s na Polly om die gesprek hier te hou.</string>
     <!-- Body for quote when message being quoted is an in-app payment message -->
     <string name="MessageRecord__payment_s">Betaling: %1$s</string>
     <!-- Body for quote when message being quoted is an in-app payment message tombstone without an amount -->
@@ -2340,25 +2310,25 @@
     <string name="DeviceProvisioningActivity_link_a_signal_device">Koppel \'n Signal-toestel?</string>
     <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">Om \'n rekenaar of iPad aan hierdie Signal-rekening te koppel, gaan na Gekoppelde toestelle, tik op \"Koppel \'n nuwe toestel\" en skandeer die QR-kode weer. Maak seker jy skandeer slegs QR-kodes wat direk van Signal af kom.</string>
 
-    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Molly het die Kamera-toestemming nodig om \'n QR-kode te skandeer, maar dit is permanent geweier. Gaan asseblief na die toepassinginstellings, kies \"Toestemmings\" en aktiveer \"Kamera\".</string>
+    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Polly het die Kamera-toestemming nodig om \'n QR-kode te skandeer, maar dit is permanent geweier. Gaan asseblief na die toepassinginstellings, kies \"Toestemmings\" en aktiveer \"Kamera\".</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Kan nie \'n QR-kode sonder die Kameratoestemming skandeer nie</string>
 
     <!-- OutdatedBuildReminder -->
     <string name="OutdatedBuildReminder_update_now">Werk nou by</string>
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Hierdie weergawe van Molly verval vandag. Werk die jongste weergawe by.</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Hierdie weergawe van Polly verval vandag. Werk die jongste weergawe by.</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="one">Hierdie weergawe van Molly verval môre. Doen \'n bywerking van die jongste weergawe.</item>
-        <item quantity="other">Hierdie weergawe van Molly verval oor %1$d dae. Doen \'n bywerking van die jongste weergawe.</item>
+        <item quantity="one">Hierdie weergawe van Polly verval môre. Doen \'n bywerking van die jongste weergawe.</item>
+        <item quantity="other">Hierdie weergawe van Polly verval oor %1$d dae. Doen \'n bywerking van die jongste weergawe.</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Voorsien wagwoordfrase</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Molly-ikoon</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Polly-ikoon</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Dien wagwoordfrase in</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Ongeldige wagwoordfrase!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Ontsluit Molly</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Ontsluit Polly</string>
     <!-- This is the subject line for the email that is sent to support -->
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Molly Android - Sluit Skerm</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Polly Android - Sluit Skerm</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Kaart</string>
@@ -2427,7 +2397,7 @@
 
     <!-- RecaptchaRequiredBottomSheetFragment -->
     <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">Verifieer om voort te gaan met klets</string>
-    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Voltooi asb. verifikasie om gemorspos op Molly te help voorkom.</string>
+    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Voltooi asb. verifikasie om gemorspos op Polly te help voorkom.</string>
     <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">Na verifikasie kan jy boodskappe stuur. Enige wagtende boodskappe sal outomaties gestuur word.</string>
 
     <!-- Recipient -->
@@ -2435,7 +2405,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">My Storie</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Molly-oproep</string>
+    <string name="Recipient_signal_call">Polly-oproep</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">Versper</string>
@@ -2471,9 +2441,9 @@
 
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Tik hier om video aan te skakel</string>
-    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Om %1$s te skakel, het Molly toegang tot jou kamera nodig</string>
+    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Om %1$s te skakel, het Polly toegang tot jou kamera nodig</string>
     <!-- Subtitle shown at top of call where %s is the elapsed time of the call -->
-    <string name="WebRtcCallActivity__signal_s">Molly %1$s</string>
+    <string name="WebRtcCallActivity__signal_s">Polly %1$s</string>
     <string name="WebRtcCallActivity__calling">Besig om te skakel…</string>
     <!-- Call status shown when an active call was disconnected (e.g., network hiccup) and is trying to reconnect -->
     <string name="WebRtcCallActivity__reconnecting">Herkoppel tans…</string>
@@ -2534,15 +2504,15 @@
     <!-- Dialog title asking users for camera permission -->
     <string name="WebRtcCallActivity__allow_access_camera">Laat toegang tot jou kamera toe</string>
     <!-- Dialog description explaining why camera and microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__to_start_call_camera_microphone">Om \'n oproep te begin of by een aan te sluit, laat Molly toegang tot jou kamera en mikrofoon toe.</string>
+    <string name="WebRtcCallActivity__to_start_call_camera_microphone">Om \'n oproep te begin of by een aan te sluit, laat Polly toegang tot jou kamera en mikrofoon toe.</string>
     <!-- Dialog description explaining why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__to_start_call_microphone">Om \'n oproep te begin of by een aan te sluit, laat Molly toegang tot jou mikrofoon toe.</string>
+    <string name="WebRtcCallActivity__to_start_call_microphone">Om \'n oproep te begin of by een aan te sluit, laat Polly toegang tot jou mikrofoon toe.</string>
     <!-- Dialog description explaining why camera permissions are needed to enable a user\'s video in a call -->
-    <string name="WebRtcCallActivity__to_enable_video_allow_camera">Om jou video te aktiveer, laat Molly toegang tot jou kamera toe.</string>
+    <string name="WebRtcCallActivity__to_enable_video_allow_camera">Om jou video te aktiveer, laat Polly toegang tot jou kamera toe.</string>
     <!-- Toast describing why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Molly het mikrofoontoestemming nodig om video\'s op te neem.</string>
+    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Polly het mikrofoontoestemming nodig om video\'s op te neem.</string>
     <!-- Toast describing why camera permissions are needed to enable a video in a call -->
-    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">Molly benodig kameratoegang om jou video te aktiveer</string>
+    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">Polly benodig kameratoegang om jou video te aktiveer</string>
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="WebRtcCallActivity__to_start_call">Om \'n oproep te begin of by een aan te sluit:</string>
     <!-- Dialog description that will explain the steps needed to give camera permissions -->
@@ -2555,8 +2525,8 @@
     <string name="MoveableLocalVideoRenderer__expand_local_video">Vergroot plaaslike video</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Molly-oproep</string>
-    <string name="WebRtcCallView__signal_video_call">Molly-video-oproep</string>
+    <string name="WebRtcCallView__signal_call">Polly-oproep</string>
+    <string name="WebRtcCallView__signal_video_call">Polly-video-oproep</string>
     <string name="WebRtcCallView__start_call">Begin oproep</string>
     <string name="WebRtcCallView__join_call">Sluit aan by oproep</string>
     <string name="WebRtcCallView__call_is_full">Oproep is vol</string>
@@ -2824,7 +2794,7 @@
     <string name="RegistrationActivity_you_will_receive_a_call_to_verify_this_number">Jy sal ’n oproep kry om hierdie nommer te verifieer.</string>
     <string name="RegistrationActivity_edit_number">Wysig nommer</string>
     <string name="RegistrationActivity_missing_google_play_services">Geen Google Play Services nie</string>
-    <string name="RegistrationActivity_this_device_is_missing_google_play_services">Hierdie toestel het nie Google Play-dienste nie. Jy kan nog steeds Molly gebruik, maar hierdie konfigurasie kan lei tot \'n verminderde betroubaarheid of werkverrigting.\n\nAs jy nie \'n gevorderde gebruiker is nie, nie \'n na-mark Android ROM gebruik nie, of glo dat jy die foutkennisgewing per ongeluk sien, kontak support@molly.im vir hulp met die oplos van probleme.</string>
+    <string name="RegistrationActivity_this_device_is_missing_google_play_services">Hierdie toestel het nie Google Play-dienste nie. Jy kan nog steeds Polly gebruik, maar hierdie konfigurasie kan lei tot \'n verminderde betroubaarheid of werkverrigting.\n\nAs jy nie \'n gevorderde gebruiker is nie, nie \'n na-mark Android ROM gebruik nie, of glo dat jy die foutkennisgewing per ongeluk sien, kontak support@molly.im vir hulp met die oplos van probleme.</string>
     <string name="RegistrationActivity_i_understand">Ek verstaan</string>
     <string name="RegistrationActivity_play_services_error">Play Services Fout</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play-dienste word bygewerk of is nie tydelik beskikbaar nie. Probeer asseblief weer.</string>
@@ -2843,7 +2813,7 @@
     <string name="RegistrationActivity_non_standard_number_format">Niestandaard-nommerformaat</string>
     <!-- Dialog message shown to confirm when entering phone number (first placeholder) is normalized and formatted differently by the app (second placeholder). -->
     <string name="RegistrationActivity_the_number_you_entered_appears_to_be_a_non_standard">Die nommer wat jy ingesleutel het (%1$s), lyk of dit in \'n niestandaard-formaat is. \n\nHet jy %2$s bedoel?</string>
-    <string name="RegistrationActivity_signal_android_phone_number_format">Molly Android - Telefoonnommerformaat</string>
+    <string name="RegistrationActivity_signal_android_phone_number_format">Polly Android - Telefoonnommerformaat</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via voice call.-->
     <string name="RegistrationActivity_call_requested">Oproep versoek</string>
     <!--    Small "toast" notification to the user confirming that they have requested a new code via SMS.-->
@@ -2914,13 +2884,13 @@
 
     <!-- SharedContactDetailsActivity -->
     <string name="SharedContactDetailsActivity_add_to_contacts">Voeg toe by Kontakte</string>
-    <string name="SharedContactDetailsActivity_invite_to_signal">Nooi na Molly</string>
+    <string name="SharedContactDetailsActivity_invite_to_signal">Nooi na Polly</string>
     <string name="SharedContactDetailsActivity_signal_message">Signal-boodskap</string>
     <string name="SharedContactDetailsActivity_signal_call">Signal-oproep</string>
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">Voeg toe by Kontakte</string>
-    <string name="SharedContactView_invite_to_signal">Nooi na Molly</string>
+    <string name="SharedContactView_invite_to_signal">Nooi na Polly</string>
     <string name="SharedContactView_message">Signal-boodskap</string>
 
     <!-- SignalBottomActionBar -->
@@ -3078,7 +3048,6 @@
   <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_package" translatable="false">Signal package:</string> -->
     <string name="SupportEmailUtil_registration_lock">Registrasieslot:</string>
   <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_locale" translatable="false">Locale:</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_challenge_received" translatable="false">Challenge Received:</string> -->
 
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Groep bygewerk</string>
@@ -3149,11 +3118,11 @@
     <string name="ThreadRecord_blocked_group">Versper</string>
 
     <!-- ApkUpdateNotifications -->
-    <string name="ApkUpdateNotifications_prompt_install_title">Molly-bywerking</string>
-    <string name="ApkUpdateNotifications_prompt_install_body">’n Nuwe weergawe van Molly is beskikbaar. Tik om opdatering te doen.</string>
-    <string name="ApkUpdateNotifications_failed_general_title">Molly kon nie opdateer nie</string>
+    <string name="ApkUpdateNotifications_prompt_install_title">Polly-bywerking</string>
+    <string name="ApkUpdateNotifications_prompt_install_body">’n Nuwe weergawe van Polly is beskikbaar. Tik om opdatering te doen.</string>
+    <string name="ApkUpdateNotifications_failed_general_title">Polly kon nie opdateer nie</string>
     <string name="ApkUpdateNotifications_failed_general_body">Ons sal later weer probeer.</string>
-    <string name="ApkUpdateNotifications_auto_update_success_title">Molly suksesvol opgedateer</string>
+    <string name="ApkUpdateNotifications_auto_update_success_title">Polly suksesvol opgedateer</string>
     <string name="ApkUpdateNotifications_auto_update_success_body">Jy is outomaties na weergawe %1$s opgedateer.</string>
     <string name="ApkUpdateNotifications_manual_update_success_body">Jy het \'n opdatering na weergawe %1$s gedoen.</string>
 
@@ -3225,7 +3194,7 @@
     <string name="VerifyIdentityActivity_our_signal_safety_number">Ons Signal-veiligheidsnommer:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">Dit lyk asof jy geen programme het om mee te deel nie.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Geen veiligheidsnommer gevind op die knipbord om mee te vergelyk nie</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Molly het die Kamera-toestemming nodig om \'n QR-kode te skandeer, maar dit is permanent geweier. Gaan asseblief na die toepassingsinstellings, kies \"Toestemmings\" en aktiveer \"Kamera\".</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Polly het die Kamera-toestemming nodig om \'n QR-kode te skandeer, maar dit is permanent geweier. Gaan asseblief na die toepassingsinstellings, kies \"Toestemmings\" en aktiveer \"Kamera\".</string>
     <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Kan nie QR-kode sonder Kameratoestemming skandeer nie</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Julle moet eers boodskappe vir mekaar stuur alvorens jy %1$s se veiligheidsnommer kan bekyk.</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
@@ -3266,8 +3235,8 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Raak om oop te maak</string>
-    <string name="KeyCachingService_passphrase_cached">Molly is ontsluit</string>
-    <string name="KeyCachingService_lock">Sluit Molly</string>
+    <string name="KeyCachingService_passphrase_cached">Polly is ontsluit</string>
+    <string name="KeyCachingService_lock">Sluit Polly</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">Jy</string>
@@ -3317,7 +3286,7 @@
     <string name="MessageNotifier_failed_to_deliver_message">Kon nie boodskap aflewer nie.</string>
     <string name="MessageNotifier_error_delivering_message">Fout met die aflewering van boodskap.</string>
     <string name="MessageNotifier_message_delivery_paused">Aflewering van boodskap onderbreek.</string>
-    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Verifieer om te kan aanhou boodskappe stuur op Molly.</string>
+    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Verifieer om te kan aanhou boodskappe stuur op Polly.</string>
     <string name="MessageNotifier_mark_all_as_read">Merk alles as gelees</string>
     <string name="MessageNotifier_mark_read">Merk as gelees</string>
     <string name="MessageNotifier_turn_off_these_notifications">Skakel hierdie kennisgewings af</string>
@@ -3341,7 +3310,7 @@
     <!-- Body of a notification when someone votes in a poll. First placeholder is the poll emoji, second placeholder is the name of the voter and third is the poll question -->
     <string name="MessageNotifier_s_voted_in_poll">%1$s %2$s het gestem in die meningsopname \"%3$s\"</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Skakel kennisgewings af dat kontakte by Molly aangesluit het? Jy kan dit weer aanskakel in Molly &gt; Instellings &gt; Kennisgewings.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Skakel kennisgewings af dat kontakte by Polly aangesluit het? Jy kan dit weer aanskakel in Polly &gt; Instellings &gt; Kennisgewings.</string>
 
     <!-- TurnOnNotificationsBottomSheet -->
     <!-- Title for sheet explaining how to turn on app notifications -->
@@ -3382,7 +3351,7 @@
     <string name="NotificationChannel_new_linked_device">Nuwe gekoppelde toestel</string>
 
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Snelrespons nie beskikbaar as Molly gesluit is nie!</string>
+    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Snelrespons nie beskikbaar as Polly gesluit is nie!</string>
     <string name="QuickResponseService_problem_sending_message">Probleem met versending van boodskap!</string>
 
     <!-- A toast notification that is shown when the app does not have sufficient permissions to save media files to the device storage. -->
@@ -3417,7 +3386,7 @@
     </plurals>
 
     <!-- Message shown when the app requests permission to save media to the device storage, but that permission has been permanently denied by the user. -->
-    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Molly het die Storingstoestemming nodig om op \'n eksterne stoorplek te stoor, maar dit is permanent geweier. Gaan asseblief na die toepassingsinstellings, kies \"Toestemmings\" en aktiveer \"Storing\".</string>
+    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Polly het die Storingstoestemming nodig om op \'n eksterne stoorplek te stoor, maar dit is permanent geweier. Gaan asseblief na die toepassingsinstellings, kies \"Toestemmings\" en aktiveer \"Storing\".</string>
 
     <!-- Message explaining that it is not possible to save media to the device storage after the user denied the system save to storage permission. -->
     <string name="AttachmentSaver__unable_to_write_to_external_storage_without_permission">Nie in staat om na eksterne berging te stoor sonder die nodige regte nie</string>
@@ -3447,7 +3416,7 @@
     <string name="ShortcutLauncherActivity_invalid_shortcut">Ongeldige kortpad</string>
 
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_signal">Molly</string>
+    <string name="SingleRecipientNotificationBuilder_signal">Polly</string>
     <string name="SingleRecipientNotificationBuilder_new_message">Nuwe boodskap</string>
     <string name="SingleRecipientNotificationBuilder_message_request">Boodskapversoek</string>
     <string name="SingleRecipientNotificationBuilder_you">Jy</string>
@@ -3491,7 +3460,7 @@
 
     <!-- UnauthorizedReminder -->
     <!-- Message shown in a reminder banner when the user\'s device is no longer registered -->
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Hierdie toestel is nie meer geregistreer nie. Dit is waarskynlik omdat jou telefoonnommer op ’n ander toestel by Molly geregistreer het.</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Hierdie toestel is nie meer geregistreer nie. Dit is waarskynlik omdat jou telefoonnommer op ’n ander toestel by Polly geregistreer het.</string>
     <!-- Action in reminder banner that will take user to re-register -->
     <string name="UnauthorizedReminder_reregister_action">Herregistreer toestel</string>
 
@@ -3504,10 +3473,10 @@
     <!-- Banner button to update now -->
 
     <!-- WebRtcCallActivity -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">Om die oproep te beantwoord, gee Molly toegang tot jou mikrofoon.</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">Om die oproep te beantwoord, gee Polly toegang tot jou mikrofoon.</string>
     <!-- Message shown in permission dialog when attempting to answer a video call without camera or microphone permissions already granted. -->
-    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">Om die video-oproep te beantwoord, gee Molly toegang tot jou mikrofoon en kamera.</string>
-    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Molly het Mikrofoon- en Kameratoestemmings nodig om oproepe te maak en te ontvang, maar dit is permanent geweier. Gaan asseblief na die toepassinginstellings, kies \"Toestemmings\" en aktiveer \"Mikrofoon\" en \"Kamera\".</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone_and_camera">Om die video-oproep te beantwoord, gee Polly toegang tot jou mikrofoon en kamera.</string>
+    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Polly het Mikrofoon- en Kameratoestemmings nodig om oproepe te maak en te ontvang, maar dit is permanent geweier. Gaan asseblief na die toepassinginstellings, kies \"Toestemmings\" en aktiveer \"Mikrofoon\" en \"Kamera\".</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Op \'n gekoppelde toestel beantwoord.</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">Op \'n gekoppelde toestel geweier.</string>
     <string name="WebRtcCallActivity__busy_on_a_linked_device">Besig op \'n gekoppelde toestel.</string>
@@ -3555,7 +3524,7 @@
     <string name="change_passphrase_activity__repeat_new_passphrase">Herhaal nuwe wagwoordfrase</string>
 
     <!-- contact_selection_activity -->
-    <string name="contact_selection_activity__invite_to_signal">Nooi na Molly</string>
+    <string name="contact_selection_activity__invite_to_signal">Nooi na Polly</string>
     <string name="contact_selection_activity__new_group">Nuwe groep</string>
     <!-- Row item title for refreshing contacts -->
     <string name="contact_selection_activity__refresh_contacts">Verfris kontakte</string>
@@ -3581,10 +3550,10 @@
     <string name="SingleContactSelectionActivity_contact_photo">Kontakfoto</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Molly benodig Kontaktoestemming om jou kontakte te wys, maar dit is permanent geweier. Gaan asseblief na die toepassinginstelling-kieslys, kies \"Toestemmings\" en aktiveer \"Kontakte\".</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Polly benodig Kontaktoestemming om jou kontakte te wys, maar dit is permanent geweier. Gaan asseblief na die toepassinginstelling-kieslys, kies \"Toestemmings\" en aktiveer \"Kontakte\".</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Fout met herwinning van kontakte, gaan jou netwerkverbinding na</string>
     <string name="ContactSelectionListFragment_username_not_found">Gebruikersnaam nie gevind nie</string>
-    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" is nie 'n Signal-gebruiker nie. Kontroleer asb. die gebruikersnaam en probeer weer."</string>
+    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" is nie \'n Signal-gebruiker nie. Kontroleer asb. die gebruikersnaam en probeer weer."</string>
     <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Jy hoef nie jouself by die groep te voeg nie</string>
     <string name="ContactSelectionListFragment_maximum_group_size_reached">Maksimum groepgrootte bereik.</string>
     <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_s_members">Signal-groepe kan \'n maksimum van %1$s lede hê.</string>
@@ -3610,7 +3579,7 @@
     <string name="ContactSelectionListFragment__allow_access_to_your_contacts_encrypted">Laat toegang tot jou kontakte toe. Jou kontakte is geënkripteer en is nie vir die Signal-diens sigbaar nie.</string>
 
     <!-- contact_selection_list_fragment -->
-    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Molly het toegang tot jou kontakte nodig om dit te kan vertoon.</string>
+    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Polly het toegang tot jou kontakte nodig om dit te kan vertoon.</string>
     <string name="contact_selection_list_fragment__show_contacts">Wys kontakte</string>
 
     <!-- contact_selection_list_item -->
@@ -3639,10 +3608,6 @@
     <!-- Accessibility content description describing how a user can lock voice note recording. -->
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Sluit opname van oudio-aanhegsel</string>
     <string name="conversation_activity__message_could_not_be_sent">Boodskap kon nie gestuur word nie. Kontroleer jou verbinding en probeer weer.</string>
-    <!-- Dialog body shown when tapping a failed message in a terminated group -->
-    <string name="conversation_activity__send_failed_group_ended">Jy kan nie meer boodskappe in hierdie groep stuur en ontvang nie, want hierdie groep is beëindig.</string>
-    <!-- Dialog body shown when tapping a group action button (e.g. invite friends) in a terminated group -->
-    <string name="conversation_activity__group_action_not_allowed_group_ended">Hierdie aksie is nie beskikbaar nie, want die groep is beëindig.</string>
     <!-- Dialog body when a message failed to delete and retry is possible. -->
     <string name="conversation_activity__message_failed_to_delete_retry">Kon nie boodskap skrap nie. Gaan jou verbinding na en probeer weer.</string>
     <!-- Dialog body when a message failed to delete. -->
@@ -3696,26 +3661,6 @@
     <string name="ConversationUpdateItem_options">Opsies</string>
     <!-- Update item button text shown for a profile name change. -->
     <string name="ConversationUpdateItem_update">Werk by</string>
-    <!-- Update item button text to show how many group updates there are. -->
-    <plurals name="CollapsedEvent__group_update">
-        <item quantity="one">%1$d groepopdatering</item>
-        <item quantity="other">%1$d groepopdaterings</item>
-    </plurals>
-    <!-- Update item button text to show how many group updates there are. -->
-    <plurals name="CollapsedEvent__chat_update">
-        <item quantity="one">%1$d kletsopdatering</item>
-        <item quantity="other">%1$d kletsopdaterings</item>
-    </plurals>
-    <!-- Update item button text to show how many disappearing message timer changes are. %2$s is what the timer was ultimately set to.-->
-    <plurals name="CollapsedEvent__disappearing_timer">
-        <item quantity="one">%1$d verandering in verdwynboodskap-tydhouer · %2$s</item>
-        <item quantity="other">%1$d veranderinge in verdwynboodskap-tydhouer · %2$s</item>
-    </plurals>
-    <!-- Update item button text to show how many call events are. -->
-    <plurals name="CollapsedEvent__call_event">
-        <item quantity="one">%1$d oproepgebeurtenis</item>
-        <item quantity="other">%1$d oproepgebeurtenisse</item>
-    </plurals>
 
     <!-- audio_view -->
     <string name="audio_view__play_pause_accessibility_description">Speel … pouseer</string>
@@ -3749,7 +3694,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">Borrels is \'n Android-funksie wat jy vir Molly-kletse kan afskakel.</string>
+    <string name="BubbleOptOutTooltip__description">Borrels is \'n Android-funksie wat jy vir Polly-kletse kan afskakel.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">Nie nou nie</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -3918,9 +3863,9 @@
     <string name="EditProfileFragment__group_description">Groepbeskrywing</string>
   <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
     <!-- The title of a dialog prompting user to update to the latest version of Signal. -->
-    <string name="EditProfileFragment_deprecated_dialog_title">Werk Molly by</string>
+    <string name="EditProfileFragment_deprecated_dialog_title">Werk Polly by</string>
     <!-- The body of a dialog prompting user to update to the latest version of Signal. -->
-    <string name="EditProfileFragment_deprecated_dialog_body">Hierdie weergawe van Molly het verval. Doen nou opdatering om voort te gaan om Molly te gebruik.</string>
+    <string name="EditProfileFragment_deprecated_dialog_body">Hierdie weergawe van Polly het verval. Doen nou opdatering om voort te gaan om Polly te gebruik.</string>
     <!-- The button on a dialog prompting user to update to the latest version of Signal. When clicked, the user will be taken to the store to update their app. -->
     <string name="EditProfileFragment_deprecated_dialog_update_button">Werk by</string>
     <!-- The title of a dialog informing the user that they cannot use this app feature when they are unregistered. -->
@@ -3968,20 +3913,20 @@
     <!-- Bottom sheet title when encryption is auto-verified -->
     <string name="EncryptionVerifiedSheet__title_success">Enkriptering vir hierdie klets is geoutoverifieer</string>
     <!-- Bottom sheet body when encryption is auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_success">Vir kontakte waarmee jy deur \'n telefoonnommer verbind is, kan Molly outomaties bevestig of die verbinding veilig is deur \'n proses genaamd sleuteldeursigtigheid te gebruik. Vir bykomende sekuriteit, verifieer end-tot-end-enkriptering handmatig deur vergelyking van die nommers op die vorige skerm of deur die kode op hul toestel te skandeer.</string>
+    <string name="EncryptionVerifiedSheet__body_success">Vir kontakte waarmee jy deur \'n telefoonnommer verbind is, kan Polly outomaties bevestig of die verbinding veilig is deur \'n proses genaamd sleuteldeursigtigheid te gebruik. Vir bykomende sekuriteit, verifieer end-tot-end-enkriptering handmatig deur vergelyking van die nommers op die vorige skerm of deur die kode op hul toestel te skandeer.</string>
     <!-- Bottom sheet title when encryption is no longer auto-verified -->
     <string name="EncryptionVerifiedSheet__title_no_longer_unavailable">Outoverifiëring is nie meer vir hierdie klets beskikbaar nie</string>
     <!-- Bottom sheet body when encryption is no longer auto-verified. Placeholder is the name of the person. -->
-    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Molly kan nie meer die enkriptering vir hierdie klets outomaties verifieer nie. Dit is waarskynlik omdat %1$s hul telefoonnommer verander het. Verifieer end-tot-end-enkriptering handmatig deur vergelyking van die nommers op die vorige skerm of deur die kode op hul toestel te skandeer.</string>
+    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Polly kan nie meer die enkriptering vir hierdie klets outomaties verifieer nie. Dit is waarskynlik omdat %1$s hul telefoonnommer verander het. Verifieer end-tot-end-enkriptering handmatig deur vergelyking van die nommers op die vorige skerm of deur die kode op hul toestel te skandeer.</string>
     <!-- Bottom sheet title when encryption cannot be auto-verified -->
     <string name="EncryptionVerifiedSheet__title_unavailable">Outoverifiëring nie vir hierdie klets beskikbaar nie</string>
     <!-- Bottom sheet body when encryption cannot be auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_unavailable">Molly kan slegs die enkripsie in kletse outomaties verifieer indien jy via \'n telefoonnommer met iemand verbind is. Indien die klets met \'n gemeenskaplike gebruikersnaam of groep begin is, verifieer end-tot-end-enkriptering deur vergelyking van die nommers op die vorige skerm of deur die kode op hul toestel te skandeer.</string>
+    <string name="EncryptionVerifiedSheet__body_unavailable">Polly kan slegs die enkripsie in kletse outomaties verifieer indien jy via \'n telefoonnommer met iemand verbind is. Indien die klets met \'n gemeenskaplike gebruikersnaam of groep begin is, verifieer end-tot-end-enkriptering deur vergelyking van die nommers op die vorige skerm of deur die kode op hul toestel te skandeer.</string>
 
     <!-- Title for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__title">Molly kan nou enkriptering outoverifieer</string>
+    <string name="VerifyAutomaticallyEducationSheet__title">Polly kan nou enkriptering outoverifieer</string>
     <!-- Body for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__body">Vir kontakte waarmee jy deur \'n telefoonnommer verbind is, kan Molly outomaties bevestig of die verbinding veilig is deur \'n proses genaamd sleuteldeursigtigheid te gebruik. Vir bykomende sekuriteit kan jy steeds verbindings handmatig verifieer deur \'n QR-kode of \'n veiligheidsnommer te gebruik.</string>
+    <string name="VerifyAutomaticallyEducationSheet__body">Vir kontakte waarmee jy deur \'n telefoonnommer verbind is, kan Polly outomaties bevestig of die verbinding veilig is deur \'n proses genaamd sleuteldeursigtigheid te gebruik. Vir bykomende sekuriteit kan jy steeds verbindings handmatig verifieer deur \'n QR-kode of \'n veiligheidsnommer te gebruik.</string>
     <!-- Button to learn more about automatic verification -->
     <string name="VerifyAutomaticallyEducationSheet__learn_more">Vind meer uit</string>
     <!-- Button to go to verification page -->
@@ -4202,7 +4147,7 @@
     <string name="preferences__slow">Stadig</string>
     <string name="preferences__help">Hulp</string>
     <string name="preferences__advanced">Gevorderd</string>
-    <string name="preferences__donate_to_signal">Skenk aan Molly</string>
+    <string name="preferences__donate_to_signal">Skenk aan Polly</string>
     <!-- Preference label for making one-time donations to Signal -->
     <string name="preferences__privacy">Privaatheid</string>
     <!-- Preference label for stories -->
@@ -4239,13 +4184,13 @@
     <!-- Title for the confirmation dialog of changing the app icon. -->
     <string name="preferences__app_icon_dialog_title">Verander toepassingikoon en naam na \"%1$s\"</string>
     <!-- Description for the confirmation dialog of changing the app icon. -->
-    <string name="preferences__app_icon_dialog_description">Molly sal moet toemaak om die toepassingikoon en -naam te verander. Kennisgewings sal altyd die verstek-Molly-ikoon en -naam vertoon.</string>
+    <string name="preferences__app_icon_dialog_description">Polly sal moet toemaak om die toepassingikoon en -naam te verander. Kennisgewings sal altyd die verstek-Polly-ikoon en -naam vertoon.</string>
     <!-- Visible warning label for the limitations of changing the app icon with learn more call to action. -->
-    <string name="preferences__app_icon_warning_learn_more">Kies \'n toepassingikoon en -naam wat op jou foon se tuisskerm en toepassingkassie sigbaar sal wees. Kennisgewings sal altyd die verstek-Molly-ikoon en -naam vertoon. Vind meer uit</string>
+    <string name="preferences__app_icon_warning_learn_more">Kies \'n toepassingikoon en -naam wat op jou foon se tuisskerm en toepassingkassie sigbaar sal wees. Kennisgewings sal altyd die verstek-Polly-ikoon en -naam vertoon. Vind meer uit</string>
     <!-- Visible warning label for the limitations of changing the app icon. -->
     <string name="preferences__app_icon_warning">Toepassingikone en -name is sigbaar op die tuisskerm en toepassingkassie.</string>
     <!-- Visible warning label explaining that changing the app icon and name does not affect notifications. -->
-    <string name="preferences__app_icon_notification_warning">Kennisgewings sal altyd die verstek-Molly-ikoon en -naam vertoon.</string>
+    <string name="preferences__app_icon_notification_warning">Kennisgewings sal altyd die verstek-Polly-ikoon en -naam vertoon.</string>
     <!--Call to action to get more information about the limitations of the change app icon functionality. -->
     <string name="preferences__app_icon_learn_more">Vind meer uit</string>
     <!--Text description of a graphic illustrating the limitations of the app icon change. -->
@@ -4339,7 +4284,7 @@
     <string name="preferences_communication__category_censorship_circumvention">Sensuuromseiling</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Sensuuromseiling</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Indien geaktiveer, sal Molly poog om sensuur te omseil. Moenie hierdie funksie aktiveer nie tensy jy op ’n plek is waar Molly gesensureer word.</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Indien geaktiveer, sal Polly poog om sensuur te omseil. Moenie hierdie funksie aktiveer nie tensy jy op ’n plek is waar Polly gesensureer word.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Sensuuromseiling word geaktiveer volgens jou rekening se telefoonnommer.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
@@ -4379,7 +4324,7 @@
     <!-- Preference title for automatic key verification -->
     <string name="preferences_automatic_key_verification">Outomatiese sleutelverifiëring</string>
     <!-- Preference summary for automatic key verification -->
-    <string name="preferences_automatic_key_verification_body">Wanneer dit geaktiveer is, sal Molly probeer om die enkriptering van 1:1-kletsgesprekke outomaties te verifieer.</string>
+    <string name="preferences_automatic_key_verification_body">Wanneer dit geaktiveer is, sal Polly probeer om die enkriptering van 1:1-kletsgesprekke outomaties te verifieer.</string>
 
 
     <string name="configurable_single_select__customize_option">Pasmaak-opsie</string>
@@ -4398,7 +4343,7 @@
 
     <!-- Displayed on a welcome screen for payments -->
     <string name="PaymentsHomeFragment_introducing_payments">Ons stel bekend: Betalings</string>
-    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Gebruik Molly om MobileCoin, ’n nuwe privaatheidsgefokusde digitale geldeenheid, te stuur en te ontvang. Aktiveer om te begin.</string>
+    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Gebruik Polly om MobileCoin, ’n nuwe privaatheidsgefokusde digitale geldeenheid, te stuur en te ontvang. Aktiveer om te begin.</string>
     <string name="PaymentsHomeFragment__activate_payments">Aktiveer betalings</string>
     <string name="PaymentsHomeFragment__activating_payments">Besig om betalings te aktiveer…</string>
     <string name="PaymentsHomeFragment__restore_payments_account">Herstel betalingsrekening</string>
@@ -4424,7 +4369,7 @@
     <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Betalings nie in jou streek beskikbaar nie.</string>
     <string name="PaymentsHomeFragment__could_not_enable_payments">Kon nie betalings aktiveer nie. Probeer later weer.</string>
     <string name="PaymentsHomeFragment__deactivate_payments_question">Deaktiveer betalings?</string>
-    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Jy sal nie MobileCoin in Molly kan ontvang of stuur indien jy betalings deaktiveer nie.</string>
+    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Jy sal nie MobileCoin in Polly kan ontvang of stuur indien jy betalings deaktiveer nie.</string>
     <string name="PaymentsHomeFragment__deactivate">Deaktiveer</string>
     <string name="PaymentsHomeFragment__continue">Gaan voort</string>
     <string name="PaymentsHomeFragment__balance_is_not_currently_available">Saldo nie tans beskikbaar nie.</string>
@@ -4433,10 +4378,10 @@
     <string name="PaymentsHomeFragment__details">Besonderhede</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
     <!-- Displayed as a description in a dialog when the user tries to activate payments -->
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Jy kan Molly gebruik om MobileCoin te stuur en te ontvang. Alle betalings is onderhewig aan die Gebruiksvoorwaardes vir MobileCoins en die MobileCoin-beursie. Jy kan moontlik probleme ondervind en betalings en saldo\'s wat jy moontlik kan verloor, kan nie herwin word nie. </string>
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Jy kan Polly gebruik om MobileCoin te stuur en te ontvang. Alle betalings is onderhewig aan die Gebruiksvoorwaardes vir MobileCoins en die MobileCoin-beursie. Jy kan moontlik probleme ondervind en betalings en saldo\'s wat jy moontlik kan verloor, kan nie herwin word nie. </string>
     <string name="PaymentsHomeFragment__activate">Aktiveer</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">Bekyk MobileCoin-bepalings</string>
-    <string name="PaymentsHomeFragment__payments_not_available">Betalings is nie meer in Molly beskikbaar nie. Jy kan nog fondse na ’n beurs oordra maar jy kan nie meer betalings stuur en ontvang of fondse toevoeg nie.</string>
+    <string name="PaymentsHomeFragment__payments_not_available">Betalings is nie meer in Polly beskikbaar nie. Jy kan nog fondse na ’n beurs oordra maar jy kan nie meer betalings stuur en ontvang of fondse toevoeg nie.</string>
 
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string> -->
     <!-- Alert dialog title which shows up after a payment to turn on payment lock -->
@@ -4519,10 +4464,10 @@
     <string name="PaymentsTransferFragment__next">Volgende</string>
     <string name="PaymentsTransferFragment__invalid_address">Ongeldige adres</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Gaan die adres na van die beursie waarheen jy probeer oordra en probeer weer.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Jy kan nie na jou eie Molly-beursieadres oorplaas nie. Voer die beursieadres van jou rekening by ’n ondersteunde valuta-omskakelaar in.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Om \'n QR-kode te skandeer, het Molly toegang tot die kamera nodig.</string>
-    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Molly het Kamera-toestemming nodig om \'n QR-kode vas te lê. Gaan na die instellings, kies \"Toestemmings\" en aktiveer \"Kamera\".</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Om \'n QR-kode te skandeer, het Molly toegang tot die kamera nodig.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Jy kan nie na jou eie Polly-beursieadres oorplaas nie. Voer die beursieadres van jou rekening by ’n ondersteunde valuta-omskakelaar in.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Om \'n QR-kode te skandeer, het Polly toegang tot die kamera nodig.</string>
+    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Polly het Kamera-toestemming nodig om \'n QR-kode vas te lê. Gaan na die instellings, kies \"Toestemmings\" en aktiveer \"Kamera\".</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Om \'n QR-kode te skandeer, het Polly toegang tot die kamera nodig.</string>
     <string name="PaymentsTransferFragment__settings">Instellings</string>
 
     <!-- PaymentsTransferQrScanFragment -->
@@ -4631,10 +4576,6 @@
     <string name="conversation_selection__menu_copy">Kopieer</string>
     <!-- Button to delete a message; Action item with hyphenation. Translation can use soft hyphen - Unicode U+00AD  -->
     <string name="conversation_selection__menu_delete">Skrap</string>
-    <!-- Button to star a message to save it for later; Action item -->
-  <!-- Removed by excludeNonTranslatables <string name="conversation_selection__menu_star" translatable="false">Star (Labs)</string> -->
-    <!-- Button to remove the star from a message; Action item -->
-  <!-- Removed by excludeNonTranslatables <string name="conversation_selection__menu_unstar" translatable="false">Unstar (Labs)</string> -->
     <!-- Button to forward a message to another person or group chat; Action item with hyphenation. Translation can use soft hyphen - Unicode U+00AD  -->
     <string name="conversation_selection__menu_forward">Stuur aan</string>
     <!-- Button to reply to a message; Action item with hyphenation. Translation can use soft hyphen - Unicode U+00AD -->
@@ -4703,7 +4644,7 @@
     <string name="conversation__menu_view_all_media">Alle media</string>
     <string name="conversation__menu_conversation_settings">Kletsinstellings</string>
     <string name="conversation__menu_add_shortcut">Voeg by op tuisskerm</string>
-  <!-- Removed by excludeNonTranslatables <string name="conversation__menu_export" translatable="false">Export (Labs)</string> -->
+    <string name="conversation__menu_export">Voer uit</string>
     <string name="conversation__menu_create_bubble">Skep borrel</string>
     <!-- Overflow menu option that allows formatting of text -->
     <string name="conversation__menu_format_text">Formateer teks</string>
@@ -4714,11 +4655,11 @@
     <string name="conversation_add_to_contacts__menu_add_to_contacts">Voeg by kontakte</string>
 
     <!-- conversation export -->
-  <!-- Removed by excludeNonTranslatables <string name="conversation_export__exporting" translatable="false">Exporting chat…</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="conversation_export__export_complete" translatable="false">Chat exported successfully</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="conversation_export__export_failed" translatable="false">Export failed</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="conversation_export__export_cancelled" translatable="false">Export cancelled</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="conversation_export__preparing" translatable="false">Preparing export…</string> -->
+    <string name="conversation_export__exporting">Exporting chat…</string>
+    <string name="conversation_export__export_complete">Chat exported successfully</string>
+    <string name="conversation_export__export_failed">Export failed</string>
+    <string name="conversation_export__export_cancelled">Export cancelled</string>
+    <string name="conversation_export__preparing">Preparing export…</string>
 
     <!-- conversation scheduled messages bar -->
 
@@ -4747,8 +4688,6 @@
     <!-- text_secure_normal -->
     <string name="text_secure_normal__menu_new_group">Nuwe groep</string>
     <string name="text_secure_normal__menu_settings">Instellings</string>
-    <!-- Menu item in the main conversation list to view all starred messages -->
-  <!-- Removed by excludeNonTranslatables <string name="text_secure_normal__starred_messages" translatable="false">Starred messages (Labs)</string> -->
     <string name="text_secure_normal__menu_clear_passphrase">Sluit</string>
     <string name="text_secure_normal__mark_all_as_read">Merk alles as gelees</string>
     <string name="text_secure_normal__invite_friends">Nooi vriende uit</string>
@@ -4907,17 +4846,17 @@
 
     <!-- CallNotificationBuilder -->
     <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Inkomende Molly-stemoproep</string>
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">Inkomende Polly-stemoproep</string>
     <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Inkomende Molly-video-oproep</string>
+    <string name="CallNotificationBuilder__incoming_signal_video_call">Inkomende Polly-video-oproep</string>
     <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Inkomende Molly-groepoproep</string>
+    <string name="CallNotificationBuilder__incoming_signal_group_call">Inkomende Polly-groepoproep</string>
     <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Besig met Molly-stemoproep</string>
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Besig met Polly-stemoproep</string>
     <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Besig met Molly-video-oproep</string>
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">Besig met Polly-video-oproep</string>
     <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Besig met Molly-groepoproep</string>
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">Besig met Polly-groepoproep</string>
 
     <!-- transport_selection_list_item -->
     <string name="ConversationListFragment_loading">Laai tans…</string>
@@ -4957,7 +4896,7 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Deaktiveer en skrap alle plaaslike rugsteunkopieë?</string>
     <string name="BackupDialog_delete_backups_statement">Skrap rugsteunkopieë</string>
     <!-- Progress dialog message shown while local backup files are being deleted -->
-    <string name="BackupDialog_deleting_local_backup">Besig om plaaslike rugsteun te skrap…</string>
+    <string name="BackupDialog_deleting_local_backup">Deleting local backup…</string>
     <string name="BackupDialog_to_enable_backups_choose_a_folder">Kies \'n vouer om rugsteun te aktiveer. Rugsteunkopieë sal in hierdie ligging gestoor word.</string>
     <!-- Button shown in dialog to choose a folder for backups -->
     <string name="BackupDialog_choose_folder">Kies gids</string>
@@ -4968,9 +4907,9 @@
     <string name="BackupDialog_verify">Verifieer</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">Jy het jou wagwoordfrase suksesvol ingevoer</string>
     <string name="BackupDialog_passphrase_was_not_correct">Wagwoordfrase verkeerd</string>
-    <string name="LocalBackupJob_creating_signal_backup">Skep tans Molly-rugsteun…</string>
+    <string name="LocalBackupJob_creating_signal_backup">Skep tans Polly-rugsteun…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Besig om Molly-rugsteun te verifieer…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">Besig om Polly-rugsteun te verifieer…</string>
     <string name="LocalBackupJobApi29_backup_failed">Rugsteun het misluk</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">Jou rugsteungids is geskrap of verskuif.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">Jou rugsteunlêer is te groot om in hierdie volume te stoor.</string>
@@ -4985,8 +4924,8 @@
     <string name="RegistrationActivity_call_me_instead_available_in">Bel my (%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">Stuur weer Kode (%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_contact_signal_support">Kontak Molly-steundiens</string>
-    <string name="RegistrationActivity_code_support_subject">Molly-registrasie - verifikasiekode vir Android</string>
+    <string name="RegistrationActivity_contact_signal_support">Kontak Polly-steundiens</string>
+    <string name="RegistrationActivity_code_support_subject">Polly-registrasie - verifikasiekode vir Android</string>
     <string name="RegistrationActivity_incorrect_code">Verkeerde kode</string>
     <string name="BackupUtil_never">Nooit</string>
     <!-- Subtext below last backup time when we do not know when the last backup was -->
@@ -4994,7 +4933,7 @@
     <!-- Phone number heading displayed as a screen title -->
     <string name="preferences_app_protection__phone_number">Telefoonnommer</string>
     <!-- Subtext below option to launch into phone number privacy settings screen -->
-    <string name="preferences_app_protection__choose_who_can_see">Kies wie jou telefoonnommer kan sien en wie jou daarmee op Molly kan kontak.</string>
+    <string name="preferences_app_protection__choose_who_can_see">Kies wie jou telefoonnommer kan sien en wie jou daarmee op Polly kan kontak.</string>
     <!-- Section title above two radio buttons for enabling and disabling phone number display -->
     <string name="PhoneNumberPrivacySettingsFragment_who_can_see_my_number_heading">Wie my nommer kan sien</string>
     <!-- Subtext below radio buttons when who can see my number is set to everybody -->
@@ -5046,11 +4985,11 @@
     <string name="preferences_chats__backups">Rugsteunkopieë</string>
 
     <!-- Title text shown when Signal is locked and needs to be unlocked -->
-    <string name="prompt_passphrase_activity__unlock_signal">Ontsluit Molly</string>
+    <string name="prompt_passphrase_activity__unlock_signal">Ontsluit Polly</string>
     <!-- Description text explaining how to unlock Signal -->
-    <string name="prompt_passphrase_activity__use_your_android_device">Gebruik jou Android-toestel se sluitinstellings om Molly te ontsluit.</string>
+    <string name="prompt_passphrase_activity__use_your_android_device">Gebruik jou Android-toestel se sluitinstellings om Polly te ontsluit.</string>
     <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
-    <string name="prompt_passphrase_activity__screen_lock_is_on">Skermslot is aan en Molly is behoorlik met jou toestel se sluitinstellings beveilig. Ontsluit Molly op dieselfde manier as wat jy normaalweg jou foon sal ontsluit, byvoorbeeld met Gesigontsluiting, Vingerafdrukontsluiting, \'n PIN, \'n wagwoord of \'n patroon.</string>
+    <string name="prompt_passphrase_activity__screen_lock_is_on">Skermslot is aan en Polly is behoorlik met jou toestel se sluitinstellings beveilig. Ontsluit Polly op dieselfde manier as wat jy normaalweg jou foon sal ontsluit, byvoorbeeld met Gesigontsluiting, Vingerafdrukontsluiting, \'n PIN, \'n wagwoord of \'n patroon.</string>
     <!-- Button in a dialog that will contact Signal support if pressed -->
     <string name="prompt_passphrase_activity__contact_support">Kontak Steundiens</string>
     <!-- Button text to try again after unlocking has previously failed -->
@@ -5062,7 +5001,7 @@
     <!-- Text shown with toggle that when switched on will enable screen lock -->
     <string name="ScreenLockSettingsFragment__use_screen_lock">Gebruik skermslot</string>
     <!-- Description of what screen locking will do and how notification content will not be shown when screen is locked -->
-    <string name="ScreenLockSettingsFragment__your_android_device">Jou Android-toestel se slotinstellings sal vereis word om Molly te ontsluit wanneer jy toepassings verlaat of verander. Indien dit gesluit is, sal die kennisgewingvoorskou nie die boodskapinhoud wys nie.</string>
+    <string name="ScreenLockSettingsFragment__your_android_device">Jou Android-toestel se slotinstellings sal vereis word om Polly te ontsluit wanneer jy toepassings verlaat of verander. Indien dit gesluit is, sal die kennisgewingvoorskou nie die boodskapinhoud wys nie.</string>
     <!-- Title text explaining when users should start the screen lock -->
     <string name="ScreenLockSettingsFragment__start_screen_lock">Begin skermslot</string>
     <!-- Option text explaining that screen lock should start immediately -->
@@ -5076,9 +5015,9 @@
     <!-- Option text explaining that screen lock should start at a custom time set by the user -->
     <string name="ScreenLockSettingsFragment__custom_time">Pasgemaakte tyd</string>
     <!-- Title on biometrics prompt explaining that biometrics are needed to turn on screen lock -->
-    <string name="ScreenLockSettingsFragment__use_signal_screen_lock">Gebruik Molly-skermslot</string>
+    <string name="ScreenLockSettingsFragment__use_signal_screen_lock">Gebruik Polly-skermslot</string>
     <!-- Title on biometrics prompt explaining that biometrics are needed to turn off screen lock -->
-    <string name="ScreenLockSettingsFragment__turn_off_signal_lock">Skakel Molly-skermslot af</string>
+    <string name="ScreenLockSettingsFragment__turn_off_signal_lock">Skakel Polly-skermslot af</string>
 
     <string name="Recipient_unknown">Onbekend</string>
     <!-- Name to use for a user across the UI when they are unregistered and have no other name available -->
@@ -5132,19 +5071,19 @@
     <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Besig om voor te berei om aan ou Android-toestel te verbind…</string>
     <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Dit neem \'n oomblik, behoort binnekort gereed te wees</string>
     <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Wag vir ou Android-toestel om te verbind…</string>
-    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Molly benodig liggingtoestemming om jou ou Android-toestel te ontdek en daaraan te verbind.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Molly benodig geaktiveerde liggingsdienste om jou ou Android-toestel te ontdek en daaraan te verbind.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Wi-Fi moet aan wees vir Molly om jou ou Android-toestel te ontdek en daaraan te verbind. Wi-Fi moet aan wees, maar dit hoef nie aan \'n Wi-Fi-netwerk gekoppel te wees nie.</string>
-    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Jammer, dit lyk asof hierdie toestel nie Wi-Fi Direct ondersteun nie. Molly gebruik Wi-Fi Direct om jou ou Android-toestel te ontdek en daarmee te verbind. Jy kan steeds \'n rugsteun herwin om jou rekening vanaf jou ou Android-toestel te herwin.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Polly benodig liggingtoestemming om jou ou Android-toestel te ontdek en daaraan te verbind.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Polly benodig geaktiveerde liggingsdienste om jou ou Android-toestel te ontdek en daaraan te verbind.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Wi-Fi moet aan wees vir Polly om jou ou Android-toestel te ontdek en daaraan te verbind. Wi-Fi moet aan wees, maar dit hoef nie aan \'n Wi-Fi-netwerk gekoppel te wees nie.</string>
+    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Jammer, dit lyk asof hierdie toestel nie Wi-Fi Direct ondersteun nie. Polly gebruik Wi-Fi Direct om jou ou Android-toestel te ontdek en daarmee te verbind. Jy kan steeds \'n rugsteun herwin om jou rekening vanaf jou ou Android-toestel te herwin.</string>
     <string name="NewDeviceTransferSetup__restore_a_backup">Herwin \'n rugsteunkopie</string>
     <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">\'n Onverwagse fout het voorgekom terwyl daar gepoog is om met jou ou Android-toestel te verbind.</string>
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">Besig om te soek vir \'n nuwe Android-toestel…</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Molly benodig liggingtoestemming om jou ou Android-toestel te ontdek en daaraan te verbind.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Molly benodig geaktiveerde liggingsdienste om jou nuwe Android-toestel te ontdek en daaraan te verbind.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Wi-Fi moet aan wees vir Molly om jou nuwe Android-toestel te ontdek en daaraan te verbind. Wi-Fi moet aan wees, maar dit hoef nie aan \'n Wi-Fi-netwerk gekoppel te wees nie.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Jammer, dit lyk asof hierdie toestel nie Wi-Fi Direct ondersteun nie. Molly gebruik Wi-Fi Direct om jou nuwe Android-toestel te ontdek en daarmee te verbind. Jy kan steeds \'n rugsteun skep om jou rekening op jou nuwe Android-toestel te herwin.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Polly benodig liggingtoestemming om jou ou Android-toestel te ontdek en daaraan te verbind.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Polly benodig geaktiveerde liggingsdienste om jou nuwe Android-toestel te ontdek en daaraan te verbind.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Wi-Fi moet aan wees vir Polly om jou nuwe Android-toestel te ontdek en daaraan te verbind. Wi-Fi moet aan wees, maar dit hoef nie aan \'n Wi-Fi-netwerk gekoppel te wees nie.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Jammer, dit lyk asof hierdie toestel nie Wi-Fi Direct ondersteun nie. Polly gebruik Wi-Fi Direct om jou nuwe Android-toestel te ontdek en daarmee te verbind. Jy kan steeds \'n rugsteun skep om jou rekening op jou nuwe Android-toestel te herwin.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Skep \'n rugsteunkopie</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">\'n Onverwagse fout het voorgekom terwyl daar gepoog is om met jou nuwe Android-toestel te verbind.</string>
 
@@ -5187,7 +5126,7 @@
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">Besig om data oor te dra</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">Hou albei toestelle naby mekaar. Moenie die toestelle afskakel nie, en hou Molly oop. Oordragte is end-tot-end-geënkripteer.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">Hou albei toestelle naby mekaar. Moenie die toestelle afskakel nie, en hou Polly oop. Oordragte is end-tot-end-geënkripteer.</string>
     <string name="DeviceTransfer__d_messages_so_far">%1$d boodskappe tot dusver…</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">%1$s%% boodskappe tot dusver…</string>
@@ -5201,7 +5140,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">Dra rekening oor</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Laai Molly op jou nuwe Android-foon af</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Laai Polly op jou nuwe Android-foon af</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"Tik op \"Dra oor of herstel rekening\""</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -5287,7 +5226,7 @@
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Enigeen met hierdie skakel kan die groepnaam en -foto bekyk en versoek om aan te sluit. Deel dit met mense wie jy vertrou.</string>
     <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Enigeen met hierdie skakel kan die groepnaam en -foto bekyk en aansluit. Deel dit met mense wie jy vertrou.</string>
-    <string name="GroupLinkBottomSheet_share_via_signal">Deel d.m.v. Molly</string>
+    <string name="GroupLinkBottomSheet_share_via_signal">Deel d.m.v. Polly</string>
     <string name="GroupLinkBottomSheet_copy">Kopieer</string>
     <string name="GroupLinkBottomSheet_qr_code">QR-kode</string>
     <string name="GroupLinkBottomSheet_share">Deel</string>
@@ -5477,7 +5416,7 @@
     <string name="payment_info_card_about_mobilecoin">Oor MobileCoin</string>
     <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin is ’n nuwe privaatheidgefokusde digitale geldeenheid.</string>
     <string name="payment_info_card_adding_funds">Besig om fondse toe te voeg</string>
-    <string name="payment_info_card_you_can_add_funds_for_use_in">Jy kan fondse vir gebruik in Molly toevoeg deur MobileCoin aan jou beursie-adres te stuur.</string>
+    <string name="payment_info_card_you_can_add_funds_for_use_in">Jy kan fondse vir gebruik in Polly toevoeg deur MobileCoin aan jou beursie-adres te stuur.</string>
     <string name="payment_info_card_cashing_out">Betaal tans uit</string>
     <string name="payment_info_card_you_can_cash_out_mobilecoin">Jy kan MobileCoin enige tyd uitbetaal op ’n beurs wat MobileCoin steun. Maak bloot ’n oordrag na jou rekening by die spesifieke beurs.</string>
     <string name="payment_info_card_hide_this_card">Versteek hierdie kaart?</string>
@@ -5498,12 +5437,12 @@
     <!-- DeactivateWalletFragment -->
     <string name="DeactivateWalletFragment__deactivate_wallet">Deaktiveer beursie</string>
     <string name="DeactivateWalletFragment__your_balance">Jou balans</string>
-    <string name="DeactivateWalletFragment__its_recommended_that_you">Ons beveel aan dat jy jou fondse na ’n ander beursie-adres oordra voor jy betalings deaktiveer. Indien jy kies om nie nou jou fondse oor te dra nie, sal dit in jou beursie bly wat aan Molly gekoppel is indien jy betalings heraktiveer.</string>
+    <string name="DeactivateWalletFragment__its_recommended_that_you">Ons beveel aan dat jy jou fondse na ’n ander beursie-adres oordra voor jy betalings deaktiveer. Indien jy kies om nie nou jou fondse oor te dra nie, sal dit in jou beursie bly wat aan Polly gekoppel is indien jy betalings heraktiveer.</string>
     <string name="DeactivateWalletFragment__transfer_remaining_balance">Dra oorblywende balans oor</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring">Deaktiveer sonder oordrag</string>
     <string name="DeactivateWalletFragment__deactivate">Deaktiveer</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Deaktiveer sonder oordrag?</string>
-    <string name="DeactivateWalletFragment__your_balance_will_remain">Jou saldo sal in jou beursie bly wat aan Molly gekoppel is indien jy kies om betalings te heraktiveer.</string>
+    <string name="DeactivateWalletFragment__your_balance_will_remain">Jou saldo sal in jou beursie bly wat aan Polly gekoppel is indien jy kies om betalings te heraktiveer.</string>
     <string name="DeactivateWalletFragment__error_deactivating_wallet">Fout met beursie-deaktivering.</string>
   <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
 
@@ -5747,41 +5686,6 @@
         <item quantity="other">%1$d vouers</item>
     </plurals>
 
-    <!-- Row title for the option to export chat history as a plaintext archive -->
-    <string name="ChatsSettingsFragment__export_chat_history">Voer kletsgeskiedenis uit</string>
-    <!-- Row description for the plaintext chat export option -->
-    <string name="ChatsSettingsFragment__export_chat_history_label">Voer \'n masjienleesbare JSON-kopie van al jou kletse uit. Verdwynende boodskappe sal nie uitgevoer word nie.</string>
-    <!-- Biometrics prompt title shown before allowing the user to export chat history -->
-    <string name="ChatsSettingsFragment__unlock_to_export_chat_history">Ontsluit om kletsgeskiedenis uit te voer</string>
-    <!-- Snackbar shown when biometric authentication fails before a chat export -->
-    <string name="ChatsSettingsFragment__authentication_failed">Bevestiging het misluk</string>
-
-    <!-- ChatExportDialogs -->
-    <!-- Progress dialog message shown while canceling an in-progress chat export -->
-    <string name="ChatExportDialogs__canceling_export">Besig om uitvoer te kanselleer…</string>
-    <!-- Title of the dialog asking the user to confirm they want to export chat history -->
-    <string name="ChatExportDialogs__export_chat_history_title">Voer kletsgeskiedenis uit?</string>
-    <!-- Bold warning prefix in the export confirmation dialog body -->
-    <string name="ChatExportDialogs__be_careful_warning">WEES VERSIGTIG!</string>
-    <!-- Body of the export confirmation dialog, displayed after the bold "BE CAREFUL!" prefix -->
-    <string name="ChatExportDialogs__export_confirm_body">Moenie hierdie lêer met enigiemand deel nie. Jou kletsgeskiedenis sal op jou toestel gestoor word, en ander toepassings kan toegang daartoe verkry, na gelang van jou toestel se toestemmings. Uitvoer met media sal \'n groter lêergrootte tot gevolg hê.</string>
-    <!-- Button in the export confirmation dialog to export messages and media -->
-    <string name="ChatExportDialogs__export_with_media">Voer uit met media</string>
-    <!-- Button in the export confirmation dialog to export messages only -->
-    <string name="ChatExportDialogs__export_without_media">Voer uit sonder media</string>
-    <!-- Title of the dialog prompting the user to pick a destination folder for the export -->
-    <string name="ChatExportDialogs__choose_a_folder_title">Kies \'n vouer</string>
-    <!-- Body of the dialog prompting the user to pick a destination folder for the export -->
-    <string name="ChatExportDialogs__choose_a_folder_body">Kies \'n vouer in jou toestel se stoorruimte waar jou kletsgeskiedenis gestoor sal word.</string>
-    <!-- Button that opens the system folder picker -->
-    <string name="ChatExportDialogs__choose_folder_button">Kies vouer</string>
-    <!-- Title of the dialog shown when a chat export finishes successfully -->
-    <string name="ChatExportDialogs__complete_title">Kletsuitvoer voltooi</string>
-    <!-- Bold warning prefix in the export complete dialog body -->
-    <string name="ChatExportDialogs__be_careful">WEES VERSIGTIG</string>
-    <!-- Body of the export complete dialog, displayed after the bold "BE CAREFUL" prefix -->
-    <string name="ChatExportDialogs__complete_body">waar jy jou klets-uitvoerlêer stoor, en moet dit met niemand deel nie. Ander toepassings op jou toestel kan toegang daartoe verkry, na gelang van jou foon se toestemmings.</string>
-
     <!-- ChatFoldersEducationSheet -->
     <!-- Text in a bottom sheet describing chat folders and what they can be created for -->
     <string name="ChatFoldersEducationSheet__create_folders_for_family">Skep vouers vir familie, vriende, werk en so meer</string>
@@ -5973,7 +5877,7 @@
     <!--    Header for the screen that displays the licenses of the open-source software dependencies of the Signal app-->
     <string name="HelpSettingsFragment__licenses">Lisensies</string>
     <string name="HelpSettingsFragment__terms_amp_privacy_policy">Bepalings &amp; Privaatheidsbeleid</string>
-    <string name="HelpFragment__copyright_signal_messenger">Kopiereg Molly Messenger</string>
+    <string name="HelpFragment__copyright_signal_messenger">Kopiereg Polly Messenger</string>
     <string name="HelpFragment__licenced_under_the_agplv3">Gelisensieer onder die GNU AGPLv3</string>
     <!-- Non-English translations should use "Signal is a nonprofit." instead, dropping the 501c3 reference. -->
     <string name="HelpSettingsFragment__signal_is_a_501c3">Signal is \'n niewinsgewende organisasie</string>
@@ -6096,8 +6000,6 @@
     <string name="ConversationSettingsFragment__search">Soek</string>
     <string name="ConversationSettingsFragment__disappearing_messages">Verdwynboodskappe</string>
     <string name="ConversationSettingsFragment__sounds_and_notifications">Klanke &amp; kennisgewings</string>
-    <!-- Label for the starred messages option in conversation settings -->
-  <!-- Removed by excludeNonTranslatables <string name="ConversationSettingsFragment__starred_messages" translatable="false">Starred messages</string> -->
   <!-- Removed by excludeNonTranslatables <string name="ConversationSettingsFragment__internal_details" translatable="false">Internal details</string> -->
     <string name="ConversationSettingsFragment__contact_details">Telefoonkontakinligting</string>
     <string name="ConversationSettingsFragment__view_safety_number">Bekyk veiligheidsnommer</string>
@@ -6124,19 +6026,6 @@
     <string name="ConversationSettingsFragment__get_badges">Kry wapens vir jou profiel deur Signal te ondersteun. Tik op ’n wapen om meer uit te vind.</string>
     <!-- Error message shown when the user is trying to open a media that is not sent yet. -->
     <string name="ConversationSettingsFragment__this_media_is_not_sent_yet">Hierdie media is nog nie gestuur nie.</string>
-    <!-- End group option in group conversation settings screen -->
-    <string name="ConversationSettingsFragment__end_group">Beëindig groep</string>
-    <!-- Banner shown at the top of group settings when the group has been ended -->
-    <string name="ConversationSettingsFragment__this_group_was_ended">Hierdie groep is beëindig.</string>
-    <!-- Archive chat option in group conversation settings screen -->
-    <string name="ConversationSettingsFragment__archive_chat">Argiveer klets</string>
-    <!-- Delete chat option in group conversation settings screen -->
-    <string name="ConversationSettingsFragment__delete_chat">Skrap klets</string>
-    <!-- Member section header for terminated groups. %1$d is the member count -->
-    <plurals name="ConversationSettingsFragment__d_former_members">
-        <item quantity="one">%1$d voormalige lid</item>
-        <item quantity="other">%1$d voormalige lede</item>
-    </plurals>
 
     <!-- PermissionsSettingsFragment -->
     <string name="PermissionsSettingsFragment__add_members">Voeg lede toe</string>
@@ -6504,9 +6393,9 @@
     <string name="MySupportPreference__checking_subscription">Gaan tans intekening na…</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">Werk Molly by</string>
+    <string name="UpdateSignalExpiredDialog__title">Werk Polly by</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">Hierdie weergawe van Molly het verval. Doen nou opdatering om voort te gaan om Molly te gebruik.</string>
+    <string name="UpdateSignalExpiredDialog__message">Hierdie weergawe van Polly het verval. Doen nou opdatering om voort te gaan om Polly te gebruik.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">Werk by</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -6515,7 +6404,7 @@
     <!-- Title of dialog telling user they need to re-register signal -->
     <string name="ReregisterSignalDialog__title">Toestel nie geregistreer nie</string>
     <!-- Message of dialog telling user they need to re-register signal as it is no longer registered -->
-    <string name="ReregisterSignalDialog__message">Hierdie toestel is nie meer geregistreer nie. Herregistreer om voort te gaan om Molly op hierdie toestel te gebruik.</string>
+    <string name="ReregisterSignalDialog__message">Hierdie toestel is nie meer geregistreer nie. Herregistreer om voort te gaan om Polly op hierdie toestel te gebruik.</string>
     <!-- Button text of re-registration dialog to re-register the device.  -->
     <string name="ReregisterSignalDialog__reregister_action">Herregistreer</string>
     <!-- Button text of re-registration dialog to cancel the dialog.  -->
@@ -6834,7 +6723,7 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">Kon nie kieser open nie.</string>
     <!-- Banner title when notification permission is disabled -->
-    <string name="NotificationSettingsFragment__to_enable_notifications">Om kennisgewings te aktiveer, het Molly toestemming nodig om dit te vertoon.</string>
+    <string name="NotificationSettingsFragment__to_enable_notifications">Om kennisgewings te aktiveer, het Polly toestemming nodig om dit te vertoon.</string>
     <!-- Banner action when notification permission is disabled -->
     <string name="NotificationSettingsFragment__turn_on">Skakel aan</string>
 
@@ -6943,46 +6832,44 @@
     <string name="MyStories__delete_story">Skrap storie?</string>
     <!-- Message of dialog to confirm deletion of story -->
     <string name="MyStories__this_story_will_be_deleted">Hierdie storie sal geskrap word vir jou en almal wat dit ontvang het.</string>
-    <!-- Message of dialog to confirm deletion of story in a terminated group -->
-    <string name="MyStories__delete_story_terminated_group">Dit sal slegs vir jou geskrap word, want die groep is beëindig.</string>
     <!-- Toast shown when story media cannot be saved -->
     <string name="MyStories__unable_to_save">Kon nie stoor nie</string>
 
     <!-- StoryArchive -->
     <!-- Title for the story archive screen -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__story_archive" translatable="false">Story archive (Labs)</string> -->
+    <string name="StoryArchive__story_archive">Storie-argief</string>
     <!-- Section header in story settings -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__archive" translatable="false">Archive</string> -->
+    <string name="StoryArchive__archive">Argiveer</string>
     <!-- Label for switch to enable story archiving -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__keep_stories_in_archive" translatable="false">Keep stories in archive</string> -->
+    <string name="StoryArchive__keep_stories_in_archive">Hou stories in argief</string>
     <!-- Description for the archive toggle -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__save_stories_after_they_expire" translatable="false">Save your sent stories after they leave the active feed.</string> -->
+    <string name="StoryArchive__save_stories_after_they_expire">Stoor jou gestuurde stories wanneer hulle nie meer in die aktiewe inhoud is nie.</string>
     <!-- Label for archive duration preference -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__keep_stories_for" translatable="false">Keep stories for</string> -->
+    <string name="StoryArchive__keep_stories_for">Hou stories vir</string>
     <!-- Archive duration option: forever -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__forever" translatable="false">Forever</string> -->
+    <string name="StoryArchive__forever">Vir ewig</string>
     <!-- Archive duration option: 1 year -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__1_year" translatable="false">1 year</string> -->
+    <string name="StoryArchive__1_year">1 jaar</string>
     <!-- Archive duration option: 6 months -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__6_months" translatable="false">6 months</string> -->
+    <string name="StoryArchive__6_months">6 maande</string>
     <!-- Archive duration option: 30 days -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__30_days" translatable="false">30 days</string> -->
+    <string name="StoryArchive__30_days">30 dae</string>
     <!-- Empty state title when no archived stories exist -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__no_archived_stories" translatable="false">No archived stories</string> -->
+    <string name="StoryArchive__no_archived_stories">Geen geargiveerde stories nie</string>
     <!-- Empty state message when no archived stories exist -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__no_archived_stories_message" translatable="false">Turn on \"Save Stories to Archive\" in story settings to auto-archive your stories.</string> -->
+    <string name="StoryArchive__no_archived_stories_message">Skakel \"Stoor stories in Argief\" in storie-instellings aan om jou stories outomaties te argiveer.</string>
     <!-- Empty state button to navigate to story settings -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__go_to_settings" translatable="false">Go to settings</string> -->
+    <string name="StoryArchive__go_to_settings">Gaan na instellings</string>
     <!-- Label for sort order menu -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__sort_by" translatable="false">Sort by</string> -->
+    <string name="StoryArchive__sort_by">Sorteer volgens</string>
     <!-- Sort order option: newest first -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__newest" translatable="false">Newest</string> -->
+    <string name="StoryArchive__newest">Nuutste</string>
     <!-- Sort order option: oldest first -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__oldest" translatable="false">Oldest</string> -->
+    <string name="StoryArchive__oldest">Oudste</string>
     <!-- Delete action in story archive multi-select bottom bar -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__delete" translatable="false">Delete</string> -->
+    <string name="StoryArchive__delete">Skrap</string>
     <!-- Content description for selecting a story in multi-select mode -->
-  <!-- Removed by excludeNonTranslatables <string name="StoryArchive__select_story" translatable="false">Select story</string> -->
+    <string name="StoryArchive__select_story">Selekteer storie</string>
     <!-- Confirmation dialog body when deleting stories from archive -->
     <plurals name="StoryArchive__delete_n_stories">
         <item quantity="one">Skrap %1$d storie? Dit kan nie ongedaan gemaak word nie.</item>
@@ -7799,8 +7686,6 @@
     <string name="CallLogAdapter__incoming">Inkomend</string>
     <!-- Displayed for outgoing calls -->
     <string name="CallLogAdapter__outgoing">Uitgaande</string>
-    <!-- Displayed for outgoing calls that were not accepted by the remote party -->
-    <string name="CallLogAdapter__unanswered">Unanswered</string>
     <!-- Displayed for missed calls -->
     <string name="CallLogAdapter__missed">Gemis</string>
     <!-- Displayed for one missed call declined by notification profile -->
@@ -7885,8 +7770,6 @@
     <string name="CallLogFragment__get_started_by_calling_a_friend">Begin deur \'n vriend te bel.</string>
     <!-- Displayed as a message in a dialog when deleting multiple items -->
     <string name="CallLogFragment__call_links_youve_created">Oproepskakels wat jy geskep het, sal nie meer werk vir mense wat dit het nie.</string>
-    <!-- Dialog message shown when trying to start a group call but the user is no longer a member -->
-    <string name="CallLogFragment__cant_start_call_no_longer_a_member">You\'re no longer a member of this group.</string>
 
     <!-- New call activity -->
     <!-- Activity title in title bar -->
@@ -8121,7 +8004,7 @@
     <!-- Title of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
     <string name="TurnOnSignalBackups__title">Skakel Signal se Veilige Rugsteun aan</string>
     <!-- Body of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
-    <string name="TurnOnSignalBackups__body">Moet nooit \'n boodskap verloor wanneer jy \'n nuwe foon kry of Molly herinstalleer nie.</string>
+    <string name="TurnOnSignalBackups__body">Moet nooit \'n boodskap verloor wanneer jy \'n nuwe foon kry of Polly herinstalleer nie.</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will take the user to the flow to enable backups -->
     <string name="TurnOnSignalBackups__turn_on">Skakel aan</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will simply dismiss the megaphone -->
@@ -8200,7 +8083,7 @@
     <string name="UseNewOnDeviceBackups__not_now">Nie nou nie</string>
 
     <!-- Text describing how to restore a backup displayed on the on-device backups screen -->
-    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"Om 'n rugsteun te herwin, installeer 'n nuwe kopie van Molly. Maak die toepassing oop, tik op \"Herwin rugsteun\" en vind dan die rugsteunlêer."</string>
+    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"Om \'n rugsteun te herwin, installeer \'n nuwe kopie van Polly. Maak die toepassing oop, tik op \"Herwin rugsteun\" en vind dan die rugsteunlêer."</string>
 
     <!-- Title of a megaphone shown to prompt the user to verify their recovery key -->
     <string name="VerifyBackupKey__title">Verifieer jou herwinsleutel</string>
@@ -8614,28 +8497,6 @@
     <!-- Secondary action button on bottom sheet -->
     <string name="MediaNoLongerAvailableSheet__not_now">Nie nou nie</string>
 
-    <!-- End group button label shown in confirmation dialogs -->
-    <string name="EndGroupDialog__end_group">Beëindig groep</string>
-    <!-- Title of first end group confirmation dialog. %1$s is the group name -->
-    <string name="EndGroupDialog__end_s">Beëindig \"%1$s\"?</string>
-    <!-- Body of first end group confirmation dialog -->
-    <string name="EndGroupDialog__members_will_no_longer_be_able_to_send">Lede sal nie meer in staat wees om boodskappe in die groep te stuur of oproepe te begin nie. Hulle sal in kennis gestel word dat jy die groep beëindig het, en sal steeds toegang tot die boodskapgeskiedenis hê.</string>
-    <!-- Body of second/final end group confirmation dialog -->
-    <string name="EndGroupDialog__this_will_end_the_group_permanently">Hierdie aksie sal die groep permanent beëindig. Is jy seker jy wil voortgaan?</string>
-    <!-- Progress message shown while ending a group -->
-    <string name="EndGroupDialog__ending_group">Besig om groep te beëindig…</string>
-    <!-- Message shown when ending a group fails -->
-    <string name="EndGroupDialog__ending_the_group_failed">Kon nie die groep beëindig nie. Gaan jou verbinding na en probeer weer.</string>
-    <!-- Retry button shown when ending a group fails -->
-    <string name="EndGroupDialog__try_again">Probeer weer</string>
-
-    <!-- Title of bottom sheet shown when opening a terminated group for the first time, with admin name. %1$s is the admin\'s display name -->
-    <string name="TerminatedGroupBottomSheet__s_ended_the_group">%1$s het die Groep beëindig</string>
-    <!-- Title of bottom sheet shown when opening a terminated group for the first time, without admin name -->
-    <string name="TerminatedGroupBottomSheet__the_group_has_been_ended">Die groep is beëindig.</string>
-    <!-- Body of bottom sheet shown when opening a terminated group -->
-    <string name="TerminatedGroupBottomSheet__you_can_no_longer_send_and_receive">Jy kan nie meer boodskappe of oproepe in hierdie groep stuur en ontvang nie.</string>
-
     <!-- Educational bottom sheet dialog title shown to notify about delete syncs causing deletes to happen across all devices -->
     <string name="DeleteSyncEducation_title">Skrapping is nou oor al jou toestelle gesinchroniseer</string>
     <!-- Educational bottom sheet dialog message shown to notify about delete syncs causing deletes to happen across all devices -->
@@ -8750,7 +8611,7 @@
     <!-- Displays the date the subscription expired. Placeholder is the date. -->
     <string name="RemoteBackupsSettingsFragment__expired_on_s">Het op %1$s verstryk</string>
     <!-- Displayed at the top of the screen when no backup is currently enabled -->
-    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Rugsteun jou boodskapgeskiedenis sodat jy nooit data verloor wanneer jy \'n nuwe foon kry of Molly herinstalleer nie.</string>
+    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Rugsteun jou boodskapgeskiedenis sodat jy nooit data verloor wanneer jy \'n nuwe foon kry of Polly herinstalleer nie.</string>
     <!-- Section header for other ways to back up -->
     <string name="RemoteBackupsSettingsFragment__other_ways_to_backup">Ander maniere om te rugsteun</string>
     <!-- Row title for performing on-device backup -->
@@ -8897,17 +8758,17 @@
     <!-- Progress text shown while the backup is being finalized (e.g. cleaning up old files) -->
     <string name="BackupCreationProgressRow__finalizing">Finaliseer tans…</string>
     <!-- Progress text shown while messages are being processed, with no count available yet -->
-    <string name="BackupCreationProgressRow__processing_messages">Besig om boodskappe te verwerk…</string>
+    <string name="BackupCreationProgressRow__processing_messages">Processing messages…</string>
     <!-- Progress text shown while messages are being processed. %1$s is the formatted current count (e.g. "1,000"), %2$s is the formatted total count (e.g. "100,000"), %3$d is the percent complete (e.g. 42). -->
-    <string name="BackupCreationProgressRow__processing_messages_s_of_s_d">Besig om boodskappe te verwerk: %1$s van %2$s (%3$d%%)</string>
+    <string name="BackupCreationProgressRow__processing_messages_s_of_s_d">Processing messages: %1$s of %2$s (%3$d%%)</string>
     <!-- Progress text shown while media is being uploaded to the server. %1$d is the percent complete (e.g. 42). -->
-    <string name="BackupCreationProgressRow__uploading_media_d">Besig om media op te laai: %1$d%%</string>
+    <string name="BackupCreationProgressRow__uploading_media_d">Uploading media: %1$d%%</string>
     <!-- Progress text shown while media is being exported to local storage. %1$d is the percent complete (e.g. 42). -->
-    <string name="BackupCreationProgressRow__exporting_media_d">Besig om media uit te voer: %1$d%%</string>
+    <string name="BackupCreationProgressRow__exporting_media_d">Exporting media: %1$d%%</string>
 
     <!-- LocalArchiveJob -->
     <!-- Notification title shown while media attachments are being exported during a local backup -->
-    <string name="LocalArchiveJob__exporting_media">Besig om media uit te voer…</string>
+    <string name="LocalArchiveJob__exporting_media">Exporting media…</string>
 
     <!-- OnDeviceBackupsImprovementsScreen -->
     <!-- Title displayed at the top of the screen explaining on-device backup improvements -->
@@ -9003,8 +8864,6 @@
     <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">Jou herwinsleutel is \'n 64-karakter-kode wat jou toelaat om jou rugsteun te herstel wanneer jy Signal herinstalleer.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description_bold">Dit is dieselfde as die herwinsleutel op jou toestel.</string>
-    <!-- Screen body shown when enabling on-device backups while Signal Secure Backups are already enabled (part 2, bolded). -->
-    <string name="MessageBackupsKeyEducationScreen__local_backup_with_remote_enabled_description_bold">Dis dieselfde as jou herstelsleutel vir Signal se Veilige Rugsteun.</string>
     <!-- Label shown above a list of actions that the recovery key can be used for. -->
     <string name="MessageBackupsKeyEducationScreen__use_this_key_to">Gebruik hierdie sleutel om:</string>
     <!-- Row label indicating that the recovery key can be used to restore an on-device backup. -->
@@ -9048,7 +8907,7 @@
     <!-- Bottom sheet title -->
     <string name="MessageBackupsKeyRecordScreen__keep_your_key_safe">Hou jou sleutel veilig</string>
     <!-- Bottom sheet subtitle -->
-    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Molly sal jou nie kan help om jou rugsteun te herstel as jy jou sleutel verloor nie. Bewaar dit iewers waar dit veilig is, en moet dit nie met ander mense deel nie.</string>
+    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Polly sal jou nie kan help om jou rugsteun te herstel as jy jou sleutel verloor nie. Bewaar dit iewers waar dit veilig is, en moet dit nie met ander mense deel nie.</string>
     <!-- Checkbox label -->
     <string name="MessageBackupsKeyRecordScreen__ive_recorded_my_key">Ek het \'n aantekening van my sleutel gemaak</string>
     <!-- Sheet action button label -->
@@ -9179,7 +9038,7 @@
     <!-- Row title for restore/transfer without using a previous device -->
     <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Ek het nie my ou telefoon nie</string>
     <!-- Row subtitle for restore/transfer without using a previous device -->
-    <string name="WelcomeFragment_restore_action_reinstalling">Of jy is besig om Molly op dieselfde toestel te herinstalleer</string>
+    <string name="WelcomeFragment_restore_action_reinstalling">Of jy is besig om Polly op dieselfde toestel te herinstalleer</string>
 
     <!-- Screen title for selecting which restore method to use during registration -->
     <string name="SelectRestoreMethodFragment__restore_or_transfer_account">Herwin of dra rekening oor</string>
@@ -9280,18 +9139,6 @@
     <string name="RestoreLocalBackupDialog__failed_to_load_archive">Kon nie argief laai nie. Kies asseblief \'n ander gids.</string>
     <!-- RestoreLocalBackupDialog: Dismiss button for dialog -->
     <string name="RestoreLocalBackupDialog__ok">Goed</string>
-    <!-- RestoreLocalBackupDialog: Title of the dialog asking the user to confirm skipping backup restore -->
-    <string name="RestoreLocalBackupDialog__skip_restore">Slaan herstel oor?</string>
-    <!-- RestoreLocalBackupDialog: Body of the dialog warning the user about the consequences of skipping backup restore -->
-    <string name="RestoreLocalBackupDialog__skip_restore_body">As jy nou herwinning oorslaan, sal jy nie later herwinning kan doen nie. As jy rugsteun weer aktiveer nadat jy herwinning oorgeslaan het, sal jou huidige rugsteun deur jou nuwe boodskapgeskiedenis vervang word.</string>
-    <!-- RestoreLocalBackupDialog: Confirm button label for the skip restore dialog -->
-    <string name="RestoreLocalBackupDialog__skip_restore_confirm">Slaan herstel oor</string>
-    <!-- RestoreLocalBackupDialog: Title of the dialog asking the user to confirm restoring a backup from a different account -->
-    <string name="RestoreLocalBackupDialog__restore_to_new_account">Herwin in \'n nuwe rekening?</string>
-    <!-- RestoreLocalBackupDialog: Body of the dialog warning the user that the backup was created with a different account and they will lose group memberships -->
-    <string name="RestoreLocalBackupDialog__restore_to_new_account_body">Die rugsteun wat jy besig is om te herwin, is geskep met gebruik van \'n ander Signal-rekening. Jy kan hierdie rugsteun in \'n nuwe rekening herwin, maar jy sal nie meer \'n lid wees van enige van die groepe wat herwin is nie.</string>
-    <!-- RestoreLocalBackupDialog: Confirm button label for the restore to new account dialog -->
-    <string name="RestoreLocalBackupDialog__restore">Herstel</string>
 
     <!-- RestoreLocalBackupActivity: Toast message when backup restore fails -->
     <string name="RestoreLocalBackupActivity__backup_restore_failed">Rugsteunherwinning het misluk</string>
@@ -9318,30 +9165,6 @@
 
     <!-- RestoreLocalBackupActivity: Label for the button that opens the contact support form -->
     <string name="RestoreLocalBackupActivity__contact_support">Kontak Steundiens</string>
-
-    <!-- RestoreLocalBackupActivity: Title for the dialog shown when the restored backup belongs to a different account -->
-    <string name="RestoreLocalBackupActivity__turn_on_on_device_backups">Skakel rugsteun op toestel aan?</string>
-
-    <!-- RestoreLocalBackupActivity: Body for the dialog shown when the restored backup belongs to a different account, prompting the user to re-enable on-device backups -->
-    <string name="RestoreLocalBackupActivity__to_continue_using_on_device_backups">Om voort te gaan om rugsteun op toestel te gebruik, moet jy dit vir hierdie rekening aktiveer en jou nuwe herwinsleutel aanteken. Jy kan dit te eniger tyd doen in Instellings &gt; Rugsteun.</string>
-
-    <!-- RestoreLocalBackupActivity: Confirm button label for the dialog prompting the user to re-enable on-device backups -->
-    <string name="RestoreLocalBackupActivity__turn_on_now">Skakel nou aan</string>
-
-    <!-- RestoreLocalBackupActivity: Dismiss button label for the dialog prompting the user to re-enable on-device backups -->
-    <string name="RestoreLocalBackupActivity__not_now">Nie nou nie</string>
-
-    <!-- RestoreLocalBackupActivity: Body text for the dialog shown after a successful restore, prompting the user to choose a backup folder -->
-    <string name="RestoreLocalBackupActivity__choose_a_folder_for_backups">Om voort te gaan om rugsteun op toestel te gebruik, kies \'n vouer op jou toestel waar nuwe rugsteun gestoor sal word.</string>
-
-    <!-- RestoreLocalBackupActivity: Positive button label for the dialog shown after a successful restore; keeps the current backup folder -->
-    <string name="RestoreLocalBackupActivity__use_current_folder">Gebruik huidige vouer</string>
-
-    <!-- RestoreLocalBackupActivity: Neutral button label for the dialog shown after a successful restore; opens folder picker to select a different backup location -->
-    <string name="RestoreLocalBackupActivity__choose_new_folder">Kies nuwe vouer</string>
-
-    <!-- RestoreLocalBackupActivity: Negative button label for the dialog shown after a successful restore; disables on-device backups -->
-    <string name="RestoreLocalBackupActivity__disable_backups">Deaktiveer rugsteun</string>
 
     <!-- SelectInstructionsSheet: Title for the select backup folder instruction sheet -->
     <string name="SelectInstructionsSheet__select_your_backup_folder">Kies jou rugsteunvouer</string>
@@ -9498,27 +9321,6 @@
     <string name="MainToolbar__notification_profile_content_description">Kennisgewingsprofiel</string>
     <!-- Accessibility label for more options button in MainToolbar -->
     <string name="MainToolbar__proxy_content_description">Tussenganger</string>
-    <!-- Accessibility label for search filter button in MainToolbar -->
-  <!-- Removed by excludeNonTranslatables <string name="MainToolbar__search_filter_content_description" translatable="false">Search filter</string> -->
-
-    <!-- SearchFilterBottomSheet: Title -->
-  <!-- Removed by excludeNonTranslatables <string name="SearchFilterBottomSheet__filter_search" translatable="false">Filter search</string> -->
-    <!-- SearchFilterBottomSheet: Start date label -->
-  <!-- Removed by excludeNonTranslatables <string name="SearchFilterBottomSheet__start_date" translatable="false">Start date</string> -->
-    <!-- SearchFilterBottomSheet: End date label -->
-  <!-- Removed by excludeNonTranslatables <string name="SearchFilterBottomSheet__end_date" translatable="false">End date</string> -->
-    <!-- SearchFilterBottomSheet: Author label -->
-  <!-- Removed by excludeNonTranslatables <string name="SearchFilterBottomSheet__author" translatable="false">Author</string> -->
-    <!-- SearchFilterBottomSheet: Placeholder for unset date -->
-  <!-- Removed by excludeNonTranslatables <string name="SearchFilterBottomSheet__not_set" translatable="false">Not set</string> -->
-    <!-- SearchFilterBottomSheet: Placeholder for unset author -->
-  <!-- Removed by excludeNonTranslatables <string name="SearchFilterBottomSheet__anyone" translatable="false">Anyone</string> -->
-    <!-- SearchFilterBottomSheet: Apply button -->
-  <!-- Removed by excludeNonTranslatables <string name="SearchFilterBottomSheet__apply" translatable="false">Apply</string> -->
-    <!-- SearchFilterBottomSheet: Clear button -->
-  <!-- Removed by excludeNonTranslatables <string name="SearchFilterBottomSheet__clear" translatable="false">Clear</string> -->
-    <!-- SearchFilterBottomSheet: Select date dialog title -->
-  <!-- Removed by excludeNonTranslatables <string name="SearchFilterBottomSheet__select_date" translatable="false">Select date</string> -->
 
     <!-- Accessibility label for a button displayed in the toolbar to return to the previous screen. -->
     <string name="DefaultTopAppBar__navigate_up_content_description">Navigeer op</string>
@@ -9804,18 +9606,6 @@
     <string name="MemberLabelsAboutOverride__title">Vertoon van Lidfunksie-etiket</string>
     <!-- Body for screen shown to let the user know that displaying their member label will take priority over their about text. -->
     <string name="MemberLabelsAboutOverride__body">In hierdie groep sal jou Lidfunksie-etiket langs jou foto vertoon word in plaas van jou \"Meer oor my\".</string>
-
-    <!-- Label for internal-only section showing groups with same members -->
-  <!-- Removed by excludeNonTranslatables <string name="AddGroupDetailsFragment__groups_with_same_members" translatable="false">Groups with same members (Labs)</string> -->
-
-    <!-- Title of the sheet shown when a local backup restore could not be completed -->
-    <string name="CouldNotCompleteBackupRestoreSheet__title">Kan nie rugsteun herwin nie</string>
-
-    <!-- Body of the sheet shown when a local backup restore could not be completed, explaining the likely cause -->
-    <string name="CouldNotCompleteBackupRestoreSheet__body_error">\'n Fout het voorgekom en jou rugsteun kan nie herwin word nie. Dit kan wees omdat die rugsteunvouer op jou toestel verskuif is terwyl herwinning van jou rugsteun aan die gang was.</string>
-
-    <!-- Body of the sheet shown when a local backup restore could not be completed, explaining how to try again -->
-    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">Om weer te probeer, deïnstalleer en herinstalleer Molly op hierdie toestel en kies \"Herwin of dra oor\".</string>
 
     <!-- EOF -->
 </resources>
