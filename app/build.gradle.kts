@@ -222,10 +222,13 @@ android {
     buildConfigField("String", "STRIPE_PUBLISHABLE_KEY", "\"pk_live_6cmGZopuTsV8novGgJJW9JpC00vLIgtQ1D\"")
     buildConfigField("boolean", "TRACING_ENABLED", "false")
     buildConfigField("boolean", "USE_STRING_ID", "false")
+    buildConfigField("boolean", "SHOW_DONATIONS", "false")
+    buildConfigField("boolean", "SHOW_HELP", "false")
+    buildConfigField("boolean", "HIDE_FCM_OPTION", "true")
+    buildConfigField("boolean", "HIDE_STORIES", "true")
 
     ndk {
-      //noinspection ChromeOsAbiSupport
-      abiFilters += listOf("armeabi-v7a", "arm64-v8a", "x86_64")
+      abiFilters += listOf("arm64-v8a")
     }
 
     testInstrumentationRunner = "org.thoughtcrime.securesms.testing.SignalTestRunner"
