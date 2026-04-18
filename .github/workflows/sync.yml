@@ -98,7 +98,7 @@ jobs:
           fi
 
           # Re-apply Polly branding to string values (Molly→Polly in display text only)
-          find app/src/main/res -name "strings.xml" -exec sed -i 's/\bMolly\b/Polly/g' {} +
+          find app/src/main/res -name "strings.xml" -o -name "strings2.xml" | xargs sed -i 's/\bMolly\b/Polly/g'
 
           # Commit all changes as a single Polly customization commit on top of new Molly
           git add -A
