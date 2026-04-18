@@ -90,7 +90,7 @@ jobs:
           cp /tmp/polly-overlay/app/src/main/java/org/thoughtcrime/securesms/components/KeyboardAwareLinearLayout.java app/src/main/java/org/thoughtcrime/securesms/components/KeyboardAwareLinearLayout.java
 
           # Patch libs.versions.toml: raise minSdk to 31 (Molly may bump dep versions — don't stomp whole file)
-          sed -i 's/^minSdk = "[0-9]*"/minSdk = "31"/' gradle/libs.versions.toml
+          sed -i 's/^minSdk = "[0-9]*".*/minSdk = "34"               # POLLY: Raise min SDK to Android 14/' gradle/libs.versions.toml
 
           # Patch settings.gradle.kts: inject Polly maven repos if not already present
           if ! grep -q "argon2" settings.gradle.kts; then
