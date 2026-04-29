@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="BlockUnblockDialog_block_and_delete">Блокирај и избриши</string>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly је закључан</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly је закључан</string>
     <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">Бета верзије су намењене за тестирање и могу садржати грешке</string>
     <string name="preferences_network__online">На мрежи</string>
     <string name="RegistrationActivity_network_settings">Подешавања мреже</string>
@@ -96,7 +96,7 @@
     <string name="RegistrationActivity_molly_needs_access_to_your_contacts_in_order_to_connect_with_friends">Моли треба дозволу за контакте да би вам помогла да пронађете своје пријатеље. Ваши контакти се учитавају користећи Сигналову приватну откривање контаката, што значи да су шифровани од краја до краја и никада нису видљиви Сигналовој услузи.</string>
     <string name="BackupsPreferenceFragment__change_schedule">Промена распореда</string>
     <string name="BackupsPreferenceFragment__number_of_backups_to_retain">Број резервних копија које треба задржати</string>
-    <string name="HelpSettingsFragment__molly_im_website">Molly.im вебсајт</string>
+    <string name="HelpSettingsFragment__molly_im_website">Polly.im вебсајт</string>
     <string name="enter_device_link_dialog__if_your_phone_cant_scan_the_qr_code_you_can_manually_enter_the_link_encoded_in_the_qr_code">Ако ваш уређај не може скенирати QR код, можете ручно унети везу кодирано у QR коду.</string>
     <string name="DeviceAddFragment__link_without_scanning">Веза без скенирања</string>
     <string name="preferences__include_beta_updates">Укључи бета ажурирања</string>
