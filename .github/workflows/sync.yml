@@ -94,7 +94,27 @@ jobs:
 
           # Patch settings.gradle.kts: inject Polly maven repos if not already present
           if ! grep -q "argon2" settings.gradle.kts; then
-            sed -i '/includeModule("im.molly", "libsignal-android")/a\      }\n      maven {\n        url = uri("https://raw.githubusercontent.com/mollyim/maven/master/argon2/releases/")\n        content { includeModule("im.molly", "argon2") }\n      }\n      maven {\n        url = uri("https://raw.githubusercontent.com/mollyim/maven/master/native-utils/releases/")\n        content { includeModule("im.molly", "native-utils") }\n      }' settings.gradle.kts
+            python3 - <<'PYEOF'
+import re, pathlib
+path = pathlib.Path("settings.gradle.kts")
+content = path.read_text()
+injection = '''    }
+    maven {
+      url = uri("https://raw.githubusercontent.com/mollyim/maven/master/argon2/releases/")
+      content {
+        includeModule("im.molly", "argon2")
+      }
+    }
+    maven {
+      url = uri("https://raw.githubusercontent.com/mollyim/maven/master/native-utils/releases/")
+      content {
+        includeModule("im.molly", "native-utils")
+      }
+    }'''
+anchor = '        includeModule("im.molly", "libsignal-android")\n      }'
+content = content.replace(anchor, '        includeModule("im.molly", "libsignal-android")\n' + injection, 1)
+path.write_text(content)
+PYEOF
           fi
 
           # Re-apply Polly branding to string values (Molly→Polly in display text only)

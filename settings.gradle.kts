@@ -35,14 +35,17 @@ dependencyResolutionManagement {
         includeModule("im.molly", "libsignal-client")
         includeModule("im.molly", "libsignal-android")
       }
-      maven {
-        url = uri("https://raw.githubusercontent.com/mollyim/maven/master/argon2/releases/")
-        content { includeModule("im.molly", "argon2") }
+    }
+    maven {
+      url = uri("https://raw.githubusercontent.com/mollyim/maven/master/argon2/releases/")
+      content {
+        includeModule("im.molly", "argon2")
       }
-      maven {
-        url = uri("https://raw.githubusercontent.com/mollyim/maven/master/native-utils/releases/")
-        content { includeModule("im.molly", "native-utils") }
-      }
+    }
+    maven {
+      url = uri("https://raw.githubusercontent.com/mollyim/maven/master/native-utils/releases/")
+      content {
+        includeModule("im.molly", "native-utils")
       }
     }
     maven {
