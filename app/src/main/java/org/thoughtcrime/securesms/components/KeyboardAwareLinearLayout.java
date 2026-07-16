@@ -30,7 +30,7 @@ import androidx.appcompat.widget.LinearLayoutCompat;
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.util.SecurePreferenceManager;
-import org.signal.core.util.ServiceUtil;
+import org.thoughtcrime.securesms.util.ServiceUtil;
 import org.signal.core.util.Util;
 import org.thoughtcrime.securesms.util.ViewUtil;
 
@@ -156,21 +156,8 @@ public class KeyboardAwareLinearLayout extends LinearLayoutCompat {
   }
 
   private int getViewInset() {
-    try {
-      Field attachInfoField = View.class.getDeclaredField("mAttachInfo");
-      attachInfoField.setAccessible(true);
-      Object attachInfo = attachInfoField.get(this);
-      if (attachInfo != null) {
-        Field stableInsetsField = attachInfo.getClass().getDeclaredField("mStableInsets");
-        stableInsetsField.setAccessible(true);
-        Rect insets = (Rect) stableInsetsField.get(attachInfo);
-        if (insets != null) {
-          return insets.bottom;
-        }
-      }
-    } catch (NoSuchFieldException | IllegalAccessException e) {
-      // Do nothing
-    }
+    // On API 31+, reflection on private APIs is blocked
+    // Use WindowInsetsCompat instead - already handled in onApplyWindowInsets
     return statusBarHeight;
   }
 

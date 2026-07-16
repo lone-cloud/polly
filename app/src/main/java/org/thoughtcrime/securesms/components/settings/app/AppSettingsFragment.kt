@@ -54,6 +54,7 @@ import org.signal.core.ui.compose.SignalIcons
 import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.Util
+import org.thoughtcrime.securesms.BuildConfig
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.avatar.AvatarImage
 import org.thoughtcrime.securesms.backup.v2.BackupRepository
@@ -77,7 +78,6 @@ import org.thoughtcrime.securesms.recipients.Recipient
 import org.thoughtcrime.securesms.util.CommunicationActions
 import org.thoughtcrime.securesms.util.SignalE164Util
 import org.thoughtcrime.securesms.util.navigation.safeNavigate
-import org.signal.core.ui.R as CoreUiR
 
 class AppSettingsFragment : ComposeFragment(), Callbacks {
 
@@ -176,7 +176,7 @@ class AppSettingsFragment : ComposeFragment(), Callbacks {
     @StringRes toastSuccessStringRes: Int
   ) {
     lifecycleScope.launch {
-      val subscriber = withContext(Dispatchers.Default) {
+      val subscriber = withContext(Dispatchers.IO) {
         InAppPaymentsRepository.getSubscriber(subscriberType)
       }
 
@@ -291,7 +291,7 @@ private fun AppSettingsContent(
         item {
           Rows.TextRow(
             text = stringResource(R.string.AccountSettingsFragment__account),
-            icon = painterResource(CoreUiR.drawable.symbol_person_circle_24),
+            icon = painterResource(R.drawable.symbol_person_circle_24),
             onClick = {
               callbacks.navigate(AppSettingsRoute.AccountRoute.Account)
             }
@@ -301,7 +301,7 @@ private fun AppSettingsContent(
         item {
           Rows.TextRow(
             text = stringResource(R.string.preferences__linked_devices),
-            icon = painterResource(CoreUiR.drawable.symbol_devices_24),
+            icon = painterResource(R.drawable.symbol_devices_24),
             onClick = {
               callbacks.navigate(AppSettingsRoute.LinkDeviceRoute.LinkDevice)
             },
@@ -309,17 +309,19 @@ private fun AppSettingsContent(
           )
         }
 
-        item {
-          val context = LocalContext.current
-          val donateUrl = stringResource(R.string.donate_url)
+        if (BuildConfig.SHOW_DONATIONS) {
+          item {
+            val context = LocalContext.current
+            val donateUrl = stringResource(R.string.donate_url)
 
-          Rows.TextRow(
-            text = stringResource(R.string.preferences__donate_to_signal),
-            icon = painterResource(R.drawable.symbol_heart_24),
-            onClick = {
-              CommunicationActions.openBrowserLink(context, donateUrl)
-            },
-          )
+            Rows.TextRow(
+              text = stringResource(R.string.preferences__donate_to_signal),
+              icon = painterResource(R.drawable.symbol_heart_24),
+              onClick = {
+                CommunicationActions.openBrowserLink(context, donateUrl)
+              },
+            )
+          }
         }
 
         item {
@@ -347,15 +349,17 @@ private fun AppSettingsContent(
           )
         }
 
-        item {
-          Rows.TextRow(
-            text = stringResource(R.string.preferences__stories),
-            icon = painterResource(R.drawable.symbol_stories_24),
-            onClick = {
-              callbacks.navigate(AppSettingsRoute.StoriesRoute.Privacy(titleId = R.string.preferences__stories))
-            },
-            enabled = isRegisteredAndUpToDate
-          )
+        if (!BuildConfig.HIDE_STORIES) {
+          item {
+            Rows.TextRow(
+              text = stringResource(R.string.preferences__stories),
+              icon = painterResource(R.drawable.symbol_stories_24),
+              onClick = {
+                callbacks.navigate(AppSettingsRoute.StoriesRoute.Privacy(titleId = R.string.preferences__stories))
+              },
+              enabled = isRegisteredAndUpToDate
+            )
+          }
         }
 
         item {
@@ -385,7 +389,7 @@ private fun AppSettingsContent(
             icon =  SignalIcons.Backup.imageVector,
             text = stringResource(R.string.preferences_chats__backups),
             onClick = {
-              callbacks.navigate(AppSettingsRoute.BackupsRoute.Backups())
+              callbacks.navigate(AppSettingsRoute.BackupsRoute.Backups)
             },
             onLongClick = {
               callbacks.copyRemoteBackupsSubscriberIdToClipboard()
@@ -425,23 +429,29 @@ private fun AppSettingsContent(
           }
         }
 
-        item {
-          Dividers.Default()
+        if (BuildConfig.SHOW_HELP || state.showInternalPreferences) {
+          item {
+            Dividers.Default()
+          }
         }
 
-        item {
-          Rows.TextRow(
-            text = stringResource(R.string.preferences__help),
-            icon = painterResource(R.drawable.symbol_help_24),
-            onClick = {
-              callbacks.navigate(AppSettingsRoute.HelpRoute.Settings())
-            }
-          )
+        if (BuildConfig.SHOW_HELP) {
+          item {
+            Rows.TextRow(
+              text = stringResource(R.string.preferences__help),
+              icon = painterResource(R.drawable.symbol_help_24),
+              onClick = {
+                callbacks.navigate(AppSettingsRoute.HelpRoute.Settings())
+              }
+            )
+          }
         }
 
         if (state.showInternalPreferences) {
-          item {
-            Dividers.Default()
+          if (!BuildConfig.SHOW_HELP) {
+            item {
+              Dividers.Default()
+            }
           }
 
           item {
