@@ -146,7 +146,7 @@ jobs:
             ${{ inputs.prerelease == true && '--prerelease' || '' }} \
             "$TAG_REF"
         env:
-          GITHUB_TOKEN: ${{ secrets.PUBLISH_PAT || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   upload:
     name: Upload
@@ -189,9 +189,9 @@ jobs:
       - name: Upload APKs to GitHub release
         run: gh release upload "$TAG_REF" ./apk/*/release/*.apk
         env:
-          GITHUB_TOKEN: ${{ secrets.PUBLISH_PAT || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish release
         run: gh release edit "$TAG_REF" --draft=false
         env:
-          GITHUB_TOKEN: ${{ secrets.PUBLISH_PAT || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
