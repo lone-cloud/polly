@@ -242,7 +242,7 @@ android {
       isDefault = true
       isMinifyEnabled = false
       proguardFiles(
-        getDefaultProguardFile("proguard-android.txt"),
+        getDefaultProguardFile("proguard-android-optimize.txt"),
         "proguard/proguard-firebase-messaging.pro",
         "proguard/proguard-google-play-services.pro",
         "proguard/proguard-jackson.pro",
@@ -258,6 +258,7 @@ android {
         "proguard/proguard-retrolambda.pro",
         "proguard/proguard-okhttp.pro",
         "proguard/proguard-ez-vcard.pro",
+        "proguard/proguard-dnsjava.pro",
         "proguard/proguard.cfg"
       )
       testProguardFiles(
