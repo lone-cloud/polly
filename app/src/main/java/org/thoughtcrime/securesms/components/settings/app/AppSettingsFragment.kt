@@ -78,6 +78,7 @@ import org.thoughtcrime.securesms.recipients.Recipient
 import org.thoughtcrime.securesms.util.CommunicationActions
 import org.thoughtcrime.securesms.util.SignalE164Util
 import org.thoughtcrime.securesms.util.navigation.safeNavigate
+import org.signal.core.ui.R as CoreUiR
 
 class AppSettingsFragment : ComposeFragment(), Callbacks {
 
@@ -176,7 +177,7 @@ class AppSettingsFragment : ComposeFragment(), Callbacks {
     @StringRes toastSuccessStringRes: Int
   ) {
     lifecycleScope.launch {
-      val subscriber = withContext(Dispatchers.IO) {
+      val subscriber = withContext(Dispatchers.Default) {
         InAppPaymentsRepository.getSubscriber(subscriberType)
       }
 
@@ -291,7 +292,7 @@ private fun AppSettingsContent(
         item {
           Rows.TextRow(
             text = stringResource(R.string.AccountSettingsFragment__account),
-            icon = painterResource(R.drawable.symbol_person_circle_24),
+            icon = painterResource(CoreUiR.drawable.symbol_person_circle_24),
             onClick = {
               callbacks.navigate(AppSettingsRoute.AccountRoute.Account)
             }
@@ -301,7 +302,7 @@ private fun AppSettingsContent(
         item {
           Rows.TextRow(
             text = stringResource(R.string.preferences__linked_devices),
-            icon = painterResource(R.drawable.symbol_devices_24),
+            icon = painterResource(CoreUiR.drawable.symbol_devices_24),
             onClick = {
               callbacks.navigate(AppSettingsRoute.LinkDeviceRoute.LinkDevice)
             },
@@ -389,7 +390,7 @@ private fun AppSettingsContent(
             icon =  SignalIcons.Backup.imageVector,
             text = stringResource(R.string.preferences_chats__backups),
             onClick = {
-              callbacks.navigate(AppSettingsRoute.BackupsRoute.Backups)
+              callbacks.navigate(AppSettingsRoute.BackupsRoute.Backups())
             },
             onLongClick = {
               callbacks.copyRemoteBackupsSubscriberIdToClipboard()

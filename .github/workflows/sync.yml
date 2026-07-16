@@ -55,46 +55,65 @@ jobs:
       - name: Apply Polly customizations onto updated Molly main
         if: steps.check_new_tag.outputs.has_new_tag == 'true'
         run: |
-          # Save our Polly-specific customization files before we reset
+          # Save Polly-owned files (whole-file replacement is safe — Molly doesn't own these)
           mkdir -p /tmp/polly-overlay/.github/workflows
-          mkdir -p /tmp/polly-overlay/app/src/main/java/org/thoughtcrime/securesms/components/settings/app
-          mkdir -p /tmp/polly-overlay/app/src/main/java/org/thoughtcrime/securesms/megaphone
-          mkdir -p /tmp/polly-overlay/app/src/main/java/org/thoughtcrime/securesms/components
-          mkdir -p /tmp/polly-overlay/app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications
           mkdir -p /tmp/polly-overlay/reproducible-builds/ci
           cp .github/workflows/*.yml /tmp/polly-overlay/.github/workflows/
           cp .github/FUNDING.yml /tmp/polly-overlay/FUNDING.yml
-          cp app/build.gradle.kts /tmp/polly-overlay/app-build.gradle.kts
-          cp app/gradle.properties /tmp/polly-overlay/app-gradle.properties
           cp README.md /tmp/polly-overlay/README.md
           cp reproducible-builds/ci/mini.env /tmp/polly-overlay/reproducible-builds/ci/mini.env
-          cp app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt /tmp/polly-overlay/app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
-          cp app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt /tmp/polly-overlay/app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
-          cp app/src/main/java/org/thoughtcrime/securesms/megaphone/Megaphones.java /tmp/polly-overlay/app/src/main/java/org/thoughtcrime/securesms/megaphone/Megaphones.java
-          cp app/src/main/java/org/thoughtcrime/securesms/components/KeyboardAwareLinearLayout.java /tmp/polly-overlay/app/src/main/java/org/thoughtcrime/securesms/components/KeyboardAwareLinearLayout.java
 
-          # Reset to Molly's latest — we now have ALL of their new code
+          # Reset to Molly's latest
           git reset --hard molly/main
 
-          # Remove all Molly's workflow files so only ours are present
+          # Remove Molly's workflows, restore Polly's
           rm -f .github/workflows/*.yml
-
-          # Re-overlay whole-file Polly customizations
           cp /tmp/polly-overlay/.github/workflows/*.yml .github/workflows/
           cp /tmp/polly-overlay/FUNDING.yml .github/FUNDING.yml
-          cp /tmp/polly-overlay/app-build.gradle.kts app/build.gradle.kts
-          cp /tmp/polly-overlay/app-gradle.properties app/gradle.properties
           cp /tmp/polly-overlay/README.md README.md
           cp /tmp/polly-overlay/reproducible-builds/ci/mini.env reproducible-builds/ci/mini.env
-          cp /tmp/polly-overlay/app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
-          cp /tmp/polly-overlay/app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
-          cp /tmp/polly-overlay/app/src/main/java/org/thoughtcrime/securesms/megaphone/Megaphones.java app/src/main/java/org/thoughtcrime/securesms/megaphone/Megaphones.java
-          cp /tmp/polly-overlay/app/src/main/java/org/thoughtcrime/securesms/components/KeyboardAwareLinearLayout.java app/src/main/java/org/thoughtcrime/securesms/components/KeyboardAwareLinearLayout.java
 
-          # Patch libs.versions.toml: raise minSdk to 31 (Molly may bump dep versions — don't stomp whole file)
+          # --- Targeted patches on Molly's files (NOT whole-file copies) ---
+
+          # app/build.gradle.kts: Polly-specific changes
+          sed -i 's/val mollyRevision = [0-9]*/val mollyRevision = 2/' app/build.gradle.kts
+          sed -i 's/abiFilters += listOf(.*)/abiFilters += listOf("arm64-v8a")/' app/build.gradle.kts
+          sed -i '/buildConfigField("boolean", "TRACING_ENABLED", "false")/a\    buildConfigField("boolean", "USE_STRING_ID", "false")\n    buildConfigField("boolean", "SHOW_DONATIONS", "false")\n    buildConfigField("boolean", "SHOW_HELP", "false")\n    buildConfigField("boolean", "HIDE_FCM_OPTION", "true")\n    buildConfigField("boolean", "HIDE_STORIES", "true")' app/build.gradle.kts
+          if ! grep -q "POLLY.*DEX" app/build.gradle.kts; then
+            sed -i '/jniLibs.*useLegacyPackaging = true/a\    }\n    // POLLY: Compress DEX files to reduce APK size\n    dex {\n      useLegacyPackaging = true' app/build.gradle.kts
+          fi
+          if ! grep -q "POLLY.*APK output naming" app/build.gradle.kts; then
+            sed -i '/beforeVariants(selector().withBuildType("release"))/i\  // POLLY: Custom APK output naming\n  onVariants { variant ->\n    variant.outputs.forEach { output ->\n      val name = variant.name\n      val flavors = "-$name".replace("-prod","").replace("-website","").replace("-store","").replace("-release","").replace("Prod","").replace("Website","").replace("Store","").replace("Release","")\n      val unsigned = if (variant.signingConfig == null) "-unsigned" else ""\n      output.outputFileName.set("${baseAppFileName}${flavors}${unsigned}-${canonicalVersionName}-${mollyRevision}.apk")\n    }\n  }\n' app/build.gradle.kts
+          fi
+
+          # app/gradle.properties: Polly branding
+          sed -i 's/^baseAppTitle=.*/baseAppTitle=Polly/' app/gradle.properties
+          sed -i 's/^baseAppFileName=.*/baseAppFileName=Polly/' app/gradle.properties
+          sed -i 's/^basePackageId=.*/basePackageId=im.polly.app/' app/gradle.properties
+
+          # AppSettingsFragment.kt: Polly UI removals using BuildConfig guards
+          if ! grep -q "BuildConfig.SHOW_DONATIONS" app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt; then
+            sed -i '/^import org.thoughtcrime.securesms.BuildConfig$/d' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
+            perl -i -pe 's/^(import org.signal.core.ui.R as CoreUiR)/$1\nimport org.thoughtcrime.securesms.BuildConfig/' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
+            # Wrap donations
+            perl -0777 -i -pe 's/(        item \{\n          val context = LocalContext.current\n          val donateUrl = stringResource\(R\.string\.donate_url\)\n\n          Rows\.TextRow\(\n            text = stringResource\(R\.string\.preferences__donate_to_signal\),\n            icon = painterResource\(R\.drawable\.symbol_heart_24\),\n            onClick = \{\n              CommunicationActions\.openBrowserLink\(context, donateUrl\)\n            \},\n          \)\n        \})/        if (BuildConfig.SHOW_DONATIONS) {\n$1\n        }/g' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
+            # Wrap stories
+            perl -0777 -i -pe 's/(        item \{\n          Rows\.TextRow\(\n            text = stringResource\(R\.string\.preferences__stories\),\n            icon = painterResource\(R\.drawable\.symbol_stories_24\),\n            onClick = \{\n              callbacks\.navigate\(AppSettingsRoute\.StoriesRoute\.Privacy\(titleId = R\.string\.preferences__stories\)\)\n            \},\n            enabled = isRegisteredAndUpToDate\n          \)\n        \})/        if (!BuildConfig.HIDE_STORIES) {\n$1\n        }/g' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
+            # Wrap help
+            perl -0777 -i -pe 's/(        item \{\n          Dividers\.Default\(\)\n        \}\n\n        item \{\n          Rows\.TextRow\(\n            text = stringResource\(R\.string\.preferences__help\),\n            icon = painterResource\(R\.drawable\.symbol_help_24\),\n            onClick = \{\n              callbacks\.navigate\(AppSettingsRoute\.HelpRoute\.Settings\(\)\)\n            \}\n          \)\n        \})/        if (BuildConfig.SHOW_HELP || state.showInternalPreferences) {\n          item {\n            Dividers.Default()\n          }\n        }\n\n        if (BuildConfig.SHOW_HELP) {\n          item {\n            Rows.TextRow(\n              text = stringResource(R.string.preferences__help),\n              icon = painterResource(R.drawable.symbol_help_24),\n              onClick = {\n                callbacks.navigate(AppSettingsRoute.HelpRoute.Settings())\n              }\n            )\n          }\n        }/g' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
+          fi
+
+          # NotificationsSettingsFragment.kt: Hide FCM option
+          if ! grep -q "BuildConfig.HIDE_FCM_OPTION" app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt; then
+            sed -i '/^import org.thoughtcrime.securesms.BuildConfig$/d' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
+            perl -i -pe 's/^(import org.signal.core.ui.R as CoreUiR)/$1\nimport org.thoughtcrime.securesms.BuildConfig/' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
+            sed -i 's/NotificationDeliveryMethod\.FCM -> true/NotificationDeliveryMethod.FCM -> !BuildConfig.HIDE_FCM_OPTION/' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
+          fi
+
+          # libs.versions.toml: raise minSdk
           sed -i 's/^minSdk = "[0-9]*".*/minSdk = "34"               # POLLY: Raise min SDK to Android 14/' gradle/libs.versions.toml
 
-          # Patch settings.gradle.kts: inject Polly maven repos if not already present
+          # settings.gradle.kts: inject Polly maven repos
           if ! grep -q "argon2" settings.gradle.kts; then
             perl -0777 -i -pe \
               's|(includeModule\("im\.molly", "libsignal-android"\)\n\s*\}\n\s*\})|$1\n    maven {\n      url = uri("https://raw.githubusercontent.com/mollyim/maven/master/argon2/releases/")\n      content {\n        includeModule("im.molly", "argon2")\n      }\n    }\n    maven {\n      url = uri("https://raw.githubusercontent.com/mollyim/maven/master/native-utils/releases/")\n      content {\n        includeModule("im.molly", "native-utils")\n      }\n    }|' \
