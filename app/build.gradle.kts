@@ -356,6 +356,20 @@ androidComponents {
   beforeVariants(selector().withBuildType("release")) { variant ->
     (variant as com.android.build.api.variant.HasUnitTestBuilder).enableUnitTest = false
   }
+
+  // POLLY: Custom APK output naming
+  onVariants { variant ->
+    variant.outputs.forEach { output ->
+      val name = variant.name
+      val flavors = "-$name"
+        .replace("-prod", "")
+        .replace("-website", "")
+        .replace("-store", "")
+        .replace("-release", "")
+      val unsigned = if (variant.signingConfig == null) "-unsigned" else ""
+      output.outputFileName.set("${baseAppFileName}${flavors}${unsigned}-${canonicalVersionName}-${mollyRevision}.apk")
+    }
+  }
 }
 
 kotlin {
