@@ -124,6 +124,10 @@ android {
       // MOLLY: Compress native libs by default as APK is not split on ABIs
       useLegacyPackaging = true
     }
+    // POLLY: Compress DEX files to reduce APK size
+    dex {
+      useLegacyPackaging = true
+    }
     resources {
       excludes += setOf(
         "LICENSE.txt",
@@ -218,10 +222,15 @@ android {
     buildConfigField("String", "STRIPE_BASE_URL", "\"https://api.stripe.com/v1\"")
     buildConfigField("String", "STRIPE_PUBLISHABLE_KEY", "\"pk_live_6cmGZopuTsV8novGgJJW9JpC00vLIgtQ1D\"")
     buildConfigField("boolean", "TRACING_ENABLED", "false")
+    buildConfigField("boolean", "USE_STRING_ID", "false")
+    buildConfigField("boolean", "SHOW_DONATIONS", "false")
+    buildConfigField("boolean", "SHOW_HELP", "false")
+    buildConfigField("boolean", "HIDE_FCM_OPTION", "true")
+    buildConfigField("boolean", "HIDE_STORIES", "true")
 
     ndk {
       //noinspection ChromeOsAbiSupport
-      abiFilters += listOf("armeabi-v7a", "arm64-v8a", "x86_64")
+      abiFilters += listOf("arm64-v8a")
     }
 
     testInstrumentationRunner = "org.thoughtcrime.securesms.testing.SignalTestRunner"
@@ -345,6 +354,16 @@ androidComponents {
   }
 
   // MOLLY: Disable unit tests for release builds
+  // POLLY: Custom APK output naming
+  onVariants { variant ->
+    variant.outputs.forEach { output ->
+      val name = variant.name
+      val flavors = "-$name".replace("-prod","").replace("-website","").replace("-store","").replace("-release","").replace("Prod","").replace("Website","").replace("Store","").replace("Release","")
+      val unsigned = if (variant.signingConfig == null) "-unsigned" else ""
+      output.outputFileName.set("${baseAppFileName}${flavors}${unsigned}-${canonicalVersionName}-${mollyRevision}.apk")
+    }
+  }
+
   beforeVariants(selector().withBuildType("release")) { variant ->
     (variant as com.android.build.api.variant.HasUnitTestBuilder).enableUnitTest = false
   }

@@ -1,36 +1,137 @@
-name: Sync Upstream
+name: Sync Molly Upstream
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 */6 * * *'  # Check every 6 hours for new Molly releases
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   sync:
-    name: Sync
-    runs-on: ubuntu-24.04
+    name: Sync Molly
+    runs-on: ubuntu-22.04
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
         with:
-          ref: upstream-main
           fetch-depth: 0
-          lfs: true
-          persist-credentials: false
+          token: ${{ github.token }}
 
-      - run: gh auth setup-git
+      - name: Import GPG key
+        run: |
+          echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
+          echo "allow-loopback-pinentry" >> ~/.gnupg/gpg-agent.conf
+          gpgconf --kill gpg-agent
+
+      - name: Configure Git
+        run: |
+          git config user.name "lone-cloud"
+          git config user.email "lonecloud604@pm.me"
+          git config user.signingkey F99993FBD1212375
+          git config commit.gpgsign true
+
+      - name: Add Molly upstream remote
+        run: |
+          git remote add molly https://github.com/mollyim/mollyim-android.git || true
+          git fetch molly --tags --force || true
+
+      - name: Check for new Molly commits
+        id: check_new_tag
+        run: |
+          molly_main=$(git rev-parse molly/main)
+          our_parent=$(git rev-parse HEAD^)
+
+          echo "Molly main: $molly_main"
+          echo "Our parent: $our_parent"
+
+          if [ "$molly_main" != "$our_parent" ]; then
+            echo "has_new_tag=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_new_tag=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Apply Polly customizations onto updated Molly main
+        if: steps.check_new_tag.outputs.has_new_tag == 'true'
+        run: |
+          # Save Polly-owned files (whole-file replacement is safe — Molly doesn't own these)
+          mkdir -p /tmp/polly-overlay/.github/workflows
+          mkdir -p /tmp/polly-overlay/reproducible-builds/ci
+          cp .github/workflows/*.yml /tmp/polly-overlay/.github/workflows/
+          cp .github/FUNDING.yml /tmp/polly-overlay/FUNDING.yml
+          cp README.md /tmp/polly-overlay/README.md
+          cp reproducible-builds/ci/mini.env /tmp/polly-overlay/reproducible-builds/ci/mini.env
+
+          # Reset to Molly's latest
+          git reset --hard molly/main
+
+          # Remove Molly's workflows, restore Polly's
+          rm -f .github/workflows/*.yml
+          cp /tmp/polly-overlay/.github/workflows/*.yml .github/workflows/
+          cp /tmp/polly-overlay/FUNDING.yml .github/FUNDING.yml
+          cp /tmp/polly-overlay/README.md README.md
+          cp /tmp/polly-overlay/reproducible-builds/ci/mini.env reproducible-builds/ci/mini.env
+
+          # --- Targeted patches on Molly's files (NOT whole-file copies) ---
+
+          # app/build.gradle.kts: Polly-specific changes
+          sed -i 's/abiFilters += listOf(.*)/abiFilters += listOf("arm64-v8a")/' app/build.gradle.kts
+          sed -i '/buildConfigField("boolean", "TRACING_ENABLED", "false")/a\    buildConfigField("boolean", "USE_STRING_ID", "false")\n    buildConfigField("boolean", "SHOW_DONATIONS", "false")\n    buildConfigField("boolean", "SHOW_HELP", "false")\n    buildConfigField("boolean", "HIDE_FCM_OPTION", "true")\n    buildConfigField("boolean", "HIDE_STORIES", "true")' app/build.gradle.kts
+          if ! grep -q "POLLY.*DEX" app/build.gradle.kts; then
+            perl -0777 -i -pe 's/(useLegacyPackaging = true\n    }\n)(    resources \{)/${1}    \/\/ POLLY: Compress DEX files to reduce APK size\n    dex {\n      useLegacyPackaging = true\n    }\n$2/' app/build.gradle.kts
+          fi
+          if ! grep -q "POLLY.*APK output naming" app/build.gradle.kts; then
+            sed -i '/beforeVariants(selector().withBuildType("release"))/i\  // POLLY: Custom APK output naming\n  onVariants { variant ->\n    variant.outputs.forEach { output ->\n      val name = variant.name\n      val flavors = "-$name".replace("-prod","").replace("-website","").replace("-store","").replace("-release","").replace("Prod","").replace("Website","").replace("Store","").replace("Release","")\n      val unsigned = if (variant.signingConfig == null) "-unsigned" else ""\n      output.outputFileName.set("${baseAppFileName}${flavors}${unsigned}-${canonicalVersionName}-${mollyRevision}.apk")\n    }\n  }\n' app/build.gradle.kts
+          fi
+
+          # app/gradle.properties: Polly branding
+          sed -i 's/^baseAppTitle=.*/baseAppTitle=Polly/' app/gradle.properties
+          sed -i 's/^baseAppFileName=.*/baseAppFileName=Polly/' app/gradle.properties
+          sed -i 's/^basePackageId=.*/basePackageId=im.polly.app/' app/gradle.properties
+
+          # AppSettingsFragment.kt: Polly UI removals using BuildConfig guards
+          if ! grep -q "BuildConfig.SHOW_DONATIONS" app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt; then
+            sed -i '/^import org.thoughtcrime.securesms.BuildConfig$/d' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
+            perl -i -pe 's/^(import org.thoughtcrime.securesms.R)/$1\nimport org.thoughtcrime.securesms.BuildConfig/' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
+            # Wrap donations
+            perl -0777 -i -pe 's/(        item \{\n          val context = LocalContext.current\n          val donateUrl = stringResource\(R\.string\.donate_url\)\n\n          Rows\.TextRow\(\n            text = stringResource\(R\.string\.preferences__donate_to_signal\),\n            icon = painterResource\(R\.drawable\.symbol_heart_24\),\n            onClick = \{\n              CommunicationActions\.openBrowserLink\(context, donateUrl\)\n            \},\n          \)\n        \})/        if (BuildConfig.SHOW_DONATIONS) {\n$1\n        }/g' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
+            # Wrap stories
+            perl -0777 -i -pe 's/(        item \{\n          Rows\.TextRow\(\n            text = stringResource\(R\.string\.preferences__stories\),\n            icon = painterResource\(R\.drawable\.symbol_stories_24\),\n            onClick = \{\n              callbacks\.navigate\(AppSettingsRoute\.StoriesRoute\.Privacy\(titleId = R\.string\.preferences__stories\)\)\n            \},\n            enabled = isRegisteredAndUpToDate\n          \)\n        \})/        if (!BuildConfig.HIDE_STORIES) {\n$1\n        }/g' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
+            # Wrap help
+            perl -0777 -i -pe 's/(        item \{\n          Dividers\.Default\(\)\n        \}\n\n        item \{\n          Rows\.TextRow\(\n            text = stringResource\(R\.string\.preferences__help\),\n            icon = painterResource\(R\.drawable\.symbol_help_24\),\n            onClick = \{\n              callbacks\.navigate\(AppSettingsRoute\.HelpRoute\.Settings\(\)\)\n            \}\n          \)\n        \})/        if (BuildConfig.SHOW_HELP || state.showInternalPreferences) {\n          item {\n            Dividers.Default()\n          }\n        }\n\n        if (BuildConfig.SHOW_HELP) {\n          item {\n            Rows.TextRow(\n              text = stringResource(R.string.preferences__help),\n              icon = painterResource(R.drawable.symbol_help_24),\n              onClick = {\n                callbacks.navigate(AppSettingsRoute.HelpRoute.Settings())\n              }\n            )\n          }\n        }/g' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
+          fi
+
+          # NotificationsSettingsFragment.kt: Hide FCM option
+          if ! grep -q "BuildConfig.HIDE_FCM_OPTION" app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt; then
+            sed -i '/^import org.thoughtcrime.securesms.BuildConfig$/d' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
+            perl -i -pe 's/^(import org.thoughtcrime.securesms.R)/$1\nimport org.thoughtcrime.securesms.BuildConfig/' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
+            sed -i 's/NotificationDeliveryMethod\.FCM -> true/NotificationDeliveryMethod.FCM -> !BuildConfig.HIDE_FCM_OPTION/' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
+          fi
+
+          # libs.versions.toml: raise minSdk
+          sed -i 's/^minSdk = "[0-9]*".*/minSdk = "34"               # POLLY: Raise min SDK to Android 14/' gradle/libs.versions.toml
+
+          # settings.gradle.kts: inject Polly maven repos
+          if ! grep -q "argon2" settings.gradle.kts; then
+            perl -0777 -i -pe \
+              's|(includeModule\("im\.molly", "libsignal-android"\)\n\s*\}\n\s*\})|$1\n    maven {\n      url = uri("https://raw.githubusercontent.com/mollyim/maven/master/argon2/releases/")\n      content {\n        includeModule("im.molly", "argon2")\n      }\n    }\n    maven {\n      url = uri("https://raw.githubusercontent.com/mollyim/maven/master/native-utils/releases/")\n      content {\n        includeModule("im.molly", "native-utils")\n      }\n    }|' \
+              settings.gradle.kts
+          fi
+
+          # Re-apply Polly branding to string values (Molly→Polly in display text only)
+          find app/src/main/res -name "strings.xml" -o -name "strings2.xml" | xargs sed -i 's/\bMolly\b/Polly/g'
+
+          # Commit all changes as a single Polly customization commit on top of new Molly
+          git add -A
+          git diff --cached --quiet || git commit -S -m "Polly: fork customizations on top of Molly $(git rev-parse --short molly/main)"
+
+          # Force push since we rewrote history
+          git push --force-with-lease origin HEAD:main
+
+      - name: Trigger auto-release
+        if: steps.check_new_tag.outputs.has_new_tag == 'true'
+        run: |
+          gh workflow run auto-release.yml -R ${{ github.repository }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - run: git remote add upstream https://github.com/signalapp/Signal-Android.git
-      - run: git pull --ff-only upstream main
-        env:
-          GIT_LFS_SKIP_SMUDGE: 1
-
-      - run: git lfs fetch --all upstream
-      - run: git push origin upstream-main
-        env:
-          GH_TOKEN: ${{ secrets.SYNC_PAT }}
