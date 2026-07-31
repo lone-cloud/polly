@@ -124,6 +124,10 @@ android {
       // MOLLY: Compress native libs by default as APK is not split on ABIs
       useLegacyPackaging = true
     }
+    // POLLY: Compress DEX files to reduce APK size
+    dex {
+      useLegacyPackaging = true
+    }
     resources {
       excludes += setOf(
         "LICENSE.txt",

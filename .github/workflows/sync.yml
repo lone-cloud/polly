@@ -79,7 +79,7 @@ jobs:
           sed -i 's/abiFilters += listOf(.*)/abiFilters += listOf("arm64-v8a")/' app/build.gradle.kts
           sed -i '/buildConfigField("boolean", "TRACING_ENABLED", "false")/a\    buildConfigField("boolean", "USE_STRING_ID", "false")\n    buildConfigField("boolean", "SHOW_DONATIONS", "false")\n    buildConfigField("boolean", "SHOW_HELP", "false")\n    buildConfigField("boolean", "HIDE_FCM_OPTION", "true")\n    buildConfigField("boolean", "HIDE_STORIES", "true")' app/build.gradle.kts
           if ! grep -q "POLLY.*DEX" app/build.gradle.kts; then
-            sed -i '/jniLibs.*useLegacyPackaging = true/a\    }\n    // POLLY: Compress DEX files to reduce APK size\n    dex {\n      useLegacyPackaging = true' app/build.gradle.kts
+            perl -0777 -i -pe 's/(useLegacyPackaging = true\n    }\n)(    resources \{)/${1}    \/\/ POLLY: Compress DEX files to reduce APK size\n    dex {\n      useLegacyPackaging = true\n    }\n$2/' app/build.gradle.kts
           fi
           if ! grep -q "POLLY.*APK output naming" app/build.gradle.kts; then
             sed -i '/beforeVariants(selector().withBuildType("release"))/i\  // POLLY: Custom APK output naming\n  onVariants { variant ->\n    variant.outputs.forEach { output ->\n      val name = variant.name\n      val flavors = "-$name".replace("-prod","").replace("-website","").replace("-store","").replace("-release","").replace("Prod","").replace("Website","").replace("Store","").replace("Release","")\n      val unsigned = if (variant.signingConfig == null) "-unsigned" else ""\n      output.outputFileName.set("${baseAppFileName}${flavors}${unsigned}-${canonicalVersionName}-${mollyRevision}.apk")\n    }\n  }\n' app/build.gradle.kts
