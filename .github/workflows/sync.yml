@@ -76,7 +76,6 @@ jobs:
           # --- Targeted patches on Molly's files (NOT whole-file copies) ---
 
           # app/build.gradle.kts: Polly-specific changes
-          sed -i 's/val mollyRevision = [0-9]*/val mollyRevision = 2/' app/build.gradle.kts
           sed -i 's/abiFilters += listOf(.*)/abiFilters += listOf("arm64-v8a")/' app/build.gradle.kts
           sed -i '/buildConfigField("boolean", "TRACING_ENABLED", "false")/a\    buildConfigField("boolean", "USE_STRING_ID", "false")\n    buildConfigField("boolean", "SHOW_DONATIONS", "false")\n    buildConfigField("boolean", "SHOW_HELP", "false")\n    buildConfigField("boolean", "HIDE_FCM_OPTION", "true")\n    buildConfigField("boolean", "HIDE_STORIES", "true")' app/build.gradle.kts
           if ! grep -q "POLLY.*DEX" app/build.gradle.kts; then
@@ -129,3 +128,10 @@ jobs:
 
           # Force push since we rewrote history
           git push --force-with-lease origin HEAD:main
+
+      - name: Trigger auto-release
+        if: steps.check_new_tag.outputs.has_new_tag == 'true'
+        run: |
+          gh workflow run auto-release.yml -R ${{ github.repository }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
