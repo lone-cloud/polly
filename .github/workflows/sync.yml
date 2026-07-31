@@ -93,7 +93,7 @@ jobs:
           # AppSettingsFragment.kt: Polly UI removals using BuildConfig guards
           if ! grep -q "BuildConfig.SHOW_DONATIONS" app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt; then
             sed -i '/^import org.thoughtcrime.securesms.BuildConfig$/d' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
-            perl -i -pe 's/^(import org.signal.core.ui.R as CoreUiR)/$1\nimport org.thoughtcrime.securesms.BuildConfig/' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
+            perl -i -pe 's/^(import org.thoughtcrime.securesms.R)/$1\nimport org.thoughtcrime.securesms.BuildConfig/' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
             # Wrap donations
             perl -0777 -i -pe 's/(        item \{\n          val context = LocalContext.current\n          val donateUrl = stringResource\(R\.string\.donate_url\)\n\n          Rows\.TextRow\(\n            text = stringResource\(R\.string\.preferences__donate_to_signal\),\n            icon = painterResource\(R\.drawable\.symbol_heart_24\),\n            onClick = \{\n              CommunicationActions\.openBrowserLink\(context, donateUrl\)\n            \},\n          \)\n        \})/        if (BuildConfig.SHOW_DONATIONS) {\n$1\n        }/g' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/AppSettingsFragment.kt
             # Wrap stories
@@ -105,7 +105,7 @@ jobs:
           # NotificationsSettingsFragment.kt: Hide FCM option
           if ! grep -q "BuildConfig.HIDE_FCM_OPTION" app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt; then
             sed -i '/^import org.thoughtcrime.securesms.BuildConfig$/d' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
-            perl -i -pe 's/^(import org.signal.core.ui.R as CoreUiR)/$1\nimport org.thoughtcrime.securesms.BuildConfig/' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
+            perl -i -pe 's/^(import org.thoughtcrime.securesms.R)/$1\nimport org.thoughtcrime.securesms.BuildConfig/' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
             sed -i 's/NotificationDeliveryMethod\.FCM -> true/NotificationDeliveryMethod.FCM -> !BuildConfig.HIDE_FCM_OPTION/' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
           fi
 
