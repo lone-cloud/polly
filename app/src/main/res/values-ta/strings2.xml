@@ -2,7 +2,7 @@
 <resources>
     <string name="AppProtectionPreferenceFragment_instant">உடனடி</string>
     <string name="BlockUnblockDialog_block_and_delete">தடுமற்றும் அழி</string>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly பூட்டப்பட்டுள்ளது</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly பூட்டப்பட்டுள்ளது</string>
     <string name="preferences__include_beta_updates">பீட்டா புதுப்பிப்புகளைச் சேர்க்கவும்</string>
     <string name="preferences__map_satellite">செயற்கைக் கோள்</string>
     <string name="preferences_network__online">ஆன்லைனில்</string>
@@ -23,7 +23,7 @@
     <string name="NetworkPreferenceFragment_the_host_you_typed_is_not_valid">நீங்கள் தட்டச்சு செய்த புரவலன் செல்லுபடியாகாது</string>
     <string name="DeviceAddFragment__link_without_scanning">ச்கேன் செய்யாமல் இணைக்கவும்</string>
     <string name="BackupsPreferenceFragment__change_schedule">அட்டவணையை மாற்றவும்</string>
-    <string name="HelpSettingsFragment__molly_im_website">Molly.im வலைத்தளம்</string>
+    <string name="HelpSettingsFragment__molly_im_website">Polly.im வலைத்தளம்</string>
     <string name="PrivacySettingsFragment__lock_molly_access_with_fingerprint_or_face_recognition">கைரேகை அல்லது முக அங்கீகாரத்துடன் மோலி அணுகலை பூட்டுங்கள்</string>
     <string name="NotificationsSettingsFragment__new_activity_while_locked">பூட்டப்பட்டிருக்கும் போது புதிய செயல்பாடு</string>
     <string name="BioTextPreference_no_linked_devices">இணைக்கப்பட்ட சாதனங்கள் இல்லை</string>

@@ -1,0 +1,172 @@
+diff --git a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/CallLinkPreJoinActionProcessor.kt b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/CallLinkPreJoinActionProcessor.kt
+index 592dd2542..b726d61cb 100644
+--- a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/CallLinkPreJoinActionProcessor.kt
++++ b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/CallLinkPreJoinActionProcessor.kt
+@@ -84,6 +84,7 @@ class CallLinkPreJoinActionProcessor(
+         AUDIO_LEVELS_INTERVAL,
+         dredDuration,
+         RingRtcDynamicConfiguration.getAudioConfig(),
++        RingRtcDynamicConfiguration.getSvcConfig(),
+         webRtcInteractor.groupCallObserver
+       )
+     } catch (e: InvalidInputException) {
+diff --git a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/GroupNetworkUnavailableActionProcessor.java b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/GroupNetworkUnavailableActionProcessor.java
+index ec8f25a10..580f6c3b4 100644
+--- a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/GroupNetworkUnavailableActionProcessor.java
++++ b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/GroupNetworkUnavailableActionProcessor.java
+@@ -80,6 +80,7 @@ public class GroupNetworkUnavailableActionProcessor extends WebRtcActionProcesso
+                                                                                 AUDIO_LEVELS_INTERVAL,
+                                                                                 dredDuration,
+                                                                                 RingRtcDynamicConfiguration.getAudioConfig(),
++                                                                                RingRtcDynamicConfiguration.getSvcConfig(),
+                                                                                 webRtcInteractor.getGroupCallObserver());
+ 
+     if (groupCall == null) {
+diff --git a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/GroupPreJoinActionProcessor.java b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/GroupPreJoinActionProcessor.java
+index c9826efd6..b3b8cccb8 100644
+--- a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/GroupPreJoinActionProcessor.java
++++ b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/GroupPreJoinActionProcessor.java
+@@ -71,6 +71,7 @@ public class GroupPreJoinActionProcessor extends GroupActionProcessor {
+                                                                                new byte[0],
+                                                                                AUDIO_LEVELS_INTERVAL,dredDuration,
+                                                                                RingRtcDynamicConfiguration.getAudioConfig(),
++                                                                               RingRtcDynamicConfiguration.getSvcConfig(),
+                                                                                webRtcInteractor.getGroupCallObserver());
+ 
+     if (groupCall == null) {
+diff --git a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/IncomingCallActionProcessor.java b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/IncomingCallActionProcessor.java
+index 51e68bd95..87a0963f1 100644
+--- a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/IncomingCallActionProcessor.java
++++ b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/IncomingCallActionProcessor.java
+@@ -98,7 +98,6 @@ public class IncomingCallActionProcessor extends DeviceAwareActionProcessor {
+     }
+ 
+     byte            dredDuration    = (byte) RemoteConfig.dredDuration();
+-    boolean         enableVp9       = RemoteConfig.enableSoftwareVp9();
+     boolean         hideIp          = !activePeer.getRecipient().isProfileSharing() || callSetupState.isAlwaysTurnServers();
+     VideoState      videoState      = currentState.getVideoState();
+     CallParticipant callParticipant = Objects.requireNonNull(currentState.getCallInfoState().getRemoteCallParticipant(activePeer.getRecipient()));
+@@ -108,6 +107,7 @@ public class IncomingCallActionProcessor extends DeviceAwareActionProcessor {
+                                                 context,
+                                                 videoState.getLockableEglBase().require(),
+                                                 RingRtcDynamicConfiguration.getAudioConfig(),
++                                                RingRtcDynamicConfiguration.getVideoConfig(),
+                                                 videoState.requireLocalSink(),
+                                                 callParticipant.getVideoSink(),
+                                                 videoState.requireRouter(),
+@@ -117,8 +117,8 @@ public class IncomingCallActionProcessor extends DeviceAwareActionProcessor {
+                                                 NetworkUtil.getCallingDataMode(context),
+                                                 AUDIO_LEVELS_INTERVAL,
+                                                 dredDuration,
+-                                                enableVp9,
+-                                                false);
++                                                false,
++                                                null);
+     } catch (CallException e) {
+       return callFailure(currentState, "Unable to proceed with call: ", e);
+     }
+diff --git a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/IncomingGroupCallActionProcessor.java b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/IncomingGroupCallActionProcessor.java
+index 933f0185d..660e3ef1d 100644
+--- a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/IncomingGroupCallActionProcessor.java
++++ b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/IncomingGroupCallActionProcessor.java
+@@ -227,6 +227,7 @@ public final class IncomingGroupCallActionProcessor extends DeviceAwareActionPro
+                                                                                new byte[0],
+                                                                                AUDIO_LEVELS_INTERVAL,dredDuration,
+                                                                                RingRtcDynamicConfiguration.getAudioConfig(),
++                                                                               RingRtcDynamicConfiguration.getSvcConfig(),
+                                                                                webRtcInteractor.getGroupCallObserver());
+ 
+     if (groupCall == null) {
+diff --git a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/OutgoingCallActionProcessor.java b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/OutgoingCallActionProcessor.java
+index 4bb75c875..8d98be161 100644
+--- a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/OutgoingCallActionProcessor.java
++++ b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/OutgoingCallActionProcessor.java
+@@ -147,7 +147,6 @@ public class OutgoingCallActionProcessor extends DeviceAwareActionProcessor {
+     }
+ 
+     byte            dredDuration    = (byte) RemoteConfig.dredDuration();
+-    boolean         enableVp9       = RemoteConfig.enableSoftwareVp9();
+     boolean         hideIp          = !activePeer.getRecipient().isProfileSharing() || callSetupState.isAlwaysTurnServers();
+     VideoState      videoState      = currentState.getVideoState();
+     CallParticipant callParticipant = Objects.requireNonNull(currentState.getCallInfoState().getRemoteCallParticipant(activePeer.getRecipient()));
+@@ -157,6 +156,7 @@ public class OutgoingCallActionProcessor extends DeviceAwareActionProcessor {
+                                                 context,
+                                                 videoState.getLockableEglBase().require(),
+                                                 RingRtcDynamicConfiguration.getAudioConfig(),
++                                                RingRtcDynamicConfiguration.getVideoConfig(),
+                                                 videoState.requireLocalSink(),
+                                                 callParticipant.getVideoSink(),
+                                                 videoState.requireRouter(),
+@@ -166,8 +166,8 @@ public class OutgoingCallActionProcessor extends DeviceAwareActionProcessor {
+                                                 NetworkUtil.getCallingDataMode(context),
+                                                 AUDIO_LEVELS_INTERVAL,
+                                                 dredDuration,
+-                                                enableVp9,
+-                                                currentState.getCallSetupState(activePeer).isEnableVideoOnCreate());
++                                                currentState.getCallSetupState(activePeer).isEnableVideoOnCreate(),
++                                                null);
+     } catch (CallException e) {
+       return callFailure(currentState, "Unable to proceed with call: ", e);
+     }
+diff --git a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/RingRtcDynamicConfiguration.kt b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/RingRtcDynamicConfiguration.kt
+index 620809e5a..32d3533c2 100644
+--- a/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/RingRtcDynamicConfiguration.kt
++++ b/app/src/main/java/org/thoughtcrime/securesms/service/webrtc/RingRtcDynamicConfiguration.kt
+@@ -3,6 +3,8 @@ package org.thoughtcrime.securesms.service.webrtc
+ import android.os.Build
+ import org.signal.core.util.asListContains
+ import org.signal.ringrtc.AudioConfig
++import org.signal.ringrtc.SvcConfig
++import org.signal.ringrtc.VideoConfig
+ import org.thoughtcrime.securesms.keyvalue.SignalStore
+ import org.thoughtcrime.securesms.util.RemoteConfig
+ import org.thoughtcrime.securesms.webrtc.audio.AudioDeviceConfig
+@@ -40,4 +42,29 @@ object RingRtcDynamicConfiguration {
+     }
+     return AudioDeviceConfig.getCurrentConfig()
+   }
++
++  /**
++   * POLLY: RingRTC 2.72+ replaced the single "enable VP9" flag with a video config.
++   * Preserve the pre-2.72 behaviour: VP9 is enabled or disabled as a whole based on
++   * the same remote config value that used to be passed to proceed().
++   */
++  @JvmStatic
++  fun getVideoConfig(): VideoConfig {
++    val enableVp9 = RemoteConfig.enableSoftwareVp9
++    return VideoConfig().apply {
++      enableHardwareVp9Encode = enableVp9
++      enableHardwareVp9Decode = enableVp9
++      enableSoftwareVp9Encode = enableVp9
++      enableSoftwareVp9Decode = enableVp9
++    }
++  }
++
++  /**
++   * POLLY: SVC is not configured on the 8.19.2 branch. Passing null preserves the
++   * previous non-SVC behaviour.
++   */
++  @JvmStatic
++  fun getSvcConfig(): SvcConfig? {
++    return null
++  }
+ }
+diff --git a/gradle/verification-metadata.xml b/gradle/verification-metadata.xml
+index 75e6dfde8..05fa5f639 100644
+--- a/gradle/verification-metadata.xml
++++ b/gradle/verification-metadata.xml
+@@ -5730,6 +5730,14 @@ https://docs.gradle.org/current/userguide/dependency_verification.html
+             <sha256 value="d9edd37bb95928d681014cffa163572a407c704b033b97f123fed7d4a5dfbc87" origin="Generated by Gradle"/>
+          </artifact>
+       </component>
++      <component group="im.molly" name="ringrtc-android" version="2.73.0-1">
++         <artifact name="ringrtc-android-2.73.0-1.aar">
++            <sha256 value="f38cf16705fb64f5a36de704697660e2939baef42cfcbf2a547a85c3aa80c24c" origin="Generated by Gradle"/>
++         </artifact>
++         <artifact name="ringrtc-android-2.73.0-1.module">
++            <sha256 value="6ac42923c6384517b13541b156bdcf5b7cefde1476311497c78b6733d44029d3" origin="Generated by Gradle"/>
++         </artifact>
++      </component>
+       <component group="io.arrow-kt" name="arrow-annotations" version="2.2.2.1">
+          <artifact name="arrow-annotations-2.2.2.1.module">
+             <sha256 value="d094135cdba22d74dee0c72d1de6850078ebce508298cbdf4a3e9d37a7898d94" origin="Generated by Gradle"/>

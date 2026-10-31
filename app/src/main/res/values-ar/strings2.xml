@@ -8,7 +8,7 @@
     <string name="ChangePassphraseDialogFragment_weak_passphrase">عبارة مرور ضعيفة!</string>
     <string name="PassphraseCreateActivity_turn_on_database_encryption">شغّل تعمية قاعدة البيانات</string>
     <string name="PassphraseCreateActivity_require_passphrase_to_unlock_molly">هل تتطلب عبارة المرور لفتح مولي؟</string>
-    <string name="PassphraseCreateActivity_now_you_can_set_a_passphrase_to_encrypt_the_database">الآن يمكنك تعيين عبارة مرور لتعمية قاعدة البيانات. حتى يتم إلغاء قفله، لا يمكن ل Molly تلقي الإشعارات أو المكالمات. يساعد هذا في حماية البيانات الموجودة على الأجهزة المفقودة أو المسروقة.</string>
+    <string name="PassphraseCreateActivity_now_you_can_set_a_passphrase_to_encrypt_the_database">الآن يمكنك تعيين عبارة مرور لتعمية قاعدة البيانات. حتى يتم إلغاء قفله، لا يمكن ل Polly تلقي الإشعارات أو المكالمات. يساعد هذا في حماية البيانات الموجودة على الأجهزة المفقودة أو المسروقة.</string>
     <string name="AppProtectionPreferenceFragment_instant">فوري</string>
     <string name="WipeMemoryService_secure_wipe_in_progress">المسح الآمن قيد التقدم</string>
     <string name="preferences__passphrase_changed">غُيّر عبارة المرور</string>
@@ -43,7 +43,7 @@
     <string name="preferences__map_hybrid">هجين</string>
     <string name="preferences__map_normal">طبيعي</string>
     <string name="preferences__periodically_check_for_new_releases_and_ask_to_install_them">تحقق دوريًا من وجود إصدارات جديدة واطلب تثبيتها</string>
-    <string name="preferences__autoupdate_molly">حدّث Molly تلقائيًا</string>
+    <string name="preferences__autoupdate_molly">حدّث Polly تلقائيًا</string>
     <string name="arrays__tor_via_orbot">تور عبر Orbot</string>
     <string name="arrays__none">لا</string>
     <string name="BlockUnblockDialog_block_and_delete">حظر ثم الحذف</string>
@@ -72,7 +72,7 @@
     <string name="NotificationsSettingsFragment__sorry_this_feature_requires_push_notifications_delivered_via_fcm_or_unifiedpush">عذرًا، تتطلب هذه الميزة إرسال إشعارات Push عبر FCM أو UnifiedPush، وهي غير متوفرة حاليًا.</string>
     <string name="arrays__weekly">أسبوعيًا</string>
     <string name="MessageRetrievalService_ready_to_receive_messages">جاهز لتلقي الرسائل</string>
-    <string name="HelpSettingsFragment__molly_im_website">موقع Molly.im</string>
+    <string name="HelpSettingsFragment__molly_im_website">موقع Polly.im</string>
     <string name="DeviceAddFragment__link_without_scanning">ربط دون المسح</string>
     <string name="BiometricDialogFragment__biometric_verification">التحقق البيومتري</string>
     <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_molly">يُرجى التأكد من أنك أنت من تستخدم مولي حقًا</string>
@@ -115,7 +115,7 @@
     <string name="HelpSettingsFragment_for_updates_please_check_your_app_store">للحصول على التحديثات، يُرجى مراجعة متجر تطبيقاتك. لا يتضمن هذا الإصدار تحديث مدمج داخل التطبيق.</string>
     <string name="AppUpdatesSettingsFragment__last_checked_s">آخر فحص: %s</string>
     <string name="prompt_passphrase_activity__molly_is_locked">مولي مُقفَل</string>
-    <string name="LinkDeviceFragment__use_molly_on_another_devices">استخدم مولي (Molly) على جهاز آخر. ستتم مزامنة رسائلك مع الأجهزة المرتبطة.</string>
+    <string name="LinkDeviceFragment__use_molly_on_another_devices">استخدم مولي (Polly) على جهاز آخر. ستتم مزامنة رسائلك مع الأجهزة المرتبطة.</string>
     <string name="LinkDeviceFragment__molly_on_another_device">مولي على جهاز آخر</string>
     <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">الرسائل خاصة على جميع الأجهزة المرتبطة.</string>
     <string name="LinkDeviceFragment__molly_supports_linking_to_other_android_devices">يدعم تطبيق مولي الارتباط بأجهزة أندرويد الأخرى التي تشغّل مولي، بالإضافة إلى أجهزة سطح المكتب وأجهزة iPad التي تشغّل سيجنال.</string>
@@ -125,7 +125,7 @@
     <string name="GcmRefreshJob_switch_to_an_alternative_push_service_in_settings_notifications">قم بالتبديل إلى خدمة push بديلة في الإعدادات &gt; الإشعارات أو قم بإصلاح المشكلة باستخدام خدمات Play.</string>
     <string name="NotificationsSettingsFragment__an_error_occurred_while_registering_for_push_notifications_s">حدث خطأ أثناء التسجيل للحصول على إشعارات push. %s</string>
     <string name="NotificationsSettingsFragment__please_check_if_google_play_services_is_installed_and_enabled">يُرجى التحقق من تثبيت خدمات Google Play وتمكينها، أو التبديل إلى خدمة push بديلة.</string>
-    <string name="DozeReminder_allow_molly_to_deliver_timely_notifications">اسمح لتطبيق Molly بإرسال الإشعارات في الوقت المناسب، حتى عندما يكون جهازك في وضع الاستعداد.</string>
+    <string name="DozeReminder_allow_molly_to_deliver_timely_notifications">اسمح لتطبيق Polly بإرسال الإشعارات في الوقت المناسب، حتى عندما يكون جهازك في وضع الاستعداد.</string>
     <string name="GcmRefreshJob_unable_to_register_with_Google_Play_Services">غير قادر على التسجيل في خدمات Play</string>
     <string name="NotificationsSettingsFragment__push_notifications">إشعارات push</string>
     <string name="NotificationsSettingsFragment__select_your_preferred_service_for_push_notifications">حدد الخدمة المفضلة لديك لتلقي إشعارات push. إذا لم تكن الخدمة متاحة، فسيستخدم التطبيق تلقائيًا WebSocket لضمان تسليم الإشعارات.</string>

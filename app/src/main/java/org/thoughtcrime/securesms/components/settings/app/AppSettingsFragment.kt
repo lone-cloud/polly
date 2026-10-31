@@ -55,6 +55,7 @@ import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.theme.SignalTheme
 import org.signal.core.util.Util
 import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.BuildConfig
 import org.thoughtcrime.securesms.avatar.AvatarImage
 import org.thoughtcrime.securesms.backup.v2.BackupRepository
 import org.thoughtcrime.securesms.banner.Banner
@@ -309,6 +310,7 @@ private fun AppSettingsContent(
           )
         }
 
+        if (BuildConfig.SHOW_DONATIONS) {
         item {
           val context = LocalContext.current
           val donateUrl = stringResource(R.string.donate_url)
@@ -320,6 +322,7 @@ private fun AppSettingsContent(
               CommunicationActions.openBrowserLink(context, donateUrl)
             },
           )
+        }
         }
 
         item {
@@ -347,6 +350,7 @@ private fun AppSettingsContent(
           )
         }
 
+        if (!BuildConfig.HIDE_STORIES) {
         item {
           Rows.TextRow(
             text = stringResource(R.string.preferences__stories),
@@ -356,6 +360,7 @@ private fun AppSettingsContent(
             },
             enabled = isRegisteredAndUpToDate
           )
+        }
         }
 
         item {
@@ -425,18 +430,22 @@ private fun AppSettingsContent(
           }
         }
 
-        item {
-          Dividers.Default()
+        if (BuildConfig.SHOW_HELP || state.showInternalPreferences) {
+          item {
+            Dividers.Default()
+          }
         }
 
-        item {
-          Rows.TextRow(
-            text = stringResource(R.string.preferences__help),
-            icon = painterResource(R.drawable.symbol_help_24),
-            onClick = {
-              callbacks.navigate(AppSettingsRoute.HelpRoute.Settings())
-            }
-          )
+        if (BuildConfig.SHOW_HELP) {
+          item {
+            Rows.TextRow(
+              text = stringResource(R.string.preferences__help),
+              icon = painterResource(R.drawable.symbol_help_24),
+              onClick = {
+                callbacks.navigate(AppSettingsRoute.HelpRoute.Settings())
+              }
+            )
+          }
         }
 
         if (state.showInternalPreferences) {

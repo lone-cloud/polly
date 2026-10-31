@@ -6,7 +6,7 @@
 buildTools = "36.0.0"         # MOLLY: Dockerfile must match this version
 compileSdk = "android-36.1"   # MOLLY: Dockerfile must match this version
 targetSdk = "35"
-minSdk = "27"
+minSdk = "34"               # POLLY: Raise min SDK to Android 14
 ndk = "28.0.13004108"         # MOLLY: Dockerfile must match this version
 javaVersion = "21"
 kotlinJvmTarget = "21"
@@ -164,7 +164,7 @@ libsignal-client = { module = "im.molly:libsignal-client", version.ref = "libsig
 libsignal-android = { module = "im.molly:libsignal-android", version.ref = "libsignal-client" }
 protobuf-gradle-plugin = { module = "com.google.protobuf:protobuf-gradle-plugin", version.ref = "protobuf-gradle-plugin" }
 signal-aesgcmprovider = "org.signal:aesgcmprovider:0.0.4"
-signal-ringrtc = "im.molly:ringrtc-android:2.69.5-1"
+signal-ringrtc = "im.molly:ringrtc-android:2.73.0-1"
 
 # MOLLY
 gosimple-nbvcxz = "me.gosimple:nbvcxz:1.5.0"

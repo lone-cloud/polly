@@ -1,0 +1,84 @@
+name: Auto-Release from Molly
+
+on:
+  push:
+    branches: [main]       # Trigger whenever sync.yml updates main
+  workflow_dispatch:      # Keep manual trigger option
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check-and-merge:
+    name: Check and merge new Molly release
+    runs-on: ubuntu-22.04
+    outputs:
+      should-release: ${{ steps.check.outputs.should-release }}
+      version: ${{ steps.check.outputs.version }}
+      molly-version: ${{ steps.check.outputs.molly-version }}
+      merge-success: ${{ steps.merge.outputs.merge-success }}
+    
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Need full history for merging
+      
+      - name: Check for new Molly release
+        id: check
+        run: |
+          echo "Fetching latest Molly release (including pre-releases)..."
+          MOLLY_VERSION=$(gh release list -R mollyim/mollyim-android -L 1 --json tagName -q '.[0].tagName')
+          IS_PRERELEASE=$(gh release list -R mollyim/mollyim-android -L 1 --json isPrerelease -q '.[0].isPrerelease')
+          echo "Latest Molly version: $MOLLY_VERSION (pre-release: $IS_PRERELEASE)"
+          
+          echo "Polly will use same tag: $MOLLY_VERSION"
+          
+          # Check if we already have a published release for this version
+          RELEASE_STATUS=$(gh release view "$MOLLY_VERSION" -R ${{ github.repository }} --json isDraft -q .isDraft 2>/dev/null || echo "not-found")
+          
+          if [ "$RELEASE_STATUS" = "false" ]; then
+            echo "Published release $MOLLY_VERSION already exists, skipping"
+            echo "should-release=false" >> $GITHUB_OUTPUT
+          else
+            if [ "$RELEASE_STATUS" = "true" ]; then
+              echo "Draft release $MOLLY_VERSION exists, will be completed by release workflow"
+            fi
+            echo "New release needed: $MOLLY_VERSION"
+            echo "should-release=true" >> $GITHUB_OUTPUT
+            echo "version=$MOLLY_VERSION" >> $GITHUB_OUTPUT
+            echo "molly-version=$MOLLY_VERSION" >> $GITHUB_OUTPUT
+            echo "is-prerelease=$IS_PRERELEASE" >> $GITHUB_OUTPUT
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Try to merge new Molly release
+        id: merge
+        if: steps.check.outputs.should-release == 'true'
+        run: |
+          MOLLY_VERSION="${{ steps.check.outputs.molly-version }}"
+          POLLY_TAG="${{ steps.check.outputs.version }}"
+
+          # Configure git
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # sync.yml already keeps main grafted onto molly/main continuously.
+          # No merge needed — just tag current HEAD and release.
+          git tag -f "$POLLY_TAG"
+          git push -f origin "$POLLY_TAG"
+
+          echo "merge-success=true" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  trigger-release:
+    name: Trigger release build
+    needs: check-and-merge
+    if: needs.check-and-merge.outputs.should-release == 'true' && needs.check-and-merge.outputs.merge-success == 'true'
+    uses: ./.github/workflows/release.yml
+    with:
+      version: ${{ needs.check-and-merge.outputs.version }}
+      prerelease: ${{ needs.check-and-merge.outputs.is-prerelease == 'true' }}
+    secrets: inherit
