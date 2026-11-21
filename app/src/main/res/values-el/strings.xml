@@ -31,7 +31,7 @@
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Το Molly αναβαθμίζεται…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">Το Polly αναβαθμίζεται…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">Σφάλμα κατά τη σύνδεση με τον διακομιστή!</string>
@@ -77,7 +77,7 @@
     <string name="AttachmentKeyboard_location">Τοποθεσία</string>
     <!-- Text for a button that will allow users to create a poll -->
     <string name="AttachmentKeyboard_poll">Δημοσκόπηση</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Το Molly χρειάζεται άδεια για να εμφανίσει τις φωτογραφίες και τα βίντεό σου</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Το Polly χρειάζεται άδεια για να εμφανίσει τις φωτογραφίες και τα βίντεό σου</string>
     <!-- Text for a button prompting users to allow Signal access to their gallery storage -->
     <string name="AttachmentKeyboard_allow_access">Να δοθεί πρόσβαση</string>
     <string name="AttachmentKeyboard_payment">Πληρωμή</string>
@@ -88,19 +88,19 @@
     <!-- Option in menu to go to settings -->
     <string name="AttachmentKeyboard_go_to_settings">Πήγαινε στις Ρυθμίσεις</string>
     <!-- Text explaining that Signal has limited access to photos -->
-    <string name="AttachmentKeyboard_signal_has_limited_access">Το Molly έχει περιορισμένη πρόσβαση σε φωτογραφίες ή βίντεο</string>
+    <string name="AttachmentKeyboard_signal_has_limited_access">Το Polly έχει περιορισμένη πρόσβαση σε φωτογραφίες ή βίντεο</string>
     <!-- Text shown when user has given no photos for Signal to access and an explanation on how to change those permissions -->
     <string name="AttachmentKeyboard_no_photos_found">Δεν βρέθηκαν φωτογραφίες, επίλεξε φωτογραφίες και βίντεο για να εμφανιστούν εδώ ή άλλαξε τα δικαιώματα</string>
 
     <!-- MediaGalleryFragment -->
     <!-- Text describing that no photos or videos are currently found in the gallery and that Signal can only access media that the user allows -->
-    <string name="MediaGalleryFragment__no_photos_found">Δεν βρέθηκαν φωτογραφίες ή βίντεο. Το Molly έχει πρόσβαση μόνο σε φωτογραφίες και βίντεο που έχεις επιλέξει.</string>
+    <string name="MediaGalleryFragment__no_photos_found">Δεν βρέθηκαν φωτογραφίες ή βίντεο. Το Polly έχει πρόσβαση μόνο σε φωτογραφίες και βίντεο που έχεις επιλέξει.</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Δεν μπορεί να βρεθεί εφαρμογή για επιλογή πολυμέσων.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Το Molly χρειάζεται τα δικαιώματα Αποθηκευτικού Χώρου για την επισύναψη φωτογραφιών, βίντεο ή κομματιών ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Πήγαινε στις ρυθμίσεις εφαρμογών, επέλεξε τα «Δικαιώματα», και ενεργοποίησε τον «Αποθηκευτικό Χώρο».</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Το Molly χρειάζεται τα δικαιώματα Επαφών για την επισύναψη πληροφοριών επαφών, αλλά αυτά δεν έχουν δοθεί μόνιμα. Πήγαινε στις ρυθμίσεις εφαρμογών, επέλεξε τα «Δικαιώματα», και ενεργοποίησε τις «Επαφές».</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Το Molly χρειάζεται τα δικαιώματα Τοποθεσίας για την επισύναψη τοποθεσιών, αλλά αυτά δεν έχουν δοθεί μόνιμα. Πήγαινε στις ρυθμίσεις εφαρμογών, επέλεξε τα «Δικαιώματα», και ενεργοποίησε την «Τοποθεσία».</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Το Polly χρειάζεται τα δικαιώματα Αποθηκευτικού Χώρου για την επισύναψη φωτογραφιών, βίντεο ή κομματιών ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Πήγαινε στις ρυθμίσεις εφαρμογών, επέλεξε τα «Δικαιώματα», και ενεργοποίησε τον «Αποθηκευτικό Χώρο».</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Το Polly χρειάζεται τα δικαιώματα Επαφών για την επισύναψη πληροφοριών επαφών, αλλά αυτά δεν έχουν δοθεί μόνιμα. Πήγαινε στις ρυθμίσεις εφαρμογών, επέλεξε τα «Δικαιώματα», και ενεργοποίησε τις «Επαφές».</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Το Polly χρειάζεται τα δικαιώματα Τοποθεσίας για την επισύναψη τοποθεσιών, αλλά αυτά δεν έχουν δοθεί μόνιμα. Πήγαινε στις ρυθμίσεις εφαρμογών, επέλεξε τα «Δικαιώματα», και ενεργοποίησε την «Τοποθεσία».</string>
 
     <!-- Dialog title asking users for location permission -->
     <string name="AttachmentManager_signal_allow_access_location">Να δοθεί πρόσβαση στην τοποθεσία σου</string>
@@ -109,13 +109,13 @@
     <!-- Alert dialog description asking for location permission -->
     <string name="AttachmentManager_signal_allow_signal_access_location">Να δοθεί πρόσβαση στο Singal για αποστολή της τοποθεσίας σου.</string>
     <!-- Toast text explaining Signal\'s need for location access -->
-    <string name="AttachmentManager_signal_needs_location_access">Το Molly χρειάζεται πρόσβαση στην τοποθεσία σου για να στείλει την τοποθεσία σου.</string>
+    <string name="AttachmentManager_signal_needs_location_access">Το Polly χρειάζεται πρόσβαση στην τοποθεσία σου για να στείλει την τοποθεσία σου.</string>
     <!-- Dialog title asking users for gallery storage permission -->
     <string name="AttachmentManager_signal_allow_storage">Να δοθεί πρόσβαση στον αποθηκευτικό χώρο</string>
     <!-- Dialog description that will explain the steps needed to give gallery storage permission -->
     <string name="AttachmentManager_signal_to_show_photos">Για την προβολή φωτογραφιών και βίντεο:</string>
     <!-- Toast text explaining Signal\'s need for storage access -->
-    <string name="AttachmentManager_signal_needs_storage_access">Το Molly χρειάζεται πρόσβαση για να εμφανίσει τις φωτογραφίες και τα βίντεό σου.</string>
+    <string name="AttachmentManager_signal_needs_storage_access">Το Polly χρειάζεται πρόσβαση για να εμφανίσει τις φωτογραφίες και τα βίντεό σου.</string>
 
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">Ο χρήστης %1$s δεν έχει ενεργοποιήσει τις πληρωμές </string>
@@ -268,12 +268,12 @@
     <string name="CensorshipCircumventionMegaphone_no_thanks">Όχι, ευχαριστώ</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Αναβάθμιση του Molly</string>
+    <string name="ClientDeprecatedActivity_update_signal">Αναβάθμιση του Polly</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Αυτή η έκδοση της εφαρμογής δεν υποστηρίζεται πιά. Για να συνεχίσεις να στέλνεις και να λαμβάνεις μηνύματα, αναβάθμισε στην πιο πρόσφατη έκδοση.</string>
     <string name="ClientDeprecatedActivity_update">Ενημέρωση</string>
     <string name="ClientDeprecatedActivity_dont_update">Να μην αναβαθμιστεί</string>
     <string name="ClientDeprecatedActivity_warning">Προσοχή</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Η έκδοση του Molly έχει λήξει. Μπορείς να δεις το ιστορικό μηνυμάτων αλλά δεν θα μπορείς να στέλνεις ή να λαμβάνεις μηνύματα μέχρι να κάνεις αναβάθμιση.</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Η έκδοση του Polly έχει λήξει. Μπορείς να δεις το ιστορικό μηνυμάτων αλλά δεν θα μπορείς να στέλνεις ή να λαμβάνεις μηνύματα μέχρι να κάνεις αναβάθμιση.</string>
 
     <!-- ClockSkewActivity -->
     <!-- Title of the full-screen dialog shown when the device clock is too far off from the real time -->
@@ -305,7 +305,7 @@
     <!-- Title on dialog when quick restore qr code is scanned in system camera -->
     <string name="CommunicationActions__transfer_dialog_title">Μεταφορά λογαριασμού σε νέα συσκευή;</string>
     <!-- Message on dialog when quick restore qr code is scanned in system camera -->
-    <string name="CommunicationActions__transfer_dialog_message">Για να μεταφέρεις αυτόν τον λογαριασμό σε μια νέα συσκευή, πάτα «Συνέχεια» και σάρωσε ξανά τον κωδικό QR με την κάμερα Molly. Βεβαιώσου ότι σαρώνεις μόνο κωδικούς QR που προέρχονται απευθείας από το Molly.</string>
+    <string name="CommunicationActions__transfer_dialog_message">Για να μεταφέρεις αυτόν τον λογαριασμό σε μια νέα συσκευή, πάτα «Συνέχεια» και σάρωσε ξανά τον κωδικό QR με την κάμερα Polly. Βεβαιώσου ότι σαρώνεις μόνο κωδικούς QR που προέρχονται απευθείας από το Polly.</string>
     <string name="CommunicationActions__dont_transfer">Να μη γίνει μεταφορά</string>
 
     <!-- ConfirmIdentityDialog -->
@@ -329,8 +329,8 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">Μήνυμα %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">Φωνητική κλήση Molly %1$s</string>
-    <string name="ContactsDatabase_signal_video_call_s">Βιντεοκλήση Molly %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">Φωνητική κλήση Polly %1$s</string>
+    <string name="ContactsDatabase_signal_video_call_s">Βιντεοκλήση Polly %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -441,10 +441,10 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="ConversationActivity_signal_to_send_audio_messages">Για να στείλεις ηχητικά μηνύματα:</string>
     <!-- Alert dialog description asking for microphone permission in order to send voice messages -->
-    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Για να στείλεις φωνητικά μηνύματα, δώσε στο Molly πρόσβαση στο μικρόφωνο.</string>
+    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Για να στείλεις φωνητικά μηνύματα, δώσε στο Polly πρόσβαση στο μικρόφωνο.</string>
     <!-- Toast text explaining Signal\'s need for microphone access -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Το Molly χρειάζεται πρόσβαση στο μικρόφωνο για ηχογράφηση φωνητικού μηνύματος.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Το Molly χρειάζεται τα δικαιώματα μικροφώνου για την αποστολή μηνυμάτων ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Πήγαινε στις ρυθμίσεις εφαρμογών, επίλεξε τα «Δικαιώματα», και ενεργοποίησε το «Μικρόφωνο».</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Το Polly χρειάζεται πρόσβαση στο μικρόφωνο για ηχογράφηση φωνητικού μηνύματος.</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Το Polly χρειάζεται τα δικαιώματα μικροφώνου για την αποστολή μηνυμάτων ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Πήγαινε στις ρυθμίσεις εφαρμογών, επίλεξε τα «Δικαιώματα», και ενεργοποίησε το «Μικρόφωνο».</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
     <string name="ConversationActivity_search_position">%1$d από %2$d</string>
@@ -464,9 +464,9 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions for a voice call -->
     <string name="ConversationActivity__to_start_call">Για να ξεκινήσεις μία κλήση:</string>
     <!-- Alert dialog description asking for microphone permission in order to start a voice call -->
-    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Για να ξεκινήσεις μια κλήση, δώσε στο Molly την πρόσβαση στο μικρόφωνο.</string>
+    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Για να ξεκινήσεις μια κλήση, δώσε στο Polly την πρόσβαση στο μικρόφωνο.</string>
     <!-- Toast text explaining Signal\'s need for microphone access for a voice call -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Το Molly χρειάζεται πρόσβαση στο μικρόφωνο για να ξεκινήσει μια κλήση.</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Το Polly χρειάζεται πρόσβαση στο μικρόφωνο για να ξεκινήσει μια κλήση.</string>
 
 
     <string name="ConversationActivity_join">Μπες στην κλήση</string>
@@ -476,15 +476,15 @@
     <string name="ConversationActivity_error_sending_media">Σφάλμα στην αποστολή πολυμέσων</string>
 
     <!-- Message shown when opening an MMS group conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">Η ανταλλαγή μηνυμάτων SMS δεν υποστηρίζεται πλέον στο Molly.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">Η ανταλλαγή μηνυμάτων SMS δεν υποστηρίζεται πλέον στο Polly.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Η ανταλλαγή μηνυμάτων SMS δεν υποστηρίζεται πλέον στο Signal. Προσκάλεσε τον χρήστη %1$s στο Signal για να κρατήσεις εδώ τη συνομιλία.</string>
     <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
-    <string name="ConversationActivity__this_person_is_no_longer_using_signal">Αυτό το άτομο δεν χρησιμοποιεί πλέον το Molly. Προσκάλεσέ το στο Molly για να κρατήσεις εδώ τη συνομιλία.</string>
+    <string name="ConversationActivity__this_person_is_no_longer_using_signal">Αυτό το άτομο δεν χρησιμοποιεί πλέον το Polly. Προσκάλεσέ το στο Polly για να κρατήσεις εδώ τη συνομιλία.</string>
     <!-- Message shown when opening a conversation with an unregistered user who is not on Signal -->
     <string name="ConversationActivity__this_person_is_not_using_signal">Αυτό το άτομο δεν χρησιμοποιεί το Signal. Προσκάλεσέ το στο Signal για να κρατήσεις εδώ τη συνομιλία.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__invite_to_signal">Πρόσκληση στο Molly</string>
+    <string name="ConversationActivity__invite_to_signal">Πρόσκληση στο Polly</string>
     <!-- Toast message shown when trying to record a voice message during an ongoing call -->
     <string name="ConversationFragment_cannot_record_voice_message_during_call">Δεν είναι δυνατή η εγγραφή ηχητικού μηνύματος κατά την κλήση.</string>
 
@@ -577,15 +577,15 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">Λίστα αποκλεισμού</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">Αναβάθμιση του Molly</string>
+    <string name="ConversationFragment__update_build">Αναβάθμιση του Polly</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Νέα εγγραφή στο Molly</string>
+    <string name="ConversationFragment__reregister_signal">Νέα εγγραφή στο Polly</string>
     <!-- Action shown in the conversation input area to allow a user to re-link this device as it is no longer linked -->
     <string name="ConversationFragment__relink_signal">Επανασύνδεση</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">Περιήγηση προς τα πίσω.</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Άνοιγμα Molly</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">Άνοιγμα Polly</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">Δεν έχει πλέον επαλήθευση</string>
     <!-- Button shown in conversation header when in a message request state and no groups in common to show new message safety tips -->
@@ -632,7 +632,7 @@
     <!-- Title of the dialog shown when re-requesting an expired attachment from your primary device fails -->
     <string name="ConversationFragment_attachment_backfill_failed_title">Δεν είναι δυνατή η λήψη πολυμέσων</string>
     <!-- Body of the dialog shown when your phone didn\'t respond to a request to re-send an expired attachment -->
-    <string name="ConversationFragment_attachment_backfill_timeout">Έλεγξε τη συσκευή και τη σύνδεση του τηλεφώνου σου στο διαδίκτυο. Άνοιξε το Molly στο τηλέφωνό σου και, στη συνέχεια, δοκίμασε να το κατεβάσεις ξανά.</string>
+    <string name="ConversationFragment_attachment_backfill_timeout">Έλεγξε τη συσκευή και τη σύνδεση του τηλεφώνου σου στο διαδίκτυο. Άνοιξε το Polly στο τηλέφωνό σου και, στη συνέχεια, δοκίμασε να το κατεβάσεις ξανά.</string>
     <!-- Body of the dialog shown when your phone no longer has the attachment you tried to download -->
     <string name="ConversationFragment_attachment_backfill_not_found">Αυτό το πολυμέσο δεν είναι πλέον διαθέσιμο στο τηλέφωνό σου και δεν είναι δυνατή η λήψη του.</string>
     <!-- Dialog for how to long to keep a messaged pinned for -->
@@ -702,7 +702,7 @@
     <!-- Bottom sheet text explaining that profile names are chosen by the account holder. Placeholder will be \'Profile names\' -->
     <string name="ProfileNameBottomSheet__profile_names_on_signal">Τα %1$s στο Signal επιλέγονται από τον κάτοχο του λογαριασμού.</string>
     <!-- Bottom sheet text explaining that Signal can\'t verify names and photos -->
-    <string name="ProfileNameBottomSheet__signal_cant_verify">Το Molly δεν μπορεί να επαληθεύσει ονόματα και φωτογραφίες</string>
+    <string name="ProfileNameBottomSheet__signal_cant_verify">Το Polly δεν μπορεί να επαληθεύσει ονόματα και φωτογραφίες</string>
     <!-- Bottom sheet text explaining that Signal will never contact you for registration code, PIN, or recovery key -->
     <string name="ProfileNameBottomSheet__signal_will_never_contact">Το Signal δεν θα επικοινωνήσει ποτέ μαζί σου για τον κωδικό εγγραφής, το PIN σου ή το κλειδί ανάκτησής σου</string>
     <!-- Bottom sheet text explaining that accounts can impersonate other people and to be cautious -->
@@ -844,9 +844,9 @@
     <!-- Toolbar title for this screen -->
     <string name="WhoCanSeeMyPhoneNumberFragment__who_can_find_me_by_number">Ποιοί μπορούν να με βρουν με τον αριθμό μου;</string>
     <!-- Description for radio item stating anyone can see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">Όποιος έχει τον αριθμό τηλεφώνου σου θα βλέπει ότι είσαι στο Molly και θα μπορεί να ξεκινήσει συνομιλία μαζί σου.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">Όποιος έχει τον αριθμό τηλεφώνου σου θα βλέπει ότι είσαι στο Polly και θα μπορεί να ξεκινήσει συνομιλία μαζί σου.</string>
     <!-- Description for radio item stating no one will be able to see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">Κανείς δεν θα μπορεί να δει ότι είσαι στο Molly εκτός και αν στείλεις μήνυμα ή δεν έχεις ήδη μια συνομιλία μαζί του.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">Κανείς δεν θα μπορεί να δει ότι είσαι στο Polly εκτός και αν στείλεις μήνυμα ή δεν έχεις ήδη μια συνομιλία μαζί του.</string>
 
     <!-- ChooseBackupFragment -->
 
@@ -872,7 +872,7 @@
     <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Δοκίμασε το συνθηματικό του αντιγράφου ασφαλείας σου και επιβεβαίωσε ότι ταιριάζει.</string>
     <string name="BackupsPreferenceFragment__turn_on">Ενεργοποίηση αντιγράφων ασφαλείας</string>
     <string name="BackupsPreferenceFragment__turn_off">Απενεργοποίηση</string>
-    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Για να ανακτήσεις ένα αντίγραφο ασφαλείας, εγκατέστησε από την αρχή το Molly. Άνοιξε την εφαρμογή, πάτα \"Επαναφορά αντίγραφου ασφαλείας\" και εντόπισε ένα αρχείο - αντίγραφο ασφαλείας. %1$s"</string>
+    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Για να ανακτήσεις ένα αντίγραφο ασφαλείας, εγκατέστησε από την αρχή το Polly. Άνοιξε την εφαρμογή, πάτα \"Επαναφορά αντίγραφου ασφαλείας\" και εντόπισε ένα αρχείο - αντίγραφο ασφαλείας. %1$s"</string>
     <string name="BackupsPreferenceFragment__learn_more">Μάθε περισσότερα</string>
     <string name="BackupsPreferenceFragment__in_progress">Σε εξέλιξη…</string>
     <!-- Status text shown in backup preferences when verifying a backup -->
@@ -881,7 +881,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">%1$d μέχρι τώρα…</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">%1$s%% μέχρι τώρα…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Το Molly χρειάζεται τα δικαιώματα πρόσβασης εξωτερικής μνήμης για τη δημιουργία αντιγράφων ασφαλείας, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πήγαινε στις ρυθμίσεις εφαρμογών, επέλεξε τα \"Δικαιώματα\", και ενεργοποίησε το \"Αποθηκευτικός Χώρος\".</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Το Polly χρειάζεται τα δικαιώματα πρόσβασης εξωτερικής μνήμης για τη δημιουργία αντιγράφων ασφαλείας, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πήγαινε στις ρυθμίσεις εφαρμογών, επέλεξε τα \"Δικαιώματα\", και ενεργοποίησε το \"Αποθηκευτικός Χώρος\".</string>
     <!-- Title of dialog shown when picking the time to perform a chat backup -->
     <string name="BackupsPreferenceFragment__set_backup_time">Ορισμός ώρας δημιουργίας αντίγραφου ασφαλείας</string>
 
@@ -959,7 +959,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">Η συνομιλία ανανεώθηκε</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Το Molly χρησιμοποιεί κρυπτογράφηση από άκρο σε άκρο και ίσως χρειάζεται να ανανεώσει τη συνέδρια της συνομιλίας σου μερικές φορές. Αυτό δεν επηρεάζει την ασφάλεια της συνομιλίας, αλλά ίσως χάσεις κάποιο μήνυμα από αυτή την επαφή, οπότε μπορείς να του/της ζητήσεις να το ξαναστείλει.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Το Polly χρησιμοποιεί κρυπτογράφηση από άκρο σε άκρο και ίσως χρειάζεται να ανανεώσει τη συνέδρια της συνομιλίας σου μερικές φορές. Αυτό δεν επηρεάζει την ασφάλεια της συνομιλίας, αλλά ίσως χάσεις κάποιο μήνυμα από αυτή την επαφή, οπότε μπορείς να του/της ζητήσεις να το ξαναστείλει.</string>
 
     <!-- LinkDeviceFragment -->
     <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
@@ -1068,7 +1068,7 @@
     <!-- Bottom sheet title telling users to complete the linking process on the other device  -->
     <string name="AddLinkDeviceFragment__finish_linking_on_other_device">Ολοκλήρωσε τη σύνδεση στην άλλη συσκευή σου</string>
     <!-- Bottom sheet description telling users to complete the linking process -->
-    <string name="AddLinkDeviceFragment__finish_linking_signal">Ολοκλήρωσε τη σύνδεση του Molly στην άλλη συσκευή σου.</string>
+    <string name="AddLinkDeviceFragment__finish_linking_signal">Ολοκλήρωσε τη σύνδεση του Polly στην άλλη συσκευή σου.</string>
     <!-- Title of dialog when the QR code being scanned is invalid -->
     <string name="AddLinkDeviceFragment__linking_device_failed">Αποτυχία σύνδεσης συσκευής</string>
     <!-- Text shown in a dialog when the QR code being scanned is invalid -->
@@ -1113,19 +1113,19 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">Βελτιστοποίηση για τις υπηρεσίες Play που λείπουν</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Αυτή η συσκευή δεν υποστηρίζει τις υπηρεσίες Play. Πάτα για απενεργοποίηση των βελτιστοποιήσεων μπαταρίας του συστήματος που εμποδίζουν το Molly από το να λαμβάνει μηνύματα όταν είναι ανενεργό.</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Αυτή η συσκευή δεν υποστηρίζει τις υπηρεσίες Play. Πάτα για απενεργοποίηση των βελτιστοποιήσεων μπαταρίας του συστήματος που εμποδίζουν το Polly από το να λαμβάνει μηνύματα όταν είναι ανενεργό.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Αυτή η έκδοση Molly έχει λήξει. Αναβάθμισε τώρα για να στείλεις και να λάβεις μηνύματα.</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Αυτή η έκδοση Polly έχει λήξει. Αναβάθμισε τώρα για να στείλεις και να λάβεις μηνύματα.</string>
     <string name="ExpiredBuildReminder_update_now">Αναβάθμιση τώρα</string>
 
     <!-- A message in a banner shown at the top of the screen indicating that the user must upgrade their device to use signal. -->
-    <string name="DeprecatedSdkBanner_body">Η Molly δεν λειτουργεί πλέον σε αυτή τη συσκευή. Για να χρησιμοποιήσεις πάλι τη Molly, ενημέρωσε τη συσκευή σου με μια νεότερη έκδοση Android ή συνδέσου σε μια νεότερη συσκευή.</string>
+    <string name="DeprecatedSdkBanner_body">Η Polly δεν λειτουργεί πλέον σε αυτή τη συσκευή. Για να χρησιμοποιήσεις πάλι τη Polly, ενημέρωσε τη συσκευή σου με μια νεότερη έκδοση Android ή συνδέσου σε μια νεότερη συσκευή.</string>
 
     <!-- Title of notification telling users to update Signal -->
-    <string name="DeprecatedNotificationJob_update_signal">Αναβάθμισε το Molly</string>
+    <string name="DeprecatedNotificationJob_update_signal">Αναβάθμισε το Polly</string>
     <!-- Message body of notification telling users that this current version of Signal has expired. If pressed, we will direct them to the website APK or PlayStore page -->
-    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Αυτή η έκδοση Molly έχει λήξει. Πάτα για ενημέρωση, ώστε να μπορείς να στέλνεις και να λαμβάνεις μηνύματα.</string>
+    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Αυτή η έκδοση Polly έχει λήξει. Πάτα για ενημέρωση, ώστε να μπορείς να στέλνεις και να λαμβάνεις μηνύματα.</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
     <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -1259,7 +1259,7 @@
     <!-- Message for dialog asking user to submit logs for debugging a crash -->
     <string name="PromptLogsSlowNotificationsDialog__message">Τα αρχεία συμβάντων αποσφαλμάτωσης βοηθούν να διαγνώσουμε και να διορθώσουμε το πρόβλημα και δεν περιλαμβάνουν πληροφορίες ταυτοποίησης.</string>
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
-    <string name="PromptLogsSlowNotificationsDialog__title_crash">Το Molly αντιμετώπισε πρόβλημα. Αποστολή αρχείου συμβάντων αποσφαλμάτωσης;</string>
+    <string name="PromptLogsSlowNotificationsDialog__title_crash">Το Polly αντιμετώπισε πρόβλημα. Αποστολή αρχείου συμβάντων αποσφαλμάτωσης;</string>
     <!-- Title for dialog asking user to submit logs for a situation where they\'re not able to connect to the signal service -->
     <string name="PromptLogsSlowNotificationsDialog__title_connectivity_warning">Μπορεί να μην λαμβάνεις μηνύματα. Αποστολή αρχείου καταγραφής αποσφαλμάτωσης;</string>
 
@@ -1267,12 +1267,12 @@
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
     <string name="PromptBatterySaverBottomSheet__title">Οι ειδοποιήσεις ενδέχεται να καθυστερήσουν λόγω βελτιστοποιήσεων της μπαταρίας</string>
     <!-- Message explaining that battery saver may delay notifications -->
-    <string name="PromptBatterySaverBottomSheet__message">Μπορείς να απενεργοποιήσεις τις βελτιστοποιήσεις μπαταρίας για το Molly για να διασφαλίσεις ότι οι ειδοποιήσεις μηνυμάτων δεν θα καθυστερούν.</string>
+    <string name="PromptBatterySaverBottomSheet__message">Μπορείς να απενεργοποιήσεις τις βελτιστοποιήσεις μπαταρίας για το Polly για να διασφαλίσεις ότι οι ειδοποιήσεις μηνυμάτων δεν θα καθυστερούν.</string>
 
     <!-- Title in bottom sheet that states that notifications for this device could be delayed -->
     <string name="DeviceSpecificNotificationBottomSheet__notifications_may_be_delayed">Οι ειδοποιήσεις ενδέχεται να καθυστερήσουν λόγω βελτιστοποιήσεων της μπαταρίας</string>
     <!-- Message in bottom sheet prompting users to fix potential issues by disabling battery optimizations -->
-    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Απενεργοποίησε τις βελτιστοποιήσεις μπαταρίας για το Molly για να διασφαλίσεις ότι οι ειδοποιήσεις μηνυμάτων δεν θα καθυστερούν. Πάτα «Συνέχεια» για να δεις τις οδηγίες που αφορούν την εκάστοτε συσκευή.</string>
+    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Απενεργοποίησε τις βελτιστοποιήσεις μπαταρίας για το Polly για να διασφαλίσεις ότι οι ειδοποιήσεις μηνυμάτων δεν θα καθυστερούν. Πάτα «Συνέχεια» για να δεις τις οδηγίες που αφορούν την εκάστοτε συσκευή.</string>
     <!-- Button to dismiss notification help prompt -->
     <string name="DeviceSpecificNotificationBottomSheet__no_thanks">Όχι, ευχαριστώ</string>
     <!-- Button to continue and go to Signal support website -->
@@ -1281,7 +1281,7 @@
     <!-- Title of a bottom sheet that is shown when the user is having connectivity issues -->
     <string name="ConnectivityWarningBottomSheet_title">Μπορεί να μην λαμβάνεις μηνύματα</string>
     <!-- Body of a bottom sheet that is shown when the user is having connectivity issues -->
-    <string name="ConnectivityWarningBottomSheet_body">Η επανεκκίνηση της συσκευής σου μπορεί να βοηθήσει στην επίλυση του προβλήματος παράδοσης μηνυμάτων. Εάν το πρόβλημα εξακολουθεί να υφίσταται, επικοινώνησε με την υποστήριξη Molly.</string>
+    <string name="ConnectivityWarningBottomSheet_body">Η επανεκκίνηση της συσκευής σου μπορεί να βοηθήσει στην επίλυση του προβλήματος παράδοσης μηνυμάτων. Εάν το πρόβλημα εξακολουθεί να υφίσταται, επικοινώνησε με την υποστήριξη Polly.</string>
     <!-- Text for a button in a bottom sheet that is shown when the user is having connectivity issues. Clicking it will dismiss the bottom sheet. -->
     <string name="ConnectivityWarningBottomSheet_dismiss_button">Εντάξει</string>
 
@@ -1468,9 +1468,9 @@
     </plurals>
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Αναβάθμσε το Molly για να χρησιμοποιήσεις συνδέσμους ομαδών.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Η έκδοση Molly που χρησιμοποιείς δεν υποστηρίζει αυτό τον σύνδεσμο ομάδας. Αναβάθμισε στη πιο πρόσφατη έκδοση για να μπεις στην ομάδα μέσω του συνδέσμου.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Αναβάθμιση του Molly</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Αναβάθμσε το Polly για να χρησιμοποιήσεις συνδέσμους ομαδών.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Η έκδοση Polly που χρησιμοποιείς δεν υποστηρίζει αυτό τον σύνδεσμο ομάδας. Αναβάθμισε στη πιο πρόσφατη έκδοση για να μπεις στην ομάδα μέσω του συνδέσμου.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Αναβάθμιση του Polly</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Ο σύνδεσμος ομάδας δεν είναι έγκυρος</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -1516,7 +1516,7 @@
     <string name="LongMessageActivity_your_message">Το μήνυμά σου</string>
 
     <!-- MessageRetrievalService -->
-    <string name="MessageRetrievalService_signal">Molly</string>
+    <string name="MessageRetrievalService_signal">Polly</string>
     <string name="MessageRetrievalService_background_connection_enabled">Η σύνδεση στο παρασκήνιο ενεργοποιήθηκε</string>
 
     <!-- MediaOverviewActivity -->
@@ -1608,10 +1608,10 @@
   <!-- Removed by excludeNonTranslatables <string name="StarredMessages__s_chevron_s" translatable="false">%1$s \u203A %2$s</string> -->
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Γίνεται κλήση Molly</string>
+    <string name="NotificationBarManager__establishing_signal_call">Γίνεται κλήση Polly</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Έναρξη υπηρεσίας κλήσεων Molly</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Η υπηρεσία κλήσεων του Molly σταματάει</string>
+    <string name="NotificationBarManager__starting_signal_call_service">Έναρξη υπηρεσίας κλήσεων Polly</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">Η υπηρεσία κλήσεων του Polly σταματάει</string>
     <string name="NotificationBarManager__cancel_call">Ακύρωση κλήσης</string>
 
     <!-- NotificationsMegaphone -->
@@ -1942,7 +1942,7 @@
     </plurals>
 
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Δεν θα μπορείς πια να στείλεις μηνύματα SMS στο Molly. Προσκάλεσε τον χρήστη %1$s στο Molly για να κρατήσεις εδώ τη συνομιλία.</string>
+    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Δεν θα μπορείς πια να στείλεις μηνύματα SMS στο Polly. Προσκάλεσε τον χρήστη %1$s στο Polly για να κρατήσεις εδώ τη συνομιλία.</string>
     <!-- Body for quote when message being quoted is an in-app payment message -->
     <string name="MessageRecord__payment_s">Πληρωμή: %1$s</string>
     <!-- Body for quote when message being quoted is an in-app payment message tombstone without an amount -->
@@ -2057,20 +2057,20 @@
     <string name="DeviceProvisioningActivity_link_a_signal_device">Σύνδεση κάποιας συσκευής Signal;</string>
     <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">Για να συνδέσεις έναν υπολογιστή ή ένα iPad σε αυτόν τον λογαριασμό Signal, πήγαινε στις Συνδεδεμένες συσκευές, πάτησε «Σύνδεση νέας συσκευής» και σάρωσε ξανά τον κωδικό QR. Βεβαιώσου ότι σαρώνεις μόνο κωδικούς QR που προέρχονται απευθείας από το Signal.</string>
 
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Αυτή η έκδοση Molly θα λήξει τώρα. Αναβάθμισε στη πιο πρόσφατη έκδοση.</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Αυτή η έκδοση Polly θα λήξει τώρα. Αναβάθμισε στη πιο πρόσφατη έκδοση.</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="one">Αυτή η έκδοση του Molly θα λήξει αύριο. Κάνε αναβάθμιση στην πιο πρόσφατη έκδοση.</item>
-        <item quantity="other">Αυτή η έκδοση του Molly θα λήξει σε %1$d ημέρες. Κάνε αναβάθμιση στην πιο πρόσφατη έκδοση.</item>
+        <item quantity="one">Αυτή η έκδοση του Polly θα λήξει αύριο. Κάνε αναβάθμιση στην πιο πρόσφατη έκδοση.</item>
+        <item quantity="other">Αυτή η έκδοση του Polly θα λήξει σε %1$d ημέρες. Κάνε αναβάθμιση στην πιο πρόσφατη έκδοση.</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Εισαγωγή συνθηματικού</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Εικονίδιο Molly</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Εικονίδιο Polly</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Καταχώρηση συνθηματικού</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Μη έγκυρο συνθηματικό!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Ξεκλείδωσε το Molly</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Ξεκλείδωσε το Polly</string>
     <!-- This is the subject line for the email that is sent to support -->
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Molly Android - Κλείδωμα οθόνης</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Polly Android - Κλείδωμα οθόνης</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Χάρτης</string>
@@ -2096,7 +2096,7 @@
         <item quantity="one">Έχεις ακόμα %1$d προσπάθεια. Αν τις εξαντλήσεις, θα πρέπει να δημιουργήσεις ένα νέο PIN. Θα έχεις τη δυνατότητα να εγγραφτείς και να χρησιμοποιήσεις τον λογαριασμό σου, αλλά θα χάσεις κάποιες αποθηκευμένες ρυθμίσεις όπως οι πληροφορίες προφίλ σου.</item>
         <item quantity="other">Έχεις ακόμα %1$d προσπάθειες. Αν τις εξαντλήσεις, θα πρέπει να δημιουργήσεις ένα νέο PIN. Θα έχεις τη δυνατότητα να εγγραφτείς και να χρησιμοποιήσεις τον λογαριασμό σου, αλλά θα χάσεις κάποιες αποθηκευμένες ρυθμίσεις όπως οι πληροφορίες προφίλ σου.</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Εγγραφή στο Molly - Βοήθεια με το PIN σε Android</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Εγγραφή στο Polly - Βοήθεια με το PIN σε Android</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">Δημιούργησε το PIN σου</string>
@@ -2128,7 +2128,7 @@
 
     <!-- RecaptchaRequiredBottomSheetFragment -->
     <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">Επιβεβαίωσε για να συνεχίσεις να συνομιλείς</string>
-    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Για να περιορίσουμε το spam στο Molly, παρακαλούμε ολοκλήρωσε την επιβεβαίωση.</string>
+    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Για να περιορίσουμε το spam στο Polly, παρακαλούμε ολοκλήρωσε την επιβεβαίωση.</string>
     <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">Αφού επιβεβαιώσεις, θα μπορέσεις να συνεχίσεις να στέλνεις μηνύματα. Όσα μηνύματα βρίσκονται σε αναμονή θα αποσταλλούν αυτόματα.</string>
 
     <!-- Recipient -->
@@ -2136,7 +2136,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">Η ιστορία μου</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Κλήση Molly</string>
+    <string name="Recipient_signal_call">Κλήση Polly</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">Αποκλεισμός</string>
@@ -2173,7 +2173,7 @@
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Πάτα εδώ για να ενεργοποιήσεις το βίντεό σου</string>
     <!-- Subtitle shown at top of call where %s is the elapsed time of the call -->
-    <string name="WebRtcCallActivity__signal_s">Molly %1$s</string>
+    <string name="WebRtcCallActivity__signal_s">Polly %1$s</string>
     <string name="WebRtcCallActivity__calling">Καλεί…</string>
     <!-- Title for dialog warning about lacking bluetooth permissions during a call -->
     <string name="WebRtcCallActivity__bluetooth_permission_denied">Δεν δόθηκαν δικαιώματα για bluetooth</string>
@@ -2188,7 +2188,7 @@
     <!-- Title for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
     <string name="WebRtcCallActivity__others_couldnt_hear_you">Δεν μπορούσαν να σε ακούσουν</string>
     <!-- Message for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
-    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">Το μικρόφωνό σου ήταν σε σίγαση ενώ η εφαρμογή Molly λειτουργούσε στο παρασκήνιο. Για να το διορθώσεις, πάτα στις Ρυθμίσεις και ενεργοποίησε τη δραστηριότητα στο υπόβαθρο στις ρυθμίσεις Μπαταρίας.</string>
+    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">Το μικρόφωνό σου ήταν σε σίγαση ενώ η εφαρμογή Polly λειτουργούσε στο παρασκήνιο. Για να το διορθώσεις, πάτα στις Ρυθμίσεις και ενεργοποίησε τη δραστηριότητα στο υπόβαθρο στις ρυθμίσεις Μπαταρίας.</string>
     <!-- Title for dialog to approve all requests -->
     <plurals name="WebRtcCallActivity__approve_d_requests">
         <item quantity="one">Έγκριση %1$d αιτήματος;</item>
@@ -2238,15 +2238,15 @@
     <!-- Dialog title asking users for camera permission -->
     <string name="WebRtcCallActivity__allow_access_camera">Να δοθεί πρόσβαση στην κάμερα</string>
     <!-- Dialog description explaining why camera and microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__to_start_call_camera_microphone">Για να ξεκινήσεις ή να μπεις σε μια κλήση, δώσε στο Molly πρόσβαση στην κάμερα και στο μικρόφωνό σου.</string>
+    <string name="WebRtcCallActivity__to_start_call_camera_microphone">Για να ξεκινήσεις ή να μπεις σε μια κλήση, δώσε στο Polly πρόσβαση στην κάμερα και στο μικρόφωνό σου.</string>
     <!-- Dialog description explaining why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__to_start_call_microphone">Για να ξεκινήσεις ή να μπεις σε μια κλήση, δώσε στο Molly πρόσβαση στο μικρόφωνό σου.</string>
+    <string name="WebRtcCallActivity__to_start_call_microphone">Για να ξεκινήσεις ή να μπεις σε μια κλήση, δώσε στο Polly πρόσβαση στο μικρόφωνό σου.</string>
     <!-- Dialog description explaining why camera permissions are needed to enable a user\'s video in a call -->
-    <string name="WebRtcCallActivity__to_enable_video_allow_camera">Για να ενεργοποιήσεις το βίντεο, δώσε στο Molly πρόσβαση στην κάμερά σου.</string>
+    <string name="WebRtcCallActivity__to_enable_video_allow_camera">Για να ενεργοποιήσεις το βίντεο, δώσε στο Polly πρόσβαση στην κάμερά σου.</string>
     <!-- Toast describing why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Το Molly χρειάζεται τα δικαιώματα μικροφώνου για να ξεκινήσεις ή να μπεις σε μία συνομιλία.</string>
+    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Το Polly χρειάζεται τα δικαιώματα μικροφώνου για να ξεκινήσεις ή να μπεις σε μία συνομιλία.</string>
     <!-- Toast describing why camera permissions are needed to enable a video in a call -->
-    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">Το Molly χρειάζεται πρόσβαση στην κάμερα για ενεργοποίηση του βίντεο</string>
+    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">Το Polly χρειάζεται πρόσβαση στην κάμερα για ενεργοποίηση του βίντεο</string>
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="WebRtcCallActivity__to_start_call">Για να ξεκινήσεις ή να μπεις σε μία κλήση:</string>
     <!-- Dialog description that will explain the steps needed to give camera permissions -->
@@ -2259,8 +2259,8 @@
     <string name="MoveableLocalVideoRenderer__expand_local_video">Ανάπτυξη τοπικού βίντεο</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Κλήση Molly</string>
-    <string name="WebRtcCallView__signal_video_call">Βιντεοκλήση Molly</string>
+    <string name="WebRtcCallView__signal_call">Κλήση Polly</string>
+    <string name="WebRtcCallView__signal_video_call">Βιντεοκλήση Polly</string>
     <string name="WebRtcCallView__start_call">Έναρξη κλήσης</string>
     <string name="WebRtcCallView__join_call">Είσοδος στην κλήση</string>
     <string name="WebRtcCallView__call_is_full">Η κλήση είναι γεμάτη</string>
@@ -2569,7 +2569,7 @@
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">Προσθήκη στις επαφές</string>
-    <string name="SharedContactView_invite_to_signal">Πρόσκληση στο Molly</string>
+    <string name="SharedContactView_invite_to_signal">Πρόσκληση στο Polly</string>
     <!-- Button on a shared contact card that opens a chat with that contact. It can share a row with other buttons, so a short label is preferred -->
     <string name="SharedContactView_message_button">Μήνυμα</string>
     <!-- Button on a contact card shared in a group chat that adds the person on the card to that group -->
@@ -2696,7 +2696,7 @@
     <!-- Shown when no stickers match the search. The placeholder what was searched. -->
     <string name="StickerManagement_search_no_results_s">Δε βρέθηκαν αποτελέσματα για \"%1$s\"</string>
     <!-- Sticker pack button for forwarding a sticker link. -->
-    <string name="StickerManagement_menu_send_signal_pack">Κοινοποίηση μέσω Molly</string>
+    <string name="StickerManagement_menu_send_signal_pack">Κοινοποίηση μέσω Polly</string>
     <!-- Sticker pack button that opens a bottom sheet with more share options. -->
     <string name="StickerManagement_menu_link_pack">Σύνδεσμος</string>
     <!-- Sticker pack sheet option for sharing a sticker pack link using the system share sheet. -->
@@ -2862,11 +2862,11 @@
     <string name="ThreadRecord_blocked_group">Λίστα αποκλεισμού</string>
 
     <!-- ApkUpdateNotifications -->
-    <string name="ApkUpdateNotifications_prompt_install_title">Αναβάθμιση Molly</string>
-    <string name="ApkUpdateNotifications_prompt_install_body">Μια νέα έκδοση του Molly είναι διαθέσιμη. Πάτα για ενημέρωση.</string>
-    <string name="ApkUpdateNotifications_failed_general_title">Αποτυχία ενημέρωσης Molly</string>
+    <string name="ApkUpdateNotifications_prompt_install_title">Αναβάθμιση Polly</string>
+    <string name="ApkUpdateNotifications_prompt_install_body">Μια νέα έκδοση του Polly είναι διαθέσιμη. Πάτα για ενημέρωση.</string>
+    <string name="ApkUpdateNotifications_failed_general_title">Αποτυχία ενημέρωσης Polly</string>
     <string name="ApkUpdateNotifications_failed_general_body">Θα προσπαθήσουμε ξανά αργότερα.</string>
-    <string name="ApkUpdateNotifications_auto_update_success_title">Το Molly ενημερώθηκε με επιτυχία</string>
+    <string name="ApkUpdateNotifications_auto_update_success_title">Το Polly ενημερώθηκε με επιτυχία</string>
     <string name="ApkUpdateNotifications_auto_update_success_body">Έγινε αυτόματη ενημέρωση της εφαρμογής σου στην έκδοση %1$s.</string>
     <string name="ApkUpdateNotifications_manual_update_success_body">Έκανες ενημέρωση στην έκδοση %1$s.</string>
 
@@ -2893,7 +2893,7 @@
     <string name="VerifyIdentityActivity_our_signal_safety_number">Ο αριθμός ασφαλείας μας:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">Φαινεται πως δεν έχεις κάποια εφαρμογή με την οποία να μπορείς να μοιραστείς.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Δε βρέθηκε αριθμός ασφαλείας στο πρόχειρο για να γίνει σύγκριση</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Το Molly χρειάζεται τα δικαιώματα Κάμερας για το σκανάρισμα του κωδικού QR, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πήγαινε στις ρυθμίσεις εφαρμογών, επέλεξε τα \"Δικαιώματα\", και ενεργοποίησε την \"Κάμερα\".</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Το Polly χρειάζεται τα δικαιώματα Κάμερας για το σκανάρισμα του κωδικού QR, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πήγαινε στις ρυθμίσεις εφαρμογών, επέλεξε τα \"Δικαιώματα\", και ενεργοποίησε την \"Κάμερα\".</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Θα πρέπει πρώτα να ανταλλάξετε μηνύματα για να δείς τον αριθμό ασφαλείας του/της %1$s.</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
     <string name="VerifyIdentityActivity_dialog_exchange_messages_to_create_safety_number_message">Θα δημιουργηθεί ένας αριθμός ασφαλείας με αυτό το άτομο αφού ανταλλάξετε μηνύματα μεταξύ σας.</string>
@@ -2930,8 +2930,8 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Πάτα για άνοιγμα.</string>
-    <string name="KeyCachingService_passphrase_cached">Το Molly ξεκλειδώθηκε</string>
-    <string name="KeyCachingService_lock">Κλείδωμα του Molly</string>
+    <string name="KeyCachingService_passphrase_cached">Το Polly ξεκλειδώθηκε</string>
+    <string name="KeyCachingService_lock">Κλείδωμα του Polly</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">Εσύ</string>
@@ -2984,7 +2984,7 @@
     <string name="MessageNotifier_failed_to_deliver_message">Αποτυχία παράδοσης του μηνύματος.</string>
     <string name="MessageNotifier_error_delivering_message">Σφάλμα κατά την παράδοση του μηνύματος.</string>
     <string name="MessageNotifier_message_delivery_paused">Αποστολή μηνύματος σε παύση.</string>
-    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Επαληθεύστε για να συνεχίσετε να αποστέλλετε μηνύματα στο Molly.</string>
+    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Επαληθεύστε για να συνεχίσετε να αποστέλλετε μηνύματα στο Polly.</string>
     <string name="MessageNotifier_mark_all_as_read">Σημείωση όλων ως αναγνωσμένα</string>
     <string name="MessageNotifier_mark_read">Σημείωση ως αναγνωσμένο</string>
     <string name="MessageNotifier_turn_off_these_notifications">Απενεργοποίηση αυτών των ειδοποιήσεων</string>
@@ -3008,7 +3008,7 @@
     <!-- Body of a notification when someone votes in a poll. First placeholder is the poll emoji, second placeholder is the name of the voter and third is the poll question -->
     <string name="MessageNotifier_s_voted_in_poll">%1$s Ο χρήστης %2$s ψήφισε στη δημοσκόπηση \"%3$s\"</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Απενεργοποίηση των ειδοποιήσεων για επαφές που έρχονται στο Molly; Μπορείς να τις ενεργοποιήσεις ξανά στο Molly &gt; Ρυθμίσεις &gt; Ειδοποιήσεις.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Απενεργοποίηση των ειδοποιήσεων για επαφές που έρχονται στο Polly; Μπορείς να τις ενεργοποιήσεις ξανά στο Polly &gt; Ρυθμίσεις &gt; Ειδοποιήσεις.</string>
 
     <!-- TurnOnNotificationsBottomSheet -->
     <!-- Title for sheet explaining how to turn on app notifications -->
@@ -3084,7 +3084,7 @@
     </plurals>
 
     <!-- Message shown when the app requests permission to save media to the device storage, but that permission has been permanently denied by the user. -->
-    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Το Molly χρειάζεται τα δικαιώματα Αποθηκευτικού Χώρου για αποθήκευση στην εξωτερική μνήμη, αλλά αυτά δεν έχουν δοθεί μόνιμα. Πήγαινε στις ρυθμίσεις εφαρμογών, επίλεξε τα \"Δικαιώματα\", και ενεργοποίησε το \"Αποθηκευτικός Χώρος\".</string>
+    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Το Polly χρειάζεται τα δικαιώματα Αποθηκευτικού Χώρου για αποθήκευση στην εξωτερική μνήμη, αλλά αυτά δεν έχουν δοθεί μόνιμα. Πήγαινε στις ρυθμίσεις εφαρμογών, επίλεξε τα \"Δικαιώματα\", και ενεργοποίησε το \"Αποθηκευτικός Χώρος\".</string>
 
     <!-- Message explaining that it is not possible to save media to the device storage after the user denied the system save to storage permission. -->
     <string name="AttachmentSaver__unable_to_write_to_external_storage_without_permission">Η αποθήκευση στην εξωτερική μνήμη είναι αδύνατη χωρίς δικαιώματα</string>
@@ -3094,11 +3094,11 @@
     <!-- Dialog title shown when attempting to save media that has been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_media">Δεν ήταν δυνατή η αποθήκευση πολυμέσων</string>
     <!-- Dialog message explaining that media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__media_offloaded_message">Αυτό το αρχείο πολυμέσων έχει αφαιρεθεί από τη συσκευή σου επειδή είναι ενεργοποιημένη η λειτουργία \"Βελτιστοποίηση αποθηκευτικού χώρου Molly\". Μπορείς να κατεβάσεις τα αρχεία ένα προς ένα ή να απενεργοποιήσεις την επιλογή \"Βελτιστοποίηση αποθηκευτικού χώρου Molly\" για να κατεβάσεις όλα τα αρχεία πολυμέσων στη συσκευή σου.</string>
+    <string name="AttachmentSaver__media_offloaded_message">Αυτό το αρχείο πολυμέσων έχει αφαιρεθεί από τη συσκευή σου επειδή είναι ενεργοποιημένη η λειτουργία \"Βελτιστοποίηση αποθηκευτικού χώρου Polly\". Μπορείς να κατεβάσεις τα αρχεία ένα προς ένα ή να απενεργοποιήσεις την επιλογή \"Βελτιστοποίηση αποθηκευτικού χώρου Polly\" για να κατεβάσεις όλα τα αρχεία πολυμέσων στη συσκευή σου.</string>
     <!-- Dialog title shown when attempting to save multiple media items, some of which have been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_all_items">Δεν ήταν δυνατή η αποθήκευση όλων των στοιχείων</string>
     <!-- Dialog message explaining that some selected media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__some_media_offloaded_message">Ορισμένα αρχεία πολυμέσων που επέλεξες έχουν μεταφερθεί από τη συσκευή σου, καθώς είναι ενεργοποιημένη η λειτουργία \"Βελτιστοποίηση αποθηκευτικό χώρου Molly\". Μπορείς να αποθηκεύσεις τα στοιχεία ένα προς ένα ή να απενεργοποιήσεις την επιλογή \"Βελτιστοποίηση αποθηκευτικού χώρου Molly\" για να κατεβάσεις όλα τα αρχεία πολυμέσων στη συσκευή σου.</string>
+    <string name="AttachmentSaver__some_media_offloaded_message">Ορισμένα αρχεία πολυμέσων που επέλεξες έχουν μεταφερθεί από τη συσκευή σου, καθώς είναι ενεργοποιημένη η λειτουργία \"Βελτιστοποίηση αποθηκευτικό χώρου Polly\". Μπορείς να αποθηκεύσεις τα στοιχεία ένα προς ένα ή να απενεργοποιήσεις την επιλογή \"Βελτιστοποίηση αποθηκευτικού χώρου Polly\" για να κατεβάσεις όλα τα αρχεία πολυμέσων στη συσκευή σου.</string>
     <!-- Button label in the offloaded media dialog that navigates to the storage settings screen. -->
     <string name="AttachmentSaver__view_storage_settings">Προβολή ρυθμίσεων αποθηκευτικού χώρου</string>
 
@@ -3111,7 +3111,7 @@
     <string name="ShortcutLauncherActivity_invalid_shortcut">Μη έγκυρη συντόμευση</string>
 
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_signal">Molly</string>
+    <string name="SingleRecipientNotificationBuilder_signal">Polly</string>
     <string name="SingleRecipientNotificationBuilder_new_message">Νέο μήνυμα</string>
     <string name="SingleRecipientNotificationBuilder_message_request">Αίτημα μηνύματος</string>
     <string name="SingleRecipientNotificationBuilder_you">Εσύ</string>
@@ -3187,20 +3187,20 @@
 
     <!-- UnauthorizedReminder -->
     <!-- Message shown in a reminder banner when the user\'s device is no longer registered -->
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Αυτή η συσκευή δεν είναι πλέον εγγεγραμμένη. Αυτό συνέβη μάλλον επειδή καταχώρησες τον αριθμό τηλεφώνου σου στο Molly σε άλλη συσκευή.</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Αυτή η συσκευή δεν είναι πλέον εγγεγραμμένη. Αυτό συνέβη μάλλον επειδή καταχώρησες τον αριθμό τηλεφώνου σου στο Polly σε άλλη συσκευή.</string>
     <!-- Action in reminder banner that will take user to re-register -->
     <string name="UnauthorizedReminder_reregister_action">Επανεγγραφή συσκευής</string>
     <!-- Message shown in a reminder banner when this linked device is no longer linked to a primary device -->
-    <string name="UnauthorizedReminder_this_device_is_no_longer_linked_relink_to_continue_messaging">Αυτή η συσκευή δεν είναι πια συνδεδεμένη. Σύνδεσε ξανά το Molly στο τηλέφωνό σου για να συνεχίσεις να στέλνεις μηνύματα.</string>
+    <string name="UnauthorizedReminder_this_device_is_no_longer_linked_relink_to_continue_messaging">Αυτή η συσκευή δεν είναι πια συνδεδεμένη. Σύνδεσε ξανά το Polly στο τηλέφωνό σου για να συνεχίσεις να στέλνεις μηνύματα.</string>
     <!-- Action in reminder banner that will take the user to re-link this device -->
     <string name="UnauthorizedReminder_relink_action">Σύνδεση συσκευής ξανά</string>
 
     <!-- Push notification when the app is forcibly logged out by the server. -->
-    <string name="LoggedOutNotification_you_have_been_logged_out">Αποσυνδέθηκες από το Molly σε αυτή τη συσκευή.</string>
+    <string name="LoggedOutNotification_you_have_been_logged_out">Αποσυνδέθηκες από το Polly σε αυτή τη συσκευή.</string>
 
     <!-- EnclaveFailureReminder -->
     <!-- Banner message to update app to use payments -->
-    <string name="EnclaveFailureReminder_update_signal">Ενημερώστε το Molly για να συνεχίσεις να χρησιμοποιείς πληρωμές. Το υπόλοιπό σου ενδέχεται να μην είναι ενημερωμένο.</string>
+    <string name="EnclaveFailureReminder_update_signal">Ενημερώστε το Polly για να συνεχίσεις να χρησιμοποιείς πληρωμές. Το υπόλοιπό σου ενδέχεται να μην είναι ενημερωμένο.</string>
     <!-- Banner button to update now -->
 
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Απαντήθηκε από συνδεμένη συσκευή.</string>
@@ -3242,14 +3242,14 @@
     <string name="change_passphrase_activity__repeat_new_passphrase">Νέο συνθηματικό (ξανά)</string>
 
     <!-- contact_selection_activity -->
-    <string name="contact_selection_activity__invite_to_signal">Πρόσκληση στο Molly</string>
+    <string name="contact_selection_activity__invite_to_signal">Πρόσκληση στο Polly</string>
     <string name="contact_selection_activity__new_group">Νέα ομάδα</string>
     <!-- Row item title for refreshing contacts -->
     <string name="contact_selection_activity__refresh_contacts">Ανανέωση επαφών</string>
     <!-- Row item description for refreshing contacts -->
     <string name="contact_selection_activity__missing_someone">Λείπει κάποια επαφή; Κάνε ανανέωση</string>
     <!-- Row item title for finding people on Signal via your contacts -->
-    <string name="contact_selection_activity__find_people_you_know">Βρες άτομα που γνωρίζεις στο Molly</string>
+    <string name="contact_selection_activity__find_people_you_know">Βρες άτομα που γνωρίζεις στο Polly</string>
     <!-- Row item description asking users for access to their contacts to find people they know -->
     <string name="contact_selection_activity__allow_access_to_contacts">Να δοθεί πρόσβαση στις επαφές</string>
     <!-- Row header title for more section -->
@@ -3268,7 +3268,7 @@
     <string name="SingleContactSelectionActivity_contact_photo">Φωτογραφία επαφής</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Το Molly χρειάζεται τα δικαιώματα Επαφών για την εμφάνιση των επαφών σου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πήγαινε στις ρυθμίσεις εφαρμογών, επέλεξε τα \"Δικαιώματα\", και ενεργοποίησε τις \"Επαφές\".</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Το Polly χρειάζεται τα δικαιώματα Επαφών για την εμφάνιση των επαφών σου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πήγαινε στις ρυθμίσεις εφαρμογών, επέλεξε τα \"Δικαιώματα\", και ενεργοποίησε τις \"Επαφές\".</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Σφάλμα κατά τη λήψη επαφών, έλεγξε τη σύνδεσή σου στο δίκτυο</string>
     <string name="ContactSelectionListFragment_username_not_found">Το όνομα χρήστη δε βρέθηκε</string>
     <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"Ο/Η \"%1$s\" δεν είναι χρήστης του Signal. Παρακαλώ επιβεβαίωσε το όνομα χρήστη και ξαναδοκίμασε."</string>
@@ -3288,7 +3288,7 @@
     <!-- Dialog title asking users for contact permission -->
     <string name="ContactSelectionListFragment_allow_access_contacts">Να δοθεί πρόσβαση στις επαφές</string>
     <!-- Dialog description that will explain the steps needed to give contact permissions -->
-    <string name="ContactSelectionListFragment_to_find_people">Για να βρεις άτομα που γνωρίζεις στο Molly:</string>
+    <string name="ContactSelectionListFragment_to_find_people">Για να βρεις άτομα που γνωρίζεις στο Polly:</string>
     <!-- Text on button prompting users to give Signal contact permissions -->
     <string name="ContactSelectionListFragment__allow_access">Να δοθεί πρόσβαση</string>
     <!-- Text on button to dismiss Signal\'s request for contact permissions -->
@@ -3418,7 +3418,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">Τα Bubbles είναι ένα χαρακτηριστικό του Android που μπορείς να απενεργοποιήσεις για συνομιλίες Molly</string>
+    <string name="BubbleOptOutTooltip__description">Τα Bubbles είναι ένα χαρακτηριστικό του Android που μπορείς να απενεργοποιήσεις για συνομιλίες Polly</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">Όχι τώρα</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -3559,20 +3559,20 @@
     <!-- Bottom sheet title when encryption is auto-verified -->
     <string name="EncryptionVerifiedSheet__title_success">Η κρυπτογράφηση επαληθεύτηκε αυτόματα για αυτήν τη συνομιλία</string>
     <!-- Bottom sheet body when encryption is auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_success">Για τα άτομα με τα οποία έχεις συνδεθεί μέσω αριθμού τηλεφώνου, το Molly μπορεί να επιβεβαιώσει αυτόματα εάν η σύνδεση είναι ασφαλής χρησιμοποιώντας μια διαδικασία που ονομάζεται διαφάνεια κλειδιού. Για πρόσθετη ασφάλεια, επαλήθευσε την κρυπτογράφηση από άκρο σε άκρο χειροκίνητα συγκρίνοντας τους αριθμούς στην προηγούμενη οθόνη ή σαρώνοντας τον κωδικό στη συσκευή τους.</string>
+    <string name="EncryptionVerifiedSheet__body_success">Για τα άτομα με τα οποία έχεις συνδεθεί μέσω αριθμού τηλεφώνου, το Polly μπορεί να επιβεβαιώσει αυτόματα εάν η σύνδεση είναι ασφαλής χρησιμοποιώντας μια διαδικασία που ονομάζεται διαφάνεια κλειδιού. Για πρόσθετη ασφάλεια, επαλήθευσε την κρυπτογράφηση από άκρο σε άκρο χειροκίνητα συγκρίνοντας τους αριθμούς στην προηγούμενη οθόνη ή σαρώνοντας τον κωδικό στη συσκευή τους.</string>
     <!-- Bottom sheet title when encryption is no longer auto-verified -->
     <string name="EncryptionVerifiedSheet__title_no_longer_unavailable">Η αυτόματη επαλήθευση δεν είναι διαθέσιμη για αυτήν τη συνομιλία</string>
     <!-- Bottom sheet body when encryption is no longer auto-verified. Placeholder is the name of the person. -->
-    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Το Molly δεν μπορεί να επαληθεύσει αυτόματα την κρυπτογράφηση για αυτήν τη συνομιλία. Αυτό πιθανότατα οφείλεται στο γεγονός ότι ο χρήστης %1$s άλλαξε τον αριθμό τηλεφώνου του ή τις ρυθμίσεις απορρήτου του τηλεφώνου του. Επαλήθευσε την κρυπτογράφηση από άκρο σε άκρο χειροκίνητα συγκρίνοντας τους αριθμούς στην προηγούμενη οθόνη ή σαρώνοντας τον κωδικό στη συσκευή τους.</string>
+    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Το Polly δεν μπορεί να επαληθεύσει αυτόματα την κρυπτογράφηση για αυτήν τη συνομιλία. Αυτό πιθανότατα οφείλεται στο γεγονός ότι ο χρήστης %1$s άλλαξε τον αριθμό τηλεφώνου του ή τις ρυθμίσεις απορρήτου του τηλεφώνου του. Επαλήθευσε την κρυπτογράφηση από άκρο σε άκρο χειροκίνητα συγκρίνοντας τους αριθμούς στην προηγούμενη οθόνη ή σαρώνοντας τον κωδικό στη συσκευή τους.</string>
     <!-- Bottom sheet title when encryption cannot be auto-verified -->
     <string name="EncryptionVerifiedSheet__title_unavailable">Η αυτόματη επαλήθευση δεν είναι διαθέσιμη για αυτήν τη συνομιλία</string>
     <!-- Bottom sheet body when encryption cannot be auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_unavailable">Το Molly μπορεί να επαληθεύσει αυτόματα την κρυπτογράφηση μόνο σε συνομιλίες όπου έχεις συνδεθεί με κάποιον χρήστη μέσω ενός αριθμού τηλεφώνου. Εάν η συνομιλία ξεκίνησε με όνομα χρήστη ή μια κοινή ομάδα, επαλήθευσε την κρυπτογράφηση από άκρο σε άκρο συγκρίνοντας τους αριθμούς στην προηγούμενη οθόνη ή σαρώνοντας τον κωδικό στη συσκευή τους.</string>
+    <string name="EncryptionVerifiedSheet__body_unavailable">Το Polly μπορεί να επαληθεύσει αυτόματα την κρυπτογράφηση μόνο σε συνομιλίες όπου έχεις συνδεθεί με κάποιον χρήστη μέσω ενός αριθμού τηλεφώνου. Εάν η συνομιλία ξεκίνησε με όνομα χρήστη ή μια κοινή ομάδα, επαλήθευσε την κρυπτογράφηση από άκρο σε άκρο συγκρίνοντας τους αριθμούς στην προηγούμενη οθόνη ή σαρώνοντας τον κωδικό στη συσκευή τους.</string>
 
     <!-- Title for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__title">Το Molly μπορεί πλέον να επαληθεύσει αυτόματα την κρυπτογράφηση</string>
+    <string name="VerifyAutomaticallyEducationSheet__title">Το Polly μπορεί πλέον να επαληθεύσει αυτόματα την κρυπτογράφηση</string>
     <!-- Body for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__body">Για τις επαφές με τις οποίες έχεις συνδεθεί μέσω αριθμού τηλεφώνου, το Molly μπορεί να επιβεβαιώσει αυτόματα εάν η σύνδεση είναι ασφαλής χρησιμοποιώντας μια διαδικασία που ονομάζεται διαφάνεια κλειδιού. Για επιπλέον ασφάλεια, μπορείς ακόμα να επαληθεύσεις τις συνδέσεις χειροκίνητα χρησιμοποιώντας έναν κωδικό QR ή έναν αριθμό ασφαλείας.</string>
+    <string name="VerifyAutomaticallyEducationSheet__body">Για τις επαφές με τις οποίες έχεις συνδεθεί μέσω αριθμού τηλεφώνου, το Polly μπορεί να επιβεβαιώσει αυτόματα εάν η σύνδεση είναι ασφαλής χρησιμοποιώντας μια διαδικασία που ονομάζεται διαφάνεια κλειδιού. Για επιπλέον ασφάλεια, μπορείς ακόμα να επαληθεύσεις τις συνδέσεις χειροκίνητα χρησιμοποιώντας έναν κωδικό QR ή έναν αριθμό ασφαλείας.</string>
     <!-- Button to learn more about automatic verification -->
     <string name="VerifyAutomaticallyEducationSheet__learn_more">Μάθε περισσότερα</string>
     <!-- Button to go to verification page -->
@@ -3646,7 +3646,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <!-- Heading used within support email that lists additional information to help with debugging -->
     <string name="HelpFragment__support_info">Πληροφορίες υποστήριξης</string>
-    <string name="HelpFragment__signal_android_support_request">Αίτημα υποστήριξης Molly Android</string>
+    <string name="HelpFragment__signal_android_support_request">Αίτημα υποστήριξης Polly Android</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__debug_log" translatable="false">Debug Log:</string> -->
     <string name="HelpFragment__could_not_upload_logs">Δεν μπόρεσαν να ανέβουν τα αρχεία καταγραφής</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">Παρακαλούμε να είσαι όσο γίνεται πιο περιγραφικός/ή για να μας βοηθήσεις να καταλάβουμε το πρόβλημα.</string>
@@ -3756,7 +3756,7 @@
     <string name="preferences__normal">Κανονικό</string>
     <string name="preferences__slow">Αργό</string>
     <string name="preferences__advanced">Για προχωρημένους</string>
-    <string name="preferences__donate_to_signal">Κάνε μια δωρεά στο Molly</string>
+    <string name="preferences__donate_to_signal">Κάνε μια δωρεά στο Polly</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">Ιστορίες</string>
     <string name="preferences__storage">Αποθηκευτικός χώρος</string>
@@ -3838,7 +3838,7 @@
     <string name="preferences_communication__category_censorship_circumvention">Παράκαμψη λογοκρισίας</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Παράκαμψη λογοκρισίας</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Αν είναι ενεργοποιημένο, το Molly θα προσπαθήσει να παρακάμψει την λογοκρισία. Μην ενεργοποιήσεις αυτή την επιλογή εκτός και αν βρίσκεσαι σε περιοχή όπου το Molly έχει λογοκριθεί/μπλοκαριστεί.</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Αν είναι ενεργοποιημένο, το Polly θα προσπαθήσει να παρακάμψει την λογοκρισία. Μην ενεργοποιήσεις αυτή την επιλογή εκτός και αν βρίσκεσαι σε περιοχή όπου το Polly έχει λογοκριθεί/μπλοκαριστεί.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Η παράκαμψη λογοκρισίας ενεργοποιήθηκε βάσει του αριθμού τηλεφώνου του λογαριασμού σου.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
@@ -3866,7 +3866,7 @@
     <!-- Preference title for automatic key verification -->
     <string name="preferences_automatic_key_verification">Αυτόματη επαλήθευση κλειδιού</string>
     <!-- Preference summary for automatic key verification -->
-    <string name="preferences_automatic_key_verification_body">Όταν είναι ενεργοποιημένο, το Molly θα επιχειρήσει να επαληθεύσει αυτόματα την κρυπτογράφηση των προσωπικών συνομιλιών.</string>
+    <string name="preferences_automatic_key_verification_body">Όταν είναι ενεργοποιημένο, το Polly θα επιχειρήσει να επαληθεύσει αυτόματα την κρυπτογράφηση των προσωπικών συνομιλιών.</string>
 
 
     <!-- Internal only preferences -->
@@ -3883,7 +3883,7 @@
 
     <!-- Displayed on a welcome screen for payments -->
     <string name="PaymentsHomeFragment_introducing_payments">Παρουσίαση των πληρωμών</string>
-    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Ενεργοποίησε το MobileCoin, ένα νέο ψηφιακό νόμισμα με εστίαση στο απόρρητο, για να στέλνεις και να δέχεσαι στο Molly.</string>
+    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Ενεργοποίησε το MobileCoin, ένα νέο ψηφιακό νόμισμα με εστίαση στο απόρρητο, για να στέλνεις και να δέχεσαι στο Polly.</string>
     <string name="PaymentsHomeFragment__activate_payments">Ενεργοποίηση πληρωμών</string>
     <string name="PaymentsHomeFragment__activating_payments">Ενεργοποίηση πληρωμών…</string>
     <string name="PaymentsHomeFragment__restore_payments_account">Επαναφορά λογαριασμού πληρωμών</string>
@@ -3909,7 +3909,7 @@
     <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Οι πληρωμές δεν είναι διαθέσιμες στην περιοχή σας.</string>
     <string name="PaymentsHomeFragment__could_not_enable_payments">Δεν ήταν δυνατή η ενεργοποίηση πληρωμών. Δοκιμάστε ξανά αργότερα.</string>
     <string name="PaymentsHomeFragment__deactivate_payments_question">Απενεργοποίηση πληρωμών;</string>
-    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Δεν θα μπορείτε να στείλετε ή να λάβετε MobileCoin στο Molly εάν απενεργοποιήσετε τις πληρωμές.</string>
+    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Δεν θα μπορείτε να στείλετε ή να λάβετε MobileCoin στο Polly εάν απενεργοποιήσετε τις πληρωμές.</string>
     <string name="PaymentsHomeFragment__deactivate">Απενεργοποίηση</string>
     <string name="PaymentsHomeFragment__continue">Συνέχεια</string>
     <string name="PaymentsHomeFragment__balance_is_not_currently_available">Το υπόλοιπο δεν είναι διαθέσιμο αυτήν τη στιγμή.</string>
@@ -3918,10 +3918,10 @@
     <string name="PaymentsHomeFragment__details">Λεπτομέρειες</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
     <!-- Displayed as a description in a dialog when the user tries to activate payments -->
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Μπορείς να χρησιμοποιήσεις το Molly για να στέλνεις και να λαμβάνεις MobileCoin. Όλες οι πληρωμές υπόκεινται στους Όρους Χρήσης για τα MobileCoin και το πορτοφόλι MobileCoin. Ενδέχεται να αντιμετωπίσεις ορισμένα ζητήματα και οι πληρωμές ή τα υπόλοιπα που μπορεί να χάσεις δεν μπορούν να ανακτηθούν. </string>
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Μπορείς να χρησιμοποιήσεις το Polly για να στέλνεις και να λαμβάνεις MobileCoin. Όλες οι πληρωμές υπόκεινται στους Όρους Χρήσης για τα MobileCoin και το πορτοφόλι MobileCoin. Ενδέχεται να αντιμετωπίσεις ορισμένα ζητήματα και οι πληρωμές ή τα υπόλοιπα που μπορεί να χάσεις δεν μπορούν να ανακτηθούν. </string>
     <string name="PaymentsHomeFragment__activate">Ενεργοποίηση</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">Προβολή όρων MobileCoin</string>
-    <string name="PaymentsHomeFragment__payments_not_available">Οι πληρωμές στο Molly δεν είναι πλέον διαθέσιμες. Μπορείτε ακόμα να μεταφέρετε χρήματα προς ένα ανταλλακτήριο, αλλά δεν μπορείτε πλέον να στέλνετε και να λαμβάνετε πληρωμές ή να προσθέτετε χρήματα.</string>
+    <string name="PaymentsHomeFragment__payments_not_available">Οι πληρωμές στο Polly δεν είναι πλέον διαθέσιμες. Μπορείτε ακόμα να μεταφέρετε χρήματα προς ένα ανταλλακτήριο, αλλά δεν μπορείτε πλέον να στέλνετε και να λαμβάνετε πληρωμές ή να προσθέτετε χρήματα.</string>
 
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string> -->
     <!-- Alert dialog title which shows up after a payment to turn on payment lock -->
@@ -4004,9 +4004,9 @@
     <string name="PaymentsTransferFragment__next">Επόμενο</string>
     <string name="PaymentsTransferFragment__invalid_address">Μη έγκυρη διεύθυνση</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Ελέγξτε τη διεύθυνση πορτοφολιού στην οποία προσπαθείτε να μεταφέρετε και δοκιμάστε ξανά.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Δεν μπορείτε να πραγματοποιήσετε μεταφορά στη δική σας διεύθυνση πορτοφολιού Molly. Εισαγάγετε τη διεύθυνση πορτοφολιού στον λογαριασμό σας σε ένα υποστηριζόμενο ανταλλακτήριο.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Για να σαρώσει έναν κωδικό QR, το Molly χρειάζεται πρόσβαση στην κάμερα.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Για να σαρώσετε έναν κωδικό QR, το Molly χρειάζεται πρόσβαση στην κάμερά σας.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Δεν μπορείτε να πραγματοποιήσετε μεταφορά στη δική σας διεύθυνση πορτοφολιού Polly. Εισαγάγετε τη διεύθυνση πορτοφολιού στον λογαριασμό σας σε ένα υποστηριζόμενο ανταλλακτήριο.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Για να σαρώσει έναν κωδικό QR, το Polly χρειάζεται πρόσβαση στην κάμερα.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Για να σαρώσετε έναν κωδικό QR, το Polly χρειάζεται πρόσβαση στην κάμερά σας.</string>
 
     <!-- PaymentsTransferQrScanFragment -->
     <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Σάρωση Κωδικού QR Διεύθυνσης</string>
@@ -4367,17 +4367,17 @@
 
     <!-- CallNotificationBuilder -->
     <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Εισερχόμενη ηχητική κλήση Molly</string>
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">Εισερχόμενη ηχητική κλήση Polly</string>
     <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Εισερχόμενη βιντεοκλήση Molly</string>
+    <string name="CallNotificationBuilder__incoming_signal_video_call">Εισερχόμενη βιντεοκλήση Polly</string>
     <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Εισερχόμενη ομαδική κλήση Molly</string>
+    <string name="CallNotificationBuilder__incoming_signal_group_call">Εισερχόμενη ομαδική κλήση Polly</string>
     <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Ηχητική κλήση Molly σε εξέλιξη</string>
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Ηχητική κλήση Polly σε εξέλιξη</string>
     <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Βιντεοκλήση Molly σε εξέλιξη</string>
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">Βιντεοκλήση Polly σε εξέλιξη</string>
     <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Ομαδική κλήση Molly σε εξέλιξη</string>
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">Ομαδική κλήση Polly σε εξέλιξη</string>
 
     <string name="CallNotificationBuilder_connecting">Συνδέεται…</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">Συνθηματικό αντίγραφου ασφαλείας</string>
@@ -4403,9 +4403,9 @@
     <string name="BackupDialog_verify">Επιβεβαίωση</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">Εισάγατε το συνθηματικό αντιγράφου ασφαλείας με επιτυχία</string>
     <string name="BackupDialog_passphrase_was_not_correct">Το συνθηματικό δεν ήταν σωστό</string>
-    <string name="LocalBackupJob_creating_signal_backup">Δημιουργείται το αντίγραφο ασφαλείας Molly…</string>
+    <string name="LocalBackupJob_creating_signal_backup">Δημιουργείται το αντίγραφο ασφαλείας Polly…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Επιβεβαίωση αντιγράφου ασφαλείας Molly…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">Επιβεβαίωση αντιγράφου ασφαλείας Polly…</string>
     <string name="LocalBackupJobApi29_backup_failed">Ή δημιουργία αντίγραφου ασφαλείας απέτυχε</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">Ο φάκελος αντίγραφων ασφαλείας έχει διαγραφεί ή μετακινηθεί.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">Το αρχείο - αντίγραφο ασφαλείας είναι πολύ μεγάλο για να αποθηκευτεί σε αυτή τη συσκευή.</string>
@@ -4420,7 +4420,7 @@
     <string name="RegistrationActivity_call_me_instead_available_in">Κάλεσέ με (%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">Επαναποστολή κωδικού σε(%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_code_support_subject">Εγγραφή Molly - Κωδικός επαλήθευσης για Android</string>
+    <string name="RegistrationActivity_code_support_subject">Εγγραφή Polly - Κωδικός επαλήθευσης για Android</string>
     <string name="RegistrationActivity_incorrect_code">Λάθος κωδικός</string>
     <string name="BackupUtil_never">Ποτέ</string>
     <!-- Subtext below last backup time when we do not know when the last backup was -->
@@ -4436,11 +4436,11 @@
     <string name="preferences_chats__backups">Αντίγραφα ασφαλείας</string>
 
     <!-- Title text shown when Signal is locked and needs to be unlocked -->
-    <string name="prompt_passphrase_activity__unlock_signal">Ξεκλείδωσε το Molly</string>
+    <string name="prompt_passphrase_activity__unlock_signal">Ξεκλείδωσε το Polly</string>
     <!-- Description text explaining how to unlock Signal -->
-    <string name="prompt_passphrase_activity__use_your_android_device">Χρησιμοποίησε τις ρυθμίσεις κλειδώματος της συσκευής Android σου για ξεκλείδωμα του Molly.</string>
+    <string name="prompt_passphrase_activity__use_your_android_device">Χρησιμοποίησε τις ρυθμίσεις κλειδώματος της συσκευής Android σου για ξεκλείδωμα του Polly.</string>
     <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
-    <string name="prompt_passphrase_activity__screen_lock_is_on">Το κλείδωμα οθόνης είναι ενεργοποιημένο και το Molly είναι ασφαλές με τις ρυθμίσεις κλειδώματος της συσκευής σoυ. Ξεκλείδωσε το Molly με τον ίδιο τρόπο που θα ξεκλείδωνες το τηλέφωνό σου, δηλαδή με Ξεκλείδωμα προσώπου, Ξεκλείδωμα δακτυλικών αποτυπωμάτων, PIN, κωδικό πρόσβασης ή μοτίβο.</string>
+    <string name="prompt_passphrase_activity__screen_lock_is_on">Το κλείδωμα οθόνης είναι ενεργοποιημένο και το Polly είναι ασφαλές με τις ρυθμίσεις κλειδώματος της συσκευής σoυ. Ξεκλείδωσε το Polly με τον ίδιο τρόπο που θα ξεκλείδωνες το τηλέφωνό σου, δηλαδή με Ξεκλείδωμα προσώπου, Ξεκλείδωμα δακτυλικών αποτυπωμάτων, PIN, κωδικό πρόσβασης ή μοτίβο.</string>
     <!-- Button in a dialog that will contact Signal support if pressed -->
     <string name="prompt_passphrase_activity__contact_support">Επικοινωνία με την υποστήριξη</string>
     <!-- Button text to try again after unlocking has previously failed -->
@@ -4459,11 +4459,11 @@
     <!-- Title of an informational card shown on the account settings screen of a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__this_is_a_linked_device">Αυτή είναι μία συνδεδεμένη συσκευή</string>
     <!-- Body of an informational card explaining that account settings must be managed from the primary device -->
-    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">Για να διαχειριστείς τις ρυθμίσεις του λογαριασμού σου, άνοιξε την εφαρμογή Molly στην κύρια συσκευή σου.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">Για να διαχειριστείς τις ρυθμίσεις του λογαριασμού σου, άνοιξε την εφαρμογή Polly στην κύρια συσκευή σου.</string>
     <!-- Title of a settings row that deletes all Signal data from this linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data">Διαγραφή δεδομένων εφαρμογής</string>
     <!-- Subtitle of the delete app data row explaining what it does -->
-    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">Αυτή η ενέργεια θα διαγράψει όλα τα δεδομένα από την εφαρμογή Molly σε αυτή τη συσκευή.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">Αυτή η ενέργεια θα διαγράψει όλα τα δεδομένα από την εφαρμογή Polly σε αυτή τη συσκευή.</string>
     <!-- Title of the confirmation dialog shown when deleting app data from a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data_question">Διαγραφή δεδομένων εφαρμογής;</string>
     <!-- Message of the confirmation dialog explaining that only this device\'s data is deleted, not the account -->
@@ -4495,10 +4495,10 @@
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">Αναζητούμε τη νέα συσκευή Android…</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Το Molly χρειάζεται την άδεια τοποθεσίας για να ανακαλύψει και να συνδεθεί στη νέα σου συσκευή Android.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Το Molly χρειάζεται να έχεις την τοποθεσία ενεργοποιημένη για να ανακαλύψει και να συνδεθεί στη νέα σου συσκευή Android.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Το Molly χρειάζεται ενεργοποιημένο το Wi-Fi για να ανακαλύψει και να συνδεθεί στη νέα σου συσκευή Android. Το Wi-Fi χρειάζεται να είναι ενεργοποιημένο αλλά δεν χρειάζεται να είναι συνδεδεμένο σε κάποιο δίκτυο Wi-Fi.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Συγγνώμη, φαίνεται πως αυτή η συσκευή δεν υποστηρίζει το Wi-Fi Direct. Το Molly χρησιμοποιεί το Wi-Fi Direct για να ανακαλύψει και να συνδεθεί με τη νέα σου συσκευή Android. Μπορείς παρ\' όλα αυτά να επαναφέρεις ένα αντίγραφο ασφαλείας, για να επαναφέρεις τον λογαριασμό σου από τη παλιά σου συσκευή Android.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Το Polly χρειάζεται την άδεια τοποθεσίας για να ανακαλύψει και να συνδεθεί στη νέα σου συσκευή Android.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Το Polly χρειάζεται να έχεις την τοποθεσία ενεργοποιημένη για να ανακαλύψει και να συνδεθεί στη νέα σου συσκευή Android.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Το Polly χρειάζεται ενεργοποιημένο το Wi-Fi για να ανακαλύψει και να συνδεθεί στη νέα σου συσκευή Android. Το Wi-Fi χρειάζεται να είναι ενεργοποιημένο αλλά δεν χρειάζεται να είναι συνδεδεμένο σε κάποιο δίκτυο Wi-Fi.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Συγγνώμη, φαίνεται πως αυτή η συσκευή δεν υποστηρίζει το Wi-Fi Direct. Το Polly χρησιμοποιεί το Wi-Fi Direct για να ανακαλύψει και να συνδεθεί με τη νέα σου συσκευή Android. Μπορείς παρ\' όλα αυτά να επαναφέρεις ένα αντίγραφο ασφαλείας, για να επαναφέρεις τον λογαριασμό σου από τη παλιά σου συσκευή Android.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Δημιουργία αντίγραφου ασφαλείας</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Συνέβη ένα μη αναμενόμενο σφάλμα κατά την απόπειρα σύνδεσης στη νέα σου συσκευή Android.</string>
 
@@ -4538,7 +4538,7 @@
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">Μεταφορά δεδομένων</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">Κράτα και τις δύο συσκευές κοντά τη μια στην άλλη. Μην απενεργοποιήσεις τις συσκευές και άφησε το Molly ανοιχτό. Οι μεταφορές είναι κρυπτογραφημένες από άκρο σε άκρο.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">Κράτα και τις δύο συσκευές κοντά τη μια στην άλλη. Μην απενεργοποιήσεις τις συσκευές και άφησε το Polly ανοιχτό. Οι μεταφορές είναι κρυπτογραφημένες από άκρο σε άκρο.</string>
     <string name="DeviceTransfer__d_messages_so_far">%1$d μηνύματα μέχρι τώρα…</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">%1$s%% των μηνυμάτων μέχρι τώρα…</string>
@@ -4552,7 +4552,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">Μεταφορά Λογαριασμού</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Κατέβασε το Molly στη νέα σου συσκευή Android</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Κατέβασε το Polly στη νέα σου συσκευή Android</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"Πάτα \"Μεταφορά ή επαναφορά λογαριασμού\""</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -4633,7 +4633,7 @@
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Με αυτό τον σύνδεσμο, οποιοσδήποτε μπορεί να δεί το όνομα και τη φωτογραφία της ομάδας, και να ζητήσει να μπει σε αυτήν. Μοιράσου τον μόνο με άτομα που εμπιστεύεσαι.</string>
     <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Με αυτό τον σύνδεσμο, οποιοσδήποτε μπορεί να δεί το όνομα και τη φωτογραφία της ομάδας, και να μπει σε αυτήν. Μοιράσου τον μόνο με άτομα που εμπιστεύεσαι.</string>
-    <string name="GroupLinkBottomSheet_share_via_signal">Μοιράσου μέσω Molly</string>
+    <string name="GroupLinkBottomSheet_share_via_signal">Μοιράσου μέσω Polly</string>
     <string name="GroupLinkBottomSheet_copy">Αντιγραφή</string>
     <string name="GroupLinkBottomSheet_qr_code">Κωδικός QR</string>
     <string name="GroupLinkBottomSheet_share">Μοιράσου</string>
@@ -4791,7 +4791,7 @@
     <string name="payment_info_card_about_mobilecoin">Σχετικά με το MobileCoin</string>
     <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">Το MobileCoin είναι ένα νέο ψηφιακό νόμισμα που επικεντρώνεται στο απόρρητο.</string>
     <string name="payment_info_card_adding_funds">Προσθήκη χρημάτων</string>
-    <string name="payment_info_card_you_can_add_funds_for_use_in">Μπορείτε να προσθέσετε χρήματα για χρήση στο Molly στέλνοντας MobileCoin στη διεύθυνση πορτοφολιού σας.</string>
+    <string name="payment_info_card_you_can_add_funds_for_use_in">Μπορείτε να προσθέσετε χρήματα για χρήση στο Polly στέλνοντας MobileCoin στη διεύθυνση πορτοφολιού σας.</string>
     <string name="payment_info_card_cashing_out">Εξαργύρωση</string>
     <string name="payment_info_card_you_can_cash_out_mobilecoin">Μπορείτε να εξαργυρώσετε MobileCoin ανά πάσα στιγμή σε ένα ανταλλακτήριο που υποστηρίζει το MobileCoin. Απλά κάντε μεταφορά στον λογαριασμό σας στο εν λόγω ανταλλακτήριο.</string>
     <string name="payment_info_card_hide_this_card">Απόκρυψη αυτής της κάρτας;</string>
@@ -4812,12 +4812,12 @@
     <!-- DeactivateWalletFragment -->
     <string name="DeactivateWalletFragment__deactivate_wallet">Απενεργοποίηση Πορτοφολιού</string>
     <string name="DeactivateWalletFragment__your_balance">Το Υπόλοιπό Σας</string>
-    <string name="DeactivateWalletFragment__its_recommended_that_you">Συνιστάται να μεταφέρεις τα χρήματά σου σε άλλη διεύθυνση πορτοφολιού πριν απενεργοποιήσεις τις πληρωμές. Εάν επιλέξεις να μη μεταφέρεις τα χρήματά σου τώρα, θα παραμείνουν στο πορτοφόλι σου που είναι συνδεδεμένο με το Molly εάν ενεργοποιήσεις εκ νέου τις πληρωμές.</string>
+    <string name="DeactivateWalletFragment__its_recommended_that_you">Συνιστάται να μεταφέρεις τα χρήματά σου σε άλλη διεύθυνση πορτοφολιού πριν απενεργοποιήσεις τις πληρωμές. Εάν επιλέξεις να μη μεταφέρεις τα χρήματά σου τώρα, θα παραμείνουν στο πορτοφόλι σου που είναι συνδεδεμένο με το Polly εάν ενεργοποιήσεις εκ νέου τις πληρωμές.</string>
     <string name="DeactivateWalletFragment__transfer_remaining_balance">Μεταφορά εναπομείναντος υπολοίπου</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring">Απενεργοποίηση χωρίς μεταφορά</string>
     <string name="DeactivateWalletFragment__deactivate">Απενεργοποίηση</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Απενεργοποίηση χωρίς μεταφορά;</string>
-    <string name="DeactivateWalletFragment__your_balance_will_remain">Το υπόλοιπό σου θα παραμείνει στο πορτοφόλι που είναι συνδεδεμένο με το Molly, εάν επιλέξεις να ενεργοποιήσεις εκ νέου τις πληρωμές.</string>
+    <string name="DeactivateWalletFragment__your_balance_will_remain">Το υπόλοιπό σου θα παραμείνει στο πορτοφόλι που είναι συνδεδεμένο με το Polly, εάν επιλέξεις να ενεργοποιήσεις εκ νέου τις πληρωμές.</string>
     <string name="DeactivateWalletFragment__error_deactivating_wallet">Σφάλμα κατά την απενεργοποίηση πορτοφολιού.</string>
   <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
 
@@ -4965,7 +4965,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">Επεξεργασία αριθμού</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Molly Αλλαγή Αριθμού - Βοήθεια με το PIN για Android (v2 PIN)</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Polly Αλλαγή Αριθμού - Βοήθεια με το PIN για Android (v2 PIN)</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">Τα PIN δεν ταιριάζουν</string>
@@ -5564,9 +5564,9 @@
     <string name="MySupportPreference__checking_subscription">Έλεγχος συνδρομής…</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">Αναβάθμιση του Molly</string>
+    <string name="UpdateSignalExpiredDialog__title">Αναβάθμιση του Polly</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">Αυτή η έκδοση Molly έχει λήξει. Αναβάθμισε τώρα για να συνεχίσεις να χρησιμοποιείς το Molly.</string>
+    <string name="UpdateSignalExpiredDialog__message">Αυτή η έκδοση Polly έχει λήξει. Αναβάθμισε τώρα για να συνεχίσεις να χρησιμοποιείς το Polly.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">Ενημέρωση</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -5575,7 +5575,7 @@
     <!-- Title of dialog telling user they need to re-register signal -->
     <string name="ReregisterSignalDialog__title">Η συσκευή δεν είναι καταχωρημένη</string>
     <!-- Message of dialog telling user they need to re-register signal as it is no longer registered -->
-    <string name="ReregisterSignalDialog__message">Αυτή η συσκευή δεν είναι πλέον καταχωρημένη. Κάνε επανεγγραφή για να συνεχίσεις να χρησιμοποιείς το Molly σε αυτήν τη συσκευή.</string>
+    <string name="ReregisterSignalDialog__message">Αυτή η συσκευή δεν είναι πλέον καταχωρημένη. Κάνε επανεγγραφή για να συνεχίσεις να χρησιμοποιείς το Polly σε αυτήν τη συσκευή.</string>
     <!-- Button text of re-registration dialog to re-register the device.  -->
     <string name="ReregisterSignalDialog__reregister_action">Επανεγγραφή</string>
     <!-- Button text of re-registration dialog to cancel the dialog.  -->
@@ -5856,7 +5856,7 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">Αποτυχία ανοίγματος επιλογέα.</string>
     <!-- Banner title when notification permission is disabled -->
-    <string name="NotificationSettingsFragment__to_enable_notifications">Για να ενεργοποιήσεις τις ειδοποιήσεις, το Molly χρειάζεται άδεια για να τις εμφανίσει.</string>
+    <string name="NotificationSettingsFragment__to_enable_notifications">Για να ενεργοποιήσεις τις ειδοποιήσεις, το Polly χρειάζεται άδεια για να τις εμφανίσει.</string>
     <!-- Banner action when notification permission is disabled -->
     <string name="NotificationSettingsFragment__turn_on">Ενεργοποίηση</string>
 
@@ -5884,7 +5884,7 @@
     <!-- Donation receipts share PNG -->
     <string name="DonationReceiptDetailsFragment__share_receipt">Διαμοιρασμός απόδειξης</string>
     <!-- Donation receipts list end note -->
-    <string name="DonationReceiptListFragment__if_you_have">Αν έχεις επανεγκαταστήσει το Molly, οι αποδείξεις από προηγούμενες δωρεές δεν θα είναι διαθέσιμες.</string>
+    <string name="DonationReceiptListFragment__if_you_have">Αν έχεις επανεγκαταστήσει το Polly, οι αποδείξεις από προηγούμενες δωρεές δεν θα είναι διαθέσιμες.</string>
     <!-- Donation receipts document title -->
     <string name="DonationReceiptDetailsFragment__donation_receipt">Απόδειξη δωρεάς</string>
     <!-- Donation receipts amount title -->
@@ -6580,10 +6580,10 @@
     <string name="GatewaySelectorBottomSheet__ideal_wero">iDEAL | Wero</string>
 
     <!-- Dialog title for launching external intent -->
-    <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">Αποχώρηση από το Molly για επιβεβαίωση δωρεάς;</string>
-    <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">Μόλις επιβεβαιωθεί, έλα πάλι στο Molly για να ολοκληρώσεις την επεξεργασία της δωρεάς σου.</string>
+    <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">Αποχώρηση από το Polly για επιβεβαίωση δωρεάς;</string>
+    <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">Μόλις επιβεβαιωθεί, έλα πάλι στο Polly για να ολοκληρώσεις την επεξεργασία της δωρεάς σου.</string>
     <!-- Dialog message shown when leaving Signal to complete a donation in an external app. Placeholder is the resolved app name (e.g. a banking app). -->
-    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">Θα μεταβείς στο %1$s. Μόλις επιβεβαιωθεί, έλα πάλι στο Molly για να ολοκληρώσεις την επεξεργασία της δωρεάς σου.</string>
+    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">Θα μεταβείς στο %1$s. Μόλις επιβεβαιωθεί, έλα πάλι στο Polly για να ολοκληρώσεις την επεξεργασία της δωρεάς σου.</string>
 
     <!-- BankTransferMandateFragment -->
     <!-- Title of screen displaying the bank transfer mandate -->
@@ -6952,7 +6952,7 @@
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__require_admin_approval">Απαιτείται έγκριση διαχειριστή</string>
     <!-- Row label to share the link via Signal -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Κοινοποίηση συνδέσμου μέσω Molly</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Κοινοποίηση συνδέσμου μέσω Polly</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">Αντιγραφή συνδέσμου</string>
     <!-- Row label to share the link with the external share sheet -->
@@ -7042,7 +7042,7 @@
     <!-- Title of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
     <string name="TurnOnSignalBackups__title">Ενεργοποίηση του Signal Secure Backups</string>
     <!-- Body of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
-    <string name="TurnOnSignalBackups__body">Δε θα χάσεις τα μηνύματά σου αν αγοράσεις νέο τηλέφωνο ή επανεγκαταστήσεις το Molly.</string>
+    <string name="TurnOnSignalBackups__body">Δε θα χάσεις τα μηνύματά σου αν αγοράσεις νέο τηλέφωνο ή επανεγκαταστήσεις το Polly.</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will take the user to the flow to enable backups -->
     <string name="TurnOnSignalBackups__turn_on">Ενεργοποίηση</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will simply dismiss the megaphone -->
@@ -7103,27 +7103,27 @@
     <!-- Title of the backup setup complete bottom sheet -->
     <string name="BackupSetupCompleteBottomSheet__title">Είσαι εντάξει. Ξεκίνα τη δημιουργία αντιγράφων ασφαλείας τώρα.</string>
     <!-- Body of the backup setup complete bottom sheet -->
-    <string name="BackupSetupCompleteBottomSheet__body">Αυτό μπορεί να διαρκέσει λίγο. Μπορείς να χρησιμοποιήσεις κανονικά το Molly κατά τη δημιουργία αντιγράφων ασφαλείας.</string>
+    <string name="BackupSetupCompleteBottomSheet__body">Αυτό μπορεί να διαρκέσει λίγο. Μπορείς να χρησιμοποιήσεις κανονικά το Polly κατά τη δημιουργία αντιγράφων ασφαλείας.</string>
     <!-- Label for the optimize storage toggle -->
-    <string name="BackupSetupCompleteBottomSheet__optimize_storage">Βελτιστοποίηση χώρου αποθήκευσης Molly</string>
+    <string name="BackupSetupCompleteBottomSheet__optimize_storage">Βελτιστοποίηση χώρου αποθήκευσης Polly</string>
     <!-- Subtitle for the optimize storage toggle -->
     <string name="BackupSetupCompleteBottomSheet__optimize_subtitle">Ο φόρτος των παλαιότερων πολυμέσων θα μειωθεί, αλλά μπορούν να ληφθούν από το αντίγραφο ασφαλείας σου ανά πάσα στιγμή.</string>
     <!-- Primary button on the setup complete bottom sheet -->
     <string name="BackupSetupCompleteBottomSheet__back_up_now">Δημιουργία αντίγραφου τώρα</string>
 
     <!-- Title of a megaphone shown to prompt the user to open Signal on their primary device -->
-    <string name="InactivePrimary__title">Άνοιξε το Molly στο κινητό σου</string>
+    <string name="InactivePrimary__title">Άνοιξε το Polly στο κινητό σου</string>
     <!-- Body of a megaphone shown to prompt the user to open Signal on their primary device -->
-    <string name="InactivePrimary__body">Για να διατηρήσεις ενεργό τον λογαριασμό σου, άνοιξε το Molly στην κύρια συσκευή σου.</string>
+    <string name="InactivePrimary__body">Για να διατηρήσεις ενεργό τον λογαριασμό σου, άνοιξε το Polly στην κύρια συσκευή σου.</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will navigate to a support page -->
     <string name="InactivePrimary__learn_more">Μάθε περισσότερα</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will snooze the megaphone -->
     <string name="InactivePrimary__got_it">Εντάξει</string>
 
     <!-- Text describing how to restore a backup displayed on the on-device backups screen -->
-    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"Για να ανακτήσεις ένα αντίγραφο ασφαλείας, εγκατάστησε από την αρχή το Molly. Άνοιξε την εφαρμογή, πάτα \"Επαναφορά αντίγραφου ασφαλείας\" και εντόπισε τον φάκελο αντιγράφου ασφαλείας."</string>
+    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"Για να ανακτήσεις ένα αντίγραφο ασφαλείας, εγκατάστησε από την αρχή το Polly. Άνοιξε την εφαρμογή, πάτα \"Επαναφορά αντίγραφου ασφαλείας\" και εντόπισε τον φάκελο αντιγράφου ασφαλείας."</string>
     <!-- Body of a dialog shown when turning on on-device backups while "Optimize Signal storage" is enabled, warning that optimized media won\'t be included -->
-    <string name="OnDeviceBackupsScreen__you_have_optimize_signal_storage_on">Έχεις ενεργοποιήσει την επιλογή «Βελτιστοποίηση αποθηκευτικού χώρου Molly». Αν θέλεις να συμπεριλάβεις όλα τα αρχεία πολυμέσων στα αντίγραφο ασφαλείας της συσκευής σου, απενεργοποίησε τη ρύθμιση.</string>
+    <string name="OnDeviceBackupsScreen__you_have_optimize_signal_storage_on">Έχεις ενεργοποιήσει την επιλογή «Βελτιστοποίηση αποθηκευτικού χώρου Polly». Αν θέλεις να συμπεριλάβεις όλα τα αρχεία πολυμέσων στα αντίγραφο ασφαλείας της συσκευής σου, απενεργοποίησε τη ρύθμιση.</string>
     <!-- Dialog action that takes the user to the "Optimize Signal storage" setting -->
     <string name="OnDeviceBackupsScreen__view_setting">Προβολή ρύθμισης</string>
     <!-- Dialog action to proceed with turning on on-device backups without turning off "Optimize Signal storage" -->
@@ -7212,7 +7212,7 @@
     <!-- Dialog title for invalid phone number -->
     <string name="FindByActivity__invalid_phone_number">Μη έγκυρος αριθμός τηλεφώνου</string>
     <!-- Dialog title when phone number is not a registered signal user -->
-    <string name="FindByActivity__invite_to_signal">Πρόσκληση στο Molly</string>
+    <string name="FindByActivity__invite_to_signal">Πρόσκληση στο Polly</string>
     <!-- Dialog title when username is not found -->
     <string name="FindByActivity__username_not_found">Το όνομα χρήστη δε βρέθηκε</string>
     <!-- Dialog body for invalid username. Placeholder is the entered username. -->
@@ -7350,7 +7350,7 @@
     <!-- Dialog title when a backup redemption fails -->
     <string name="BackupAlertBottomSheet__couldnt_redeem_your_backups_subscription">Δεν ήταν δυνατή η εξαργύρωση της συνδρομής σου για δημιουργία αντιγράφων ασφαλείας</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it -->
-    <string name="BackupAlertBottomSheet__an_error_occurred">Παρουσιάστηκε σφάλμα και η δημιουργία αντιγράφων ασφαλείας δεν ήταν δυνατό να ολοκληρωθεί. Βεβαιώσου ότι έχεις την τελευταία έκδοση του Molly και δοκίμασε ξανά. Εάν το πρόβλημα παραμένει, επικοινώνησε με την υποστήριξη.</string>
+    <string name="BackupAlertBottomSheet__an_error_occurred">Παρουσιάστηκε σφάλμα και η δημιουργία αντιγράφων ασφαλείας δεν ήταν δυνατό να ολοκληρωθεί. Βεβαιώσου ότι έχεις την τελευταία έκδοση του Polly και δοκίμασε ξανά. Εάν το πρόβλημα παραμένει, επικοινώνησε με την υποστήριξη.</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it. Used for out of remote storage space error. -->
     <string name="BackupAlertBottomSheet__an_error_occurred_and">Παρουσιάστηκε σφάλμα και η δημιουργία αντιγράφων ασφαλείας δεν ήταν δυνατό να ολοκληρωθεί. Εάν το πρόβλημα παραμένει, επικοινώνησε με την υποστήριξη.</string>
     <!-- Dialog action button that will allow you to check for any Signal version updates -->
@@ -7432,7 +7432,7 @@
     <!-- Text displayed when a backup could not be completed -->
     <string name="BackupStatusRow__your_last_backup">Δεν ήταν δυνατή η ολοκλήρωση του τελευταίου αντιγράφου ασφαλείας. Βεβαιώσου ότι η συσκευή σου είναι συνδεδεμένη σε Wi-Fi και πάτα \"Δημιουργία αντιγράφων ασφαλείας τώρα\" για να προσπαθήσεις ξανά.</string>
     <!-- Text displayed when a backup could not be completed and to check that they are on the latest version of Signal -->
-    <string name="BackupStatusRow__your_last_backup_latest_version">Δεν ήταν δυνατή η ολοκλήρωση του τελευταίου αντιγράφου ασφαλείας. Βεβαιώσου ότι έχεις την τελευταία έκδοση του Molly και δοκίμασε ξανά.</string>
+    <string name="BackupStatusRow__your_last_backup_latest_version">Δεν ήταν δυνατή η ολοκλήρωση του τελευταίου αντιγράφου ασφαλείας. Βεβαιώσου ότι έχεις την τελευταία έκδοση του Polly και δοκίμασε ξανά.</string>
     <!-- Text displayed when a backup file exceeds the storage limit during upload. -->
     <string name="BackupStatusRow__backup_file_too_large">Ο αριθμός των μηνυμάτων που έχεις υπερβαίνει το όριο αποθήκευσης. Διάγραψε ορισμένα μηνύματα και δοκίμασε ξανά.</string>
     <!-- Text displayed when we\'re not backing up all messages. The placeholder represents the cutoff date for the messages we\'re backing up. -->
@@ -7500,9 +7500,9 @@
     <!-- Setting description for syncing automated chat limit trimming (deleting messages automatically by length or date) to linked devices -->
     <string name="ManageStorageSettingsFragment_apply_limits_description">Όταν η επιλογή είναι ενεργοποιημένη, τα όρια συνομιλίας θα διαγράφουν επίσης μηνύματα από τις συνδεδεμένες συσκευές σου.</string>
     <!-- Setting section title header for storage optimization -->
-    <string name="ManageStorageSettingsFragment__on_device_storage">Αποθηκευτικός χώρος Molly</string>
+    <string name="ManageStorageSettingsFragment__on_device_storage">Αποθηκευτικός χώρος Polly</string>
     <!-- Setting row title for storage optimization -->
-    <string name="ManageStorageSettingsFragment__optimize_on_device_storage">Βελτιστοποίηση χώρου αποθήκευσης Molly</string>
+    <string name="ManageStorageSettingsFragment__optimize_on_device_storage">Βελτιστοποίηση χώρου αποθήκευσης Polly</string>
     <!-- Setting row explanation for storage optimization -->
     <string name="ManageStorageSettingsFragment__unused_media_will_be_offloaded">Ο φόρτος των αχρησιμοποίητων πολυμέσων θα μειωθεί, αλλά μπορούν να ληφθούν από το αντίγραφο ασφαλείας σου ανά πάσα στιγμή.</string>
     <!-- Dialog message for paid tier pending dialog -->
@@ -7510,7 +7510,7 @@
     <!-- Title of a dialog shown when turning on "Optimize Signal storage" while on-device backups are enabled -->
     <string name="ManageStorageSettingsFragment__media_will_be_removed_from_your_on_device_backup">Τα αρχεία πολυμέσων θα διαγραφούν από το αντίγραφο ασφαλείας που βρίσκεται στη συσκευή σου</string>
     <!-- Body of a dialog shown when turning on "Optimize Signal storage" while on-device backups are enabled -->
-    <string name="ManageStorageSettingsFragment__turning_on_optimize_signal_storage_will_offload">Η ενεργοποίηση της επιλογής «Βελτιστοποίηση αποθηκευτικού χώρου Molly» θα διαγράψει τα παλιά αρχεία πολυμέσων από τη συσκευή σου. Μπορείς να τα κατεβάσεις ξανά ανά πάσα στιγμή. Επίσης, θα διαγράψει τα παλιά αρχεία πολυμέσων από το αντίγραφο ασφαλείας στη συσκευή σου.</string>
+    <string name="ManageStorageSettingsFragment__turning_on_optimize_signal_storage_will_offload">Η ενεργοποίηση της επιλογής «Βελτιστοποίηση αποθηκευτικού χώρου Polly» θα διαγράψει τα παλιά αρχεία πολυμέσων από τη συσκευή σου. Μπορείς να τα κατεβάσεις ξανά ανά πάσα στιγμή. Επίσης, θα διαγράψει τα παλιά αρχεία πολυμέσων από το αντίγραφο ασφαλείας στη συσκευή σου.</string>
     <!-- Dialog action to confirm turning on "Optimize Signal storage" -->
     <string name="ManageStorageSettingsFragment__turn_on">Ενεργοποίηση</string>
 
@@ -7668,7 +7668,7 @@
     <!-- Displays the date the subscription expired. Placeholder is the date. -->
     <string name="RemoteBackupsSettingsFragment__expired_on_s">Έληξε στις %1$s</string>
     <!-- Displayed at the top of the screen when no backup is currently enabled -->
-    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Δημιούργησε αντίγραφα ασφαλείας του ιστορικού μηνυμάτων σου, ώστε να μην χάνεις ποτέ δεδομένα αν αγοράσεις νέο τηλέφωνο ή επανεγκαταστήσεις το Molly.</string>
+    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Δημιούργησε αντίγραφα ασφαλείας του ιστορικού μηνυμάτων σου, ώστε να μην χάνεις ποτέ δεδομένα αν αγοράσεις νέο τηλέφωνο ή επανεγκαταστήσεις το Polly.</string>
     <!-- Section header for other ways to back up -->
     <string name="RemoteBackupsSettingsFragment__other_ways_to_backup">Άλλοι τρόποι δημιουργίας αντιγράφων ασφαλείας</string>
     <!-- Row title for performing on-device backup -->
@@ -7900,7 +7900,7 @@
     <!-- Screen body shown when upgrading on-device backups to a new recovery key (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__local_backup_upgrade_description_bold">Αυτό το κλειδί θα αντικαταστήσει το κλειδί για τα αντίγραφα ασφαλείας στη συσκευή σου.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 1). -->
-    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">Το κλειδί ανάκτησής σου είναι ένας κωδικός 64 χαρακτήρων που σου επιτρέπει να επαναφέρεις τα αντίγραφα ασφαλείας σου κατά την επανεγκατάσταση του Molly.</string>
+    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">Το κλειδί ανάκτησής σου είναι ένας κωδικός 64 χαρακτήρων που σου επιτρέπει να επαναφέρεις τα αντίγραφα ασφαλείας σου κατά την επανεγκατάσταση του Polly.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description_bold">Αυτό είναι το ίδιο με το κλειδί ανάκτησης στη συσκευή σου.</string>
     <!-- Screen body shown when enabling on-device backups while Signal Secure Backups are already enabled (part 2, bolded). -->
@@ -7938,7 +7938,7 @@
     <!-- Dialog message shown when there is an error saving the recovery key because no compatible password manager was detected. -->
     <string name="MessageBackupsKeyRecordScreen__missing_password_manager_message">Δεν έχεις ορίσει διαχειριστή κωδικών πρόσβασης ή ο διαχειριστής κωδικών πρόσβασης που χρησιμοποιείς δεν υποστηρίζεται.</string>
     <!-- Dialog message shown when there is an error saving the recovery key because the user previously chose not to save Signal passwords to their password manager. -->
-    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Eπέλεξες προηγουμένως να μην αποθηκεύεις κωδικούς πρόσβασης για το Molly στο Google Password Manager. Στις ρυθμίσεις του Google Password Manager, κατάργησε το Molly από το \"Declined sites and apps\" και δοκίμασε ξανά.</string>
+    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Eπέλεξες προηγουμένως να μην αποθηκεύεις κωδικούς πρόσβασης για το Polly στο Google Password Manager. Στις ρυθμίσεις του Google Password Manager, κατάργησε το Polly από το \"Declined sites and apps\" και δοκίμασε ξανά.</string>
     <!-- Label for a button that navigates to the device settings -->
     <string name="MessageBackupsKeyRecordScreen__go_to_settings">Πήγαινε στις ρυθμίσεις</string>
     <!-- Action button label -->
@@ -7946,7 +7946,7 @@
     <!-- Bottom sheet title -->
     <string name="MessageBackupsKeyRecordScreen__keep_your_key_safe">Κράτησε το κλειδί σου ασφαλές</string>
     <!-- Bottom sheet subtitle -->
-    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Το Molly δεν θα μπορεί να σε βοηθήσει να επαναφέρεις το αντίγραφο ασφαλείας σου εάν χάσεις το κλειδί σου. Αποθήκευσέ το με ασφάλεια και μην το μοιράζεσαι με άλλους.</string>
+    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Το Polly δεν θα μπορεί να σε βοηθήσει να επαναφέρεις το αντίγραφο ασφαλείας σου εάν χάσεις το κλειδί σου. Αποθήκευσέ το με ασφάλεια και μην το μοιράζεσαι με άλλους.</string>
     <!-- Sheet action button label -->
     <string name="MessageBackupsKeyRecordScreen__continue">Συνέχεια</string>
     <!-- Sheet secondary action button label -->
@@ -7956,13 +7956,13 @@
     <!-- Dialog title for confirming you need to disable optimized storage and download media to rotate AEP key -->
     <string name="MessageBackupsKeyRecordScreen__download_media">Λήψη πολυμέσων</string>
     <!-- Dialog body for confirming you need to disable optimized storage and download media to rotate AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">Για να δημιουργήσεις ένα νέο κλειδί ανάκτησης πρέπει να απενεργοποιήσεις τη \"Βελτιστοποίηση αποθηκευτικού χώρου Molly\" και να περιμένεις μέχρι να ολοκληρωθεί η λήψη των πολυμέσων σου. Όταν η λήψη ολοκληρωθεί, μπορείς να δημιουργήσεις ένα νέο κλειδί.</string>
+    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">Για να δημιουργήσεις ένα νέο κλειδί ανάκτησης πρέπει να απενεργοποιήσεις τη \"Βελτιστοποίηση αποθηκευτικού χώρου Polly\" και να περιμένεις μέχρι να ολοκληρωθεί η λήψη των πολυμέσων σου. Όταν η λήψη ολοκληρωθεί, μπορείς να δημιουργήσεις ένα νέο κλειδί.</string>
     <!-- Action label to turn off optimized storage and download media -->
     <string name="MessageBackupsKeyRecordScreen__turn_off_and_download">Απενεργοποίηση και λήψη</string>
     <!-- Bottom Sheet title for creating a new AEP key -->
     <string name="MessageBackupsKeyRecordScreen__create_a_new_backup_key">Δημιουργία νέου κλειδιού ανάκτησης</string>
     <!-- Bottom Sheet body for creating a new AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">Η δημιουργία ενός νέου κλειδιού είναι απαραίτητη μόνο εάν κάποιος άλλος γνωρίζει το κλειδί σου. Θα πρέπει να ανεβάσεις ξανά το αντίγραφο ασφαλείας σου, συμπεριλαμβανομένων των πολυμέσων. Αν χρησιμοποιείς τη \"Βελτιστοποίηση αποθηκευτικού χώρου Molly\" θα πρέπει να πραγματοποιήσεις πρώτα λήψη των πολυμέσων που αφαιρέθηκαν.</string>
+    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">Η δημιουργία ενός νέου κλειδιού είναι απαραίτητη μόνο εάν κάποιος άλλος γνωρίζει το κλειδί σου. Θα πρέπει να ανεβάσεις ξανά το αντίγραφο ασφαλείας σου, συμπεριλαμβανομένων των πολυμέσων. Αν χρησιμοποιείς τη \"Βελτιστοποίηση αποθηκευτικού χώρου Polly\" θα πρέπει να πραγματοποιήσεις πρώτα λήψη των πολυμέσων που αφαιρέθηκαν.</string>
     <!-- Dialog title shown when user attempts to exit backup setup before completion -->
     <string name="MessageBackupsKeyRecordScreen__exit_backup_setup">Έξοδος από τη ρύθμιση αντιγράφων ασφαλείας;</string>
     <!-- Dialog body warning user that backup setup is incomplete -->
@@ -8085,7 +8085,7 @@
     <!-- ConfirmBackupCancellationDialog -->
 
     <!-- Email subject when contacting support on a create backup failure -->
-    <string name="BackupAlertBottomSheet_network_failure_support_email">Σφάλμα δικτύου κατά την εξαγωγή Αντιγράφων ασφαλείας Molly Android</string>
+    <string name="BackupAlertBottomSheet_network_failure_support_email">Σφάλμα δικτύου κατά την εξαγωγή Αντιγράφων ασφαλείας Polly Android</string>
     <!-- Email filter when contacting support on a create backup failure -->
   <!-- Removed by excludeNonTranslatables <string name="BackupAlertBottomSheet_export_failure_filter" translatable="false">Android SignalBackups Export Failed</string> -->
 
@@ -8115,7 +8115,7 @@
     <!-- Old device Transfer account bottom sheet dialog body -->
     <string name="TransferAccount_continue_on_your_other_device_details">Συνέχισε τη μεταφορά του λογαριασμού σου στην άλλη σου συσκευή.</string>
     <!-- Old device Transfer account error dialog body shown when the new device is too old to accept an account that has no phone number -->
-    <string name="TransferAccount_the_device_you_are_transferring_to_is_out_of_date">Η συσκευή που προσπαθείς να μεταφέρεις δεν είναι συμβατή. Ενημέρωσε το Molly σε αυτή τη συσκευή και δοκίμασε ξανά.</string>
+    <string name="TransferAccount_the_device_you_are_transferring_to_is_out_of_date">Η συσκευή που προσπαθείς να μεταφέρεις δεν είναι συμβατή. Ενημέρωσε το Polly σε αυτή τη συσκευή και δοκίμασε ξανά.</string>
 
     <!-- Prepare Device screen title for quick restore flow -->
     <string name="PrepareDevice_title">Προετοιμασία της συσκευής σου</string>
@@ -8191,7 +8191,7 @@
     <!-- Notification title for when user is out of remote storage -->
     <string name="Notification_backup_storage_full">Ο αποθηκευτικός χώρος αντιγράφων ασφαλείας είναι πλήρης</string>
     <!-- Notification body for when user is out of remote storage -->
-    <string name="Notification_youve_reached_your_backup_storage_limit">Έχεις φτάσει το όριο του αποθηκευτικού χώρου αντιγράφων ασφαλείας. Απελευθέρωσε χώρο στο Molly για να συνεχίσεις να δημιουργείς αντίγραφα ασφαλείας των συνομιλιών και των πολυμέσων.</string>
+    <string name="Notification_youve_reached_your_backup_storage_limit">Έχεις φτάσει το όριο του αποθηκευτικού χώρου αντιγράφων ασφαλείας. Απελευθέρωσε χώρο στο Polly για να συνεχίσεις να δημιουργείς αντίγραφα ασφαλείας των συνομιλιών και των πολυμέσων.</string>
     <!-- Notification title for when initial backup failed -->
     <string name="Notification_backup_failed">Η δημιουργία αντίγραφου ασφαλείας απέτυχε</string>
     <!-- Notification body for when initial backup failed -->
@@ -8477,7 +8477,7 @@
     <string name="CouldNotCompleteBackupRestoreSheet__body_error">Παρουσιάστηκε σφάλμα και δεν είναι δυνατή η επαναφορά του αντιγράφου ασφαλείας σου. Αυτό μπορεί να οφείλεται στο γεγονός ότι ο φάκελος αντιγράφων ασφαλείας μετακινήθηκε στη συσκευή σου ενώ γινόταν η επαναφορά του αντιγράφου ασφαλείας.</string>
 
     <!-- Body of the sheet shown when a local backup restore could not be completed, explaining how to try again -->
-    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">Για να δοκιμάσεις ξανά, πραγματοποίησε απεγκατάσταση και εκ νέου εγκατάσταση του Molly σε αυτή τη συσκευή και επίλεξε «Επαναφορά ή μεταφορά».</string>
+    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">Για να δοκιμάσεις ξανά, πραγματοποίησε απεγκατάσταση και εκ νέου εγκατάσταση του Polly σε αυτή τη συσκευή και επίλεξε «Επαναφορά ή μεταφορά».</string>
 
     <!-- Button on the sheet shown when a local backup restore could not be completed, opening a support article about it -->
     <string name="CouldNotCompleteBackupRestoreSheet__learn_more">Μάθε περισσότερα</string>
@@ -8641,7 +8641,7 @@
     <!-- Context menu entry that copies a shared contact detail to the clipboard -->
     <string name="SharedContactDetailsScreen__copy">Αντιγραφή</string>
     <!-- Row that invites a shared contact who is not yet on Signal -->
-    <string name="SharedContactDetailsScreen__invite_to_signal">Πρόσκληση στο Molly</string>
+    <string name="SharedContactDetailsScreen__invite_to_signal">Πρόσκληση στο Polly</string>
     <!-- Row that saves a shared contact into the device address book -->
     <string name="SharedContactDetailsScreen__add_to_phone_contacts">Προσθήκη στις επαφές τηλεφώνου</string>
     <!-- Row that adds a shared contact to a Signal group -->
@@ -8653,14 +8653,14 @@
     <!-- Toast shown when there is no map app to open a shared address in -->
     <string name="SharedContactDetailsScreen__couldnt_open_maps">Δεν ήταν δυνατό το άνοιγμα των χαρτών</string>
     <!-- Subject line of an email invitation to Signal -->
-    <string name="SharedContactDetailsScreen__join_me_on_signal">Έλα κι εσύ στο Molly</string>
+    <string name="SharedContactDetailsScreen__join_me_on_signal">Έλα κι εσύ στο Polly</string>
 
     <!-- Title of the bottom sheet that confirms the user wants a brand new recovery key. -->
     <string name="ResetRecoveryKeyBottomSheet__reset_your_recovery_key">Επαναφορά κλειδιού ανάκτησης</string>
     <!-- First paragraph of the bottom sheet body, explaining what a reset does. -->
     <string name="ResetRecoveryKeyBottomSheet__resetting_your_recovery_key_will_create_a_new_key">Η επαναφορά ενός κλειδιού ανάκτησης θα δημιουργήσει ένα νέο κλειδί για το Signal Login. Αυτό είναι απαραίτητο μόνο εάν κάποιος άλλος γνωρίζει το κλειδί σου.</string>
     <!-- Second paragraph of the bottom sheet body, explaining what a reset means for backups. -->
-    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">Εάν τα αντίγραφα ασφαλείας είναι ενεργοποιημένα, θα πρέπει να ανεβάσεις ξανά το αντίγραφο ασφαλείας σου, συμπεριλαμβανομένων των πολυμέσων. Αν χρησιμοποιείς τη \"Βελτιστοποίηση αποθηκευτικού χώρου Molly\" θα πρέπει να πραγματοποιήσεις πρώτα λήψη των πολυμέσων που αφαιρέθηκαν.</string>
+    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">Εάν τα αντίγραφα ασφαλείας είναι ενεργοποιημένα, θα πρέπει να ανεβάσεις ξανά το αντίγραφο ασφαλείας σου, συμπεριλαμβανομένων των πολυμέσων. Αν χρησιμοποιείς τη \"Βελτιστοποίηση αποθηκευτικού χώρου Polly\" θα πρέπει να πραγματοποιήσεις πρώτα λήψη των πολυμέσων που αφαιρέθηκαν.</string>
     <!-- Bottom sheet action that continues on to reset the recovery key. -->
     <string name="ResetRecoveryKeyBottomSheet__continue">Συνέχεια</string>
     <!-- Dialog body shown when the recovery key change limit is exhausted and the user does not have backups enabled. -->

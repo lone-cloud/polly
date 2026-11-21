@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly kilidlənib</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly kilidlənib</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Xidmətləri yenilənir və ya müvəqqəti olaraq əlçatmazdır. Zəhmət olmasa yenidən sınayın.</string>
     <string name="please_wait">Zəhmət olmasa gözləyin…</string>
     <string name="NotificationsSettingsFragment__notify_when">Bildir…</string>

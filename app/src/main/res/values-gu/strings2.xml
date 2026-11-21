@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly લૉક છે</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly લૉક છે</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Services અપડેટ થઈ રહી છે અથવા અસ્થાયીરૂપે અનુપલબ્ધ છે. મેહરબાની કરી ને ફરીથી પ્રયાસ કરો.</string>
     <string name="please_wait">કૃપા કરીને રાહ જુઓ…</string>
     <string name="NotificationsSettingsFragment__notify_when">સૂચિત કરો ક્યારે…</string>

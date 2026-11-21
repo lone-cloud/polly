@@ -72,6 +72,7 @@ import org.signal.core.util.eventbus.RestartableSubscription
 import org.signal.core.util.eventbus.ThreadMode
 import org.signal.core.util.logging.Log
 import org.thoughtcrime.securesms.R
+import org.thoughtcrime.securesms.BuildConfig
 import org.thoughtcrime.securesms.components.PromptBatterySaverDialogFragment
 import org.thoughtcrime.securesms.components.settings.models.Banner
 import org.thoughtcrime.securesms.events.PushServiceEvent
@@ -783,7 +784,7 @@ fun NotificationsSettingsScreen(
 
       val notificationMethods = NotificationDeliveryMethod.entries.filter { method ->
         when (method) {
-          NotificationDeliveryMethod.FCM -> true
+          NotificationDeliveryMethod.FCM -> !BuildConfig.HIDE_FCM_OPTION
           NotificationDeliveryMethod.WEBSOCKET -> true
           NotificationDeliveryMethod.UNIFIEDPUSH -> !state.isLinkedDevice
         }
