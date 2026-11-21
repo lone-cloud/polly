@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly பூட்டப்பட்டுள்ளது</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly பூட்டப்பட்டுள்ளது</string>
     <string name="preferences__include_beta_updates">பீட்டா புதுப்பிப்புகளைச் சேர்க்கவும்</string>
     <string name="preferences__map_satellite">செயற்கைக் கோள்</string>
     <string name="preferences_network__online">ஆன்லைனில்</string>

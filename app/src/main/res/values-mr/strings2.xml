@@ -3,7 +3,7 @@
     <string name="WipeMemoryService_secure_wipe_in_progress">सुरक्षित नष्ट प्रक्रिया सुरू आहे</string>
     <string name="preferences__passphrase_changed">शब्दसूची बदलली गेली</string>
     <string name="arrays__on_inactivity_timeout">जर तुम्ही तुमचा फोन काही वेळासाठी अनलॉक नाही</string>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly लॉक केले आहे</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly लॉक केले आहे</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google प्ले सेवा अद्ययावत होत आहे किंवा तात्पुर्ते अनुपलब्ध आहे. कृपया पुन्हा प्रयत्न करा.</string>
     <string name="please_wait">कृपया थांबा…</string>
     <string name="NotificationsSettingsFragment__notify_when">तेव्हा सूचित करा…</string>

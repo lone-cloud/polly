@@ -31,7 +31,7 @@
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Molly ನವೀಕರಣಗೊಳ್ಳುತ್ತಿದೆ…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">Polly ನವೀಕರಣಗೊಳ್ಳುತ್ತಿದೆ…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">ಸರ್ವರ್‌ ಗೆ ಸಂಪರ್ಕಿಸುವಾಗ ದೋಷ!</string>
@@ -77,7 +77,7 @@
     <string name="AttachmentKeyboard_location">ಸ್ಥಳ</string>
     <!-- Text for a button that will allow users to create a poll -->
     <string name="AttachmentKeyboard_poll">ಸಮೀಕ್ಷೆ</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">ನಿಮ್ಮ ಫೊಟೋ ಮತ್ತು ವೀಡಿಯೊಗಳನ್ನು ತೋರಿಸಲು Molly ಗೆ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">ನಿಮ್ಮ ಫೊಟೋ ಮತ್ತು ವೀಡಿಯೊಗಳನ್ನು ತೋರಿಸಲು Polly ಗೆ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ</string>
     <!-- Text for a button prompting users to allow Signal access to their gallery storage -->
     <string name="AttachmentKeyboard_allow_access">ಪ್ರವೇಶ ಅನುಮತಿಸಿ</string>
     <string name="AttachmentKeyboard_payment">ಪೇಮೆಂಟ್</string>
@@ -88,34 +88,34 @@
     <!-- Option in menu to go to settings -->
     <string name="AttachmentKeyboard_go_to_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ</string>
     <!-- Text explaining that Signal has limited access to photos -->
-    <string name="AttachmentKeyboard_signal_has_limited_access">ಫೋಟೋಗಳು ಅಥವಾ ವೀಡಿಯೊಗಳಿಗೆ Molly ಸೀಮಿತ ಆಕ್ಸೆಸ್‍ ಹೊಂದಿದೆ</string>
+    <string name="AttachmentKeyboard_signal_has_limited_access">ಫೋಟೋಗಳು ಅಥವಾ ವೀಡಿಯೊಗಳಿಗೆ Polly ಸೀಮಿತ ಆಕ್ಸೆಸ್‍ ಹೊಂದಿದೆ</string>
     <!-- Text shown when user has given no photos for Signal to access and an explanation on how to change those permissions -->
     <string name="AttachmentKeyboard_no_photos_found">ಯಾವುದೇ ಫೋಟೋಗಳು ಕಂಡುಬಂದಿಲ್ಲ, ಇಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳಲು ಫೋಟೋಗಳು ಮತ್ತು ವೀಡಿಯೊಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಅನುಮತಿಗಳನ್ನು ಬದಲಾಯಿಸಿ</string>
 
     <!-- MediaGalleryFragment -->
     <!-- Text describing that no photos or videos are currently found in the gallery and that Signal can only access media that the user allows -->
-    <string name="MediaGalleryFragment__no_photos_found">ಯಾವುದೇ ಫೋಟೋಗಳು ಅಥವಾ ವೀಡಿಯೊಗಳು ಕಂಡುಬಂದಿಲ್ಲ. ನೀವು ಆಯ್ಕೆ ಮಾಡಿದ ಫೋಟೋಗಳು ಮತ್ತು ವೀಡಿಯೊಗಳಿಗೆ ಮಾತ್ರ Molly ಆಕ್ಸೆಸ್‍ ಹೊಂದಿದೆ.</string>
+    <string name="MediaGalleryFragment__no_photos_found">ಯಾವುದೇ ಫೋಟೋಗಳು ಅಥವಾ ವೀಡಿಯೊಗಳು ಕಂಡುಬಂದಿಲ್ಲ. ನೀವು ಆಯ್ಕೆ ಮಾಡಿದ ಫೋಟೋಗಳು ಮತ್ತು ವೀಡಿಯೊಗಳಿಗೆ ಮಾತ್ರ Polly ಆಕ್ಸೆಸ್‍ ಹೊಂದಿದೆ.</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">ಈ ಮೀಡಿಯಾ ತೆರೆಯಲು ಸಾಮರ್ಥ್ಯವಿರುವ ಅಪ್ಲಿಕೇಶನ್ ಹುಡುಕಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">ಫೋಟೊಗಳು, ವೀಡಿಯೋಗಳು ಅಥವಾ ಆಡಿಯೋಗಳನ್ನು ಲಗತ್ತಿಸಲು Molly ಗೆ ಸ್ಟೋರೇಜ್ ಅನುಮತಿಯ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್ಸ್ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಸ್ಟೋರೇಜ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">ಸಂಪರ್ಕ ಮಾಹಿತಿಯನ್ನು ಲಗತ್ತಿಸಲು Molly ಸಂಪರ್ಕಗಳ ಅನುಮತಿ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸಂಪರ್ಕಗಳು\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">ಸ್ಥಳ ಮಾಹಿತಿಯನ್ನು ಲಗತ್ತಿಸಲು Molly ಗೆ ಸ್ಥಳ ಅನುಮತಿಯ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸ್ಥಳ\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">ಫೋಟೊಗಳು, ವೀಡಿಯೋಗಳು ಅಥವಾ ಆಡಿಯೋಗಳನ್ನು ಲಗತ್ತಿಸಲು Polly ಗೆ ಸ್ಟೋರೇಜ್ ಅನುಮತಿಯ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್ಸ್ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಸ್ಟೋರೇಜ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">ಸಂಪರ್ಕ ಮಾಹಿತಿಯನ್ನು ಲಗತ್ತಿಸಲು Polly ಸಂಪರ್ಕಗಳ ಅನುಮತಿ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸಂಪರ್ಕಗಳು\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">ಸ್ಥಳ ಮಾಹಿತಿಯನ್ನು ಲಗತ್ತಿಸಲು Polly ಗೆ ಸ್ಥಳ ಅನುಮತಿಯ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸ್ಥಳ\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
 
     <!-- Dialog title asking users for location permission -->
     <string name="AttachmentManager_signal_allow_access_location">ನಿಮ್ಮ ಲೊಕೇಶನ್‍ಗೆ ಆಕ್ಸೆಸ್ ಅನುಮತಿಸಿ</string>
     <!-- Dialog description that will explain the steps needed to give location permission -->
     <string name="AttachmentManager_signal_to_send_location">ನಿಮ್ಮ ಲೊಕೇಶನ್‍ ಕಳುಹಿಸಲು:</string>
     <!-- Alert dialog description asking for location permission -->
-    <string name="AttachmentManager_signal_allow_signal_access_location">ನಿಮ್ಮ ಲೊಕೇಶನ್ ಕಳುಹಿಸಲು Molly ಗೆ ಆಕ್ಸೆಸ್‍ ಅನ್ನು ಅನುಮತಿಸಿ.</string>
+    <string name="AttachmentManager_signal_allow_signal_access_location">ನಿಮ್ಮ ಲೊಕೇಶನ್ ಕಳುಹಿಸಲು Polly ಗೆ ಆಕ್ಸೆಸ್‍ ಅನ್ನು ಅನುಮತಿಸಿ.</string>
     <!-- Toast text explaining Signal\'s need for location access -->
-    <string name="AttachmentManager_signal_needs_location_access">ನಿಮ್ಮ ಲೊಕೇಶನ್ ಕಳುಹಿಸಲು Molly ಗೆ ಲೊಕೇಶನ್ ಆಕ್ಸೆಸ್ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="AttachmentManager_signal_needs_location_access">ನಿಮ್ಮ ಲೊಕೇಶನ್ ಕಳುಹಿಸಲು Polly ಗೆ ಲೊಕೇಶನ್ ಆಕ್ಸೆಸ್ ಅಗತ್ಯವಿದೆ.</string>
     <!-- Dialog title asking users for gallery storage permission -->
     <string name="AttachmentManager_signal_allow_storage">ಸ್ಟೊರೇಜ್‌ಗೆ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸಿ</string>
     <!-- Dialog description that will explain the steps needed to give gallery storage permission -->
     <string name="AttachmentManager_signal_to_show_photos">ಫೊಟೋ ಮತ್ತು ವೀಡಿಯೊಗಳನ್ನು ತೋರಿಸಲು:</string>
     <!-- Toast text explaining Signal\'s need for storage access -->
-    <string name="AttachmentManager_signal_needs_storage_access">ನಿಮ್ಮ ಫೋಟೋಗಳು ಮತ್ತು ವೀಡಿಯೊಗಳನ್ನು ತೋರಿಸಲು Molly ಗೆ ಆಕ್ಸೆಸ್‍ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="AttachmentManager_signal_needs_storage_access">ನಿಮ್ಮ ಫೋಟೋಗಳು ಮತ್ತು ವೀಡಿಯೊಗಳನ್ನು ತೋರಿಸಲು Polly ಗೆ ಆಕ್ಸೆಸ್‍ ಅಗತ್ಯವಿದೆ.</string>
 
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s ಅವರು ಪಾವತಿಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿಲ್ಲ </string>
@@ -268,12 +268,12 @@
     <string name="CensorshipCircumventionMegaphone_no_thanks">ಇಲ್ಲ, ಧನ್ಯವಾದಗಳು</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Molly ಅನ್ನು ನವೀಕರಿಸಿ</string>
+    <string name="ClientDeprecatedActivity_update_signal">Polly ಅನ್ನು ನವೀಕರಿಸಿ</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">ಅಪ್ಲಿಕೇಶನ್‌ನ ಈ ಆವೃತ್ತಿಯನ್ನು ಇನ್ನು ಮುಂದೆ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸುವುದು ಮತ್ತು ಸ್ವೀಕರಿಸುವುದನ್ನು ಮುಂದುವರಿಸಲು, ನೂತನ ಆವೃತ್ತಿಗೆ ನವೀಕರಿಸಿ.</string>
     <string name="ClientDeprecatedActivity_update">ನವೀಕರಿಸಿ</string>
     <string name="ClientDeprecatedActivity_dont_update">ಇದನ್ನು ನವೀಕರಿಸಬೇಡಿ</string>
     <string name="ClientDeprecatedActivity_warning">ಎಚ್ಚರಿಕೆ</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">ನಿಮ್ಮ Molly ಆವೃತ್ತಿಯ ವಾಯಿದೆ ಮುಗಿದಿದೆ. ನೀವು ನಿಮ್ಮ ಹಳೆಯ ಸಂದೇಶಗಳನ್ನು ನೋಡಬಹುದು ಆದರೆ ಹೊಸ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು ಅಥವಾ ಪಡೆಯಲು ದಯವಿಟ್ಟು ನವೀಕರಿಸಿ.</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">ನಿಮ್ಮ Polly ಆವೃತ್ತಿಯ ವಾಯಿದೆ ಮುಗಿದಿದೆ. ನೀವು ನಿಮ್ಮ ಹಳೆಯ ಸಂದೇಶಗಳನ್ನು ನೋಡಬಹುದು ಆದರೆ ಹೊಸ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು ಅಥವಾ ಪಡೆಯಲು ದಯವಿಟ್ಟು ನವೀಕರಿಸಿ.</string>
 
     <!-- ClockSkewActivity -->
     <!-- Title of the full-screen dialog shown when the device clock is too far off from the real time -->
@@ -305,7 +305,7 @@
     <!-- Title on dialog when quick restore qr code is scanned in system camera -->
     <string name="CommunicationActions__transfer_dialog_title">ಖಾತೆಯನ್ನು ಹೊಸ ಸಾಧನಕ್ಕೆ ವರ್ಗಾಯಿಸಬೇಕೇ?</string>
     <!-- Message on dialog when quick restore qr code is scanned in system camera -->
-    <string name="CommunicationActions__transfer_dialog_message">ಈ ಖಾತೆಯನ್ನು ಹೊಸ ಸಾಧನಕ್ಕೆ ವರ್ಗಾಯಿಸಲು, \"ಮುಂದುವರಿಸಿ\" ಎಂಬುದನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ ಮತ್ತು Molly ಕ್ಯಾಮೆರಾದೊಂದಿಗೆ QR ಕೋಡ್ ಅನ್ನು ಮತ್ತೊಮ್ಮೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ. ನೀವು Molly ನಿಂದ ನೇರವಾಗಿ ದೊರೆತ QR ಕೋಡ್‌ಗಳನ್ನು ಮಾತ್ರ ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತೀರಿ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
+    <string name="CommunicationActions__transfer_dialog_message">ಈ ಖಾತೆಯನ್ನು ಹೊಸ ಸಾಧನಕ್ಕೆ ವರ್ಗಾಯಿಸಲು, \"ಮುಂದುವರಿಸಿ\" ಎಂಬುದನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ ಮತ್ತು Polly ಕ್ಯಾಮೆರಾದೊಂದಿಗೆ QR ಕೋಡ್ ಅನ್ನು ಮತ್ತೊಮ್ಮೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ. ನೀವು Polly ನಿಂದ ನೇರವಾಗಿ ದೊರೆತ QR ಕೋಡ್‌ಗಳನ್ನು ಮಾತ್ರ ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತೀರಿ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
     <string name="CommunicationActions__dont_transfer">ವರ್ಗಾವಣೆ ಮಾಡಬೇಡಿ</string>
 
     <!-- ConfirmIdentityDialog -->
@@ -329,8 +329,8 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">ಸಂದೇಶ %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">Molly ಧ್ವನಿ ಕರೆ %1$s</string>
-    <string name="ContactsDatabase_signal_video_call_s">Molly ವೀಡಿಯೊ ಕರೆ %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">Polly ಧ್ವನಿ ಕರೆ %1$s</string>
+    <string name="ContactsDatabase_signal_video_call_s">Polly ವೀಡಿಯೊ ಕರೆ %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -441,10 +441,10 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="ConversationActivity_signal_to_send_audio_messages">ಧ್ವನಿ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು:</string>
     <!-- Alert dialog description asking for microphone permission in order to send voice messages -->
-    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">ಧ್ವನಿ ಮೆಸೇಜ್‌ಗಳನ್ನು ಕಳುಹಿಸಲು, ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನ್‌ಗೆ Molly ಆಕ್ಸೆಸ್‍ ಅನ್ನು ಅನುಮತಿಸಿ.</string>
+    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">ಧ್ವನಿ ಮೆಸೇಜ್‌ಗಳನ್ನು ಕಳುಹಿಸಲು, ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನ್‌ಗೆ Polly ಆಕ್ಸೆಸ್‍ ಅನ್ನು ಅನುಮತಿಸಿ.</string>
     <!-- Toast text explaining Signal\'s need for microphone access -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">ಧ್ವನಿ ಮೆಸೇಜ್ ಅನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲು Molly ಗೆ ಮೈಕ್ರೊಫೋನ್ ಆಕ್ಸೆಸ್‍ನ ಅಗತ್ಯವಿದೆ.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">ಆಡಿಯೊ ಸಂದೇಶ ಕಳುಹಿಸುವ ಸಲುವಾಗಿ Molly ಗೆ ಮೈಕ್ರೊಫೋನ್ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಸಂಯೋಜನೆಗೆ ಮುಂದುವರಿಸಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು \"ಮೈಕ್ರೊಫೋನ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">ಧ್ವನಿ ಮೆಸೇಜ್ ಅನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲು Polly ಗೆ ಮೈಕ್ರೊಫೋನ್ ಆಕ್ಸೆಸ್‍ನ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">ಆಡಿಯೊ ಸಂದೇಶ ಕಳುಹಿಸುವ ಸಲುವಾಗಿ Polly ಗೆ ಮೈಕ್ರೊಫೋನ್ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಸಂಯೋಜನೆಗೆ ಮುಂದುವರಿಸಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು \"ಮೈಕ್ರೊಫೋನ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
     <string name="ConversationActivity_search_position">%2$d ನಲ್ಲಿ %1$d</string>
@@ -464,9 +464,9 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions for a voice call -->
     <string name="ConversationActivity__to_start_call">ಕರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು:</string>
     <!-- Alert dialog description asking for microphone permission in order to start a voice call -->
-    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">ಕರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು, ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನ್‌ಗೆ Molly ಆಕ್ಸೆಸ್‍ ಅನ್ನು ಅನುಮತಿಸಿ.</string>
+    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">ಕರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು, ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನ್‌ಗೆ Polly ಆಕ್ಸೆಸ್‍ ಅನ್ನು ಅನುಮತಿಸಿ.</string>
     <!-- Toast text explaining Signal\'s need for microphone access for a voice call -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">ಕರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು Molly ಗೆ ಮೈಕ್ರೊಫೋನ್ ಆಕ್ಸೆಸ್‍ನ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">ಕರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು Polly ಗೆ ಮೈಕ್ರೊಫೋನ್ ಆಕ್ಸೆಸ್‍ನ ಅಗತ್ಯವಿದೆ.</string>
 
 
     <string name="ConversationActivity_join">ಸೇರು</string>
@@ -476,15 +476,15 @@
     <string name="ConversationActivity_error_sending_media">ಮೀಡಿಯಾ ಕಳುಹಿಸುವಲ್ಲಿ ದೋಷ</string>
 
     <!-- Message shown when opening an MMS group conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">SMS ಮೆಸೇಜಿಂಗ್ ಅನ್ನು Molly ಇನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">SMS ಮೆಸೇಜಿಂಗ್ ಅನ್ನು Polly ಇನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">SMS ಮೆಸೇಜಿಂಗ್ ಅನ್ನು Signal ಇನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ಇಲ್ಲಿ ಸಂಭಾಷಣೆಯನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲು %1$s ಅವರನ್ನು Signal ಗೆ ಆಹ್ವಾನಿಸಿ.</string>
     <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
-    <string name="ConversationActivity__this_person_is_no_longer_using_signal">ಪ್ರಸ್ತುತವಾಗಿ ಈ ವ್ಯಕ್ತಿಯು Molly ಅನ್ನು ಬಳಸುತ್ತಿಲ್ಲ. ಸಂಭಾಷಣೆಯನ್ನು ಇಲ್ಲಿ ಶುರುಹಚ್ಚಿಕೊಳ್ಳಲು ಅವರನ್ನು Molly ಗೆ ಆಹ್ವಾನಿಸಿ.</string>
+    <string name="ConversationActivity__this_person_is_no_longer_using_signal">ಪ್ರಸ್ತುತವಾಗಿ ಈ ವ್ಯಕ್ತಿಯು Polly ಅನ್ನು ಬಳಸುತ್ತಿಲ್ಲ. ಸಂಭಾಷಣೆಯನ್ನು ಇಲ್ಲಿ ಶುರುಹಚ್ಚಿಕೊಳ್ಳಲು ಅವರನ್ನು Polly ಗೆ ಆಹ್ವಾನಿಸಿ.</string>
     <!-- Message shown when opening a conversation with an unregistered user who is not on Signal -->
     <string name="ConversationActivity__this_person_is_not_using_signal">ಈ ವ್ಯಕ್ತಿಯು Signal ಅನ್ನು ಬಳಸುತ್ತಿಲ್ಲ. ಸಂಭಾಷಣೆಯನ್ನು ಮುಂದುವರಿಸಲು ಅವರನ್ನು ಇಲ್ಲಿಗೇ ಆಹ್ವಾನಿಸಿ.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__invite_to_signal">Molly ಗೆ ಆಮಂತ್ರಿಸಿ</string>
+    <string name="ConversationActivity__invite_to_signal">Polly ಗೆ ಆಮಂತ್ರಿಸಿ</string>
     <!-- Toast message shown when trying to record a voice message during an ongoing call -->
     <string name="ConversationFragment_cannot_record_voice_message_during_call">ಕರೆಯ ಅವಧಿಯಲ್ಲಿ ಧ್ವನಿ ಸಂದೇಶವನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
 
@@ -577,15 +577,15 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">Molly ಅನ್ನು ನವೀಕರಿಸಿ</string>
+    <string name="ConversationFragment__update_build">Polly ಅನ್ನು ನವೀಕರಿಸಿ</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Molly ಅನ್ನು ಮರುನೋಂದಾಯಿಸಿ</string>
+    <string name="ConversationFragment__reregister_signal">Polly ಅನ್ನು ಮರುನೋಂದಾಯಿಸಿ</string>
     <!-- Action shown in the conversation input area to allow a user to re-link this device as it is no longer linked -->
     <string name="ConversationFragment__relink_signal">ಮರು-ಲಿಂಕ್ ಮಾಡಿ</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">ಹಿಂದಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ.</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Molly ತೆರೆಯಿರಿ</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">Polly ತೆರೆಯಿರಿ</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">ಇನ್ನು ಮುಂದೆ ದೃಢೀಕೃತಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ</string>
     <!-- Button shown in conversation header when in a message request state and no groups in common to show new message safety tips -->
@@ -632,7 +632,7 @@
     <!-- Title of the dialog shown when re-requesting an expired attachment from your primary device fails -->
     <string name="ConversationFragment_attachment_backfill_failed_title">ಮೀಡಿಯಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
     <!-- Body of the dialog shown when your phone didn\'t respond to a request to re-send an expired attachment -->
-    <string name="ConversationFragment_attachment_backfill_timeout">ಈ ಸಾಧನವನ್ನು ಮತ್ತು ನಿಮ್ಮ ಫೋನಿನ ಇಂಟರ್‌ನೆಟ್ ಕನೆಕ್ಷನ್ ಅನ್ನು ಪರಿಶೀಲಿಸಿ. ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ Molly ತೆರೆಯಿರಿ, ನಂತರ ಪುನಃ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="ConversationFragment_attachment_backfill_timeout">ಈ ಸಾಧನವನ್ನು ಮತ್ತು ನಿಮ್ಮ ಫೋನಿನ ಇಂಟರ್‌ನೆಟ್ ಕನೆಕ್ಷನ್ ಅನ್ನು ಪರಿಶೀಲಿಸಿ. ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ Polly ತೆರೆಯಿರಿ, ನಂತರ ಪುನಃ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ.</string>
     <!-- Body of the dialog shown when your phone no longer has the attachment you tried to download -->
     <string name="ConversationFragment_attachment_backfill_not_found">ಈ ಮೀಡಿಯಾ ಇನ್ನು ಮುಂದೆ ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ ಲಭ್ಯವಿರುವುದಿಲ್ಲ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
     <!-- Dialog for how to long to keep a messaged pinned for -->
@@ -702,7 +702,7 @@
     <!-- Bottom sheet text explaining that profile names are chosen by the account holder. Placeholder will be \'Profile names\' -->
     <string name="ProfileNameBottomSheet__profile_names_on_signal">Signal ನಲ್ಲಿನ %1$s ಅವುಗಳ ಖಾತೆದಾರರು ಆಯ್ಕೆಮಾಡುತ್ತಾರೆ.</string>
     <!-- Bottom sheet text explaining that Signal can\'t verify names and photos -->
-    <string name="ProfileNameBottomSheet__signal_cant_verify">Molly ಹೆಸರುಗಳು ಮತ್ತು ಫೋಟೋಗಳನ್ನು ದೃಢೀಕರಿಸುವುದಿಲ್ಲ</string>
+    <string name="ProfileNameBottomSheet__signal_cant_verify">Polly ಹೆಸರುಗಳು ಮತ್ತು ಫೋಟೋಗಳನ್ನು ದೃಢೀಕರಿಸುವುದಿಲ್ಲ</string>
     <!-- Bottom sheet text explaining that Signal will never contact you for registration code, PIN, or recovery key -->
     <string name="ProfileNameBottomSheet__signal_will_never_contact">Signal ಎಂದಿಗೂ ನಿಮ್ಮ ನೋಂದಣಿ ಕೋಡ್, ಪಿನ್ ಅಥವಾ ರಿಕವರ್ ಕೀ ಗಾಗಿ ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುವುದಿಲ್ಲ</string>
     <!-- Bottom sheet text explaining that accounts can impersonate other people and to be cautious -->
@@ -844,9 +844,9 @@
     <!-- Toolbar title for this screen -->
     <string name="WhoCanSeeMyPhoneNumberFragment__who_can_find_me_by_number">ಸಂಖ್ಯೆಯ ಮೂಲಕ ನನ್ನನ್ನು ಯಾರು ನೋಡಬಹುದು?</string>
     <!-- Description for radio item stating anyone can see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಹೊಂದಿರುವ ಯಾರಾದರೂ ನೀವು Molly ‌ನಲ್ಲಿರುವುದನ್ನು ನೋಡುತ್ತಾರೆ ಮತ್ತು ನಿಮ್ಮೊಂದಿಗೆ ಚಾಟ್‌ಗಳನ್ನು ಪ್ರಾರಂಭಿಸಬಹುದು.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಹೊಂದಿರುವ ಯಾರಾದರೂ ನೀವು Polly ‌ನಲ್ಲಿರುವುದನ್ನು ನೋಡುತ್ತಾರೆ ಮತ್ತು ನಿಮ್ಮೊಂದಿಗೆ ಚಾಟ್‌ಗಳನ್ನು ಪ್ರಾರಂಭಿಸಬಹುದು.</string>
     <!-- Description for radio item stating no one will be able to see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">ನೀವು ಮೆಸೇಜ್ ಕಳುಹಿಸದ ಹೊರತು ಅಥವಾ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಚಾಟ್ ಅನ್ನು ಹೊಂದಿರದ ಹೊರತು ನೀವು Molly ‌ನಲ್ಲಿದ್ದೀರಿ ಎಂದು ಯಾರಿಗೂ ನೋಡಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">ನೀವು ಮೆಸೇಜ್ ಕಳುಹಿಸದ ಹೊರತು ಅಥವಾ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಚಾಟ್ ಅನ್ನು ಹೊಂದಿರದ ಹೊರತು ನೀವು Polly ‌ನಲ್ಲಿದ್ದೀರಿ ಎಂದು ಯಾರಿಗೂ ನೋಡಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.</string>
 
     <!-- ChooseBackupFragment -->
 
@@ -872,7 +872,7 @@
     <string name="BackupsPreferenceFragment__test_your_backup_passphrase">ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಪಾಸ್‌ಫ್ರೇಸ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ಇದು ಹೊಂದುತ್ತದೆಯೇ ಎಂದು ದೃಢೀಕರಿಸಿ</string>
     <string name="BackupsPreferenceFragment__turn_on">ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ಆನ್ ಮಾಡಿ</string>
     <string name="BackupsPreferenceFragment__turn_off">ಆಫ್ ಮಾಡಿ</string>
-    <string name="BackupsPreferenceFragment__to_restore_a_backup">"ಬ್ಯಾಕಪ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಲು, Molly‌ನ ಹೊಸ ನಕಲನ್ನು ಸ್ಥಾಪಿಸಿ. ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯಿರಿ ಮತ್ತು \"ಬ್ಯಾಕಪ್ ಮರುಸ್ಥಾಪಿಸು\" ಟ್ಯಾಪ್ ಮಾಡಿ, ನಂತರ ಬ್ಯಾಕಪ್ ಫೈಲ್ ಅನ್ನು ಹುಡುಕಿ. %1$s"</string>
+    <string name="BackupsPreferenceFragment__to_restore_a_backup">"ಬ್ಯಾಕಪ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಲು, Polly‌ನ ಹೊಸ ನಕಲನ್ನು ಸ್ಥಾಪಿಸಿ. ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯಿರಿ ಮತ್ತು \"ಬ್ಯಾಕಪ್ ಮರುಸ್ಥಾಪಿಸು\" ಟ್ಯಾಪ್ ಮಾಡಿ, ನಂತರ ಬ್ಯಾಕಪ್ ಫೈಲ್ ಅನ್ನು ಹುಡುಕಿ. %1$s"</string>
     <string name="BackupsPreferenceFragment__learn_more">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
     <string name="BackupsPreferenceFragment__in_progress">ಪ್ರಗತಿಯಲ್ಲಿದೆ…</string>
     <!-- Status text shown in backup preferences when verifying a backup -->
@@ -881,7 +881,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">ಇಲ್ಲಿಯವರೆಗು %1$d…</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">%1$s%% ಈ ತನಕ…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">ಬ್ಯಾಕಪ್ ಗಳನ್ನು ರಚಿಸಲು Molly ಗೆ ಬಾಹ್ಯ ಸ್ಟೋರೇಜ್ ಅನುಮತಿ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್ಸ್ ಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಸ್ಟೋರೇಜ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">ಬ್ಯಾಕಪ್ ಗಳನ್ನು ರಚಿಸಲು Polly ಗೆ ಬಾಹ್ಯ ಸ್ಟೋರೇಜ್ ಅನುಮತಿ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್ಸ್ ಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಸ್ಟೋರೇಜ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
     <!-- Title of dialog shown when picking the time to perform a chat backup -->
     <string name="BackupsPreferenceFragment__set_backup_time">ಬ್ಯಾಕಪ್ ಸಮಯವನ್ನು ಸೆಟ್ ಮಾಡಿ</string>
 
@@ -959,7 +959,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">ಚಾಟ್ ಸೆಷನ್ ರಿಫ್ರೆಶ್ ಮಾಡಲಾಗಿದೆ</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Molly ಎಂಡ್‌-ಟು-ಎಂಡ್‌ ಎನ್‌ಕ್ರಿಪ್ಷನ್ ಅನ್ನು ಬಳಸುತ್ತದೆ ಮತ್ತು ಕೆಲವು ಬಾರಿ ನಿಮ್ಮ ಚಾಟ್ ಸೆಷನ್‌ಗಳನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಬೇಕಾಗಬಹುದು. ಇದರಿಂದ ನಿಮ್ಮ ಚಾಟ್‌ನ ಭದ್ರತೆಗೆ ಯಾವುದೇ ಬಾಧೆಯಾಗುವುದಿಲ್ಲ. ಆದರೆ, ಈ ಸಂಪರ್ಕದಿಂದ ಒಂದು ಸಂದೇಶವನ್ನು ನೀವು ತಪ್ಪಿಸಿಕೊಂಡಿರಬಹುದು ಮತ್ತು ಪುನಃ ಕಳುಹಿಸುವಂತೆ ನೀವು ಅವರನ್ನು ಕೇಳಬಹುದು.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Polly ಎಂಡ್‌-ಟು-ಎಂಡ್‌ ಎನ್‌ಕ್ರಿಪ್ಷನ್ ಅನ್ನು ಬಳಸುತ್ತದೆ ಮತ್ತು ಕೆಲವು ಬಾರಿ ನಿಮ್ಮ ಚಾಟ್ ಸೆಷನ್‌ಗಳನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಬೇಕಾಗಬಹುದು. ಇದರಿಂದ ನಿಮ್ಮ ಚಾಟ್‌ನ ಭದ್ರತೆಗೆ ಯಾವುದೇ ಬಾಧೆಯಾಗುವುದಿಲ್ಲ. ಆದರೆ, ಈ ಸಂಪರ್ಕದಿಂದ ಒಂದು ಸಂದೇಶವನ್ನು ನೀವು ತಪ್ಪಿಸಿಕೊಂಡಿರಬಹುದು ಮತ್ತು ಪುನಃ ಕಳುಹಿಸುವಂತೆ ನೀವು ಅವರನ್ನು ಕೇಳಬಹುದು.</string>
 
     <!-- LinkDeviceFragment -->
     <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
@@ -1068,7 +1068,7 @@
     <!-- Bottom sheet title telling users to complete the linking process on the other device  -->
     <string name="AddLinkDeviceFragment__finish_linking_on_other_device">ನಿಮ್ಮ ಇತರ ಸಾಧನದಲ್ಲಿ ಲಿಂಕ್ ಮಾಡುವುದನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ</string>
     <!-- Bottom sheet description telling users to complete the linking process -->
-    <string name="AddLinkDeviceFragment__finish_linking_signal">ನಿಮ್ಮ ಇತರ ಸಾಧನದಲ್ಲಿ Molly ಅನ್ನು ಲಿಂಕ್ ಮಾಡುವುದನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ.</string>
+    <string name="AddLinkDeviceFragment__finish_linking_signal">ನಿಮ್ಮ ಇತರ ಸಾಧನದಲ್ಲಿ Polly ಅನ್ನು ಲಿಂಕ್ ಮಾಡುವುದನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ.</string>
     <!-- Title of dialog when the QR code being scanned is invalid -->
     <string name="AddLinkDeviceFragment__linking_device_failed">ಸಾಧನವನ್ನು ಲಿಂಕ್ ಮಾಡುವುದು ವಿಫಲವಾಗಿದೆ</string>
     <!-- Text shown in a dialog when the QR code being scanned is invalid -->
@@ -1113,19 +1113,19 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">ಕಾಣೆಯಾದ ಪ್ಲೇ ಸೇವೆಗಳನ್ನು ಅತ್ಯುತ್ತಮವಾಗಿಸಿ</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">ಈ ಸಾಧನವು ಪ್ಲೇ ಸರ್ವೀಸಸ್ ಅನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ನಿಷ್ಕ್ರಿಯವಾಗಿದ್ದಾಗ Molly ಸಂದೇಶಗಳನ್ನು ಹಿಂದಕ್ಕೆ ಪಡೆಯದಂತೆ ತಡೆಯಲು ಸಿಸ್ಟಂ ಬ್ಯಾಟರಿ ಆಪ್ಟಿಮೈಸೇಶನ್‌ಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ ಅನ್ನು ಒತ್ತಿ.</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">ಈ ಸಾಧನವು ಪ್ಲೇ ಸರ್ವೀಸಸ್ ಅನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ನಿಷ್ಕ್ರಿಯವಾಗಿದ್ದಾಗ Polly ಸಂದೇಶಗಳನ್ನು ಹಿಂದಕ್ಕೆ ಪಡೆಯದಂತೆ ತಡೆಯಲು ಸಿಸ್ಟಂ ಬ್ಯಾಟರಿ ಆಪ್ಟಿಮೈಸೇಶನ್‌ಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ ಅನ್ನು ಒತ್ತಿ.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">ನಿಮ್ಮ Molly ಆವೃತ್ತಿಯ ವಾಯಿದೆ ಮುಗಿದಿದೆ. ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು ಮತ್ತೆ ಪಡೆಯಲು ನವೀಕರಿಸಿ.</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">ನಿಮ್ಮ Polly ಆವೃತ್ತಿಯ ವಾಯಿದೆ ಮುಗಿದಿದೆ. ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು ಮತ್ತೆ ಪಡೆಯಲು ನವೀಕರಿಸಿ.</string>
     <string name="ExpiredBuildReminder_update_now">ಈಗ ನವೀಕರಿಸಿ</string>
 
     <!-- A message in a banner shown at the top of the screen indicating that the user must upgrade their device to use signal. -->
-    <string name="DeprecatedSdkBanner_body">ಈ ಸಾಧನದಲ್ಲಿ Molly ಇನ್ನು ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ. Molly ಅನ್ನು ಮತ್ತೊಮ್ಮೆ ಬಳಸಲು, Android ನ ಹೊಸ ಆವೃತ್ತಿಗೆ ನಿಮ್ಮ ಸಾಧನವನ್ನು ನವೀಕರಿಸಿ ಅಥವಾ ಹೊಸ ಸಾಧನಕ್ಕೆ ಬದಲಾಯಿಸಿ.</string>
+    <string name="DeprecatedSdkBanner_body">ಈ ಸಾಧನದಲ್ಲಿ Polly ಇನ್ನು ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ. Polly ಅನ್ನು ಮತ್ತೊಮ್ಮೆ ಬಳಸಲು, Android ನ ಹೊಸ ಆವೃತ್ತಿಗೆ ನಿಮ್ಮ ಸಾಧನವನ್ನು ನವೀಕರಿಸಿ ಅಥವಾ ಹೊಸ ಸಾಧನಕ್ಕೆ ಬದಲಾಯಿಸಿ.</string>
 
     <!-- Title of notification telling users to update Signal -->
-    <string name="DeprecatedNotificationJob_update_signal">Molly ಅನ್ನು ನವೀಕರಿಸಿ</string>
+    <string name="DeprecatedNotificationJob_update_signal">Polly ಅನ್ನು ನವೀಕರಿಸಿ</string>
     <!-- Message body of notification telling users that this current version of Signal has expired. If pressed, we will direct them to the website APK or PlayStore page -->
-    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Molly ನ ಈ ಆವೃತ್ತಿಯ ಅವಧಿ ಮುಗಿದಿದೆ. ಮೆಸೇಜ್‌ಗಳನ್ನು ಕಳುಹಿಸುವುದು ಮತ್ತು ಸ್ವೀಕರಿಸುವುದನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Polly ನ ಈ ಆವೃತ್ತಿಯ ಅವಧಿ ಮುಗಿದಿದೆ. ಮೆಸೇಜ್‌ಗಳನ್ನು ಕಳುಹಿಸುವುದು ಮತ್ತು ಸ್ವೀಕರಿಸುವುದನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
     <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -1259,7 +1259,7 @@
     <!-- Message for dialog asking user to submit logs for debugging a crash -->
     <string name="PromptLogsSlowNotificationsDialog__message">ಡೀಬಗ್ ಲಾಗ್‌ಗಳು ಸಮಸ್ಯೆಯನ್ನು ನಿರ್ಣಯಿಸಲು ಮತ್ತು ಸರಿಪಡಿಸಲು ನೆರವಾಗುತ್ತವೆ ಮತ್ತು ಗುರುತಿಸುವ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿಲ್ಲ.</string>
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
-    <string name="PromptLogsSlowNotificationsDialog__title_crash">Molly ಸಮಸ್ಯೆಯೊಂದನ್ನು ಎದುರಿಸಿದೆ. ಡೀಬಗ್ ಲಾಗ್ ಸಲ್ಲಿಸಬೇಕೆ?</string>
+    <string name="PromptLogsSlowNotificationsDialog__title_crash">Polly ಸಮಸ್ಯೆಯೊಂದನ್ನು ಎದುರಿಸಿದೆ. ಡೀಬಗ್ ಲಾಗ್ ಸಲ್ಲಿಸಬೇಕೆ?</string>
     <!-- Title for dialog asking user to submit logs for a situation where they\'re not able to connect to the signal service -->
     <string name="PromptLogsSlowNotificationsDialog__title_connectivity_warning">ನೀವು ಮೆಸೇಜ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸದೇ ಇರಬಹುದು. ಡೀಬಗ್ ಲಾಗ್ ಸಲ್ಲಿಸಬೇಕೆ?</string>
 
@@ -1267,12 +1267,12 @@
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
     <string name="PromptBatterySaverBottomSheet__title">ಬ್ಯಾಟರಿ ಆಪ್ಟಿಮೈಸೇಶನ್‌ನಿಂದಾಗಿ ಅಧಿಸೂಚನೆಗಳು ವಿಳಂಬಗೊಳ್ಳಬಹುದು</string>
     <!-- Message explaining that battery saver may delay notifications -->
-    <string name="PromptBatterySaverBottomSheet__message">ಮೆಸೇಜ್ ಅಧಿಸೂಚನೆಗಳು ವಿಳಂಬಗೊಳ್ಳದಂತೆ ಖಾತ್ರಿಪಡಿಸಲು ನೀವು Molly ಗೆ ಬ್ಯಾಟರಿ ಆಪ್ಟಿಮೈಸೇಶನ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಬಹುದು.</string>
+    <string name="PromptBatterySaverBottomSheet__message">ಮೆಸೇಜ್ ಅಧಿಸೂಚನೆಗಳು ವಿಳಂಬಗೊಳ್ಳದಂತೆ ಖಾತ್ರಿಪಡಿಸಲು ನೀವು Polly ಗೆ ಬ್ಯಾಟರಿ ಆಪ್ಟಿಮೈಸೇಶನ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಬಹುದು.</string>
 
     <!-- Title in bottom sheet that states that notifications for this device could be delayed -->
     <string name="DeviceSpecificNotificationBottomSheet__notifications_may_be_delayed">ಬ್ಯಾಟರಿ ಆಪ್ಟಿಮೈಸೇಶನ್‌ನಿಂದಾಗಿ ಅಧಿಸೂಚನೆಗಳು ವಿಳಂಬಗೊಳ್ಳಬಹುದು</string>
     <!-- Message in bottom sheet prompting users to fix potential issues by disabling battery optimizations -->
-    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">ಮೆಸೇಜ್ ಅಧಿಸೂಚನೆಗಳು ವಿಳಂಬಗೊಳ್ಳುವುದಿಲ್ಲ ಎಂಬುದನ್ನು ಖಾತ್ರಿಪಡಿಸಲು Molly ಗೆ ಬ್ಯಾಟರಿ ಆಪ್ಟಿಮೈಸೇಶನ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ. ಸಾಧನ-ನಿರ್ದಿಷ್ಟ ಸೂಚನೆಗಳನ್ನು ನೋಡಲು \"ಮುಂದುವರಿಸಿ\" ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">ಮೆಸೇಜ್ ಅಧಿಸೂಚನೆಗಳು ವಿಳಂಬಗೊಳ್ಳುವುದಿಲ್ಲ ಎಂಬುದನ್ನು ಖಾತ್ರಿಪಡಿಸಲು Polly ಗೆ ಬ್ಯಾಟರಿ ಆಪ್ಟಿಮೈಸೇಶನ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ. ಸಾಧನ-ನಿರ್ದಿಷ್ಟ ಸೂಚನೆಗಳನ್ನು ನೋಡಲು \"ಮುಂದುವರಿಸಿ\" ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
     <!-- Button to dismiss notification help prompt -->
     <string name="DeviceSpecificNotificationBottomSheet__no_thanks">ಇಲ್ಲ, ಧನ್ಯವಾದಗಳು</string>
     <!-- Button to continue and go to Signal support website -->
@@ -1281,7 +1281,7 @@
     <!-- Title of a bottom sheet that is shown when the user is having connectivity issues -->
     <string name="ConnectivityWarningBottomSheet_title">ನೀವು ಮೆಸೇಜ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸದೇ ಇರಬಹುದು</string>
     <!-- Body of a bottom sheet that is shown when the user is having connectivity issues -->
-    <string name="ConnectivityWarningBottomSheet_body">ನಿಮ್ಮ ಸಾಧನವನ್ನು ಮರುಪ್ರಾರಂಭಿಸುವುದರಿಂದ ಮೆಸೇಜ್ ಡೆಲಿವರಿಯ ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು. ಈ ಸಮಸ್ಯೆ ಮುಂದುವರಿದರೆ, Molly ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="ConnectivityWarningBottomSheet_body">ನಿಮ್ಮ ಸಾಧನವನ್ನು ಮರುಪ್ರಾರಂಭಿಸುವುದರಿಂದ ಮೆಸೇಜ್ ಡೆಲಿವರಿಯ ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು. ಈ ಸಮಸ್ಯೆ ಮುಂದುವರಿದರೆ, Polly ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
     <!-- Text for a button in a bottom sheet that is shown when the user is having connectivity issues. Clicking it will dismiss the bottom sheet. -->
     <string name="ConnectivityWarningBottomSheet_dismiss_button">ಅರ್ಥವಾಯಿತು</string>
 
@@ -1468,9 +1468,9 @@
     </plurals>
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">ಗ್ರೂಪ್ ಲಿಂಕ್‌ಗಳನ್ನು ಬಳಸಲು Molly ಅಪ್‌ಡೇಟ್ ಮಾಡಿ</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">ನೀವು ಬಳಸುತ್ತಿರುವ Molly ಆವೃತ್ತಿಯು ಈ ಗ್ರೂಪ್ ಲಿಂಕ್‌ಗೆ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ಲಿಂಕ್ ಮೂಲಕ ಈ ಗ್ರೂಪ್‌ಗೆ ಸೇರಲು ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಗೆ ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿ.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Molly ಅನ್ನು ನವೀಕರಿಸಿ</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">ಗ್ರೂಪ್ ಲಿಂಕ್‌ಗಳನ್ನು ಬಳಸಲು Polly ಅಪ್‌ಡೇಟ್ ಮಾಡಿ</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">ನೀವು ಬಳಸುತ್ತಿರುವ Polly ಆವೃತ್ತಿಯು ಈ ಗ್ರೂಪ್ ಲಿಂಕ್‌ಗೆ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ಲಿಂಕ್ ಮೂಲಕ ಈ ಗ್ರೂಪ್‌ಗೆ ಸೇರಲು ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಗೆ ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿ.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Polly ಅನ್ನು ನವೀಕರಿಸಿ</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">ಗ್ರೂಪ್ ಲಿಂಕ್ ಮಾನ್ಯವಾಗಿಲ್ಲ</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -1516,7 +1516,7 @@
     <string name="LongMessageActivity_your_message">ನಿಮ್ಮ ಸಂದೇಶ</string>
 
     <!-- MessageRetrievalService -->
-    <string name="MessageRetrievalService_signal">Molly</string>
+    <string name="MessageRetrievalService_signal">Polly</string>
     <string name="MessageRetrievalService_background_connection_enabled">ಹಿನ್ನಲೆಯ ಸಂಪರ್ಕವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
 
     <!-- MediaOverviewActivity -->
@@ -1608,10 +1608,10 @@
   <!-- Removed by excludeNonTranslatables <string name="StarredMessages__s_chevron_s" translatable="false">%1$s \u203A %2$s</string> -->
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Molly ಕರೆ ಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="NotificationBarManager__establishing_signal_call">Polly ಕರೆ ಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Molly ಕರೆ ಸೇವೆ ಆರಂಭಿಸಲಾಗುತ್ತಿದೆ</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Molly ಕಾಲ್ ಸರ್ವೀಸ್ ಅನ್ನು ನಿಲ್ಲಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="NotificationBarManager__starting_signal_call_service">Polly ಕರೆ ಸೇವೆ ಆರಂಭಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">Polly ಕಾಲ್ ಸರ್ವೀಸ್ ಅನ್ನು ನಿಲ್ಲಿಸಲಾಗುತ್ತಿದೆ</string>
     <string name="NotificationBarManager__cancel_call">ಕರೆ ರದ್ದುಗೊಳಿಸಿ</string>
 
     <!-- NotificationsMegaphone -->
@@ -1942,7 +1942,7 @@
     </plurals>
 
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Molly ನಲ್ಲಿ SMS ಮೆಸೇಜ್ ಗಳನ್ನು ಕಳುಹಿಸಲು ನಿಮಗೆ ಇನ್ನು ಸಾಧ್ಯವಿಲ್ಲ. ಇಲ್ಲಿ ಸಂಭಾಷಣೆಯನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲು %1$s ಅವರನ್ನು Molly ಗೆ ಆಹ್ವಾನಿಸಿ.</string>
+    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Polly ನಲ್ಲಿ SMS ಮೆಸೇಜ್ ಗಳನ್ನು ಕಳುಹಿಸಲು ನಿಮಗೆ ಇನ್ನು ಸಾಧ್ಯವಿಲ್ಲ. ಇಲ್ಲಿ ಸಂಭಾಷಣೆಯನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲು %1$s ಅವರನ್ನು Polly ಗೆ ಆಹ್ವಾನಿಸಿ.</string>
     <!-- Body for quote when message being quoted is an in-app payment message -->
     <string name="MessageRecord__payment_s">ಪಾವತಿ: %1$s</string>
     <!-- Body for quote when message being quoted is an in-app payment message tombstone without an amount -->
@@ -2057,20 +2057,20 @@
     <string name="DeviceProvisioningActivity_link_a_signal_device">ಒಂದು Signal ಸಾಧನ ಲಿಂಕ್ ಮಾಡುವುದೇ?</string>
     <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">ಈ Signal ಖಾತೆಗೆ ಡೆಸ್ಕ್‌ಟಾಪ್ ಅಥವಾ iPad ಅನ್ನು ಲಿಂಕ್ ಮಾಡಲು, ಲಿಂಕ್ ಮಾಡಲಾದ ಸಾಧನಗಳು ಎಂಬಲ್ಲಿಗೆ ಹೋಗಿ ಮತ್ತು \"ಹೊಸ ಸಾಧನವನ್ನು ಲಿಂಕ್ ಮಾಡಿ\" ಎಂಬುದನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ ಮತ್ತು QR ಕೋಡ್ ಅನ್ನು ಪುನಃ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ. ನೀವು Signal ನಿಂದ ನೇರವಾಗಿ ದೊರೆತ QR ಕೋಡ್‌ಗಳನ್ನು ಮಾತ್ರ ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತೀರಿ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
 
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">ನಿಮ್ಮ ಈ Molly ಆವೃತ್ತಿಯು ಇಂದು ವಾಯಿದೆ ಮೀರಲಿದೆ. ತೀರಾ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಗೆ ನವೀಕರಿಸಿ.</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">ನಿಮ್ಮ ಈ Polly ಆವೃತ್ತಿಯು ಇಂದು ವಾಯಿದೆ ಮೀರಲಿದೆ. ತೀರಾ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಗೆ ನವೀಕರಿಸಿ.</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="one">Molly ನ ಈ ಆವೃತ್ತಿಯು ನಾಳೆ ವಾಯಿದೆ ಮೀರಲಿದೆ. ತೀರಾ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಗೆ ನವೀಕರಿಸಿ.</item>
-        <item quantity="other">Molly ನ ಈ ಆವೃತ್ತಿಯು %1$d ದಿನಗಳಲ್ಲಿ ವಾಯಿದೆ ಮೀರಲಿದೆ. ತೀರಾ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಗೆ ನವೀಕರಿಸಿ.</item>
+        <item quantity="one">Polly ನ ಈ ಆವೃತ್ತಿಯು ನಾಳೆ ವಾಯಿದೆ ಮೀರಲಿದೆ. ತೀರಾ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಗೆ ನವೀಕರಿಸಿ.</item>
+        <item quantity="other">Polly ನ ಈ ಆವೃತ್ತಿಯು %1$d ದಿನಗಳಲ್ಲಿ ವಾಯಿದೆ ಮೀರಲಿದೆ. ತೀರಾ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಗೆ ನವೀಕರಿಸಿ.</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">ಪಾಸ್‌ಫ್ರೇಸ್‌ ನಮೂದಿಸಿ</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Molly ಐಕನ್</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Polly ಐಕನ್</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">ಪಾಸ್‌ಫ್ರೇಸ್‌ ಸಲ್ಲಿಸಿ</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">ಪಾಸ್‌ಫ್ರೇಸ್‌ ಮಾನ್ಯವಾದದ್ದಲ್ಲ!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Molly ಅನ್ಲಾಕ್ ಮಾಡಿ</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Polly ಅನ್ಲಾಕ್ ಮಾಡಿ</string>
     <!-- This is the subject line for the email that is sent to support -->
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Molly ಆಂಡ್ರಾಯ್ಡ್‌ - ಲಾಕ್ ಸ್ಕ್ರೀನ್</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Polly ಆಂಡ್ರಾಯ್ಡ್‌ - ಲಾಕ್ ಸ್ಕ್ರೀನ್</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">ನಕ್ಷೆ</string>
@@ -2096,7 +2096,7 @@
         <item quantity="one">ನಿಮ್ಮಲ್ಲಿ %1$d ಪ್ರಯತ್ನ ಉಳಿದಿದೆ. ನೀವು ಪ್ರಯತ್ನಗಳ ಮಿತಿಯನ್ನು ಮೀರಿದರೆ, ನೀವು ಹೊಸ ಪಿನ್ ರಚಿಸಬಹುದು. ನಿಮ್ಮ ಖಾತೆಯನ್ನು ನೀವು ನೋಂದಾಯಿಸಬಹುದು ಮತ್ತು ಬಳಸಬಹುದು. ಆದರೆ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಮಾಹಿತಿಯಂತಹ ಕೆಲವು ಉಳಿಸಿದ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ನೀವು ಕಳೆದುಕೊಳ್ಳುತ್ತೀರಿ.</item>
         <item quantity="other">ನಿಮ್ಮಲ್ಲಿ %1$d ಪ್ರಯತ್ನಗಳು ಉಳಿದಿವೆ. ನೀವು ಪ್ರಯತ್ನಗಳ ಮಿತಿಯನ್ನು ಮೀರಿದರೆ, ನೀವು ಹೊಸ ಪಿನ್ ರಚಿಸಬಹುದು. ನಿಮ್ಮ ಖಾತೆಯನ್ನು ನೀವು ನೋಂದಾಯಿಸಬಹುದು ಮತ್ತು ಬಳಸಬಹುದು. ಆದರೆ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಮಾಹಿತಿಯಂತಹ ಕೆಲವು ಉಳಿಸಿದ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ನೀವು ಕಳೆದುಕೊಳ್ಳುತ್ತೀರಿ.</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Molly ನೋಂದಣಿ - Android ಗಾಗಿ ಪಿನ್‌ ಕುರಿತ ಸಹಾಯ ಬೇಕಿದೆ</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Polly ನೋಂದಣಿ - Android ಗಾಗಿ ಪಿನ್‌ ಕುರಿತ ಸಹಾಯ ಬೇಕಿದೆ</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">ನಿಮ್ಮ ಪಿನ್ ರಚಿಸಿ</string>
@@ -2128,7 +2128,7 @@
 
     <!-- RecaptchaRequiredBottomSheetFragment -->
     <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">ಸಂದೇಶ ಕಳುಹಿಸುವುದನ್ನು ಮುಂದುವರಿಸಲು ಪರಿಶೀಲಿಸಿ</string>
-    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Molly ನಲ್ಲಿ ಸ್ಪ್ಯಾಮ್ ತಡೆಯಲು ಸಹಾಯ ಮಾಡುವುದಕ್ಕಾಗಿ, ದಯವಿಟ್ಟು ಪರಿಶೀಲನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ.</string>
+    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Polly ನಲ್ಲಿ ಸ್ಪ್ಯಾಮ್ ತಡೆಯಲು ಸಹಾಯ ಮಾಡುವುದಕ್ಕಾಗಿ, ದಯವಿಟ್ಟು ಪರಿಶೀಲನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ.</string>
     <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">ಪರಿಶೀಲಿಸಿದ ನಂತರ, ಮೆಸೇಜ್ ಮಾಡುವುದನ್ನು ನೀವು ಮುಂದುವರಿಸಬಹುದು. ಯಾವುದೇ ವಿರಾಮಗೊಳಿಸಿದ ಮೆಸೇಜ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.</string>
 
     <!-- Recipient -->
@@ -2136,7 +2136,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">ನನ್ನ ಸ್ಟೋರಿ</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Molly ಕರೆ</string>
+    <string name="Recipient_signal_call">Polly ಕರೆ</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">ನಿರ್ಬಂಧಿಸಿ</string>
@@ -2173,7 +2173,7 @@
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">ನಿಮ್ಮ ವೀಡಿಯೊವನ್ನು ಆನ್ ಮಾಡಲು ಇಲ್ಲಿ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
     <!-- Subtitle shown at top of call where %s is the elapsed time of the call -->
-    <string name="WebRtcCallActivity__signal_s">Molly %1$s</string>
+    <string name="WebRtcCallActivity__signal_s">Polly %1$s</string>
     <string name="WebRtcCallActivity__calling">ಕರೆ ಮಾಡಲಾಗುತ್ತಿದೆ..</string>
     <!-- Title for dialog warning about lacking bluetooth permissions during a call -->
     <string name="WebRtcCallActivity__bluetooth_permission_denied">ಬ್ಲೂಟೂತ್ ಅನುಮತಿ ನಿರಾಕರಿಸಲಾಗಿದೆ</string>
@@ -2188,7 +2188,7 @@
     <!-- Title for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
     <string name="WebRtcCallActivity__others_couldnt_hear_you">ಇತರರಿಗೆ ನಿಮ್ಮ ಮಾತು ಕೇಳಿಸುವುದಿಲ್ಲ</string>
     <!-- Message for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
-    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">ಹಿನ್ನೆಲೆಯಲ್ಲಿ Molly ಇದ್ದಾಗ ನಿಮ್ಮ ಮೈಕ್ರೊಫೋನ್ ಅನ್ನು ಮ್ಯೂಟ್ ಮಾಡಲಾಗಿತ್ತು. ಇದನ್ನು ಸರಿಪಡಿಸಲು, ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ ಮತ್ತು \"ಬ್ಯಾಟರಿ\" ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಹಿನ್ನೆಲೆ ಚಟುವಟಿಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">ಹಿನ್ನೆಲೆಯಲ್ಲಿ Polly ಇದ್ದಾಗ ನಿಮ್ಮ ಮೈಕ್ರೊಫೋನ್ ಅನ್ನು ಮ್ಯೂಟ್ ಮಾಡಲಾಗಿತ್ತು. ಇದನ್ನು ಸರಿಪಡಿಸಲು, ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ ಮತ್ತು \"ಬ್ಯಾಟರಿ\" ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಹಿನ್ನೆಲೆ ಚಟುವಟಿಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
     <!-- Title for dialog to approve all requests -->
     <plurals name="WebRtcCallActivity__approve_d_requests">
         <item quantity="one">%1$d ವಿನಂತಿಯನ್ನು ಅನುಮತಿಸಬೇಕೆ?</item>
@@ -2238,15 +2238,15 @@
     <!-- Dialog title asking users for camera permission -->
     <string name="WebRtcCallActivity__allow_access_camera">ನಿಮ್ಮ ಕ್ಯಾಮರಾಕ್ಕೆ ಆ್ಯಕ್ಸೆಸ್ ಅನುಮತಿಸಿ</string>
     <!-- Dialog description explaining why camera and microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__to_start_call_camera_microphone">ಕರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ಅಥವಾ ಸೇರಲು, ನಿಮ್ಮ ಕ್ಯಾಮರಾ ಮತ್ತು ಮೈಕ್ರೋಫೋನ್‌ಗೆ Molly ಆಕ್ಸೆಸ್‍ ಅನ್ನು ಅನುಮತಿಸಿ.</string>
+    <string name="WebRtcCallActivity__to_start_call_camera_microphone">ಕರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ಅಥವಾ ಸೇರಲು, ನಿಮ್ಮ ಕ್ಯಾಮರಾ ಮತ್ತು ಮೈಕ್ರೋಫೋನ್‌ಗೆ Polly ಆಕ್ಸೆಸ್‍ ಅನ್ನು ಅನುಮತಿಸಿ.</string>
     <!-- Dialog description explaining why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__to_start_call_microphone">ಕರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ಅಥವಾ ಸೇರಲು, ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನ್‌ಗೆ Molly ಆಕ್ಸೆಸ್‍ ಅನ್ನು ಅನುಮತಿಸಿ.</string>
+    <string name="WebRtcCallActivity__to_start_call_microphone">ಕರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ಅಥವಾ ಸೇರಲು, ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನ್‌ಗೆ Polly ಆಕ್ಸೆಸ್‍ ಅನ್ನು ಅನುಮತಿಸಿ.</string>
     <!-- Dialog description explaining why camera permissions are needed to enable a user\'s video in a call -->
-    <string name="WebRtcCallActivity__to_enable_video_allow_camera">ನಿಮ್ಮ ವೀಡಿಯೊವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು, ನಿಮ್ಮ ಕ್ಯಾಮರಾಗೆ Molly ಆಕ್ಸೆಸ್‍ ಅನ್ನು ಅನುಮತಿಸಿ.</string>
+    <string name="WebRtcCallActivity__to_enable_video_allow_camera">ನಿಮ್ಮ ವೀಡಿಯೊವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು, ನಿಮ್ಮ ಕ್ಯಾಮರಾಗೆ Polly ಆಕ್ಸೆಸ್‍ ಅನ್ನು ಅನುಮತಿಸಿ.</string>
     <!-- Toast describing why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">ಕರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ಅಥವಾ ಸೇರಿಕೊಳ್ಳಲು Molly ಗೆ ಮೈಕ್ರೋಫೋನ್ ಅನುಮತಿಗಳ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">ಕರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ಅಥವಾ ಸೇರಿಕೊಳ್ಳಲು Polly ಗೆ ಮೈಕ್ರೋಫೋನ್ ಅನುಮತಿಗಳ ಅಗತ್ಯವಿದೆ.</string>
     <!-- Toast describing why camera permissions are needed to enable a video in a call -->
-    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">ನಿಮ್ಮ ವೀಡಿಯೊವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು Molly ಗೆ ಕ್ಯಾಮರಾ ಆಕ್ಸೆಸ್‍ ಅಗತ್ಯವಿದೆ</string>
+    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">ನಿಮ್ಮ ವೀಡಿಯೊವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು Polly ಗೆ ಕ್ಯಾಮರಾ ಆಕ್ಸೆಸ್‍ ಅಗತ್ಯವಿದೆ</string>
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="WebRtcCallActivity__to_start_call">ಕರೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ಅಥವಾ ಸೇರಿಕೊಳ್ಳಲು:</string>
     <!-- Dialog description that will explain the steps needed to give camera permissions -->
@@ -2259,8 +2259,8 @@
     <string name="MoveableLocalVideoRenderer__expand_local_video">ಸ್ಥಳೀಯ ವೀಡಿಯೊವನ್ನು ವಿಸ್ತರಿಸಿ</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Molly ಕರೆ</string>
-    <string name="WebRtcCallView__signal_video_call">Molly ವೀಡಿಯೊ ಕರೆ</string>
+    <string name="WebRtcCallView__signal_call">Polly ಕರೆ</string>
+    <string name="WebRtcCallView__signal_video_call">Polly ವೀಡಿಯೊ ಕರೆ</string>
     <string name="WebRtcCallView__start_call">ಕರೆ ಆರಂಭಿಸಿ</string>
     <string name="WebRtcCallView__join_call">ಕರೆಗೆ ಸೇರಿ</string>
     <string name="WebRtcCallView__call_is_full">ಕರೆ ಭರ್ತಿಯಾಗಿದೆ</string>
@@ -2696,7 +2696,7 @@
     <!-- Shown when no stickers match the search. The placeholder what was searched. -->
     <string name="StickerManagement_search_no_results_s">%1$sಗೆ ಫಲಿತಾಂಶಗಳು ಲಭ್ಯವಿಲ್ಲ</string>
     <!-- Sticker pack button for forwarding a sticker link. -->
-    <string name="StickerManagement_menu_send_signal_pack">Molly ಮೂಲಕ ಕಳುಹಿಸಿ</string>
+    <string name="StickerManagement_menu_send_signal_pack">Polly ಮೂಲಕ ಕಳುಹಿಸಿ</string>
     <!-- Sticker pack button that opens a bottom sheet with more share options. -->
     <string name="StickerManagement_menu_link_pack">ಲಿಂಕ್</string>
     <!-- Sticker pack sheet option for sharing a sticker pack link using the system share sheet. -->
@@ -2862,11 +2862,11 @@
     <string name="ThreadRecord_blocked_group">ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</string>
 
     <!-- ApkUpdateNotifications -->
-    <string name="ApkUpdateNotifications_prompt_install_title">Molly ನವೀಕರಿಸಿ</string>
-    <string name="ApkUpdateNotifications_prompt_install_body">Molly ನ ಹೊಸ ಆವೃತ್ತಿ ಲಭ್ಯವಿದೆ. ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
-    <string name="ApkUpdateNotifications_failed_general_title">Molly ಅಪ್‌ಡೇಟ್ ವಿಫಲಗೊಂಡಿದೆ</string>
+    <string name="ApkUpdateNotifications_prompt_install_title">Polly ನವೀಕರಿಸಿ</string>
+    <string name="ApkUpdateNotifications_prompt_install_body">Polly ನ ಹೊಸ ಆವೃತ್ತಿ ಲಭ್ಯವಿದೆ. ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+    <string name="ApkUpdateNotifications_failed_general_title">Polly ಅಪ್‌ಡೇಟ್ ವಿಫಲಗೊಂಡಿದೆ</string>
     <string name="ApkUpdateNotifications_failed_general_body">ನಾವು ನಂತರ ಪುನಃ ಪ್ರಯತ್ನಿಸುತ್ತೇವೆ.</string>
-    <string name="ApkUpdateNotifications_auto_update_success_title">Molly ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಣಗೊಂಡಿದೆ</string>
+    <string name="ApkUpdateNotifications_auto_update_success_title">Polly ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಣಗೊಂಡಿದೆ</string>
     <string name="ApkUpdateNotifications_auto_update_success_body">ನೀವು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆವೃತ್ತಿ %1$s ಗೆ ನವೀಕರಣಗೊಂಡಿದ್ದೀರಿ.</string>
     <string name="ApkUpdateNotifications_manual_update_success_body">ನೀವು ಆವೃತ್ತಿ %1$s ಗೆ ಅಪ್‌ಡೇಟ್ ಮಾಡಿದ್ದೀರಿ.</string>
 
@@ -2893,7 +2893,7 @@
     <string name="VerifyIdentityActivity_our_signal_safety_number">ನಮ್ಮ Signal ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">ಹಂಚಿಕೊಳ್ಳಲು ತಾವು ಯಾವುದೇ ಅಪ್ಲಿಕೇಶನ್‌‌‌ಗಳನ್ನು ಹೊಂದಿಲ್ಲದಿರುವಂತೆ ಕಂಡುಬರುತ್ತಿದೆ.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">ಹೋಲಿಸುವುದಕ್ಕಾಗಿ ಯಾವುದೇ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ ಕ್ಲಿಪ್‌ಬೋರ್ಡಿನಲ್ಲಿ ಕಂಡುಬಂದಿಲ್ಲ</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">ಒಂದು ಕ್ಯುಆರ್‌ ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು Molly ಗೆ ಕ್ಯಾಮರಾ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಇದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">ಒಂದು ಕ್ಯುಆರ್‌ ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು Polly ಗೆ ಕ್ಯಾಮರಾ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಇದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">%1$s ಅವರ ಸುರಕ್ಷತೆ ಸಂಖ್ಯೆಯನ್ನು ನೋಡಲು ನೀವು ಮೊದಲು ಸಂದೇಶಗಳನ್ನು ವಿನಿಮಯ ಮಾಡಿಕೊಳ್ಳಬೇಕು.</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
     <string name="VerifyIdentityActivity_dialog_exchange_messages_to_create_safety_number_message">ಈ ವ್ಯಕ್ತಿಯು ನಿಮ್ಮೊಂದಿಗೆ ಮೆಸೇಜ್‌ಗಳನ್ನು ವಿನಿಮಯ ಮಾಡಿದ ಬಳಿಕ ಅವರೊಂದಿಗೆ ಒಂದು ಸುರಕ್ಷಾ ಸಂಖ್ಯೆಯನ್ನು ರಚಿಸಲಾಗುತ್ತದೆ.</string>
@@ -2930,8 +2930,8 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">ತೆರೆಯಲು ಸ್ಪರ್ಶಿಸಿ.</string>
-    <string name="KeyCachingService_passphrase_cached">Molly ಅನ್ಲಾಕ್ ಆಗಿದೆ</string>
-    <string name="KeyCachingService_lock">Molly ಲಾಕ್ ಮಾಡಿ</string>
+    <string name="KeyCachingService_passphrase_cached">Polly ಅನ್ಲಾಕ್ ಆಗಿದೆ</string>
+    <string name="KeyCachingService_lock">Polly ಲಾಕ್ ಮಾಡಿ</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">ನೀವು</string>
@@ -2984,7 +2984,7 @@
     <string name="MessageNotifier_failed_to_deliver_message">ಸಂದೇಶ ತಲುಪಿಸಲು ವಿಫಲವಾಗಿದೆ.</string>
     <string name="MessageNotifier_error_delivering_message">ಸಂದೇಶವನ್ನು ತಲುಪಿಸುವುದರಲ್ಲಿ ದೋಷ ಸಂಭವಿಸಿದೆ.</string>
     <string name="MessageNotifier_message_delivery_paused">ಮೆಸೇಜ್ ಡೆಲಿವರಿ ವಿರಾಮಗೊಳಿಸಲಾಗಿದೆ.</string>
-    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Molly ನಲ್ಲಿ ಮೆಸೇಜ್ ಮಾಡುವುದನ್ನು ಮುಂದುವರಿಸಲು ಪರಿಶೀಲಿಸಿ.</string>
+    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Polly ನಲ್ಲಿ ಮೆಸೇಜ್ ಮಾಡುವುದನ್ನು ಮುಂದುವರಿಸಲು ಪರಿಶೀಲಿಸಿ.</string>
     <string name="MessageNotifier_mark_all_as_read">ಎಲ್ಲವನ್ನು ಓದಿದೆ ಎಂದು ಗುರುತು ಮಾಡಿ</string>
     <string name="MessageNotifier_mark_read">ಓದಿದೆ ಎಂದು ಗುರುತು ಮಾಡಿ</string>
     <string name="MessageNotifier_turn_off_these_notifications">ಈ ನೊಟಿಫಿಕೇಶನ್‌ಗಳನ್ನು ಆಫ್ ಮಾಡಿ</string>
@@ -3008,7 +3008,7 @@
     <!-- Body of a notification when someone votes in a poll. First placeholder is the poll emoji, second placeholder is the name of the voter and third is the poll question -->
     <string name="MessageNotifier_s_voted_in_poll">%1$s\"%3$s\" ಸಮೀಕ್ಷೆಯಲ್ಲಿ %2$s ಮತ ಚಲಾಯಿಸಿದ್ದಾರೆ</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">ಸಂಪರ್ಕ Molly ಗೆ ಸೇರಿದ ನೊಟಿಫಿಕೇಶನ್‌ಗಳನ್ನು ಆಫ್ ಮಾಡುವುದೇ? Molly &gt; ಸೆಟ್ಟಿಂಗ್‌ಗಳು &gt; ನೊಟಿಫಿಕೇಶನ್‌ಗಳಲ್ಲಿ ಇದನ್ನು ನೀವು ಪುನಃ ಸಕ್ರಿಯಗೊಳಿಸಬಹುದು.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">ಸಂಪರ್ಕ Polly ಗೆ ಸೇರಿದ ನೊಟಿಫಿಕೇಶನ್‌ಗಳನ್ನು ಆಫ್ ಮಾಡುವುದೇ? Polly &gt; ಸೆಟ್ಟಿಂಗ್‌ಗಳು &gt; ನೊಟಿಫಿಕೇಶನ್‌ಗಳಲ್ಲಿ ಇದನ್ನು ನೀವು ಪುನಃ ಸಕ್ರಿಯಗೊಳಿಸಬಹುದು.</string>
 
     <!-- TurnOnNotificationsBottomSheet -->
     <!-- Title for sheet explaining how to turn on app notifications -->
@@ -3084,7 +3084,7 @@
     </plurals>
 
     <!-- Message shown when the app requests permission to save media to the device storage, but that permission has been permanently denied by the user. -->
-    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">ಬಾಹ್ಯ ಸ್ಟೋರೇಜ್ ಗೆ ಉಳಿಸುವುದಕ್ಕೆ Molly ಗೆ ಸ್ಟೊರೇಜ್ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ , ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್‌ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು \"ಸ್ಟೊರೇಜ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">ಬಾಹ್ಯ ಸ್ಟೋರೇಜ್ ಗೆ ಉಳಿಸುವುದಕ್ಕೆ Polly ಗೆ ಸ್ಟೊರೇಜ್ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ , ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್‌ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು \"ಸ್ಟೊರೇಜ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
 
     <!-- Message explaining that it is not possible to save media to the device storage after the user denied the system save to storage permission. -->
     <string name="AttachmentSaver__unable_to_write_to_external_storage_without_permission">ಅನುಮತಿಗಳಿಲ್ಲದೆ ಬಾಹ್ಯ ಸ್ಟೊರೇಜ್‌ಗೆ ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ</string>
@@ -3094,11 +3094,11 @@
     <!-- Dialog title shown when attempting to save media that has been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_media">ಮೀಡಿಯಾವನ್ನು ಸೇವ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
     <!-- Dialog message explaining that media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__media_offloaded_message">\"Molly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಎಂಬುದನ್ನು ಆನ್ ಮಾಡಿರುವುದರಿಂದ ನಿಮ್ಮ ಸಾಧನದಿಂದ ಈ ಮೀಡಿಯಾವನ್ನು ಆಫ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ. ನೀವು ಒಂದೊಂದೇ ಐಟಂಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು ಅಥವಾ ಎಲ್ಲಾ ಮೀಡಿಯಾವನ್ನು ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು \"Molly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಎಂಬುದನ್ನು ಆಫ್ ಮಾಡಬಹುದು.</string>
+    <string name="AttachmentSaver__media_offloaded_message">\"Polly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಎಂಬುದನ್ನು ಆನ್ ಮಾಡಿರುವುದರಿಂದ ನಿಮ್ಮ ಸಾಧನದಿಂದ ಈ ಮೀಡಿಯಾವನ್ನು ಆಫ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ. ನೀವು ಒಂದೊಂದೇ ಐಟಂಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು ಅಥವಾ ಎಲ್ಲಾ ಮೀಡಿಯಾವನ್ನು ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು \"Polly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಎಂಬುದನ್ನು ಆಫ್ ಮಾಡಬಹುದು.</string>
     <!-- Dialog title shown when attempting to save multiple media items, some of which have been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_all_items">ಎಲ್ಲಾ ಐಟಂಗಳನ್ನು ಸೇವ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
     <!-- Dialog message explaining that some selected media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__some_media_offloaded_message">\"Molly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಅನ್ನು ಆನ್ ಮಾಡಿರುವುದರಿಂದ ನೀವು ಆಯ್ಕೆಮಾಡಿರುವ ನಿಮ್ಮ ಕೆಲವು ಮೀಡಿಯಾವನ್ನು ನಿಮ್ಮ ಸಾಧನದಿಂದ ಆಫ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ. ನೀವು ಒಂದೊಂದೇ ಐಟಂಗಳನ್ನು ಸೇವ್ ಮಾಡಬಹುದು ಅಥವಾ ಎಲ್ಲಾ ಮೀಡಿಯಾವನ್ನು ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು \"Molly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಎಂಬುದನ್ನು ಆಫ್ ಮಾಡಬಹುದು.</string>
+    <string name="AttachmentSaver__some_media_offloaded_message">\"Polly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಅನ್ನು ಆನ್ ಮಾಡಿರುವುದರಿಂದ ನೀವು ಆಯ್ಕೆಮಾಡಿರುವ ನಿಮ್ಮ ಕೆಲವು ಮೀಡಿಯಾವನ್ನು ನಿಮ್ಮ ಸಾಧನದಿಂದ ಆಫ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ. ನೀವು ಒಂದೊಂದೇ ಐಟಂಗಳನ್ನು ಸೇವ್ ಮಾಡಬಹುದು ಅಥವಾ ಎಲ್ಲಾ ಮೀಡಿಯಾವನ್ನು ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು \"Polly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಎಂಬುದನ್ನು ಆಫ್ ಮಾಡಬಹುದು.</string>
     <!-- Button label in the offloaded media dialog that navigates to the storage settings screen. -->
     <string name="AttachmentSaver__view_storage_settings">ಸಂಗ್ರಹಣೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
 
@@ -3111,7 +3111,7 @@
     <string name="ShortcutLauncherActivity_invalid_shortcut">ಅಮಾನ್ಯವಾದ ಶಾರ್ಟ್‌ಕಟ್</string>
 
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_signal">Molly</string>
+    <string name="SingleRecipientNotificationBuilder_signal">Polly</string>
     <string name="SingleRecipientNotificationBuilder_new_message">ಹೊಸ ಸಂದೇಶ</string>
     <string name="SingleRecipientNotificationBuilder_message_request">ಸಂದೇಶ ವಿನಂತಿ</string>
     <string name="SingleRecipientNotificationBuilder_you">ನೀವು</string>
@@ -3187,20 +3187,20 @@
 
     <!-- UnauthorizedReminder -->
     <!-- Message shown in a reminder banner when the user\'s device is no longer registered -->
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">ಈ ಸಾಧನವು ಇನ್ನು ನೋಂದಾಯಿತವಾಗಿರುವುದಿಲ್ಲ. ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನೀವು Molly ನೊಂದಿಗೆ ಬೇರೆ ಸಾಧನದಲ್ಲಿ ನೋಂದಾಯಿಸಿದ್ದರಿಂದ ಇದು ಉಂಟಾಗಿರಬಹುದು.</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">ಈ ಸಾಧನವು ಇನ್ನು ನೋಂದಾಯಿತವಾಗಿರುವುದಿಲ್ಲ. ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನೀವು Polly ನೊಂದಿಗೆ ಬೇರೆ ಸಾಧನದಲ್ಲಿ ನೋಂದಾಯಿಸಿದ್ದರಿಂದ ಇದು ಉಂಟಾಗಿರಬಹುದು.</string>
     <!-- Action in reminder banner that will take user to re-register -->
     <string name="UnauthorizedReminder_reregister_action">ಸಾಧನವನ್ನು ಮರುನೋಂದಾಯಿಸಿ</string>
     <!-- Message shown in a reminder banner when this linked device is no longer linked to a primary device -->
-    <string name="UnauthorizedReminder_this_device_is_no_longer_linked_relink_to_continue_messaging">ಈ ಸಾಧನವು ಇನ್ನು ಲಿಂಕ್ ಆಗಿರುವುದಿಲ್ಲ. ಮೆಸೇಜ್ ಮಾಡುವುದನ್ನು ಮುಂದುವರಿಸಲು Molly ಅನ್ನು ನಿಮ್ಮ ಫೋನ್‌ನೊಂದಿಗೆ ಮರು-ಲಿಂಕ್ ಮಾಡಿ.</string>
+    <string name="UnauthorizedReminder_this_device_is_no_longer_linked_relink_to_continue_messaging">ಈ ಸಾಧನವು ಇನ್ನು ಲಿಂಕ್ ಆಗಿರುವುದಿಲ್ಲ. ಮೆಸೇಜ್ ಮಾಡುವುದನ್ನು ಮುಂದುವರಿಸಲು Polly ಅನ್ನು ನಿಮ್ಮ ಫೋನ್‌ನೊಂದಿಗೆ ಮರು-ಲಿಂಕ್ ಮಾಡಿ.</string>
     <!-- Action in reminder banner that will take the user to re-link this device -->
     <string name="UnauthorizedReminder_relink_action">ಸಾಧನವನ್ನು ಮರು-ಲಿಂಕ್ ಮಾಡಿ</string>
 
     <!-- Push notification when the app is forcibly logged out by the server. -->
-    <string name="LoggedOutNotification_you_have_been_logged_out">ಈ ಸಾಧನದಲ್ಲಿ ನೀವು Molly ನಿಂದ ಲಾಗ್ ಔಟ್ ಆಗಿದ್ದೀರಿ.</string>
+    <string name="LoggedOutNotification_you_have_been_logged_out">ಈ ಸಾಧನದಲ್ಲಿ ನೀವು Polly ನಿಂದ ಲಾಗ್ ಔಟ್ ಆಗಿದ್ದೀರಿ.</string>
 
     <!-- EnclaveFailureReminder -->
     <!-- Banner message to update app to use payments -->
-    <string name="EnclaveFailureReminder_update_signal">ಪಾವತಿಗಳ ಬಳಕೆ ಮುಂದುವರಿಸಲು Molly ನವೀಕರಿಸಿ. ನಿಮ್ಮ ಬ್ಯಾಲೆನ್ಸ್ ಅಪ್‌ಟುಡೇಟ್ ಇಲ್ಲದಿರಬಹುದು.</string>
+    <string name="EnclaveFailureReminder_update_signal">ಪಾವತಿಗಳ ಬಳಕೆ ಮುಂದುವರಿಸಲು Polly ನವೀಕರಿಸಿ. ನಿಮ್ಮ ಬ್ಯಾಲೆನ್ಸ್ ಅಪ್‌ಟುಡೇಟ್ ಇಲ್ಲದಿರಬಹುದು.</string>
     <!-- Banner button to update now -->
 
     <string name="WebRtcCallActivity__answered_on_a_linked_device">ಲಿಂಕ್ ಮಾಡಿದ ಸಾಧನದಲ್ಲಿ ಉತ್ತರಿಸಲಾಗಿದೆ.</string>
@@ -3249,7 +3249,7 @@
     <!-- Row item description for refreshing contacts -->
     <string name="contact_selection_activity__missing_someone">ಯಾರಾದರೂ ತಪ್ಪಿಹೋದಂತೆ ಅನಿಸುತ್ತಿದೆಯೇ? ರಿಫ್ರೆಶ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ</string>
     <!-- Row item title for finding people on Signal via your contacts -->
-    <string name="contact_selection_activity__find_people_you_know">ನಿಮಗೆ ಗೊತ್ತಿರುವ ಜನರನ್ನು Molly ನಲ್ಲಿ ಹುಡುಕಿ</string>
+    <string name="contact_selection_activity__find_people_you_know">ನಿಮಗೆ ಗೊತ್ತಿರುವ ಜನರನ್ನು Polly ನಲ್ಲಿ ಹುಡುಕಿ</string>
     <!-- Row item description asking users for access to their contacts to find people they know -->
     <string name="contact_selection_activity__allow_access_to_contacts">ನಿಮ್ಮ ಸಂಪರ್ಕಗಳಿಗೆ ಆ್ಯಕ್ಸೆಸ್ ಅನುಮತಿಸಿ</string>
     <!-- Row header title for more section -->
@@ -3268,7 +3268,7 @@
     <string name="SingleContactSelectionActivity_contact_photo">ಸಂಪರ್ಕದ ಛಾಯಾಚಿತ್ರ</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ತೋರಿಸಲು Molly ಗೆ ಸಂಪರ್ಕಗಳ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸಂಪರ್ಕಗಳು\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ತೋರಿಸಲು Polly ಗೆ ಸಂಪರ್ಕಗಳ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸಂಪರ್ಕಗಳು\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">ಸಂಪರ್ಕಗಳನ್ನು ಹಿಂಪಡೆಯುವಲ್ಲಿ ದೋಷ, ನಿಮ್ಮ ನೆಟ್‌ವರ್ಕ್ ಸಂಪರ್ಕ ಪರಿಶೀಲಿಸಿ</string>
     <string name="ContactSelectionListFragment_username_not_found">ಯೂಸರ್ ನೇಮ್ ಕಂಡುಬಂದಿಲ್ಲ</string>
     <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" Signal ಬಳಕೆದಾರರಲ್ಲ. ದಯವಿಟ್ಟು ಯೂಸರ್ ನೇಮ್ ಅನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ."</string>
@@ -3288,7 +3288,7 @@
     <!-- Dialog title asking users for contact permission -->
     <string name="ContactSelectionListFragment_allow_access_contacts">ಸಂಪರ್ಕಗಳಿಗೆ ಆ್ಯಕ್ಸೆಸ್ ಅನುಮತಿಸಿ</string>
     <!-- Dialog description that will explain the steps needed to give contact permissions -->
-    <string name="ContactSelectionListFragment_to_find_people">ನಿಮಗೆ ಗೊತ್ತಿರುವ ಜನರನ್ನು Molly ನಲ್ಲಿ ಹುಡುಕಲು:</string>
+    <string name="ContactSelectionListFragment_to_find_people">ನಿಮಗೆ ಗೊತ್ತಿರುವ ಜನರನ್ನು Polly ನಲ್ಲಿ ಹುಡುಕಲು:</string>
     <!-- Text on button prompting users to give Signal contact permissions -->
     <string name="ContactSelectionListFragment__allow_access">ಪ್ರವೇಶ ಅನುಮತಿಸಿ</string>
     <!-- Text on button to dismiss Signal\'s request for contact permissions -->
@@ -3418,7 +3418,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">ಬಬಲ್‌ಗಳು ಆಂಡ್ರಾಯ್ಡ್ ಫೀಚರ್ ಆಗಿದ್ದು, Molly ಚಾಟ್‌ಗಳಿಗಾಗಿ ನೀವು ಅದನ್ನು ಆಫ್ ಮಾಡಬಹುದು.</string>
+    <string name="BubbleOptOutTooltip__description">ಬಬಲ್‌ಗಳು ಆಂಡ್ರಾಯ್ಡ್ ಫೀಚರ್ ಆಗಿದ್ದು, Polly ಚಾಟ್‌ಗಳಿಗಾಗಿ ನೀವು ಅದನ್ನು ಆಫ್ ಮಾಡಬಹುದು.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">ಈಗಲ್ಲ</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -3559,20 +3559,20 @@
     <!-- Bottom sheet title when encryption is auto-verified -->
     <string name="EncryptionVerifiedSheet__title_success">ಈ ಚಾಟ್‌ಗೆ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ಸ್ವಯಂ-ದೃಢೀಕರಿಸಲಾಗಿದೆ</string>
     <!-- Bottom sheet body when encryption is auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_success">ನೀವು ಫೋನ್ ಸಂಖ್ಯೆಯ ಮೂಲಕ ಕನೆಕ್ಟ್ ಆಗಿರುವ ಜನರಿಗೆ, ಕೀ ಟ್ರಾನ್ಸ್‌ಪರೆನ್ಸಿ ಎಂಬ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಬಳಸಿಕೊಂಡು ಕನೆಕ್ಷನ್ ಸುರಕ್ಷಿತವಾಗಿದೆಯೇ ಎಂದು Molly ಸ್ವಯಂಚಾಲಿತವಾಗಿ ದೃಢೀಕರಿಸುತ್ತದೆ. ಹೆಚ್ಚುವರಿ ಭದ್ರತೆಗಾಗಿ, ಹಿಂದಿನ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡುವ ಮೂಲಕ ಅಥವಾ ಅವರ ಸಾಧನದಲ್ಲಿರುವ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುವ ಮೂಲಕ ಹಸ್ತಚಾಲಿತವಾಗಿ ಎಂಡ್-ಟು-ಎಂಡ್ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ದೃಢೀಕರಿಸಿ.</string>
+    <string name="EncryptionVerifiedSheet__body_success">ನೀವು ಫೋನ್ ಸಂಖ್ಯೆಯ ಮೂಲಕ ಕನೆಕ್ಟ್ ಆಗಿರುವ ಜನರಿಗೆ, ಕೀ ಟ್ರಾನ್ಸ್‌ಪರೆನ್ಸಿ ಎಂಬ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಬಳಸಿಕೊಂಡು ಕನೆಕ್ಷನ್ ಸುರಕ್ಷಿತವಾಗಿದೆಯೇ ಎಂದು Polly ಸ್ವಯಂಚಾಲಿತವಾಗಿ ದೃಢೀಕರಿಸುತ್ತದೆ. ಹೆಚ್ಚುವರಿ ಭದ್ರತೆಗಾಗಿ, ಹಿಂದಿನ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡುವ ಮೂಲಕ ಅಥವಾ ಅವರ ಸಾಧನದಲ್ಲಿರುವ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುವ ಮೂಲಕ ಹಸ್ತಚಾಲಿತವಾಗಿ ಎಂಡ್-ಟು-ಎಂಡ್ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ದೃಢೀಕರಿಸಿ.</string>
     <!-- Bottom sheet title when encryption is no longer auto-verified -->
     <string name="EncryptionVerifiedSheet__title_no_longer_unavailable">ಈ ಚಾಟ್‌ಗೆ ಸ್ವಯಂ-ದೃಢೀಕರಣ ಲಭ್ಯವಿಲ್ಲ</string>
     <!-- Bottom sheet body when encryption is no longer auto-verified. Placeholder is the name of the person. -->
-    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">ಈ ಚಾಟ್‌ಗಾಗಿ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು Molly ಸ್ವಯಂಚಾಲಿತವಾಗಿ ದೃಢೀಕರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. %1$s ಅವರು ತಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಅಥವಾ ಅವರ ಫೋನ್ ಸಂಖ್ಯೆಯ ಗೌಪ್ಯತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿರುವುದರಿಂದ ಹೀಗೆ ಆಗಿರಬಹುದು. ಹಿಂದಿನ ಸ್ಕ್ರೀನ್‌ನ ಸಂಖ್ಯೆಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡುವ ಮೂಲಕ ಅಥವಾ ಅವರ ಸಾಧನದಲ್ಲಿನ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುವ ಮೂಲಕ ಎಂಡ್-ಟು-ಎಂಡ್ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ದೃಢೀಕರಿಸಿ.</string>
+    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">ಈ ಚಾಟ್‌ಗಾಗಿ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು Polly ಸ್ವಯಂಚಾಲಿತವಾಗಿ ದೃಢೀಕರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. %1$s ಅವರು ತಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಅಥವಾ ಅವರ ಫೋನ್ ಸಂಖ್ಯೆಯ ಗೌಪ್ಯತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿರುವುದರಿಂದ ಹೀಗೆ ಆಗಿರಬಹುದು. ಹಿಂದಿನ ಸ್ಕ್ರೀನ್‌ನ ಸಂಖ್ಯೆಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡುವ ಮೂಲಕ ಅಥವಾ ಅವರ ಸಾಧನದಲ್ಲಿನ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುವ ಮೂಲಕ ಎಂಡ್-ಟು-ಎಂಡ್ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ದೃಢೀಕರಿಸಿ.</string>
     <!-- Bottom sheet title when encryption cannot be auto-verified -->
     <string name="EncryptionVerifiedSheet__title_unavailable">ಈ ಚಾಟ್‌ಗೆ ಸ್ವಯಂ-ದೃಢೀಕರಣ ಲಭ್ಯವಿಲ್ಲ</string>
     <!-- Bottom sheet body when encryption cannot be auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_unavailable">ನೀವು ಫೋನ್ ಸಂಖ್ಯೆಯ ಮೂಲಕ ಯಾರೊಂದಿಗಾದರೂ ಸಂಪರ್ಕಗೊಂಡಿರುವ ಚಾಟ್‌ಗಳಲ್ಲಿ Molly ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ದೃಢೀಕರಿಸಬಹುದು. ಚಾಟ್ ಅನ್ನು ಯೂಸರ್‌ನೇಮ್ ಅಥವಾ ಸಾಮಾನ್ಯ ಗುಂಪಿನೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸಿದ್ದರೆ, ಹಿಂದಿನ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡುವ ಮೂಲಕ ಅಥವಾ ಅವರ ಸಾಧನದಲ್ಲಿ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುವ ಮೂಲಕ ಎಂಡ್-ಟು-ಎಂಡ್ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ದೃಢೀಕರಿಸಿ.</string>
+    <string name="EncryptionVerifiedSheet__body_unavailable">ನೀವು ಫೋನ್ ಸಂಖ್ಯೆಯ ಮೂಲಕ ಯಾರೊಂದಿಗಾದರೂ ಸಂಪರ್ಕಗೊಂಡಿರುವ ಚಾಟ್‌ಗಳಲ್ಲಿ Polly ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ದೃಢೀಕರಿಸಬಹುದು. ಚಾಟ್ ಅನ್ನು ಯೂಸರ್‌ನೇಮ್ ಅಥವಾ ಸಾಮಾನ್ಯ ಗುಂಪಿನೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸಿದ್ದರೆ, ಹಿಂದಿನ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿರುವ ಸಂಖ್ಯೆಗಳನ್ನು ಹೋಲಿಕೆ ಮಾಡುವ ಮೂಲಕ ಅಥವಾ ಅವರ ಸಾಧನದಲ್ಲಿ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡುವ ಮೂಲಕ ಎಂಡ್-ಟು-ಎಂಡ್ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ದೃಢೀಕರಿಸಿ.</string>
 
     <!-- Title for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__title">Molly ಈಗ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ಸ್ವಯಂ-ದೃಢೀಕರಿಸಬಲ್ಲದು</string>
+    <string name="VerifyAutomaticallyEducationSheet__title">Polly ಈಗ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ಸ್ವಯಂ-ದೃಢೀಕರಿಸಬಲ್ಲದು</string>
     <!-- Body for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__body">ನೀವು ಫೋನ್ ಸಂಖ್ಯೆಯ ಮೂಲಕ ಕನೆಕ್ಟ್ ಆಗಿರುವ ಸಂಪರ್ಕಗಳಿಗೆ, ಕೀ ಟ್ರಾನ್ಸ್‌ಪರೆನ್ಸಿ ಎಂಬ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಬಳಸಿಕೊಂಡು ಕನೆಕ್ಷನ್ ಸುರಕ್ಷಿತವಾಗಿದೆಯೇ ಎಂದು Molly ಸ್ವಯಂಚಾಲಿತವಾಗಿ ದೃಢೀಕರಿಸುತ್ತದೆ. ಹೆಚ್ಚಿನ ಭದ್ರತೆಗಾಗಿ, ನೀವು ಈಗಲೂ QR ಕೋಡ್ ಅಥವಾ ಸುರಕ್ಷಾ ಸಂಖ್ಯೆಯನ್ನು ಬಳಸಿಕೊಂಡು ಕನೆಕ್ಷನ್‌ಗಳನ್ನು ಮ್ಯಾನುವಲ್ ಆಗಿ ದೃಢೀಕರಿಸಬಹುದು.</string>
+    <string name="VerifyAutomaticallyEducationSheet__body">ನೀವು ಫೋನ್ ಸಂಖ್ಯೆಯ ಮೂಲಕ ಕನೆಕ್ಟ್ ಆಗಿರುವ ಸಂಪರ್ಕಗಳಿಗೆ, ಕೀ ಟ್ರಾನ್ಸ್‌ಪರೆನ್ಸಿ ಎಂಬ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಬಳಸಿಕೊಂಡು ಕನೆಕ್ಷನ್ ಸುರಕ್ಷಿತವಾಗಿದೆಯೇ ಎಂದು Polly ಸ್ವಯಂಚಾಲಿತವಾಗಿ ದೃಢೀಕರಿಸುತ್ತದೆ. ಹೆಚ್ಚಿನ ಭದ್ರತೆಗಾಗಿ, ನೀವು ಈಗಲೂ QR ಕೋಡ್ ಅಥವಾ ಸುರಕ್ಷಾ ಸಂಖ್ಯೆಯನ್ನು ಬಳಸಿಕೊಂಡು ಕನೆಕ್ಷನ್‌ಗಳನ್ನು ಮ್ಯಾನುವಲ್ ಆಗಿ ದೃಢೀಕರಿಸಬಹುದು.</string>
     <!-- Button to learn more about automatic verification -->
     <string name="VerifyAutomaticallyEducationSheet__learn_more">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
     <!-- Button to go to verification page -->
@@ -3646,7 +3646,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <!-- Heading used within support email that lists additional information to help with debugging -->
     <string name="HelpFragment__support_info">ಬೆಂಬಲ ಮಾಹಿತಿ</string>
-    <string name="HelpFragment__signal_android_support_request">Molly ಆಂಡ್ರಾಯ್ಡ್ ಬೆಂಬಲ ವಿನಂತಿ</string>
+    <string name="HelpFragment__signal_android_support_request">Polly ಆಂಡ್ರಾಯ್ಡ್ ಬೆಂಬಲ ವಿನಂತಿ</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__debug_log" translatable="false">Debug Log:</string> -->
     <string name="HelpFragment__could_not_upload_logs">ಲಾಗ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗದು</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">ಸಮಸ್ಯೆಯನ್ನು ಅರ್ಥ ಮಾಡಿಕೊಳ್ಳಲು ನಮಗೆ ಸಹಾಯ ಮಾಡುವುದಕ್ಕಾಗಿ ಸಾಧ್ಯವಾದಷ್ಟೂ ವಿವರಣೆ ನೀಡಿ</string>
@@ -3756,7 +3756,7 @@
     <string name="preferences__normal">ಸಾಧಾರಣ</string>
     <string name="preferences__slow">ನಿಧಾನ</string>
     <string name="preferences__advanced">ಸುಧಾರಿತ</string>
-    <string name="preferences__donate_to_signal">Molly ಗೆ ದೇಣಿಗೆ ನೀಡಿ</string>
+    <string name="preferences__donate_to_signal">Polly ಗೆ ದೇಣಿಗೆ ನೀಡಿ</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">ಸ್ಟೋರೀಸ್</string>
     <string name="preferences__storage">ಸ್ಟೊರೇಜ್</string>
@@ -3838,7 +3838,7 @@
     <string name="preferences_communication__category_censorship_circumvention">ಸೆನ್ಸಾರ್‌‌ಶಿಪ್ ದಾಟಿಹೋಗುವುದು</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">ಸೆನ್ಸಾರ್‌‌ಶಿಪ್ ದಾಟಿಹೋಗುವುದು</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">ಸಕ್ರಿಯಗೊಳಿಸಿದಲ್ಲಿ, Molly ಸೆನ್ಸಾರ್ಶಿಪ್ ಅನ್ನು ತಪ್ಪಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತದೆ. ನೀವು Molly ಸೆನ್ಸಾರ್ ಮಾಡಿದ ಸ್ಥಳದಲ್ಲಿ ಇಲ್ಲದಿದ್ದರೆ ಈ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಬೇಡಿ.</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">ಸಕ್ರಿಯಗೊಳಿಸಿದಲ್ಲಿ, Polly ಸೆನ್ಸಾರ್ಶಿಪ್ ಅನ್ನು ತಪ್ಪಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತದೆ. ನೀವು Polly ಸೆನ್ಸಾರ್ ಮಾಡಿದ ಸ್ಥಳದಲ್ಲಿ ಇಲ್ಲದಿದ್ದರೆ ಈ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಬೇಡಿ.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">ನಿಮ್ಮ ಖಾತೆಯ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಆಧರಿಸಿ ಸೆನ್ಸಾರ್ಶಿಪ್ ತಪ್ಪಿಸುವಿಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
@@ -3866,7 +3866,7 @@
     <!-- Preference title for automatic key verification -->
     <string name="preferences_automatic_key_verification">ಸ್ವಯಂಚಾಲಿತ ಕೀ ದೃಢೀಕರಣ</string>
     <!-- Preference summary for automatic key verification -->
-    <string name="preferences_automatic_key_verification_body">ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ, Molly 1:1 ಚಾಟ್‌ಗಳ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ದೃಢೀಕರಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತದೆ.</string>
+    <string name="preferences_automatic_key_verification_body">ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ, Polly 1:1 ಚಾಟ್‌ಗಳ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಅನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ದೃಢೀಕರಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತದೆ.</string>
 
 
     <!-- Internal only preferences -->
@@ -3883,7 +3883,7 @@
 
     <!-- Displayed on a welcome screen for payments -->
     <string name="PaymentsHomeFragment_introducing_payments">ಪಾವತಿಗಳನ್ನು ಪರಿಚಯಿಸಲಾಗುತ್ತಿದೆ</string>
-    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">ಗೌಪ್ಯತೆಯ ಮೇಲೆ ಕೇಂದ್ರೀಕರಿಸಿದ ಹೊಸ ಡಿಜಿಟಲ್ ಕರೆನ್ಸಿ ಮೊಬೈಲ್‌ ಕಾಯಿನ್ ಕಳುಹಿಸಲು ಮತ್ತು ಸ್ವೀಕರಿಸಲು Molly ಬಳಸಿ. ಆರಂಭಿಸಲು ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">ಗೌಪ್ಯತೆಯ ಮೇಲೆ ಕೇಂದ್ರೀಕರಿಸಿದ ಹೊಸ ಡಿಜಿಟಲ್ ಕರೆನ್ಸಿ ಮೊಬೈಲ್‌ ಕಾಯಿನ್ ಕಳುಹಿಸಲು ಮತ್ತು ಸ್ವೀಕರಿಸಲು Polly ಬಳಸಿ. ಆರಂಭಿಸಲು ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
     <string name="PaymentsHomeFragment__activate_payments">ಪೇಮೆಂಟ್ಸ್ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="PaymentsHomeFragment__activating_payments">ಪೇಮೆಂಟ್ಸ್ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗುತ್ತಿದೆ…</string>
     <string name="PaymentsHomeFragment__restore_payments_account">ಪೇಮೆಂಟ್ಸ್ ಖಾತೆ ಮರುಸ್ಥಾಪಿಸಿ</string>
@@ -3909,7 +3909,7 @@
     <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">ನಿಮ್ಮ ವಲಯದಲ್ಲಿ ಪೇಮೆಂಟ್ಸ್ ಲಭ್ಯವಿಲ್ಲ.</string>
     <string name="PaymentsHomeFragment__could_not_enable_payments">ಪೇಮೆಂಟ್ಸ್ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗದು. ದಯವಿಟ್ಟು ಪುನಃ ನಂತರ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="PaymentsHomeFragment__deactivate_payments_question">ಪೇಮೆಂಟ್‌ಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವುದೇ?</string>
-    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">ನೀವು ಪೇಮೆಂಟ್ಸ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದರೆ Molly ನಲ್ಲಿ Mobilecoin ಅನ್ನು ಕಳುಹಿಸಲು ಅಥವಾ ಸ್ವೀಕರಿಸಲು ನಿಮಗೆ ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.</string>
+    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">ನೀವು ಪೇಮೆಂಟ್ಸ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದರೆ Polly ನಲ್ಲಿ Mobilecoin ಅನ್ನು ಕಳುಹಿಸಲು ಅಥವಾ ಸ್ವೀಕರಿಸಲು ನಿಮಗೆ ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.</string>
     <string name="PaymentsHomeFragment__deactivate">ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="PaymentsHomeFragment__continue">ಮುಂದುವರಿಸಿ</string>
     <string name="PaymentsHomeFragment__balance_is_not_currently_available">ಬ್ಯಾಲೆನ್ಸ್ ಸದ್ಯ ಲಭ್ಯವಿಲ್ಲ.</string>
@@ -3918,10 +3918,10 @@
     <string name="PaymentsHomeFragment__details">ವಿವರಗಳು</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
     <!-- Displayed as a description in a dialog when the user tries to activate payments -->
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">MobileCoin ಅನ್ನು ಕಳುಹಿಸಲು ಮತ್ತು ಸ್ವೀಕರಿಸಲು ನೀವು Molly ಅನ್ನು ಬಳಸಬಹುದು. ಎಲ್ಲಾ ಪಾವತಿಗಳು MobileCoins ಮತ್ತು MobileCoin Wallet ನ ಬಳಕೆಯ ಕರಾರುಗಳಿಗೆ ಒಳಪಟ್ಟಿವೆ. ನೀವು ಕೆಲವು ಸಮಸ್ಯೆಗಳನ್ನು ಎದುರಿಸಬಹುದು ಮತ್ತು ಪಾವತಿಗಳು ಅಥವಾ ಬ್ಯಾಲೆನ್ಸ್ ಅನ್ನು ನೀವು ಕಳೆದುಕೊಳ್ಳಬಹುದು ಹಾಗೂ ಅವುಗಳನ್ನು ಮರುಪಡೆಯಲು ಸಾಧ್ಯವಾಗದು. </string>
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">MobileCoin ಅನ್ನು ಕಳುಹಿಸಲು ಮತ್ತು ಸ್ವೀಕರಿಸಲು ನೀವು Polly ಅನ್ನು ಬಳಸಬಹುದು. ಎಲ್ಲಾ ಪಾವತಿಗಳು MobileCoins ಮತ್ತು MobileCoin Wallet ನ ಬಳಕೆಯ ಕರಾರುಗಳಿಗೆ ಒಳಪಟ್ಟಿವೆ. ನೀವು ಕೆಲವು ಸಮಸ್ಯೆಗಳನ್ನು ಎದುರಿಸಬಹುದು ಮತ್ತು ಪಾವತಿಗಳು ಅಥವಾ ಬ್ಯಾಲೆನ್ಸ್ ಅನ್ನು ನೀವು ಕಳೆದುಕೊಳ್ಳಬಹುದು ಹಾಗೂ ಅವುಗಳನ್ನು ಮರುಪಡೆಯಲು ಸಾಧ್ಯವಾಗದು. </string>
     <string name="PaymentsHomeFragment__activate">ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">MobileCoin ನಿಯಮಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
-    <string name="PaymentsHomeFragment__payments_not_available">Molly ನಲ್ಲಿ ಪೇಮೆಂಟ್ಸ್‌ ಇನ್ನು ಲಭ್ಯವಿರುವುದಿಲ್ಲ. ನೀವು ಇನ್ನೂ ಎಕ್ಸ್‌ಚೇಂಜ್‌ಗೆ ಹಣವನ್ನು ವರ್ಗಾವಣೆ ಮಾಡಬಹುದು. ಆದರೆ, ನೀವು ಇನ್ನು ಪೇಮೆಂಟ್‌ಗಳನ್ನು ಕಳುಹಿಸಲಾಗದು ಮತ್ತು ಸ್ವೀಕರಿಸಲಾಗದು ಅಥವಾ ಫಂಡ್‌ಗಳನ್ನು ಸೇರಿಸಲಾಗದು.</string>
+    <string name="PaymentsHomeFragment__payments_not_available">Polly ನಲ್ಲಿ ಪೇಮೆಂಟ್ಸ್‌ ಇನ್ನು ಲಭ್ಯವಿರುವುದಿಲ್ಲ. ನೀವು ಇನ್ನೂ ಎಕ್ಸ್‌ಚೇಂಜ್‌ಗೆ ಹಣವನ್ನು ವರ್ಗಾವಣೆ ಮಾಡಬಹುದು. ಆದರೆ, ನೀವು ಇನ್ನು ಪೇಮೆಂಟ್‌ಗಳನ್ನು ಕಳುಹಿಸಲಾಗದು ಮತ್ತು ಸ್ವೀಕರಿಸಲಾಗದು ಅಥವಾ ಫಂಡ್‌ಗಳನ್ನು ಸೇರಿಸಲಾಗದು.</string>
 
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string> -->
     <!-- Alert dialog title which shows up after a payment to turn on payment lock -->
@@ -4004,9 +4004,9 @@
     <string name="PaymentsTransferFragment__next">ಮುಂದೆ</string>
     <string name="PaymentsTransferFragment__invalid_address">ಅಮಾನ್ಯ ವಿಳಾಸ</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">ವರ್ಗಾವಣೆ ಮಾಡಲು ನೀವು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವ ವಾಲೆಟ್ ವಿಳಾಸವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">ನೀವು ನಿಮ್ಮದೇ Molly ವಾಲೆಟ್ ವಿಳಾಸಕ್ಕೆ ವರ್ಗಾವಣೆ ಮಾಡಿ. ಬೆಂಬಲಿಸಿದ ವಿನಿಮಯದಲ್ಲಿ ನಿಮ್ಮ ಖಾತೆಯಿಂದ ವಾಲೆಟ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">ಕ್ಯುಆರ್‌ ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು, ಕ್ಯಾಮರಾ ಪ್ರವೇಶಾವಕಾಶವು Molly ಗೆ ಅಗತ್ಯವಿದೆ.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">ಕ್ಯುಆರ್‌ ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು, ಕ್ಯಾಮರಾ ಪ್ರವೇಶಾವಕಾಶವು Molly ಗೆ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">ನೀವು ನಿಮ್ಮದೇ Polly ವಾಲೆಟ್ ವಿಳಾಸಕ್ಕೆ ವರ್ಗಾವಣೆ ಮಾಡಿ. ಬೆಂಬಲಿಸಿದ ವಿನಿಮಯದಲ್ಲಿ ನಿಮ್ಮ ಖಾತೆಯಿಂದ ವಾಲೆಟ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">ಕ್ಯುಆರ್‌ ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು, ಕ್ಯಾಮರಾ ಪ್ರವೇಶಾವಕಾಶವು Polly ಗೆ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">ಕ್ಯುಆರ್‌ ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು, ಕ್ಯಾಮರಾ ಪ್ರವೇಶಾವಕಾಶವು Polly ಗೆ ಅಗತ್ಯವಿದೆ.</string>
 
     <!-- PaymentsTransferQrScanFragment -->
     <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">ವಿಳಾಸ ಕ್ಯುಆರ್‌ ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
@@ -4367,17 +4367,17 @@
 
     <!-- CallNotificationBuilder -->
     <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">ಒಳಬರುವ Molly ಧ್ವನಿ ಕರೆ</string>
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">ಒಳಬರುವ Polly ಧ್ವನಿ ಕರೆ</string>
     <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">ಒಳಬರುವ Molly ವೀಡಿಯೊ ಕರೆ</string>
+    <string name="CallNotificationBuilder__incoming_signal_video_call">ಒಳಬರುವ Polly ವೀಡಿಯೊ ಕರೆ</string>
     <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">ಒಳಬರುವ Molly ಗ್ರೂಪ್ ಕರೆ</string>
+    <string name="CallNotificationBuilder__incoming_signal_group_call">ಒಳಬರುವ Polly ಗ್ರೂಪ್ ಕರೆ</string>
     <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">ಚಾಲ್ತಿಯಲ್ಲಿರುವ Molly ಧ್ವನಿ ಕರೆ</string>
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">ಚಾಲ್ತಿಯಲ್ಲಿರುವ Polly ಧ್ವನಿ ಕರೆ</string>
     <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">ಚಾಲ್ತಿಯಲ್ಲಿರುವ Molly ವೀಡಿಯೊ ಕರೆ</string>
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">ಚಾಲ್ತಿಯಲ್ಲಿರುವ Polly ವೀಡಿಯೊ ಕರೆ</string>
     <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">ಚಾಲ್ತಿಯಲ್ಲಿರುವ Molly ಗ್ರೂಪ್ ಕರೆ</string>
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">ಚಾಲ್ತಿಯಲ್ಲಿರುವ Polly ಗ್ರೂಪ್ ಕರೆ</string>
 
     <string name="CallNotificationBuilder_connecting">ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ…</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">ಬ್ಯಾಕಪ್ ಪಾಸ್‌ಫ್ರೇಸ್</string>
@@ -4403,9 +4403,9 @@
     <string name="BackupDialog_verify">ದೃಢೀಕರಿಸಿ</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">ನೀವು ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಪಾಸ್‌ಫ್ರೇಸ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ನಮೂದಿಸಿದ್ದೀರಿ</string>
     <string name="BackupDialog_passphrase_was_not_correct">ಪಾಸ್‌ಫ್ರೇಸ್ ಸರಿಯಾಗಿರಲಿಲ್ಲ</string>
-    <string name="LocalBackupJob_creating_signal_backup">Molly ಬ್ಯಾಕಪ್ ರಚಿಸಲಾಗುತ್ತಿದೆ…</string>
+    <string name="LocalBackupJob_creating_signal_backup">Polly ಬ್ಯಾಕಪ್ ರಚಿಸಲಾಗುತ್ತಿದೆ…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Molly ಬ್ಯಾಕಪ್ ದೃಢೀಕರಿಸಲಾಗುತ್ತಿದೆ…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">Polly ಬ್ಯಾಕಪ್ ದೃಢೀಕರಿಸಲಾಗುತ್ತಿದೆ…</string>
     <string name="LocalBackupJobApi29_backup_failed">ಬ್ಯಾಕಪ್ ವಿಫಲವಾಗಿದೆ</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಡೈರೆಕ್ಟರಿಯನ್ನು ಅಳಿಸಲಾಗಿದೆ ಅಥವಾ ಸರಿಸಲಾಗಿದೆ.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಫೈಲ್ ಈ ಪ್ರಮಾಣದಲ್ಲಿ ಸಂಗ್ರಹಿಸಲು ತುಂಬಾ ದೊಡ್ಡದಾಗಿದೆ.</string>
@@ -4420,7 +4420,7 @@
     <string name="RegistrationActivity_call_me_instead_available_in">(%1$02d:%2$02d) ರ ಬಳಿಕ ನನಗೆ ಕರೆ ಮಾಡಿ</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">ಕೋಡ್ ಮರುಕಳುಹಿಸಿ (%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_code_support_subject">Molly ನೋಂದಣಿ - ಆಂಡ್ರಾಯ್ಡ್‌ಗೆ ದೃಢೀಕರಣ ಕೋಡ್</string>
+    <string name="RegistrationActivity_code_support_subject">Polly ನೋಂದಣಿ - ಆಂಡ್ರಾಯ್ಡ್‌ಗೆ ದೃಢೀಕರಣ ಕೋಡ್</string>
     <string name="RegistrationActivity_incorrect_code">ತಪ್ಪಾದ ಕೋಡ್</string>
     <string name="BackupUtil_never">ಎಂದಿಗೂ ಇಲ್ಲ</string>
     <!-- Subtext below last backup time when we do not know when the last backup was -->
@@ -4436,11 +4436,11 @@
     <string name="preferences_chats__backups">ಬ್ಯಾಕಪ್‌ಗಳು</string>
 
     <!-- Title text shown when Signal is locked and needs to be unlocked -->
-    <string name="prompt_passphrase_activity__unlock_signal">Molly ಅನ್‌ಲಾಕ್ ಮಾಡಿ</string>
+    <string name="prompt_passphrase_activity__unlock_signal">Polly ಅನ್‌ಲಾಕ್ ಮಾಡಿ</string>
     <!-- Description text explaining how to unlock Signal -->
-    <string name="prompt_passphrase_activity__use_your_android_device">Molly ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನಿಮ್ಮ Android ಸಾಧನದ ಲಾಕ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸಿ.</string>
+    <string name="prompt_passphrase_activity__use_your_android_device">Polly ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನಿಮ್ಮ Android ಸಾಧನದ ಲಾಕ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸಿ.</string>
     <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
-    <string name="prompt_passphrase_activity__screen_lock_is_on">ಸ್ಕ್ರೀನ್ ಲಾಕ್ ಆನ್ ಆಗಿದೆ ಮತ್ತು ನಿಮ್ಮ ಸಾಧನದ ಲಾಕ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳೊಂದಿಗೆ Molly ಸುರಕ್ಷಿತವಾಗಿ ಭದ್ರವಾಗಿದೆ. ನೀವು ಸಾಮಾನ್ಯವಾಗಿ ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡುವ ರೀತಿಯಲ್ಲಿಯೇ Molly ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ, ಇದು ಫೇಸ್ ಅನ್‌ಲಾಕ್, ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಅನ್‌ಲಾಕ್, PIN, ಪಾಸ್‌ವರ್ಡ್ ಅಥವಾ ಪ್ಯಾಟರ್ನ್ ಮೂಲಕ ಆಗಿರಬಹುದು.</string>
+    <string name="prompt_passphrase_activity__screen_lock_is_on">ಸ್ಕ್ರೀನ್ ಲಾಕ್ ಆನ್ ಆಗಿದೆ ಮತ್ತು ನಿಮ್ಮ ಸಾಧನದ ಲಾಕ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳೊಂದಿಗೆ Polly ಸುರಕ್ಷಿತವಾಗಿ ಭದ್ರವಾಗಿದೆ. ನೀವು ಸಾಮಾನ್ಯವಾಗಿ ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡುವ ರೀತಿಯಲ್ಲಿಯೇ Polly ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ, ಇದು ಫೇಸ್ ಅನ್‌ಲಾಕ್, ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಅನ್‌ಲಾಕ್, PIN, ಪಾಸ್‌ವರ್ಡ್ ಅಥವಾ ಪ್ಯಾಟರ್ನ್ ಮೂಲಕ ಆಗಿರಬಹುದು.</string>
     <!-- Button in a dialog that will contact Signal support if pressed -->
     <string name="prompt_passphrase_activity__contact_support">ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
     <!-- Button text to try again after unlocking has previously failed -->
@@ -4459,11 +4459,11 @@
     <!-- Title of an informational card shown on the account settings screen of a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__this_is_a_linked_device">ಇದು ಲಿಂಕ್ ಮಾಡಲಾದ ಸಾಧನ ಆಗಿದೆ</string>
     <!-- Body of an informational card explaining that account settings must be managed from the primary device -->
-    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">ನಿಮ್ಮ ಖಾತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸಲು, ನಿಮ್ಮ ಪ್ರಾಥಮಿಕ ಸಾಧನದಲ್ಲಿ Molly ತೆರೆಯಿರಿ.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">ನಿಮ್ಮ ಖಾತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ನಿರ್ವಹಿಸಲು, ನಿಮ್ಮ ಪ್ರಾಥಮಿಕ ಸಾಧನದಲ್ಲಿ Polly ತೆರೆಯಿರಿ.</string>
     <!-- Title of a settings row that deletes all Signal data from this linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data">ಆ್ಯಪ್ ಡೇಟಾವನ್ನು ಅಳಿಸಿ</string>
     <!-- Subtitle of the delete app data row explaining what it does -->
-    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">ಇದು ಈ ಸಾಧನದಲ್ಲಿರುವ Molly ಆ್ಯಪ್‌ನಿಂದ ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">ಇದು ಈ ಸಾಧನದಲ್ಲಿರುವ Polly ಆ್ಯಪ್‌ನಿಂದ ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ.</string>
     <!-- Title of the confirmation dialog shown when deleting app data from a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data_question">ಆ್ಯಪ್ ಡೇಟಾವನ್ನು ಅಳಿಸಬೇಕೇ?</string>
     <!-- Message of the confirmation dialog explaining that only this device\'s data is deleted, not the account -->
@@ -4495,10 +4495,10 @@
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್ ಸಾಧನ ಹುಡುಕಲಾಗುತ್ತಿದೆ…</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">ನಿಮ್ಮ ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್ ಸಾಧನಕ್ಕೆ ಸಂಪರ್ಕಿಸಲು ಮತ್ತು ಶೋಧಿಸಲು ಸ್ಥಳ ಅನುಮತಿಯು Molly ಗೆ ಅಗತ್ಯವಿದೆ.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">ನಿಮ್ಮ ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್ ಸಾಧನದೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಲು ಮತ್ತು ಶೋಧಿಸಲು Molly ಗೆ ಸ್ಥಳ ಸೇವೆಗಳು ಸಕ್ರಿಯಗೊಳ್ಳಬೇಕು.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">ನಿಮ್ಮ ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್‌ ಸಾಧನದೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಲು ಮತ್ತು ಶೋಧಿಸಲು Molly ಗೆ ವೈಫೈ ಆನ್ ಆಗಿರುವುದು ಅಗತ್ಯವಿದೆ. ವೈಫೈ ಆನ್ ಆಗಿರಬೇಕು. ಆದರೆ, ಇದು ವೈಫೈ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕ ಹೊಂದಿರಬೇಕಿಲ್ಲ.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">ಕ್ಷಮಿಸಿ, ಈ ಸಾಧನವು ವೈಫೈ ಡೈರೆಕ್ಟ್ ಅನ್ನು ಬೆಂಬಲಿಸುವಂತೆ ತೋರುತ್ತಿಲ್ಲ. ನಿಮ್ಮ ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್ ಸಾಧನದೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಲು ಮತ್ತು ಶೋಧಿಸಲು ವೈಫೈ ಡೈರೆಕ್ಟ್ ಅನ್ನು Molly ಬಳಸುತ್ತದೆ. ನಿಮ್ಮ ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್ ಸಾಧನದಿಂದ ನಿಮ್ಮ ಖಾತೆಯನ್ನು ರಿಸ್ಟೋರ್ ಮಾಡಲು ಬ್ಯಾಕಪ್‌ ಅನ್ನು ಇನ್ನೂ ನೀವು ರಿಸ್ಟೋರ್ ಮಾಡಬಹುದು.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">ನಿಮ್ಮ ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್ ಸಾಧನಕ್ಕೆ ಸಂಪರ್ಕಿಸಲು ಮತ್ತು ಶೋಧಿಸಲು ಸ್ಥಳ ಅನುಮತಿಯು Polly ಗೆ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">ನಿಮ್ಮ ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್ ಸಾಧನದೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಲು ಮತ್ತು ಶೋಧಿಸಲು Polly ಗೆ ಸ್ಥಳ ಸೇವೆಗಳು ಸಕ್ರಿಯಗೊಳ್ಳಬೇಕು.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">ನಿಮ್ಮ ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್‌ ಸಾಧನದೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಲು ಮತ್ತು ಶೋಧಿಸಲು Polly ಗೆ ವೈಫೈ ಆನ್ ಆಗಿರುವುದು ಅಗತ್ಯವಿದೆ. ವೈಫೈ ಆನ್ ಆಗಿರಬೇಕು. ಆದರೆ, ಇದು ವೈಫೈ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕ ಹೊಂದಿರಬೇಕಿಲ್ಲ.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">ಕ್ಷಮಿಸಿ, ಈ ಸಾಧನವು ವೈಫೈ ಡೈರೆಕ್ಟ್ ಅನ್ನು ಬೆಂಬಲಿಸುವಂತೆ ತೋರುತ್ತಿಲ್ಲ. ನಿಮ್ಮ ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್ ಸಾಧನದೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಲು ಮತ್ತು ಶೋಧಿಸಲು ವೈಫೈ ಡೈರೆಕ್ಟ್ ಅನ್ನು Polly ಬಳಸುತ್ತದೆ. ನಿಮ್ಮ ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್ ಸಾಧನದಿಂದ ನಿಮ್ಮ ಖಾತೆಯನ್ನು ರಿಸ್ಟೋರ್ ಮಾಡಲು ಬ್ಯಾಕಪ್‌ ಅನ್ನು ಇನ್ನೂ ನೀವು ರಿಸ್ಟೋರ್ ಮಾಡಬಹುದು.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">ಬ್ಯಾಕಪ್ ರಚಿಸಿ</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">ನಿಮ್ಮ ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್ ಸಾಧನಕ್ಕೆ ಸಂಪರ್ಕಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವಾಗ ಒಂದು ಅನಿರೀಕ್ಷಿತ ದೋಷ ಕಂಡುಬಂದಿದೆ.</string>
 
@@ -4538,7 +4538,7 @@
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">ಡೇಟಾ ವರ್ಗಾವಣೆ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">ಎರಡೂ ಸಾಧನಗಳನ್ನು ಪರಸ್ಪರ ಹತ್ತಿರ ಇರಿಸಿ. ಸಾಧನಗಳನ್ನು ಆಫ್ ಮಾಡಬೇಡಿ ಮತ್ತು Molly ಅನ್ನು ತೆರೆದೇ ಇರಿಸಿ. ವರ್ಗಾವಣೆಗಳು ಎಂಡ್-ಟು-ಎಂಡ್ ಎನ್‌ಕ್ರಿಪ್ಟ್‌ ಆಗಿರುತ್ತವೆ.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">ಎರಡೂ ಸಾಧನಗಳನ್ನು ಪರಸ್ಪರ ಹತ್ತಿರ ಇರಿಸಿ. ಸಾಧನಗಳನ್ನು ಆಫ್ ಮಾಡಬೇಡಿ ಮತ್ತು Polly ಅನ್ನು ತೆರೆದೇ ಇರಿಸಿ. ವರ್ಗಾವಣೆಗಳು ಎಂಡ್-ಟು-ಎಂಡ್ ಎನ್‌ಕ್ರಿಪ್ಟ್‌ ಆಗಿರುತ್ತವೆ.</string>
     <string name="DeviceTransfer__d_messages_so_far">ಇಲ್ಲಿಯವರೆಗೆ %1$d ಸಂದೇಶಗಳು…</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">ಈ ತನಕದ ಮೆಸೇಜ್‌ಗಳ %1$s%% …</string>
@@ -4552,7 +4552,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">ಖಾತೆ ವರ್ಗಾಯಿಸಿ</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">ನಿಮ್ಮ ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್‌ ಸಾಧನದಲ್ಲಿ Molly ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಿ</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">ನಿಮ್ಮ ಹೊಸ ಆಂಡ್ರಾಯ್ಡ್‌ ಸಾಧನದಲ್ಲಿ Polly ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಿ</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"\"ಖಾತೆ ವರ್ಗಾವಣೆ ಮಾಡಿ ಅಥವಾ ರಿಸ್ಟೋರ್ ಮಾಡಿ\" ಮೇಲೆ ಟ್ಯಾಪ್ ಮಾಡಿ"</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -4633,7 +4633,7 @@
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">ಈ ಲಿಂಕ್‌ನೊಂದಿಗೆ ಯಾರಾದರೂ ಈ ಗುಂಪಿನ ಹೆಸರು ಮತ್ತು ಸದಸ್ಯರನ್ನು ನೋಡಬಹುದು ಹಾಗೂ ಸೇರಲು ವಿನಂತಿಸಬಹುದು. ನೀವು ನಂಬುವ ಜನರೊಂದಿಗೆ ಇದನ್ನು ಹಂಚಿಕೊಳ್ಳಿ.</string>
     <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">ಈ ಲಿಂಕ್‌ನೊಂದಿಗೆ ಯಾರಾದರೂ ಈ ಗುಂಪಿನ ಹೆಸರು ಮತ್ತು ಸದಸ್ಯರನ್ನು ನೋಡಬಹುದು ಹಾಗೂ ಗ್ರೂಪ್ ಸೇರಬಹುದು. ನೀವು ನಂಬುವ ಜನರೊಂದಿಗೆ ಇದನ್ನು ಹಂಚಿಕೊಳ್ಳಿ.</string>
-    <string name="GroupLinkBottomSheet_share_via_signal">Molly ನಿಂದ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="GroupLinkBottomSheet_share_via_signal">Polly ನಿಂದ ಹಂಚಿಕೊಳ್ಳಿ</string>
     <string name="GroupLinkBottomSheet_copy">ನಕಲಿಸು</string>
     <string name="GroupLinkBottomSheet_qr_code">ಕ್ಯುಆರ್‌ ಕೋಡ್</string>
     <string name="GroupLinkBottomSheet_share">ಹಂಚಿಕೊಳ್ಳಿ</string>
@@ -4791,7 +4791,7 @@
     <string name="payment_info_card_about_mobilecoin">ಮೊಬೈಲ್‌ಕಾಯಿನ್‌ ಬಗ್ಗೆ</string>
     <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">ಮೊಬೈಲ್ ಕಾಯಿನ್ ಹೊಸ ಗೌಪ್ಯತೆ ಆಧರಿತ ಡಿಜಿಟಲ್ ಕರೆನ್ಸಿ.</string>
     <string name="payment_info_card_adding_funds">ಫಂಡ್‌ಗಳನ್ನು ಸೇರಿಸಲಾಗುತ್ತಿದೆ</string>
-    <string name="payment_info_card_you_can_add_funds_for_use_in">ನಿಮ್ಮ ವಾಲೆಟ್ ವಿಳಾಸಕ್ಕೆ ಮೊಬೈಲ್‌ಕಾಯಿನ್ ಅನ್ನು ಕಳುಹಿಸುವ ಮೂಲಕ Molly ನಲ್ಲಿ ಬಳಸಲು ನೀವು ಫಂಡ್‌ಗಳನ್ನು ಸೇರಿಸಬಹುದು.</string>
+    <string name="payment_info_card_you_can_add_funds_for_use_in">ನಿಮ್ಮ ವಾಲೆಟ್ ವಿಳಾಸಕ್ಕೆ ಮೊಬೈಲ್‌ಕಾಯಿನ್ ಅನ್ನು ಕಳುಹಿಸುವ ಮೂಲಕ Polly ನಲ್ಲಿ ಬಳಸಲು ನೀವು ಫಂಡ್‌ಗಳನ್ನು ಸೇರಿಸಬಹುದು.</string>
     <string name="payment_info_card_cashing_out">ನಗದು ಮಾಡಿಕೊಳ್ಳಲಾಗುತ್ತಿದೆ</string>
     <string name="payment_info_card_you_can_cash_out_mobilecoin">MobileCoin ಬೆಂಬಲಿಸುವ ವಿನಿಮಯದಲ್ಲಿ ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ನೀವು MobileCoin ಅನ್ನು ನಗದು ಮಾಡಿಕೊಳ್ಳಬಹುದು. ಆ ವಿನಿಮಯದಲ್ಲಿ ನಿಮ್ಮ ಖಾತೆಗೆ ಕೇವಲ ವರ್ಗಾವಣೆ ಮಾಡಿಕೊಳ್ಳಿ.</string>
     <string name="payment_info_card_hide_this_card">ಈ ಕಾರ್ಡ್ ಮರೆ ಮಾಡುವುದೇ?</string>
@@ -4812,12 +4812,12 @@
     <!-- DeactivateWalletFragment -->
     <string name="DeactivateWalletFragment__deactivate_wallet">ವಾಲೆಟ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="DeactivateWalletFragment__your_balance">ನಿಮ್ಮ ಬ್ಯಾಲೆನ್ಸ್</string>
-    <string name="DeactivateWalletFragment__its_recommended_that_you">ಪಾವತಿಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವುದಕ್ಕೂ ಮುನ್ನ ಇನ್ನೊಂದು ವಾಲೆಟ್ ವಿಳಾಸಕ್ಕೆ ನಿಮ್ಮ ಹಣವನ್ನು ವರ್ಗಾವಣೆ ಮಾಡಿಕೊಳ್ಳುವುದನ್ನು ನಿಮಗೆ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ. ಈಗ ನಿಮ್ಮ ಹಣವನ್ನು ವರ್ಗಾವಣೆ ಮಾಡದಿರಲು ನೀವು ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡರೆ, ಪಾವತಿಗಳನ್ನು ನೀವು ಪುನಃ ಸಕ್ರಿಯಗೊಳಿಸಿದರೆ Molly ಗೆ ಲಿಂಕ್‌ ಮಾಡಿದ ನಿಮ್ಮ ವಾಲೆಟ್‌ನಲ್ಲಿಯೇ ಅವು ಇರುತ್ತವೆ.</string>
+    <string name="DeactivateWalletFragment__its_recommended_that_you">ಪಾವತಿಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವುದಕ್ಕೂ ಮುನ್ನ ಇನ್ನೊಂದು ವಾಲೆಟ್ ವಿಳಾಸಕ್ಕೆ ನಿಮ್ಮ ಹಣವನ್ನು ವರ್ಗಾವಣೆ ಮಾಡಿಕೊಳ್ಳುವುದನ್ನು ನಿಮಗೆ ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ. ಈಗ ನಿಮ್ಮ ಹಣವನ್ನು ವರ್ಗಾವಣೆ ಮಾಡದಿರಲು ನೀವು ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡರೆ, ಪಾವತಿಗಳನ್ನು ನೀವು ಪುನಃ ಸಕ್ರಿಯಗೊಳಿಸಿದರೆ Polly ಗೆ ಲಿಂಕ್‌ ಮಾಡಿದ ನಿಮ್ಮ ವಾಲೆಟ್‌ನಲ್ಲಿಯೇ ಅವು ಇರುತ್ತವೆ.</string>
     <string name="DeactivateWalletFragment__transfer_remaining_balance">ಉಳಿದ ಬ್ಯಾಲೆನ್ಸ್ ಅನ್ನು ವರ್ಗಾವಣೆ ಮಾಡಿ</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring">ವರ್ಗಾಯಿಸದೆ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="DeactivateWalletFragment__deactivate">ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring_question">ವರ್ಗಾವಣೆ ಮಾಡದೇ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವುದೇ?</string>
-    <string name="DeactivateWalletFragment__your_balance_will_remain">ನೀವು ಪಾವತಿಗಳನ್ನು ಪುನಃ ಸಕ್ರಿಯಗೊಳಿಸಲು ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡರೆ, Molly ಗೆ ಲಿಂಕ್ ಮಾಡಿದ ನಿಮ್ಮ ವಾಲೆಟ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಬ್ಯಾಲೆನ್ಸ್ ಇರುತ್ತದೆ.</string>
+    <string name="DeactivateWalletFragment__your_balance_will_remain">ನೀವು ಪಾವತಿಗಳನ್ನು ಪುನಃ ಸಕ್ರಿಯಗೊಳಿಸಲು ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡರೆ, Polly ಗೆ ಲಿಂಕ್ ಮಾಡಿದ ನಿಮ್ಮ ವಾಲೆಟ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಬ್ಯಾಲೆನ್ಸ್ ಇರುತ್ತದೆ.</string>
     <string name="DeactivateWalletFragment__error_deactivating_wallet">ವಾಲೆಟ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವಲ್ಲಿ ದೋಷ.</string>
   <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
 
@@ -4965,7 +4965,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">ನಂಬರ್ ಎಡಿಟ್ ಮಾಡಿ</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Molly ನಂಬರ್ ಬದಲಾಯಿಸಿ - ಆಂಡ್ರಾಯ್ಡ್‌ನ PIN (v2 PIN) ಗೆ ಸಹಾಯ ಬೇಕಿದೆ</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Polly ನಂಬರ್ ಬದಲಾಯಿಸಿ - ಆಂಡ್ರಾಯ್ಡ್‌ನ PIN (v2 PIN) ಗೆ ಸಹಾಯ ಬೇಕಿದೆ</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN ಗಳು ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ</string>
@@ -5564,9 +5564,9 @@
     <string name="MySupportPreference__checking_subscription">ಚಂದಾದಾರಿಕೆಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ…</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">Molly ಅನ್ನು ನವೀಕರಿಸಿ</string>
+    <string name="UpdateSignalExpiredDialog__title">Polly ಅನ್ನು ನವೀಕರಿಸಿ</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">Molly ನ ಈ ಆವೃತ್ತಿಯ ವಾಯಿದೆ ಮುಗಿದಿದೆ. Molly ಬಳಕೆ ಮುಂದುವರಿಸಲು ಈಗಲೇ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ.</string>
+    <string name="UpdateSignalExpiredDialog__message">Polly ನ ಈ ಆವೃತ್ತಿಯ ವಾಯಿದೆ ಮುಗಿದಿದೆ. Polly ಬಳಕೆ ಮುಂದುವರಿಸಲು ಈಗಲೇ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">ನವೀಕರಿಸಿ</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -5575,7 +5575,7 @@
     <!-- Title of dialog telling user they need to re-register signal -->
     <string name="ReregisterSignalDialog__title">ಸಾಧನವು ನೋಂದಾಯಿತಗೊಂಡಿಲ್ಲ</string>
     <!-- Message of dialog telling user they need to re-register signal as it is no longer registered -->
-    <string name="ReregisterSignalDialog__message">ಈ ಸಾಧನವು ಇನ್ನು ನೋಂದಾಯಿತವಾಗಿರುವುದಿಲ್ಲ. ಈ ಸಾಧನದಲ್ಲಿ Molly ಬಳಕೆಯನ್ನು ಮುಂದುವರಿಸಲು ಮರುನೋಂದಾಯಿಸಿ.</string>
+    <string name="ReregisterSignalDialog__message">ಈ ಸಾಧನವು ಇನ್ನು ನೋಂದಾಯಿತವಾಗಿರುವುದಿಲ್ಲ. ಈ ಸಾಧನದಲ್ಲಿ Polly ಬಳಕೆಯನ್ನು ಮುಂದುವರಿಸಲು ಮರುನೋಂದಾಯಿಸಿ.</string>
     <!-- Button text of re-registration dialog to re-register the device.  -->
     <string name="ReregisterSignalDialog__reregister_action">ಪುನಃ ನೋಂದಾಯಿಸಿ</string>
     <!-- Button text of re-registration dialog to cancel the dialog.  -->
@@ -5856,7 +5856,7 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">ಪಿಕರ್ ತೆರೆಯಲು ವಿಫಲವಾಗಿದೆ</string>
     <!-- Banner title when notification permission is disabled -->
-    <string name="NotificationSettingsFragment__to_enable_notifications">ಅಧಿಸೂಚನೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು, ಅವುಗಳನ್ನು ಪ್ರದರ್ಶಿಸಲು Molly ಗೆ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="NotificationSettingsFragment__to_enable_notifications">ಅಧಿಸೂಚನೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು, ಅವುಗಳನ್ನು ಪ್ರದರ್ಶಿಸಲು Polly ಗೆ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ.</string>
     <!-- Banner action when notification permission is disabled -->
     <string name="NotificationSettingsFragment__turn_on">ಆನ್‌ ಮಾಡಿ</string>
 
@@ -5884,7 +5884,7 @@
     <!-- Donation receipts share PNG -->
     <string name="DonationReceiptDetailsFragment__share_receipt">ರಸೀದಿ ಹಂಚಿಕೊಳ್ಳಿ</string>
     <!-- Donation receipts list end note -->
-    <string name="DonationReceiptListFragment__if_you_have">ನೀವು Molly ಅನ್ನು ಮರು ಇನ್‍ಸ್ಟಾಲ್ ಮಾಡಿದ್ದಲ್ಲಿ, ಹಿಂದಿನ ದೇಣಿಗೆಗಳ ರಸೀದಿಗಳು ಲಭ್ಯವಿರುವುದಿಲ್ಲ.</string>
+    <string name="DonationReceiptListFragment__if_you_have">ನೀವು Polly ಅನ್ನು ಮರು ಇನ್‍ಸ್ಟಾಲ್ ಮಾಡಿದ್ದಲ್ಲಿ, ಹಿಂದಿನ ದೇಣಿಗೆಗಳ ರಸೀದಿಗಳು ಲಭ್ಯವಿರುವುದಿಲ್ಲ.</string>
     <!-- Donation receipts document title -->
     <string name="DonationReceiptDetailsFragment__donation_receipt">ದೇಣಿಗೆ ರಸೀದಿ</string>
     <!-- Donation receipts amount title -->
@@ -6580,10 +6580,10 @@
     <string name="GatewaySelectorBottomSheet__ideal_wero">iDEAL | Wero</string>
 
     <!-- Dialog title for launching external intent -->
-    <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">ದೇಣಿಗೆಯನ್ನು ದೃಢೀಕರಿಸಲು Molly ಅನ್ನು ತೊರೆಯಬೇಕೇ?</string>
-    <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">ದೃಢೀಕರಣಗೊಂಡಾಗ, ನಿಮ್ಮ ದೇಣಿಗೆಯ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು Molly ಗೆ ಹಿಂತಿರುಗಿ.</string>
+    <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">ದೇಣಿಗೆಯನ್ನು ದೃಢೀಕರಿಸಲು Polly ಅನ್ನು ತೊರೆಯಬೇಕೇ?</string>
+    <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">ದೃಢೀಕರಣಗೊಂಡಾಗ, ನಿಮ್ಮ ದೇಣಿಗೆಯ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು Polly ಗೆ ಹಿಂತಿರುಗಿ.</string>
     <!-- Dialog message shown when leaving Signal to complete a donation in an external app. Placeholder is the resolved app name (e.g. a banking app). -->
-    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">ನಿಮ್ಮನ್ನು %1$s ಗೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ. ದೃಢೀಕರಣಗೊಂಡಾಗ, ನಿಮ್ಮ ದೇಣಿಗೆ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವುದನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು Molly ಗೆ ಹಿಂತಿರುಗಿ.</string>
+    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">ನಿಮ್ಮನ್ನು %1$s ಗೆ ಕಳುಹಿಸಲಾಗುತ್ತದೆ. ದೃಢೀಕರಣಗೊಂಡಾಗ, ನಿಮ್ಮ ದೇಣಿಗೆ ಪ್ರಕ್ರಿಯೆಗೊಳಿಸುವುದನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು Polly ಗೆ ಹಿಂತಿರುಗಿ.</string>
 
     <!-- BankTransferMandateFragment -->
     <!-- Title of screen displaying the bank transfer mandate -->
@@ -6952,7 +6952,7 @@
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__require_admin_approval">ಅಡ್ಮಿನ್ ಅನುಮೋದನೆ ಅಗತ್ಯವಿದೆ</string>
     <!-- Row label to share the link via Signal -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Molly ಮೂಲಕ ಲಿಂಕ್ ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Polly ಮೂಲಕ ಲಿಂಕ್ ಹಂಚಿಕೊಳ್ಳಿ</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">ಲಿಂಕ್ ನಕಲಿಸಿ</string>
     <!-- Row label to share the link with the external share sheet -->
@@ -7042,7 +7042,7 @@
     <!-- Title of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
     <string name="TurnOnSignalBackups__title">Signal ಸುರಕ್ಷಿತ ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ಆನ್ ಮಾಡಿ</string>
     <!-- Body of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
-    <string name="TurnOnSignalBackups__body">ನೀವು ಹೊಸ ಫೋನ್ ಅನ್ನು ಪಡೆದಾಗ ಅಥವಾ Molly ಅನ್ನು ಮರುಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದಾಗ ಎಂದಿಗೂ ಮೆಸೇಜ್ ಅನ್ನು ಕಳೆದುಕೊಳ್ಳಬೇಡಿ.</string>
+    <string name="TurnOnSignalBackups__body">ನೀವು ಹೊಸ ಫೋನ್ ಅನ್ನು ಪಡೆದಾಗ ಅಥವಾ Polly ಅನ್ನು ಮರುಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದಾಗ ಎಂದಿಗೂ ಮೆಸೇಜ್ ಅನ್ನು ಕಳೆದುಕೊಳ್ಳಬೇಡಿ.</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will take the user to the flow to enable backups -->
     <string name="TurnOnSignalBackups__turn_on">ಆನ್‌ ಮಾಡಿ</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will simply dismiss the megaphone -->
@@ -7103,27 +7103,27 @@
     <!-- Title of the backup setup complete bottom sheet -->
     <string name="BackupSetupCompleteBottomSheet__title">ನೀವು ಸಿದ್ಧರಾಗಿದ್ದೀರಿ. ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಆರಂಭಿಸಿ.</string>
     <!-- Body of the backup setup complete bottom sheet -->
-    <string name="BackupSetupCompleteBottomSheet__body">ಇದು ಸ್ವಲ್ಪ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು. ಬ್ಯಾಕಪ್ ಮಾಡುವಾಗ ನೀವು Molly ಅನ್ನು ಎಂದಿನಂತೆ ಬಳಸಬಹುದು.</string>
+    <string name="BackupSetupCompleteBottomSheet__body">ಇದು ಸ್ವಲ್ಪ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು. ಬ್ಯಾಕಪ್ ಮಾಡುವಾಗ ನೀವು Polly ಅನ್ನು ಎಂದಿನಂತೆ ಬಳಸಬಹುದು.</string>
     <!-- Label for the optimize storage toggle -->
-    <string name="BackupSetupCompleteBottomSheet__optimize_storage">Molly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ</string>
+    <string name="BackupSetupCompleteBottomSheet__optimize_storage">Polly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ</string>
     <!-- Subtitle for the optimize storage toggle -->
     <string name="BackupSetupCompleteBottomSheet__optimize_subtitle">ಹಳೆಯ ಮೀಡಿಯಾವನ್ನು ಆಫ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತದೆ, ಆದರೆ ನಿಮ್ಮ ಬ್ಯಾಕಪ್‌ನಿಂದ ಯಾವಾಗ ಬೇಕಾದರೂ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು.</string>
     <!-- Primary button on the setup complete bottom sheet -->
     <string name="BackupSetupCompleteBottomSheet__back_up_now">ಈಗ ಬ್ಯಾಕಪ್‌‌ ಮಾಡಿ</string>
 
     <!-- Title of a megaphone shown to prompt the user to open Signal on their primary device -->
-    <string name="InactivePrimary__title">ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ Molly ತೆರೆಯಿರಿ</string>
+    <string name="InactivePrimary__title">ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿ Polly ತೆರೆಯಿರಿ</string>
     <!-- Body of a megaphone shown to prompt the user to open Signal on their primary device -->
-    <string name="InactivePrimary__body">ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಸಕ್ರಿಯವಾಗಿರಿಸಲು, ನಿಮ್ಮ ಪ್ರಾಥಮಿಕ ಸಾಧನದಲ್ಲಿ Molly ತೆರೆಯಿರಿ.</string>
+    <string name="InactivePrimary__body">ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಸಕ್ರಿಯವಾಗಿರಿಸಲು, ನಿಮ್ಮ ಪ್ರಾಥಮಿಕ ಸಾಧನದಲ್ಲಿ Polly ತೆರೆಯಿರಿ.</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will navigate to a support page -->
     <string name="InactivePrimary__learn_more">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will snooze the megaphone -->
     <string name="InactivePrimary__got_it">ಅರ್ಥವಾಯಿತು</string>
 
     <!-- Text describing how to restore a backup displayed on the on-device backups screen -->
-    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"ಬ್ಯಾಕಪ್ ಅನ್ನು ರಿಸ್ಟೋರ್ ಮಾಡಲು, Molly ನ ಹೊಸ ಕಾಪಿಯನ್ನು ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ. ಆ್ಯಪ್ ತೆರೆಯಿರಿ ಮತ್ತು ಬ್ಯಾಕಪ್ ರಿಸ್ಟೋರ್ ಮಾಡಿ ಎಂಬುದನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ, ನಂತರ ಬ್ಯಾಕಪ್ ಫೈಲ್ ಅನ್ನು ಪತ್ತೆಹಚ್ಚಿ."</string>
+    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"ಬ್ಯಾಕಪ್ ಅನ್ನು ರಿಸ್ಟೋರ್ ಮಾಡಲು, Polly ನ ಹೊಸ ಕಾಪಿಯನ್ನು ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ. ಆ್ಯಪ್ ತೆರೆಯಿರಿ ಮತ್ತು ಬ್ಯಾಕಪ್ ರಿಸ್ಟೋರ್ ಮಾಡಿ ಎಂಬುದನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ, ನಂತರ ಬ್ಯಾಕಪ್ ಫೈಲ್ ಅನ್ನು ಪತ್ತೆಹಚ್ಚಿ."</string>
     <!-- Body of a dialog shown when turning on on-device backups while "Optimize Signal storage" is enabled, warning that optimized media won\'t be included -->
-    <string name="OnDeviceBackupsScreen__you_have_optimize_signal_storage_on">ನೀವು \"Molly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಅನ್ನು ಆನ್ ಮಾಡಿದ್ದೀರಿ. ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿನ ಬ್ಯಾಕಪ್‌ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಮೀಡಿಯಾವನ್ನು ಸೇರಿಸಲು ನೀವು ಬಯಸಿದರೆ, ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಆಫ್ ಮಾಡಿ.</string>
+    <string name="OnDeviceBackupsScreen__you_have_optimize_signal_storage_on">ನೀವು \"Polly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಅನ್ನು ಆನ್ ಮಾಡಿದ್ದೀರಿ. ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿನ ಬ್ಯಾಕಪ್‌ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಮೀಡಿಯಾವನ್ನು ಸೇರಿಸಲು ನೀವು ಬಯಸಿದರೆ, ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ಆಫ್ ಮಾಡಿ.</string>
     <!-- Dialog action that takes the user to the "Optimize Signal storage" setting -->
     <string name="OnDeviceBackupsScreen__view_setting">ಸೆಟ್ಟಿಂಗ್ ಅನ್ನು ವೀಕ್ಷಿಸಿ</string>
     <!-- Dialog action to proceed with turning on on-device backups without turning off "Optimize Signal storage" -->
@@ -7212,7 +7212,7 @@
     <!-- Dialog title for invalid phone number -->
     <string name="FindByActivity__invalid_phone_number">ಅಮಾನ್ಯವಾದ ಫೋನ್ ಸಂಖ್ಯೆ</string>
     <!-- Dialog title when phone number is not a registered signal user -->
-    <string name="FindByActivity__invite_to_signal">Molly ಗೆ ಆಮಂತ್ರಿಸಿ</string>
+    <string name="FindByActivity__invite_to_signal">Polly ಗೆ ಆಮಂತ್ರಿಸಿ</string>
     <!-- Dialog title when username is not found -->
     <string name="FindByActivity__username_not_found">ಬಳಕೆದಾರ ಹೆಸರು ಕಂಡುಬಂದಿಲ್ಲ</string>
     <!-- Dialog body for invalid username. Placeholder is the entered username. -->
@@ -7350,7 +7350,7 @@
     <!-- Dialog title when a backup redemption fails -->
     <string name="BackupAlertBottomSheet__couldnt_redeem_your_backups_subscription">ನಿಮ್ಮ ಬ್ಯಾಕಪ್‌ಗಳ ಚಂದಾದಾರಿಕೆಯನ್ನು ರಿಡೀಮ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it -->
-    <string name="BackupAlertBottomSheet__an_error_occurred">ದೋಷ ಸಂಭವಿಸಿದೆ ಮತ್ತು ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗಲಿಲ್ಲ. ನೀವು Molly ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯನ್ನು ಬಳಸುತ್ತಿದ್ದೀರಿ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ ಹಾಗೂ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ. ಈ ಸಮಸ್ಯೆ ಮುಂದುವರಿದರೆ, ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="BackupAlertBottomSheet__an_error_occurred">ದೋಷ ಸಂಭವಿಸಿದೆ ಮತ್ತು ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗಲಿಲ್ಲ. ನೀವು Polly ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯನ್ನು ಬಳಸುತ್ತಿದ್ದೀರಿ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ ಹಾಗೂ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ. ಈ ಸಮಸ್ಯೆ ಮುಂದುವರಿದರೆ, ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it. Used for out of remote storage space error. -->
     <string name="BackupAlertBottomSheet__an_error_occurred_and">ದೋಷ ಸಂಭವಿಸಿದೆ ಮತ್ತು ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗಲಿಲ್ಲ. ಈ ಸಮಸ್ಯೆ ಮುಂದುವರಿದರೆ, ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
     <!-- Dialog action button that will allow you to check for any Signal version updates -->
@@ -7432,7 +7432,7 @@
     <!-- Text displayed when a backup could not be completed -->
     <string name="BackupStatusRow__your_last_backup">ನಿಮ್ಮ ಮುಂಚಿನ ಬ್ಯಾಕಪ್ ಪೂರ್ತಿಯಾಗಿಲ್ಲ. ನಿಮ್ಮ ಫೋನ್ ವೈ-ಫೈಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಲು \"ಈಗಲೇ ಬ್ಯಾಕಪ್ ಮಾಡಿ\" ಎಂಬುದನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
     <!-- Text displayed when a backup could not be completed and to check that they are on the latest version of Signal -->
-    <string name="BackupStatusRow__your_last_backup_latest_version">ನಿಮ್ಮ ಮುಂಚಿನ ಬ್ಯಾಕಪ್ ಪೂರ್ತಿಯಾಗಿಲ್ಲ. ನೀವು Molly ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯನ್ನು ಬಳಸುತ್ತಿದ್ದೀರಿ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ ಹಾಗೂ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="BackupStatusRow__your_last_backup_latest_version">ನಿಮ್ಮ ಮುಂಚಿನ ಬ್ಯಾಕಪ್ ಪೂರ್ತಿಯಾಗಿಲ್ಲ. ನೀವು Polly ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯನ್ನು ಬಳಸುತ್ತಿದ್ದೀರಿ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ ಹಾಗೂ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
     <!-- Text displayed when a backup file exceeds the storage limit during upload. -->
     <string name="BackupStatusRow__backup_file_too_large">ನಿಮ್ಮಲ್ಲಿರುವ ಮೆಸೇಜ್‌ಗಳ ಸಂಖ್ಯೆಯು ಸಂಗ್ರಹಣೆ ಮಿತಿಯನ್ನು ಮೀರಿದೆ. ಕೆಲವು ಮೆಸೇಜ್‌ಗಳನ್ನು ಅಳಿಸಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
     <!-- Text displayed when we\'re not backing up all messages. The placeholder represents the cutoff date for the messages we\'re backing up. -->
@@ -7500,9 +7500,9 @@
     <!-- Setting description for syncing automated chat limit trimming (deleting messages automatically by length or date) to linked devices -->
     <string name="ManageStorageSettingsFragment_apply_limits_description">ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ, ಸಂವಹನ ಉದ್ದದ ಮಿತಿಗಳು ಸಹ ನಿಮ್ಮ ಲಿಂಕ್ ಮಾಡಲಾದ ಸಾಧನಗಳಿಂದ ಮೆಸೇಜ್‌ಗಳನ್ನು ಅಳಿಸುತ್ತವೆ.</string>
     <!-- Setting section title header for storage optimization -->
-    <string name="ManageStorageSettingsFragment__on_device_storage">Molly ಸಂಗ್ರಹಣೆ</string>
+    <string name="ManageStorageSettingsFragment__on_device_storage">Polly ಸಂಗ್ರಹಣೆ</string>
     <!-- Setting row title for storage optimization -->
-    <string name="ManageStorageSettingsFragment__optimize_on_device_storage">Molly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ</string>
+    <string name="ManageStorageSettingsFragment__optimize_on_device_storage">Polly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ</string>
     <!-- Setting row explanation for storage optimization -->
     <string name="ManageStorageSettingsFragment__unused_media_will_be_offloaded">ಬಳಕೆಯಾಗದ ಮೀಡಿಯಾವನ್ನು ಆಫ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತದೆ, ಆದರೆ ನಿಮ್ಮ ಬ್ಯಾಕಪ್‌ನಿಂದ ಯಾವಾಗ ಬೇಕಾದರೂ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು.</string>
     <!-- Dialog message for paid tier pending dialog -->
@@ -7510,7 +7510,7 @@
     <!-- Title of a dialog shown when turning on "Optimize Signal storage" while on-device backups are enabled -->
     <string name="ManageStorageSettingsFragment__media_will_be_removed_from_your_on_device_backup">ಮೀಡಿಯಾವನ್ನು ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿನ ಬ್ಯಾಕಪ್‌ನಿಂದ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ</string>
     <!-- Body of a dialog shown when turning on "Optimize Signal storage" while on-device backups are enabled -->
-    <string name="ManageStorageSettingsFragment__turning_on_optimize_signal_storage_will_offload">\"Molly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಅನ್ನು ಆನ್ ಮಾಡುವುದರಿಂದ ನಿಮ್ಮ ಸಾಧನದಿಂದ ಹಳೆಯ ಮೀಡಿಯಾವನ್ನು ಆಫ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತದೆ. ನೀವು ಇದನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು. ಇದು ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿನ ಬ್ಯಾಕಪ್‌ನಿಂದ ಹಳೆಯ ಮೀಡಿಯಾವನ್ನು ಸಹ ತೆಗೆದುಹಾಕುತ್ತದೆ.</string>
+    <string name="ManageStorageSettingsFragment__turning_on_optimize_signal_storage_will_offload">\"Polly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಅನ್ನು ಆನ್ ಮಾಡುವುದರಿಂದ ನಿಮ್ಮ ಸಾಧನದಿಂದ ಹಳೆಯ ಮೀಡಿಯಾವನ್ನು ಆಫ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತದೆ. ನೀವು ಇದನ್ನು ಯಾವಾಗ ಬೇಕಾದರೂ ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದು. ಇದು ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿನ ಬ್ಯಾಕಪ್‌ನಿಂದ ಹಳೆಯ ಮೀಡಿಯಾವನ್ನು ಸಹ ತೆಗೆದುಹಾಕುತ್ತದೆ.</string>
     <!-- Dialog action to confirm turning on "Optimize Signal storage" -->
     <string name="ManageStorageSettingsFragment__turn_on">ಆನ್‌ ಮಾಡಿ</string>
 
@@ -7668,7 +7668,7 @@
     <!-- Displays the date the subscription expired. Placeholder is the date. -->
     <string name="RemoteBackupsSettingsFragment__expired_on_s">%1$s ರಂದು ಅವಧಿ ಮುಕ್ತಾಯವಾಗಿದೆ</string>
     <!-- Displayed at the top of the screen when no backup is currently enabled -->
-    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">ನಿಮ್ಮ ಮೆಸೇಜ್ ಇತಿಹಾಸವನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಿ, ಇದರಿಂದ ನೀವು ಹೊಸ ಫೋನ್ ಪಡೆದಾಗ ಅಥವಾ Molly ರೀಇನ್‍ಸ್ಟಾಲ್ ಮಾಡಿದಾಗ ಡೇಟಾವನ್ನು ಕಳೆದುಕೊಳ್ಳುವುದಿಲ್ಲ.</string>
+    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">ನಿಮ್ಮ ಮೆಸೇಜ್ ಇತಿಹಾಸವನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಿ, ಇದರಿಂದ ನೀವು ಹೊಸ ಫೋನ್ ಪಡೆದಾಗ ಅಥವಾ Polly ರೀಇನ್‍ಸ್ಟಾಲ್ ಮಾಡಿದಾಗ ಡೇಟಾವನ್ನು ಕಳೆದುಕೊಳ್ಳುವುದಿಲ್ಲ.</string>
     <!-- Section header for other ways to back up -->
     <string name="RemoteBackupsSettingsFragment__other_ways_to_backup">ಬ್ಯಾಕಪ್ ಮಾಡುವ ಇತರೆ ಮಾರ್ಗಗಳು</string>
     <!-- Row title for performing on-device backup -->
@@ -7900,7 +7900,7 @@
     <!-- Screen body shown when upgrading on-device backups to a new recovery key (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__local_backup_upgrade_description_bold">ಈ ಕೀ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿನ ಬ್ಯಾಕಪ್‌ಗಾಗಿ ಕೀಯನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 1). -->
-    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">ನಿಮ್ಮ ರಿಕವರಿ ಕೀ 64-ಅಕ್ಷರಗಳ ಕೋಡ್ ಆಗಿದ್ದು, ನೀವು Molly ಅನ್ನು ಮರು-ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದಾಗ ನಿಮ್ಮ ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ರಿಸ್ಟೋರ್ ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ.</string>
+    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">ನಿಮ್ಮ ರಿಕವರಿ ಕೀ 64-ಅಕ್ಷರಗಳ ಕೋಡ್ ಆಗಿದ್ದು, ನೀವು Polly ಅನ್ನು ಮರು-ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದಾಗ ನಿಮ್ಮ ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ರಿಸ್ಟೋರ್ ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description_bold">ಇದು ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿನ ರಿಕವರಿ ಕೀಯಂತೆಯೇ ಇರುತ್ತದೆ.</string>
     <!-- Screen body shown when enabling on-device backups while Signal Secure Backups are already enabled (part 2, bolded). -->
@@ -7938,7 +7938,7 @@
     <!-- Dialog message shown when there is an error saving the recovery key because no compatible password manager was detected. -->
     <string name="MessageBackupsKeyRecordScreen__missing_password_manager_message">ನೀವು ಪಾಸ್‌ವರ್ಡ್ ಮ್ಯಾನೇಜರ್ ಸೆಟಪ್ ಹೊಂದಿಲ್ಲ ಅಥವಾ ನೀವು ಬಳಸುತ್ತಿರುವ ಪಾಸ್‌ವರ್ಡ್ ಮ್ಯಾನೇಜರ್ ಬೆಂಬಲಿತವಾಗಿಲ್ಲ.</string>
     <!-- Dialog message shown when there is an error saving the recovery key because the user previously chose not to save Signal passwords to their password manager. -->
-    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">ನೀವು ಈ ಹಿಂದೆ Molly ಗಾಗಿ ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು Google ಪಾಸ್‌ವರ್ಡ್ ಮ್ಯಾನೇಜರ್‌ನಲ್ಲಿ ಸೇವ್ ಮಾಡದಿರುವುದನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡಿದ್ದೀರಿ. ನಿಮ್ಮ Google ಪಾಸ್‌ವರ್ಡ್ ಮ್ಯಾನೇಜರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ, \"ನಿರಾಕರಿಸಿದ ಸೈಟ್‌ಗಳು ಮತ್ತು ಆ್ಯಪ್‌ಗಳು\" ಎಂಬುದರಿಂದ Molly ಅನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">ನೀವು ಈ ಹಿಂದೆ Polly ಗಾಗಿ ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು Google ಪಾಸ್‌ವರ್ಡ್ ಮ್ಯಾನೇಜರ್‌ನಲ್ಲಿ ಸೇವ್ ಮಾಡದಿರುವುದನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡಿದ್ದೀರಿ. ನಿಮ್ಮ Google ಪಾಸ್‌ವರ್ಡ್ ಮ್ಯಾನೇಜರ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ, \"ನಿರಾಕರಿಸಿದ ಸೈಟ್‌ಗಳು ಮತ್ತು ಆ್ಯಪ್‌ಗಳು\" ಎಂಬುದರಿಂದ Polly ಅನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
     <!-- Label for a button that navigates to the device settings -->
     <string name="MessageBackupsKeyRecordScreen__go_to_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ</string>
     <!-- Action button label -->
@@ -7946,7 +7946,7 @@
     <!-- Bottom sheet title -->
     <string name="MessageBackupsKeyRecordScreen__keep_your_key_safe">ನಿಮ್ಮ ಕೀಯನ್ನು ಸುರಕ್ಷಿತವಾಗಿರಿಸಿ</string>
     <!-- Bottom sheet subtitle -->
-    <string name="MessageBackupsKeyRecordScreen__signal_will_not">ನಿಮ್ಮ ಕೀಯನ್ನು ನೀವು ಕಳೆದುಕೊಂಡರೆ ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಅನ್ನು ರಿಸ್ಟೋರ್ ಮಾಡಲು Molly ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಅದನ್ನು ಎಲ್ಲೋ ಸುರಕ್ಷಿತವಾಗಿ ಮತ್ತು ಭದ್ರವಾಗಿ ಸಂಗ್ರಹಿಸಿ ಹಾಗೂ ಅದನ್ನು ಇತರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ.</string>
+    <string name="MessageBackupsKeyRecordScreen__signal_will_not">ನಿಮ್ಮ ಕೀಯನ್ನು ನೀವು ಕಳೆದುಕೊಂಡರೆ ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಅನ್ನು ರಿಸ್ಟೋರ್ ಮಾಡಲು Polly ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಅದನ್ನು ಎಲ್ಲೋ ಸುರಕ್ಷಿತವಾಗಿ ಮತ್ತು ಭದ್ರವಾಗಿ ಸಂಗ್ರಹಿಸಿ ಹಾಗೂ ಅದನ್ನು ಇತರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ.</string>
     <!-- Sheet action button label -->
     <string name="MessageBackupsKeyRecordScreen__continue">ಮುಂದುವರಿಸಿ</string>
     <!-- Sheet secondary action button label -->
@@ -7956,13 +7956,13 @@
     <!-- Dialog title for confirming you need to disable optimized storage and download media to rotate AEP key -->
     <string name="MessageBackupsKeyRecordScreen__download_media">ಮೀಡಿಯಾ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
     <!-- Dialog body for confirming you need to disable optimized storage and download media to rotate AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">ಹೊಸ ರಿಕವರಿ ಕೀ ರಚಿಸಲು, ನೀವು \"Molly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಅನ್ನು ಆಫ್ ಮಾಡಬೇಕು ಮತ್ತು ನಿಮ್ಮ ಮೀಡಿಯಾ ಡೌನ್‌ಲೋಡ್ ಆಗುವವರೆಗೂ ಕಾಯಬೇಕು. ಡೌನ್‌ಲೋಡ್ ಪೂರ್ಣಗೊಂಡಾಗ, ನೀವು ಹೊಸ ಕೀ ರಚಿಸಬಹುದು.</string>
+    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">ಹೊಸ ರಿಕವರಿ ಕೀ ರಚಿಸಲು, ನೀವು \"Polly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಸ್ ಮಾಡಿ\" ಅನ್ನು ಆಫ್ ಮಾಡಬೇಕು ಮತ್ತು ನಿಮ್ಮ ಮೀಡಿಯಾ ಡೌನ್‌ಲೋಡ್ ಆಗುವವರೆಗೂ ಕಾಯಬೇಕು. ಡೌನ್‌ಲೋಡ್ ಪೂರ್ಣಗೊಂಡಾಗ, ನೀವು ಹೊಸ ಕೀ ರಚಿಸಬಹುದು.</string>
     <!-- Action label to turn off optimized storage and download media -->
     <string name="MessageBackupsKeyRecordScreen__turn_off_and_download">ಆಫ್ ಮಾಡಿ ಮತ್ತು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ</string>
     <!-- Bottom Sheet title for creating a new AEP key -->
     <string name="MessageBackupsKeyRecordScreen__create_a_new_backup_key">ಹೊಸ ರಿಕವರಿ ಕೀ ರಚಿಸಿ</string>
     <!-- Bottom Sheet body for creating a new AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">ನಿಮ್ಮ ಕೀ ಬೇರೆಯವರಿಗೆ ತಿಳಿದಿದ್ದರೆ ಮಾತ್ರ ಹೊಸ ಕೀ ರಚಿಸುವುದು ಅಗತ್ಯವಾಗಿರುತ್ತದೆ. ನೀವು ಮೀಡಿಯಾ ಸೇರಿದಂತೆ ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಅನ್ನು ಮರು-ಅಪ್‌ಲೋಡ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ. ನೀವು \"Molly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಜ್ ಮಾಡಿ\" ಆಯ್ಕೆಯನ್ನು ಬಳಸುತ್ತಿದ್ದರೆ ಆಫ್‌ಲೋಡ್ ಮಾಡಿದ ಮೀಡಿಯಾವನ್ನು ಮೊದಲು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬೇಕು.</string>
+    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">ನಿಮ್ಮ ಕೀ ಬೇರೆಯವರಿಗೆ ತಿಳಿದಿದ್ದರೆ ಮಾತ್ರ ಹೊಸ ಕೀ ರಚಿಸುವುದು ಅಗತ್ಯವಾಗಿರುತ್ತದೆ. ನೀವು ಮೀಡಿಯಾ ಸೇರಿದಂತೆ ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಅನ್ನು ಮರು-ಅಪ್‌ಲೋಡ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ. ನೀವು \"Polly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಜ್ ಮಾಡಿ\" ಆಯ್ಕೆಯನ್ನು ಬಳಸುತ್ತಿದ್ದರೆ ಆಫ್‌ಲೋಡ್ ಮಾಡಿದ ಮೀಡಿಯಾವನ್ನು ಮೊದಲು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬೇಕು.</string>
     <!-- Dialog title shown when user attempts to exit backup setup before completion -->
     <string name="MessageBackupsKeyRecordScreen__exit_backup_setup">ಬ್ಯಾಕಪ್ ಸೆಟಪ್‌ನಿಂದ ನಿರ್ಗಮಿಸಬೇಕೇ?</string>
     <!-- Dialog body warning user that backup setup is incomplete -->
@@ -8085,7 +8085,7 @@
     <!-- ConfirmBackupCancellationDialog -->
 
     <!-- Email subject when contacting support on a create backup failure -->
-    <string name="BackupAlertBottomSheet_network_failure_support_email">Molly Android ಬ್ಯಾಕಪ್ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ನೆಟ್‌ವರ್ಕ್ ದೋಷ</string>
+    <string name="BackupAlertBottomSheet_network_failure_support_email">Polly Android ಬ್ಯಾಕಪ್ ಎಕ್ಸ್‌ಪೋರ್ಟ್ ನೆಟ್‌ವರ್ಕ್ ದೋಷ</string>
     <!-- Email filter when contacting support on a create backup failure -->
   <!-- Removed by excludeNonTranslatables <string name="BackupAlertBottomSheet_export_failure_filter" translatable="false">Android SignalBackups Export Failed</string> -->
 
@@ -8115,7 +8115,7 @@
     <!-- Old device Transfer account bottom sheet dialog body -->
     <string name="TransferAccount_continue_on_your_other_device_details">ನಿಮ್ಮ ಇನ್ನೊಂದು ಸಾಧನದಲ್ಲಿ ನಿಮ್ಮ ಖಾತೆಯನ್ನು ವರ್ಗಾಯಿಸುವುದನ್ನು ಮುಂದುವರಿಸಿ.</string>
     <!-- Old device Transfer account error dialog body shown when the new device is too old to accept an account that has no phone number -->
-    <string name="TransferAccount_the_device_you_are_transferring_to_is_out_of_date">ನೀವು ವರ್ಗಾಯಿಸುತ್ತಿರುವ ಸಾಧನವು ತೀರಾ ಹಳೆಯದಾಗಿದೆ. ಆ ಸಾಧನದಲ್ಲಿ Molly ಅನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="TransferAccount_the_device_you_are_transferring_to_is_out_of_date">ನೀವು ವರ್ಗಾಯಿಸುತ್ತಿರುವ ಸಾಧನವು ತೀರಾ ಹಳೆಯದಾಗಿದೆ. ಆ ಸಾಧನದಲ್ಲಿ Polly ಅನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
 
     <!-- Prepare Device screen title for quick restore flow -->
     <string name="PrepareDevice_title">ನಿಮ್ಮ ಸಾಧನವನ್ನು ಸಿದ್ಧಪಡಿಸಲಾಗುತ್ತಿದೆ</string>
@@ -8191,7 +8191,7 @@
     <!-- Notification title for when user is out of remote storage -->
     <string name="Notification_backup_storage_full">ಬ್ಯಾಕಪ್ ಸಂಗ್ರಹಣೆ ಭರ್ತಿಯಾಗಿದೆ</string>
     <!-- Notification body for when user is out of remote storage -->
-    <string name="Notification_youve_reached_your_backup_storage_limit">ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಸಂಗ್ರಹಣೆ ಮಿತಿಯನ್ನು ನೀವು ತಲುಪಿದ್ದೀರಿ. ಚಾಟ್‌ಗಳು ಮತ್ತು ಮೀಡಿಯಾವನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡುವುದನ್ನು ಮುಂದುವರಿಸಲು Molly ನಲ್ಲಿ ಸ್ಥಳಾವಕಾಶವನ್ನು ತೆರವುಗೊಳಿಸಿ.</string>
+    <string name="Notification_youve_reached_your_backup_storage_limit">ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಸಂಗ್ರಹಣೆ ಮಿತಿಯನ್ನು ನೀವು ತಲುಪಿದ್ದೀರಿ. ಚಾಟ್‌ಗಳು ಮತ್ತು ಮೀಡಿಯಾವನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡುವುದನ್ನು ಮುಂದುವರಿಸಲು Polly ನಲ್ಲಿ ಸ್ಥಳಾವಕಾಶವನ್ನು ತೆರವುಗೊಳಿಸಿ.</string>
     <!-- Notification title for when initial backup failed -->
     <string name="Notification_backup_failed">ಬ್ಯಾಕಪ್ ವಿಫಲವಾಗಿದೆ</string>
     <!-- Notification body for when initial backup failed -->
@@ -8477,7 +8477,7 @@
     <string name="CouldNotCompleteBackupRestoreSheet__body_error">ದೋಷ ಉಂಟಾಗಿದೆ ಮತ್ತು ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಅನ್ನು ರಿಸ್ಟೋರ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಅನ್ನು ರಿಸ್ಟೋರ್ ಮಾಡುವಾಗ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಬ್ಯಾಕಪ್ ಫೋಲ್ಡರ್ ಅನ್ನು ಮೂವ್ ಮಾಡಿರುವುದು ಇದಕ್ಕೆ ಕಾರಣವಾಗಿರಬಹುದು.</string>
 
     <!-- Body of the sheet shown when a local backup restore could not be completed, explaining how to try again -->
-    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">ಪುನಃ ಪ್ರಯತ್ನಿಸಲು, ಈ ಸಾಧನದಲ್ಲಿ Molly ಅನ್ನು ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ ಮತ್ತು ಮರುಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ ಹಾಗೂ \"ರಿಸ್ಟೋರ್ ಮಾಡಿ ಅಥವಾ ವರ್ಗಾಯಿಸಿ\" ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ.</string>
+    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">ಪುನಃ ಪ್ರಯತ್ನಿಸಲು, ಈ ಸಾಧನದಲ್ಲಿ Polly ಅನ್ನು ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ ಮತ್ತು ಮರುಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ ಹಾಗೂ \"ರಿಸ್ಟೋರ್ ಮಾಡಿ ಅಥವಾ ವರ್ಗಾಯಿಸಿ\" ಅನ್ನು ಆಯ್ಕೆಮಾಡಿ.</string>
 
     <!-- Button on the sheet shown when a local backup restore could not be completed, opening a support article about it -->
     <string name="CouldNotCompleteBackupRestoreSheet__learn_more">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
@@ -8641,7 +8641,7 @@
     <!-- Context menu entry that copies a shared contact detail to the clipboard -->
     <string name="SharedContactDetailsScreen__copy">ನಕಲಿಸು</string>
     <!-- Row that invites a shared contact who is not yet on Signal -->
-    <string name="SharedContactDetailsScreen__invite_to_signal">Molly ಗೆ ಆಮಂತ್ರಿಸಿ</string>
+    <string name="SharedContactDetailsScreen__invite_to_signal">Polly ಗೆ ಆಮಂತ್ರಿಸಿ</string>
     <!-- Row that saves a shared contact into the device address book -->
     <string name="SharedContactDetailsScreen__add_to_phone_contacts">ಫೋನ್ ಸಂಪರ್ಕಗಳಿಗೆ ಸೇರಿಸಿ</string>
     <!-- Row that adds a shared contact to a Signal group -->
@@ -8653,14 +8653,14 @@
     <!-- Toast shown when there is no map app to open a shared address in -->
     <string name="SharedContactDetailsScreen__couldnt_open_maps">ನಕ್ಷೆಗಳನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ</string>
     <!-- Subject line of an email invitation to Signal -->
-    <string name="SharedContactDetailsScreen__join_me_on_signal">Molly ನಲ್ಲಿ ನನ್ನೊಂದಿಗೆ ಸೇರಿಕೊಳ್ಳಿ</string>
+    <string name="SharedContactDetailsScreen__join_me_on_signal">Polly ನಲ್ಲಿ ನನ್ನೊಂದಿಗೆ ಸೇರಿಕೊಳ್ಳಿ</string>
 
     <!-- Title of the bottom sheet that confirms the user wants a brand new recovery key. -->
     <string name="ResetRecoveryKeyBottomSheet__reset_your_recovery_key">ನಿಮ್ಮ ರಿಕವರಿ ಕೀ ಅನ್ನು ಮರುಹೊಂದಿಸಿ</string>
     <!-- First paragraph of the bottom sheet body, explaining what a reset does. -->
     <string name="ResetRecoveryKeyBottomSheet__resetting_your_recovery_key_will_create_a_new_key">ನಿಮ್ಮ ರಿಕವರಿ ಕೀ ಅನ್ನು ಮರುಹೊಂದಿಸುವುದರಿಂದ ನಿಮ್ಮ Signal Login ಗಾಗಿ ಹೊಸ ಕೀ ಅನ್ನು ರಚಿಸುತ್ತದೆ. ನಿಮ್ಮ ಕೀ ಬೇರೆ ಯಾರಿಗಾದರೂ ತಿಳಿದಿದ್ದರೆ ಮಾತ್ರ ಇದು ಅಗತ್ಯವಿರುತ್ತದೆ.</string>
     <!-- Second paragraph of the bottom sheet body, explaining what a reset means for backups. -->
-    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದ್ದರೆ ನೀವು ಮೀಡಿಯಾ ಸೇರಿದಂತೆ ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಅನ್ನು ಮರು-ಅಪ್‌ಲೋಡ್ ಮಾಡಬೇಕು. ನೀವು \"Molly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಜ್ ಮಾಡಿ\" ಆಯ್ಕೆಯನ್ನು ಬಳಸುತ್ತಿದ್ದರೆ ಆಫ್‌ಲೋಡ್ ಮಾಡಿದ ಮೀಡಿಯಾವನ್ನು ಮೊದಲು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬೇಕು.</string>
+    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದ್ದರೆ ನೀವು ಮೀಡಿಯಾ ಸೇರಿದಂತೆ ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಅನ್ನು ಮರು-ಅಪ್‌ಲೋಡ್ ಮಾಡಬೇಕು. ನೀವು \"Polly ಸಂಗ್ರಹಣೆಯನ್ನು ಆಪ್ಟಿಮೈಜ್ ಮಾಡಿ\" ಆಯ್ಕೆಯನ್ನು ಬಳಸುತ್ತಿದ್ದರೆ ಆಫ್‌ಲೋಡ್ ಮಾಡಿದ ಮೀಡಿಯಾವನ್ನು ಮೊದಲು ಡೌನ್‌ಲೋಡ್ ಮಾಡಬೇಕು.</string>
     <!-- Bottom sheet action that continues on to reset the recovery key. -->
     <string name="ResetRecoveryKeyBottomSheet__continue">ಮುಂದುವರಿಸಿ</string>
     <!-- Dialog body shown when the recovery key change limit is exhausted and the user does not have backups enabled. -->

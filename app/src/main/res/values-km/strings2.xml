@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly ជាប់សោរ</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly ជាប់សោរ</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Services កំពុងធ្វើបច្ចុប្បន្នភាព ឬមិនអាចប្រើបានជាបណ្តោះអាសន្ន។ សូមព្យាយាមម្តងទៀត។</string>
     <string name="please_wait">សូមរង់ចាំ…</string>
     <string name="NotificationsSettingsFragment__notify_when">ជូនដំណឹងនៅពេល</string>

@@ -31,7 +31,7 @@
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Molly atjaunina informāciju…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">Polly atjaunina informāciju…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">Kļūda savienojoties ar serveri!</string>
@@ -77,7 +77,7 @@
     <string name="AttachmentKeyboard_location">Atrašanās vieta</string>
     <!-- Text for a button that will allow users to create a poll -->
     <string name="AttachmentKeyboard_poll">Aptauja</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Molly ir nepieciešama atļauja rādīt jūsu fotoattēlus un videoklipus</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Polly ir nepieciešama atļauja rādīt jūsu fotoattēlus un videoklipus</string>
     <!-- Text for a button prompting users to allow Signal access to their gallery storage -->
     <string name="AttachmentKeyboard_allow_access">Atļaut piekļuvi</string>
     <string name="AttachmentKeyboard_payment">Maksājums</string>
@@ -88,34 +88,34 @@
     <!-- Option in menu to go to settings -->
     <string name="AttachmentKeyboard_go_to_settings">Iet uz Iestatījumiem</string>
     <!-- Text explaining that Signal has limited access to photos -->
-    <string name="AttachmentKeyboard_signal_has_limited_access">Molly ir ierobežota piekļuve fotoattēliem vai videoklipiem</string>
+    <string name="AttachmentKeyboard_signal_has_limited_access">Polly ir ierobežota piekļuve fotoattēliem vai videoklipiem</string>
     <!-- Text shown when user has given no photos for Signal to access and an explanation on how to change those permissions -->
     <string name="AttachmentKeyboard_no_photos_found">Netika atrasts neviens fotoattēls. Atlasiet fotoattēlus un videoklipus, ko rādīt šeit, vai mainiet atļaujas</string>
 
     <!-- MediaGalleryFragment -->
     <!-- Text describing that no photos or videos are currently found in the gallery and that Signal can only access media that the user allows -->
-    <string name="MediaGalleryFragment__no_photos_found">Netika atrasts neviens fotoattēls vai videoklips. Molly ir piekļuve tikai jūsu atlasītajiem fotoattēliem un videoklipiem.</string>
+    <string name="MediaGalleryFragment__no_photos_found">Netika atrasts neviens fotoattēls vai videoklips. Polly ir piekļuve tikai jūsu atlasītajiem fotoattēliem un videoklipiem.</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Nevar atrast aplikāciju, ar kuru iespējams izvēlēties pievienojamo mediju failu.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Lai pievienoto fotogrāfijas, videoierakstus un audioierakstus, Molly nepieciešama atļauja pieejai pie Noliktavas, bet tā ir liegta. Dodieties uz lietotnes iestatījumu izvēlni, izvēlieties \"Atļaujas\" un iespējojiet opciju \"Krātuve\".</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Molly nepieciešama atļauja pieejai pie Kontaktiem, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kontakti\".</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Molly nepieciešama atļauja pieejai pie atrašanās vietas pakalpojumiem, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Atrašanās vieta\".</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Lai pievienoto fotogrāfijas, videoierakstus un audioierakstus, Polly nepieciešama atļauja pieejai pie Noliktavas, bet tā ir liegta. Dodieties uz lietotnes iestatījumu izvēlni, izvēlieties \"Atļaujas\" un iespējojiet opciju \"Krātuve\".</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Polly nepieciešama atļauja pieejai pie Kontaktiem, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kontakti\".</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Polly nepieciešama atļauja pieejai pie atrašanās vietas pakalpojumiem, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Atrašanās vieta\".</string>
 
     <!-- Dialog title asking users for location permission -->
     <string name="AttachmentManager_signal_allow_access_location">Atļaujiet piekļuvi atrašanās vietai</string>
     <!-- Dialog description that will explain the steps needed to give location permission -->
     <string name="AttachmentManager_signal_to_send_location">Lai nosūtītu atrašanās vietu:</string>
     <!-- Alert dialog description asking for location permission -->
-    <string name="AttachmentManager_signal_allow_signal_access_location">Atļaujiet Molly piekļuvi jūsu atrašanās vietai, lai to nosūtītu citiem.</string>
+    <string name="AttachmentManager_signal_allow_signal_access_location">Atļaujiet Polly piekļuvi jūsu atrašanās vietai, lai to nosūtītu citiem.</string>
     <!-- Toast text explaining Signal\'s need for location access -->
-    <string name="AttachmentManager_signal_needs_location_access">Molly ir nepieciešama piekļuve jūsu atrašanās vietai, lai to būtu iespējams nosūtīt citiem.</string>
+    <string name="AttachmentManager_signal_needs_location_access">Polly ir nepieciešama piekļuve jūsu atrašanās vietai, lai to būtu iespējams nosūtīt citiem.</string>
     <!-- Dialog title asking users for gallery storage permission -->
     <string name="AttachmentManager_signal_allow_storage">Atļaujiet piekļuvi krātuvei</string>
     <!-- Dialog description that will explain the steps needed to give gallery storage permission -->
     <string name="AttachmentManager_signal_to_show_photos">Lai rādītu fotoattēlus un videoklipus:</string>
     <!-- Toast text explaining Signal\'s need for storage access -->
-    <string name="AttachmentManager_signal_needs_storage_access">Molly ir nepieciešama piekļuve, lai rādītu jūsu fotoattēlus un videoklipus.</string>
+    <string name="AttachmentManager_signal_needs_storage_access">Polly ir nepieciešama piekļuve, lai rādītu jūsu fotoattēlus un videoklipus.</string>
 
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">Lietotājs %1$s nav aktivizējis maksājumus </string>
@@ -270,12 +270,12 @@
     <string name="CensorshipCircumventionMegaphone_no_thanks">Nē, paldies</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Atjaunināt Molly</string>
+    <string name="ClientDeprecatedActivity_update_signal">Atjaunināt Polly</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Šī lietotnes versija vairs netiek atbalstīta. Lai turpinātu sūtīt un saņemt ziņas, aktualizējiet uz pēdējo versiju.</string>
     <string name="ClientDeprecatedActivity_update">Atjaunināt</string>
     <string name="ClientDeprecatedActivity_dont_update">Neatjaunināt</string>
     <string name="ClientDeprecatedActivity_warning">Brīdinājums</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Jūsu Molly versijas lietošanas termiņš ir beidzies. Jūs varat aplūkot ziņu vēsturi, taču nevarēsiet nosūtīt vai saņemt ziņas, kamēr to neatjaunināsiet.</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Jūsu Polly versijas lietošanas termiņš ir beidzies. Jūs varat aplūkot ziņu vēsturi, taču nevarēsiet nosūtīt vai saņemt ziņas, kamēr to neatjaunināsiet.</string>
 
     <!-- ClockSkewActivity -->
     <!-- Title of the full-screen dialog shown when the device clock is too far off from the real time -->
@@ -307,7 +307,7 @@
     <!-- Title on dialog when quick restore qr code is scanned in system camera -->
     <string name="CommunicationActions__transfer_dialog_title">Pārsūtīt kontu uz jaunu ierīci?</string>
     <!-- Message on dialog when quick restore qr code is scanned in system camera -->
-    <string name="CommunicationActions__transfer_dialog_message">Lai šo kontu pārsūtītu uz jaunu ierīci, pieskarieties \"Turpināt\" un vēlreiz noskenējiet QR kodu ar Molly kameru. Pārliecinieties, ka skenējat tikai tos QR kodus, kurus publicē Molly.</string>
+    <string name="CommunicationActions__transfer_dialog_message">Lai šo kontu pārsūtītu uz jaunu ierīci, pieskarieties \"Turpināt\" un vēlreiz noskenējiet QR kodu ar Polly kameru. Pārliecinieties, ka skenējat tikai tos QR kodus, kurus publicē Polly.</string>
     <string name="CommunicationActions__dont_transfer">Nepārsūtīt</string>
 
     <!-- ConfirmIdentityDialog -->
@@ -331,8 +331,8 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">Ziņa %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">Molly balss zvans %1$s</string>
-    <string name="ContactsDatabase_signal_video_call_s">Molly video zvans %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">Polly balss zvans %1$s</string>
+    <string name="ContactsDatabase_signal_video_call_s">Polly video zvans %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -445,10 +445,10 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="ConversationActivity_signal_to_send_audio_messages">Lai nosūtītu balss ziņas:</string>
     <!-- Alert dialog description asking for microphone permission in order to send voice messages -->
-    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Lai nosūtītu balss ziņas, atļaujiet Molly piekļūt jūsu mikrofonam.</string>
+    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Lai nosūtītu balss ziņas, atļaujiet Polly piekļūt jūsu mikrofonam.</string>
     <!-- Toast text explaining Signal\'s need for microphone access -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Lai ierakstītu balss ziņu, Molly ir nepieciešama piekļuve mikrofonam.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Lai nosūtītu audio ziņas, Molly nepieciešama atļauja pieejai mikrofonam, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Mikrofons\".</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Lai ierakstītu balss ziņu, Polly ir nepieciešama piekļuve mikrofonam.</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Lai nosūtītu audio ziņas, Polly nepieciešama atļauja pieejai mikrofonam, bet tā ir liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Mikrofons\".</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
     <string name="ConversationActivity_search_position">%1$d no %2$d</string>
@@ -468,9 +468,9 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions for a voice call -->
     <string name="ConversationActivity__to_start_call">Lai uzsāktu zvanu:</string>
     <!-- Alert dialog description asking for microphone permission in order to start a voice call -->
-    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Lai uzsāktu zvanu, atļaujiet Molly piekļūt jūsu mikrofonam.</string>
+    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Lai uzsāktu zvanu, atļaujiet Polly piekļūt jūsu mikrofonam.</string>
     <!-- Toast text explaining Signal\'s need for microphone access for a voice call -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Lai uzsāktu zvanu, Molly ir nepieciešama piekļuve mikrofonam.</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Lai uzsāktu zvanu, Polly ir nepieciešama piekļuve mikrofonam.</string>
 
 
     <string name="ConversationActivity_join">Pievienoties</string>
@@ -480,15 +480,15 @@
     <string name="ConversationActivity_error_sending_media">Neizdevās nosūtīt multivides failu</string>
 
     <!-- Message shown when opening an MMS group conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">Molly vairs netiek atbalstīta SMS ziņu sūtīšana.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">Polly vairs netiek atbalstīta SMS ziņu sūtīšana.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Signal vairs netiek atbalstīta SMS ziņu sūtīšana. Uzaiciniet lietotāju %1$s izmantot Signal, lai turpinātu sarunu šeit.</string>
     <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
-    <string name="ConversationActivity__this_person_is_no_longer_using_signal">Šī persona vairs neizmanto Molly. Lai turpinātu sarunāties šajā platformā, uzaiciniet šo personu izmantot Molly.</string>
+    <string name="ConversationActivity__this_person_is_no_longer_using_signal">Šī persona vairs neizmanto Polly. Lai turpinātu sarunāties šajā platformā, uzaiciniet šo personu izmantot Polly.</string>
     <!-- Message shown when opening a conversation with an unregistered user who is not on Signal -->
     <string name="ConversationActivity__this_person_is_not_using_signal">Šis cilvēks neizmanto Signal. Uzaiciniet viņu, lai turpinātu sarunu šajā platformā.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__invite_to_signal">Uzaicināt uz Molly</string>
+    <string name="ConversationActivity__invite_to_signal">Uzaicināt uz Polly</string>
     <!-- Toast message shown when trying to record a voice message during an ongoing call -->
     <string name="ConversationFragment_cannot_record_voice_message_during_call">Zvana laikā nevar ierakstīt balss ziņojumu.</string>
 
@@ -588,15 +588,15 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">Bloķēts</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">Atjaunināt Molly</string>
+    <string name="ConversationFragment__update_build">Atjaunināt Polly</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Atkārtoti reģistrēt Molly</string>
+    <string name="ConversationFragment__reregister_signal">Atkārtoti reģistrēt Polly</string>
     <!-- Action shown in the conversation input area to allow a user to re-link this device as it is no longer linked -->
     <string name="ConversationFragment__relink_signal">Piesaistīt vēlreiz</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">Pārvietoties atpakaļ.</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Atvērt Molly</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">Atvērt Polly</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">Vairs nav verificēts</string>
     <!-- Button shown in conversation header when in a message request state and no groups in common to show new message safety tips -->
@@ -644,7 +644,7 @@
     <!-- Title of the dialog shown when re-requesting an expired attachment from your primary device fails -->
     <string name="ConversationFragment_attachment_backfill_failed_title">Nevar lejupielādēt multividi</string>
     <!-- Body of the dialog shown when your phone didn\'t respond to a request to re-send an expired attachment -->
-    <string name="ConversationFragment_attachment_backfill_timeout">Pārbaudiet šīs ierīces un jūsu tālruņa interneta savienojumu. Atveriet Molly tālrunī un pēc tam mēģiniet lejupielādēt vēlreiz.</string>
+    <string name="ConversationFragment_attachment_backfill_timeout">Pārbaudiet šīs ierīces un jūsu tālruņa interneta savienojumu. Atveriet Polly tālrunī un pēc tam mēģiniet lejupielādēt vēlreiz.</string>
     <!-- Body of the dialog shown when your phone no longer has the attachment you tried to download -->
     <string name="ConversationFragment_attachment_backfill_not_found">Šī multivide vairs nav pieejama jūsu tālrunī, un to nevar lejupielādēt.</string>
     <!-- Dialog for how to long to keep a messaged pinned for -->
@@ -714,7 +714,7 @@
     <!-- Bottom sheet text explaining that profile names are chosen by the account holder. Placeholder will be \'Profile names\' -->
     <string name="ProfileNameBottomSheet__profile_names_on_signal">Signal %1$s izvēlas to kontu īpašnieki.</string>
     <!-- Bottom sheet text explaining that Signal can\'t verify names and photos -->
-    <string name="ProfileNameBottomSheet__signal_cant_verify">Molly nevar verificēt nosaukumus un fotoattēlus</string>
+    <string name="ProfileNameBottomSheet__signal_cant_verify">Polly nevar verificēt nosaukumus un fotoattēlus</string>
     <!-- Bottom sheet text explaining that Signal will never contact you for registration code, PIN, or recovery key -->
     <string name="ProfileNameBottomSheet__signal_will_never_contact">Signal nekad jums neprasīs reģistrācijas kodu, PIN vai atkopšanas atslēgu</string>
     <!-- Bottom sheet text explaining that accounts can impersonate other people and to be cautious -->
@@ -868,9 +868,9 @@
     <!-- Toolbar title for this screen -->
     <string name="WhoCanSeeMyPhoneNumberFragment__who_can_find_me_by_number">Kas var mani atrast pēc numura?</string>
     <!-- Description for radio item stating anyone can see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">Ikviens, kuram ir jūsu tālruņa numurs, redzēs, ka izmantojat Molly, un varēs uzsākt ar jums sarunas.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">Ikviens, kuram ir jūsu tālruņa numurs, redzēs, ka izmantojat Polly, un varēs uzsākt ar jums sarunas.</string>
     <!-- Description for radio item stating no one will be able to see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">Neviens neredzēs, ka izmantojat Molly, izņemot tos, kuriem nosūtīsiet ziņu vai ar kuriem jau esat sarunājušies iepriekš.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">Neviens neredzēs, ka izmantojat Polly, izņemot tos, kuriem nosūtīsiet ziņu vai ar kuriem jau esat sarunājušies iepriekš.</string>
 
     <!-- ChooseBackupFragment -->
 
@@ -896,7 +896,7 @@
     <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Pārbaudiet rezerves kopijas paroles frāzi, un pārliecinieties, ka tā sakrīt</string>
     <string name="BackupsPreferenceFragment__turn_on">Ieslēgt rezerves kopijas</string>
     <string name="BackupsPreferenceFragment__turn_off">Izslēgt</string>
-    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Lai atjaunotu rezerves kopiju, instalējiet Molly no jauna. Atveriet lietotni un pieskarieties “Atjaunot rezerves kopiju”, pēc tam norādiet rezerves kopijas failu. %1$s"</string>
+    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Lai atjaunotu rezerves kopiju, instalējiet Polly no jauna. Atveriet lietotni un pieskarieties “Atjaunot rezerves kopiju”, pēc tam norādiet rezerves kopijas failu. %1$s"</string>
     <string name="BackupsPreferenceFragment__learn_more">Lasīt vairāk</string>
     <string name="BackupsPreferenceFragment__in_progress">Procesā…</string>
     <!-- Status text shown in backup preferences when verifying a backup -->
@@ -905,7 +905,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">%1$d līdz šim…</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">%1$s%% līdz šim…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Lai izveidotu rezerves kopijas, Molly nepieciešama pieejas atļauja ārējai datu krātuvei, bet tā tiek pastāvīgi liegta. Lūdzu, dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Krātuve\".</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Lai izveidotu rezerves kopijas, Polly nepieciešama pieejas atļauja ārējai datu krātuvei, bet tā tiek pastāvīgi liegta. Lūdzu, dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Krātuve\".</string>
     <!-- Title of dialog shown when picking the time to perform a chat backup -->
     <string name="BackupsPreferenceFragment__set_backup_time">Dublēšanas laika iestatīšana</string>
 
@@ -986,7 +986,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">Sarunas sesija atsvaidzināta</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Molly izmanto pilnīgu šifrēšanu, un, iespējams, dažreiz būs jāatsvaidzina jūsu sarunas sesija. Tas neietekmē jūsu sarunas drošību, taču, iespējams, esat palaiduši garām kādu šīs kontaktpersonas sūtītu ziņu un būs jālūdz nosūtīt to vēlreiz.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Polly izmanto pilnīgu šifrēšanu, un, iespējams, dažreiz būs jāatsvaidzina jūsu sarunas sesija. Tas neietekmē jūsu sarunas drošību, taču, iespējams, esat palaiduši garām kādu šīs kontaktpersonas sūtītu ziņu un būs jālūdz nosūtīt to vēlreiz.</string>
 
     <!-- LinkDeviceFragment -->
     <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
@@ -1095,7 +1095,7 @@
     <!-- Bottom sheet title telling users to complete the linking process on the other device  -->
     <string name="AddLinkDeviceFragment__finish_linking_on_other_device">Pabeidziet piesaistīšanu otrā ierīcē</string>
     <!-- Bottom sheet description telling users to complete the linking process -->
-    <string name="AddLinkDeviceFragment__finish_linking_signal">Pabeidziet Molly piesaistīšanu otrā ierīcē.</string>
+    <string name="AddLinkDeviceFragment__finish_linking_signal">Pabeidziet Polly piesaistīšanu otrā ierīcē.</string>
     <!-- Title of dialog when the QR code being scanned is invalid -->
     <string name="AddLinkDeviceFragment__linking_device_failed">Neizdevās piesaistīt ierīci</string>
     <!-- Text shown in a dialog when the QR code being scanned is invalid -->
@@ -1140,19 +1140,19 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">Optimizē situācijai, kurā iztrūkst proprietārie Google Play pakalpojumi</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Šajā ierīcē nav Google Play pakalpojumu atbalsta. Pieskaries, lai atspējotu sistēmas baterijas optimizāciju, kas traucē Molly saņemt ziņas, kamēr tas ir neaktīvs.</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Šajā ierīcē nav Google Play pakalpojumu atbalsta. Pieskaries, lai atspējotu sistēmas baterijas optimizāciju, kas traucē Polly saņemt ziņas, kamēr tas ir neaktīvs.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Šīs Molly versijas lietošanas termiņš ir beidzies. Lai nosūtītu un saņemtu ziņas, tā jānomaina ar jaunāku.</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Šīs Polly versijas lietošanas termiņš ir beidzies. Lai nosūtītu un saņemtu ziņas, tā jānomaina ar jaunāku.</string>
     <string name="ExpiredBuildReminder_update_now">Aktualizēt tagad</string>
 
     <!-- A message in a banner shown at the top of the screen indicating that the user must upgrade their device to use signal. -->
-    <string name="DeprecatedSdkBanner_body">Molly vairs nedarbojas šajā ierīcē. Lai varētu izmantot Signak, atjauniniet ierīci uz jaunāku Android versiju vai pārejiet uz jaunāku ierīci.</string>
+    <string name="DeprecatedSdkBanner_body">Polly vairs nedarbojas šajā ierīcē. Lai varētu izmantot Signak, atjauniniet ierīci uz jaunāku Android versiju vai pārejiet uz jaunāku ierīci.</string>
 
     <!-- Title of notification telling users to update Signal -->
-    <string name="DeprecatedNotificationJob_update_signal">Atjaunināt Molly</string>
+    <string name="DeprecatedNotificationJob_update_signal">Atjaunināt Polly</string>
     <!-- Message body of notification telling users that this current version of Signal has expired. If pressed, we will direct them to the website APK or PlayStore page -->
-    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Šī Molly versija ir novecojusi. Pieskarieties, lai veiktu atjauninājumus ziņu nosūtīšanai un saņemšanai.</string>
+    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Šī Polly versija ir novecojusi. Pieskarieties, lai veiktu atjauninājumus ziņu nosūtīšanai un saņemšanai.</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
     <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -1298,7 +1298,7 @@
     <!-- Message for dialog asking user to submit logs for debugging a crash -->
     <string name="PromptLogsSlowNotificationsDialog__message">Atkļūdošanas žurnāli palīdz mums diagnosticēt un novērst problēmu, un tie nesatur identificējošu informāciju.</string>
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
-    <string name="PromptLogsSlowNotificationsDialog__title_crash">Molly radās problēma. Vai nosūtīt atkļūdošanas žurnālu?</string>
+    <string name="PromptLogsSlowNotificationsDialog__title_crash">Polly radās problēma. Vai nosūtīt atkļūdošanas žurnālu?</string>
     <!-- Title for dialog asking user to submit logs for a situation where they\'re not able to connect to the signal service -->
     <string name="PromptLogsSlowNotificationsDialog__title_connectivity_warning">Iespējams, jūs nesaņemat ziņas. Vai iesniegt atkļūdošanas žurnālu?</string>
 
@@ -1306,12 +1306,12 @@
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
     <string name="PromptBatterySaverBottomSheet__title">Paziņojumi var aizkavēties akumulatora optimizācijas dēļ</string>
     <!-- Message explaining that battery saver may delay notifications -->
-    <string name="PromptBatterySaverBottomSheet__message">Varat atspējot akumulatora optimizāciju lietotnei Molly, lai nodrošinātu, ka netiks aizkavēti paziņojumi par ziņām.</string>
+    <string name="PromptBatterySaverBottomSheet__message">Varat atspējot akumulatora optimizāciju lietotnei Polly, lai nodrošinātu, ka netiks aizkavēti paziņojumi par ziņām.</string>
 
     <!-- Title in bottom sheet that states that notifications for this device could be delayed -->
     <string name="DeviceSpecificNotificationBottomSheet__notifications_may_be_delayed">Paziņojumi var aizkavēties akumulatora optimizācijas dēļ</string>
     <!-- Message in bottom sheet prompting users to fix potential issues by disabling battery optimizations -->
-    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Atspējojiet akumulatora optimizāciju lietotnei Molly, lai pārliecinātos, ka saņemat ziņu paziņojumus. Lai skatītu instrukcijas konkrētām ierīcēm, pieskarieties pie \"Turpināt\".</string>
+    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Atspējojiet akumulatora optimizāciju lietotnei Polly, lai pārliecinātos, ka saņemat ziņu paziņojumus. Lai skatītu instrukcijas konkrētām ierīcēm, pieskarieties pie \"Turpināt\".</string>
     <!-- Button to dismiss notification help prompt -->
     <string name="DeviceSpecificNotificationBottomSheet__no_thanks">Nē, paldies</string>
     <!-- Button to continue and go to Signal support website -->
@@ -1320,7 +1320,7 @@
     <!-- Title of a bottom sheet that is shown when the user is having connectivity issues -->
     <string name="ConnectivityWarningBottomSheet_title">Iespējams, jūs nesaņemat ziņas</string>
     <!-- Body of a bottom sheet that is shown when the user is having connectivity issues -->
-    <string name="ConnectivityWarningBottomSheet_body">Ziņu piegādes problēmu, iespējams, var atrisināt, restartējot ierīci. Ja problēma joprojām pastāv, sazinieties ar Molly atbalsta dienestu.</string>
+    <string name="ConnectivityWarningBottomSheet_body">Ziņu piegādes problēmu, iespējams, var atrisināt, restartējot ierīci. Ja problēma joprojām pastāv, sazinieties ar Polly atbalsta dienestu.</string>
     <!-- Text for a button in a bottom sheet that is shown when the user is having connectivity issues. Clicking it will dismiss the bottom sheet. -->
     <string name="ConnectivityWarningBottomSheet_dismiss_button">Skaidrs</string>
 
@@ -1515,9 +1515,9 @@
     </plurals>
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Atjauniniet Molly, lai izmantotu grupas saites</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Jūsu izmantotā Molly versija neatbalsta šīs grupas saiti. Atjauniniet uz jaunāko versiju, lai pievienotos šai grupai, izmantojot saiti.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Update Molly</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Atjauniniet Polly, lai izmantotu grupas saites</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Jūsu izmantotā Polly versija neatbalsta šīs grupas saiti. Atjauniniet uz jaunāko versiju, lai pievienotos šai grupai, izmantojot saiti.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Update Polly</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Grupas saite nav derīga</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -1563,7 +1563,7 @@
     <string name="LongMessageActivity_your_message">Jūsu ziņa</string>
 
     <!-- MessageRetrievalService -->
-    <string name="MessageRetrievalService_signal">Molly</string>
+    <string name="MessageRetrievalService_signal">Polly</string>
     <string name="MessageRetrievalService_background_connection_enabled">Fona savienojums iespējots</string>
 
     <!-- MediaOverviewActivity -->
@@ -1660,10 +1660,10 @@
   <!-- Removed by excludeNonTranslatables <string name="StarredMessages__s_chevron_s" translatable="false">%1$s \u203A %2$s</string> -->
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Molly zvana savienojuma izveide</string>
+    <string name="NotificationBarManager__establishing_signal_call">Polly zvana savienojuma izveide</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Tiek palaists Molly zvana pakalpojums</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Tiek apturēts Molly zvana pakalpojums</string>
+    <string name="NotificationBarManager__starting_signal_call_service">Tiek palaists Polly zvana pakalpojums</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">Tiek apturēts Polly zvana pakalpojums</string>
     <string name="NotificationBarManager__cancel_call">Atcelt zvanu</string>
 
     <!-- NotificationsMegaphone -->
@@ -2004,7 +2004,7 @@
     </plurals>
 
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Lietotnē Molly vairs nav iespējams sūtīt SMS ziņas. Uzaiciniet lietotāju %1$s izmantot Molly, lai turpinātu sarunu šeit.</string>
+    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Lietotnē Polly vairs nav iespējams sūtīt SMS ziņas. Uzaiciniet lietotāju %1$s izmantot Polly, lai turpinātu sarunu šeit.</string>
     <!-- Body for quote when message being quoted is an in-app payment message -->
     <string name="MessageRecord__payment_s">Maksājums: %1$s</string>
     <!-- Body for quote when message being quoted is an in-app payment message tombstone without an amount -->
@@ -2124,21 +2124,21 @@
     <string name="DeviceProvisioningActivity_link_a_signal_device">Piesaistīt Signal ierīci?</string>
     <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">Lai šim Signal kontam piesaistītu iPad, dodieties uz sadaļu \"Saistītās ierīces\" un pieskarieties pie \"Piesaistīt jaunu ierīci\". Pēc tam skenējiet QR kodu vēlreiz. Pārliecinieties, ka skenējat tikai tos QR kodus, kurus publicē Signal.</string>
 
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Šīs Molly versijas lietošanas termiņš beigsies šodien. Aktualizējiet uz nesenāku versiju.</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Šīs Polly versijas lietošanas termiņš beigsies šodien. Aktualizējiet uz nesenāku versiju.</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="zero">Šīs Molly versijas lietošanas termiņš beigsies pēc %1$d dienām. Atjauniniet uz jaunāku versiju.</item>
-        <item quantity="one">Šīs Molly versijas lietošanas termiņš beigsies rīt. Atjauniniet uz jaunāku versiju.</item>
-        <item quantity="other">Šīs Molly versijas lietošanas termiņš beigsies pēc %1$d dienām. Atjauniniet uz jaunāku versiju.</item>
+        <item quantity="zero">Šīs Polly versijas lietošanas termiņš beigsies pēc %1$d dienām. Atjauniniet uz jaunāku versiju.</item>
+        <item quantity="one">Šīs Polly versijas lietošanas termiņš beigsies rīt. Atjauniniet uz jaunāku versiju.</item>
+        <item quantity="other">Šīs Polly versijas lietošanas termiņš beigsies pēc %1$d dienām. Atjauniniet uz jaunāku versiju.</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Ievadiet paroles frāzi</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Molly ikona</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Polly ikona</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Iesniegt paroles frāzi</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Nederīga paroles frāze!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Atbloķēt Molly</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Atbloķēt Polly</string>
     <!-- This is the subject line for the email that is sent to support -->
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Molly Android - bloķēt ekrānu</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Polly Android - bloķēt ekrānu</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Karte</string>
@@ -2165,7 +2165,7 @@
         <item quantity="one">Jums atlikuši %1$d mēģinājums. Ja jums beidzas mēģinājumi, varat izveidot jaunu PIN. Varat reģistrēties un izmantot savu kontu, taču zaudēsiet saglabātos iestatījumus, piemēram, profila informāciju.</item>
         <item quantity="other">Jums atlikuši %1$d mēģinājumi. Ja jums beidzas mēģinājumi, varat izveidot jaunu PIN. Varat reģistrēties un izmantot savu kontu, taču zaudēsiet saglabātos iestatījumus, piemēram, profila informāciju.</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Molly reģistrācija - Nepieciešama palīdziba ar PIN priekš Android</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Polly reģistrācija - Nepieciešama palīdziba ar PIN priekš Android</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">Izveidojiet savu PIN</string>
@@ -2197,7 +2197,7 @@
 
     <!-- RecaptchaRequiredBottomSheetFragment -->
     <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">Pārbaudīt, lai turpinātu ziņapmaiņu</string>
-    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Lai palīdzētu nepieļaut surogātpasta izplatīšanu Molly, lūdzu, pabeidziet pārbaudi.</string>
+    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Lai palīdzētu nepieļaut surogātpasta izplatīšanu Polly, lūdzu, pabeidziet pārbaudi.</string>
     <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">Pēc verifikācijas varat turpināt ziņapmaiņu. Visas pauzētās ziņas tiks automātiski nosūtītas.</string>
 
     <!-- Recipient -->
@@ -2205,7 +2205,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">Mans stāsts</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Molly audiozvans</string>
+    <string name="Recipient_signal_call">Polly audiozvans</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">Bloķēt</string>
@@ -2242,7 +2242,7 @@
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Pieskarieties, lai ieslēgtu video</string>
     <!-- Subtitle shown at top of call where %s is the elapsed time of the call -->
-    <string name="WebRtcCallActivity__signal_s">Molly %1$s</string>
+    <string name="WebRtcCallActivity__signal_s">Polly %1$s</string>
     <string name="WebRtcCallActivity__calling">Zvana…</string>
     <!-- Title for dialog warning about lacking bluetooth permissions during a call -->
     <string name="WebRtcCallActivity__bluetooth_permission_denied">Bluetooth atļauja noraidīta</string>
@@ -2257,7 +2257,7 @@
     <!-- Title for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
     <string name="WebRtcCallActivity__others_couldnt_hear_you">Citi lietotāji jūs nedzirdēja</string>
     <!-- Message for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
-    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">Jūsu mikrofons tika izslēgts, kamēr Molly darbojās fonā. Lai to labotu, pieskarieties pie Iestatījumi un akumulatora iestatījumu sadaļā iespējojiet fona darbības.</string>
+    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">Jūsu mikrofons tika izslēgts, kamēr Polly darbojās fonā. Lai to labotu, pieskarieties pie Iestatījumi un akumulatora iestatījumu sadaļā iespējojiet fona darbības.</string>
     <!-- Title for dialog to approve all requests -->
     <plurals name="WebRtcCallActivity__approve_d_requests">
         <item quantity="zero">Vai apstiprināt %1$d pieprasījumus?</item>
@@ -2313,15 +2313,15 @@
     <!-- Dialog title asking users for camera permission -->
     <string name="WebRtcCallActivity__allow_access_camera">Atļaujiet piekļuvi kamerai</string>
     <!-- Dialog description explaining why camera and microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__to_start_call_camera_microphone">Lai uzsāktu zvanu vai pievienotos zvanam, ļaujiet Molly piekļūt kamerai un mikrofonam.</string>
+    <string name="WebRtcCallActivity__to_start_call_camera_microphone">Lai uzsāktu zvanu vai pievienotos zvanam, ļaujiet Polly piekļūt kamerai un mikrofonam.</string>
     <!-- Dialog description explaining why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__to_start_call_microphone">Lai uzsāktu zvanu vai pievienotos zvanam, ļaujiet Molly piekļūt mikrofonam.</string>
+    <string name="WebRtcCallActivity__to_start_call_microphone">Lai uzsāktu zvanu vai pievienotos zvanam, ļaujiet Polly piekļūt mikrofonam.</string>
     <!-- Dialog description explaining why camera permissions are needed to enable a user\'s video in a call -->
-    <string name="WebRtcCallActivity__to_enable_video_allow_camera">Lai iespējotu video, ļaujiet Molly piekļūt kamerai.</string>
+    <string name="WebRtcCallActivity__to_enable_video_allow_camera">Lai iespējotu video, ļaujiet Polly piekļūt kamerai.</string>
     <!-- Toast describing why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Lai uzsāktu zvanu vai pievienotos zvanam, Molly ir nepieciešama atļauja piekļūt kamerai.</string>
+    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Lai uzsāktu zvanu vai pievienotos zvanam, Polly ir nepieciešama atļauja piekļūt kamerai.</string>
     <!-- Toast describing why camera permissions are needed to enable a video in a call -->
-    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">Lai varētu iespējot video, Molly ir nepieciešama piekļuve kamerai</string>
+    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">Lai varētu iespējot video, Polly ir nepieciešama piekļuve kamerai</string>
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="WebRtcCallActivity__to_start_call">Lai uzsāktu zvanu vai pievienotos zvanam:</string>
     <!-- Dialog description that will explain the steps needed to give camera permissions -->
@@ -2334,8 +2334,8 @@
     <string name="MoveableLocalVideoRenderer__expand_local_video">Izvērst vietējo video</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Molly zvans</string>
-    <string name="WebRtcCallView__signal_video_call">Molly videozvans</string>
+    <string name="WebRtcCallView__signal_call">Polly zvans</string>
+    <string name="WebRtcCallView__signal_video_call">Polly videozvans</string>
     <string name="WebRtcCallView__start_call">Sākt zvanu</string>
     <string name="WebRtcCallView__join_call">Pievienoties zvanam</string>
     <string name="WebRtcCallView__call_is_full">Zvana dalībnieku limits izsmelts</string>
@@ -2660,7 +2660,7 @@
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">Pievienot kontaktiem</string>
-    <string name="SharedContactView_invite_to_signal">Uzaicināt uz Molly</string>
+    <string name="SharedContactView_invite_to_signal">Uzaicināt uz Polly</string>
     <!-- Button on a shared contact card that opens a chat with that contact. It can share a row with other buttons, so a short label is preferred -->
     <string name="SharedContactView_message_button">Ziņa</string>
     <!-- Button on a contact card shared in a group chat that adds the person on the card to that group -->
@@ -2792,7 +2792,7 @@
     <!-- Shown when no stickers match the search. The placeholder what was searched. -->
     <string name="StickerManagement_search_no_results_s">\"%1$s\" netika atrasts</string>
     <!-- Sticker pack button for forwarding a sticker link. -->
-    <string name="StickerManagement_menu_send_signal_pack">Sūtīt, izmantojot Molly</string>
+    <string name="StickerManagement_menu_send_signal_pack">Sūtīt, izmantojot Polly</string>
     <!-- Sticker pack button that opens a bottom sheet with more share options. -->
     <string name="StickerManagement_menu_link_pack">Saite</string>
     <!-- Sticker pack sheet option for sharing a sticker pack link using the system share sheet. -->
@@ -2958,11 +2958,11 @@
     <string name="ThreadRecord_blocked_group">Bloķēti</string>
 
     <!-- ApkUpdateNotifications -->
-    <string name="ApkUpdateNotifications_prompt_install_title">Molly atjauninājums</string>
-    <string name="ApkUpdateNotifications_prompt_install_body">Ir pieejama jauna Molly versija. Pieskarieties, lai atjauninātu.</string>
-    <string name="ApkUpdateNotifications_failed_general_title">Molly atjaunināšana neizdevās</string>
+    <string name="ApkUpdateNotifications_prompt_install_title">Polly atjauninājums</string>
+    <string name="ApkUpdateNotifications_prompt_install_body">Ir pieejama jauna Polly versija. Pieskarieties, lai atjauninātu.</string>
+    <string name="ApkUpdateNotifications_failed_general_title">Polly atjaunināšana neizdevās</string>
     <string name="ApkUpdateNotifications_failed_general_body">Vēlāk mēģināsim vēlreiz.</string>
-    <string name="ApkUpdateNotifications_auto_update_success_title">Molly ir sekmīgi atjaunināts</string>
+    <string name="ApkUpdateNotifications_auto_update_success_title">Polly ir sekmīgi atjaunināts</string>
     <string name="ApkUpdateNotifications_auto_update_success_body">Automātiski tika veikts atjauninājums uz versiju %1$s.</string>
     <string name="ApkUpdateNotifications_manual_update_success_body">Atjauninājums veiksmīgs. Jaunā versija: %1$s.</string>
 
@@ -2990,7 +2990,7 @@
     <string name="VerifyIdentityActivity_our_signal_safety_number">Mūsu Signal drošības numurs:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">Izskatās, ka jums nav nevienas aplikācijas, caur kurām kopīgot.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Starpliktuvē netika atrasts drošības kods</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Molly ir nepieciešama piekļuve kamerai, lai skenētu kvadrātkodu, bet tā nav dota. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kamera\".</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Polly ir nepieciešama piekļuve kamerai, lai skenētu kvadrātkodu, bet tā nav dota. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Kamera\".</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Lai skatītu %1$s drošības numuru, vispirms jums savstarpēji ir jāapmainās ar ziņām.</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
     <string name="VerifyIdentityActivity_dialog_exchange_messages_to_create_safety_number_message">Drošības numurs ar šo personu tiks izveidots pēc tam, kad būsiet nosūtījuši viens otram ziņas.</string>
@@ -3027,8 +3027,8 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Pieskarieties, lai atvērtu.</string>
-    <string name="KeyCachingService_passphrase_cached">Molly ir atslēgts</string>
-    <string name="KeyCachingService_lock">Noslēgt Molly</string>
+    <string name="KeyCachingService_passphrase_cached">Polly ir atslēgts</string>
+    <string name="KeyCachingService_lock">Noslēgt Polly</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">Jūs</string>
@@ -3083,7 +3083,7 @@
     <string name="MessageNotifier_failed_to_deliver_message">Neizdevās piegādāt ziņu.</string>
     <string name="MessageNotifier_error_delivering_message">Kļūda piegādājot ziņu.</string>
     <string name="MessageNotifier_message_delivery_paused">Ziņas piegāde pauzēta.</string>
-    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Pārbaudiet, lai turpinātu ziņapmaiņu lietotnē Molly.</string>
+    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Pārbaudiet, lai turpinātu ziņapmaiņu lietotnē Polly.</string>
     <string name="MessageNotifier_mark_all_as_read">Atzīmēt visas kā lasītas</string>
     <string name="MessageNotifier_mark_read">Atzīmēt kā lasītu</string>
     <string name="MessageNotifier_turn_off_these_notifications">Izslēgt šos paziņojumus</string>
@@ -3107,7 +3107,7 @@
     <!-- Body of a notification when someone votes in a poll. First placeholder is the poll emoji, second placeholder is the name of the voter and third is the poll question -->
     <string name="MessageNotifier_s_voted_in_poll">%1$s %2$s balsoja aptaujā \"%3$s\"</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Vai izslēgt paziņojumus par kontaktpersonām, kas sākušās lietot Molly? Paziņojumus var atkal iespējot sadaļā Molly &gt; Iestatījumi &gt; Paziņojumi.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Vai izslēgt paziņojumus par kontaktpersonām, kas sākušās lietot Polly? Paziņojumus var atkal iespējot sadaļā Polly &gt; Iestatījumi &gt; Paziņojumi.</string>
 
     <!-- TurnOnNotificationsBottomSheet -->
     <!-- Title for sheet explaining how to turn on app notifications -->
@@ -3187,7 +3187,7 @@
     </plurals>
 
     <!-- Message shown when the app requests permission to save media to the device storage, but that permission has been permanently denied by the user. -->
-    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Molly ir nepieciešama pieejas atļauja krātuvei, lai varētu saglabāt datus ārējā krātuvē, bet tā tiek pastāvīgi liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Krātuve\".</string>
+    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Polly ir nepieciešama pieejas atļauja krātuvei, lai varētu saglabāt datus ārējā krātuvē, bet tā tiek pastāvīgi liegta. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas\" un iespējojiet \"Krātuve\".</string>
 
     <!-- Message explaining that it is not possible to save media to the device storage after the user denied the system save to storage permission. -->
     <string name="AttachmentSaver__unable_to_write_to_external_storage_without_permission">Nav iespējams saglabāt ārējā krātuvē bez atļaujas.</string>
@@ -3197,11 +3197,11 @@
     <!-- Dialog title shown when attempting to save media that has been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_media">Nevar saglabāt multividi</string>
     <!-- Dialog message explaining that media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__media_offloaded_message">Šī multivide tika pārlikta no jūsu ierīces, jo ir ieslēgta funkcija “Optimizēt Molly krātuvi”. Varat lejupielādēt failus pa vienam vai izslēgt funkciju “Optimizēt Molly krātuvi”, lai lejupielādētu visu multividi savā ierīcē.</string>
+    <string name="AttachmentSaver__media_offloaded_message">Šī multivide tika pārlikta no jūsu ierīces, jo ir ieslēgta funkcija “Optimizēt Polly krātuvi”. Varat lejupielādēt failus pa vienam vai izslēgt funkciju “Optimizēt Polly krātuvi”, lai lejupielādētu visu multividi savā ierīcē.</string>
     <!-- Dialog title shown when attempting to save multiple media items, some of which have been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_all_items">Nevar saglabāt visus vienumus</string>
     <!-- Dialog message explaining that some selected media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__some_media_offloaded_message">Daļa jūsu atlasītā multivides satura tika pārlikta no jūsu ierīces, jo ir ieslēgta funkcija “Optimizēt Molly krātuvi”. Varat saglabāt vienumus pa vienam vai izslēgt funkciju “Optimizēt Molly krātuvi”, lai lejupielādētu visu multividi savā ierīcē.</string>
+    <string name="AttachmentSaver__some_media_offloaded_message">Daļa jūsu atlasītā multivides satura tika pārlikta no jūsu ierīces, jo ir ieslēgta funkcija “Optimizēt Polly krātuvi”. Varat saglabāt vienumus pa vienam vai izslēgt funkciju “Optimizēt Polly krātuvi”, lai lejupielādētu visu multividi savā ierīcē.</string>
     <!-- Button label in the offloaded media dialog that navigates to the storage settings screen. -->
     <string name="AttachmentSaver__view_storage_settings">Skatīt krātuves iestatījumus</string>
 
@@ -3214,7 +3214,7 @@
     <string name="ShortcutLauncherActivity_invalid_shortcut">Nepareiza saīsne</string>
 
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_signal">Molly</string>
+    <string name="SingleRecipientNotificationBuilder_signal">Polly</string>
     <string name="SingleRecipientNotificationBuilder_new_message">Jauna ziņa</string>
     <string name="SingleRecipientNotificationBuilder_message_request">Ziņas pieprasījums</string>
     <string name="SingleRecipientNotificationBuilder_you">Jūs</string>
@@ -3291,20 +3291,20 @@
 
     <!-- UnauthorizedReminder -->
     <!-- Message shown in a reminder banner when the user\'s device is no longer registered -->
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Šī ierīce vairs nav reģistrēta. Iespējams, ka reģistrējāt tālruņa numuru lietotnē Molly citā ierīcē.</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Šī ierīce vairs nav reģistrēta. Iespējams, ka reģistrējāt tālruņa numuru lietotnē Polly citā ierīcē.</string>
     <!-- Action in reminder banner that will take user to re-register -->
     <string name="UnauthorizedReminder_reregister_action">Atkārtoti reģistrēt ierīci</string>
     <!-- Message shown in a reminder banner when this linked device is no longer linked to a primary device -->
-    <string name="UnauthorizedReminder_this_device_is_no_longer_linked_relink_to_continue_messaging">Šī ierīce vairs nav piesaistīta. Atkārtoti piesaistiet Molly savam tālrunim, lai turpinātu ziņapmaiņu.</string>
+    <string name="UnauthorizedReminder_this_device_is_no_longer_linked_relink_to_continue_messaging">Šī ierīce vairs nav piesaistīta. Atkārtoti piesaistiet Polly savam tālrunim, lai turpinātu ziņapmaiņu.</string>
     <!-- Action in reminder banner that will take the user to re-link this device -->
     <string name="UnauthorizedReminder_relink_action">Atkārtoti piesaistīt ierīci</string>
 
     <!-- Push notification when the app is forcibly logged out by the server. -->
-    <string name="LoggedOutNotification_you_have_been_logged_out">Jūs tikāt izrakstīts no Molly šajā ierīcē.</string>
+    <string name="LoggedOutNotification_you_have_been_logged_out">Jūs tikāt izrakstīts no Polly šajā ierīcē.</string>
 
     <!-- EnclaveFailureReminder -->
     <!-- Banner message to update app to use payments -->
-    <string name="EnclaveFailureReminder_update_signal">Atjauniniet Molly, lai turpinātu izmantot maksājumus. Jūsu bilance var nebūt atjaunināta.</string>
+    <string name="EnclaveFailureReminder_update_signal">Atjauniniet Polly, lai turpinātu izmantot maksājumus. Jūsu bilance var nebūt atjaunināta.</string>
     <!-- Banner button to update now -->
 
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Atbildēts no savienotās ierīces</string>
@@ -3346,14 +3346,14 @@
     <string name="change_passphrase_activity__repeat_new_passphrase">Atkārtot jauno paroli</string>
 
     <!-- contact_selection_activity -->
-    <string name="contact_selection_activity__invite_to_signal">Uzaicināt uz Molly</string>
+    <string name="contact_selection_activity__invite_to_signal">Uzaicināt uz Polly</string>
     <string name="contact_selection_activity__new_group">Jauna grupa</string>
     <!-- Row item title for refreshing contacts -->
     <string name="contact_selection_activity__refresh_contacts">Atsvaidzināt kontaktus</string>
     <!-- Row item description for refreshing contacts -->
     <string name="contact_selection_activity__missing_someone">Kāda pietrūkst? Mēģiniet atsvaidzināt</string>
     <!-- Row item title for finding people on Signal via your contacts -->
-    <string name="contact_selection_activity__find_people_you_know">Atrodiet pazīstamas personas platformā Molly</string>
+    <string name="contact_selection_activity__find_people_you_know">Atrodiet pazīstamas personas platformā Polly</string>
     <!-- Row item description asking users for access to their contacts to find people they know -->
     <string name="contact_selection_activity__allow_access_to_contacts">Atļaujiet piekļuvi kontaktpersonām</string>
     <!-- Row header title for more section -->
@@ -3372,7 +3372,7 @@
     <string name="SingleContactSelectionActivity_contact_photo">Kontakta attēls</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Lai parādītu Jūsu kontaktus, Molly ir nepieciešama piekļuve kontaktiem, bet tā nav dota. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas“ un iespējojiet \"Kontakti\".</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Lai parādītu Jūsu kontaktus, Polly ir nepieciešama piekļuve kontaktiem, bet tā nav dota. Dodieties uz lietotnes iestatījumiem, izvēlieties \"Atļaujas“ un iespējojiet \"Kontakti\".</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Kļūda, ielādējot kontaktus, pārbaudiet ierīces tīkla savienojumu.</string>
     <string name="ContactSelectionListFragment_username_not_found">Lietotājvārds netika atrasts</string>
     <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" nav Signal lietotājs. Lūdzu, pārbaudiet, vai lietotājvārds uzrakstīts pareizi."</string>
@@ -3393,7 +3393,7 @@
     <!-- Dialog title asking users for contact permission -->
     <string name="ContactSelectionListFragment_allow_access_contacts">Atļaujiet piekļuvi kontaktpersonām</string>
     <!-- Dialog description that will explain the steps needed to give contact permissions -->
-    <string name="ContactSelectionListFragment_to_find_people">Lai atrastu pazīstamas personas platformā Molly:</string>
+    <string name="ContactSelectionListFragment_to_find_people">Lai atrastu pazīstamas personas platformā Polly:</string>
     <!-- Text on button prompting users to give Signal contact permissions -->
     <string name="ContactSelectionListFragment__allow_access">Atļaut piekļuvi</string>
     <!-- Text on button to dismiss Signal\'s request for contact permissions -->
@@ -3527,7 +3527,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">Sarunu burbuļi ir Android iezīme, kuru jūs varat aslēgt Molly sarunām.</string>
+    <string name="BubbleOptOutTooltip__description">Sarunu burbuļi ir Android iezīme, kuru jūs varat aslēgt Polly sarunām.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">Ne tagad</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -3670,20 +3670,20 @@
     <!-- Bottom sheet title when encryption is auto-verified -->
     <string name="EncryptionVerifiedSheet__title_success">Šifrēšana šai sarunai tika pārbaudīta automātiski</string>
     <!-- Bottom sheet body when encryption is auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_success">Molly automātiski pārbaudīs savienojuma drošību kontaktpersonām, kas pievienotas ar tālruņa numuru, izmantojot procesu, ko sauc par atslēgu caurskatāmību. Papildu drošībai manuāli pārbaudiet pilnīgo šifrēšanu, salīdzinot iepriekšējā ekrānā redzamos ciparus vai skenējot kodu otras personas ierīcē.</string>
+    <string name="EncryptionVerifiedSheet__body_success">Polly automātiski pārbaudīs savienojuma drošību kontaktpersonām, kas pievienotas ar tālruņa numuru, izmantojot procesu, ko sauc par atslēgu caurskatāmību. Papildu drošībai manuāli pārbaudiet pilnīgo šifrēšanu, salīdzinot iepriekšējā ekrānā redzamos ciparus vai skenējot kodu otras personas ierīcē.</string>
     <!-- Bottom sheet title when encryption is no longer auto-verified -->
     <string name="EncryptionVerifiedSheet__title_no_longer_unavailable">Automātiskā verifikācija šai sarunai nav pieejama</string>
     <!-- Bottom sheet body when encryption is no longer auto-verified. Placeholder is the name of the person. -->
-    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Molly nevar automātiski verificēt šīs sarunas šifrēšanu. Iespējams, tas ir tāpēc, ka %1$s nomainīja savu tālruņa numuru vai tālruņa numura privātuma iestatījumus. Pārbaudiet pilnīgo šifrēšanu manuāli, salīdzinot iepriekšējā ekrānā redzamos ciparus vai skenējot kodu otras personas ierīcē.</string>
+    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Polly nevar automātiski verificēt šīs sarunas šifrēšanu. Iespējams, tas ir tāpēc, ka %1$s nomainīja savu tālruņa numuru vai tālruņa numura privātuma iestatījumus. Pārbaudiet pilnīgo šifrēšanu manuāli, salīdzinot iepriekšējā ekrānā redzamos ciparus vai skenējot kodu otras personas ierīcē.</string>
     <!-- Bottom sheet title when encryption cannot be auto-verified -->
     <string name="EncryptionVerifiedSheet__title_unavailable">Automātiskā verifikācija šai sarunai nav pieejama</string>
     <!-- Bottom sheet body when encryption cannot be auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_unavailable">Molly var automātiski pārbaudīt šifrēšanu tikai tajās sarunās, kurās esat savienoti ar kādu personu, izmantojot tālruņa numuru. Ja saruna tika sākta ar kopīgu lietotājvārdu vai grupu, pārbaudiet pilnīgo šifrēšanu, salīdzinot iepriekšējā ekrānā redzamos ciparus vai skenējot kodu otras personas ierīcē.</string>
+    <string name="EncryptionVerifiedSheet__body_unavailable">Polly var automātiski pārbaudīt šifrēšanu tikai tajās sarunās, kurās esat savienoti ar kādu personu, izmantojot tālruņa numuru. Ja saruna tika sākta ar kopīgu lietotājvārdu vai grupu, pārbaudiet pilnīgo šifrēšanu, salīdzinot iepriekšējā ekrānā redzamos ciparus vai skenējot kodu otras personas ierīcē.</string>
 
     <!-- Title for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__title">Molly tagad var automātiski verificēt šifrēšanu</string>
+    <string name="VerifyAutomaticallyEducationSheet__title">Polly tagad var automātiski verificēt šifrēšanu</string>
     <!-- Body for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__body">Molly automātiski pārbaudīs savienojuma drošību kontaktpersonām, kas pievienotas ar tālruņa numuru, izmantojot procesu, ko sauc par atslēgu caurskatāmību. Papildu drošībai savienojumus joprojām varat verificēt manuāli, izmantojot QR kodu vai drošības numuru.</string>
+    <string name="VerifyAutomaticallyEducationSheet__body">Polly automātiski pārbaudīs savienojuma drošību kontaktpersonām, kas pievienotas ar tālruņa numuru, izmantojot procesu, ko sauc par atslēgu caurskatāmību. Papildu drošībai savienojumus joprojām varat verificēt manuāli, izmantojot QR kodu vai drošības numuru.</string>
     <!-- Button to learn more about automatic verification -->
     <string name="VerifyAutomaticallyEducationSheet__learn_more">Uzzināt vairāk</string>
     <!-- Button to go to verification page -->
@@ -3757,7 +3757,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <!-- Heading used within support email that lists additional information to help with debugging -->
     <string name="HelpFragment__support_info">Atbalsta info</string>
-    <string name="HelpFragment__signal_android_support_request">Molly Android atbalsta pieprasījums</string>
+    <string name="HelpFragment__signal_android_support_request">Polly Android atbalsta pieprasījums</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__debug_log" translatable="false">Debug Log:</string> -->
     <string name="HelpFragment__could_not_upload_logs">Nebija iespējams augšuplādēt žurnālus</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">Lūdzu, esiet pēc iespējas aprakstošāks, lai palīdzētu mums izprast problēmu.</string>
@@ -3869,7 +3869,7 @@
     <string name="preferences__normal">Normāls</string>
     <string name="preferences__slow">Lēns</string>
     <string name="preferences__advanced">Papildu</string>
-    <string name="preferences__donate_to_signal">Ziedot Molly</string>
+    <string name="preferences__donate_to_signal">Ziedot Polly</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">Stāsti</string>
     <string name="preferences__storage">Krātuve</string>
@@ -3953,7 +3953,7 @@
     <string name="preferences_communication__category_censorship_circumvention">Cenzūras apiešana</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Cenzūras apiešana</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Ja šī funkcija ir iespējota, Molly mēģinās apiet cenzūru. Neieslēdziet šo funkciju, ja atrodaties vietā, kur Molly tiek cenzēta.</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Ja šī funkcija ir iespējota, Polly mēģinās apiet cenzūru. Neieslēdziet šo funkciju, ja atrodaties vietā, kur Polly tiek cenzēta.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Cenzūras apiešana ir aktivizēta, pamatojoties uz jūsu konta tālruņa numuru.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
@@ -3981,7 +3981,7 @@
     <!-- Preference title for automatic key verification -->
     <string name="preferences_automatic_key_verification">Automātiskā atslēgas verifikācija</string>
     <!-- Preference summary for automatic key verification -->
-    <string name="preferences_automatic_key_verification_body">Pēc tās iespējošanas Molly mēģinās automātiski verificēt 1:1 sarunu šifrēšanu.</string>
+    <string name="preferences_automatic_key_verification_body">Pēc tās iespējošanas Polly mēģinās automātiski verificēt 1:1 sarunu šifrēšanu.</string>
 
 
     <!-- Internal only preferences -->
@@ -3998,7 +3998,7 @@
 
     <!-- Displayed on a welcome screen for payments -->
     <string name="PaymentsHomeFragment_introducing_payments">Jauna funkcija: maksājumi</string>
-    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Izmantojiet lietotni Molly, lai nosūtītu un saņemtu MobileCoin — jaunu, uz privātumu vērstu digitālo valūtu. Aktivizējiet, lai sāktu.</string>
+    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Izmantojiet lietotni Polly, lai nosūtītu un saņemtu MobileCoin — jaunu, uz privātumu vērstu digitālo valūtu. Aktivizējiet, lai sāktu.</string>
     <string name="PaymentsHomeFragment__activate_payments">Aktivizēt maksājumus</string>
     <string name="PaymentsHomeFragment__activating_payments">Tiek aktivizēti maksājumi…</string>
     <string name="PaymentsHomeFragment__restore_payments_account">Atjaunot maksājumu kontu</string>
@@ -4024,7 +4024,7 @@
     <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Maksājumi jūsu reģionā nav pieejami.</string>
     <string name="PaymentsHomeFragment__could_not_enable_payments">Nevarējām iespējot maksājumus. Mēģiniet vēlāk.</string>
     <string name="PaymentsHomeFragment__deactivate_payments_question">Deaktivēt maksājumus?</string>
-    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Deaktivizējot maksājumus, jūs nevarēsiet nosūtīt vai saņemt MobileCoin lietotnē Molly.</string>
+    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Deaktivizējot maksājumus, jūs nevarēsiet nosūtīt vai saņemt MobileCoin lietotnē Polly.</string>
     <string name="PaymentsHomeFragment__deactivate">Deaktivēt</string>
     <string name="PaymentsHomeFragment__continue">Turpināt</string>
     <string name="PaymentsHomeFragment__balance_is_not_currently_available">Atlikums pašlaik nav pieejams.</string>
@@ -4033,10 +4033,10 @@
     <string name="PaymentsHomeFragment__details">Rekvizīti</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
     <!-- Displayed as a description in a dialog when the user tries to activate payments -->
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Lietotni Molly var izmantot, lai nosūtītu un saņemtu MobileCoin. Uz visiem maksājumiem attiecas MobileCoin un MobileCoin Wallet lietošanas noteikumi. Var rasties dažas problēmas, un maksājumus vai atlikumus, kurus iespējams zaudēt, nevar atgūt. </string>
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Lietotni Polly var izmantot, lai nosūtītu un saņemtu MobileCoin. Uz visiem maksājumiem attiecas MobileCoin un MobileCoin Wallet lietošanas noteikumi. Var rasties dažas problēmas, un maksājumus vai atlikumus, kurus iespējams zaudēt, nevar atgūt. </string>
     <string name="PaymentsHomeFragment__activate">Aktivēt</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">Skatīt MobileCoin lietošanas noteikumus</string>
-    <string name="PaymentsHomeFragment__payments_not_available">Maksājumu opcija lietotnē Molly vairs nav pieejama. Jūs joprojām varat pārskaitīt līdzekļus uz biržu, bet vairs nevarat nosūtīt un saņemt maksājumus vai pievienot līdzekļus.</string>
+    <string name="PaymentsHomeFragment__payments_not_available">Maksājumu opcija lietotnē Polly vairs nav pieejama. Jūs joprojām varat pārskaitīt līdzekļus uz biržu, bet vairs nevarat nosūtīt un saņemt maksājumus vai pievienot līdzekļus.</string>
 
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string> -->
     <!-- Alert dialog title which shows up after a payment to turn on payment lock -->
@@ -4119,9 +4119,9 @@
     <string name="PaymentsTransferFragment__next">Tālāk</string>
     <string name="PaymentsTransferFragment__invalid_address">Nederīga adrese</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Pārbaudiet naudas maka adresi, uz kuru mēģināt pārsūtīt, un mēģiniet vēlreiz.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Jūs nevarat veikt pārskaitījumu uz savu Molly naudas maka adresi. Ievadiet naudas maka adresi no sava konta atbalstītā biržā.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Lai skenētu kvadrātkodu, lietotnei Molly ir nepieciešama piekļuve kamerai.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Lai skenētu kvadrātkodu, lietotnei Molly ir nepieciešama piekļuve kamerai.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Jūs nevarat veikt pārskaitījumu uz savu Polly naudas maka adresi. Ievadiet naudas maka adresi no sava konta atbalstītā biržā.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Lai skenētu kvadrātkodu, lietotnei Polly ir nepieciešama piekļuve kamerai.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Lai skenētu kvadrātkodu, lietotnei Polly ir nepieciešama piekļuve kamerai.</string>
 
     <!-- PaymentsTransferQrScanFragment -->
     <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Skenēt adreses kvadrātkodu</string>
@@ -4491,17 +4491,17 @@
 
     <!-- CallNotificationBuilder -->
     <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Ienākošs Molly balss zvans</string>
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">Ienākošs Polly balss zvans</string>
     <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Ienākošs Molly video zvans</string>
+    <string name="CallNotificationBuilder__incoming_signal_video_call">Ienākošs Polly video zvans</string>
     <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Ienākošs Molly grupas zvans</string>
+    <string name="CallNotificationBuilder__incoming_signal_group_call">Ienākošs Polly grupas zvans</string>
     <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Aktīvs Molly balss zvans</string>
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Aktīvs Polly balss zvans</string>
     <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Aktīvs Molly video zvans</string>
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">Aktīvs Polly video zvans</string>
     <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Aktīvs Molly grupas zvans</string>
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">Aktīvs Polly grupas zvans</string>
 
     <string name="CallNotificationBuilder_connecting">Savienojos…</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">Rezerves kopijas paroles frāze</string>
@@ -4527,9 +4527,9 @@
     <string name="BackupDialog_verify">Pārbaudīt</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">Jūs sekmīgi ievadījāt rezerves ieejas paroli</string>
     <string name="BackupDialog_passphrase_was_not_correct">Parole nav pareiza</string>
-    <string name="LocalBackupJob_creating_signal_backup">Veido Molly rezerves kopiju…</string>
+    <string name="LocalBackupJob_creating_signal_backup">Veido Polly rezerves kopiju…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Tiek pārbaudīta Molly rezerves kopija…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">Tiek pārbaudīta Polly rezerves kopija…</string>
     <string name="LocalBackupJobApi29_backup_failed">Rezerves kopēšana neizdevās</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">Jūsu rezerves kopiju direktorijs ir dzēsts vai pārvietots.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">Jūsu rezerves kopijas fails ir pārāk liels saglabāšanai šajā vietā.</string>
@@ -4544,7 +4544,7 @@
     <string name="RegistrationActivity_call_me_instead_available_in">Piezvaniet man (%1$02d.%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">Atkārtoti nosūtīt kodu (%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_code_support_subject">Molly reģistrācija - Android ierīces verifikācijas kods</string>
+    <string name="RegistrationActivity_code_support_subject">Polly reģistrācija - Android ierīces verifikācijas kods</string>
     <string name="RegistrationActivity_incorrect_code">Nepareizs kods</string>
     <string name="BackupUtil_never">Nekad</string>
     <!-- Subtext below last backup time when we do not know when the last backup was -->
@@ -4560,11 +4560,11 @@
     <string name="preferences_chats__backups">Rezerves kopijas</string>
 
     <!-- Title text shown when Signal is locked and needs to be unlocked -->
-    <string name="prompt_passphrase_activity__unlock_signal">Molly atbloķēšana</string>
+    <string name="prompt_passphrase_activity__unlock_signal">Polly atbloķēšana</string>
     <!-- Description text explaining how to unlock Signal -->
-    <string name="prompt_passphrase_activity__use_your_android_device">Izmantojiet Android ierīces bloķēšanas iestatījumus, lai atbloķētu Molly.</string>
+    <string name="prompt_passphrase_activity__use_your_android_device">Izmantojiet Android ierīces bloķēšanas iestatījumus, lai atbloķētu Polly.</string>
     <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
-    <string name="prompt_passphrase_activity__screen_lock_is_on">Ekrāna bloķēšana ir ieslēgta, un Molly aizsargā ierīces bloķēšanas iestatījumi. Atbloķējiet Molly tāpat kā jūs atbloķējat tālruni: ar sejas vari pirksta nospieduma atpazīšanu, PIN kodu, paroli vai kombināciju.</string>
+    <string name="prompt_passphrase_activity__screen_lock_is_on">Ekrāna bloķēšana ir ieslēgta, un Polly aizsargā ierīces bloķēšanas iestatījumi. Atbloķējiet Polly tāpat kā jūs atbloķējat tālruni: ar sejas vari pirksta nospieduma atpazīšanu, PIN kodu, paroli vai kombināciju.</string>
     <!-- Button in a dialog that will contact Signal support if pressed -->
     <string name="prompt_passphrase_activity__contact_support">Sazināties ar atbalstu</string>
     <!-- Button text to try again after unlocking has previously failed -->
@@ -4583,11 +4583,11 @@
     <!-- Title of an informational card shown on the account settings screen of a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__this_is_a_linked_device">Šī ir saistīta ierīce</string>
     <!-- Body of an informational card explaining that account settings must be managed from the primary device -->
-    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">Lai pārvaldītu konta iestatījumus, atveriet Molly savā galvenajā ierīcē.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">Lai pārvaldītu konta iestatījumus, atveriet Polly savā galvenajā ierīcē.</string>
     <!-- Title of a settings row that deletes all Signal data from this linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data">Dzēst lietotnes datus</string>
     <!-- Subtitle of the delete app data row explaining what it does -->
-    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">Tādējādi šajā ierīcē tiks dzēsti visi Molly dati.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">Tādējādi šajā ierīcē tiks dzēsti visi Polly dati.</string>
     <!-- Title of the confirmation dialog shown when deleting app data from a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data_question">Dzēst lietotnes datus?</string>
     <!-- Message of the confirmation dialog explaining that only this device\'s data is deleted, not the account -->
@@ -4619,10 +4619,10 @@
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">Meklē jauno Android ierīci…</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Lietotnei Molly ir nepieciešama atrašanās vietas atļauja, lai atrastu jauno Android ierīci un izveidotu ar to savienojumu.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Lietotnē Molly ir jābūt iespējotiem atrašanās vietas pakalpojumiem, lai atrastu jauno Android ierīci un izveidotu ar to savienojumu.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Lietotnē Molly ir jāieslēdz Wi-Fi, lai varētu noteikt jauno Android ierīci un izveidot ar to savienojumu. Wi-Fi ir jābūt ieslēgtam, bet ierīcei nav jābūt pievienotai Wi-Fi tīklam.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Diemžēl šķiet, ka šī ierīce neatbalsta Wi-Fi Direct. Lietotne Molly izmanto Wi-Fi Direct, lai atrastu jauno Android ierīci un izveidotu ar to savienojumu. Joprojām varat izveidot rezerves kopiju konta atjaunošanai jaunajā Android ierīcē.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Lietotnei Polly ir nepieciešama atrašanās vietas atļauja, lai atrastu jauno Android ierīci un izveidotu ar to savienojumu.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Lietotnē Polly ir jābūt iespējotiem atrašanās vietas pakalpojumiem, lai atrastu jauno Android ierīci un izveidotu ar to savienojumu.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Lietotnē Polly ir jāieslēdz Wi-Fi, lai varētu noteikt jauno Android ierīci un izveidot ar to savienojumu. Wi-Fi ir jābūt ieslēgtam, bet ierīcei nav jābūt pievienotai Wi-Fi tīklam.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Diemžēl šķiet, ka šī ierīce neatbalsta Wi-Fi Direct. Lietotne Polly izmanto Wi-Fi Direct, lai atrastu jauno Android ierīci un izveidotu ar to savienojumu. Joprojām varat izveidot rezerves kopiju konta atjaunošanai jaunajā Android ierīcē.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Izveidot rezerves kopiju</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Mēģinot izveidot savienojumu ar jauno Android ierīci, radās neparedzēta kļūda.</string>
 
@@ -4662,7 +4662,7 @@
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">Notiek datu pārsūtīšana</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">Turiet abas ierīces tuvu vienu otrai. Neslēdziet ārā nevienu no ierīcēm un neaizveriet lietotni Molly. Pārsūtīšana ir pilnībā šifrēta.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">Turiet abas ierīces tuvu vienu otrai. Neslēdziet ārā nevienu no ierīcēm un neaizveriet lietotni Polly. Pārsūtīšana ir pilnībā šifrēta.</string>
     <string name="DeviceTransfer__d_messages_so_far">Pagaidām %1$d ziņas…</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">%1$s%% no ziņām līdz šim…</string>
@@ -4676,7 +4676,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">Pārnest kontu</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Lejupielādēt Molly jaunajā Android ierīcē</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Lejupielādēt Polly jaunajā Android ierīcē</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"Pieskarieties pie Pārsūtīt vai atjaunot kontu"</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -4757,7 +4757,7 @@
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Ikviens ar šo saiti var skatīt grupas nosaukumu un fotoattēlu un nosūtīt pieprasījumu tai pievienoties. Nosūtiet šo saiti tikai cilvēkiem, kuriem uzticaties.</string>
     <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Ikviens ar šo saiti var skatīt grupas nosaukumu un fotoattēlu un pievienoties šai grupai. Nosūtiet šo saiti tikai cilvēkiem, kuriem uzticaties.</string>
-    <string name="GroupLinkBottomSheet_share_via_signal">Kopīgot, izmantojot Molly</string>
+    <string name="GroupLinkBottomSheet_share_via_signal">Kopīgot, izmantojot Polly</string>
     <string name="GroupLinkBottomSheet_copy">Kopēt</string>
     <string name="GroupLinkBottomSheet_qr_code">Kvadrātkods</string>
     <string name="GroupLinkBottomSheet_share">Kopīgot</string>
@@ -4922,7 +4922,7 @@
     <string name="payment_info_card_about_mobilecoin">Par MobileCoin</string>
     <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin ir jauna uz privātumu vērsta digitālā valūta.</string>
     <string name="payment_info_card_adding_funds">Līdzekļu papildināšana</string>
-    <string name="payment_info_card_you_can_add_funds_for_use_in">Naudas līdzekļus izmantošanai lietotnē Molly varat pievienot, nosūtot MobileCoin uz sava naudas maka adresi.</string>
+    <string name="payment_info_card_you_can_add_funds_for_use_in">Naudas līdzekļus izmantošanai lietotnē Polly varat pievienot, nosūtot MobileCoin uz sava naudas maka adresi.</string>
     <string name="payment_info_card_cashing_out">Naudas izmaksa</string>
     <string name="payment_info_card_you_can_cash_out_mobilecoin">Jūs varat izņemt MobileCoin jebkurā laikā biržā, kas atbalsta MobileCoin. Vienkārši veiciet pārskaitījumu uz savu kontu attiecīgajā biržā.</string>
     <string name="payment_info_card_hide_this_card">Vai paslēpt šo karti?</string>
@@ -4943,12 +4943,12 @@
     <!-- DeactivateWalletFragment -->
     <string name="DeactivateWalletFragment__deactivate_wallet">Deaktivizēt naudas maku</string>
     <string name="DeactivateWalletFragment__your_balance">Jūsu atlikums</string>
-    <string name="DeactivateWalletFragment__its_recommended_that_you">Pirms maksājumu deaktivizēšanas ieteicams pārskaitīt līdzekļus uz citu naudas maka adresi. Ja izvēlēsieties nepārskaitīt savus līdzekļus tūlīt, tie paliks ar lietotni Molly saistītajā naudas makā, ja atkārtoti aktivizēsiet maksājumus.</string>
+    <string name="DeactivateWalletFragment__its_recommended_that_you">Pirms maksājumu deaktivizēšanas ieteicams pārskaitīt līdzekļus uz citu naudas maka adresi. Ja izvēlēsieties nepārskaitīt savus līdzekļus tūlīt, tie paliks ar lietotni Polly saistītajā naudas makā, ja atkārtoti aktivizēsiet maksājumus.</string>
     <string name="DeactivateWalletFragment__transfer_remaining_balance">Pārskaitīt atlikumu</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring">Deaktivizēt, neveicot pārskaitīšanu</string>
     <string name="DeactivateWalletFragment__deactivate">Deaktivēt</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Vai deaktivizēt, neveicot pārskaitīšanu?</string>
-    <string name="DeactivateWalletFragment__your_balance_will_remain">Ja izvēlēsieties atkārtoti aktivizēt maksājumus, atlikums paliks jūsu ar lietotni Molly saistītajā naudas makā.</string>
+    <string name="DeactivateWalletFragment__your_balance_will_remain">Ja izvēlēsieties atkārtoti aktivizēt maksājumus, atlikums paliks jūsu ar lietotni Polly saistītajā naudas makā.</string>
     <string name="DeactivateWalletFragment__error_deactivating_wallet">Naudas maka deaktivizēšanas kļūda.</string>
   <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
 
@@ -5101,7 +5101,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">Rediģēt numuru</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Molly numura maiņa - Vajadzīga palīdzība ar PIN Android ierīcēm (v2 PIN)</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Polly numura maiņa - Vajadzīga palīdzība ar PIN Android ierīcēm (v2 PIN)</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN kodi nesakrīt</string>
@@ -5711,9 +5711,9 @@
     <string name="MySupportPreference__checking_subscription">Notiek abonementa pārbaude…</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">Atjaunināt Molly</string>
+    <string name="UpdateSignalExpiredDialog__title">Atjaunināt Polly</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">Šī Molly versija ir novecojusi. Atjauniniet to, lai turpinātu izmantot Molly.</string>
+    <string name="UpdateSignalExpiredDialog__message">Šī Polly versija ir novecojusi. Atjauniniet to, lai turpinātu izmantot Polly.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">Aktualizēt</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -5722,7 +5722,7 @@
     <!-- Title of dialog telling user they need to re-register signal -->
     <string name="ReregisterSignalDialog__title">Ierīce nav reģistrēta</string>
     <!-- Message of dialog telling user they need to re-register signal as it is no longer registered -->
-    <string name="ReregisterSignalDialog__message">Šī ierīce vairs nav reģistrēta. Reģistrējiet atkārtoti, lai turpinātu izmantot Molly šajā ierīcē.</string>
+    <string name="ReregisterSignalDialog__message">Šī ierīce vairs nav reģistrēta. Reģistrējiet atkārtoti, lai turpinātu izmantot Polly šajā ierīcē.</string>
     <!-- Button text of re-registration dialog to re-register the device.  -->
     <string name="ReregisterSignalDialog__reregister_action">Atkārtoti reģistrēties</string>
     <!-- Button text of re-registration dialog to cancel the dialog.  -->
@@ -6003,7 +6003,7 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">Neizdevās atvērt atlasītāju.</string>
     <!-- Banner title when notification permission is disabled -->
-    <string name="NotificationSettingsFragment__to_enable_notifications">Lai iespējotu paziņojumus, Molly ir nepieciešama atļauja tos rādīt.</string>
+    <string name="NotificationSettingsFragment__to_enable_notifications">Lai iespējotu paziņojumus, Polly ir nepieciešama atļauja tos rādīt.</string>
     <!-- Banner action when notification permission is disabled -->
     <string name="NotificationSettingsFragment__turn_on">Ieslēgt</string>
 
@@ -6031,7 +6031,7 @@
     <!-- Donation receipts share PNG -->
     <string name="DonationReceiptDetailsFragment__share_receipt">Kopīgot kvīti</string>
     <!-- Donation receipts list end note -->
-    <string name="DonationReceiptListFragment__if_you_have">Ja pārinstalējāt Molly, kvītis no iepriekš veiktajiem ziedojumiem nebūs pieejamas.</string>
+    <string name="DonationReceiptListFragment__if_you_have">Ja pārinstalējāt Polly, kvītis no iepriekš veiktajiem ziedojumiem nebūs pieejamas.</string>
     <!-- Donation receipts document title -->
     <string name="DonationReceiptDetailsFragment__donation_receipt">Ziedojuma kvīts</string>
     <!-- Donation receipts amount title -->
@@ -6749,10 +6749,10 @@
     <string name="GatewaySelectorBottomSheet__ideal_wero">iDEAL | Wero</string>
 
     <!-- Dialog title for launching external intent -->
-    <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">Vai pamest Molly, lai apstiprinātu ziedojumu?</string>
-    <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">Kad ziedojums būs apstiprināts, atgriezieties Molly platformā, lai pabeigtu tā apstrādi.</string>
+    <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">Vai pamest Polly, lai apstiprinātu ziedojumu?</string>
+    <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">Kad ziedojums būs apstiprināts, atgriezieties Polly platformā, lai pabeigtu tā apstrādi.</string>
     <!-- Dialog message shown when leaving Signal to complete a donation in an external app. Placeholder is the resolved app name (e.g. a banking app). -->
-    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">Jūs tiksiet novirzīts uz %1$s. Kad ziedojums būs apstiprināts, atgriezieties Molly platformā, lai pabeigtu procesu.</string>
+    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">Jūs tiksiet novirzīts uz %1$s. Kad ziedojums būs apstiprināts, atgriezieties Polly platformā, lai pabeigtu procesu.</string>
 
     <!-- BankTransferMandateFragment -->
     <!-- Title of screen displaying the bank transfer mandate -->
@@ -7125,7 +7125,7 @@
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__require_admin_approval">Administratora apstiprinājuma pieprasīšana</string>
     <!-- Row label to share the link via Signal -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Kopīgot saiti caur Molly</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Kopīgot saiti caur Polly</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">Kopēt saiti</string>
     <!-- Row label to share the link with the external share sheet -->
@@ -7217,7 +7217,7 @@
     <!-- Title of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
     <string name="TurnOnSignalBackups__title">Ieslēgt Signal drošās rezerves kopijas</string>
     <!-- Body of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
-    <string name="TurnOnSignalBackups__body">Nezaudējiet nevienu ziņu, pat ja iegādāsieties jaunu tālruni vai atkārtoti instalēsiet Molly.</string>
+    <string name="TurnOnSignalBackups__body">Nezaudējiet nevienu ziņu, pat ja iegādāsieties jaunu tālruni vai atkārtoti instalēsiet Polly.</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will take the user to the flow to enable backups -->
     <string name="TurnOnSignalBackups__turn_on">Ieslēgt</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will simply dismiss the megaphone -->
@@ -7278,27 +7278,27 @@
     <!-- Title of the backup setup complete bottom sheet -->
     <string name="BackupSetupCompleteBottomSheet__title">Viss gatavs. Tagad sāciet rezerves kopijas izveidi.</string>
     <!-- Body of the backup setup complete bottom sheet -->
-    <string name="BackupSetupCompleteBottomSheet__body">Process var aizņemt kādu laiku. Rezerves kopijas izveides laikā varat izmantot Molly kā parasti.</string>
+    <string name="BackupSetupCompleteBottomSheet__body">Process var aizņemt kādu laiku. Rezerves kopijas izveides laikā varat izmantot Polly kā parasti.</string>
     <!-- Label for the optimize storage toggle -->
-    <string name="BackupSetupCompleteBottomSheet__optimize_storage">Optimizēt Molly krātuvi</string>
+    <string name="BackupSetupCompleteBottomSheet__optimize_storage">Optimizēt Polly krātuvi</string>
     <!-- Subtitle for the optimize storage toggle -->
     <string name="BackupSetupCompleteBottomSheet__optimize_subtitle">Vecākā multivide tiks dublēta mākonī, bet to jebkurā brīdī var lejupielādēt no rezerves kopijas.</string>
     <!-- Primary button on the setup complete bottom sheet -->
     <string name="BackupSetupCompleteBottomSheet__back_up_now">Dublēt tūlīt</string>
 
     <!-- Title of a megaphone shown to prompt the user to open Signal on their primary device -->
-    <string name="InactivePrimary__title">Atveriet Molly tālrunī</string>
+    <string name="InactivePrimary__title">Atveriet Polly tālrunī</string>
     <!-- Body of a megaphone shown to prompt the user to open Signal on their primary device -->
-    <string name="InactivePrimary__body">Lai konts paliktu aktīvs, atveriet Molly savā galvenajā ierīcē.</string>
+    <string name="InactivePrimary__body">Lai konts paliktu aktīvs, atveriet Polly savā galvenajā ierīcē.</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will navigate to a support page -->
     <string name="InactivePrimary__learn_more">Uzzināt vairāk</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will snooze the megaphone -->
     <string name="InactivePrimary__got_it">Skaidrs</string>
 
     <!-- Text describing how to restore a backup displayed on the on-device backups screen -->
-    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"Lai atjaunotu rezerves kopiju, instalējiet Molly no jauna. Atveriet lietotni un pieskarieties pie \"Atjaunot rezerves kopiju\". Tad atlasiet rezerves kopijas failu."</string>
+    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"Lai atjaunotu rezerves kopiju, instalējiet Polly no jauna. Atveriet lietotni un pieskarieties pie \"Atjaunot rezerves kopiju\". Tad atlasiet rezerves kopijas failu."</string>
     <!-- Body of a dialog shown when turning on on-device backups while "Optimize Signal storage" is enabled, warning that optimized media won\'t be included -->
-    <string name="OnDeviceBackupsScreen__you_have_optimize_signal_storage_on">Jums ir ieslēgta funkcija \"Optimizēt Molly krātuvi\". Ja vēlaties ierīcē saglabātajā rezerves kopijā iekļaut visus multivides failus, izslēdziet šo iestatījumu.</string>
+    <string name="OnDeviceBackupsScreen__you_have_optimize_signal_storage_on">Jums ir ieslēgta funkcija \"Optimizēt Polly krātuvi\". Ja vēlaties ierīcē saglabātajā rezerves kopijā iekļaut visus multivides failus, izslēdziet šo iestatījumu.</string>
     <!-- Dialog action that takes the user to the "Optimize Signal storage" setting -->
     <string name="OnDeviceBackupsScreen__view_setting">Skatīt iestatījumu</string>
     <!-- Dialog action to proceed with turning on on-device backups without turning off "Optimize Signal storage" -->
@@ -7387,7 +7387,7 @@
     <!-- Dialog title for invalid phone number -->
     <string name="FindByActivity__invalid_phone_number">Nederīgs tālruņa numurs</string>
     <!-- Dialog title when phone number is not a registered signal user -->
-    <string name="FindByActivity__invite_to_signal">Uzaicināt uz Molly</string>
+    <string name="FindByActivity__invite_to_signal">Uzaicināt uz Polly</string>
     <!-- Dialog title when username is not found -->
     <string name="FindByActivity__username_not_found">Lietotājvārds netika atrasts</string>
     <!-- Dialog body for invalid username. Placeholder is the entered username. -->
@@ -7528,7 +7528,7 @@
     <!-- Dialog title when a backup redemption fails -->
     <string name="BackupAlertBottomSheet__couldnt_redeem_your_backups_subscription">Neizdevās izmantot jūsu rezerves kopiju abonementu</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it -->
-    <string name="BackupAlertBottomSheet__an_error_occurred">Radās kļūda, un rezerves kopijas izveidi neizdevās pabeigt. Pārliecinieties, ka izmantojat jaunāko Molly versiju un mēģiniet vēlreiz. Ja problēma joprojām pastāv, sazinieties ar atbalsta dienestu.</string>
+    <string name="BackupAlertBottomSheet__an_error_occurred">Radās kļūda, un rezerves kopijas izveidi neizdevās pabeigt. Pārliecinieties, ka izmantojat jaunāko Polly versiju un mēģiniet vēlreiz. Ja problēma joprojām pastāv, sazinieties ar atbalsta dienestu.</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it. Used for out of remote storage space error. -->
     <string name="BackupAlertBottomSheet__an_error_occurred_and">Radās kļūda, un rezerves kopijas izveidi neizdevās pabeigt. Ja problēma joprojām pastāv, sazinieties ar atbalsta dienestu.</string>
     <!-- Dialog action button that will allow you to check for any Signal version updates -->
@@ -7610,7 +7610,7 @@
     <!-- Text displayed when a backup could not be completed -->
     <string name="BackupStatusRow__your_last_backup">Neizdevās pabeigt pēdējās rezerves kopijas izveidi. Lai mēģinātu vēlreiz, pārliecinieties, ka tālrunī ir izveidots savienojums ar Wi-Fi un pieskarieties pie \"Izveidot rezerves kopiju tūlīt\".</string>
     <!-- Text displayed when a backup could not be completed and to check that they are on the latest version of Signal -->
-    <string name="BackupStatusRow__your_last_backup_latest_version">Neizdevās pabeigt pēdējās rezerves kopijas izveidi. Pārliecinieties, ka izmantojat jaunāko Molly versiju un mēģiniet vēlreiz.</string>
+    <string name="BackupStatusRow__your_last_backup_latest_version">Neizdevās pabeigt pēdējās rezerves kopijas izveidi. Pārliecinieties, ka izmantojat jaunāko Polly versiju un mēģiniet vēlreiz.</string>
     <!-- Text displayed when a backup file exceeds the storage limit during upload. -->
     <string name="BackupStatusRow__backup_file_too_large">Jūsu ziņu skaits pārsniedz krātuves limitu Izdzēsiet dažas ziņas un mēģiniet vēlreiz.</string>
     <!-- Text displayed when we\'re not backing up all messages. The placeholder represents the cutoff date for the messages we\'re backing up. -->
@@ -7678,9 +7678,9 @@
     <!-- Setting description for syncing automated chat limit trimming (deleting messages automatically by length or date) to linked devices -->
     <string name="ManageStorageSettingsFragment_apply_limits_description">Iespējojot ziņu ierobežojumus sarunās, ziņas tiks dzēstas arī no jūsu saistītajām ierīcēm.</string>
     <!-- Setting section title header for storage optimization -->
-    <string name="ManageStorageSettingsFragment__on_device_storage">Molly krātuve</string>
+    <string name="ManageStorageSettingsFragment__on_device_storage">Polly krātuve</string>
     <!-- Setting row title for storage optimization -->
-    <string name="ManageStorageSettingsFragment__optimize_on_device_storage">Optimizēt Molly krātuvi</string>
+    <string name="ManageStorageSettingsFragment__optimize_on_device_storage">Optimizēt Polly krātuvi</string>
     <!-- Setting row explanation for storage optimization -->
     <string name="ManageStorageSettingsFragment__unused_media_will_be_offloaded">Neizmantotās multivides lejupielāde tiks atcelta, taču to jebkurā brīdī var lejupielādēt no rezerves kopijas.</string>
     <!-- Dialog message for paid tier pending dialog -->
@@ -7688,7 +7688,7 @@
     <!-- Title of a dialog shown when turning on "Optimize Signal storage" while on-device backups are enabled -->
     <string name="ManageStorageSettingsFragment__media_will_be_removed_from_your_on_device_backup">Multivide tiks dzēsta no jūsu ierīces rezerves kopijas</string>
     <!-- Body of a dialog shown when turning on "Optimize Signal storage" while on-device backups are enabled -->
-    <string name="ManageStorageSettingsFragment__turning_on_optimize_signal_storage_will_offload">Ieslēdzot funkciju \"Optimizēt Molly krātuvi\", vecā multivide no jūsu ierīces tiks pārlikta. Varat to lejupielādēt vēlreiz jebkurā laikā. Tāpat tiks dzēsta arī vecā multivide no jūsu ierīces rezerves kopijas.</string>
+    <string name="ManageStorageSettingsFragment__turning_on_optimize_signal_storage_will_offload">Ieslēdzot funkciju \"Optimizēt Polly krātuvi\", vecā multivide no jūsu ierīces tiks pārlikta. Varat to lejupielādēt vēlreiz jebkurā laikā. Tāpat tiks dzēsta arī vecā multivide no jūsu ierīces rezerves kopijas.</string>
     <!-- Dialog action to confirm turning on "Optimize Signal storage" -->
     <string name="ManageStorageSettingsFragment__turn_on">Ieslēgt</string>
 
@@ -7850,7 +7850,7 @@
     <!-- Displays the date the subscription expired. Placeholder is the date. -->
     <string name="RemoteBackupsSettingsFragment__expired_on_s">Derīguma termiņš beigsies: %1$s</string>
     <!-- Displayed at the top of the screen when no backup is currently enabled -->
-    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Izveidojiet ziņu vēstures rezerves kopiju, lai nezaudētu datus, nomainot tālruni vai pārinstalējot Molly.</string>
+    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Izveidojiet ziņu vēstures rezerves kopiju, lai nezaudētu datus, nomainot tālruni vai pārinstalējot Polly.</string>
     <!-- Section header for other ways to back up -->
     <string name="RemoteBackupsSettingsFragment__other_ways_to_backup">Citi rezerves kopijas veidi</string>
     <!-- Row title for performing on-device backup -->
@@ -8085,7 +8085,7 @@
     <!-- Screen body shown when upgrading on-device backups to a new recovery key (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__local_backup_upgrade_description_bold">Šī atslēga aizstās ierīcē esošās rezerves kopijas atslēgu.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 1). -->
-    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">Atkopšanas atslēga ir 64 rakstzīmju kods, kas ļauj atjaunot rezerves kopiju, atkārtoti instalējot Molly.</string>
+    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">Atkopšanas atslēga ir 64 rakstzīmju kods, kas ļauj atjaunot rezerves kopiju, atkārtoti instalējot Polly.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description_bold">Tā ir tāda pati kā jūsu ierīces atkopšanas atslēga.</string>
     <!-- Screen body shown when enabling on-device backups while Signal Secure Backups are already enabled (part 2, bolded). -->
@@ -8123,7 +8123,7 @@
     <!-- Dialog message shown when there is an error saving the recovery key because no compatible password manager was detected. -->
     <string name="MessageBackupsKeyRecordScreen__missing_password_manager_message">Jums nav iestatīts paroļu pārvaldnieks vai jūsu izmantotais paroļu pārvaldnieks netiek atbalstīts.</string>
     <!-- Dialog message shown when there is an error saving the recovery key because the user previously chose not to save Signal passwords to their password manager. -->
-    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Jūs iepriekš izvēlējāties nesaglabāt Molly paroles pakalpojumā Google Password Manager. Paroļu pārvaldnieka iestatījumos noņemiet Molly no sadaļas “Noraidītās vietnes un lietotnes” un mēģiniet vēlreiz.</string>
+    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Jūs iepriekš izvēlējāties nesaglabāt Polly paroles pakalpojumā Google Password Manager. Paroļu pārvaldnieka iestatījumos noņemiet Polly no sadaļas “Noraidītās vietnes un lietotnes” un mēģiniet vēlreiz.</string>
     <!-- Label for a button that navigates to the device settings -->
     <string name="MessageBackupsKeyRecordScreen__go_to_settings">Atvērt iestatījumus</string>
     <!-- Action button label -->
@@ -8131,7 +8131,7 @@
     <!-- Bottom sheet title -->
     <string name="MessageBackupsKeyRecordScreen__keep_your_key_safe">Glabājiet atslēgu drošā vietā</string>
     <!-- Bottom sheet subtitle -->
-    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Ja pazaudēsiet atslēgu, Molly nevarēs palīdzēt atjaunot rezerves kopiju. Glabājiet atslēgu drošā vietā un neizpaudiet to citiem.</string>
+    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Ja pazaudēsiet atslēgu, Polly nevarēs palīdzēt atjaunot rezerves kopiju. Glabājiet atslēgu drošā vietā un neizpaudiet to citiem.</string>
     <!-- Sheet action button label -->
     <string name="MessageBackupsKeyRecordScreen__continue">Turpināt</string>
     <!-- Sheet secondary action button label -->
@@ -8141,13 +8141,13 @@
     <!-- Dialog title for confirming you need to disable optimized storage and download media to rotate AEP key -->
     <string name="MessageBackupsKeyRecordScreen__download_media">Lejupielādēt multividi</string>
     <!-- Dialog body for confirming you need to disable optimized storage and download media to rotate AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">Lai izveidotu jaunu atkopšanas atslēgu, jums ir jāizslēdz funkcija “Optimizēt Molly krātuvi” un jāgaida, līdz multivide tiks lejupielādēta. Kad lejupielāde būs pabeigta, varēsiet izveidot jaunu atslēgu.</string>
+    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">Lai izveidotu jaunu atkopšanas atslēgu, jums ir jāizslēdz funkcija “Optimizēt Polly krātuvi” un jāgaida, līdz multivide tiks lejupielādēta. Kad lejupielāde būs pabeigta, varēsiet izveidot jaunu atslēgu.</string>
     <!-- Action label to turn off optimized storage and download media -->
     <string name="MessageBackupsKeyRecordScreen__turn_off_and_download">Izslēgt un lejupielādēt</string>
     <!-- Bottom Sheet title for creating a new AEP key -->
     <string name="MessageBackupsKeyRecordScreen__create_a_new_backup_key">Izveidot jaunu atkopšanas atslēgu</string>
     <!-- Bottom Sheet body for creating a new AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">Jaunas atslēgas izveide ir nepieciešama tikai tad, ja cita persona ir uzzinājusi jūsu atslēgu. Jums būs atkārtoti jāaugšupielādē rezerves kopija, ieskaitot multivides failus. Ja izmantojat funkciju “Optimizēt Molly krātuvi”, vispirms jums būs jālejupielādē no ierīces pārliktie multivides faili.</string>
+    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">Jaunas atslēgas izveide ir nepieciešama tikai tad, ja cita persona ir uzzinājusi jūsu atslēgu. Jums būs atkārtoti jāaugšupielādē rezerves kopija, ieskaitot multivides failus. Ja izmantojat funkciju “Optimizēt Polly krātuvi”, vispirms jums būs jālejupielādē no ierīces pārliktie multivides faili.</string>
     <!-- Dialog title shown when user attempts to exit backup setup before completion -->
     <string name="MessageBackupsKeyRecordScreen__exit_backup_setup">Iziet no rezerves kopiju iestatīšanas?</string>
     <!-- Dialog body warning user that backup setup is incomplete -->
@@ -8272,7 +8272,7 @@
     <!-- ConfirmBackupCancellationDialog -->
 
     <!-- Email subject when contacting support on a create backup failure -->
-    <string name="BackupAlertBottomSheet_network_failure_support_email">Molly Android rezerves kopijas eksportēšanas tīkla kļūda</string>
+    <string name="BackupAlertBottomSheet_network_failure_support_email">Polly Android rezerves kopijas eksportēšanas tīkla kļūda</string>
     <!-- Email filter when contacting support on a create backup failure -->
   <!-- Removed by excludeNonTranslatables <string name="BackupAlertBottomSheet_export_failure_filter" translatable="false">Android SignalBackups Export Failed</string> -->
 
@@ -8302,7 +8302,7 @@
     <!-- Old device Transfer account bottom sheet dialog body -->
     <string name="TransferAccount_continue_on_your_other_device_details">Turpiniet konta pārsūtīšanu otrā ierīcē.</string>
     <!-- Old device Transfer account error dialog body shown when the new device is too old to accept an account that has no phone number -->
-    <string name="TransferAccount_the_device_you_are_transferring_to_is_out_of_date">Ierīce, uz kuru veic pārsūtīšanu, nav atjaunināta. Atjaunini Molly šajā ierīcē un mēģini vēlreiz.</string>
+    <string name="TransferAccount_the_device_you_are_transferring_to_is_out_of_date">Ierīce, uz kuru veic pārsūtīšanu, nav atjaunināta. Atjaunini Polly šajā ierīcē un mēģini vēlreiz.</string>
 
     <!-- Prepare Device screen title for quick restore flow -->
     <string name="PrepareDevice_title">Ierīces sagatavošana</string>
@@ -8378,7 +8378,7 @@
     <!-- Notification title for when user is out of remote storage -->
     <string name="Notification_backup_storage_full">Rezerves krātuve ir pilna</string>
     <!-- Notification body for when user is out of remote storage -->
-    <string name="Notification_youve_reached_your_backup_storage_limit">Jūs esat sasniedzis rezerves kopiju krātuves ierobežojumu. Atbrīvojiet vietu platformā Molly, lai turpinātu tērzēšanas un multivides failu rezerves kopiju veidošanu.</string>
+    <string name="Notification_youve_reached_your_backup_storage_limit">Jūs esat sasniedzis rezerves kopiju krātuves ierobežojumu. Atbrīvojiet vietu platformā Polly, lai turpinātu tērzēšanas un multivides failu rezerves kopiju veidošanu.</string>
     <!-- Notification title for when initial backup failed -->
     <string name="Notification_backup_failed">Rezerves kopēšana neizdevās</string>
     <!-- Notification body for when initial backup failed -->
@@ -8666,7 +8666,7 @@
     <string name="CouldNotCompleteBackupRestoreSheet__body_error">Radās kļūda, un jūsu rezerves kopiju nevar atjaunot. Iespējams, atjaunošanas laikā rezerves kopijas mape jūsu ierīcē tika pārvietota.</string>
 
     <!-- Body of the sheet shown when a local backup restore could not be completed, explaining how to try again -->
-    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">Lai mēģinātu vēlreiz, atinstalējiet un atkārtoti instalējiet Molly šajā ierīcē un izvēlieties “Atjaunot vai pārsūtīt”.</string>
+    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">Lai mēģinātu vēlreiz, atinstalējiet un atkārtoti instalējiet Polly šajā ierīcē un izvēlieties “Atjaunot vai pārsūtīt”.</string>
 
     <!-- Button on the sheet shown when a local backup restore could not be completed, opening a support article about it -->
     <string name="CouldNotCompleteBackupRestoreSheet__learn_more">Uzzināt vairāk</string>
@@ -8835,7 +8835,7 @@
     <!-- Context menu entry that copies a shared contact detail to the clipboard -->
     <string name="SharedContactDetailsScreen__copy">Kopēt</string>
     <!-- Row that invites a shared contact who is not yet on Signal -->
-    <string name="SharedContactDetailsScreen__invite_to_signal">Uzaicināt uz Molly</string>
+    <string name="SharedContactDetailsScreen__invite_to_signal">Uzaicināt uz Polly</string>
     <!-- Row that saves a shared contact into the device address book -->
     <string name="SharedContactDetailsScreen__add_to_phone_contacts">Pievienot tālruņa kontaktpersonām</string>
     <!-- Row that adds a shared contact to a Signal group -->
@@ -8847,14 +8847,14 @@
     <!-- Toast shown when there is no map app to open a shared address in -->
     <string name="SharedContactDetailsScreen__couldnt_open_maps">Neizdevās atvērt kartes</string>
     <!-- Subject line of an email invitation to Signal -->
-    <string name="SharedContactDetailsScreen__join_me_on_signal">Aicinājums man pievienoties lietotnē Molly</string>
+    <string name="SharedContactDetailsScreen__join_me_on_signal">Aicinājums man pievienoties lietotnē Polly</string>
 
     <!-- Title of the bottom sheet that confirms the user wants a brand new recovery key. -->
     <string name="ResetRecoveryKeyBottomSheet__reset_your_recovery_key">Atiestatīt atkopšanas atslēgu</string>
     <!-- First paragraph of the bottom sheet body, explaining what a reset does. -->
     <string name="ResetRecoveryKeyBottomSheet__resetting_your_recovery_key_will_create_a_new_key">Atiestatot atkopšanas atslēgu, jūsu Signal Login tiks izveidota jauna atslēga. Tas ir nepieciešams tikai tad, ja cita persona ir uzzinājusi jūsu atslēgu.</string>
     <!-- Second paragraph of the bottom sheet body, explaining what a reset means for backups. -->
-    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">Ja ir iespējotas rezerves kopijas, jums būs atkārtoti jāaugšupielādē sava rezerves kopija, tostarp multivides faili. Ja izmantojat funkciju “Optimizēt Molly krātuvi”, vispirms jums būs jālejupielādē no ierīces pārliktie multivides faili.</string>
+    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">Ja ir iespējotas rezerves kopijas, jums būs atkārtoti jāaugšupielādē sava rezerves kopija, tostarp multivides faili. Ja izmantojat funkciju “Optimizēt Polly krātuvi”, vispirms jums būs jālejupielādē no ierīces pārliktie multivides faili.</string>
     <!-- Bottom sheet action that continues on to reset the recovery key. -->
     <string name="ResetRecoveryKeyBottomSheet__continue">Turpināt</string>
     <!-- Dialog body shown when the recovery key change limit is exhausted and the user does not have backups enabled. -->

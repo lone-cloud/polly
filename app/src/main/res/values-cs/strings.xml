@@ -31,7 +31,7 @@
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Molly se aktualizuje…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">Polly se aktualizuje…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">Chyba při připojování k serveru!</string>
@@ -77,7 +77,7 @@
     <string name="AttachmentKeyboard_location">Poloha</string>
     <!-- Text for a button that will allow users to create a poll -->
     <string name="AttachmentKeyboard_poll">Anketa</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Aplikace Molly potřebuje povolení, aby mohla zobrazovat vaše fotografie a videa.</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Aplikace Polly potřebuje povolení, aby mohla zobrazovat vaše fotografie a videa.</string>
     <!-- Text for a button prompting users to allow Signal access to their gallery storage -->
     <string name="AttachmentKeyboard_allow_access">Povolit přístup</string>
     <string name="AttachmentKeyboard_payment">Platba</string>
@@ -88,34 +88,34 @@
     <!-- Option in menu to go to settings -->
     <string name="AttachmentKeyboard_go_to_settings">Přejít do nastavení</string>
     <!-- Text explaining that Signal has limited access to photos -->
-    <string name="AttachmentKeyboard_signal_has_limited_access">Aplikace Molly má omezený přístup k fotkám nebo videím</string>
+    <string name="AttachmentKeyboard_signal_has_limited_access">Aplikace Polly má omezený přístup k fotkám nebo videím</string>
     <!-- Text shown when user has given no photos for Signal to access and an explanation on how to change those permissions -->
     <string name="AttachmentKeyboard_no_photos_found">Nebyly nalezeny žádné fotografie. Vyberte fotografie a videa, která se zde mají zobrazit, nebo změňte oprávnění.</string>
 
     <!-- MediaGalleryFragment -->
     <!-- Text describing that no photos or videos are currently found in the gallery and that Signal can only access media that the user allows -->
-    <string name="MediaGalleryFragment__no_photos_found">Nebyly nalezeny žádné fotografie ani videa. Aplikace Molly má přístup pouze k vybraným fotografiím a videím.</string>
+    <string name="MediaGalleryFragment__no_photos_found">Nebyly nalezeny žádné fotografie ani videa. Aplikace Polly má přístup pouze k vybraným fotografiím a videím.</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Nemohu nalézt aplikaci pro vybraný typ dat.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Molly potřebuje oprávnění pro přístup k úložišti, aby mohl připojovat fotky, videa nebo audio, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Úložiště\".</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Molly potřebuje oprávnění pro přístup ke kontaktům, aby mohl připojit informace o kontaktu, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Kontakty\".</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Molly potřebuje oprávnění pro přístup k poloze, aby mohl připojit informace o poloze, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Poloha\".</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Polly potřebuje oprávnění pro přístup k úložišti, aby mohl připojovat fotky, videa nebo audio, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Úložiště\".</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Polly potřebuje oprávnění pro přístup ke kontaktům, aby mohl připojit informace o kontaktu, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Kontakty\".</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Polly potřebuje oprávnění pro přístup k poloze, aby mohl připojit informace o poloze, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Poloha\".</string>
 
     <!-- Dialog title asking users for location permission -->
     <string name="AttachmentManager_signal_allow_access_location">Povolit přístup k poloze</string>
     <!-- Dialog description that will explain the steps needed to give location permission -->
     <string name="AttachmentManager_signal_to_send_location">Jak poslat svou polohu:</string>
     <!-- Alert dialog description asking for location permission -->
-    <string name="AttachmentManager_signal_allow_signal_access_location">Povolte pro aplikaci Molly přístup k odeslání polohy.</string>
+    <string name="AttachmentManager_signal_allow_signal_access_location">Povolte pro aplikaci Polly přístup k odeslání polohy.</string>
     <!-- Toast text explaining Signal\'s need for location access -->
-    <string name="AttachmentManager_signal_needs_location_access">Aplikace Molly potřebuje povolení přístupu k poloze, aby ji mohla odeslat.</string>
+    <string name="AttachmentManager_signal_needs_location_access">Aplikace Polly potřebuje povolení přístupu k poloze, aby ji mohla odeslat.</string>
     <!-- Dialog title asking users for gallery storage permission -->
     <string name="AttachmentManager_signal_allow_storage">Povolte přístup k úložišti</string>
     <!-- Dialog description that will explain the steps needed to give gallery storage permission -->
     <string name="AttachmentManager_signal_to_show_photos">Zobrazení fotografií a videí:</string>
     <!-- Toast text explaining Signal\'s need for storage access -->
-    <string name="AttachmentManager_signal_needs_storage_access">Aplikace Molly potřebuje povolit přístup k fotografiím a videím.</string>
+    <string name="AttachmentManager_signal_needs_storage_access">Aplikace Polly potřebuje povolit přístup k fotografiím a videím.</string>
 
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s nemá aktivované Platby </string>
@@ -272,12 +272,12 @@
     <string name="CensorshipCircumventionMegaphone_no_thanks">Ne, díky</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Aktualizovat Molly</string>
+    <string name="ClientDeprecatedActivity_update_signal">Aktualizovat Polly</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Tato verze aplikace již není podporována. Chcete-li pokračovat v odesílání a přijímání zpráv, aktualizujte na nejnovější verzi.</string>
     <string name="ClientDeprecatedActivity_update">Aktualizovat</string>
     <string name="ClientDeprecatedActivity_dont_update">Neaktualizovat</string>
     <string name="ClientDeprecatedActivity_warning">Varování</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Verze Molly, kterou používáte, je zastaralá. Můžete zobrazit svoji historii zpráv, ale nebudete moci zprávy odesílat ani přijímat, dokud neprovedete aktualizaci.</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Verze Polly, kterou používáte, je zastaralá. Můžete zobrazit svoji historii zpráv, ale nebudete moci zprávy odesílat ani přijímat, dokud neprovedete aktualizaci.</string>
 
     <!-- ClockSkewActivity -->
     <!-- Title of the full-screen dialog shown when the device clock is too far off from the real time -->
@@ -309,7 +309,7 @@
     <!-- Title on dialog when quick restore qr code is scanned in system camera -->
     <string name="CommunicationActions__transfer_dialog_title">Přenést účet do nového zařízení?</string>
     <!-- Message on dialog when quick restore qr code is scanned in system camera -->
-    <string name="CommunicationActions__transfer_dialog_message">Chcete-li tento účet přenést do nového zařízení, klepněte na Pokračovat a znovu naskenujte QR kód pomocí kamery aplikace Molly. Ujistěte se, že skenujete pouze QR kódy, které pocházejí přímo z aplikace Molly.</string>
+    <string name="CommunicationActions__transfer_dialog_message">Chcete-li tento účet přenést do nového zařízení, klepněte na Pokračovat a znovu naskenujte QR kód pomocí kamery aplikace Polly. Ujistěte se, že skenujete pouze QR kódy, které pocházejí přímo z aplikace Polly.</string>
     <string name="CommunicationActions__dont_transfer">Nepřenášet</string>
 
     <!-- ConfirmIdentityDialog -->
@@ -333,8 +333,8 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">Zpráva %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">Hlasový hovor Molly %1$s</string>
-    <string name="ContactsDatabase_signal_video_call_s">Videohovor Molly %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">Hlasový hovor Polly %1$s</string>
+    <string name="ContactsDatabase_signal_video_call_s">Videohovor Polly %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -449,10 +449,10 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="ConversationActivity_signal_to_send_audio_messages">Pro odesílání hlasových zpráv:</string>
     <!-- Alert dialog description asking for microphone permission in order to send voice messages -->
-    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Pro odeslání hlasové zprávy povolte aplikaci Molly přístup k mikrofonu.</string>
+    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Pro odeslání hlasové zprávy povolte aplikaci Polly přístup k mikrofonu.</string>
     <!-- Toast text explaining Signal\'s need for microphone access -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Aplikace Molly potřebuje pro nahrání hlasové zprávy povolit přístup k mikrofonu.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Molly potřebuje oprávnění pro přístup k mikrofonu, aby mohl poslat audio zprávu, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Mikrofon\".</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Aplikace Polly potřebuje pro nahrání hlasové zprávy povolit přístup k mikrofonu.</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Polly potřebuje oprávnění pro přístup k mikrofonu, aby mohl poslat audio zprávu, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Mikrofon\".</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
     <string name="ConversationActivity_search_position">%1$d z %2$d</string>
@@ -472,9 +472,9 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions for a voice call -->
     <string name="ConversationActivity__to_start_call">Jak zahájit hovor:</string>
     <!-- Alert dialog description asking for microphone permission in order to start a voice call -->
-    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Abyste mohli telefonovat, je potřeba pro aplikaci Molly povolit přístup k mikrofonu.</string>
+    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Abyste mohli telefonovat, je potřeba pro aplikaci Polly povolit přístup k mikrofonu.</string>
     <!-- Toast text explaining Signal\'s need for microphone access for a voice call -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Aplikace Molly potřebuje pro zahájení hovoru povolit přístup k mikrofonu.</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Aplikace Polly potřebuje pro zahájení hovoru povolit přístup k mikrofonu.</string>
 
 
     <string name="ConversationActivity_join">Připojit</string>
@@ -484,15 +484,15 @@
     <string name="ConversationActivity_error_sending_media">Chyba při odesílání médií</string>
 
     <!-- Message shown when opening an MMS group conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">Zasílání SMS zpráv již není aplikací Molly podporováno.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">Zasílání SMS zpráv již není aplikací Polly podporováno.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Zasílání SMS zpráv již není aplikací Signal podporováno. Pozvěte kontakt %1$s do aplikace Signal a pokračujte v konverzaci zde.</string>
     <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
-    <string name="ConversationActivity__this_person_is_no_longer_using_signal">Tato osoba již Molly nepoužívá. Pozvěte ji do aplikace Molly a pokračujte v konverzaci zde.</string>
+    <string name="ConversationActivity__this_person_is_no_longer_using_signal">Tato osoba již Polly nepoužívá. Pozvěte ji do aplikace Polly a pokračujte v konverzaci zde.</string>
     <!-- Message shown when opening a conversation with an unregistered user who is not on Signal -->
     <string name="ConversationActivity__this_person_is_not_using_signal">Tato osoba nepoužívá Signal. Pozvěte ji a pokračujte v konverzaci zde.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__invite_to_signal">Pozvat do Molly</string>
+    <string name="ConversationActivity__invite_to_signal">Pozvat do Polly</string>
     <!-- Toast message shown when trying to record a voice message during an ongoing call -->
     <string name="ConversationFragment_cannot_record_voice_message_during_call">Během hovoru nelze nahrát hlasovou zprávu.</string>
 
@@ -599,15 +599,15 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">Zablokováno</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">Aktualizovat Molly</string>
+    <string name="ConversationFragment__update_build">Aktualizovat Polly</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Znovu se zaregistrovat do služby Molly</string>
+    <string name="ConversationFragment__reregister_signal">Znovu se zaregistrovat do služby Polly</string>
     <!-- Action shown in the conversation input area to allow a user to re-link this device as it is no longer linked -->
     <string name="ConversationFragment__relink_signal">Znovu propojit</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">Přejít zpět.</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Otevřít Molly</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">Otevřít Polly</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">Již bez ověření</string>
     <!-- Button shown in conversation header when in a message request state and no groups in common to show new message safety tips -->
@@ -656,7 +656,7 @@
     <!-- Title of the dialog shown when re-requesting an expired attachment from your primary device fails -->
     <string name="ConversationFragment_attachment_backfill_failed_title">Média nelze stáhnout</string>
     <!-- Body of the dialog shown when your phone didn\'t respond to a request to re-send an expired attachment -->
-    <string name="ConversationFragment_attachment_backfill_timeout">Zkontrolujte připojení počítače a telefonu k internetu. Otevřete aplikaci Molly v telefonu a zkuste je stáhnout znovu.</string>
+    <string name="ConversationFragment_attachment_backfill_timeout">Zkontrolujte připojení počítače a telefonu k internetu. Otevřete aplikaci Polly v telefonu a zkuste je stáhnout znovu.</string>
     <!-- Body of the dialog shown when your phone no longer has the attachment you tried to download -->
     <string name="ConversationFragment_attachment_backfill_not_found">Tato média již nejsou v telefonu k dispozici a nelze je stáhnout.</string>
     <!-- Dialog for how to long to keep a messaged pinned for -->
@@ -726,7 +726,7 @@
     <!-- Bottom sheet text explaining that profile names are chosen by the account holder. Placeholder will be \'Profile names\' -->
     <string name="ProfileNameBottomSheet__profile_names_on_signal">%1$s v aplikaci Signal si vybírá majitel účtu.</string>
     <!-- Bottom sheet text explaining that Signal can\'t verify names and photos -->
-    <string name="ProfileNameBottomSheet__signal_cant_verify">Molly nemůže ověřovat jména a fotky</string>
+    <string name="ProfileNameBottomSheet__signal_cant_verify">Polly nemůže ověřovat jména a fotky</string>
     <!-- Bottom sheet text explaining that Signal will never contact you for registration code, PIN, or recovery key -->
     <string name="ProfileNameBottomSheet__signal_will_never_contact">Signal vás nikdy nebude kontaktovat ohledně registračního kódu, PIN nebo klíče pro obnovení</string>
     <!-- Bottom sheet text explaining that accounts can impersonate other people and to be cautious -->
@@ -892,9 +892,9 @@
     <!-- Toolbar title for this screen -->
     <string name="WhoCanSeeMyPhoneNumberFragment__who_can_find_me_by_number">Kdo mě může najít podle čísla?</string>
     <!-- Description for radio item stating anyone can see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">Každý, kdo má vaše telefonní číslo, uvidí, že používáte Molly, a může s vámi začít chatovat.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">Každý, kdo má vaše telefonní číslo, uvidí, že používáte Polly, a může s vámi začít chatovat.</string>
     <!-- Description for radio item stating no one will be able to see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">Nikdo neuvidí, že používáte Molly, dokud mu nenapíšete nebo pokud s ním už nejste v existujícím chatu.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">Nikdo neuvidí, že používáte Polly, dokud mu nenapíšete nebo pokud s ním už nejste v existujícím chatu.</string>
 
     <!-- ChooseBackupFragment -->
 
@@ -920,7 +920,7 @@
     <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Otestujte přístupovou frázi pro vaši zálohu a ověřte, že se shoduje</string>
     <string name="BackupsPreferenceFragment__turn_on">Zapnout zálohování</string>
     <string name="BackupsPreferenceFragment__turn_off">Vypnout</string>
-    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Pro obnovení ze zálohy znovu nainstalujte aplikaci Molly. Spusťte aplikaci a klepněte na \"Obnovení ze zálohy\", pak najděte soubor se zálohou. %1$s"</string>
+    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Pro obnovení ze zálohy znovu nainstalujte aplikaci Polly. Spusťte aplikaci a klepněte na \"Obnovení ze zálohy\", pak najděte soubor se zálohou. %1$s"</string>
     <string name="BackupsPreferenceFragment__learn_more">Zjistit více</string>
     <string name="BackupsPreferenceFragment__in_progress">Probíhá…</string>
     <!-- Status text shown in backup preferences when verifying a backup -->
@@ -929,7 +929,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">%1$d dosud…</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">Zatím %1$s%%…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Molly potřebuje oprávnění pro přístup k úložišti, aby mohl vytvářet zálohy, ale toto oprávnění je nyní trvale zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Úložiště\".</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Polly potřebuje oprávnění pro přístup k úložišti, aby mohl vytvářet zálohy, ale toto oprávnění je nyní trvale zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Úložiště\".</string>
     <!-- Title of dialog shown when picking the time to perform a chat backup -->
     <string name="BackupsPreferenceFragment__set_backup_time">Nastavte si čas zálohování</string>
 
@@ -1013,7 +1013,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">Relace chatu byla obnovena</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Molly používá koncové šifrování a někdy může být nutné obnovit relaci chatu. Na zabezpečení komunikace to nemá vliv, ale mohlo se stát, že vám unikla zpráva od kontaktu. Můžete jej však požádat, aby vám ji poslal znovu.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Polly používá koncové šifrování a někdy může být nutné obnovit relaci chatu. Na zabezpečení komunikace to nemá vliv, ale mohlo se stát, že vám unikla zpráva od kontaktu. Můžete jej však požádat, aby vám ji poslal znovu.</string>
 
     <!-- LinkDeviceFragment -->
     <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
@@ -1122,7 +1122,7 @@
     <!-- Bottom sheet title telling users to complete the linking process on the other device  -->
     <string name="AddLinkDeviceFragment__finish_linking_on_other_device">Dokončete propojení na druhém zařízení</string>
     <!-- Bottom sheet description telling users to complete the linking process -->
-    <string name="AddLinkDeviceFragment__finish_linking_signal">Dokončete propojení aplikace Molly na druhém zařízení.</string>
+    <string name="AddLinkDeviceFragment__finish_linking_signal">Dokončete propojení aplikace Polly na druhém zařízení.</string>
     <!-- Title of dialog when the QR code being scanned is invalid -->
     <string name="AddLinkDeviceFragment__linking_device_failed">Propojení zařízení se nezdařilo</string>
     <!-- Text shown in a dialog when the QR code being scanned is invalid -->
@@ -1167,19 +1167,19 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">Optimlizovat pro chybějící Google Play službu</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Toto zařízení nepodporuje službu Google Play. Klepnutím zakážete systémové optimalizace baterie, které způsobují nemožnost aplikaci Molly přijímat zprávy v době nečinnosti.</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Toto zařízení nepodporuje službu Google Play. Klepnutím zakážete systémové optimalizace baterie, které způsobují nemožnost aplikaci Polly přijímat zprávy v době nečinnosti.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Tato verze aplikace Molly je zastaralá. Proveďte aktualizaci, abyste mohli odesílat a přijímat zprávy.</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Tato verze aplikace Polly je zastaralá. Proveďte aktualizaci, abyste mohli odesílat a přijímat zprávy.</string>
     <string name="ExpiredBuildReminder_update_now">Aktualizovat nyní</string>
 
     <!-- A message in a banner shown at the top of the screen indicating that the user must upgrade their device to use signal. -->
-    <string name="DeprecatedSdkBanner_body">Molly na tomto zařízení již nefunguje. Pokud chcete Molly zase používat, aktualizujte své zařízení na novější verzi systému Android nebo přejděte na novější zařízení.</string>
+    <string name="DeprecatedSdkBanner_body">Polly na tomto zařízení již nefunguje. Pokud chcete Polly zase používat, aktualizujte své zařízení na novější verzi systému Android nebo přejděte na novější zařízení.</string>
 
     <!-- Title of notification telling users to update Signal -->
-    <string name="DeprecatedNotificationJob_update_signal">Aktualizujte Molly</string>
+    <string name="DeprecatedNotificationJob_update_signal">Aktualizujte Polly</string>
     <!-- Message body of notification telling users that this current version of Signal has expired. If pressed, we will direct them to the website APK or PlayStore page -->
-    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Platnost této verze aplikace Molly vypršela. Proveďte aktualizaci, abyste mohli odesílat a přijímat zprávy.</string>
+    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Platnost této verze aplikace Polly vypršela. Proveďte aktualizaci, abyste mohli odesílat a přijímat zprávy.</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
     <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -1337,7 +1337,7 @@
     <!-- Message for dialog asking user to submit logs for debugging a crash -->
     <string name="PromptLogsSlowNotificationsDialog__message">Protokoly ladění nám pomáhají diagnostikovat a opravit problém a neobsahují identifikační informace.</string>
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
-    <string name="PromptLogsSlowNotificationsDialog__title_crash">U aplikace Molly se vyskytl problém. Odeslat protokol ladění?</string>
+    <string name="PromptLogsSlowNotificationsDialog__title_crash">U aplikace Polly se vyskytl problém. Odeslat protokol ladění?</string>
     <!-- Title for dialog asking user to submit logs for a situation where they\'re not able to connect to the signal service -->
     <string name="PromptLogsSlowNotificationsDialog__title_connectivity_warning">Možná nebudete moci přijímat zprávy. Odeslat protokol ladění?</string>
 
@@ -1345,12 +1345,12 @@
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
     <string name="PromptBatterySaverBottomSheet__title">Oznámení se mohou zpožďovat kvůli optimalizaci baterie</string>
     <!-- Message explaining that battery saver may delay notifications -->
-    <string name="PromptBatterySaverBottomSheet__message">Optimalizaci baterie pro službu Molly můžete vypnout, abyste zajistili, že se oznámení zpráv nebudou zpožďovat.</string>
+    <string name="PromptBatterySaverBottomSheet__message">Optimalizaci baterie pro službu Polly můžete vypnout, abyste zajistili, že se oznámení zpráv nebudou zpožďovat.</string>
 
     <!-- Title in bottom sheet that states that notifications for this device could be delayed -->
     <string name="DeviceSpecificNotificationBottomSheet__notifications_may_be_delayed">Oznámení se mohou zpožďovat kvůli optimalizaci baterie</string>
     <!-- Message in bottom sheet prompting users to fix potential issues by disabling battery optimizations -->
-    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Vypněte optimalizaci baterie pro službu Molly, aby se oznámení zpráv nezpožďovala. Klepnutím na „Pokračovat“ zobrazíte pokyny pro konkrétní zařízení.</string>
+    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Vypněte optimalizaci baterie pro službu Polly, aby se oznámení zpráv nezpožďovala. Klepnutím na „Pokračovat“ zobrazíte pokyny pro konkrétní zařízení.</string>
     <!-- Button to dismiss notification help prompt -->
     <string name="DeviceSpecificNotificationBottomSheet__no_thanks">Ne, díky</string>
     <!-- Button to continue and go to Signal support website -->
@@ -1359,7 +1359,7 @@
     <!-- Title of a bottom sheet that is shown when the user is having connectivity issues -->
     <string name="ConnectivityWarningBottomSheet_title">Možná nebudete moci přijímat zprávy</string>
     <!-- Body of a bottom sheet that is shown when the user is having connectivity issues -->
-    <string name="ConnectivityWarningBottomSheet_body">Problém s doručováním zpráv může vyřešit restart zařízení. Pokud problém přetrvává, obraťte se na podporu služby Molly.</string>
+    <string name="ConnectivityWarningBottomSheet_body">Problém s doručováním zpráv může vyřešit restart zařízení. Pokud problém přetrvává, obraťte se na podporu služby Polly.</string>
     <!-- Text for a button in a bottom sheet that is shown when the user is having connectivity issues. Clicking it will dismiss the bottom sheet. -->
     <string name="ConnectivityWarningBottomSheet_dismiss_button">Rozumím</string>
 
@@ -1562,9 +1562,9 @@
     </plurals>
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Aktualizujte Molly pro používání odkazů skupiny</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Verze aplikace Molly, kterou používáte, nepodporuje odkazy skupin. Aktualizujte na nejnovější verzi pro připojení k této skupině pomocí odkazu.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Aktualizovat Molly</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Aktualizujte Polly pro používání odkazů skupiny</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Verze aplikace Polly, kterou používáte, nepodporuje odkazy skupin. Aktualizujte na nejnovější verzi pro připojení k této skupině pomocí odkazu.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Aktualizovat Polly</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Odkaz skupiny je neplatný</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -1610,7 +1610,7 @@
     <string name="LongMessageActivity_your_message">Vaše zpráva</string>
 
     <!-- MessageRetrievalService -->
-    <string name="MessageRetrievalService_signal">Molly</string>
+    <string name="MessageRetrievalService_signal">Polly</string>
     <string name="MessageRetrievalService_background_connection_enabled">Komunikace na pozadí povolena</string>
 
     <!-- MediaOverviewActivity -->
@@ -1712,10 +1712,10 @@
   <!-- Removed by excludeNonTranslatables <string name="StarredMessages__s_chevron_s" translatable="false">%1$s \u203A %2$s</string> -->
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Navazuji hovor Molly</string>
+    <string name="NotificationBarManager__establishing_signal_call">Navazuji hovor Polly</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Zahájení služby volání Molly</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Zastavuji službu hovorů Molly</string>
+    <string name="NotificationBarManager__starting_signal_call_service">Zahájení služby volání Polly</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">Zastavuji službu hovorů Polly</string>
     <string name="NotificationBarManager__cancel_call">Zrušit hovor</string>
 
     <!-- NotificationsMegaphone -->
@@ -2066,7 +2066,7 @@
     </plurals>
 
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">V aplikaci Molly již nelze odesílat zprávy SMS. Pozvěte kontakt %1$s do aplikace Molly a pokračujte v konverzaci zde.</string>
+    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">V aplikaci Polly již nelze odesílat zprávy SMS. Pozvěte kontakt %1$s do aplikace Polly a pokračujte v konverzaci zde.</string>
     <!-- Body for quote when message being quoted is an in-app payment message -->
     <string name="MessageRecord__payment_s">Platba: %1$s</string>
     <!-- Body for quote when message being quoted is an in-app payment message tombstone without an amount -->
@@ -2191,22 +2191,22 @@
     <string name="DeviceProvisioningActivity_link_a_signal_device">Propojit zařízení Signal?</string>
     <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">Pokud chcete s tímto účtem Signal propojit stolní počítač nebo iPad, přejděte do části Propojená zařízení, klepněte na Propojit nové zařízení a znovu naskenujte QR kód. Ujistěte se, že skenujete pouze QR kódy, které pocházejí přímo z aplikace Signal.</string>
 
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Tato verze aplikace Molly dnes vyprší. Aktualizujte na nejnovější verzi.</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Tato verze aplikace Polly dnes vyprší. Aktualizujte na nejnovější verzi.</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="one">Platnost této verze aplikace Molly vyprší zítra. Aktualizujte na nejnovější verzi.</item>
-        <item quantity="few">Platnost této verze aplikace Molly vyprší za %1$d dny. Aktualizujte na nejnovější verzi.</item>
-        <item quantity="many">Platnost této verze aplikace Molly vyprší za %1$d dnů. Aktualizujte na nejnovější verzi.</item>
-        <item quantity="other">Platnost této verze aplikace Molly vyprší za %1$d dnů. Aktualizujte na nejnovější verzi.</item>
+        <item quantity="one">Platnost této verze aplikace Polly vyprší zítra. Aktualizujte na nejnovější verzi.</item>
+        <item quantity="few">Platnost této verze aplikace Polly vyprší za %1$d dny. Aktualizujte na nejnovější verzi.</item>
+        <item quantity="many">Platnost této verze aplikace Polly vyprší za %1$d dnů. Aktualizujte na nejnovější verzi.</item>
+        <item quantity="other">Platnost této verze aplikace Polly vyprší za %1$d dnů. Aktualizujte na nejnovější verzi.</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Zadat heslo</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Ikona Molly</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Ikona Polly</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Zadejte heslo</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Chybné heslo!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Odemknout Molly</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Odemknout Polly</string>
     <!-- This is the subject line for the email that is sent to support -->
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Molly Android - Zamykací obrazovka</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Polly Android - Zamykací obrazovka</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Mapa</string>
@@ -2234,7 +2234,7 @@
         <item quantity="many">Zbývá vám %1$d pokusů. Pokud vám pokusy dojdou, můžete si vytvořit nový PIN. Můžete se zaregistrovat a používat svůj účet, ale ztratíte některá uložená nastavení, jako jsou vaše profilové informace.</item>
         <item quantity="other">Zbývá vám %1$d pokusů. Pokud vám pokusy dojdou, můžete si vytvořit nový PIN. Můžete se zaregistrovat a používat svůj účet, ale ztratíte některá uložená nastavení, jako jsou vaše profilové informace.</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Registrace Molly - Potřebuji pomoc s PIN pro Android</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Registrace Polly - Potřebuji pomoc s PIN pro Android</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">Vytvořit váš PIN</string>
@@ -2274,7 +2274,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">Můj příběh</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Hovor přes Molly</string>
+    <string name="Recipient_signal_call">Hovor přes Polly</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">Blokovat</string>
@@ -2311,7 +2311,7 @@
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Klepnutím sem zapnete své video</string>
     <!-- Subtitle shown at top of call where %s is the elapsed time of the call -->
-    <string name="WebRtcCallActivity__signal_s">Molly %1$s</string>
+    <string name="WebRtcCallActivity__signal_s">Polly %1$s</string>
     <string name="WebRtcCallActivity__calling">Volání…</string>
     <!-- Title for dialog warning about lacking bluetooth permissions during a call -->
     <string name="WebRtcCallActivity__bluetooth_permission_denied">Oprávnění Bluetooth odepřeno</string>
@@ -2326,7 +2326,7 @@
     <!-- Title for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
     <string name="WebRtcCallActivity__others_couldnt_hear_you">Ostatní vás neslyšeli</string>
     <!-- Message for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
-    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">Váš mikrofon byl ztlumený, když běžela aplikace Molly na pozadí. Vyřešíte to klepnutím na Nastavení a povolením aktivit na pozadí v nastavení Baterie.</string>
+    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">Váš mikrofon byl ztlumený, když běžela aplikace Polly na pozadí. Vyřešíte to klepnutím na Nastavení a povolením aktivit na pozadí v nastavení Baterie.</string>
     <!-- Title for dialog to approve all requests -->
     <plurals name="WebRtcCallActivity__approve_d_requests">
         <item quantity="one">Schválit %1$d žádost?</item>
@@ -2388,15 +2388,15 @@
     <!-- Dialog title asking users for camera permission -->
     <string name="WebRtcCallActivity__allow_access_camera">Povolte přístup k fotoaparátu</string>
     <!-- Dialog description explaining why camera and microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__to_start_call_camera_microphone">Pro zahájení nebo připojení se k hovoru potřebuje aplikace Molly přístup ke kameře a mikrofonu.</string>
+    <string name="WebRtcCallActivity__to_start_call_camera_microphone">Pro zahájení nebo připojení se k hovoru potřebuje aplikace Polly přístup ke kameře a mikrofonu.</string>
     <!-- Dialog description explaining why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__to_start_call_microphone">Pro zahájení nebo připojení se k hovoru povolte aplikaci Molly přístup k mikrofonu.</string>
+    <string name="WebRtcCallActivity__to_start_call_microphone">Pro zahájení nebo připojení se k hovoru povolte aplikaci Polly přístup k mikrofonu.</string>
     <!-- Dialog description explaining why camera permissions are needed to enable a user\'s video in a call -->
-    <string name="WebRtcCallActivity__to_enable_video_allow_camera">Pro použití videa povolte aplikaci Molly přístup k fotoaparátu.</string>
+    <string name="WebRtcCallActivity__to_enable_video_allow_camera">Pro použití videa povolte aplikaci Polly přístup k fotoaparátu.</string>
     <!-- Toast describing why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Pro zahájení nebo připojení k hovoru potřebuje aplikace Molly přístup k mikrofonu.</string>
+    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Pro zahájení nebo připojení k hovoru potřebuje aplikace Polly přístup k mikrofonu.</string>
     <!-- Toast describing why camera permissions are needed to enable a video in a call -->
-    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">Pro použití videa potřebuje aplikace Molly přístup k fotoaparátu</string>
+    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">Pro použití videa potřebuje aplikace Polly přístup k fotoaparátu</string>
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="WebRtcCallActivity__to_start_call">Zahájení hovoru nebo připojení se k němu:</string>
     <!-- Dialog description that will explain the steps needed to give camera permissions -->
@@ -2409,8 +2409,8 @@
     <string name="MoveableLocalVideoRenderer__expand_local_video">Zvětšit místní video</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Molly hovor</string>
-    <string name="WebRtcCallView__signal_video_call">Molly video hovor</string>
+    <string name="WebRtcCallView__signal_call">Polly hovor</string>
+    <string name="WebRtcCallView__signal_video_call">Polly video hovor</string>
     <string name="WebRtcCallView__start_call">Zahájit hovor</string>
     <string name="WebRtcCallView__join_call">Připojit se k hovoru</string>
     <string name="WebRtcCallView__call_is_full">Hovor je plný</string>
@@ -2751,7 +2751,7 @@
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">Přidat do kontaktů</string>
-    <string name="SharedContactView_invite_to_signal">Pozvat do Molly</string>
+    <string name="SharedContactView_invite_to_signal">Pozvat do Polly</string>
     <!-- Button on a shared contact card that opens a chat with that contact. It can share a row with other buttons, so a short label is preferred -->
     <string name="SharedContactView_message_button">Zpráva</string>
     <!-- Button on a contact card shared in a group chat that adds the person on the card to that group -->
@@ -2888,7 +2888,7 @@
     <!-- Shown when no stickers match the search. The placeholder what was searched. -->
     <string name="StickerManagement_search_no_results_s">Pro \"%1$s\" nebylo nic nalezeno</string>
     <!-- Sticker pack button for forwarding a sticker link. -->
-    <string name="StickerManagement_menu_send_signal_pack">Poslat přes Molly</string>
+    <string name="StickerManagement_menu_send_signal_pack">Poslat přes Polly</string>
     <!-- Sticker pack button that opens a bottom sheet with more share options. -->
     <string name="StickerManagement_menu_link_pack">Odkaz</string>
     <!-- Sticker pack sheet option for sharing a sticker pack link using the system share sheet. -->
@@ -3054,11 +3054,11 @@
     <string name="ThreadRecord_blocked_group">Zablokováno</string>
 
     <!-- ApkUpdateNotifications -->
-    <string name="ApkUpdateNotifications_prompt_install_title">Aktualizace Molly</string>
-    <string name="ApkUpdateNotifications_prompt_install_body">K dispozici je nová verze aplikace Molly. Klepnutím ji aktualizujete.</string>
-    <string name="ApkUpdateNotifications_failed_general_title">Molly se nepodařilo aktualizovat</string>
+    <string name="ApkUpdateNotifications_prompt_install_title">Aktualizace Polly</string>
+    <string name="ApkUpdateNotifications_prompt_install_body">K dispozici je nová verze aplikace Polly. Klepnutím ji aktualizujete.</string>
+    <string name="ApkUpdateNotifications_failed_general_title">Polly se nepodařilo aktualizovat</string>
     <string name="ApkUpdateNotifications_failed_general_body">Zkusíme to znovu později.</string>
-    <string name="ApkUpdateNotifications_auto_update_success_title">Molly byl úspěšně aktualizován</string>
+    <string name="ApkUpdateNotifications_auto_update_success_title">Polly byl úspěšně aktualizován</string>
     <string name="ApkUpdateNotifications_auto_update_success_body">Byla provedena automatická aktualizace na verzi %1$s.</string>
     <string name="ApkUpdateNotifications_manual_update_success_body">Aktualizovali jste na verzi %1$s.</string>
 
@@ -3124,8 +3124,8 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Dotykem otevřete.</string>
-    <string name="KeyCachingService_passphrase_cached">Molly je odemčen</string>
-    <string name="KeyCachingService_lock">Zamknout Molly</string>
+    <string name="KeyCachingService_passphrase_cached">Polly je odemčen</string>
+    <string name="KeyCachingService_lock">Zamknout Polly</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">Vy</string>
@@ -3206,7 +3206,7 @@
     <!-- Body of a notification when someone votes in a poll. First placeholder is the poll emoji, second placeholder is the name of the voter and third is the poll question -->
     <string name="MessageNotifier_s_voted_in_poll">%1$s %2$s hlasoval/a v anketě „%3$s“</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Vypnout upozornění, že se kontakt připojil k Molly? Můžete je znovu zapnout v Molly &gt; Nastavení &gt; Upozornění.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Vypnout upozornění, že se kontakt připojil k Polly? Můžete je znovu zapnout v Polly &gt; Nastavení &gt; Upozornění.</string>
 
     <!-- TurnOnNotificationsBottomSheet -->
     <!-- Title for sheet explaining how to turn on app notifications -->
@@ -3290,7 +3290,7 @@
     </plurals>
 
     <!-- Message shown when the app requests permission to save media to the device storage, but that permission has been permanently denied by the user. -->
-    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Molly potřebuje oprávnění pro přístup k úložišti, aby mohl zapisovat do externího úložiště, ale to bylo trvale zamítnuto. Pokračujte do nastavení aplikací, vyberte „Oprávnění“ a povolte „Úložiště“.</string>
+    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Polly potřebuje oprávnění pro přístup k úložišti, aby mohl zapisovat do externího úložiště, ale to bylo trvale zamítnuto. Pokračujte do nastavení aplikací, vyberte „Oprávnění“ a povolte „Úložiště“.</string>
 
     <!-- Message explaining that it is not possible to save media to the device storage after the user denied the system save to storage permission. -->
     <string name="AttachmentSaver__unable_to_write_to_external_storage_without_permission">Nelze uložit do externího úložiště bez oprávnění</string>
@@ -3300,11 +3300,11 @@
     <!-- Dialog title shown when attempting to save media that has been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_media">Média nelze uložit</string>
     <!-- Dialog message explaining that media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__media_offloaded_message">Tato média byla z vašeho zařízení odložena, protože je zapnutá funkce Optimalizovat úložiště Molly. Položky můžete stahovat po jedné, nebo můžete vypnout funkci Optimalizovat úložiště Molly a stáhnout všechna média do svého zařízení.</string>
+    <string name="AttachmentSaver__media_offloaded_message">Tato média byla z vašeho zařízení odložena, protože je zapnutá funkce Optimalizovat úložiště Polly. Položky můžete stahovat po jedné, nebo můžete vypnout funkci Optimalizovat úložiště Polly a stáhnout všechna média do svého zařízení.</string>
     <!-- Dialog title shown when attempting to save multiple media items, some of which have been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_all_items">Nejde uložit všechny položky</string>
     <!-- Dialog message explaining that some selected media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__some_media_offloaded_message">Některá vybraná média byla z vašeho zařízení odložena, protože je zapnutá funkce Optimalizovat úložiště Molly. Položky můžete ukládat po jedné, nebo můžete vypnout funkci Optimalizovat úložiště Molly a stáhnout všechna média do svého zařízení.</string>
+    <string name="AttachmentSaver__some_media_offloaded_message">Některá vybraná média byla z vašeho zařízení odložena, protože je zapnutá funkce Optimalizovat úložiště Polly. Položky můžete ukládat po jedné, nebo můžete vypnout funkci Optimalizovat úložiště Polly a stáhnout všechna média do svého zařízení.</string>
     <!-- Button label in the offloaded media dialog that navigates to the storage settings screen. -->
     <string name="AttachmentSaver__view_storage_settings">Zobrazit nastavení úložiště</string>
 
@@ -3317,7 +3317,7 @@
     <string name="ShortcutLauncherActivity_invalid_shortcut">Chybná klávesová zkratka</string>
 
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_signal">Molly</string>
+    <string name="SingleRecipientNotificationBuilder_signal">Polly</string>
     <string name="SingleRecipientNotificationBuilder_new_message">Nová zpráva</string>
     <string name="SingleRecipientNotificationBuilder_message_request">Žádost o zprávu</string>
     <string name="SingleRecipientNotificationBuilder_you">Vy</string>
@@ -3395,20 +3395,20 @@
 
     <!-- UnauthorizedReminder -->
     <!-- Message shown in a reminder banner when the user\'s device is no longer registered -->
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Toto zařízení již není registrované. Je to pravděpodobně proto, že jste své telefonní číslo zaregistrovali v aplikaci Molly z jiného zařízení.</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Toto zařízení již není registrované. Je to pravděpodobně proto, že jste své telefonní číslo zaregistrovali v aplikaci Polly z jiného zařízení.</string>
     <!-- Action in reminder banner that will take user to re-register -->
     <string name="UnauthorizedReminder_reregister_action">Znovu zaregistrujte zařízení</string>
     <!-- Message shown in a reminder banner when this linked device is no longer linked to a primary device -->
-    <string name="UnauthorizedReminder_this_device_is_no_longer_linked_relink_to_continue_messaging">Toto zařízení již není propojené. Propojte znovu aplikaci Molly se svým telefonem, abyste mohli dál zasílat zprávy.</string>
+    <string name="UnauthorizedReminder_this_device_is_no_longer_linked_relink_to_continue_messaging">Toto zařízení již není propojené. Propojte znovu aplikaci Polly se svým telefonem, abyste mohli dál zasílat zprávy.</string>
     <!-- Action in reminder banner that will take the user to re-link this device -->
     <string name="UnauthorizedReminder_relink_action">Znovu propojit zařízení</string>
 
     <!-- Push notification when the app is forcibly logged out by the server. -->
-    <string name="LoggedOutNotification_you_have_been_logged_out">Na tomto zařízení jste odhlášeni ze služby Molly.</string>
+    <string name="LoggedOutNotification_you_have_been_logged_out">Na tomto zařízení jste odhlášeni ze služby Polly.</string>
 
     <!-- EnclaveFailureReminder -->
     <!-- Banner message to update app to use payments -->
-    <string name="EnclaveFailureReminder_update_signal">Aktualizací aplikace Molly můžete pokračovat v používání plateb. Váš zůstatek nemusí být aktuální.</string>
+    <string name="EnclaveFailureReminder_update_signal">Aktualizací aplikace Polly můžete pokračovat v používání plateb. Váš zůstatek nemusí být aktuální.</string>
     <!-- Banner button to update now -->
 
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Odpovězeno na propojeném zařízení.</string>
@@ -3450,14 +3450,14 @@
     <string name="change_passphrase_activity__repeat_new_passphrase">Zopakujte nové heslo</string>
 
     <!-- contact_selection_activity -->
-    <string name="contact_selection_activity__invite_to_signal">Pozvat do Molly</string>
+    <string name="contact_selection_activity__invite_to_signal">Pozvat do Polly</string>
     <string name="contact_selection_activity__new_group">Nová skupina</string>
     <!-- Row item title for refreshing contacts -->
     <string name="contact_selection_activity__refresh_contacts">Obnovit kontakty</string>
     <!-- Row item description for refreshing contacts -->
     <string name="contact_selection_activity__missing_someone">Chybí někdo? Zkuste provést obnovení</string>
     <!-- Row item title for finding people on Signal via your contacts -->
-    <string name="contact_selection_activity__find_people_you_know">Najděte v aplikaci Molly lidi, které znáte</string>
+    <string name="contact_selection_activity__find_people_you_know">Najděte v aplikaci Polly lidi, které znáte</string>
     <!-- Row item description asking users for access to their contacts to find people they know -->
     <string name="contact_selection_activity__allow_access_to_contacts">Povolte přístup ke svým kontaktům</string>
     <!-- Row header title for more section -->
@@ -3476,7 +3476,7 @@
     <string name="SingleContactSelectionActivity_contact_photo">Fotografie kontaktu</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Molly potřebuje oprávnění pro přístup ke kontaktům, aby vám je mohl zobrazit, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Kontakty\".</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Polly potřebuje oprávnění pro přístup ke kontaktům, aby vám je mohl zobrazit, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Kontakty\".</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Nepodařilo se načíst kontakty, zkontrolujte připojení k síti.</string>
     <string name="ContactSelectionListFragment_username_not_found">Uživatelské jméno nebylo nalezeno</string>
     <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" není uživatel Signal. Zkontrolujte prosím uživatelské jméno a zkuste to znovu."</string>
@@ -3498,7 +3498,7 @@
     <!-- Dialog title asking users for contact permission -->
     <string name="ContactSelectionListFragment_allow_access_contacts">Povolte přístup ke kontaktům</string>
     <!-- Dialog description that will explain the steps needed to give contact permissions -->
-    <string name="ContactSelectionListFragment_to_find_people">Jak najít v aplikaci Molly lidi, které znáte:</string>
+    <string name="ContactSelectionListFragment_to_find_people">Jak najít v aplikaci Polly lidi, které znáte:</string>
     <!-- Text on button prompting users to give Signal contact permissions -->
     <string name="ContactSelectionListFragment__allow_access">Povolit přístup</string>
     <!-- Text on button to dismiss Signal\'s request for contact permissions -->
@@ -3636,7 +3636,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">Bubliny jsou funkcí systému Android, kterou můžete pro chaty aplikace Molly vypnout.</string>
+    <string name="BubbleOptOutTooltip__description">Bubliny jsou funkcí systému Android, kterou můžete pro chaty aplikace Polly vypnout.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">Teď ne</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -3781,20 +3781,20 @@
     <!-- Bottom sheet title when encryption is auto-verified -->
     <string name="EncryptionVerifiedSheet__title_success">Šifrování pro tento chat bylo automaticky ověřeno</string>
     <!-- Bottom sheet body when encryption is auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_success">U lidí, se kterými jste propojeni pomocí telefonního čísla, může aplikace Molly automaticky potvrdit, zda je spojení bezpečné, pomocí procesu zvaného transparentnost klíče. Pro vyšší bezpečnost můžete koncové šifrování ověřit ručně porovnáním čísel na předchozí obrazovce nebo naskenováním kódu na zařízení daného člověka.</string>
+    <string name="EncryptionVerifiedSheet__body_success">U lidí, se kterými jste propojeni pomocí telefonního čísla, může aplikace Polly automaticky potvrdit, zda je spojení bezpečné, pomocí procesu zvaného transparentnost klíče. Pro vyšší bezpečnost můžete koncové šifrování ověřit ručně porovnáním čísel na předchozí obrazovce nebo naskenováním kódu na zařízení daného člověka.</string>
     <!-- Bottom sheet title when encryption is no longer auto-verified -->
     <string name="EncryptionVerifiedSheet__title_no_longer_unavailable">Automatické ověření není pro tento chat k dispozici</string>
     <!-- Bottom sheet body when encryption is no longer auto-verified. Placeholder is the name of the person. -->
-    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Molly nemůže automaticky ověřit šifrování tohoto chatu. Může to být tím, že %1$s změnil/a své telefonní číslo nebo nastavení soukromí. Koncové šifrování můžete ověřit ručně porovnáním čísel na předchozí obrazovce nebo naskenováním kódu na zařízení daného člověka.</string>
+    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Polly nemůže automaticky ověřit šifrování tohoto chatu. Může to být tím, že %1$s změnil/a své telefonní číslo nebo nastavení soukromí. Koncové šifrování můžete ověřit ručně porovnáním čísel na předchozí obrazovce nebo naskenováním kódu na zařízení daného člověka.</string>
     <!-- Bottom sheet title when encryption cannot be auto-verified -->
     <string name="EncryptionVerifiedSheet__title_unavailable">Automatické ověřování není pro tento chat k dispozici</string>
     <!-- Bottom sheet body when encryption cannot be auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_unavailable">Aplikace Molly může automaticky ověřit šifrování pouze v chatech, kde jste s někým propojeni prostřednictvím telefonního čísla. Pokud byl chat zahájen se společným uživatelským jménem nebo skupinou, ověřte koncové šifrování porovnáním čísel na předchozí obrazovce nebo naskenováním kódu na jejich zařízení.</string>
+    <string name="EncryptionVerifiedSheet__body_unavailable">Aplikace Polly může automaticky ověřit šifrování pouze v chatech, kde jste s někým propojeni prostřednictvím telefonního čísla. Pokud byl chat zahájen se společným uživatelským jménem nebo skupinou, ověřte koncové šifrování porovnáním čísel na předchozí obrazovce nebo naskenováním kódu na jejich zařízení.</string>
 
     <!-- Title for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__title">Molly nyní podporuje automatické ověření šifrování</string>
+    <string name="VerifyAutomaticallyEducationSheet__title">Polly nyní podporuje automatické ověření šifrování</string>
     <!-- Body for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__body">U kontaktů, se kterými jste propojeni pomocí telefonního čísla, může aplikace Molly automaticky potvrdit, zda je připojení zabezpečené, pomocí procesu zvaného transparentnost klíče. Pro větší bezpečnost můžete připojení i nadále ověřovat ručně pomocí QR kódu nebo bezpečnostního čísla.</string>
+    <string name="VerifyAutomaticallyEducationSheet__body">U kontaktů, se kterými jste propojeni pomocí telefonního čísla, může aplikace Polly automaticky potvrdit, zda je připojení zabezpečené, pomocí procesu zvaného transparentnost klíče. Pro větší bezpečnost můžete připojení i nadále ověřovat ručně pomocí QR kódu nebo bezpečnostního čísla.</string>
     <!-- Button to learn more about automatic verification -->
     <string name="VerifyAutomaticallyEducationSheet__learn_more">Zjistit více</string>
     <!-- Button to go to verification page -->
@@ -3868,7 +3868,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <!-- Heading used within support email that lists additional information to help with debugging -->
     <string name="HelpFragment__support_info">Informace o podpoře</string>
-    <string name="HelpFragment__signal_android_support_request">Požadavek na podporu Molly Android</string>
+    <string name="HelpFragment__signal_android_support_request">Požadavek na podporu Polly Android</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__debug_log" translatable="false">Debug Log:</string> -->
     <string name="HelpFragment__could_not_upload_logs">Nepodařilo se nahrát logy</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">Popište detailně váš problém, aby to bylo pro nás srozumitelné.</string>
@@ -3982,7 +3982,7 @@
     <string name="preferences__normal">Normálně</string>
     <string name="preferences__slow">Pomalu</string>
     <string name="preferences__advanced">Rozšířené možnosti</string>
-    <string name="preferences__donate_to_signal">Podpořte Molly finančně</string>
+    <string name="preferences__donate_to_signal">Podpořte Polly finančně</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">Příběhy</string>
     <string name="preferences__storage">Úložiště</string>
@@ -4068,7 +4068,7 @@
     <string name="preferences_communication__category_censorship_circumvention">Obcházení cenzury</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Obcházení cenzury</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Pokud je povoleno, Molly se pokusí obejít cenzuru. Nepovolujte v místech, kde Molly není cenzurován.</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Pokud je povoleno, Polly se pokusí obejít cenzuru. Nepovolujte v místech, kde Polly není cenzurován.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Obcházení cenzury bylo aktivováno na základě vašeho telefonního čísla.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
@@ -4096,7 +4096,7 @@
     <!-- Preference title for automatic key verification -->
     <string name="preferences_automatic_key_verification">Automatické ověření klíče</string>
     <!-- Preference summary for automatic key verification -->
-    <string name="preferences_automatic_key_verification_body">Pokud je tato funkce povolena, služba Molly se pokusí automaticky ověřit šifrování 1:1 chatů.</string>
+    <string name="preferences_automatic_key_verification_body">Pokud je tato funkce povolena, služba Polly se pokusí automaticky ověřit šifrování 1:1 chatů.</string>
 
 
     <!-- Internal only preferences -->
@@ -4148,10 +4148,10 @@
     <string name="PaymentsHomeFragment__details">Podrobnosti</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
     <!-- Displayed as a description in a dialog when the user tries to activate payments -->
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Pomocí služby Molly můžete odesílat a přijímat měnu MobileCoin. Na všechny platby se vztahují Podmínky používání služby MobileCoin a peněženky MobileCoin. Můžete se setkat s problémy a platby i zůstatky, o které přijdete, není možné obnovit. </string>
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Pomocí služby Polly můžete odesílat a přijímat měnu MobileCoin. Na všechny platby se vztahují Podmínky používání služby MobileCoin a peněženky MobileCoin. Můžete se setkat s problémy a platby i zůstatky, o které přijdete, není možné obnovit. </string>
     <string name="PaymentsHomeFragment__activate">Aktivovat</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">Zobrazit MobileCoin podmínky</string>
-    <string name="PaymentsHomeFragment__payments_not_available">Platby v Molly již nejsou k dispozici. Stále můžete převádět prostředky na burzu, ale již nemůžete posílat a přijímat platby ani přidávat prostředky.</string>
+    <string name="PaymentsHomeFragment__payments_not_available">Platby v Polly již nejsou k dispozici. Stále můžete převádět prostředky na burzu, ale již nemůžete posílat a přijímat platby ani přidávat prostředky.</string>
 
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string> -->
     <!-- Alert dialog title which shows up after a payment to turn on payment lock -->
@@ -4234,9 +4234,9 @@
     <string name="PaymentsTransferFragment__next">Další</string>
     <string name="PaymentsTransferFragment__invalid_address">Neplatná adresa</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Zkontrolujte adresu peněženky, na kterou se pokoušíte převést, a zkuste to znovu.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Nelze převést na svou vlastní adresu peněženky Molly. Zadejte adresu peněženky ze svého účtu na podporované burze.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Molly potřebuje přístup ke kameře pro naskenování QR kódu.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">K naskenování QR kódu potřebuje Molly přístup ke kameře.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Nelze převést na svou vlastní adresu peněženky Polly. Zadejte adresu peněženky ze svého účtu na podporované burze.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Polly potřebuje přístup ke kameře pro naskenování QR kódu.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">K naskenování QR kódu potřebuje Polly přístup ke kameře.</string>
 
     <!-- PaymentsTransferQrScanFragment -->
     <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Naskenujte QR kód adresy</string>
@@ -4615,17 +4615,17 @@
 
     <!-- CallNotificationBuilder -->
     <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Příchozí hlasový hovor Molly</string>
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">Příchozí hlasový hovor Polly</string>
     <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Příchozí videohovor Molly</string>
+    <string name="CallNotificationBuilder__incoming_signal_video_call">Příchozí videohovor Polly</string>
     <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Příchozí Molly skupinový hovor</string>
+    <string name="CallNotificationBuilder__incoming_signal_group_call">Příchozí Polly skupinový hovor</string>
     <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Probíhající hlasový hovor Molly</string>
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Probíhající hlasový hovor Polly</string>
     <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Probíhající videohovor Molly</string>
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">Probíhající videohovor Polly</string>
     <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Probíhající skupinový hovor Molly</string>
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">Probíhající skupinový hovor Polly</string>
 
     <string name="CallNotificationBuilder_connecting">Připojování…</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">Heslo pro zálohy</string>
@@ -4653,7 +4653,7 @@
     <string name="BackupDialog_passphrase_was_not_correct">Přístupová fráze nebyla správná</string>
     <string name="LocalBackupJob_creating_signal_backup">Vytvářím zálohu Mollyu…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Ověřování zálohy Molly…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">Ověřování zálohy Polly…</string>
     <string name="LocalBackupJobApi29_backup_failed">Zálohování selhalo</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">Váš adresář se zálohami byl odstraněn nebo přesunut.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">Soubor s vaší zálohou je příliš velký pro uložení na tento disk.</string>
@@ -4668,7 +4668,7 @@
     <string name="RegistrationActivity_call_me_instead_available_in">Zavolejte mi (%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">Znovu odeslat kód (%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_code_support_subject">Registrace Molly - ověřovací kód pro Android</string>
+    <string name="RegistrationActivity_code_support_subject">Registrace Polly - ověřovací kód pro Android</string>
     <string name="RegistrationActivity_incorrect_code">Špatný kód</string>
     <string name="BackupUtil_never">Nikdy</string>
     <!-- Subtext below last backup time when we do not know when the last backup was -->
@@ -4684,11 +4684,11 @@
     <string name="preferences_chats__backups">Zálohy</string>
 
     <!-- Title text shown when Signal is locked and needs to be unlocked -->
-    <string name="prompt_passphrase_activity__unlock_signal">Odemknout Molly</string>
+    <string name="prompt_passphrase_activity__unlock_signal">Odemknout Polly</string>
     <!-- Description text explaining how to unlock Signal -->
     <string name="prompt_passphrase_activity__use_your_android_device">K odemknutí aplikace Signál použijte nastavení zámku zařízení se systémem Android.</string>
     <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
-    <string name="prompt_passphrase_activity__screen_lock_is_on">Zámek obrazovky je zapnutý a aplikace Molly je zabezpečena pomocí nastavení zámku zařízení. Aplikaci Molly odemknete stejným způsobem, jakým běžně odemykáte telefon, tedy pomocí rozpoznání obličeje, otisku prstu, kódu PIN, hesla nebo vzorce.</string>
+    <string name="prompt_passphrase_activity__screen_lock_is_on">Zámek obrazovky je zapnutý a aplikace Polly je zabezpečena pomocí nastavení zámku zařízení. Aplikaci Polly odemknete stejným způsobem, jakým běžně odemykáte telefon, tedy pomocí rozpoznání obličeje, otisku prstu, kódu PIN, hesla nebo vzorce.</string>
     <!-- Button in a dialog that will contact Signal support if pressed -->
     <string name="prompt_passphrase_activity__contact_support">Kontaktovat podporu</string>
     <!-- Button text to try again after unlocking has previously failed -->
@@ -4707,11 +4707,11 @@
     <!-- Title of an informational card shown on the account settings screen of a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__this_is_a_linked_device">Toto je propojené zařízení</string>
     <!-- Body of an informational card explaining that account settings must be managed from the primary device -->
-    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">Chcete-li spravovat nastavení účtu, otevřete Molly na svém hlavním zařízení.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">Chcete-li spravovat nastavení účtu, otevřete Polly na svém hlavním zařízení.</string>
     <!-- Title of a settings row that deletes all Signal data from this linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data">Smazat data aplikace</string>
     <!-- Subtitle of the delete app data row explaining what it does -->
-    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">Tímto krokem se odstraní všechna data z aplikace Molly v tohoto zařízení.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">Tímto krokem se odstraní všechna data z aplikace Polly v tohoto zařízení.</string>
     <!-- Title of the confirmation dialog shown when deleting app data from a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data_question">Smazat data aplikace?</string>
     <!-- Message of the confirmation dialog explaining that only this device\'s data is deleted, not the account -->
@@ -4743,10 +4743,10 @@
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">Hledám nové Android zařízení…</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Molly potřebuje oprávnění k poloze pro nalezení nového Android zařízení a připojení se k němu.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Molly potřebuje povolené služby polohy pro nalezení a připojení k novému Android zařízení.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Molly potřebuje zapnutou Wi-Fi pro nalezení a připojení k novému Android zařízení. Wi-Fi musí být zapnuté, ale nemusí být připojené k žádné Wi-Fi síti.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Omlouváme se, ale vypadá to, že toto zařízení nepodporuje Wi-Fi Direct. Molly používá Wi-Fi Direct pro nalezení nového Android zařízení a připojení se k němu. Můžete stále obnovit zálohu pro obnovení vašeho původního účtu na novém Android zařízení.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Polly potřebuje oprávnění k poloze pro nalezení nového Android zařízení a připojení se k němu.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Polly potřebuje povolené služby polohy pro nalezení a připojení k novému Android zařízení.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Polly potřebuje zapnutou Wi-Fi pro nalezení a připojení k novému Android zařízení. Wi-Fi musí být zapnuté, ale nemusí být připojené k žádné Wi-Fi síti.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Omlouváme se, ale vypadá to, že toto zařízení nepodporuje Wi-Fi Direct. Polly používá Wi-Fi Direct pro nalezení nového Android zařízení a připojení se k němu. Můžete stále obnovit zálohu pro obnovení vašeho původního účtu na novém Android zařízení.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Vytvořit zálohu</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Nastala neočekávaná chyba při pokusu o připojení k novému Android zařízení.</string>
 
@@ -4786,7 +4786,7 @@
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">Přenáším data</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">Ponechte obě zařízení blízko sebe. Nevypínejte zařízení a nechte spuštěnou aplikaci Molly. Přenos je koncově šifrován.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">Ponechte obě zařízení blízko sebe. Nevypínejte zařízení a nechte spuštěnou aplikaci Polly. Přenos je koncově šifrován.</string>
     <string name="DeviceTransfer__d_messages_so_far">%1$d zpráv zatím…</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">Zatím %1$s%% zpráv…</string>
@@ -4800,7 +4800,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">Přenést účet</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Stáhněte Molly na novém Android zařízení</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Stáhněte Polly na novém Android zařízení</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"Klepněte na \"Přenést nebo obnovit účet\""</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -4881,7 +4881,7 @@
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Kdokoli, kdo má tento odkaz, může vidět jméno skupiny a fotografii a může požádat o připojení ke skupině. Sdílejte pouze s lidmi, kterým důvěřujete.</string>
     <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Kdokoli, kdo má tento odkaz, může vidět jméno skupiny a fotografii a může se připojit ke skupině. Sdílejte pouze s lidmi, kterým důvěřujete.</string>
-    <string name="GroupLinkBottomSheet_share_via_signal">Sdílet přes Molly</string>
+    <string name="GroupLinkBottomSheet_share_via_signal">Sdílet přes Polly</string>
     <string name="GroupLinkBottomSheet_copy">Kopírovat</string>
     <string name="GroupLinkBottomSheet_qr_code">QR kód</string>
     <string name="GroupLinkBottomSheet_share">Sdílet</string>
@@ -5053,7 +5053,7 @@
     <string name="payment_info_card_about_mobilecoin">O MobileCoin</string>
     <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin je nová digitální měna zaměřená na soukromí.</string>
     <string name="payment_info_card_adding_funds">Přidávám prostředky</string>
-    <string name="payment_info_card_you_can_add_funds_for_use_in">Prostředky pro použití v Molly můžete přidat zasláním MobileCoin na adresu vaší peněženky.</string>
+    <string name="payment_info_card_you_can_add_funds_for_use_in">Prostředky pro použití v Polly můžete přidat zasláním MobileCoin na adresu vaší peněženky.</string>
     <string name="payment_info_card_cashing_out">Vyplacení</string>
     <string name="payment_info_card_you_can_cash_out_mobilecoin">MobileCoin můžete kdykoli vyplatit na burze, která podporuje MobileCoin. Stačí provést převod na svůj účet na této burze.</string>
     <string name="payment_info_card_hide_this_card">Schovat tuto kartu?</string>
@@ -5074,12 +5074,12 @@
     <!-- DeactivateWalletFragment -->
     <string name="DeactivateWalletFragment__deactivate_wallet">Deaktivovat peněženku</string>
     <string name="DeactivateWalletFragment__your_balance">Váš zůstatek</string>
-    <string name="DeactivateWalletFragment__its_recommended_that_you">Před deaktivací plateb doporučujeme převést prostředky na jinou adresu peněženky. Pokud se rozhodnete své prostředky nyní nepřevádět, zůstanou ve vaší peněžence propojené se službou Molly, pokud platby znovu aktivujete.</string>
+    <string name="DeactivateWalletFragment__its_recommended_that_you">Před deaktivací plateb doporučujeme převést prostředky na jinou adresu peněženky. Pokud se rozhodnete své prostředky nyní nepřevádět, zůstanou ve vaší peněžence propojené se službou Polly, pokud platby znovu aktivujete.</string>
     <string name="DeactivateWalletFragment__transfer_remaining_balance">Převést zbývající zůstatek</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring">Deaktivovat bez převodu</string>
     <string name="DeactivateWalletFragment__deactivate">Deaktivovat</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Deaktivovat bez převodu?</string>
-    <string name="DeactivateWalletFragment__your_balance_will_remain">Pokud se rozhodnete platby znovu aktivovat, zůstanou vaše prostředky v peněžence propojené se službou Molly.</string>
+    <string name="DeactivateWalletFragment__your_balance_will_remain">Pokud se rozhodnete platby znovu aktivovat, zůstanou vaše prostředky v peněžence propojené se službou Polly.</string>
     <string name="DeactivateWalletFragment__error_deactivating_wallet">Chyba při deaktivování peněženky.</string>
   <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
 
@@ -5237,7 +5237,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">Upravit číslo</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Změna čísla Molly - Potřebujete pomoc s PIN pro Android (PIN v2)</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Změna čísla Polly - Potřebujete pomoc s PIN pro Android (PIN v2)</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN se neshoduje</string>
@@ -5858,9 +5858,9 @@
     <string name="MySupportPreference__checking_subscription">Kontrola předplatného…</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">Aktualizovat Molly</string>
+    <string name="UpdateSignalExpiredDialog__title">Aktualizovat Polly</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">Platnost této verze aplikace Molly vypršela. Aktualizujte ji, ať můžete Molly dál používat.</string>
+    <string name="UpdateSignalExpiredDialog__message">Platnost této verze aplikace Polly vypršela. Aktualizujte ji, ať můžete Polly dál používat.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">Aktualizovat</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -5869,7 +5869,7 @@
     <!-- Title of dialog telling user they need to re-register signal -->
     <string name="ReregisterSignalDialog__title">Zařízení není registrováno</string>
     <!-- Message of dialog telling user they need to re-register signal as it is no longer registered -->
-    <string name="ReregisterSignalDialog__message">Toto zařízení již není registrované. Zařízení znovu zaregistrujte, chcete-li na něm nadále používat službu Molly.</string>
+    <string name="ReregisterSignalDialog__message">Toto zařízení již není registrované. Zařízení znovu zaregistrujte, chcete-li na něm nadále používat službu Polly.</string>
     <!-- Button text of re-registration dialog to re-register the device.  -->
     <string name="ReregisterSignalDialog__reregister_action">Znovu se zaregistrovat</string>
     <!-- Button text of re-registration dialog to cancel the dialog.  -->
@@ -6150,7 +6150,7 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">Nepodařilo se otevřít picker.</string>
     <!-- Banner title when notification permission is disabled -->
-    <string name="NotificationSettingsFragment__to_enable_notifications">Aby bylo možné oznámení zapnout, Molly potřebuje povolení k jejich zobrazování.</string>
+    <string name="NotificationSettingsFragment__to_enable_notifications">Aby bylo možné oznámení zapnout, Polly potřebuje povolení k jejich zobrazování.</string>
     <!-- Banner action when notification permission is disabled -->
     <string name="NotificationSettingsFragment__turn_on">Zapnout</string>
 
@@ -6178,7 +6178,7 @@
     <!-- Donation receipts share PNG -->
     <string name="DonationReceiptDetailsFragment__share_receipt">Sdílet doklad</string>
     <!-- Donation receipts list end note -->
-    <string name="DonationReceiptListFragment__if_you_have">Pokud jste aplikaci Molly přeinstalovali, nebudou potvrzení o předchozích darech k dispozici.</string>
+    <string name="DonationReceiptListFragment__if_you_have">Pokud jste aplikaci Polly přeinstalovali, nebudou potvrzení o předchozích darech k dispozici.</string>
     <!-- Donation receipts document title -->
     <string name="DonationReceiptDetailsFragment__donation_receipt">Potvrzení o příspěvku</string>
     <!-- Donation receipts amount title -->
@@ -6918,10 +6918,10 @@
     <string name="GatewaySelectorBottomSheet__ideal_wero">iDEAL | Wero</string>
 
     <!-- Dialog title for launching external intent -->
-    <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">Opustit Molly a potvrdit příspěvek?</string>
-    <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">Po potvrzení se vraťte do aplikace Molly a dokončete zpracování příspěvku.</string>
+    <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">Opustit Polly a potvrdit příspěvek?</string>
+    <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">Po potvrzení se vraťte do aplikace Polly a dokončete zpracování příspěvku.</string>
     <!-- Dialog message shown when leaving Signal to complete a donation in an external app. Placeholder is the resolved app name (e.g. a banking app). -->
-    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">Budete přesměrováni do aplikace %1$s. Po potvrzení se vraťte do aplikace Molly a dokončete zpracování příspěvku.</string>
+    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">Budete přesměrováni do aplikace %1$s. Po potvrzení se vraťte do aplikace Polly a dokončete zpracování příspěvku.</string>
 
     <!-- BankTransferMandateFragment -->
     <!-- Title of screen displaying the bank transfer mandate -->
@@ -7298,7 +7298,7 @@
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__require_admin_approval">Vyžadovat schválení správcem</string>
     <!-- Row label to share the link via Signal -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Sdílet odkaz přes Molly</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Sdílet odkaz přes Polly</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">Zkopírovat odkaz</string>
     <!-- Row label to share the link with the external share sheet -->
@@ -7392,7 +7392,7 @@
     <!-- Title of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
     <string name="TurnOnSignalBackups__title">Zapněte Zabezpečené zálohování služby Signal</string>
     <!-- Body of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
-    <string name="TurnOnSignalBackups__body">Už nepřijdete o žádnou zprávu, když si pořídíte nový telefon nebo přeinstalujete aplikaci Molly.</string>
+    <string name="TurnOnSignalBackups__body">Už nepřijdete o žádnou zprávu, když si pořídíte nový telefon nebo přeinstalujete aplikaci Polly.</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will take the user to the flow to enable backups -->
     <string name="TurnOnSignalBackups__turn_on">Zapnout</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will simply dismiss the megaphone -->
@@ -7453,27 +7453,27 @@
     <!-- Title of the backup setup complete bottom sheet -->
     <string name="BackupSetupCompleteBottomSheet__title">Vše je nastaveno. Spustit zálohování.</string>
     <!-- Body of the backup setup complete bottom sheet -->
-    <string name="BackupSetupCompleteBottomSheet__body">Může to chvíli trvat. Během zálohování můžete Molly normálně používat.</string>
+    <string name="BackupSetupCompleteBottomSheet__body">Může to chvíli trvat. Během zálohování můžete Polly normálně používat.</string>
     <!-- Label for the optimize storage toggle -->
-    <string name="BackupSetupCompleteBottomSheet__optimize_storage">Optimalizovat úložiště Molly</string>
+    <string name="BackupSetupCompleteBottomSheet__optimize_storage">Optimalizovat úložiště Polly</string>
     <!-- Subtitle for the optimize storage toggle -->
     <string name="BackupSetupCompleteBottomSheet__optimize_subtitle">Starší média budou odložena, ale můžete si je kdykoli stáhnout ze zálohy.</string>
     <!-- Primary button on the setup complete bottom sheet -->
     <string name="BackupSetupCompleteBottomSheet__back_up_now">Zálohovat nyní</string>
 
     <!-- Title of a megaphone shown to prompt the user to open Signal on their primary device -->
-    <string name="InactivePrimary__title">Otevřete Molly ve svém telefonu</string>
+    <string name="InactivePrimary__title">Otevřete Polly ve svém telefonu</string>
     <!-- Body of a megaphone shown to prompt the user to open Signal on their primary device -->
-    <string name="InactivePrimary__body">Aby váš účet zůstal aktivní, otevřete aplikaci Molly ve svém primárním zařízení.</string>
+    <string name="InactivePrimary__body">Aby váš účet zůstal aktivní, otevřete aplikaci Polly ve svém primárním zařízení.</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will navigate to a support page -->
     <string name="InactivePrimary__learn_more">Zjistit více</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will snooze the megaphone -->
     <string name="InactivePrimary__got_it">Rozumím</string>
 
     <!-- Text describing how to restore a backup displayed on the on-device backups screen -->
-    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"Pro obnovení zálohy znovu nainstalujte aplikaci Molly. Spusťte aplikaci a klepněte na Obnovit zálohu a poté vyhledejte soubor se zálohou."</string>
+    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"Pro obnovení zálohy znovu nainstalujte aplikaci Polly. Spusťte aplikaci a klepněte na Obnovit zálohu a poté vyhledejte soubor se zálohou."</string>
     <!-- Body of a dialog shown when turning on on-device backups while "Optimize Signal storage" is enabled, warning that optimized media won\'t be included -->
-    <string name="OnDeviceBackupsScreen__you_have_optimize_signal_storage_on">Máte zapnutou funkci Optimalizovat úložiště Molly. Pokud chcete do zálohy v zařízení zahrnout všechna média, tuto funkci vypněte.</string>
+    <string name="OnDeviceBackupsScreen__you_have_optimize_signal_storage_on">Máte zapnutou funkci Optimalizovat úložiště Polly. Pokud chcete do zálohy v zařízení zahrnout všechna média, tuto funkci vypněte.</string>
     <!-- Dialog action that takes the user to the "Optimize Signal storage" setting -->
     <string name="OnDeviceBackupsScreen__view_setting">Zobrazit nastavení</string>
     <!-- Dialog action to proceed with turning on on-device backups without turning off "Optimize Signal storage" -->
@@ -7562,7 +7562,7 @@
     <!-- Dialog title for invalid phone number -->
     <string name="FindByActivity__invalid_phone_number">Neplatné telefonní číslo</string>
     <!-- Dialog title when phone number is not a registered signal user -->
-    <string name="FindByActivity__invite_to_signal">Pozvat do Molly</string>
+    <string name="FindByActivity__invite_to_signal">Pozvat do Polly</string>
     <!-- Dialog title when username is not found -->
     <string name="FindByActivity__username_not_found">Uživatelské jméno nebylo nalezeno</string>
     <!-- Dialog body for invalid username. Placeholder is the entered username. -->
@@ -7706,7 +7706,7 @@
     <!-- Dialog title when a backup redemption fails -->
     <string name="BackupAlertBottomSheet__couldnt_redeem_your_backups_subscription">Nepodařilo se obnovit vaše předplatné pro zálohování</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it -->
-    <string name="BackupAlertBottomSheet__an_error_occurred">Vyskytla se chyba a vaši zálohu se nepodařilo dokončit. Ujistěte se, že máte nejnovější verzi aplikace Molly a zkuste to znovu. Pokud problém přetrvává, kontaktujte podporu.</string>
+    <string name="BackupAlertBottomSheet__an_error_occurred">Vyskytla se chyba a vaši zálohu se nepodařilo dokončit. Ujistěte se, že máte nejnovější verzi aplikace Polly a zkuste to znovu. Pokud problém přetrvává, kontaktujte podporu.</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it. Used for out of remote storage space error. -->
     <string name="BackupAlertBottomSheet__an_error_occurred_and">Vyskytla se chyba a vaši zálohu se nepodařilo dokončit. Pokud problém přetrvává, kontaktujte podporu.</string>
     <!-- Dialog action button that will allow you to check for any Signal version updates -->
@@ -7788,7 +7788,7 @@
     <!-- Text displayed when a backup could not be completed -->
     <string name="BackupStatusRow__your_last_backup">Poslední zálohu se nepodařilo dokončit. Ujistěte se, že je telefon připojen k Wi-Fi, klepněte na „Zálohovat nyní“ a zkuste to znovu.</string>
     <!-- Text displayed when a backup could not be completed and to check that they are on the latest version of Signal -->
-    <string name="BackupStatusRow__your_last_backup_latest_version">Poslední zálohu se nepodařilo dokončit. Ujistěte se, že máte nejnovější verzi aplikace Molly a zkuste to znovu.</string>
+    <string name="BackupStatusRow__your_last_backup_latest_version">Poslední zálohu se nepodařilo dokončit. Ujistěte se, že máte nejnovější verzi aplikace Polly a zkuste to znovu.</string>
     <!-- Text displayed when a backup file exceeds the storage limit during upload. -->
     <string name="BackupStatusRow__backup_file_too_large">Počet vašich zpráv překračuje limit úložiště. Odstraňte některé zprávy a zkuste to znovu.</string>
     <!-- Text displayed when we\'re not backing up all messages. The placeholder represents the cutoff date for the messages we\'re backing up. -->
@@ -7856,9 +7856,9 @@
     <!-- Setting description for syncing automated chat limit trimming (deleting messages automatically by length or date) to linked devices -->
     <string name="ManageStorageSettingsFragment_apply_limits_description">Pokud jsou limity chatu povoleny, budou se mazat i zprávy z propojených zařízení.</string>
     <!-- Setting section title header for storage optimization -->
-    <string name="ManageStorageSettingsFragment__on_device_storage">Úložiště Molly</string>
+    <string name="ManageStorageSettingsFragment__on_device_storage">Úložiště Polly</string>
     <!-- Setting row title for storage optimization -->
-    <string name="ManageStorageSettingsFragment__optimize_on_device_storage">Optimalizovat úložiště Molly</string>
+    <string name="ManageStorageSettingsFragment__optimize_on_device_storage">Optimalizovat úložiště Polly</string>
     <!-- Setting row explanation for storage optimization -->
     <string name="ManageStorageSettingsFragment__unused_media_will_be_offloaded">Nepoužívaná média budou odložena, ale můžete si je kdykoli stáhnout ze zálohy.</string>
     <!-- Dialog message for paid tier pending dialog -->
@@ -7866,7 +7866,7 @@
     <!-- Title of a dialog shown when turning on "Optimize Signal storage" while on-device backups are enabled -->
     <string name="ManageStorageSettingsFragment__media_will_be_removed_from_your_on_device_backup">Ze zálohy ve vašem zařízení budou odebrána média</string>
     <!-- Body of a dialog shown when turning on "Optimize Signal storage" while on-device backups are enabled -->
-    <string name="ManageStorageSettingsFragment__turning_on_optimize_signal_storage_will_offload">Zapnutím funkce Optimalizovat úložiště Molly dojde k odložení starších médií z vašeho zařízení. Kdykoliv si je můžete opět stáhnout. Tím se stará média odeberou i ze zálohy ve vašem zařízení.</string>
+    <string name="ManageStorageSettingsFragment__turning_on_optimize_signal_storage_will_offload">Zapnutím funkce Optimalizovat úložiště Polly dojde k odložení starších médií z vašeho zařízení. Kdykoliv si je můžete opět stáhnout. Tím se stará média odeberou i ze zálohy ve vašem zařízení.</string>
     <!-- Dialog action to confirm turning on "Optimize Signal storage" -->
     <string name="ManageStorageSettingsFragment__turn_on">Zapnout</string>
 
@@ -8032,7 +8032,7 @@
     <!-- Displays the date the subscription expired. Placeholder is the date. -->
     <string name="RemoteBackupsSettingsFragment__expired_on_s">Vypršelo dne %1$s</string>
     <!-- Displayed at the top of the screen when no backup is currently enabled -->
-    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Zálohujte si historii zpráv. Už nikdy nepřijdete o data, když si pořídíte nový telefon nebo přeinstalujete aplikaci Molly.</string>
+    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Zálohujte si historii zpráv. Už nikdy nepřijdete o data, když si pořídíte nový telefon nebo přeinstalujete aplikaci Polly.</string>
     <!-- Section header for other ways to back up -->
     <string name="RemoteBackupsSettingsFragment__other_ways_to_backup">Další způsoby zálohování</string>
     <!-- Row title for performing on-device backup -->
@@ -8270,7 +8270,7 @@
     <!-- Screen body shown when upgrading on-device backups to a new recovery key (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__local_backup_upgrade_description_bold">Tento klíč nahradí záložní klíč v zařízení.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 1). -->
-    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">Váš klíč pro obnovení je 64místný kód, který vám umožní obnovit zálohy při opětovné instalaci aplikace Molly.</string>
+    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">Váš klíč pro obnovení je 64místný kód, který vám umožní obnovit zálohy při opětovné instalaci aplikace Polly.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description_bold">Jedná se o stejný klíč, jako je váš klíč pro obnovení v zařízení.</string>
     <!-- Screen body shown when enabling on-device backups while Signal Secure Backups are already enabled (part 2, bolded). -->
@@ -8308,7 +8308,7 @@
     <!-- Dialog message shown when there is an error saving the recovery key because no compatible password manager was detected. -->
     <string name="MessageBackupsKeyRecordScreen__missing_password_manager_message">Nemáte nastaveného správce hesel nebo vámi používaný správce hesel není podporován.</string>
     <!-- Dialog message shown when there is an error saving the recovery key because the user previously chose not to save Signal passwords to their password manager. -->
-    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Dříve jste se rozhodli neukládat hesla pro aplikaci Molly do Správce hesel. V nastavení Správce hesel odstraňte Molly z řádku Odmítnuté weby a aplikace a zkuste to znovu.</string>
+    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Dříve jste se rozhodli neukládat hesla pro aplikaci Polly do Správce hesel. V nastavení Správce hesel odstraňte Polly z řádku Odmítnuté weby a aplikace a zkuste to znovu.</string>
     <!-- Label for a button that navigates to the device settings -->
     <string name="MessageBackupsKeyRecordScreen__go_to_settings">Přejít do nastavení</string>
     <!-- Action button label -->
@@ -8316,7 +8316,7 @@
     <!-- Bottom sheet title -->
     <string name="MessageBackupsKeyRecordScreen__keep_your_key_safe">Uchovávejte svůj klíč v bezpečí</string>
     <!-- Bottom sheet subtitle -->
-    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Pokud klíč ztratíte, Molly vám s obnovením zálohy nemůže pomoct. Uložte jej na bezpečném místě a nesdělujte jej ostatním.</string>
+    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Pokud klíč ztratíte, Polly vám s obnovením zálohy nemůže pomoct. Uložte jej na bezpečném místě a nesdělujte jej ostatním.</string>
     <!-- Sheet action button label -->
     <string name="MessageBackupsKeyRecordScreen__continue">Pokračovat</string>
     <!-- Sheet secondary action button label -->
@@ -8326,13 +8326,13 @@
     <!-- Dialog title for confirming you need to disable optimized storage and download media to rotate AEP key -->
     <string name="MessageBackupsKeyRecordScreen__download_media">Stáhnout média</string>
     <!-- Dialog body for confirming you need to disable optimized storage and download media to rotate AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">Pro vytvoření nového klíče pro obnovení musíte vypnout funkci Optimalizovat úložiště Molly a počkat, dokud se vaše média nestáhnou. Jakmile se stahování dokončí, můžete vytvořit nový klíč.</string>
+    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">Pro vytvoření nového klíče pro obnovení musíte vypnout funkci Optimalizovat úložiště Polly a počkat, dokud se vaše média nestáhnou. Jakmile se stahování dokončí, můžete vytvořit nový klíč.</string>
     <!-- Action label to turn off optimized storage and download media -->
     <string name="MessageBackupsKeyRecordScreen__turn_off_and_download">Vypnout a stáhnout</string>
     <!-- Bottom Sheet title for creating a new AEP key -->
     <string name="MessageBackupsKeyRecordScreen__create_a_new_backup_key">Vytvořit nový klíč pro obnovení</string>
     <!-- Bottom Sheet body for creating a new AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">Vytvoření nového klíče je nutné pouze v případě, že váš klíč zná někdo jiný. Budete muset znovu nahrát svou zálohu včetně médií. Pokud používáte funkci Optimalizovat úložiště Molly, budete muset nejprve stáhnout odložená média.</string>
+    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">Vytvoření nového klíče je nutné pouze v případě, že váš klíč zná někdo jiný. Budete muset znovu nahrát svou zálohu včetně médií. Pokud používáte funkci Optimalizovat úložiště Polly, budete muset nejprve stáhnout odložená média.</string>
     <!-- Dialog title shown when user attempts to exit backup setup before completion -->
     <string name="MessageBackupsKeyRecordScreen__exit_backup_setup">Ukončit nastavení zálohování?</string>
     <!-- Dialog body warning user that backup setup is incomplete -->
@@ -8459,7 +8459,7 @@
     <!-- ConfirmBackupCancellationDialog -->
 
     <!-- Email subject when contacting support on a create backup failure -->
-    <string name="BackupAlertBottomSheet_network_failure_support_email">Chyba sítě při exportu zálohy Molly Android</string>
+    <string name="BackupAlertBottomSheet_network_failure_support_email">Chyba sítě při exportu zálohy Polly Android</string>
     <!-- Email filter when contacting support on a create backup failure -->
   <!-- Removed by excludeNonTranslatables <string name="BackupAlertBottomSheet_export_failure_filter" translatable="false">Android SignalBackups Export Failed</string> -->
 
@@ -8489,7 +8489,7 @@
     <!-- Old device Transfer account bottom sheet dialog body -->
     <string name="TransferAccount_continue_on_your_other_device_details">Pokračujte v přenosu účtu do druhého zařízení.</string>
     <!-- Old device Transfer account error dialog body shown when the new device is too old to accept an account that has no phone number -->
-    <string name="TransferAccount_the_device_you_are_transferring_to_is_out_of_date">Zařízení, do kterého přenášíte data, má zastaralou verzi. Aktualizujte v daném zařízení aplikaci Molly a zkuste to znovu.</string>
+    <string name="TransferAccount_the_device_you_are_transferring_to_is_out_of_date">Zařízení, do kterého přenášíte data, má zastaralou verzi. Aktualizujte v daném zařízení aplikaci Polly a zkuste to znovu.</string>
 
     <!-- Prepare Device screen title for quick restore flow -->
     <string name="PrepareDevice_title">Příprava zařízení</string>
@@ -8565,7 +8565,7 @@
     <!-- Notification title for when user is out of remote storage -->
     <string name="Notification_backup_storage_full">Úložiště pro zálohy je plné</string>
     <!-- Notification body for when user is out of remote storage -->
-    <string name="Notification_youve_reached_your_backup_storage_limit">Dosáhli jste limitu úložiště pro zálohy. Uvolněte v aplikaci Molly místo a pokračujte v zálohování chatů a médií.</string>
+    <string name="Notification_youve_reached_your_backup_storage_limit">Dosáhli jste limitu úložiště pro zálohy. Uvolněte v aplikaci Polly místo a pokračujte v zálohování chatů a médií.</string>
     <!-- Notification title for when initial backup failed -->
     <string name="Notification_backup_failed">Zálohování se nezdařilo</string>
     <!-- Notification body for when initial backup failed -->
@@ -8855,7 +8855,7 @@
     <string name="CouldNotCompleteBackupRestoreSheet__body_error">Došlo k chybě a zálohu nelze obnovit. Mohlo k tomu dojít proto, že se během obnovování zálohy změnilo umístění složky se zálohou ve vašem zařízení.</string>
 
     <!-- Body of the sheet shown when a local backup restore could not be completed, explaining how to try again -->
-    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">Můžete to zkusit znovu tak, že odinstalujete a znovu nainstalujete Molly v tomto zařízení a zvolíte Obnovit nebo přenést.</string>
+    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">Můžete to zkusit znovu tak, že odinstalujete a znovu nainstalujete Polly v tomto zařízení a zvolíte Obnovit nebo přenést.</string>
 
     <!-- Button on the sheet shown when a local backup restore could not be completed, opening a support article about it -->
     <string name="CouldNotCompleteBackupRestoreSheet__learn_more">Zjistit více</string>
@@ -9029,7 +9029,7 @@
     <!-- Context menu entry that copies a shared contact detail to the clipboard -->
     <string name="SharedContactDetailsScreen__copy">Kopírovat</string>
     <!-- Row that invites a shared contact who is not yet on Signal -->
-    <string name="SharedContactDetailsScreen__invite_to_signal">Pozvat do Molly</string>
+    <string name="SharedContactDetailsScreen__invite_to_signal">Pozvat do Polly</string>
     <!-- Row that saves a shared contact into the device address book -->
     <string name="SharedContactDetailsScreen__add_to_phone_contacts">Přidat do telefonních kontaktů</string>
     <!-- Row that adds a shared contact to a Signal group -->
@@ -9041,14 +9041,14 @@
     <!-- Toast shown when there is no map app to open a shared address in -->
     <string name="SharedContactDetailsScreen__couldnt_open_maps">Mapy nejde otevřít</string>
     <!-- Subject line of an email invitation to Signal -->
-    <string name="SharedContactDetailsScreen__join_me_on_signal">Připoj se ke mně v aplikaci Molly</string>
+    <string name="SharedContactDetailsScreen__join_me_on_signal">Připoj se ke mně v aplikaci Polly</string>
 
     <!-- Title of the bottom sheet that confirms the user wants a brand new recovery key. -->
     <string name="ResetRecoveryKeyBottomSheet__reset_your_recovery_key">Resetování klíče pro obnovení</string>
     <!-- First paragraph of the bottom sheet body, explaining what a reset does. -->
     <string name="ResetRecoveryKeyBottomSheet__resetting_your_recovery_key_will_create_a_new_key">Resetováním klíče pro obnovení se vytvoří nový klíč pro váš Signal Login. Tento krok je nutný pouze v případě, že váš klíč zná někdo jiný.</string>
     <!-- Second paragraph of the bottom sheet body, explaining what a reset means for backups. -->
-    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">Pokud máte zapnuté zálohy, budete muset znovu nahrát zálohu včetně médií. Pokud používáte funkci Optimalizovat úložiště Molly, budete muset nejprve stáhnout odložená média.</string>
+    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">Pokud máte zapnuté zálohy, budete muset znovu nahrát zálohu včetně médií. Pokud používáte funkci Optimalizovat úložiště Polly, budete muset nejprve stáhnout odložená média.</string>
     <!-- Bottom sheet action that continues on to reset the recovery key. -->
     <string name="ResetRecoveryKeyBottomSheet__continue">Pokračovat</string>
     <!-- Dialog body shown when the recovery key change limit is exhausted and the user does not have backups enabled. -->

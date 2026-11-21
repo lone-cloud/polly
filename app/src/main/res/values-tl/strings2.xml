@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="prompt_passphrase_activity__molly_is_locked">Naka-lock ang Molly</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Naka-lock ang Polly</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Ang Google Play Services ay nag-u-update o kaya\'y pansamantalang hindi available. Pakisubukang muli.</string>
     <string name="please_wait">Please wait…</string>
     <string name="NotificationsSettingsFragment__notify_when">Mag-notify kapag…</string>

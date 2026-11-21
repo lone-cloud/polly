@@ -3,7 +3,6 @@
 !.idea/codeStyles
 !.idea/copyright
 local.properties
-prebuilts
 **/.gradle
 **/build
 reproducible-builds/certs
