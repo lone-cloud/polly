@@ -96,6 +96,12 @@ jobs:
 
           # --- Targeted patches on Molly's files (NOT whole-file copies) ---
 
+          # Dockerfile: drop the prebuilt-dependency overlay. Molly v8.34 uses
+          # `COPY --from=${LOA_DEP_*}`, which current BuildKit rejects ("variable expansion
+          # is not supported for --from"); Molly's own v8.34.2-1 release build failed on this.
+          # Polly doesn't supply prebuilt dependencies, so the overlay is a no-op.
+          sed -i '/^ARG LOA_DEP_LIBSIGNAL=/d; /^COPY --from=\${LOA_DEP_LIBSIGNAL} /d; /^ARG LOA_DEP_RINGRTC=/d; /^COPY --from=\${LOA_DEP_RINGRTC} /d' Dockerfile
+
           # app/build.gradle.kts: Polly-specific changes
           sed -i 's/abiFilters += listOf(.*)/abiFilters += listOf("arm64-v8a")/' app/build.gradle.kts
           sed -i '/buildConfigField("boolean", "TRACING_ENABLED", "false")/a\    buildConfigField("boolean", "USE_STRING_ID", "false")\n    buildConfigField("boolean", "SHOW_DONATIONS", "false")\n    buildConfigField("boolean", "SHOW_HELP", "false")\n    buildConfigField("boolean", "HIDE_FCM_OPTION", "true")\n    buildConfigField("boolean", "HIDE_STORIES", "true")' app/build.gradle.kts
@@ -186,6 +192,7 @@ jobs:
           require app/gradle.properties '^baseAppTitle=Polly'
           require app/gradle.properties '^baseAppFileName=Polly'
           require app/gradle.properties '^basePackageId=im.polly.app'
+          forbid Dockerfile 'LOA_DEP_'
 
           forbid "$app_settings_screen" 'AppSettingsTestTags.ROW_DONATE'
           forbid "$app_settings_screen" 'AppSettingsTestTags.ROW_STORIES'
