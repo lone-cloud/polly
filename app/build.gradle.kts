@@ -13,7 +13,7 @@ plugins {
 
 val canonicalVersionCode = 1775
 val canonicalVersionName = "8.34.2"
-val currentHotfixVersion = 0
+val currentHotfixVersion = 1
 val maxHotfixVersions = 100
 val mollyRevision = 1
 
