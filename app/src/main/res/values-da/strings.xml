@@ -31,7 +31,7 @@
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Molly opdaterer …</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">Polly opdaterer …</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">Fejl ved oprettelse af forbindelse til serveren!</string>
@@ -77,7 +77,7 @@
     <string name="AttachmentKeyboard_location">Placering</string>
     <!-- Text for a button that will allow users to create a poll -->
     <string name="AttachmentKeyboard_poll">Meningsmåling</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Molly skal have tilladelse til at vise dine billeder og videoer</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Polly skal have tilladelse til at vise dine billeder og videoer</string>
     <!-- Text for a button prompting users to allow Signal access to their gallery storage -->
     <string name="AttachmentKeyboard_allow_access">Tillad adgang</string>
     <string name="AttachmentKeyboard_payment">Betaling</string>
@@ -88,34 +88,34 @@
     <!-- Option in menu to go to settings -->
     <string name="AttachmentKeyboard_go_to_settings">Gå til Indstillinger</string>
     <!-- Text explaining that Signal has limited access to photos -->
-    <string name="AttachmentKeyboard_signal_has_limited_access">Molly har begrænset adgang til billeder eller videoer</string>
+    <string name="AttachmentKeyboard_signal_has_limited_access">Polly har begrænset adgang til billeder eller videoer</string>
     <!-- Text shown when user has given no photos for Signal to access and an explanation on how to change those permissions -->
     <string name="AttachmentKeyboard_no_photos_found">Ingen billeder fundet – vælg billeder og videoer, der skal vises her, eller skift tilladelser</string>
 
     <!-- MediaGalleryFragment -->
     <!-- Text describing that no photos or videos are currently found in the gallery and that Signal can only access media that the user allows -->
-    <string name="MediaGalleryFragment__no_photos_found">Ingen billeder eller videoer fundet. Molly har kun adgang til dine valgte billeder og videoer.</string>
+    <string name="MediaGalleryFragment__no_photos_found">Ingen billeder eller videoer fundet. Polly har kun adgang til dine valgte billeder og videoer.</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Kan ikke finde en app til valg af mediefil.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Molly beder om tilladelse til at tilgå din lagerplads, for at kunne vedhæfte billeder, videoer eller lydfiler, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Lagerplads\".</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Molly beder om tilladelse til at tilgå dine kontakter, for at kunne vedhæfte kontaktinformation, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Kontakter\".</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Molly beder om tilladelse til at tilgå din placering, for at kunne vedhæfte placeringer, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Placering\".</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Polly beder om tilladelse til at tilgå din lagerplads, for at kunne vedhæfte billeder, videoer eller lydfiler, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Lagerplads\".</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Polly beder om tilladelse til at tilgå dine kontakter, for at kunne vedhæfte kontaktinformation, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Kontakter\".</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Polly beder om tilladelse til at tilgå din placering, for at kunne vedhæfte placeringer, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Placering\".</string>
 
     <!-- Dialog title asking users for location permission -->
     <string name="AttachmentManager_signal_allow_access_location">Tillad adgang til din placering</string>
     <!-- Dialog description that will explain the steps needed to give location permission -->
     <string name="AttachmentManager_signal_to_send_location">For at sende din placering:</string>
     <!-- Alert dialog description asking for location permission -->
-    <string name="AttachmentManager_signal_allow_signal_access_location">Giv Molly tilladelse til at sende din placering.</string>
+    <string name="AttachmentManager_signal_allow_signal_access_location">Giv Polly tilladelse til at sende din placering.</string>
     <!-- Toast text explaining Signal\'s need for location access -->
-    <string name="AttachmentManager_signal_needs_location_access">Molly skal bruge adgang til din placering for at sende din placering.</string>
+    <string name="AttachmentManager_signal_needs_location_access">Polly skal bruge adgang til din placering for at sende din placering.</string>
     <!-- Dialog title asking users for gallery storage permission -->
     <string name="AttachmentManager_signal_allow_storage">Tillad adgang til lager</string>
     <!-- Dialog description that will explain the steps needed to give gallery storage permission -->
     <string name="AttachmentManager_signal_to_show_photos">Sådan viser du billeder og video:</string>
     <!-- Toast text explaining Signal\'s need for storage access -->
-    <string name="AttachmentManager_signal_needs_storage_access">Molly skal have adgang for at vise dine billeder og videoer.</string>
+    <string name="AttachmentManager_signal_needs_storage_access">Polly skal have adgang for at vise dine billeder og videoer.</string>
 
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s har ikke aktiveret betalinger </string>
@@ -268,12 +268,12 @@
     <string name="CensorshipCircumventionMegaphone_no_thanks">Nej tak</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Opdater Molly</string>
+    <string name="ClientDeprecatedActivity_update_signal">Opdater Polly</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Denne version af appen understøttes ikke længere. Opdatér til den nyeste version for at fortsætte med at sende og modtage beskeder.</string>
     <string name="ClientDeprecatedActivity_update">Opdatér</string>
     <string name="ClientDeprecatedActivity_dont_update">Opdatér ikke</string>
     <string name="ClientDeprecatedActivity_warning">Advarsel</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Din Molly-version er udløbet. Du kan se din meddelelseshistorik, men du kan ikke sende eller modtage beskeder, før du opdaterer.</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Din Polly-version er udløbet. Du kan se din meddelelseshistorik, men du kan ikke sende eller modtage beskeder, før du opdaterer.</string>
 
     <!-- ClockSkewActivity -->
     <!-- Title of the full-screen dialog shown when the device clock is too far off from the real time -->
@@ -305,7 +305,7 @@
     <!-- Title on dialog when quick restore qr code is scanned in system camera -->
     <string name="CommunicationActions__transfer_dialog_title">Vil du overføre kontoen til en ny enhed?</string>
     <!-- Message on dialog when quick restore qr code is scanned in system camera -->
-    <string name="CommunicationActions__transfer_dialog_message">Tryk på \"Fortsæt\", og scan QR-koden igen med Molly-kameraet for at overføre kontoen til en ny enhed. Sørg for kun at scanne QR-koder, der kommer direkte fra Molly.</string>
+    <string name="CommunicationActions__transfer_dialog_message">Tryk på \"Fortsæt\", og scan QR-koden igen med Polly-kameraet for at overføre kontoen til en ny enhed. Sørg for kun at scanne QR-koder, der kommer direkte fra Polly.</string>
     <string name="CommunicationActions__dont_transfer">Overfør ikke</string>
 
     <!-- ConfirmIdentityDialog -->
@@ -329,8 +329,8 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">Besked %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">Molly-taleopkald %1$s</string>
-    <string name="ContactsDatabase_signal_video_call_s">Molly-videoopkald %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">Polly-taleopkald %1$s</string>
+    <string name="ContactsDatabase_signal_video_call_s">Polly-videoopkald %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -441,10 +441,10 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="ConversationActivity_signal_to_send_audio_messages">Sådan sender du talebeskeder:</string>
     <!-- Alert dialog description asking for microphone permission in order to send voice messages -->
-    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Hvis du vil sende talebeskeder, skal du give Molly tilladelse til at tilgå mikrofonen.</string>
+    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Hvis du vil sende talebeskeder, skal du give Polly tilladelse til at tilgå mikrofonen.</string>
     <!-- Toast text explaining Signal\'s need for microphone access -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Molly skal bruge adgang til din mikrofon for at optage en talebesked.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Molly beder om tilladelse til at tilgå mikrofonen for at kunne sende lydfiler, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Mikrofon\".</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Polly skal bruge adgang til din mikrofon for at optage en talebesked.</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Polly beder om tilladelse til at tilgå mikrofonen for at kunne sende lydfiler, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Mikrofon\".</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s%2$s</string>
     <string name="ConversationActivity_search_position">%1$d af %2$d</string>
@@ -464,9 +464,9 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions for a voice call -->
     <string name="ConversationActivity__to_start_call">For at starte et opkald:</string>
     <!-- Alert dialog description asking for microphone permission in order to start a voice call -->
-    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Hvis du vil besvare opkaldet, skal du give Molly adgang til din mikrofon.</string>
+    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Hvis du vil besvare opkaldet, skal du give Polly adgang til din mikrofon.</string>
     <!-- Toast text explaining Signal\'s need for microphone access for a voice call -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Molly skal bruge adgang til din mikrofon for at starte et opkald.</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Polly skal bruge adgang til din mikrofon for at starte et opkald.</string>
 
 
     <string name="ConversationActivity_join">Deltag</string>
@@ -476,15 +476,15 @@
     <string name="ConversationActivity_error_sending_media">Fejl ved afsendelse af mediefil</string>
 
     <!-- Message shown when opening an MMS group conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">Sms-beskeder understøttes ikke længere i Molly.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">Sms-beskeder understøttes ikke længere i Polly.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Sms-beskeder understøttes ikke længere i Signal. Invitér %1$s til Signal for at holde samtalen her.</string>
     <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
-    <string name="ConversationActivity__this_person_is_no_longer_using_signal">Denne person bruger ikke længere Molly. Invitér dem til Molly for at fortsætte samtalen her.</string>
+    <string name="ConversationActivity__this_person_is_no_longer_using_signal">Denne person bruger ikke længere Polly. Invitér dem til Polly for at fortsætte samtalen her.</string>
     <!-- Message shown when opening a conversation with an unregistered user who is not on Signal -->
     <string name="ConversationActivity__this_person_is_not_using_signal">Denne person bruger ikke Signal. Invitér dem for at holde samtalen her.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__invite_to_signal">Inviter til Molly</string>
+    <string name="ConversationActivity__invite_to_signal">Inviter til Polly</string>
     <!-- Toast message shown when trying to record a voice message during an ongoing call -->
     <string name="ConversationFragment_cannot_record_voice_message_during_call">Det er ikke muligt at optage en talebesked under opkald.</string>
 
@@ -577,7 +577,7 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">Blokering</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">Opdater Molly</string>
+    <string name="ConversationFragment__update_build">Opdater Polly</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
     <string name="ConversationFragment__reregister_signal">Genregistrering af signal</string>
     <!-- Action shown in the conversation input area to allow a user to re-link this device as it is no longer linked -->
@@ -585,7 +585,7 @@
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">Gå tilbage.</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Åbn Molly</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">Åbn Polly</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">Ikke længere verificeret</string>
     <!-- Button shown in conversation header when in a message request state and no groups in common to show new message safety tips -->
@@ -632,7 +632,7 @@
     <!-- Title of the dialog shown when re-requesting an expired attachment from your primary device fails -->
     <string name="ConversationFragment_attachment_backfill_failed_title">Kan ikke downloade medie</string>
     <!-- Body of the dialog shown when your phone didn\'t respond to a request to re-send an expired attachment -->
-    <string name="ConversationFragment_attachment_backfill_timeout">Tjek internetforbindelsen på denne enhed og din telefon. Åbn Molly på din telefon, og prøv så at downloade igen.</string>
+    <string name="ConversationFragment_attachment_backfill_timeout">Tjek internetforbindelsen på denne enhed og din telefon. Åbn Polly på din telefon, og prøv så at downloade igen.</string>
     <!-- Body of the dialog shown when your phone no longer has the attachment you tried to download -->
     <string name="ConversationFragment_attachment_backfill_not_found">Dette medie er ikke længere tilgængeligt på din telefon og kan ikke downloades.</string>
     <!-- Dialog for how to long to keep a messaged pinned for -->
@@ -702,7 +702,7 @@
     <!-- Bottom sheet text explaining that profile names are chosen by the account holder. Placeholder will be \'Profile names\' -->
     <string name="ProfileNameBottomSheet__profile_names_on_signal">%1$s på Signal vælges af kontoens indehaver.</string>
     <!-- Bottom sheet text explaining that Signal can\'t verify names and photos -->
-    <string name="ProfileNameBottomSheet__signal_cant_verify">Molly kan ikke verificere navne og billeder</string>
+    <string name="ProfileNameBottomSheet__signal_cant_verify">Polly kan ikke verificere navne og billeder</string>
     <!-- Bottom sheet text explaining that Signal will never contact you for registration code, PIN, or recovery key -->
     <string name="ProfileNameBottomSheet__signal_will_never_contact">Signal kontakter dig aldrig for at bede om din registreringskode, pinkode eller gendannelsesnøgle</string>
     <!-- Bottom sheet text explaining that accounts can impersonate other people and to be cautious -->
@@ -844,9 +844,9 @@
     <!-- Toolbar title for this screen -->
     <string name="WhoCanSeeMyPhoneNumberFragment__who_can_find_me_by_number">Hvem kan finde mig med mit nummer?</string>
     <!-- Description for radio item stating anyone can see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">Alle, der har dit telefonnummer, kan se, at du er på Molly, og de kan starte en chat med dig.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">Alle, der har dit telefonnummer, kan se, at du er på Polly, og de kan starte en chat med dig.</string>
     <!-- Description for radio item stating no one will be able to see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">Ingen vil kunne se, at du er på Molly, medmindre du sender dem en besked eller har en eksisterende chat med dem.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">Ingen vil kunne se, at du er på Polly, medmindre du sender dem en besked eller har en eksisterende chat med dem.</string>
 
     <!-- ChooseBackupFragment -->
 
@@ -872,7 +872,7 @@
     <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Test din adgangssætning for sikkerhedskopi og bekræft, at den matcher</string>
     <string name="BackupsPreferenceFragment__turn_on">Slå sikkerhedskopier til</string>
     <string name="BackupsPreferenceFragment__turn_off">Deaktiver</string>
-    <string name="BackupsPreferenceFragment__to_restore_a_backup">"For at gendanne fra sikkerhedskopi skal du installere Molly igen. Åbn appen og tryk på \"Gendan sikkerhedskopi.\" Vælg derefter en sikkerhedskopifil. %1$s"</string>
+    <string name="BackupsPreferenceFragment__to_restore_a_backup">"For at gendanne fra sikkerhedskopi skal du installere Polly igen. Åbn appen og tryk på \"Gendan sikkerhedskopi.\" Vælg derefter en sikkerhedskopifil. %1$s"</string>
     <string name="BackupsPreferenceFragment__learn_more">Læs mere</string>
     <string name="BackupsPreferenceFragment__in_progress">I gang …</string>
     <!-- Status text shown in backup preferences when verifying a backup -->
@@ -881,7 +881,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">%1$d indtil videre …</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">%1$s%% indtil videre…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Molly beder om tilladelse til at tilgå ekstern lagerplads for at oprette sikkerhedskopier, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Lagerplads\".</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Polly beder om tilladelse til at tilgå ekstern lagerplads for at oprette sikkerhedskopier, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Lagerplads\".</string>
     <!-- Title of dialog shown when picking the time to perform a chat backup -->
     <string name="BackupsPreferenceFragment__set_backup_time">Indstil tidspunkt for sikkerhedskopiering</string>
 
@@ -959,7 +959,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">Chatsession genindlæst</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Molly bruger E2E-kryptering, og det kan undertiden være nødvendigt at genopfriske din chatsession. Dette påvirker ikke din chats sikkerhed, men du har muligvis gået glip af en besked fra denne kontakt, og du kan bede vedkommende om at sende den igen.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Polly bruger E2E-kryptering, og det kan undertiden være nødvendigt at genopfriske din chatsession. Dette påvirker ikke din chats sikkerhed, men du har muligvis gået glip af en besked fra denne kontakt, og du kan bede vedkommende om at sende den igen.</string>
 
     <!-- LinkDeviceFragment -->
     <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
@@ -1068,7 +1068,7 @@
     <!-- Bottom sheet title telling users to complete the linking process on the other device  -->
     <string name="AddLinkDeviceFragment__finish_linking_on_other_device">Færdiggør oprettelsen af forbindelse på din anden enhed</string>
     <!-- Bottom sheet description telling users to complete the linking process -->
-    <string name="AddLinkDeviceFragment__finish_linking_signal">Færdiggør oprettelsen af forbindelse til Molly på din anden enhed.</string>
+    <string name="AddLinkDeviceFragment__finish_linking_signal">Færdiggør oprettelsen af forbindelse til Polly på din anden enhed.</string>
     <!-- Title of dialog when the QR code being scanned is invalid -->
     <string name="AddLinkDeviceFragment__linking_device_failed">Tilkobling af ny enhed mislykkedes</string>
     <!-- Text shown in a dialog when the QR code being scanned is invalid -->
@@ -1113,19 +1113,19 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">Optimér for manglende Play Services</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Enheden understøtter ikke Play Services. Tryk for at slå batterioptimering fra, som forhindrer Molly i at modtage beskeder i baggrunden.</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Enheden understøtter ikke Play Services. Tryk for at slå batterioptimering fra, som forhindrer Polly i at modtage beskeder i baggrunden.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Denne version af Molly er udløbet. Opdatér nu for at sende og modtage beskeder.</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Denne version af Polly er udløbet. Opdatér nu for at sende og modtage beskeder.</string>
     <string name="ExpiredBuildReminder_update_now">Opdatér nu</string>
 
     <!-- A message in a banner shown at the top of the screen indicating that the user must upgrade their device to use signal. -->
-    <string name="DeprecatedSdkBanner_body">Molly virker ikke længere på denne enhed. For at bruge Molly igen skal du opdatere din enhed til en nyere version af Android eller skifte til en nyere enhed.</string>
+    <string name="DeprecatedSdkBanner_body">Polly virker ikke længere på denne enhed. For at bruge Polly igen skal du opdatere din enhed til en nyere version af Android eller skifte til en nyere enhed.</string>
 
     <!-- Title of notification telling users to update Signal -->
-    <string name="DeprecatedNotificationJob_update_signal">Opdater Molly</string>
+    <string name="DeprecatedNotificationJob_update_signal">Opdater Polly</string>
     <!-- Message body of notification telling users that this current version of Signal has expired. If pressed, we will direct them to the website APK or PlayStore page -->
-    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Denne version af Molly er udløbet. Tryk for at opdatere, så du kan sende og modtage beskeder.</string>
+    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Denne version af Polly er udløbet. Tryk for at opdatere, så du kan sende og modtage beskeder.</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
     <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -1259,7 +1259,7 @@
     <!-- Message for dialog asking user to submit logs for debugging a crash -->
     <string name="PromptLogsSlowNotificationsDialog__message">Fejlretningslogs hjælper os med at diagnosticere og fikse problemet, og de indeholder ikke identificerende oplysninger.</string>
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
-    <string name="PromptLogsSlowNotificationsDialog__title_crash">Molly stødte på et problem. Indsend fejlretningslog?</string>
+    <string name="PromptLogsSlowNotificationsDialog__title_crash">Polly stødte på et problem. Indsend fejlretningslog?</string>
     <!-- Title for dialog asking user to submit logs for a situation where they\'re not able to connect to the signal service -->
     <string name="PromptLogsSlowNotificationsDialog__title_connectivity_warning">Du modtager muligvis ikke beskeder. Vil du indsende fejlsøgningslog?</string>
 
@@ -1267,12 +1267,12 @@
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
     <string name="PromptBatterySaverBottomSheet__title">Notifikationer kan være forsinkede på grund af batterioptimering</string>
     <!-- Message explaining that battery saver may delay notifications -->
-    <string name="PromptBatterySaverBottomSheet__message">Du kan slå batterioptimering i Molly fra for at sikre, at beskednotifikationer ikke bliver forsinkede.</string>
+    <string name="PromptBatterySaverBottomSheet__message">Du kan slå batterioptimering i Polly fra for at sikre, at beskednotifikationer ikke bliver forsinkede.</string>
 
     <!-- Title in bottom sheet that states that notifications for this device could be delayed -->
     <string name="DeviceSpecificNotificationBottomSheet__notifications_may_be_delayed">Notifikationer kan være forsinkede på grund af batterioptimering</string>
     <!-- Message in bottom sheet prompting users to fix potential issues by disabling battery optimizations -->
-    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Deaktiver batterioptimering i Molly for at sikre, at beskednotifikationer ikke bliver forsinkede. Tryk på \"Fortsæt\" for at se enhedsspecifikke instruktioner.</string>
+    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Deaktiver batterioptimering i Polly for at sikre, at beskednotifikationer ikke bliver forsinkede. Tryk på \"Fortsæt\" for at se enhedsspecifikke instruktioner.</string>
     <!-- Button to dismiss notification help prompt -->
     <string name="DeviceSpecificNotificationBottomSheet__no_thanks">Nej tak</string>
     <!-- Button to continue and go to Signal support website -->
@@ -1281,7 +1281,7 @@
     <!-- Title of a bottom sheet that is shown when the user is having connectivity issues -->
     <string name="ConnectivityWarningBottomSheet_title">Du modtager muligvis ikke beskeder</string>
     <!-- Body of a bottom sheet that is shown when the user is having connectivity issues -->
-    <string name="ConnectivityWarningBottomSheet_body">Genstart af enheden kan hjælpe med at løse problemet med levering af beskeder. Hvis problemet fortsætter, skal du kontakte Molly-support.</string>
+    <string name="ConnectivityWarningBottomSheet_body">Genstart af enheden kan hjælpe med at løse problemet med levering af beskeder. Hvis problemet fortsætter, skal du kontakte Polly-support.</string>
     <!-- Text for a button in a bottom sheet that is shown when the user is having connectivity issues. Clicking it will dismiss the bottom sheet. -->
     <string name="ConnectivityWarningBottomSheet_dismiss_button">Forstået</string>
 
@@ -1468,9 +1468,9 @@
     </plurals>
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Opdatér Molly for at bruge gruppelinks</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Molly-versionen som du anvender, understøtter ikke gruppelinket. Opdater til den nyeste version for at tilslutte dig denne gruppe via linket.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Opdatér Molly</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Opdatér Polly for at bruge gruppelinks</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Polly-versionen som du anvender, understøtter ikke gruppelinket. Opdater til den nyeste version for at tilslutte dig denne gruppe via linket.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Opdatér Polly</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Gruppelink er ikke gyldigt</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -1516,7 +1516,7 @@
     <string name="LongMessageActivity_your_message">Din besked</string>
 
     <!-- MessageRetrievalService -->
-    <string name="MessageRetrievalService_signal">Molly</string>
+    <string name="MessageRetrievalService_signal">Polly</string>
     <string name="MessageRetrievalService_background_connection_enabled">Baggrundsforbindelse aktiveret</string>
 
     <!-- MediaOverviewActivity -->
@@ -1608,10 +1608,10 @@
   <!-- Removed by excludeNonTranslatables <string name="StarredMessages__s_chevron_s" translatable="false">%1$s \u203A %2$s</string> -->
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Foretager Molly-opkald</string>
+    <string name="NotificationBarManager__establishing_signal_call">Foretager Polly-opkald</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Starter Molly opringning</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Molly-opkaldstjeneste stopper</string>
+    <string name="NotificationBarManager__starting_signal_call_service">Starter Polly opringning</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">Polly-opkaldstjeneste stopper</string>
     <string name="NotificationBarManager__cancel_call">Afbryd opkald</string>
 
     <!-- NotificationsMegaphone -->
@@ -1942,7 +1942,7 @@
     </plurals>
 
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Du kan ikke længere sende sms-beskeder i Molly. Invitér %1$s til Molly for at holde samtalen her.</string>
+    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Du kan ikke længere sende sms-beskeder i Polly. Invitér %1$s til Polly for at holde samtalen her.</string>
     <!-- Body for quote when message being quoted is an in-app payment message -->
     <string name="MessageRecord__payment_s">Betaling: %1$s</string>
     <!-- Body for quote when message being quoted is an in-app payment message tombstone without an amount -->
@@ -2057,20 +2057,20 @@
     <string name="DeviceProvisioningActivity_link_a_signal_device">Tilknyt en Signal-enhed?</string>
     <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">For at tilknytte en computer eller iPad til denne Signal-konto skal du gå til Forbundne enheder, trykke på \"Tilknyt en ny enhed\", og scanne QR-koden igen. Sørg for kun at scanne QR-koder, der kommer direkte fra Signal.</string>
 
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Denne version af Molly udløber i dag. Opdatér til den nyeste version.</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Denne version af Polly udløber i dag. Opdatér til den nyeste version.</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="one">Denne version af Molly udløber i morgen. Opdatér til den nyeste version</item>
-        <item quantity="other">Denne version af Molly udløber om %1$d dage. Opdatér til den nyeste version</item>
+        <item quantity="one">Denne version af Polly udløber i morgen. Opdatér til den nyeste version</item>
+        <item quantity="other">Denne version af Polly udløber om %1$d dage. Opdatér til den nyeste version</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Indtast adgangssætning</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Molly-ikon</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Polly-ikon</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Tilføj adgangssætning</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Ugyldig adgangssætning!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Lås Molly op</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Lås Polly op</string>
     <!-- This is the subject line for the email that is sent to support -->
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Molly Android - Låseskærm</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Polly Android - Låseskærm</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Kort</string>
@@ -2096,7 +2096,7 @@
         <item quantity="one">Du har %1$d forsøg tilbage. Hvis du løber tør for forsøg, kan du oprette en ny pinkode. Du kan registrere og bruge din konto, men du mister nogle gemte indstillinger som dine profiloplysninger.</item>
         <item quantity="other">Du har %1$d forsøg tilbage. Hvis du løber tør for forsøg, kan du oprette en ny pinkode. Du kan registrere og bruge din konto, men du mister nogle gemte indstillinger som dine profiloplysninger.</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Molly registrering - Brug for hjælp med pinkode til Android</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Polly registrering - Brug for hjælp med pinkode til Android</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">Opret din pinkode</string>
@@ -2128,7 +2128,7 @@
 
     <!-- RecaptchaRequiredBottomSheetFragment -->
     <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">Bekræft for at fortsætte beskedskrivning</string>
-    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">For at hjælpe med at forhindre spam på Molly, skal du gennemføre bekræftelsen.</string>
+    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">For at hjælpe med at forhindre spam på Polly, skal du gennemføre bekræftelsen.</string>
     <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">Efter bekræftelse kan du fortsætte med at sende beskeder. Alle beskeder, der er sat på pause, sendes automatisk.</string>
 
     <!-- Recipient -->
@@ -2136,7 +2136,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">Min historie</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Molly-opkald</string>
+    <string name="Recipient_signal_call">Polly-opkald</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">Blokér</string>
@@ -2173,7 +2173,7 @@
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Tryk her for at starte video</string>
     <!-- Subtitle shown at top of call where %s is the elapsed time of the call -->
-    <string name="WebRtcCallActivity__signal_s">Molly %1$s</string>
+    <string name="WebRtcCallActivity__signal_s">Polly %1$s</string>
     <string name="WebRtcCallActivity__calling">Ringer op …</string>
     <!-- Title for dialog warning about lacking bluetooth permissions during a call -->
     <string name="WebRtcCallActivity__bluetooth_permission_denied">Bluetooth-tilladelse nægtet</string>
@@ -2188,7 +2188,7 @@
     <!-- Title for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
     <string name="WebRtcCallActivity__others_couldnt_hear_you">Andre kunne ikke høre dig</string>
     <!-- Message for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
-    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">Mikrofonen blev slået fra, fordi Molly kørte i baggrunden. Gå til Indstillinger, og aktivér baggrundsaktivitet under \"Batteri\"-indstillinger for at løse problemet.</string>
+    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">Mikrofonen blev slået fra, fordi Polly kørte i baggrunden. Gå til Indstillinger, og aktivér baggrundsaktivitet under \"Batteri\"-indstillinger for at løse problemet.</string>
     <!-- Title for dialog to approve all requests -->
     <plurals name="WebRtcCallActivity__approve_d_requests">
         <item quantity="one">Godkend %1$d anmodning?</item>
@@ -2238,15 +2238,15 @@
     <!-- Dialog title asking users for camera permission -->
     <string name="WebRtcCallActivity__allow_access_camera">Giv adgang til kameraet</string>
     <!-- Dialog description explaining why camera and microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__to_start_call_camera_microphone">For at starte eller deltage i et opkald skal Molly have adgang til dit kamera og din mikrofon.</string>
+    <string name="WebRtcCallActivity__to_start_call_camera_microphone">For at starte eller deltage i et opkald skal Polly have adgang til dit kamera og din mikrofon.</string>
     <!-- Dialog description explaining why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__to_start_call_microphone">For at starte eller deltage i et opkald skal Molly have adgang til din mikrofon.</string>
+    <string name="WebRtcCallActivity__to_start_call_microphone">For at starte eller deltage i et opkald skal Polly have adgang til din mikrofon.</string>
     <!-- Dialog description explaining why camera permissions are needed to enable a user\'s video in a call -->
-    <string name="WebRtcCallActivity__to_enable_video_allow_camera">For at aktivere video skal Molly have adgang til dit kamera.</string>
+    <string name="WebRtcCallActivity__to_enable_video_allow_camera">For at aktivere video skal Polly have adgang til dit kamera.</string>
     <!-- Toast describing why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Molly skal bruge adgang til mikrofon for at starte eller deltage i et opkald.</string>
+    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Polly skal bruge adgang til mikrofon for at starte eller deltage i et opkald.</string>
     <!-- Toast describing why camera permissions are needed to enable a video in a call -->
-    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">Molly skal have adgang til dit kamera for at aktivere video</string>
+    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">Polly skal have adgang til dit kamera for at aktivere video</string>
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="WebRtcCallActivity__to_start_call">For at starte eller deltage i et opkald:</string>
     <!-- Dialog description that will explain the steps needed to give camera permissions -->
@@ -2259,8 +2259,8 @@
     <string name="MoveableLocalVideoRenderer__expand_local_video">Udvid lokal video</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Molly-opkald</string>
-    <string name="WebRtcCallView__signal_video_call">Molly-videoopkald</string>
+    <string name="WebRtcCallView__signal_call">Polly-opkald</string>
+    <string name="WebRtcCallView__signal_video_call">Polly-videoopkald</string>
     <string name="WebRtcCallView__start_call">Start opkald</string>
     <string name="WebRtcCallView__join_call">Deltag i opkaldet</string>
     <string name="WebRtcCallView__call_is_full">Opkaldet er fuldt</string>
@@ -2569,7 +2569,7 @@
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">Føj til kontakter</string>
-    <string name="SharedContactView_invite_to_signal">Inviter til Molly</string>
+    <string name="SharedContactView_invite_to_signal">Inviter til Polly</string>
     <!-- Button on a shared contact card that opens a chat with that contact. It can share a row with other buttons, so a short label is preferred -->
     <string name="SharedContactView_message_button">Besked</string>
     <!-- Button on a contact card shared in a group chat that adds the person on the card to that group -->
@@ -2696,7 +2696,7 @@
     <!-- Shown when no stickers match the search. The placeholder what was searched. -->
     <string name="StickerManagement_search_no_results_s">Ingen resultater fundet for \"%1$s\"</string>
     <!-- Sticker pack button for forwarding a sticker link. -->
-    <string name="StickerManagement_menu_send_signal_pack">Send via Molly</string>
+    <string name="StickerManagement_menu_send_signal_pack">Send via Polly</string>
     <!-- Sticker pack button that opens a bottom sheet with more share options. -->
     <string name="StickerManagement_menu_link_pack">Link</string>
     <!-- Sticker pack sheet option for sharing a sticker pack link using the system share sheet. -->
@@ -2862,11 +2862,11 @@
     <string name="ThreadRecord_blocked_group">Blokeret</string>
 
     <!-- ApkUpdateNotifications -->
-    <string name="ApkUpdateNotifications_prompt_install_title">Opdater Molly</string>
-    <string name="ApkUpdateNotifications_prompt_install_body">En ny version af Molly er tilgængelig. Tryk for at opdatere.</string>
-    <string name="ApkUpdateNotifications_failed_general_title">Molly kunne ikke opdateres</string>
+    <string name="ApkUpdateNotifications_prompt_install_title">Opdater Polly</string>
+    <string name="ApkUpdateNotifications_prompt_install_body">En ny version af Polly er tilgængelig. Tryk for at opdatere.</string>
+    <string name="ApkUpdateNotifications_failed_general_title">Polly kunne ikke opdateres</string>
     <string name="ApkUpdateNotifications_failed_general_body">Vi prøver igen senere.</string>
-    <string name="ApkUpdateNotifications_auto_update_success_title">Molly er hermed opdateret</string>
+    <string name="ApkUpdateNotifications_auto_update_success_title">Polly er hermed opdateret</string>
     <string name="ApkUpdateNotifications_auto_update_success_body">Du er blevet automatisk opdateret til version %1$s.</string>
     <string name="ApkUpdateNotifications_manual_update_success_body">Du opdaterede til version %1$s.</string>
 
@@ -2893,7 +2893,7 @@
     <string name="VerifyIdentityActivity_our_signal_safety_number">Vores Signal-sikkerhedsnummer:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">Det lader til at du ikke har nogen apps at dele til.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Sikkerhedsnummer til sammenligning kunne ikke findes i udklipsholderen</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Molly beder om tilladelse til at tilgå dit kamera, for at kunne scanne en QR-kode, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Kamera\".</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Polly beder om tilladelse til at tilgå dit kamera, for at kunne scanne en QR-kode, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Kamera\".</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Du skal først udveksle beskeder, før du kan se %1$s\'s sikkerhedsnummer.</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
     <string name="VerifyIdentityActivity_dialog_exchange_messages_to_create_safety_number_message">Der oprettes et sikkerhedsnummer med denne person, når vedkommende har udvekslet beskeder med dig.</string>
@@ -2930,8 +2930,8 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Tryk for at åbne.</string>
-    <string name="KeyCachingService_passphrase_cached">Molly er låst op</string>
-    <string name="KeyCachingService_lock">Lås Molly</string>
+    <string name="KeyCachingService_passphrase_cached">Polly er låst op</string>
+    <string name="KeyCachingService_lock">Lås Polly</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">Dig</string>
@@ -2984,7 +2984,7 @@
     <string name="MessageNotifier_failed_to_deliver_message">Kunne ikke levere besked.</string>
     <string name="MessageNotifier_error_delivering_message">Fejl ved levering af besked.</string>
     <string name="MessageNotifier_message_delivery_paused">Levering af besked sat på pause.</string>
-    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Bekræft for at fortsætte med at sende beskeder på Molly.</string>
+    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Bekræft for at fortsætte med at sende beskeder på Polly.</string>
     <string name="MessageNotifier_mark_all_as_read">Markér alle som læst</string>
     <string name="MessageNotifier_mark_read">Markér som læst</string>
     <string name="MessageNotifier_turn_off_these_notifications">Deaktiver disse notifikationer</string>
@@ -3008,7 +3008,7 @@
     <!-- Body of a notification when someone votes in a poll. First placeholder is the poll emoji, second placeholder is the name of the voter and third is the poll question -->
     <string name="MessageNotifier_s_voted_in_poll">%1$s %2$s stemte i afstemningen \"%3$s\"</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Deaktiver notifikationer om at kontakt er begyndt at bruge Molly? Du kan aktivere dem igen i Molly &gt; Indstillinger &gt; Notifikationer</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Deaktiver notifikationer om at kontakt er begyndt at bruge Polly? Du kan aktivere dem igen i Polly &gt; Indstillinger &gt; Notifikationer</string>
 
     <!-- TurnOnNotificationsBottomSheet -->
     <!-- Title for sheet explaining how to turn on app notifications -->
@@ -3084,7 +3084,7 @@
     </plurals>
 
     <!-- Message shown when the app requests permission to save media to the device storage, but that permission has been permanently denied by the user. -->
-    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Molly beder om tilladelse til at tilgå din lagerplads, for at kunne gemme til ekstern placering, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Lagerplads\".</string>
+    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Polly beder om tilladelse til at tilgå din lagerplads, for at kunne gemme til ekstern placering, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Lagerplads\".</string>
 
     <!-- Message explaining that it is not possible to save media to the device storage after the user denied the system save to storage permission. -->
     <string name="AttachmentSaver__unable_to_write_to_external_storage_without_permission">Ikke muligt at gemme til ekstern placering, uden tilladelse</string>
@@ -3094,11 +3094,11 @@
     <!-- Dialog title shown when attempting to save media that has been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_media">Kan ikke gemme medier</string>
     <!-- Dialog message explaining that media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__media_offloaded_message">Dette medie er fjernet fra din enhed, fordi \"Optimer lagerplads på Molly\" er aktiveret. Du kan downloade elementer ét ad gangen eller slå \"Optimer lagerplads på Molly\" fra for at hente alle medier til enheden.</string>
+    <string name="AttachmentSaver__media_offloaded_message">Dette medie er fjernet fra din enhed, fordi \"Optimer lagerplads på Polly\" er aktiveret. Du kan downloade elementer ét ad gangen eller slå \"Optimer lagerplads på Polly\" fra for at hente alle medier til enheden.</string>
     <!-- Dialog title shown when attempting to save multiple media items, some of which have been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_all_items">Kan ikke gemme alle elementer</string>
     <!-- Dialog message explaining that some selected media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__some_media_offloaded_message">Nogle af de medier, du har valgt, er blevet fjernet fra din enhed, fordi \"Optimer lagerplads på Molly\" er aktiveret. Du kan gemme elementer ét ad gangen eller slå \"Optimer lagerplads på Molly\" fra for at downloade alle medier til din enhed.</string>
+    <string name="AttachmentSaver__some_media_offloaded_message">Nogle af de medier, du har valgt, er blevet fjernet fra din enhed, fordi \"Optimer lagerplads på Polly\" er aktiveret. Du kan gemme elementer ét ad gangen eller slå \"Optimer lagerplads på Polly\" fra for at downloade alle medier til din enhed.</string>
     <!-- Button label in the offloaded media dialog that navigates to the storage settings screen. -->
     <string name="AttachmentSaver__view_storage_settings">Vis indstillinger for lagerplads</string>
 
@@ -3111,7 +3111,7 @@
     <string name="ShortcutLauncherActivity_invalid_shortcut">Ugyldig genvej</string>
 
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_signal">Molly</string>
+    <string name="SingleRecipientNotificationBuilder_signal">Polly</string>
     <string name="SingleRecipientNotificationBuilder_new_message">Ny besked</string>
     <string name="SingleRecipientNotificationBuilder_message_request">Beskedanmodning</string>
     <string name="SingleRecipientNotificationBuilder_you">Dig</string>
@@ -3187,20 +3187,20 @@
 
     <!-- UnauthorizedReminder -->
     <!-- Message shown in a reminder banner when the user\'s device is no longer registered -->
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Denne enhed er ikke længere registreret. Det skyldes sandsynligvis, at du har registreret dit telefonnummer på Molly med en anden enhed.</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Denne enhed er ikke længere registreret. Det skyldes sandsynligvis, at du har registreret dit telefonnummer på Polly med en anden enhed.</string>
     <!-- Action in reminder banner that will take user to re-register -->
     <string name="UnauthorizedReminder_reregister_action">Registrér enheden igen</string>
     <!-- Message shown in a reminder banner when this linked device is no longer linked to a primary device -->
-    <string name="UnauthorizedReminder_this_device_is_no_longer_linked_relink_to_continue_messaging">Denne enhed er ikke længere forbundet. Opret forbindelsen mellem Molly og din telefon igen for at sende beskeder.</string>
+    <string name="UnauthorizedReminder_this_device_is_no_longer_linked_relink_to_continue_messaging">Denne enhed er ikke længere forbundet. Opret forbindelsen mellem Polly og din telefon igen for at sende beskeder.</string>
     <!-- Action in reminder banner that will take the user to re-link this device -->
     <string name="UnauthorizedReminder_relink_action">Tilknyt enhed igen</string>
 
     <!-- Push notification when the app is forcibly logged out by the server. -->
-    <string name="LoggedOutNotification_you_have_been_logged_out">Du er blevet logget ud af Molly på denne enhed.</string>
+    <string name="LoggedOutNotification_you_have_been_logged_out">Du er blevet logget ud af Polly på denne enhed.</string>
 
     <!-- EnclaveFailureReminder -->
     <!-- Banner message to update app to use payments -->
-    <string name="EnclaveFailureReminder_update_signal">Opdatér Molly for at fortsætte med at bruge betalinger. Din saldo er muligvis ikke opdateret.</string>
+    <string name="EnclaveFailureReminder_update_signal">Opdatér Polly for at fortsætte med at bruge betalinger. Din saldo er muligvis ikke opdateret.</string>
     <!-- Banner button to update now -->
 
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Besvaret på en forbundet enhed.</string>
@@ -3242,14 +3242,14 @@
     <string name="change_passphrase_activity__repeat_new_passphrase">Gentag ny adgangssætning</string>
 
     <!-- contact_selection_activity -->
-    <string name="contact_selection_activity__invite_to_signal">Inviter til Molly</string>
+    <string name="contact_selection_activity__invite_to_signal">Inviter til Polly</string>
     <string name="contact_selection_activity__new_group">Ny gruppe</string>
     <!-- Row item title for refreshing contacts -->
     <string name="contact_selection_activity__refresh_contacts">Opdater kontakter</string>
     <!-- Row item description for refreshing contacts -->
     <string name="contact_selection_activity__missing_someone">Mangler der nogen? Prøv at opdatere</string>
     <!-- Row item title for finding people on Signal via your contacts -->
-    <string name="contact_selection_activity__find_people_you_know">Find folk, du kender på Molly</string>
+    <string name="contact_selection_activity__find_people_you_know">Find folk, du kender på Polly</string>
     <!-- Row item description asking users for access to their contacts to find people they know -->
     <string name="contact_selection_activity__allow_access_to_contacts">Giv adgang til dine kontakter</string>
     <!-- Row header title for more section -->
@@ -3268,7 +3268,7 @@
     <string name="SingleContactSelectionActivity_contact_photo">Kontaktbillede</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Molly beder om tilladelse til at tilgå dine kontakter for at kunne vise dem, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Kontakter\".</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Polly beder om tilladelse til at tilgå dine kontakter for at kunne vise dem, hvilket er blevet nægtet. Gå venligst til appindstillinger, vælg \"Tilladelser\" og tilvælg \"Kontakter\".</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Fejl ved modtagelse af kontakter, tjek din netværksforbindelse</string>
     <string name="ContactSelectionListFragment_username_not_found">Brugernavn ikke fundet</string>
     <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"%1$s er ikke en Signal-bruger. Tjek venligst brugernavnet og prøv igen"</string>
@@ -3288,7 +3288,7 @@
     <!-- Dialog title asking users for contact permission -->
     <string name="ContactSelectionListFragment_allow_access_contacts">Giv adgang til kontakter</string>
     <!-- Dialog description that will explain the steps needed to give contact permissions -->
-    <string name="ContactSelectionListFragment_to_find_people">For at finde folk, du kender på Molly:</string>
+    <string name="ContactSelectionListFragment_to_find_people">For at finde folk, du kender på Polly:</string>
     <!-- Text on button prompting users to give Signal contact permissions -->
     <string name="ContactSelectionListFragment__allow_access">Tillad adgang</string>
     <!-- Text on button to dismiss Signal\'s request for contact permissions -->
@@ -3418,7 +3418,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">Bobler er en Android-funktion, som du kan slå fra for Molly-chats.</string>
+    <string name="BubbleOptOutTooltip__description">Bobler er en Android-funktion, som du kan slå fra for Polly-chats.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">Ikke nu</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -3559,20 +3559,20 @@
     <!-- Bottom sheet title when encryption is auto-verified -->
     <string name="EncryptionVerifiedSheet__title_success">Kryptering blev automatisk verificeret i denne chat</string>
     <!-- Bottom sheet body when encryption is auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_success">For kontakter, du er forbundet til via telefonnummer, kan Molly automatisk bekræfte, om forbindelsen er sikker, ved hjælp af en proces kaldet nøgletransparens. For øget sikkerhed skal du verificere end-to-end-kryptering manuelt ved at sammenligne tallene på den forrige skærm eller scanne koden på vedkommendes enhed.</string>
+    <string name="EncryptionVerifiedSheet__body_success">For kontakter, du er forbundet til via telefonnummer, kan Polly automatisk bekræfte, om forbindelsen er sikker, ved hjælp af en proces kaldet nøgletransparens. For øget sikkerhed skal du verificere end-to-end-kryptering manuelt ved at sammenligne tallene på den forrige skærm eller scanne koden på vedkommendes enhed.</string>
     <!-- Bottom sheet title when encryption is no longer auto-verified -->
     <string name="EncryptionVerifiedSheet__title_no_longer_unavailable">Automatisk verifikation er ikke tilgængelig for denne chat</string>
     <!-- Bottom sheet body when encryption is no longer auto-verified. Placeholder is the name of the person. -->
-    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Molly kan ikke længere automatisk verificere krypteringen for denne chat. Dette kan skyldes, at %1$s har ændret sit telefonnummer eller sine privatlivsindstillinger for telefonnummeret. Verificér end-to-end-kryptering manuelt ved at sammenligne tallene på den forrige skærm eller ved at scanne koden på vedkommendes enhed.</string>
+    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Polly kan ikke længere automatisk verificere krypteringen for denne chat. Dette kan skyldes, at %1$s har ændret sit telefonnummer eller sine privatlivsindstillinger for telefonnummeret. Verificér end-to-end-kryptering manuelt ved at sammenligne tallene på den forrige skærm eller ved at scanne koden på vedkommendes enhed.</string>
     <!-- Bottom sheet title when encryption cannot be auto-verified -->
     <string name="EncryptionVerifiedSheet__title_unavailable">Automatisk verifikation er ikke tilgængelig for denne chat</string>
     <!-- Bottom sheet body when encryption cannot be auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_unavailable">Molly kan kun automatisk verificere krypteringen i chats, hvor du er forbundet med nogen via et telefonnummer. Hvis chatten blev startet med et brugernavn eller en fælles gruppe, skal du verificere end-to-end-krypteringen ved at sammenligne tallene på den forrige skærm eller scanne koden på deres enhed.</string>
+    <string name="EncryptionVerifiedSheet__body_unavailable">Polly kan kun automatisk verificere krypteringen i chats, hvor du er forbundet med nogen via et telefonnummer. Hvis chatten blev startet med et brugernavn eller en fælles gruppe, skal du verificere end-to-end-krypteringen ved at sammenligne tallene på den forrige skærm eller scanne koden på deres enhed.</string>
 
     <!-- Title for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__title">Molly kan nu automatisk verificere kryptering</string>
+    <string name="VerifyAutomaticallyEducationSheet__title">Polly kan nu automatisk verificere kryptering</string>
     <!-- Body for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__body">For kontakter, du er forbundet til via telefonnummer, kan Molly automatisk bekræfte, om forbindelsen er sikker, ved hjælp af en proces kaldet nøgletransparens. For ekstra sikkerhed kan du stadig verificere forbindelser manuelt ved hjælp af en QR-kode eller et sikkerhedsnummer.</string>
+    <string name="VerifyAutomaticallyEducationSheet__body">For kontakter, du er forbundet til via telefonnummer, kan Polly automatisk bekræfte, om forbindelsen er sikker, ved hjælp af en proces kaldet nøgletransparens. For ekstra sikkerhed kan du stadig verificere forbindelser manuelt ved hjælp af en QR-kode eller et sikkerhedsnummer.</string>
     <!-- Button to learn more about automatic verification -->
     <string name="VerifyAutomaticallyEducationSheet__learn_more">Få mere at vide</string>
     <!-- Button to go to verification page -->
@@ -3646,7 +3646,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <!-- Heading used within support email that lists additional information to help with debugging -->
     <string name="HelpFragment__support_info">Support Info</string>
-    <string name="HelpFragment__signal_android_support_request">Molly Android support-anmodning</string>
+    <string name="HelpFragment__signal_android_support_request">Polly Android support-anmodning</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__debug_log" translatable="false">Debug Log:</string> -->
     <string name="HelpFragment__could_not_upload_logs">Kunne ikke uploade logger</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">Beskriv venligst problemet så præcist som muligt, for at sikre vi bedst forstår det</string>
@@ -3756,7 +3756,7 @@
     <string name="preferences__normal">Normal</string>
     <string name="preferences__slow">Langsom</string>
     <string name="preferences__advanced">Avanceret</string>
-    <string name="preferences__donate_to_signal">Donér til Molly</string>
+    <string name="preferences__donate_to_signal">Donér til Polly</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">Historier</string>
     <string name="preferences__storage">Lagerplads</string>
@@ -3838,7 +3838,7 @@
     <string name="preferences_communication__category_censorship_circumvention">Omgåelse af censur</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Omgåelse af censur</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Hvis aktiveret vil Molly forsøge at omgå censur. Aktivér ikke denne funktion, medmindre du er på et sted hvor Molly er censureret</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Hvis aktiveret vil Polly forsøge at omgå censur. Aktivér ikke denne funktion, medmindre du er på et sted hvor Polly er censureret</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Omgåelse af censur er blevet aktiveret baseret på din kontos telefonnummer.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
@@ -3866,7 +3866,7 @@
     <!-- Preference title for automatic key verification -->
     <string name="preferences_automatic_key_verification">Automatisk nøgleverifikation</string>
     <!-- Preference summary for automatic key verification -->
-    <string name="preferences_automatic_key_verification_body">Når dette er aktiveret, vil Molly forsøge automatisk at verificere krypteringen af direkte chats.</string>
+    <string name="preferences_automatic_key_verification_body">Når dette er aktiveret, vil Polly forsøge automatisk at verificere krypteringen af direkte chats.</string>
 
 
     <!-- Internal only preferences -->
@@ -3883,7 +3883,7 @@
 
     <!-- Displayed on a welcome screen for payments -->
     <string name="PaymentsHomeFragment_introducing_payments">Vi introducerer betalinger</string>
-    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Brug Molly til at sende og modtage MobileCoin, en ny privatlivsfokuseret digital valuta. Aktivér for at komme i gang.</string>
+    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Brug Polly til at sende og modtage MobileCoin, en ny privatlivsfokuseret digital valuta. Aktivér for at komme i gang.</string>
     <string name="PaymentsHomeFragment__activate_payments">Aktiver Betalinger</string>
     <string name="PaymentsHomeFragment__activating_payments">Aktiverer betalinger …</string>
     <string name="PaymentsHomeFragment__restore_payments_account">Gendan betalingskonto</string>
@@ -3909,7 +3909,7 @@
     <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Betalinger er ikke tilgængelige i din region.</string>
     <string name="PaymentsHomeFragment__could_not_enable_payments">Betalinger kunne ikke aktiveres. Prøv igen senere.</string>
     <string name="PaymentsHomeFragment__deactivate_payments_question">Deaktiver Betalinger?</string>
-    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Du kan ikke sende eller modtage MobileCoin i Molly, hvis du deaktiverer betalinger.</string>
+    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Du kan ikke sende eller modtage MobileCoin i Polly, hvis du deaktiverer betalinger.</string>
     <string name="PaymentsHomeFragment__deactivate">Deaktiver</string>
     <string name="PaymentsHomeFragment__continue">Fortsæt</string>
     <string name="PaymentsHomeFragment__balance_is_not_currently_available">Saldo er ikke tilgængelig i øjeblikket.</string>
@@ -3918,10 +3918,10 @@
     <string name="PaymentsHomeFragment__details">Detaljer</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
     <!-- Displayed as a description in a dialog when the user tries to activate payments -->
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Du kan bruge Molly til at sende og modtage MobileCoin. Alle betalinger er underlagt brugsbetingelserne for MobileCoins og MobileCoin Wallet. Du kan støde på nogle problemer, og betalinger eller saldi, du måtte miste, kan ikke gendannes. </string>
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Du kan bruge Polly til at sende og modtage MobileCoin. Alle betalinger er underlagt brugsbetingelserne for MobileCoins og MobileCoin Wallet. Du kan støde på nogle problemer, og betalinger eller saldi, du måtte miste, kan ikke gendannes. </string>
     <string name="PaymentsHomeFragment__activate">Aktiver</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">Se vilkår for MobileCoin</string>
-    <string name="PaymentsHomeFragment__payments_not_available">Betalinger i Molly er ikke længere tilgængelige. Du kan stadig overføre penge til en børs, men du kan ikke længere sende og modtage betalinger eller tilføje midler.</string>
+    <string name="PaymentsHomeFragment__payments_not_available">Betalinger i Polly er ikke længere tilgængelige. Du kan stadig overføre penge til en børs, men du kan ikke længere sende og modtage betalinger eller tilføje midler.</string>
 
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string> -->
     <!-- Alert dialog title which shows up after a payment to turn on payment lock -->
@@ -4004,9 +4004,9 @@
     <string name="PaymentsTransferFragment__next">Næste</string>
     <string name="PaymentsTransferFragment__invalid_address">Ugyldig adresse</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Tjek wallet-adressen du forsøger at overføre til, og prøv igen.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Du kan ikke overføre til din egen wallet-adresse i Molly. Indtast wallet-adressen fra din konto på en understøttet børs.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">For at scanne en QR-kode skal Molly have adgang til kameraet.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">For at scanne en QR-kode skal Molly have adgang til kameraet.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Du kan ikke overføre til din egen wallet-adresse i Polly. Indtast wallet-adressen fra din konto på en understøttet børs.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">For at scanne en QR-kode skal Polly have adgang til kameraet.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">For at scanne en QR-kode skal Polly have adgang til kameraet.</string>
 
     <!-- PaymentsTransferQrScanFragment -->
     <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Scan QR-kode for adresse</string>
@@ -4367,17 +4367,17 @@
 
     <!-- CallNotificationBuilder -->
     <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Indgående Molly-taleopkald</string>
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">Indgående Polly-taleopkald</string>
     <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Indgående Molly-videoopkald</string>
+    <string name="CallNotificationBuilder__incoming_signal_video_call">Indgående Polly-videoopkald</string>
     <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Indgående Molly-gruppeopkald</string>
+    <string name="CallNotificationBuilder__incoming_signal_group_call">Indgående Polly-gruppeopkald</string>
     <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Igangværende Molly-taleopkald</string>
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Igangværende Polly-taleopkald</string>
     <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Igangværende Molly-videoopkald</string>
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">Igangværende Polly-videoopkald</string>
     <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Igangværende Molly-gruppeopkald</string>
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">Igangværende Polly-gruppeopkald</string>
 
     <string name="CallNotificationBuilder_connecting">Forbinder…</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">Adgangssætning til sikkerhedskopi</string>
@@ -4403,9 +4403,9 @@
     <string name="BackupDialog_verify">Verificér</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">Du indtastede den korrekte adgangssætning til sikkerhedskopi</string>
     <string name="BackupDialog_passphrase_was_not_correct">Forkert adgangssætning</string>
-    <string name="LocalBackupJob_creating_signal_backup">Opretter Molly-sikkerhedskopi …</string>
+    <string name="LocalBackupJob_creating_signal_backup">Opretter Polly-sikkerhedskopi …</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Verificerer Molly-sikkerhedskopi…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">Verificerer Polly-sikkerhedskopi…</string>
     <string name="LocalBackupJobApi29_backup_failed">Sikkerhedskopiering mislykkedes</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">Din mappe med sikkerhedskopier er blevet slettet eller flyttet.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">Din sikkerhedskopifil er for stor til at kunne gemmes på denne lagerenhed.</string>
@@ -4420,7 +4420,7 @@
     <string name="RegistrationActivity_call_me_instead_available_in">Ring til mig (%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">Send kode igen (%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_code_support_subject">Molly-registrering - Verifikationskode for Android</string>
+    <string name="RegistrationActivity_code_support_subject">Polly-registrering - Verifikationskode for Android</string>
     <string name="RegistrationActivity_incorrect_code">Forkert kode</string>
     <string name="BackupUtil_never">Aldrig</string>
     <!-- Subtext below last backup time when we do not know when the last backup was -->
@@ -4436,11 +4436,11 @@
     <string name="preferences_chats__backups">Sikkerhedskopier</string>
 
     <!-- Title text shown when Signal is locked and needs to be unlocked -->
-    <string name="prompt_passphrase_activity__unlock_signal">Lås Molly op</string>
+    <string name="prompt_passphrase_activity__unlock_signal">Lås Polly op</string>
     <!-- Description text explaining how to unlock Signal -->
-    <string name="prompt_passphrase_activity__use_your_android_device">Brug dine Android-enheds låseindstillinger til at låse Molly op.</string>
+    <string name="prompt_passphrase_activity__use_your_android_device">Brug dine Android-enheds låseindstillinger til at låse Polly op.</string>
     <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
-    <string name="prompt_passphrase_activity__screen_lock_is_on">Skærmlås er aktiveret, og Molly er sikret med din enheds låseindstillinger. Lås Molly op på samme måde, som du normalt ville låse din telefon op, dette kan være med dit ansigt, fingeraftryk, pinkode, adgangskode eller mønster.</string>
+    <string name="prompt_passphrase_activity__screen_lock_is_on">Skærmlås er aktiveret, og Polly er sikret med din enheds låseindstillinger. Lås Polly op på samme måde, som du normalt ville låse din telefon op, dette kan være med dit ansigt, fingeraftryk, pinkode, adgangskode eller mønster.</string>
     <!-- Button in a dialog that will contact Signal support if pressed -->
     <string name="prompt_passphrase_activity__contact_support">Kontakt support</string>
     <!-- Button text to try again after unlocking has previously failed -->
@@ -4459,11 +4459,11 @@
     <!-- Title of an informational card shown on the account settings screen of a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__this_is_a_linked_device">Dette er en tilknyttet enhed</string>
     <!-- Body of an informational card explaining that account settings must be managed from the primary device -->
-    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">Åbn Molly på din primære enhed for at administrere dine kontoindstillinger.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">Åbn Polly på din primære enhed for at administrere dine kontoindstillinger.</string>
     <!-- Title of a settings row that deletes all Signal data from this linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data">Slet appdata</string>
     <!-- Subtitle of the delete app data row explaining what it does -->
-    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">Dette sletter alle data fra Molly-appen på denne enhed.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">Dette sletter alle data fra Polly-appen på denne enhed.</string>
     <!-- Title of the confirmation dialog shown when deleting app data from a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data_question">Slet appdata?</string>
     <!-- Message of the confirmation dialog explaining that only this device\'s data is deleted, not the account -->
@@ -4495,10 +4495,10 @@
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">Søger efter ny Android-enhed …</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Molly kræver placeringstilladelsen for at opspore og forbinde med din nye Android-enhed.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Molly kræver placeringstjenester aktiveret for at opspore og forbinde med din nye Android-enhed.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Molly kræver Wi-Fi til for at opspore og forbinde med din nye Android-enhed. Wi-Fi skal være tændt, men det behøver ikke at være forbundet til et Wi-Fi-netværk.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Beklager, denne enhed understøtter ikke Wi-Fi Direct. Molly bruger Wi-Fi Direct til at opspore og forbinde med din nye Android-enhed. Du kan stadig gendanne en sikkerhedskopi for at gendanne din konto fra din nye Android-enhed.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Polly kræver placeringstilladelsen for at opspore og forbinde med din nye Android-enhed.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Polly kræver placeringstjenester aktiveret for at opspore og forbinde med din nye Android-enhed.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Polly kræver Wi-Fi til for at opspore og forbinde med din nye Android-enhed. Wi-Fi skal være tændt, men det behøver ikke at være forbundet til et Wi-Fi-netværk.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Beklager, denne enhed understøtter ikke Wi-Fi Direct. Polly bruger Wi-Fi Direct til at opspore og forbinde med din nye Android-enhed. Du kan stadig gendanne en sikkerhedskopi for at gendanne din konto fra din nye Android-enhed.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Opret en sikkerhedskopi</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Der opstod en uventet fejl under forbindelsesforsøg til din nye Android-enhed.</string>
 
@@ -4538,7 +4538,7 @@
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">Overfører data</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">Hold begge enheder tæt ved hinanden. Sluk ikke for enhederne, og hold Molly åbent. Overførsler er end-to-end krypteret.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">Hold begge enheder tæt ved hinanden. Sluk ikke for enhederne, og hold Polly åbent. Overførsler er end-to-end krypteret.</string>
     <string name="DeviceTransfer__d_messages_so_far">%1$d beskeder indtil videre …</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">%1$s%% af beskeder indtil videre…</string>
@@ -4552,7 +4552,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">Overfør konto</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Hent Molly på din nye Android-enhed</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Hent Polly på din nye Android-enhed</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"Tryk på \"Overfør eller gendan konto\""</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -4633,7 +4633,7 @@
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Alle med dette link kan se gruppens navn og billede, og anmode om at deltage. Del det med personer, du stoler på.</string>
     <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Alle med dette link kan se gruppens navn og billede, og deltage i gruppen. Del det med personer, du stoler på.</string>
-    <string name="GroupLinkBottomSheet_share_via_signal">Del via Molly</string>
+    <string name="GroupLinkBottomSheet_share_via_signal">Del via Polly</string>
     <string name="GroupLinkBottomSheet_copy">Kopiér</string>
     <string name="GroupLinkBottomSheet_qr_code">QR-kode</string>
     <string name="GroupLinkBottomSheet_share">Del</string>
@@ -4791,7 +4791,7 @@
     <string name="payment_info_card_about_mobilecoin">Om MobileCoin</string>
     <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin er en ny privatlivsfokuseret digital valuta.</string>
     <string name="payment_info_card_adding_funds">Tilføjelse af midler</string>
-    <string name="payment_info_card_you_can_add_funds_for_use_in">Du kan tilføje midler til brug i Molly ved at sende MobileCoin til din wallet-adresse.</string>
+    <string name="payment_info_card_you_can_add_funds_for_use_in">Du kan tilføje midler til brug i Polly ved at sende MobileCoin til din wallet-adresse.</string>
     <string name="payment_info_card_cashing_out">Udbetaling</string>
     <string name="payment_info_card_you_can_cash_out_mobilecoin">Du kan når som helst få udbetalt MobileCoin på en børs, der understøtter MobileCoin. Foretag blot en overførsel til din konto ved denne børs.</string>
     <string name="payment_info_card_hide_this_card">Skjul dette kort?</string>
@@ -4812,12 +4812,12 @@
     <!-- DeactivateWalletFragment -->
     <string name="DeactivateWalletFragment__deactivate_wallet">Deaktiver wallet</string>
     <string name="DeactivateWalletFragment__your_balance">Din saldo</string>
-    <string name="DeactivateWalletFragment__its_recommended_that_you">Det anbefales, at du overfører dine midler til en anden wallet-adresse, før du deaktiverer betalinger. Hvis du vælger ikke at overføre dine midler nu, forbliver de i din wallet, der er knyttet til Molly, hvis du genaktiverer betalinger.</string>
+    <string name="DeactivateWalletFragment__its_recommended_that_you">Det anbefales, at du overfører dine midler til en anden wallet-adresse, før du deaktiverer betalinger. Hvis du vælger ikke at overføre dine midler nu, forbliver de i din wallet, der er knyttet til Polly, hvis du genaktiverer betalinger.</string>
     <string name="DeactivateWalletFragment__transfer_remaining_balance">Overfør resterende saldo</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring">Deaktiver uden at overføre</string>
     <string name="DeactivateWalletFragment__deactivate">Deaktiver</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Deaktiver uden at overføre?</string>
-    <string name="DeactivateWalletFragment__your_balance_will_remain">Din saldo forbliver i din wallet, der er knyttet til Molly, hvis du vælger at genaktivere betalinger.</string>
+    <string name="DeactivateWalletFragment__your_balance_will_remain">Din saldo forbliver i din wallet, der er knyttet til Polly, hvis du vælger at genaktivere betalinger.</string>
     <string name="DeactivateWalletFragment__error_deactivating_wallet">Fejl ved deaktivering af wallet.</string>
   <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
 
@@ -4965,7 +4965,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">Redigér nummer</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Molly-nummerændring - Brug for hjælp med pinkode til Android (v2 PIN)</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Polly-nummerændring - Brug for hjælp med pinkode til Android (v2 PIN)</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">Pinkoderne stemmer ikke overens</string>
@@ -5564,9 +5564,9 @@
     <string name="MySupportPreference__checking_subscription">Tjekker abonnement…</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">Opdater Molly</string>
+    <string name="UpdateSignalExpiredDialog__title">Opdater Polly</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">Denne version af Molly er udløbet. Opdatér nu for at fortsætte med at bruge Molly.</string>
+    <string name="UpdateSignalExpiredDialog__message">Denne version af Polly er udløbet. Opdatér nu for at fortsætte med at bruge Polly.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">Opdatér</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -5575,7 +5575,7 @@
     <!-- Title of dialog telling user they need to re-register signal -->
     <string name="ReregisterSignalDialog__title">Enheden er ikke registreret</string>
     <!-- Message of dialog telling user they need to re-register signal as it is no longer registered -->
-    <string name="ReregisterSignalDialog__message">Denne enhed er ikke længere registreret. Genregistrer for at fortsætte med at bruge Molly på denne enhed.</string>
+    <string name="ReregisterSignalDialog__message">Denne enhed er ikke længere registreret. Genregistrer for at fortsætte med at bruge Polly på denne enhed.</string>
     <!-- Button text of re-registration dialog to re-register the device.  -->
     <string name="ReregisterSignalDialog__reregister_action">Genregistrering</string>
     <!-- Button text of re-registration dialog to cancel the dialog.  -->
@@ -5856,7 +5856,7 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">Kunne ikke åbne vælgeren.</string>
     <!-- Banner title when notification permission is disabled -->
-    <string name="NotificationSettingsFragment__to_enable_notifications">For at aktivere notifikationer, skal Molly have tilladelse til at vise dem.</string>
+    <string name="NotificationSettingsFragment__to_enable_notifications">For at aktivere notifikationer, skal Polly have tilladelse til at vise dem.</string>
     <!-- Banner action when notification permission is disabled -->
     <string name="NotificationSettingsFragment__turn_on">Aktiver</string>
 
@@ -5884,7 +5884,7 @@
     <!-- Donation receipts share PNG -->
     <string name="DonationReceiptDetailsFragment__share_receipt">Del kvittering</string>
     <!-- Donation receipts list end note -->
-    <string name="DonationReceiptListFragment__if_you_have">Hvis du har geninstalleret Molly, vil kvitteringer fra tidligere donationer ikke være tilgængelige.</string>
+    <string name="DonationReceiptListFragment__if_you_have">Hvis du har geninstalleret Polly, vil kvitteringer fra tidligere donationer ikke være tilgængelige.</string>
     <!-- Donation receipts document title -->
     <string name="DonationReceiptDetailsFragment__donation_receipt">Kvittering for donation</string>
     <!-- Donation receipts amount title -->
@@ -6580,10 +6580,10 @@
     <string name="GatewaySelectorBottomSheet__ideal_wero">iDEAL | Wero</string>
 
     <!-- Dialog title for launching external intent -->
-    <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">Forlad Molly for at bekræfte donation?</string>
-    <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">Vend tilbage til Molly når den er bekræftet for at afslutte behandlingen af din donation.</string>
+    <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">Forlad Polly for at bekræfte donation?</string>
+    <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">Vend tilbage til Polly når den er bekræftet for at afslutte behandlingen af din donation.</string>
     <!-- Dialog message shown when leaving Signal to complete a donation in an external app. Placeholder is the resolved app name (e.g. a banking app). -->
-    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">Du videresendes til %1$s. Vend tilbage til Molly når den er bekræftet for at afslutte behandlingen af din donation.</string>
+    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">Du videresendes til %1$s. Vend tilbage til Polly når den er bekræftet for at afslutte behandlingen af din donation.</string>
 
     <!-- BankTransferMandateFragment -->
     <!-- Title of screen displaying the bank transfer mandate -->
@@ -6952,7 +6952,7 @@
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__require_admin_approval">Kræv godkendelse af administrator</string>
     <!-- Row label to share the link via Signal -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Del link via Molly</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Del link via Polly</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">Kopiér link</string>
     <!-- Row label to share the link with the external share sheet -->
@@ -7042,7 +7042,7 @@
     <!-- Title of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
     <string name="TurnOnSignalBackups__title">Slå Sikre Signal-sikkerhedskopier til</string>
     <!-- Body of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
-    <string name="TurnOnSignalBackups__body">Mist aldrig en besked, når du får en ny telefon eller geninstallerer Molly.</string>
+    <string name="TurnOnSignalBackups__body">Mist aldrig en besked, når du får en ny telefon eller geninstallerer Polly.</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will take the user to the flow to enable backups -->
     <string name="TurnOnSignalBackups__turn_on">Aktiver</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will simply dismiss the megaphone -->
@@ -7103,7 +7103,7 @@
     <!-- Title of the backup setup complete bottom sheet -->
     <string name="BackupSetupCompleteBottomSheet__title">Det var det. Start din sikkerhedskopiering nu.</string>
     <!-- Body of the backup setup complete bottom sheet -->
-    <string name="BackupSetupCompleteBottomSheet__body">Dette kan tage lidt tid. Du kan bruge Molly normalt, mens du sikkerhedskopierer.</string>
+    <string name="BackupSetupCompleteBottomSheet__body">Dette kan tage lidt tid. Du kan bruge Polly normalt, mens du sikkerhedskopierer.</string>
     <!-- Label for the optimize storage toggle -->
     <string name="BackupSetupCompleteBottomSheet__optimize_storage">Optimer Mollys lagerplads</string>
     <!-- Subtitle for the optimize storage toggle -->
@@ -7112,16 +7112,16 @@
     <string name="BackupSetupCompleteBottomSheet__back_up_now">Sikkerhedskopiér nu</string>
 
     <!-- Title of a megaphone shown to prompt the user to open Signal on their primary device -->
-    <string name="InactivePrimary__title">Åbn Molly på din telefon</string>
+    <string name="InactivePrimary__title">Åbn Polly på din telefon</string>
     <!-- Body of a megaphone shown to prompt the user to open Signal on their primary device -->
-    <string name="InactivePrimary__body">Åbn Molly på din primære enhed for at holde din konto aktiv.</string>
+    <string name="InactivePrimary__body">Åbn Polly på din primære enhed for at holde din konto aktiv.</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will navigate to a support page -->
     <string name="InactivePrimary__learn_more">Få mere at vide</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will snooze the megaphone -->
     <string name="InactivePrimary__got_it">Forstået</string>
 
     <!-- Text describing how to restore a backup displayed on the on-device backups screen -->
-    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"For at gendanne en sikkerhedskopi skal du installere Molly igen. Åbn appen, og tryk på \"Gendan sikkerhedskopi\". Vælg derefter sikkerhedskopimappen."</string>
+    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"For at gendanne en sikkerhedskopi skal du installere Polly igen. Åbn appen, og tryk på \"Gendan sikkerhedskopi\". Vælg derefter sikkerhedskopimappen."</string>
     <!-- Body of a dialog shown when turning on on-device backups while "Optimize Signal storage" is enabled, warning that optimized media won\'t be included -->
     <string name="OnDeviceBackupsScreen__you_have_optimize_signal_storage_on">Funktionen \"Optimer Mollys lagerplads\" er slået til. Hvis du vil inkludere alle medier i sikkerhedskopien på denne enhed, skal du slå indstillingen fra.</string>
     <!-- Dialog action that takes the user to the "Optimize Signal storage" setting -->
@@ -7212,7 +7212,7 @@
     <!-- Dialog title for invalid phone number -->
     <string name="FindByActivity__invalid_phone_number">Ugyldigt telefonnummer</string>
     <!-- Dialog title when phone number is not a registered signal user -->
-    <string name="FindByActivity__invite_to_signal">Inviter til Molly</string>
+    <string name="FindByActivity__invite_to_signal">Inviter til Polly</string>
     <!-- Dialog title when username is not found -->
     <string name="FindByActivity__username_not_found">Brugernavn ikke fundet</string>
     <!-- Dialog body for invalid username. Placeholder is the entered username. -->
@@ -7350,7 +7350,7 @@
     <!-- Dialog title when a backup redemption fails -->
     <string name="BackupAlertBottomSheet__couldnt_redeem_your_backups_subscription">Dit sikkerhedskopieringsabonnement kunne ikke indløses</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it -->
-    <string name="BackupAlertBottomSheet__an_error_occurred">Der opstod en fejl, og din sikkerhedskopiering kunne ikke fuldføres. Tjek, at du har den nyeste version af Molly, og prøv igen. Kontakt support, hvis problemet fortsætter.</string>
+    <string name="BackupAlertBottomSheet__an_error_occurred">Der opstod en fejl, og din sikkerhedskopiering kunne ikke fuldføres. Tjek, at du har den nyeste version af Polly, og prøv igen. Kontakt support, hvis problemet fortsætter.</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it. Used for out of remote storage space error. -->
     <string name="BackupAlertBottomSheet__an_error_occurred_and">Der opstod en fejl, og din sikkerhedskopiering kunne ikke fuldføres. Kontakt support, hvis problemet fortsætter.</string>
     <!-- Dialog action button that will allow you to check for any Signal version updates -->
@@ -7432,7 +7432,7 @@
     <!-- Text displayed when a backup could not be completed -->
     <string name="BackupStatusRow__your_last_backup">Din sidste sikkerhedskopiering kunne ikke gennemføres. Tjek, om din telefon er tilsluttet Wi-Fi-netværket, og tryk på \"Sikkerhedskopiér nu\" for at prøve igen.</string>
     <!-- Text displayed when a backup could not be completed and to check that they are on the latest version of Signal -->
-    <string name="BackupStatusRow__your_last_backup_latest_version">Din sidste sikkerhedskopiering kunne ikke gennemføres. Tjek, at du har den nyeste version af Molly, og prøv igen.</string>
+    <string name="BackupStatusRow__your_last_backup_latest_version">Din sidste sikkerhedskopiering kunne ikke gennemføres. Tjek, at du har den nyeste version af Polly, og prøv igen.</string>
     <!-- Text displayed when a backup file exceeds the storage limit during upload. -->
     <string name="BackupStatusRow__backup_file_too_large">Du har flere beskeder, end der er lagerplads til. Slet nogle beskeder, og prøv igen.</string>
     <!-- Text displayed when we\'re not backing up all messages. The placeholder represents the cutoff date for the messages we\'re backing up. -->
@@ -7500,7 +7500,7 @@
     <!-- Setting description for syncing automated chat limit trimming (deleting messages automatically by length or date) to linked devices -->
     <string name="ManageStorageSettingsFragment_apply_limits_description">Når dette er aktiveret, sletter chatgrænser også beskeder fra dine forbundne enheder.</string>
     <!-- Setting section title header for storage optimization -->
-    <string name="ManageStorageSettingsFragment__on_device_storage">Lagerplads på Molly</string>
+    <string name="ManageStorageSettingsFragment__on_device_storage">Lagerplads på Polly</string>
     <!-- Setting row title for storage optimization -->
     <string name="ManageStorageSettingsFragment__optimize_on_device_storage">Optimer Mollys lagerplads</string>
     <!-- Setting row explanation for storage optimization -->
@@ -7668,7 +7668,7 @@
     <!-- Displays the date the subscription expired. Placeholder is the date. -->
     <string name="RemoteBackupsSettingsFragment__expired_on_s">Udløber %1$s</string>
     <!-- Displayed at the top of the screen when no backup is currently enabled -->
-    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Sikkerhedskopier din beskedhistorik, så du aldrig mister data, når du får en ny telefon eller geninstallerer Molly.</string>
+    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Sikkerhedskopier din beskedhistorik, så du aldrig mister data, når du får en ny telefon eller geninstallerer Polly.</string>
     <!-- Section header for other ways to back up -->
     <string name="RemoteBackupsSettingsFragment__other_ways_to_backup">Andre måder at sikkerhedskopiere på</string>
     <!-- Row title for performing on-device backup -->
@@ -7900,7 +7900,7 @@
     <!-- Screen body shown when upgrading on-device backups to a new recovery key (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__local_backup_upgrade_description_bold">Denne nøgle erstatter sikkerhedskopinøglen på din enhed.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 1). -->
-    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">Din gendannelsesnøgle er en kode på 64 tegn, der giver dig mulighed for at gendanne din sikkerhedskopi, når du geninstallerer Molly.</string>
+    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">Din gendannelsesnøgle er en kode på 64 tegn, der giver dig mulighed for at gendanne din sikkerhedskopi, når du geninstallerer Polly.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description_bold">Denne er den samme som gendannelsesnøglen på din enheden.</string>
     <!-- Screen body shown when enabling on-device backups while Signal Secure Backups are already enabled (part 2, bolded). -->
@@ -7938,7 +7938,7 @@
     <!-- Dialog message shown when there is an error saving the recovery key because no compatible password manager was detected. -->
     <string name="MessageBackupsKeyRecordScreen__missing_password_manager_message">Ingen adgangskodeadministrator er opsat, ellers er den, du bruger, ikke understøttet.</string>
     <!-- Dialog message shown when there is an error saving the recovery key because the user previously chose not to save Signal passwords to their password manager. -->
-    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Du har tidligere valgt ikke at gemme adgangskoder for Molly i Google Adgangskodeadministrator. Fjern Molly fra \"Afviste websites og apps\" i dine indstillinger for Google Adgangskodeadministrator, og prøv igen.</string>
+    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Du har tidligere valgt ikke at gemme adgangskoder for Polly i Google Adgangskodeadministrator. Fjern Polly fra \"Afviste websites og apps\" i dine indstillinger for Google Adgangskodeadministrator, og prøv igen.</string>
     <!-- Label for a button that navigates to the device settings -->
     <string name="MessageBackupsKeyRecordScreen__go_to_settings">Gå til indstillinger</string>
     <!-- Action button label -->
@@ -7946,7 +7946,7 @@
     <!-- Bottom sheet title -->
     <string name="MessageBackupsKeyRecordScreen__keep_your_key_safe">Opbevar din nøgle sikkert</string>
     <!-- Bottom sheet subtitle -->
-    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Molly vil ikke kunne hjælpe dig med at gendanne din sikkerhedskopi, hvis du mister din nøgle. Opbevar den et sikkert sted, og del den ikke med andre.</string>
+    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Polly vil ikke kunne hjælpe dig med at gendanne din sikkerhedskopi, hvis du mister din nøgle. Opbevar den et sikkert sted, og del den ikke med andre.</string>
     <!-- Sheet action button label -->
     <string name="MessageBackupsKeyRecordScreen__continue">Fortsæt</string>
     <!-- Sheet secondary action button label -->
@@ -7956,13 +7956,13 @@
     <!-- Dialog title for confirming you need to disable optimized storage and download media to rotate AEP key -->
     <string name="MessageBackupsKeyRecordScreen__download_media">Download medier</string>
     <!-- Dialog body for confirming you need to disable optimized storage and download media to rotate AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">For at oprette en ny gendannelsesnøgle skal du deaktivere \"Optimer lagerplads på Molly\" og vente, indtil dine medier er blevet downloadet. Når downloaden er gennemført, kan du oprette en ny nøgle.</string>
+    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">For at oprette en ny gendannelsesnøgle skal du deaktivere \"Optimer lagerplads på Polly\" og vente, indtil dine medier er blevet downloadet. Når downloaden er gennemført, kan du oprette en ny nøgle.</string>
     <!-- Action label to turn off optimized storage and download media -->
     <string name="MessageBackupsKeyRecordScreen__turn_off_and_download">Slå fra og download</string>
     <!-- Bottom Sheet title for creating a new AEP key -->
     <string name="MessageBackupsKeyRecordScreen__create_a_new_backup_key">Opret en ny gendannelsesnøgle</string>
     <!-- Bottom Sheet body for creating a new AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">Det er kun nødvendigt at oprette en ny nøgle, hvis en anden kender din nøgle. Du skal uploade din sikkerhedskopi, inklusive alle medier, igen. Hvis du benytter funktionen \"Optimer lagerplads på Molly\", skal du først downloade de medier, der er fjernet fra enheden.</string>
+    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">Det er kun nødvendigt at oprette en ny nøgle, hvis en anden kender din nøgle. Du skal uploade din sikkerhedskopi, inklusive alle medier, igen. Hvis du benytter funktionen \"Optimer lagerplads på Polly\", skal du først downloade de medier, der er fjernet fra enheden.</string>
     <!-- Dialog title shown when user attempts to exit backup setup before completion -->
     <string name="MessageBackupsKeyRecordScreen__exit_backup_setup">Vil du afslutte opsætningen af sikkerhedskopiering?</string>
     <!-- Dialog body warning user that backup setup is incomplete -->
@@ -8085,7 +8085,7 @@
     <!-- ConfirmBackupCancellationDialog -->
 
     <!-- Email subject when contacting support on a create backup failure -->
-    <string name="BackupAlertBottomSheet_network_failure_support_email">Netværksfejl under gendannelse af Molly Android-sikkerhedskopi</string>
+    <string name="BackupAlertBottomSheet_network_failure_support_email">Netværksfejl under gendannelse af Polly Android-sikkerhedskopi</string>
     <!-- Email filter when contacting support on a create backup failure -->
   <!-- Removed by excludeNonTranslatables <string name="BackupAlertBottomSheet_export_failure_filter" translatable="false">Android SignalBackups Export Failed</string> -->
 
@@ -8115,7 +8115,7 @@
     <!-- Old device Transfer account bottom sheet dialog body -->
     <string name="TransferAccount_continue_on_your_other_device_details">Fortsæt med at overføre din konto på din anden enhed.</string>
     <!-- Old device Transfer account error dialog body shown when the new device is too old to accept an account that has no phone number -->
-    <string name="TransferAccount_the_device_you_are_transferring_to_is_out_of_date">Den enhed, du overfører til, er forældet. Opdater Molly på den enhed, og prøv igen.</string>
+    <string name="TransferAccount_the_device_you_are_transferring_to_is_out_of_date">Den enhed, du overfører til, er forældet. Opdater Polly på den enhed, og prøv igen.</string>
 
     <!-- Prepare Device screen title for quick restore flow -->
     <string name="PrepareDevice_title">Forbereder din enhed</string>
@@ -8191,7 +8191,7 @@
     <!-- Notification title for when user is out of remote storage -->
     <string name="Notification_backup_storage_full">Din sikkerhedskopieringslagerplads er fuld</string>
     <!-- Notification body for when user is out of remote storage -->
-    <string name="Notification_youve_reached_your_backup_storage_limit">Du har ikke mere plads til sikkerhedskopier. Frigør plads i Molly for at kunne sikkerhedskopiere beskeder og medier.</string>
+    <string name="Notification_youve_reached_your_backup_storage_limit">Du har ikke mere plads til sikkerhedskopier. Frigør plads i Polly for at kunne sikkerhedskopiere beskeder og medier.</string>
     <!-- Notification title for when initial backup failed -->
     <string name="Notification_backup_failed">Sikkerhedskopiering mislykkedes</string>
     <!-- Notification body for when initial backup failed -->
@@ -8477,7 +8477,7 @@
     <string name="CouldNotCompleteBackupRestoreSheet__body_error">Der opstod en fejl, og din sikkerhedskopi kan ikke gendannes. Dette kan skyldes, at sikkerhedskopimappen blev flyttet på din enhed, mens din sikkerhedskopi blev gendannet.</string>
 
     <!-- Body of the sheet shown when a local backup restore could not be completed, explaining how to try again -->
-    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">For at prøve igen skal du afinstallere og geninstallere Molly på denne enhed og vælge \"Gendan eller overfør\".</string>
+    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">For at prøve igen skal du afinstallere og geninstallere Polly på denne enhed og vælge \"Gendan eller overfør\".</string>
 
     <!-- Button on the sheet shown when a local backup restore could not be completed, opening a support article about it -->
     <string name="CouldNotCompleteBackupRestoreSheet__learn_more">Få mere at vide</string>
@@ -8641,7 +8641,7 @@
     <!-- Context menu entry that copies a shared contact detail to the clipboard -->
     <string name="SharedContactDetailsScreen__copy">Kopiér</string>
     <!-- Row that invites a shared contact who is not yet on Signal -->
-    <string name="SharedContactDetailsScreen__invite_to_signal">Inviter til Molly</string>
+    <string name="SharedContactDetailsScreen__invite_to_signal">Inviter til Polly</string>
     <!-- Row that saves a shared contact into the device address book -->
     <string name="SharedContactDetailsScreen__add_to_phone_contacts">Tilføj til din telefons kontakter</string>
     <!-- Row that adds a shared contact to a Signal group -->
@@ -8653,14 +8653,14 @@
     <!-- Toast shown when there is no map app to open a shared address in -->
     <string name="SharedContactDetailsScreen__couldnt_open_maps">Kunne ikke åbne kort</string>
     <!-- Subject line of an email invitation to Signal -->
-    <string name="SharedContactDetailsScreen__join_me_on_signal">Kom med på Molly</string>
+    <string name="SharedContactDetailsScreen__join_me_on_signal">Kom med på Polly</string>
 
     <!-- Title of the bottom sheet that confirms the user wants a brand new recovery key. -->
     <string name="ResetRecoveryKeyBottomSheet__reset_your_recovery_key">Nulstil din gendannelsesnøgle</string>
     <!-- First paragraph of the bottom sheet body, explaining what a reset does. -->
     <string name="ResetRecoveryKeyBottomSheet__resetting_your_recovery_key_will_create_a_new_key">Når du nulstiller din gendannelsesnøgle, oprettes der en ny nøgle til dit Signal Login. Det er kun nødvendigt, hvis en anden kender din nøgle.</string>
     <!-- Second paragraph of the bottom sheet body, explaining what a reset means for backups. -->
-    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">Hvis sikkerhedskopiering er aktiveret, skal du uploade din sikkerhedskopi igen, inklusive medier. Hvis du benytter funktionen \"Optimer lagerplads på Molly\", skal du først downloade de medier, der er fjernet fra enheden.</string>
+    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">Hvis sikkerhedskopiering er aktiveret, skal du uploade din sikkerhedskopi igen, inklusive medier. Hvis du benytter funktionen \"Optimer lagerplads på Polly\", skal du først downloade de medier, der er fjernet fra enheden.</string>
     <!-- Bottom sheet action that continues on to reset the recovery key. -->
     <string name="ResetRecoveryKeyBottomSheet__continue">Fortsæt</string>
     <!-- Dialog body shown when the recovery key change limit is exhausted and the user does not have backups enabled. -->

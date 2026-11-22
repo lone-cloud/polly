@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="PassphraseCreateActivity_now_you_can_set_a_passphrase_to_encrypt_the_database">Je kunt nu een wachtwoord instellen om de database te versleutelen. Totdat de database ontgrendeld is kan Molly geen berichten of oproepen ontvangen. Dit beschermt gegevens op verloren of gestolen apparaten.</string>
+    <string name="PassphraseCreateActivity_now_you_can_set_a_passphrase_to_encrypt_the_database">Je kunt nu een wachtwoord instellen om de database te versleutelen. Totdat de database ontgrendeld is kan Polly geen berichten of oproepen ontvangen. Dit beschermt gegevens op verloren of gestolen apparaten.</string>
     <string name="ChangePassphraseDialogFragment_generating_keys_this_may_take_a_while">Sleutels aan het aanmaken. Dit kan even duren…</string>
     <string name="ChangePassphraseDialogFragment_please_choose_a_passphrase_that_will_be_used_to_locally_encrypt_your_data_this_should_be_a_strong_passphrase">Kies een wachtwoord dat gebruikt zal worden om je gegevens lokaal te versleutelen\n\nDit moet een sterk wachtwoord zijn.</string>
     <string name="ChangePassphraseDialogFragment_passphrase">Wachtwoord</string>
     <string name="ChangePassphraseDialogFragment_estimated_time_to_crack_suggestion">%1$s\n\nVerwachte tijd om dit te kraken: %2$s.\n\nSuggestie: %3$s</string>
     <string name="ChangePassphraseDialogFragment_weak_passphrase">Zwak wachtwoord!</string>
     <string name="PassphraseCreateActivity_turn_on_database_encryption">Zet database versleuteling aan</string>
-    <string name="PassphraseCreateActivity_require_passphrase_to_unlock_molly">Wachtwoord instellen om Molly te ontgrendelen\?</string>
+    <string name="PassphraseCreateActivity_require_passphrase_to_unlock_molly">Wachtwoord instellen om Polly te ontgrendelen\?</string>
     <string name="WipeMemoryService_secure_wipe_in_progress">Bezig met veilig verwijderen</string>
     <string name="preferences__passphrase_changed">Wachtwoord gewijzigd</string>
     <string name="arrays__on_inactivity_timeout">Als je gedurende een bepaalde tijd je apparaat niet vergrendelt</string>
@@ -17,10 +17,10 @@
     <string name="preferences__map_satellite">Satelliet</string>
     <string name="preferences__map_hybrid">Hybride</string>
     <string name="preferences__map_normal">Normaal</string>
-    <string name="DonateMegaphone_we_maintain_molly_with_your_support_consider_donating_at_open_collective">We onderhouden Molly door jouw ondersteuning! Overweeg om te doneren aan Open Collective.</string>
-    <string name="DonateMegaphone_molly_is_free_software">Molly is vrije software</string>
+    <string name="DonateMegaphone_we_maintain_molly_with_your_support_consider_donating_at_open_collective">We onderhouden Polly door jouw ondersteuning! Overweeg om te doneren aan Open Collective.</string>
+    <string name="DonateMegaphone_molly_is_free_software">Polly is vrije software</string>
     <string name="ApplicationPreferencesActivity_network_summary">Proxy %1$s</string>
-    <string name="NetworkPreferenceFragment_molly_wont_connect_without_orbot_which_is_not_installed_on_this_device">Molly zal geen verbinding maken zonder Orbot, en die is niet geïnstalleerd op dit apparaat.</string>
+    <string name="NetworkPreferenceFragment_molly_wont_connect_without_orbot_which_is_not_installed_on_this_device">Polly zal geen verbinding maken zonder Orbot, en die is niet geïnstalleerd op dit apparaat.</string>
     <string name="NetworkPreferenceFragment_get_orbot">Installeer Orbot</string>
     <string name="NetworkPreferenceFragment_missing_orbot_app">Orbot app niet aanwezig</string>
     <string name="NetworkPreferenceFragment_the_host_you_typed_is_not_valid">De ingevoerde hoost is ongeldig</string>
@@ -35,7 +35,7 @@
     <string name="preferences_network__host">Host</string>
     <string name="preferences_network__connection">Verbinding</string>
     <string name="preferences__periodically_check_for_new_releases_and_ask_to_install_them">Check periodiek voor nieuwe versies en vraag of ze geinstalleerd moeten worden</string>
-    <string name="preferences__autoupdate_molly">Molly automatisch updaten</string>
+    <string name="preferences__autoupdate_molly">Polly automatisch updaten</string>
     <string name="arrays__tor_via_orbot">Tor via Orbot</string>
     <string name="arrays__none">Geen</string>
     <string name="MessageRetrievalService_ready_to_receive_messages">Klaar om berichten te ontvangen</string>
@@ -51,7 +51,7 @@
     <string name="preferences__include_beta_updates">Inclusief beta updates</string>
     <string name="DeviceAddFragment__link_without_scanning">Link zonder te scannen</string>
     <string name="BiometricDialogFragment__biometric_verification">Biometrische verificatie</string>
-    <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_molly">Bevestig dat jij het echt bent om Molly te gebruiken</string>
+    <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_molly">Bevestig dat jij het echt bent om Polly te gebruiken</string>
     <string name="BioTextPreference_no_linked_devices">Geen gekoppelde apparaten</string>
     <plurals name="BioTextPreference_n_linked_devices">
         <item quantity="one">%d gekoppeld apparaat</item>
@@ -59,7 +59,7 @@
     </plurals>
     <string name="EnableAppUpdatesMegaphone_check_for_updates_automatically">Automatisch controleren op updates\?</string>
     <string name="EnableAppUpdatesMegaphone_check_for_updates">Controleren op updates</string>
-    <string name="EnableAppUpdatesMegaphone_molly_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Molly kan periodiek controleren op nieuwe versies en je vragen ze te installeren.</string>
+    <string name="EnableAppUpdatesMegaphone_molly_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Polly kan periodiek controleren op nieuwe versies en je vragen ze te installeren.</string>
     <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">Je krijgt een bericht wanneer er updates beschikbaar zijn</string>
     <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s is niet geregistreerd bij Signal</string>
     <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">s</string>
@@ -70,18 +70,18 @@
     <string name="NotificationsSettingsFragment__receive_notifications_for_messages_or_missed_calls_when_the_app_is_locked">Ontvang notificaties voor berichten en oproepen als de app gelockt is.</string>
     <string name="HelpSettingsFragment_for_updates_please_check_your_app_store">Raadpleeg uw appstore voor updates, deze versie heeft geen ingebouwde updater.</string>
     <string name="AppUpdatesSettingsFragment__last_checked_s">Laatste keer gecontroleerd: %s</string>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly is vergrendeld</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly is vergrendeld</string>
     <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Berichten uitwisselen is prive op alle gelinkte apparaten.</string>
-    <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_molly">Voor Android apparaten: ga naar %s om Molly te installeren.</string>
-    <string name="LinkDeviceFragment__use_molly_on_another_devices">Gebruik Molly op een ander apparaat. Je berichten worden gesynct naar de gelinkte apparaten.</string>
-    <string name="LinkDeviceFragment__molly_on_another_device">Molly op een ander apparaat</string>
+    <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_molly">Voor Android apparaten: ga naar %s om Polly te installeren.</string>
+    <string name="LinkDeviceFragment__use_molly_on_another_devices">Gebruik Polly op een ander apparaat. Je berichten worden gesynct naar de gelinkte apparaten.</string>
+    <string name="LinkDeviceFragment__molly_on_another_device">Polly op een ander apparaat</string>
     <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Na het linken worden nieuwe berichten gesynct naar alle apparaten maar de bestaande berichtengeschiedenis wordt niet overgezet.</string>
-    <string name="LinkDeviceFragment__molly_supports_linking_to_other_android_devices">Molly ondersteund linken met andere Android apparaten die Molly gebruiken, alsmede naar desktops en iPads die Signal gebruiken.</string>
+    <string name="LinkDeviceFragment__molly_supports_linking_to_other_android_devices">Polly ondersteund linken met andere Android apparaten die Polly gebruiken, alsmede naar desktops en iPads die Signal gebruiken.</string>
     <string name="GcmRefreshJob_unable_to_register_with_Google_Play_Services">Registratie bij Play Services niet gelukt</string>
     <string name="NotificationsSettingsFragment__select_your_preferred_service_for_push_notifications">Selecteer de gewenste service voor pushberichten. Indien niet beschikbaar zal de app automatisch WebSockets gebruiken om te garanderen dat notificaties afgeleverd worden.</string>
     <string name="NotificationsSettingsFragment__delivery_service">Afleverservice</string>
     <string name="IncomingMessageObserver_websocket_service">WebSocket service</string>
-    <string name="DozeReminder_allow_molly_to_deliver_timely_notifications">Geef Molly toestemming tijdig notificaties te sturen, zelfs als het apparaat in standby mode staat.</string>
+    <string name="DozeReminder_allow_molly_to_deliver_timely_notifications">Geef Polly toestemming tijdig notificaties te sturen, zelfs als het apparaat in standby mode staat.</string>
     <string name="DozeReminder_disable_battery_restrictions">Battarij restricties uitschakelen</string>
     <string name="GcmRefreshJob_switch_to_an_alternative_push_service_in_settings_notifications">Ga naar een alternatieve push service in Instellingen &gt; Notificaties of fix het issue met Play Services.</string>
     <string name="NotificationsSettingsFragment__push_notifications">Push notificaties</string>

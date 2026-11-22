@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly on lukus</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly on lukus</string>
     <string name="app_icon_label_zen">Zen</string>
     <string name="app_icon_label_moon">Kuu</string>
     <string name="app_icon_label_music">Muusika</string>
@@ -8,7 +8,7 @@
     <string name="arrays__none">Puudub</string>
     <string name="arrays__tor_via_orbot">Tor Orboti kaudu</string>
     <string name="preferences__passphrase_changed">Salasõna muudetud</string>
-    <string name="preferences__autoupdate_molly">Molly automaatuuendus</string>
+    <string name="preferences__autoupdate_molly">Polly automaatuuendus</string>
     <string name="preferences__periodically_check_for_new_releases_and_ask_to_install_them">Kontrollige perioodiliselt uusi versioone ja paluge need installida</string>
     <string name="preferences__include_beta_updates">Kaasa beetaversioonid</string>
     <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">Beetaversioonid on mõeldud testimiseks ja võivad sisaldada vigu</string>
@@ -31,8 +31,8 @@
     </plurals>
     <string name="WipeMemoryService_secure_wipe_in_progress">Turvaline kustutamine on teoksil</string>
     <string name="WipeMemoryService_clearing_unencrypted_data_from_ram">Krüpteerimata andmete kustutamine mälust</string>
-    <string name="PassphraseCreateActivity_now_you_can_set_a_passphrase_to_encrypt_the_database">Nüüd saate andmebaasi krüpteerimiseks salasõna määrata. Kui andmebaas pole avatud, ei saa Molly vastu võtta märguandeid ega kõnesid. See aitab kaitsta andmeid kadunud või varastatud seadmetes.</string>
-    <string name="PassphraseCreateActivity_require_passphrase_to_unlock_molly">Kas nõuda Molly avamiseks salasõna?</string>
+    <string name="PassphraseCreateActivity_now_you_can_set_a_passphrase_to_encrypt_the_database">Nüüd saate andmebaasi krüpteerimiseks salasõna määrata. Kui andmebaas pole avatud, ei saa Polly vastu võtta märguandeid ega kõnesid. See aitab kaitsta andmeid kadunud või varastatud seadmetes.</string>
+    <string name="PassphraseCreateActivity_require_passphrase_to_unlock_molly">Kas nõuda Polly avamiseks salasõna?</string>
     <string name="PassphraseCreateActivity_turn_on_database_encryption">Lülitage andmebaasi krüpteerimine sisse</string>
     <string name="ChangePassphraseDialogFragment_weak_passphrase">Nõrk salasõna!</string>
     <string name="ChangePassphraseDialogFragment_estimated_time_to_crack_suggestion">%1$s\n\nHinnanguline salasõna murdmise aeg: %2$s.\n\nSoovitatav: %3$s</string>
@@ -45,9 +45,9 @@
     <string name="NetworkPreferenceFragment_the_host_you_typed_is_not_valid">Sisestatud host ei ole leitav</string>
     <string name="NetworkPreferenceFragment_missing_orbot_app">Puudub Orboti rakendus</string>
     <string name="NetworkPreferenceFragment_get_orbot">Hankige Orbot</string>
-    <string name="NetworkPreferenceFragment_molly_wont_connect_without_orbot_which_is_not_installed_on_this_device">Molly ei saa luua ühendust ilma sellele seadmele installeeritud Orbotita.</string>
+    <string name="NetworkPreferenceFragment_molly_wont_connect_without_orbot_which_is_not_installed_on_this_device">Polly ei saa luua ühendust ilma sellele seadmele installeeritud Orbotita.</string>
     <string name="ApplicationPreferencesActivity_network_summary">Proksi %1$s</string>
-    <string name="DonateMegaphone_molly_is_free_software">Molly on vaba tarkvara</string>
+    <string name="DonateMegaphone_molly_is_free_software">Polly on vaba tarkvara</string>
     <string name="DonateMegaphone_we_maintain_molly_with_your_support_consider_donating_at_open_collective">Sinu toel hoiame Mollyt töös! Kaaluge annetamist Open Collective\'is.</string>
     <string name="BackupsPreferenceFragment__schedule">Graafik</string>
     <string name="arrays__daily">Igapäevane</string>
@@ -62,11 +62,11 @@
     <string name="DozeReminder_allow_molly_to_deliver_timely_notifications">Luba Mollyl õigeaegseid teavitusi edastada isegi siis, kui seade on ooterežiimis.</string>
     <string name="DozeReminder_disable_battery_restrictions">Ära piira aku kasutamist</string>
     <string name="BiometricDialogFragment__biometric_verification">Biomeetriline kontroll</string>
-    <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_molly">Palun kinnitage, et Molly kasutaja oled tõepoolest sina</string>
+    <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_molly">Palun kinnitage, et Polly kasutaja oled tõepoolest sina</string>
     <string name="BioTextPreference_no_linked_devices">Lingitud seadmeid pole</string>
     <string name="EnableAppUpdatesMegaphone_check_for_updates_automatically">Kas kontrollida värskendusi automaatselt?</string>
     <string name="EnableAppUpdatesMegaphone_check_for_updates">Kontrolli rakenduse uuendusi</string>
-    <string name="EnableAppUpdatesMegaphone_molly_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Molly saab perioodiliselt kontrollida uute versioonide olemasolu ja palub need installeerida.</string>
+    <string name="EnableAppUpdatesMegaphone_molly_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Polly saab perioodiliselt kontrollida uute versioonide olemasolu ja palub need installeerida.</string>
     <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">Sind teavitatakse, kui uuendused on saadaval</string>
     <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s pole Signalis registreeritud</string>
     <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">s</string>
@@ -77,11 +77,11 @@
     <string name="NotificationsSettingsFragment__sorry_this_feature_requires_push_notifications_delivered_via_fcm_or_unifiedpush">Vabandust, see funktsioon nõuab tõukemärguandeid, mis edastatakse FCM-i või UnifiedPushi kaudu, mis pole praegu saadaval.</string>
     <string name="AppUpdatesSettingsFragment__last_checked_s">Viimati kontrollitud: %s</string>
     <string name="LinkDeviceFragment__use_molly_on_another_devices">Kasuta Mollyt teises seadmes. Sinu sõnumid sünkroonitakse sinu lingitud seadmetega.</string>
-    <string name="LinkDeviceFragment__molly_on_another_device">Molly teises seadmes</string>
+    <string name="LinkDeviceFragment__molly_on_another_device">Polly teises seadmes</string>
     <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Sõnumivahetus on kõigis lingitud seadmetes privaatne.</string>
     <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Pärast linkimist sünkroonitakse uued sõnumid seadmete vahel, kuid varasemate sõnumite ajalugu ei kanta üle.</string>
-    <string name="LinkDeviceFragment__molly_supports_linking_to_other_android_devices">Molly toetab linkimist teiste Mollyt käitavate Android-seadmetega, samuti Signalit käitavate lauaarvutite ja iPadidega.</string>
-    <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_molly">Android-seadmete puhul: Molly installeerimiseks külasta lehte %s.</string>
+    <string name="LinkDeviceFragment__molly_supports_linking_to_other_android_devices">Polly toetab linkimist teiste Mollyt käitavate Android-seadmetega, samuti Signalit käitavate lauaarvutite ja iPadidega.</string>
+    <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_molly">Android-seadmete puhul: Polly installeerimiseks külasta lehte %s.</string>
     <string name="GcmRefreshJob_unable_to_register_with_Google_Play_Services">Play teenustega registreerimine ebaõnnestus</string>
     <string name="GcmRefreshJob_switch_to_an_alternative_push_service_in_settings_notifications">Lülitu menüüs Seaded &gt; Teavitused alternatiivsele push-teenusele või lahenda probleem Play teenustega.</string>
     <string name="NotificationsSettingsFragment__an_error_occurred_while_registering_for_push_notifications_s">Push-teavituste registreerimisel ilmnes viga. %s</string>

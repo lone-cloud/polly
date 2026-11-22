@@ -1,49 +1,303 @@
-name: Sync Upstream
+name: Sync Molly Upstream
 
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Re-sync even if already on the latest Molly release'
+        required: false
+        type: boolean
+        default: false
   schedule:
-    - cron: '0 2,18,22 * * *'
+    - cron: '0 */6 * * *'  # Check every 6 hours for new Molly releases
 
 permissions:
-  contents: read
+  contents: write
+  actions: write   # Required to dispatch auto-release.yml
 
 jobs:
   sync:
-    name: Sync
-    runs-on: ubuntu-24.04
+    name: Sync Molly
+    runs-on: ubuntu-22.04
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
-          ref: upstream-main
           fetch-depth: 0
-          lfs: true
-          persist-credentials: false
+          token: ${{ github.token }}
 
-      - run: gh auth setup-git
+      - name: Import GPG key
+        run: |
+          echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import
+          echo "allow-loopback-pinentry" >> ~/.gnupg/gpg-agent.conf
+          gpgconf --kill gpg-agent
+
+      - name: Configure Git
+        run: |
+          git config user.name "lone-cloud"
+          git config user.email "lonecloud604@pm.me"
+          git config user.signingkey F99993FBD1212375
+          git config commit.gpgsign true
+
+      - name: Add Molly upstream remote
+        run: |
+          git remote add molly https://github.com/mollyim/mollyim-android.git || true
+          git fetch molly --tags --force
+
+      - name: Resolve latest Molly release
+        id: check_new_tag
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - run: git remote add upstream https://github.com/signalapp/Signal-Android.git
-      - run: git pull --ff-only upstream main
-        env:
-          GIT_LFS_SKIP_SMUDGE: 1
-
-      - run: git fetch --tags upstream
-      - run: git lfs fetch --all upstream
-      - run: git push origin upstream-main
-        env:
-          GH_TOKEN: ${{ secrets.SYNC_PAT }}
-
-      - name: Track upstream stable release
         run: |
-          curl -fsSL -o latest.json https://updates.signal.org/android/latest.json
-          tag="v$(jq -r .versionName latest.json)"
-          if ! git rev-parse -q --verify "refs/tags/${tag}"; then
-            echo "::notice::tag ${tag} not pushed to upstream yet, skipping"
-            exit 0
+          # Molly publishes releases from per-version branches (e.g. molly-8.34) and no
+          # longer keeps main up to date. Track the commit behind the latest release tag.
+          molly_tag=$(gh release list -R mollyim/mollyim-android -L 1 --json tagName -q '.[0].tagName')
+          if [ -z "$molly_tag" ]; then
+            echo "::error::Could not determine the latest Molly release"
+            exit 1
           fi
-          git push -f origin "${tag}^{commit}:refs/heads/upstream-stable"
+
+          molly_commit=$(git rev-parse "refs/tags/${molly_tag}^{commit}")
+          our_parent=$(git rev-parse HEAD^)
+
+          echo "Latest Molly release: $molly_tag ($molly_commit)"
+          echo "Our parent:           $our_parent"
+
+          echo "molly-tag=$molly_tag" >> $GITHUB_OUTPUT
+          echo "molly-commit=$molly_commit" >> $GITHUB_OUTPUT
+
+          if [ "$molly_commit" != "$our_parent" ] || [ "${{ inputs.force }}" = "true" ]; then
+            echo "has_new_tag=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_new_tag=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Apply Polly customizations onto updated Molly release
+        if: steps.check_new_tag.outputs.has_new_tag == 'true'
         env:
-          GH_TOKEN: ${{ secrets.SYNC_PAT }}
+          MOLLY_TAG: ${{ steps.check_new_tag.outputs.molly-tag }}
+          MOLLY_COMMIT: ${{ steps.check_new_tag.outputs.molly-commit }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_PAT: ${{ secrets.PUBLISH_PAT }}
+        run: |
+          # Save Polly-owned files (whole-file replacement is safe — Molly doesn't own these)
+          mkdir -p /tmp/polly-overlay/.github/workflows
+          mkdir -p /tmp/polly-overlay/reproducible-builds/ci
+          cp .github/workflows/*.yml /tmp/polly-overlay/.github/workflows/
+          cp .github/FUNDING.yml /tmp/polly-overlay/FUNDING.yml
+          cp README.md /tmp/polly-overlay/README.md
+          cp reproducible-builds/ci/mini.env /tmp/polly-overlay/reproducible-builds/ci/mini.env
+
+          # Reset to the commit behind Molly's latest release tag
+          git reset --hard "$MOLLY_COMMIT"
+
+          # Remove Molly's workflows, restore Polly's
+          rm -f .github/workflows/*.yml
+          cp /tmp/polly-overlay/.github/workflows/*.yml .github/workflows/
+          cp /tmp/polly-overlay/FUNDING.yml .github/FUNDING.yml
+          cp /tmp/polly-overlay/README.md README.md
+          cp /tmp/polly-overlay/reproducible-builds/ci/mini.env reproducible-builds/ci/mini.env
+
+          # --- Targeted patches on Molly's files (NOT whole-file copies) ---
+
+          # Dockerfile: drop the prebuilt-dependency overlay. Molly v8.34 uses
+          # `COPY --from=${LOA_DEP_*}`, which current BuildKit rejects ("variable expansion
+          # is not supported for --from"); Molly's own v8.34.2-1 release build failed on this.
+          # Polly supplies prebuilts/ in the source tree instead (see .dockerignore below).
+          sed -i '/^ARG LOA_DEP_LIBSIGNAL=/d; /^COPY --from=\${LOA_DEP_LIBSIGNAL} /d; /^ARG LOA_DEP_RINGRTC=/d; /^COPY --from=\${LOA_DEP_RINGRTC} /d' Dockerfile
+
+          # .dockerignore: let Polly's prebuilts/ directory into the build context.
+          # Molly's Cloudsmith dependency repos return HTTP 402, so release.yml downloads
+          # the prebuilt libsignal/RingRTC artifacts here before the Docker build.
+          sed -i '/^prebuilts$/d' .dockerignore
+
+          # app/build.gradle.kts: Polly-specific changes
+          sed -i 's/abiFilters += listOf(.*)/abiFilters += listOf("arm64-v8a")/' app/build.gradle.kts
+          sed -i '/buildConfigField("boolean", "TRACING_ENABLED", "false")/a\    buildConfigField("boolean", "USE_STRING_ID", "false")\n    buildConfigField("boolean", "SHOW_DONATIONS", "false")\n    buildConfigField("boolean", "SHOW_HELP", "false")\n    buildConfigField("boolean", "HIDE_FCM_OPTION", "true")\n    buildConfigField("boolean", "HIDE_STORIES", "true")' app/build.gradle.kts
+          if ! grep -q "POLLY.*DEX" app/build.gradle.kts; then
+            perl -0777 -i -pe 's/(useLegacyPackaging = true\n    }\n)(    resources \{)/${1}    \/\/ POLLY: Compress DEX files to reduce APK size\n    dex {\n      useLegacyPackaging = true\n    }\n$2/' app/build.gradle.kts
+          fi
+          if ! grep -q "POLLY.*APK output naming" app/build.gradle.kts; then
+            sed -i '/beforeVariants(selector().withBuildType("release"))/i\  // POLLY: Custom APK output naming\n  onVariants { variant ->\n    variant.outputs.forEach { output ->\n      val name = variant.name\n      val flavors = "-$name".replace("-prod","").replace("-website","").replace("-store","").replace("-release","").replace("Prod","").replace("Website","").replace("Store","").replace("Release","")\n      val unsigned = if (variant.signingConfig == null) "-unsigned" else ""\n      output.outputFileName.set("${baseAppFileName}${flavors}${unsigned}-${canonicalVersionName}-${mollyRevision}.apk")\n    }\n  }\n' app/build.gradle.kts
+          fi
+
+          # app/gradle.properties: Polly branding
+          sed -i 's/^baseAppTitle=.*/baseAppTitle=Polly/' app/gradle.properties
+          sed -i 's/^baseAppFileName=.*/baseAppFileName=Polly/' app/gradle.properties
+          sed -i 's/^basePackageId=.*/basePackageId=im.polly.app/' app/gradle.properties
+
+          # feature/app-settings: remove donations, stories, and help rows.
+          # Since v8.34.2 the settings home is Compose in the feature module, where the app
+          # module's BuildConfig flags are not visible, so remove the rows unconditionally.
+          app_settings_screen=feature/app-settings/src/main/java/org/signal/appsettings/home/AppSettingsScreen.kt
+          if [ ! -f "$app_settings_screen" ]; then
+            echo "::error::Polly settings screen not found at $app_settings_screen"
+            exit 1
+          fi
+          # Donations row
+          perl -0777 -i -pe 's/^        item \{\n          Rows\.TextRow\(\n            text = \{\n              Text\(\n                text = stringResource\(R\.string\.AppSettingsScreen__donate_to_signal\),.*?\.testTag\(AppSettingsTestTags\.ROW_DONATE\)\n          \)\n        \}\n\n//ms' "$app_settings_screen"
+          # Stories row
+          perl -0777 -i -pe 's/^        item \{\n          Rows\.TextRow\(\n            text = stringResource\(R\.string\.AppSettingsScreen__stories\),.*?\.testTag\(AppSettingsTestTags\.ROW_STORIES\)\n          \)\n        \}\n\n//ms' "$app_settings_screen"
+          # Help row (and the divider above it; the internal-preferences block adds its own)
+          perl -0777 -i -pe 's/^        item \{\n          Dividers\.Default\(\)\n        \}\n\n        item \{\n          Rows\.TextRow\(\n            text = stringResource\(R\.string\.preferences__help\),.*?\.testTag\(AppSettingsTestTags\.ROW_HELP\)\n          \)\n        \}\n\n//ms' "$app_settings_screen"
+          # Drop imports that only the removed rows used
+          grep -q 'painterResource(' "$app_settings_screen" || sed -i '/^import androidx\.compose\.ui\.res\.painterResource$/d' "$app_settings_screen"
+          grep -q 'colorAttribute(' "$app_settings_screen" || sed -i '/^import org\.signal\.core\.ui\.compose\.theme\.colorAttribute$/d' "$app_settings_screen"
+          grep -q 'CoreUiR\.' "$app_settings_screen" || sed -i '/^import org\.signal\.core\.ui\.R as CoreUiR$/d' "$app_settings_screen"
+          # App updates row
+          perl -0777 -i -pe 's/^        if \(state\.showAppUpdates\) \{\n          item \{\n            Rows\.TextRow\(\n              text = "App updates",.*?\.testTag\(AppSettingsTestTags\.ROW_APP_UPDATES\)\n            \)\n          \}\n        \}\n\n//ms' "$app_settings_screen"
+
+          # NotificationsSettingsFragment.kt: Hide FCM option
+          if ! grep -q "BuildConfig.HIDE_FCM_OPTION" app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt; then
+            sed -i '/^import org.thoughtcrime.securesms.BuildConfig$/d' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
+            perl -i -pe 's/^(import org.thoughtcrime.securesms.R)/$1\nimport org.thoughtcrime.securesms.BuildConfig/' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
+            sed -i 's/NotificationDeliveryMethod\.FCM -> true/NotificationDeliveryMethod.FCM -> !BuildConfig.HIDE_FCM_OPTION/' app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt
+          fi
+
+          # libs.versions.toml: raise minSdk
+          sed -i 's/^minSdk = "[0-9]*".*/minSdk = "34"               # POLLY: Raise min SDK to Android 14/' gradle/libs.versions.toml
+
+          # --- Security ---
+          # The Oct 2026 RingRTC/eMudhra backports were one-time workarounds for the
+          # dormant Molly 8.19.2 base. Molly ships both fixes now, so use whatever
+          # RingRTC version upstream pins and only fail if a security fix disappears.
+
+          # settings.gradle.kts: inject Polly maven repos
+          if ! grep -q "argon2" settings.gradle.kts; then
+            perl -0777 -i -pe \
+              's|(includeModule\("im\.molly", "libsignal-android"\)\n\s*\}\n\s*\})|$1\n    maven {\n      url = uri("https://raw.githubusercontent.com/mollyim/maven/master/argon2/releases/")\n      content {\n        includeModule("im.molly", "argon2")\n      }\n    }\n    maven {\n      url = uri("https://raw.githubusercontent.com/mollyim/maven/master/native-utils/releases/")\n      content {\n        includeModule("im.molly", "native-utils")\n      }\n    }|' \
+              settings.gradle.kts
+          fi
+
+          # Re-apply Polly branding to string values (Molly→Polly in display text only)
+          find app/src/main/res -name "strings.xml" -o -name "strings2.xml" | xargs sed -i 's/\bMolly\b/Polly/g'
+
+          # --- Verify every customization actually applied ---
+          # These are regex patches against upstream source. If an anchor stops matching we
+          # must fail the sync instead of force-pushing a half-customized tree.
+          require() { grep -q -- "$2" "$1" || { echo "::error::Polly customization missing from $1: $2"; exit 1; }; }
+          forbid()  { if grep -q -- "$2" "$1"; then echo "::error::Polly customization did not apply to $1: $2"; exit 1; fi; }
+
+          require app/build.gradle.kts 'POLLY: Compress DEX files'
+          require app/build.gradle.kts 'POLLY: Custom APK output naming'
+          require app/build.gradle.kts 'HIDE_FCM_OPTION'
+          require app/src/main/java/org/thoughtcrime/securesms/components/settings/app/notifications/NotificationsSettingsFragment.kt 'BuildConfig.HIDE_FCM_OPTION'
+          require gradle/libs.versions.toml 'POLLY: Raise min SDK'
+          require settings.gradle.kts 'argon2'
+          require app/gradle.properties '^baseAppTitle=Polly'
+          require app/gradle.properties '^baseAppFileName=Polly'
+          require app/gradle.properties '^basePackageId=im.polly.app'
+          require lib/libsignal-service/src/main/java/org/whispersystems/signalservice/internal/util/BlacklistingTrustManager.java 'BLACKLISTED_PUBLIC_KEY_SHA256'
+          forbid Dockerfile 'LOA_DEP_'
+          forbid .dockerignore '^prebuilts$'
+
+          forbid "$app_settings_screen" 'AppSettingsTestTags.ROW_DONATE'
+          forbid "$app_settings_screen" 'AppSettingsTestTags.ROW_STORIES'
+          forbid "$app_settings_screen" 'AppSettingsTestTags.ROW_HELP'
+          forbid "$app_settings_screen" 'AppSettingsTestTags.ROW_APP_UPDATES'
+
+          # --- Ensure the exact prebuilt dependencies are published ---
+          # Molly's Cloudsmith repos return HTTP 402, so fetch the mavenLocal artifacts
+          # that Molly's dependency CI built at the tag commit and cache them in the
+          # draft polly-prebuilts release. release.yml consumes that asset.
+          libsignal_version=$(sed -nE 's/^libsignal-client = "([^"]+)".*/\1/p' gradle/libs.versions.toml)
+          ringrtc_version=$(sed -nE 's/^signal-ringrtc = "im\.molly:ringrtc-android:([^"]+)".*/\1/p' gradle/libs.versions.toml)
+          if [ -z "$libsignal_version" ] || [ -z "$ringrtc_version" ]; then
+            echo "::error::Could not determine libsignal/RingRTC versions"
+            exit 1
+          fi
+          if [ "$(printf '%s\n2.72.0\n' "$ringrtc_version" | sort -V | head -1)" != "2.72.0" ]; then
+            echo "::error::Upstream RingRTC $ringrtc_version predates the 2.72.0 call-teardown fix"
+            exit 1
+          fi
+          if [ -z "$PUBLISH_PAT" ]; then
+            echo "::error::PUBLISH_PAT secret is required to fetch Molly's dependency artifacts"
+            exit 1
+          fi
+          prebuilts_asset="prebuilts-ls-${libsignal_version}-rt-${ringrtc_version}.tar.zst"
+          prebuilts_release=polly-prebuilts
+
+          if gh release view "$prebuilts_release" -R "$GITHUB_REPOSITORY" --json assets \
+               -q '.assets[].name' 2>/dev/null | grep -qx "$prebuilts_asset"; then
+            echo "Prebuilts already published: $prebuilts_asset"
+          else
+            work=/tmp/polly-prebuilts-build
+            rm -rf "$work"
+            mkdir -p "$work"
+
+            fetch_dep() {
+              repo=$1
+              version=$2
+              artifact_name=$3
+              dest=$4
+
+              sha=$(git ls-remote "https://github.com/$repo.git" "refs/tags/v${version}^{}" | cut -f1)
+              if [ -z "$sha" ]; then
+                echo "::error::Could not resolve $repo tag v$version"
+                exit 1
+              fi
+
+              artifacts=$(GH_TOKEN="$PUBLISH_PAT" gh api \
+                "repos/$repo/actions/artifacts?name=$artifact_name&per_page=100") || {
+                echo "::error::PUBLISH_PAT cannot read $repo artifact metadata. Rotate it with read access to public-repo Actions."
+                exit 1
+              }
+              artifact_id=$(printf '%s' "$artifacts" \
+                | jq -r --arg sha "$sha" '.artifacts[] | select(.expired == false and .workflow_run.head_sha == $sha) | .id' \
+                | head -1)
+              if [ -z "$artifact_id" ]; then
+                echo "::warning::No $artifact_name artifact for $repo@$sha; trying the newest one"
+                artifact_id=$(printf '%s' "$artifacts" \
+                  | jq -r '.artifacts[] | select(.expired == false) | .id' | head -1)
+              fi
+              if [ -z "$artifact_id" ]; then
+                echo "::error::No non-expired $artifact_name artifact in $repo"
+                exit 1
+              fi
+
+              mkdir -p "$dest"
+              GH_TOKEN="$PUBLISH_PAT" gh api "repos/$repo/actions/artifacts/$artifact_id/zip" \
+                > "$work/$artifact_name.zip" || {
+                echo "::error::Could not download $artifact_name from $repo"
+                exit 1
+              }
+              unzip -q "$work/$artifact_name.zip" -d "$dest"
+            }
+
+            fetch_dep mollyim/libsignal "$libsignal_version" libsignal-maven-local "$work/prebuilts/libsignal"
+            fetch_dep mollyim/ringrtc "$ringrtc_version" ringrtc-maven-local "$work/prebuilts/ringrtc"
+
+            # Keep only the release artifacts for the pinned versions.
+            rm -rf "$work/prebuilts/libsignal/im/molly/libsignal-server"
+            rm -rf "$work/prebuilts/ringrtc/im/molly/ringrtc-android-debug"
+            find "$work/prebuilts" -type f \
+              \( -name '*-sources.jar' -o -name '*-javadoc.jar' -o -name '*-dokka.jar' \) -delete
+
+            test -f "$work/prebuilts/libsignal/im/molly/libsignal-client/${libsignal_version}/libsignal-client-${libsignal_version}.jar"
+            test -f "$work/prebuilts/libsignal/im/molly/libsignal-android/${libsignal_version}/libsignal-android-${libsignal_version}.aar"
+            test -f "$work/prebuilts/ringrtc/im/molly/ringrtc-android/${ringrtc_version}/ringrtc-android-${ringrtc_version}.aar"
+
+            tar -I zstd -cf "$work/$prebuilts_asset" -C "$work" prebuilts
+            gh release view "$prebuilts_release" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
+              gh release create "$prebuilts_release" -R "$GITHUB_REPOSITORY" --draft \
+                --title "Polly prebuilt dependencies" \
+                --notes "Vendored prebuilt libsignal and RingRTC artifacts. Keep this release as a draft."
+            gh release upload "$prebuilts_release" "$work/$prebuilts_asset" \
+              -R "$GITHUB_REPOSITORY" --clobber
+            echo "Published prebuilts: $prebuilts_asset"
+          fi
+
+          # Commit all changes as a single Polly customization commit on top of new Molly
+          git add -A
+          git diff --cached --quiet || git commit -S -m "Polly: fork customizations on top of Molly ${MOLLY_TAG} (${MOLLY_COMMIT:0:7})"
+
+          # Force push since we rewrote history
+          git push --force-with-lease origin HEAD:main
+
+      - name: Trigger auto-release
+        if: steps.check_new_tag.outputs.has_new_tag == 'true'
+        run: |
+          gh workflow run auto-release.yml -R ${{ github.repository }} \
+            -f version="${{ steps.check_new_tag.outputs.molly-tag }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

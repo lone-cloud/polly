@@ -25,7 +25,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.takeOrElse
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextDirection
@@ -48,9 +47,7 @@ import org.signal.core.ui.compose.horizontalGutters
 import org.signal.core.ui.compose.rememberIsSplitPaneSettings
 import org.signal.core.ui.compose.selectionHighlight
 import org.signal.core.ui.compose.theme.SignalTheme
-import org.signal.core.ui.compose.theme.colorAttribute
 import org.signal.emoji.Emojifier
-import org.signal.core.ui.R as CoreUiR
 
 @VisibleForTesting
 object AppSettingsTestTags {
@@ -178,37 +175,6 @@ fun AppSettingsScreen(
         }
 
         item {
-          Rows.TextRow(
-            text = {
-              Text(
-                text = stringResource(R.string.AppSettingsScreen__donate_to_signal),
-                modifier = Modifier.weight(1f)
-              )
-
-              if (state.hasExpiredGiftBadge) {
-                Icon(
-                  painter = painterResource(CoreUiR.drawable.symbol_info_fill_24),
-                  tint = colorAttribute(CoreUiR.attr.signal_accent_primary),
-                  contentDescription = null
-                )
-              }
-            },
-            icon = {
-              Icon(
-                painter = SignalIcons.Heart.painter,
-                contentDescription = null,
-                tint = MaterialTheme.colorScheme.onSurface
-              )
-            },
-            onClick = { onEvent(AppSettingsEvent.DonateClicked) },
-            onLongClick = { onEvent(AppSettingsEvent.DonateLongClicked) },
-            modifier = Modifier
-              .selectionHighlight(selectedRoute is AppSettingsRoute.DonationsRoute)
-              .testTag(AppSettingsTestTags.ROW_DONATE)
-          )
-        }
-
-        item {
           Dividers.Default()
         }
 
@@ -232,18 +198,6 @@ fun AppSettingsScreen(
             modifier = Modifier
               .selectionHighlight(selectedRoute is AppSettingsRoute.ChatsRoute || selectedRoute is AppSettingsRoute.ChatFoldersRoute)
               .testTag(AppSettingsTestTags.ROW_CHATS)
-          )
-        }
-
-        item {
-          Rows.TextRow(
-            text = stringResource(R.string.AppSettingsScreen__stories),
-            icon = SignalIcons.Stories.painter,
-            onClick = { onEvent(AppSettingsEvent.StoriesClicked) },
-            enabled = state.isRegisteredAndUpToDate,
-            modifier = Modifier
-              .selectionHighlight(selectedRoute is AppSettingsRoute.StoriesRoute)
-              .testTag(AppSettingsTestTags.ROW_STORIES)
           )
         }
 
@@ -303,34 +257,6 @@ fun AppSettingsScreen(
             modifier = Modifier
               .selectionHighlight(selectedRoute is AppSettingsRoute.DataAndStorageRoute)
               .testTag(AppSettingsTestTags.ROW_DATA_AND_STORAGE)
-          )
-        }
-
-        if (state.showAppUpdates) {
-          item {
-            Rows.TextRow(
-              text = "App updates",
-              icon = SignalIcons.Calendar.painter,
-              onClick = { onEvent(AppSettingsEvent.AppUpdatesClicked) },
-              modifier = Modifier
-                .selectionHighlight(selectedRoute == AppSettingsRoute.AppUpdates)
-                .testTag(AppSettingsTestTags.ROW_APP_UPDATES)
-            )
-          }
-        }
-
-        item {
-          Dividers.Default()
-        }
-
-        item {
-          Rows.TextRow(
-            text = stringResource(R.string.preferences__help),
-            icon = SignalIcons.Help.painter,
-            onClick = { onEvent(AppSettingsEvent.HelpClicked) },
-            modifier = Modifier
-              .selectionHighlight(selectedRoute is AppSettingsRoute.HelpRoute)
-              .testTag(AppSettingsTestTags.ROW_HELP)
           )
         }
 

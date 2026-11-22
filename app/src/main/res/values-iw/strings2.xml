@@ -7,12 +7,12 @@
     <string name="ChangePassphraseDialogFragment_estimated_time_to_crack_suggestion">%1$s\n\nזמן הפריצה המוערך: %2$s.\n\nהצעה: %3$s</string>
     <string name="ChangePassphraseDialogFragment_weak_passphrase">מילת הצופן חלשה!</string>
     <string name="PassphraseCreateActivity_turn_on_database_encryption">הפעלת הצפנת מסד נתונים</string>
-    <string name="PassphraseCreateActivity_require_passphrase_to_unlock_molly">לדרוש מילת צופן כדי לשחרר את Molly\?</string>
-    <string name="PassphraseCreateActivity_now_you_can_set_a_passphrase_to_encrypt_the_database">מעתה ניתן להגדיר מילת צופן כדי להצפין את מסד הנתונים, עד לשחרור מסד הנתונים, ל־Molly אין אפשרות לקבל התראות או שיחות. הגדרה זו מסייע להגן מפני אובדן מידע או גניבת מכשיר.</string>
+    <string name="PassphraseCreateActivity_require_passphrase_to_unlock_molly">לדרוש מילת צופן כדי לשחרר את Polly\?</string>
+    <string name="PassphraseCreateActivity_now_you_can_set_a_passphrase_to_encrypt_the_database">מעתה ניתן להגדיר מילת צופן כדי להצפין את מסד הנתונים, עד לשחרור מסד הנתונים, ל־Polly אין אפשרות לקבל התראות או שיחות. הגדרה זו מסייע להגן מפני אובדן מידע או גניבת מכשיר.</string>
     <string name="WipeMemoryService_secure_wipe_in_progress">מתבצעת מחיקה מאובטחת כעת</string>
     <string name="preferences__passphrase_changed">מילת הצופן הוחלפה</string>
     <string name="ApplicationPreferencesActivity_network_summary">פרוקסי %1$s</string>
-    <string name="NetworkPreferenceFragment_molly_wont_connect_without_orbot_which_is_not_installed_on_this_device">Molly לא תתחבר ללא Orbot, שאינו מותקן במכשיר זה.</string>
+    <string name="NetworkPreferenceFragment_molly_wont_connect_without_orbot_which_is_not_installed_on_this_device">Polly לא תתחבר ללא Orbot, שאינו מותקן במכשיר זה.</string>
     <string name="NetworkPreferenceFragment_get_orbot">קבלו את Orbot</string>
     <string name="NetworkPreferenceFragment_missing_orbot_app">אפליקציה Orbot חסרה</string>
     <string name="NetworkPreferenceFragment_the_host_you_typed_is_not_valid">המארח שהקלדת אינו חוקי</string>
@@ -30,11 +30,11 @@
     <string name="preferences__map_hybrid">היברידי</string>
     <string name="preferences__map_normal">נורמלי</string>
     <string name="preferences__periodically_check_for_new_releases_and_ask_to_install_them">בדיקה שגרתית לאיתור מהדורות חדשות והצגת בקשה להתקין אותן</string>
-    <string name="preferences__autoupdate_molly">עדכון אוטומטי Molly</string>
+    <string name="preferences__autoupdate_molly">עדכון אוטומטי Polly</string>
     <string name="arrays__tor_via_orbot">Tor דרך Orbot</string>
     <string name="arrays__none">אין</string>
-    <string name="DonateMegaphone_we_maintain_molly_with_your_support_consider_donating_at_open_collective">אנו מתחזקים את Molly עם התמיכה שלך! מוטב לשקול לתרום לנו דרך Open Collective.</string>
-    <string name="DonateMegaphone_molly_is_free_software">Molly היא במסגרת תכנה חופשית</string>
+    <string name="DonateMegaphone_we_maintain_molly_with_your_support_consider_donating_at_open_collective">אנו מתחזקים את Polly עם התמיכה שלך! מוטב לשקול לתרום לנו דרך Open Collective.</string>
+    <string name="DonateMegaphone_molly_is_free_software">Polly היא במסגרת תכנה חופשית</string>
     <string name="preferences_network__online">מקוון</string>
     <string name="preferences_network__connecting">מתבצעת התחברות…</string>
     <string name="preferences_network__check_connection">בדיקת החיבור</string>
@@ -50,7 +50,7 @@
     <string name="DeviceAddFragment__link_without_scanning">קישור ללא סריקה</string>
     <string name="preferences__include_beta_updates">כולל גרסאות לבדיקה</string>
     <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">גרסאות לבדיקה מיועדות לניסוי ועשויות להציג תקלות</string>
-    <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_molly">נא לאמת את זהותך כדי להשתמש ב־Molly</string>
+    <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_molly">נא לאמת את זהותך כדי להשתמש ב־Polly</string>
     <string name="BiometricDialogFragment__biometric_verification">אימות ביומטרי</string>
     <string name="BioTextPreference_no_linked_devices">אין התקנים מקושרים</string>
     <plurals name="BioTextPreference_n_linked_devices">
@@ -60,7 +60,7 @@
         <item quantity="other">%d התקנים מקושרים</item>
     </plurals>
     <string name="EnableAppUpdatesMegaphone_check_for_updates">איתור עדכונים</string>
-    <string name="EnableAppUpdatesMegaphone_molly_can_periodically_check_for_new_releases_and_ask_you_to_install_them">ל־Molly יש אפשרות לאתר מהדורות חדשות אוטומטית ולבקש ממך להתקין אותן.</string>
+    <string name="EnableAppUpdatesMegaphone_molly_can_periodically_check_for_new_releases_and_ask_you_to_install_them">ל־Polly יש אפשרות לאתר מהדורות חדשות אוטומטית ולבקש ממך להתקין אותן.</string>
     <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">תישלח אליך התראה כשיש עדכונים</string>
     <string name="EnableAppUpdatesMegaphone_check_for_updates_automatically">לאתר עדכונים אוטומטית\?</string>
     <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s לא נרשם ל־Signal</string>
@@ -70,7 +70,7 @@
     <string name="NotificationsSettingsFragment__new_activity_while_locked">פעילות חדשה בזמן נעילה</string>
     <string name="NotificationsSettingsFragment__receive_notifications_for_messages_or_missed_calls_when_the_app_is_locked">קבלת התראות להודעות או לשיחות שלא נענו כאשר היישומון נעול.</string>
     <string name="NotificationsSettingsFragment__sorry_this_feature_requires_push_notifications_delivered_via_fcm_or_unifiedpush">היכולת הזאת צריכה להעביר הודעות בדחיפה דרך FCM או דרך UnifiedPush שאינן זמינות כרגע, עמך סליחה.</string>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly נעול</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly נעול</string>
     <string name="HelpSettingsFragment_for_updates_please_check_your_app_store">לעדכונים נא לפנות לחנות היישומונים שלך. הגרסה הזאת לא מתעדכנת עצמאית.</string>
     <string name="app_icon_label_zen">זן</string>
     <string name="app_icon_label_moon">ירח</string>

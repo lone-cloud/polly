@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly құлыптаулы</string>
-    <string name="preferences__autoupdate_molly">Molly-ды авто-жаңарту</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly құлыптаулы</string>
+    <string name="preferences__autoupdate_molly">Polly-ды авто-жаңарту</string>
     <string name="preferences_network__connection">Қосылым</string>
     <string name="preferences_network__connecting">Қосылуда…</string>
     <string name="arrays__tor_via_orbot">Tor Orbot арқылы</string>

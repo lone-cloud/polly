@@ -31,7 +31,7 @@
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">A Molly frissít…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">A Polly frissít…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">Hiba történt a kiszolgálóhoz történő kapcsolódás során!</string>
@@ -88,13 +88,13 @@
     <!-- Option in menu to go to settings -->
     <string name="AttachmentKeyboard_go_to_settings">Ugrás a Beállításokhoz</string>
     <!-- Text explaining that Signal has limited access to photos -->
-    <string name="AttachmentKeyboard_signal_has_limited_access">A Molly korlátozott hozzáféréssel rendelkezik a fotókhoz és videókhoz</string>
+    <string name="AttachmentKeyboard_signal_has_limited_access">A Polly korlátozott hozzáféréssel rendelkezik a fotókhoz és videókhoz</string>
     <!-- Text shown when user has given no photos for Signal to access and an explanation on how to change those permissions -->
     <string name="AttachmentKeyboard_no_photos_found">Nem találhatók fotók. Válaszd ki az itt megjelenő fotókat és videókat, vagy módosítsd az engedélyeket.</string>
 
     <!-- MediaGalleryFragment -->
     <!-- Text describing that no photos or videos are currently found in the gallery and that Signal can only access media that the user allows -->
-    <string name="MediaGalleryFragment__no_photos_found">Nincsenek fotók vagy videók. A Molly csak az általad kiválasztott fotókhoz és videókhoz fér hozzá.</string>
+    <string name="MediaGalleryFragment__no_photos_found">Nincsenek fotók vagy videók. A Polly csak az általad kiválasztott fotókhoz és videókhoz fér hozzá.</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Nem található alkalmazás médiafájl kiválasztásához.</string>
@@ -268,12 +268,12 @@
     <string name="CensorshipCircumventionMegaphone_no_thanks">Nem, köszönöm</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Molly frissítése</string>
+    <string name="ClientDeprecatedActivity_update_signal">Polly frissítése</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Az app jelenlegi verziója elavult. Üzenetek küldése és fogadása előtt frissítened újabb verzióra.</string>
     <string name="ClientDeprecatedActivity_update">Frissítés</string>
     <string name="ClientDeprecatedActivity_dont_update">Nincs frissítés</string>
     <string name="ClientDeprecatedActivity_warning">Figyelmeztetés</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">A Molly általad használt verziója elavult. Megtekintheted a beszélgetés-előzményeket, de a frissítésig nem fogsz tudni üzeneteket küldeni és fogadni.</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">A Polly általad használt verziója elavult. Megtekintheted a beszélgetés-előzményeket, de a frissítésig nem fogsz tudni üzeneteket küldeni és fogadni.</string>
 
     <!-- ClockSkewActivity -->
     <!-- Title of the full-screen dialog shown when the device clock is too far off from the real time -->
@@ -305,7 +305,7 @@
     <!-- Title on dialog when quick restore qr code is scanned in system camera -->
     <string name="CommunicationActions__transfer_dialog_title">Fiók átvitele új eszközre?</string>
     <!-- Message on dialog when quick restore qr code is scanned in system camera -->
-    <string name="CommunicationActions__transfer_dialog_message">A fiók új eszközre való átviteléhez koppints a „Folytatás” gombra, és olvasd be újra a QR-kódot a Molly kamerával. Ügyelj rá, hogy csak közvetlenül a Mollytól származó QR-kódokat olvass be.</string>
+    <string name="CommunicationActions__transfer_dialog_message">A fiók új eszközre való átviteléhez koppints a „Folytatás” gombra, és olvasd be újra a QR-kódot a Polly kamerával. Ügyelj rá, hogy csak közvetlenül a Mollytól származó QR-kódokat olvass be.</string>
     <string name="CommunicationActions__dont_transfer">Nem kerül áthelyezésre</string>
 
     <!-- ConfirmIdentityDialog -->
@@ -329,8 +329,8 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">Üzenet %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">Molly hanghívás %1$s</string>
-    <string name="ContactsDatabase_signal_video_call_s">Molly videohívás %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">Polly hanghívás %1$s</string>
+    <string name="ContactsDatabase_signal_video_call_s">Polly videohívás %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -476,7 +476,7 @@
     <string name="ConversationActivity_error_sending_media">Hiba történt a médiafájl küldése során</string>
 
     <!-- Message shown when opening an MMS group conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">A Molly már nem támogatja az SMS-ek küldését.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">A Polly már nem támogatja az SMS-ek küldését.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">A Signal már nem támogatja az SMS-ek küldését. Hívd meg %1$s ismerősöd a Signal-szolgáltatásba, és beszélgessetek itt.</string>
     <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
@@ -577,7 +577,7 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">Letiltva</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">Molly frissítése</string>
+    <string name="ConversationFragment__update_build">Polly frissítése</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
     <string name="ConversationFragment__reregister_signal">Újraregisztrálás a Mollyra</string>
     <!-- Action shown in the conversation input area to allow a user to re-link this device as it is no longer linked -->
@@ -585,7 +585,7 @@
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">Visszalépés.</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Molly megnyitása</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">Polly megnyitása</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">Már nem ellenőrzött</string>
     <!-- Button shown in conversation header when in a message request state and no groups in common to show new message safety tips -->
@@ -632,7 +632,7 @@
     <!-- Title of the dialog shown when re-requesting an expired attachment from your primary device fails -->
     <string name="ConversationFragment_attachment_backfill_failed_title">A médiafájl nem tölthető le</string>
     <!-- Body of the dialog shown when your phone didn\'t respond to a request to re-send an expired attachment -->
-    <string name="ConversationFragment_attachment_backfill_timeout">Ellenőrizd az eszközt és a telefonod internetkapcsolatát. Nyisd meg a Molly alkalmazást a telefonodon, majd próbáld meg újra a letöltést.</string>
+    <string name="ConversationFragment_attachment_backfill_timeout">Ellenőrizd az eszközt és a telefonod internetkapcsolatát. Nyisd meg a Polly alkalmazást a telefonodon, majd próbáld meg újra a letöltést.</string>
     <!-- Body of the dialog shown when your phone no longer has the attachment you tried to download -->
     <string name="ConversationFragment_attachment_backfill_not_found">Ez a média már nem érhető el a telefonodon, és nem tölthető le.</string>
     <!-- Dialog for how to long to keep a messaged pinned for -->
@@ -702,7 +702,7 @@
     <!-- Bottom sheet text explaining that profile names are chosen by the account holder. Placeholder will be \'Profile names\' -->
     <string name="ProfileNameBottomSheet__profile_names_on_signal">A %1$s a Signalon a fióktulajdonos által kerülnek kiválasztásra.</string>
     <!-- Bottom sheet text explaining that Signal can\'t verify names and photos -->
-    <string name="ProfileNameBottomSheet__signal_cant_verify">A Molly nem tudja ellenőrizni a neveket és a fotókat</string>
+    <string name="ProfileNameBottomSheet__signal_cant_verify">A Polly nem tudja ellenőrizni a neveket és a fotókat</string>
     <!-- Bottom sheet text explaining that Signal will never contact you for registration code, PIN, or recovery key -->
     <string name="ProfileNameBottomSheet__signal_will_never_contact">A Signal soha nem veszi fel veled a kapcsolatot a regisztrációs kódoddal, a PIN-kódoddal vagy a helyreállítási kulcsoddal kapcsolatban</string>
     <!-- Bottom sheet text explaining that accounts can impersonate other people and to be cautious -->
@@ -959,7 +959,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">A munkamenet alaphelyzetbe állt</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">A Molly végpontok közti titkosítást használ, és nagy ritkán újra be kell állítania a két végpont közti adatkapcsolatot. Ennek nincs hatása a biztonságra, de előfordulhat, hogy pont ezalatt nem kaptál meg egy üzenetet ettől a névjegytől. Ilyen esetben azt javasoljuk, hogy kérd meg partneredet az elveszett üzenetek újraküldésére.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">A Polly végpontok közti titkosítást használ, és nagy ritkán újra be kell állítania a két végpont közti adatkapcsolatot. Ennek nincs hatása a biztonságra, de előfordulhat, hogy pont ezalatt nem kaptál meg egy üzenetet ettől a névjegytől. Ilyen esetben azt javasoljuk, hogy kérd meg partneredet az elveszett üzenetek újraküldésére.</string>
 
     <!-- LinkDeviceFragment -->
     <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
@@ -1068,7 +1068,7 @@
     <!-- Bottom sheet title telling users to complete the linking process on the other device  -->
     <string name="AddLinkDeviceFragment__finish_linking_on_other_device">Fejezd be az összekapcsolást a másik eszközödön</string>
     <!-- Bottom sheet description telling users to complete the linking process -->
-    <string name="AddLinkDeviceFragment__finish_linking_signal">Fejezd be a Molly összekapcsolását a másik eszközödön.</string>
+    <string name="AddLinkDeviceFragment__finish_linking_signal">Fejezd be a Polly összekapcsolását a másik eszközödön.</string>
     <!-- Title of dialog when the QR code being scanned is invalid -->
     <string name="AddLinkDeviceFragment__linking_device_failed">Készülék társítása sikertelen</string>
     <!-- Text shown in a dialog when the QR code being scanned is invalid -->
@@ -1116,16 +1116,16 @@
     <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Ez a készülék nem támogatja a Play Szolgáltatásokat. Koppints a rendszer akkumulátor-optimalizációinak letiltásához, ami megakadályozza a Mollyt abban, hogy inaktív állapotban is letöltse az üzeneteket.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Az általad használt Molly verziója elavult. Üzenetek küldéséhez és fogadásához frissíts most!</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Az általad használt Polly verziója elavult. Üzenetek küldéséhez és fogadásához frissíts most!</string>
     <string name="ExpiredBuildReminder_update_now">Frissítés most</string>
 
     <!-- A message in a banner shown at the top of the screen indicating that the user must upgrade their device to use signal. -->
-    <string name="DeprecatedSdkBanner_body">A Molly már nem működik ezen az eszközön. A Molly ismételt használatához frissítsd az eszközöd az Android újabb verziójára, vagy válts egy újabb eszközre.</string>
+    <string name="DeprecatedSdkBanner_body">A Polly már nem működik ezen az eszközön. A Polly ismételt használatához frissítsd az eszközöd az Android újabb verziójára, vagy válts egy újabb eszközre.</string>
 
     <!-- Title of notification telling users to update Signal -->
-    <string name="DeprecatedNotificationJob_update_signal">Molly frissítése</string>
+    <string name="DeprecatedNotificationJob_update_signal">Polly frissítése</string>
     <!-- Message body of notification telling users that this current version of Signal has expired. If pressed, we will direct them to the website APK or PlayStore page -->
-    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">A Molly jelenlegi verziója lejárt. Koppints a frissítéshez, hogy üzeneteket küldhess és fogadhass.</string>
+    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">A Polly jelenlegi verziója lejárt. Koppints a frissítéshez, hogy üzeneteket küldhess és fogadhass.</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
     <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -1259,7 +1259,7 @@
     <!-- Message for dialog asking user to submit logs for debugging a crash -->
     <string name="PromptLogsSlowNotificationsDialog__message">A hibakeresési naplók segítenek diagnosztizálni és kijavítani a problémát, és nem tartalmaznak azonosító információkat.</string>
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
-    <string name="PromptLogsSlowNotificationsDialog__title_crash">A Molly problémába ütközött. Hibakeresési napló küldése?</string>
+    <string name="PromptLogsSlowNotificationsDialog__title_crash">A Polly problémába ütközött. Hibakeresési napló küldése?</string>
     <!-- Title for dialog asking user to submit logs for a situation where they\'re not able to connect to the signal service -->
     <string name="PromptLogsSlowNotificationsDialog__title_connectivity_warning">Lehet, hogy nem kapsz üzeneteket. Hibanapló küldése?</string>
 
@@ -1281,7 +1281,7 @@
     <!-- Title of a bottom sheet that is shown when the user is having connectivity issues -->
     <string name="ConnectivityWarningBottomSheet_title">Lehet, hogy nem kapsz üzeneteket</string>
     <!-- Body of a bottom sheet that is shown when the user is having connectivity issues -->
-    <string name="ConnectivityWarningBottomSheet_body">Az eszköz újraindítása segíthet megoldani az üzenetkézbesítési problémát. Ha a probléma továbbra is fennáll, fordulj a Molly ügyfélszolgálatához.</string>
+    <string name="ConnectivityWarningBottomSheet_body">Az eszköz újraindítása segíthet megoldani az üzenetkézbesítési problémát. Ha a probléma továbbra is fennáll, fordulj a Polly ügyfélszolgálatához.</string>
     <!-- Text for a button in a bottom sheet that is shown when the user is having connectivity issues. Clicking it will dismiss the bottom sheet. -->
     <string name="ConnectivityWarningBottomSheet_dismiss_button">Rendben</string>
 
@@ -1469,8 +1469,8 @@
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Frissítsd a Mollyt a csoporthivatkozások használatához</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Ez a Molly verzió nem támogatja a csoporthivatkozásokat. Frissíts a legújabb verzióra, hogy a hivatkozás használatával csatlakozhass ehhez a csoporthoz.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Molly frissítése</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Ez a Polly verzió nem támogatja a csoporthivatkozásokat. Frissíts a legújabb verzióra, hogy a hivatkozás használatával csatlakozhass ehhez a csoporthoz.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Polly frissítése</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">A csoporthivatkozás érvénytelen</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -1516,7 +1516,7 @@
     <string name="LongMessageActivity_your_message">Saját üzenet</string>
 
     <!-- MessageRetrievalService -->
-    <string name="MessageRetrievalService_signal">Molly</string>
+    <string name="MessageRetrievalService_signal">Polly</string>
     <string name="MessageRetrievalService_background_connection_enabled">Háttérkapcsolat engedélyezve</string>
 
     <!-- MediaOverviewActivity -->
@@ -1608,10 +1608,10 @@
   <!-- Removed by excludeNonTranslatables <string name="StarredMessages__s_chevron_s" translatable="false">%1$s \u203A %2$s</string> -->
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Molly hívás létesítése</string>
+    <string name="NotificationBarManager__establishing_signal_call">Polly hívás létesítése</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Molly hívó szolgáltatás indítása</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">A Molly hívás szolgáltatás leállítása</string>
+    <string name="NotificationBarManager__starting_signal_call_service">Polly hívó szolgáltatás indítása</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">A Polly hívás szolgáltatás leállítása</string>
     <string name="NotificationBarManager__cancel_call">Hívás megszakítása</string>
 
     <!-- NotificationsMegaphone -->
@@ -1942,7 +1942,7 @@
     </plurals>
 
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">A továbbiakban nem küldhetsz SMS-eket a Molly-alkalmazásban. Hívd meg %1$s ismerősöd a Molly-szolgáltatásba, és beszélgessetek itt.</string>
+    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">A továbbiakban nem küldhetsz SMS-eket a Polly-alkalmazásban. Hívd meg %1$s ismerősöd a Polly-szolgáltatásba, és beszélgessetek itt.</string>
     <!-- Body for quote when message being quoted is an in-app payment message -->
     <string name="MessageRecord__payment_s">Fizetés: %1$s</string>
     <!-- Body for quote when message being quoted is an in-app payment message tombstone without an amount -->
@@ -2057,20 +2057,20 @@
     <string name="DeviceProvisioningActivity_link_a_signal_device">Signal eszköz társítása?</string>
     <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">Ha asztali számítógépet vagy iPadet szeretnél kapcsolni ehhez a Signal-fiókhoz, lépj a Kapcsolt eszközök oldalra, koppints az „Új eszköz összekapcsolása” lehetőségre, és olvasd be újra a QR-kódot. Ügyelj rá, hogy csak közvetlenül a Signaltól származó QR-kódokat olvass be.</string>
 
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">A Molly jelenleg telepített verziója ma lejár. Frissíts a legújabb verzióra!</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">A Polly jelenleg telepített verziója ma lejár. Frissíts a legújabb verzióra!</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="one">A Molly jelenleg telepített verziója holnap lejár. Frissíts a legújabb verzióra!</item>
-        <item quantity="other">A Molly jelenleg telepített verziója %1$d napon belül lejár. Frissíts a legújabb verzióra!</item>
+        <item quantity="one">A Polly jelenleg telepített verziója holnap lejár. Frissíts a legújabb verzióra!</item>
+        <item quantity="other">A Polly jelenleg telepített verziója %1$d napon belül lejár. Frissíts a legújabb verzióra!</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Add meg a jelmondatot</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Molly ikon</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Polly ikon</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Jelmondat küldése</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Érvénytelen jelmondat!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Molly feloldása</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Polly feloldása</string>
     <!-- This is the subject line for the email that is sent to support -->
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Molly Android - Képernyőzár</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Polly Android - Képernyőzár</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Térkép</string>
@@ -2096,7 +2096,7 @@
         <item quantity="one">Már csak %1$d próbálkozásod maradt. Ha kifogysz belőlük, lehetőséged lesz új PIN létrehozására. Regisztrálhatsz újra, majd használatba veheted a fiókodat, de mentett beállításaid egy része, mint például a profilinformációid elvesznek.</item>
         <item quantity="other">Még %1$d próbálkozásod maradt. Ha kifogysz belőlük, lehetőséged lesz új PIN létrehozására. Regisztrálhatsz újra, majd használatba veheted a fiókodat, de mentett beállításaid egy része, mint például a profil-információid elvesznek.</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Molly regisztráció - Segítségkérés a PIN kód használatához Androidon</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Polly regisztráció - Segítségkérés a PIN kód használatához Androidon</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">PIN létrehozása</string>
@@ -2128,7 +2128,7 @@
 
     <!-- RecaptchaRequiredBottomSheetFragment -->
     <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">Az üzenetküldés folytatásához ellenőrzés szükséges</string>
-    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">A Molly hálózatán küldött kéretlen üzenetek megelőzése érdekében kérlek végezd el az alábbi ellenőrzést!</string>
+    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">A Polly hálózatán küldött kéretlen üzenetek megelőzése érdekében kérlek végezd el az alábbi ellenőrzést!</string>
     <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">Az ellenőrzést követően folytathatod az üzenetküldést. Az összes felfüggesztett üzenetet automatikusan elküldjük.</string>
 
     <!-- Recipient -->
@@ -2136,7 +2136,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">Történetem</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Molly-hívás</string>
+    <string name="Recipient_signal_call">Polly-hívás</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">Letiltás</string>
@@ -2173,7 +2173,7 @@
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Koppintsd ide a videókép bekapcsolásához</string>
     <!-- Subtitle shown at top of call where %s is the elapsed time of the call -->
-    <string name="WebRtcCallActivity__signal_s">Molly %1$s</string>
+    <string name="WebRtcCallActivity__signal_s">Polly %1$s</string>
     <string name="WebRtcCallActivity__calling">Hívás…</string>
     <!-- Title for dialog warning about lacking bluetooth permissions during a call -->
     <string name="WebRtcCallActivity__bluetooth_permission_denied">Bluetooth engedély megtagadva</string>
@@ -2188,7 +2188,7 @@
     <!-- Title for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
     <string name="WebRtcCallActivity__others_couldnt_hear_you">Mások nem hallottak téged</string>
     <!-- Message for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
-    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">A mikrofonod némítva volt, miközben a Molly futott a háttérben. A probléma megoldásához koppints a Beállítások elemre, és engedélyezd a háttértevékenységet az „Akkumulátor” menüpontban a Beállításokban.</string>
+    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">A mikrofonod némítva volt, miközben a Polly futott a háttérben. A probléma megoldásához koppints a Beállítások elemre, és engedélyezd a háttértevékenységet az „Akkumulátor” menüpontban a Beállításokban.</string>
     <!-- Title for dialog to approve all requests -->
     <plurals name="WebRtcCallActivity__approve_d_requests">
         <item quantity="one">Jóváhagysz %1$d kérést?</item>
@@ -2259,8 +2259,8 @@
     <string name="MoveableLocalVideoRenderer__expand_local_video">Helyi videó nagyítása</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Molly hívás</string>
-    <string name="WebRtcCallView__signal_video_call">Molly videóhívás</string>
+    <string name="WebRtcCallView__signal_call">Polly hívás</string>
+    <string name="WebRtcCallView__signal_video_call">Polly videóhívás</string>
     <string name="WebRtcCallView__start_call">Hívás indítása</string>
     <string name="WebRtcCallView__join_call">Belépés a hívásba</string>
     <string name="WebRtcCallView__call_is_full">A hívás betelt</string>
@@ -2862,11 +2862,11 @@
     <string name="ThreadRecord_blocked_group">Letiltva</string>
 
     <!-- ApkUpdateNotifications -->
-    <string name="ApkUpdateNotifications_prompt_install_title">Molly frissítés</string>
-    <string name="ApkUpdateNotifications_prompt_install_body">Megjelent a Molly új verziója. A frissítéshez koppints.</string>
-    <string name="ApkUpdateNotifications_failed_general_title">A Molly frissítése sikertelen</string>
+    <string name="ApkUpdateNotifications_prompt_install_title">Polly frissítés</string>
+    <string name="ApkUpdateNotifications_prompt_install_body">Megjelent a Polly új verziója. A frissítéshez koppints.</string>
+    <string name="ApkUpdateNotifications_failed_general_title">A Polly frissítése sikertelen</string>
     <string name="ApkUpdateNotifications_failed_general_body">Később újra megpróbáljuk.</string>
-    <string name="ApkUpdateNotifications_auto_update_success_title">Molly sikeresen frissítve</string>
+    <string name="ApkUpdateNotifications_auto_update_success_title">Polly sikeresen frissítve</string>
     <string name="ApkUpdateNotifications_auto_update_success_body">Automatikusan frissítettél a(z) %1$s verzióra.</string>
     <string name="ApkUpdateNotifications_manual_update_success_body">Frissítettél a(z) %1$s verzióra.</string>
 
@@ -2930,8 +2930,8 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Koppints a megnyitáshoz!</string>
-    <string name="KeyCachingService_passphrase_cached">Molly feloldva</string>
-    <string name="KeyCachingService_lock">Molly zárolása</string>
+    <string name="KeyCachingService_passphrase_cached">Polly feloldva</string>
+    <string name="KeyCachingService_lock">Polly zárolása</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">Te</string>
@@ -2984,7 +2984,7 @@
     <string name="MessageNotifier_failed_to_deliver_message">Nem sikerült az üzenet kézbesítése.</string>
     <string name="MessageNotifier_error_delivering_message">Hiba történt az üzenet kézbesítése során.</string>
     <string name="MessageNotifier_message_delivery_paused">Üzenetek kézbesítése felfüggesztve</string>
-    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">A Molly hálózatán történő üzenetküldéshez ellenőrzés szükséges.</string>
+    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">A Polly hálózatán történő üzenetküldéshez ellenőrzés szükséges.</string>
     <string name="MessageNotifier_mark_all_as_read">Összes megjelölése olvasottként</string>
     <string name="MessageNotifier_mark_read">Olvasottnak jelöl</string>
     <string name="MessageNotifier_turn_off_these_notifications">Értesítések kikapcsolása</string>
@@ -3008,7 +3008,7 @@
     <!-- Body of a notification when someone votes in a poll. First placeholder is the poll emoji, second placeholder is the name of the voter and third is the poll question -->
     <string name="MessageNotifier_s_voted_in_poll">%1$s %2$s szavazott a(z) „%3$s” szavazáson</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Kikapcsolod az új kontakt érhető el Mollyon értesítést? Újra engedélyezheted a Molly &gt; Beállítások &gt; Értesítések menüpontban.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Kikapcsolod az új kontakt érhető el Mollyon értesítést? Újra engedélyezheted a Polly &gt; Beállítások &gt; Értesítések menüpontban.</string>
 
     <!-- TurnOnNotificationsBottomSheet -->
     <!-- Title for sheet explaining how to turn on app notifications -->
@@ -3094,11 +3094,11 @@
     <!-- Dialog title shown when attempting to save media that has been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_media">A médiafájl nem menthető</string>
     <!-- Dialog message explaining that media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__media_offloaded_message">Ez a médiafájl áthelyezésre került az eszközödről, mert be van kapcsolva a „Molly-tárhely optimalizálása” lehetőség. Az elemeket letöltheted egyenként, vagy kikapcsolhatod a „Molly-tárhely optimalizálása” funkciót, hogy az összes médiatartalmat letöltsd az eszközödre.</string>
+    <string name="AttachmentSaver__media_offloaded_message">Ez a médiafájl áthelyezésre került az eszközödről, mert be van kapcsolva a „Polly-tárhely optimalizálása” lehetőség. Az elemeket letöltheted egyenként, vagy kikapcsolhatod a „Polly-tárhely optimalizálása” funkciót, hogy az összes médiatartalmat letöltsd az eszközödre.</string>
     <!-- Dialog title shown when attempting to save multiple media items, some of which have been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_all_items">Nem menthető az összes elem</string>
     <!-- Dialog message explaining that some selected media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__some_media_offloaded_message">Néhány kiválasztott médiafájl áthelyezésre kerül az eszközödről, mert be van kapcsolva a „Molly-tárhely optimalizálása” lehetőség. Az elemeket egyesével mentheted el, vagy kikapcsolhatod a „Molly-tárhely optimalizálása” funkciót, hogy az összes médiafájlt letöltsd az eszközödre.</string>
+    <string name="AttachmentSaver__some_media_offloaded_message">Néhány kiválasztott médiafájl áthelyezésre kerül az eszközödről, mert be van kapcsolva a „Polly-tárhely optimalizálása” lehetőség. Az elemeket egyesével mentheted el, vagy kikapcsolhatod a „Polly-tárhely optimalizálása” funkciót, hogy az összes médiafájlt letöltsd az eszközödre.</string>
     <!-- Button label in the offloaded media dialog that navigates to the storage settings screen. -->
     <string name="AttachmentSaver__view_storage_settings">Tárhelybeállítások megtekintése</string>
 
@@ -3111,7 +3111,7 @@
     <string name="ShortcutLauncherActivity_invalid_shortcut">Érvénytelen parancsikon</string>
 
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_signal">Molly</string>
+    <string name="SingleRecipientNotificationBuilder_signal">Polly</string>
     <string name="SingleRecipientNotificationBuilder_new_message">Új üzenet</string>
     <string name="SingleRecipientNotificationBuilder_message_request">Felkérés csevegésre</string>
     <string name="SingleRecipientNotificationBuilder_you">Te</string>
@@ -3418,7 +3418,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">A Buborék egy Android funkció, amit letilthatsz a Molly-csevegések esetén.</string>
+    <string name="BubbleOptOutTooltip__description">A Buborék egy Android funkció, amit letilthatsz a Polly-csevegések esetén.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">Később</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -3559,20 +3559,20 @@
     <!-- Bottom sheet title when encryption is auto-verified -->
     <string name="EncryptionVerifiedSheet__title_success">A titkosítás ellenőrzése automatikus ennél a csevegésnél.</string>
     <!-- Bottom sheet body when encryption is auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_success">Azoknál a személyeknél, akikhez telefonszámon keresztül kapcsolódsz, a Molly egy kulcsátláthatóságnak nevezett folyamat segítségével automatikusan megerősítheti, hogy a kapcsolat biztonságos-e. A fokozott biztonság érdekében ellenőrizd manuálisan a végpontok közötti titkosítást az előző képernyőn látható számok összehasonlításával vagy az eszközön található kód beolvasásával.</string>
+    <string name="EncryptionVerifiedSheet__body_success">Azoknál a személyeknél, akikhez telefonszámon keresztül kapcsolódsz, a Polly egy kulcsátláthatóságnak nevezett folyamat segítségével automatikusan megerősítheti, hogy a kapcsolat biztonságos-e. A fokozott biztonság érdekében ellenőrizd manuálisan a végpontok közötti titkosítást az előző képernyőn látható számok összehasonlításával vagy az eszközön található kód beolvasásával.</string>
     <!-- Bottom sheet title when encryption is no longer auto-verified -->
     <string name="EncryptionVerifiedSheet__title_no_longer_unavailable">Az automatikus ellenőrzés nem érhető el ehhez a csevegéshez</string>
     <!-- Bottom sheet body when encryption is no longer auto-verified. Placeholder is the name of the person. -->
-    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">A Molly nem tudja automatikusan ellenőrizni a titkosítást ennél a csevegésnél. Ennek az lehet az oka, hogy %1$s megváltoztatta a telefonszámát vagy a telefonszám adatvédelmi beállításait. Ellenőrizd manuálisan a végpontok közötti titkosítást az előző képernyőn látható számok összehasonlításával vagy az eszközön található kód beolvasásával.</string>
+    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">A Polly nem tudja automatikusan ellenőrizni a titkosítást ennél a csevegésnél. Ennek az lehet az oka, hogy %1$s megváltoztatta a telefonszámát vagy a telefonszám adatvédelmi beállításait. Ellenőrizd manuálisan a végpontok közötti titkosítást az előző képernyőn látható számok összehasonlításával vagy az eszközön található kód beolvasásával.</string>
     <!-- Bottom sheet title when encryption cannot be auto-verified -->
     <string name="EncryptionVerifiedSheet__title_unavailable">Az automatikus ellenőrzés nem érhető el ehhez a csevegéshez</string>
     <!-- Bottom sheet body when encryption cannot be auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_unavailable">A Molly csak azokban a csevegésekben tudja automatikusan ellenőrizni a titkosítást, ahol telefonszámon keresztül vagy kapcsolatban valakivel. Ha a csevegést közös felhasználónévvel vagy csoporttal indították, ellenőrizd a végpontok közötti titkosítást az előző képernyőn látható számok összehasonlításával vagy az eszközön található kód beolvasásával.</string>
+    <string name="EncryptionVerifiedSheet__body_unavailable">A Polly csak azokban a csevegésekben tudja automatikusan ellenőrizni a titkosítást, ahol telefonszámon keresztül vagy kapcsolatban valakivel. Ha a csevegést közös felhasználónévvel vagy csoporttal indították, ellenőrizd a végpontok közötti titkosítást az előző képernyőn látható számok összehasonlításával vagy az eszközön található kód beolvasásával.</string>
 
     <!-- Title for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__title">A Molly mostantól automatikusan ellenőrizheti a titkosítást.</string>
+    <string name="VerifyAutomaticallyEducationSheet__title">A Polly mostantól automatikusan ellenőrizheti a titkosítást.</string>
     <!-- Body for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__body">Azoknál a névjegyeknél, amelyekhez telefonszámon keresztül kapcsolódsz, a Molly egy kulcsátláthatóságnak nevezett folyamat segítségével automatikusan megerősítheti, hogy a kapcsolat biztonságos-e. A fokozott biztonság érdekében továbbra is ellenőrizheted manuálisan a névjegyeket QR-kód vagy biztonsági szám használatával.</string>
+    <string name="VerifyAutomaticallyEducationSheet__body">Azoknál a névjegyeknél, amelyekhez telefonszámon keresztül kapcsolódsz, a Polly egy kulcsátláthatóságnak nevezett folyamat segítségével automatikusan megerősítheti, hogy a kapcsolat biztonságos-e. A fokozott biztonság érdekében továbbra is ellenőrizheted manuálisan a névjegyeket QR-kód vagy biztonsági szám használatával.</string>
     <!-- Button to learn more about automatic verification -->
     <string name="VerifyAutomaticallyEducationSheet__learn_more">Tudj meg többet</string>
     <!-- Button to go to verification page -->
@@ -3646,7 +3646,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <!-- Heading used within support email that lists additional information to help with debugging -->
     <string name="HelpFragment__support_info">Támogatás információ</string>
-    <string name="HelpFragment__signal_android_support_request">Molly Android támogatási kérés</string>
+    <string name="HelpFragment__signal_android_support_request">Polly Android támogatási kérés</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__debug_log" translatable="false">Debug Log:</string> -->
     <string name="HelpFragment__could_not_upload_logs">Nem sikerült feltölteni a naplót</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">Hogy megérthessük a problémát, fogalmazz olyan pontosan, amennyire csak lehetséges!</string>
@@ -3756,7 +3756,7 @@
     <string name="preferences__normal">Normál</string>
     <string name="preferences__slow">Lassú</string>
     <string name="preferences__advanced">Haladó</string>
-    <string name="preferences__donate_to_signal">Adomány a Molly számára</string>
+    <string name="preferences__donate_to_signal">Adomány a Polly számára</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">Történetek</string>
     <string name="preferences__storage">Tárolás</string>
@@ -3838,7 +3838,7 @@
     <string name="preferences_communication__category_censorship_circumvention">Cenzúramegkerülés</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Cenzúramegkerülés</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Ha engedélyezed, a Molly megpróbálja megkerülni a cenzúrát. Ne engedélyezd ezt a funkciót, ha tartózkodási helyeden nem cenzúrázzák a Mollyt!</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Ha engedélyezed, a Polly megpróbálja megkerülni a cenzúrát. Ne engedélyezd ezt a funkciót, ha tartózkodási helyeden nem cenzúrázzák a Mollyt!</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Telefonszámod alapján bekapcsoltuk számodra a cenzúramegkerülés-funkciót.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
@@ -3866,7 +3866,7 @@
     <!-- Preference title for automatic key verification -->
     <string name="preferences_automatic_key_verification">Automatikus kulcsellenőrzés</string>
     <!-- Preference summary for automatic key verification -->
-    <string name="preferences_automatic_key_verification_body">Ha engedélyezve van, a Molly megpróbálja automatikusan ellenőrizni az egyéni csevegések titkosítását.</string>
+    <string name="preferences_automatic_key_verification_body">Ha engedélyezve van, a Polly megpróbálja automatikusan ellenőrizni az egyéni csevegések titkosítását.</string>
 
 
     <!-- Internal only preferences -->
@@ -3918,7 +3918,7 @@
     <string name="PaymentsHomeFragment__details">Részletek</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
     <!-- Displayed as a description in a dialog when the user tries to activate payments -->
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">A Molly segítségével küldhetsz és fogadhatsz MobileCoint. Minden fizetésre a MobileCoins és a MobileCoin Wallet felhasználási feltételei vonatkoznak. Előfordulhat, hogy hibákba futsz bele, és az elveszett fizetéseket és egyenlegeket nem lehet helyreállítani. </string>
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">A Polly segítségével küldhetsz és fogadhatsz MobileCoint. Minden fizetésre a MobileCoins és a MobileCoin Wallet felhasználási feltételei vonatkoznak. Előfordulhat, hogy hibákba futsz bele, és az elveszett fizetéseket és egyenlegeket nem lehet helyreállítani. </string>
     <string name="PaymentsHomeFragment__activate">Bekapcsolás</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">MobileCoin feltételek megtekintése</string>
     <string name="PaymentsHomeFragment__payments_not_available">A továbbiakban nem érhető el a Fizetések a Mollyban. Az egyenlegedet továbbra is átutalhatod egy tőzsdére, de a továbbiakban már nem fogsz tudni pénzt küldeni vagy fogadni, sem pedig feltölteni az egyenlegedet.</string>
@@ -4004,9 +4004,9 @@
     <string name="PaymentsTransferFragment__next">Tovább</string>
     <string name="PaymentsTransferFragment__invalid_address">Érvénytelen cím</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Ellenőrizd a címzett tárcájának címét, majd próbáld újra!</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Nem utalhatsz a saját Molly tárcád címére. Add meg egy támogatott tőzsdéhez tartozó tárca címét!</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Nem utalhatsz a saját Polly tárcád címére. Add meg egy támogatott tőzsdéhez tartozó tárca címét!</string>
     <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR kód beolvasásához a Mollynak szüksége van kamera-hozzáférésre.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR kód beolvasásához engedélyezned kell, hogy a Molly hozzáférhessen kamerádhoz.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR kód beolvasásához engedélyezned kell, hogy a Polly hozzáférhessen kamerádhoz.</string>
 
     <!-- PaymentsTransferQrScanFragment -->
     <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Címet tartalmazó QR kód beolvasása</string>
@@ -4367,17 +4367,17 @@
 
     <!-- CallNotificationBuilder -->
     <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Bejövő Molly-hanghívás</string>
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">Bejövő Polly-hanghívás</string>
     <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Bejövő Molly-videóhívás</string>
+    <string name="CallNotificationBuilder__incoming_signal_video_call">Bejövő Polly-videóhívás</string>
     <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Bejövő Molly csoporthívás</string>
+    <string name="CallNotificationBuilder__incoming_signal_group_call">Bejövő Polly csoporthívás</string>
     <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Folyamatban lévő Molly-hanghívás</string>
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Folyamatban lévő Polly-hanghívás</string>
     <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Folyamatban lévő Molly-videohívás</string>
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">Folyamatban lévő Polly-videohívás</string>
     <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Folyamatban lévő Molly-csoporthívás</string>
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">Folyamatban lévő Polly-csoporthívás</string>
 
     <string name="CallNotificationBuilder_connecting">Csatlakozás…</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">Biztonsági mentés jelmondat</string>
@@ -4403,9 +4403,9 @@
     <string name="BackupDialog_verify">Hitelesítés</string>
     <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">A biztonsági mentés jelmondat megadása sikeres volt</string>
     <string name="BackupDialog_passphrase_was_not_correct">A jelmondat nem megfelelő</string>
-    <string name="LocalBackupJob_creating_signal_backup">Molly biztonsági mentés létrehozása…</string>
+    <string name="LocalBackupJob_creating_signal_backup">Polly biztonsági mentés létrehozása…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Molly biztonsági mentés ellenőrzése…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">Polly biztonsági mentés ellenőrzése…</string>
     <string name="LocalBackupJobApi29_backup_failed">Sikertelen biztonsági mentés</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">A biztonsági mentéseket tartalmazó könyvtár törölve lett, vagy át lett helyezve.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">A biztonsági mentés mérete túl nagy ahhoz, hogy itt legyen létrehozva.</string>
@@ -4420,7 +4420,7 @@
     <string name="RegistrationActivity_call_me_instead_available_in">Hívjon (%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">Kód újraküldése (%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_code_support_subject">Molly regisztráció - megerősítő kód Androidhoz</string>
+    <string name="RegistrationActivity_code_support_subject">Polly regisztráció - megerősítő kód Androidhoz</string>
     <string name="RegistrationActivity_incorrect_code">Helytelen kód</string>
     <string name="BackupUtil_never">Soha</string>
     <!-- Subtext below last backup time when we do not know when the last backup was -->
@@ -4436,11 +4436,11 @@
     <string name="preferences_chats__backups">Biztonsági mentések</string>
 
     <!-- Title text shown when Signal is locked and needs to be unlocked -->
-    <string name="prompt_passphrase_activity__unlock_signal">Molly feloldása</string>
+    <string name="prompt_passphrase_activity__unlock_signal">Polly feloldása</string>
     <!-- Description text explaining how to unlock Signal -->
-    <string name="prompt_passphrase_activity__use_your_android_device">A Molly feloldásához használd Android-eszközöd zárolási beállításait.</string>
+    <string name="prompt_passphrase_activity__use_your_android_device">A Polly feloldásához használd Android-eszközöd zárolási beállításait.</string>
     <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
-    <string name="prompt_passphrase_activity__screen_lock_is_on">A képernyőzár be van kapcsolva, és a Molly biztonságosan védve van az eszköz zárolási beállításaival. A Molly feloldása ugyanúgy történik, mint a telefon normál feloldásakor, ez történhet arcfeloldással, ujjlenyomatos feloldással, PIN-kóddal, jelszóval vagy mintával.</string>
+    <string name="prompt_passphrase_activity__screen_lock_is_on">A képernyőzár be van kapcsolva, és a Polly biztonságosan védve van az eszköz zárolási beállításaival. A Polly feloldása ugyanúgy történik, mint a telefon normál feloldásakor, ez történhet arcfeloldással, ujjlenyomatos feloldással, PIN-kóddal, jelszóval vagy mintával.</string>
     <!-- Button in a dialog that will contact Signal support if pressed -->
     <string name="prompt_passphrase_activity__contact_support">Segítségkérés</string>
     <!-- Button text to try again after unlocking has previously failed -->
@@ -4459,11 +4459,11 @@
     <!-- Title of an informational card shown on the account settings screen of a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__this_is_a_linked_device">Ez egy kapcsolt eszköz</string>
     <!-- Body of an informational card explaining that account settings must be managed from the primary device -->
-    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">Fiókbeállításaid kezeléséhez nyisd meg a Molly alkalmazást az elsődleges eszközödön.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">Fiókbeállításaid kezeléséhez nyisd meg a Polly alkalmazást az elsődleges eszközödön.</string>
     <!-- Title of a settings row that deletes all Signal data from this linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data">Alkalmazásadatok törlése</string>
     <!-- Subtitle of the delete app data row explaining what it does -->
-    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">Ez az összes adatot eltávolítja a Molly alkalmazásból ezen az eszközön.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">Ez az összes adatot eltávolítja a Polly alkalmazásból ezen az eszközön.</string>
     <!-- Title of the confirmation dialog shown when deleting app data from a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data_question">Alkalmazásadatok törlése?</string>
     <!-- Message of the confirmation dialog explaining that only this device\'s data is deleted, not the account -->
@@ -4498,7 +4498,7 @@
     <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">A Mollynak helymeghatározás engedélyre van szüksége ahhoz, hogy felderíthesse új Android eszközödet, és csatlakozhasson hozzá.</string>
     <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">A Mollynak a helymeghatározás szolgáltatásra van szüksége ahhoz, hogy felderíthesse új Android eszközödet, és csatlakozhasson hozzá.</string>
     <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">A Mollynak Wi-Fi-re van szüksége, hogy felderíthesse új Android eszközödet és csatlakozhasson hozzá. A Wi-Finek bekapcsolt állapotban kell lennie, de nem muszáj hálózathoz csatlakoznia.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sajnáljuk, de úgy tűnik, hogy ez az eszköz nem támogatja a Wi-Fi Directet. A Molly Wi-Fi Directet használ, hogy felderítse és csatlakozzon új Android eszközödhöz. Továbbra is használhatod a biztonsági mentés által létrehozott fájlokat, hogy a fiókodat áthozd új Android eszközödre.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sajnáljuk, de úgy tűnik, hogy ez az eszköz nem támogatja a Wi-Fi Directet. A Polly Wi-Fi Directet használ, hogy felderítse és csatlakozzon új Android eszközödhöz. Továbbra is használhatod a biztonsági mentés által létrehozott fájlokat, hogy a fiókodat áthozd új Android eszközödre.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Biztonsági mentés létrehozása</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Váratlan hiba történt az új Android eszközödhöz történő csatlakozás során.</string>
 
@@ -4965,7 +4965,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">Szám szerkesztése</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Molly telefonszám csere - Segítség PIN (v2) témában (Android)</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Polly telefonszám csere - Segítség PIN (v2) témában (Android)</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">A PIN kódok nem egyeznek.</string>
@@ -5564,9 +5564,9 @@
     <string name="MySupportPreference__checking_subscription">Előfizetés ellenőrzése…</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">Molly frissítése</string>
+    <string name="UpdateSignalExpiredDialog__title">Polly frissítése</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">A Molly jelenlegi verziója lejárt. A Molly használatának folytatásához frissítsd most.</string>
+    <string name="UpdateSignalExpiredDialog__message">A Polly jelenlegi verziója lejárt. A Polly használatának folytatásához frissítsd most.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">Frissítés</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -7042,7 +7042,7 @@
     <!-- Title of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
     <string name="TurnOnSignalBackups__title">A Signal Biztonságos Biztonsági mentéseinek bekapcsolása</string>
     <!-- Body of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
-    <string name="TurnOnSignalBackups__body">Soha ne veszíts el egy üzenetet sem új telefon vásárlásakor vagy a Molly újratelepítésekor.</string>
+    <string name="TurnOnSignalBackups__body">Soha ne veszíts el egy üzenetet sem új telefon vásárlásakor vagy a Polly újratelepítésekor.</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will take the user to the flow to enable backups -->
     <string name="TurnOnSignalBackups__turn_on">Bekapcsolás</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will simply dismiss the megaphone -->
@@ -7105,7 +7105,7 @@
     <!-- Body of the backup setup complete bottom sheet -->
     <string name="BackupSetupCompleteBottomSheet__body">Ez eltarthat egy ideig. A Mollyt a szokásos módon használhatod biztonsági mentés közben.</string>
     <!-- Label for the optimize storage toggle -->
-    <string name="BackupSetupCompleteBottomSheet__optimize_storage">Optimalizáld a Molly-tárhelyedet</string>
+    <string name="BackupSetupCompleteBottomSheet__optimize_storage">Optimalizáld a Polly-tárhelyedet</string>
     <!-- Subtitle for the optimize storage toggle -->
     <string name="BackupSetupCompleteBottomSheet__optimize_subtitle">A régi médiafájlokat a rendszer eltávolítja, de bármikor letöltheted őket a biztonsági másolatból.</string>
     <!-- Primary button on the setup complete bottom sheet -->
@@ -7114,7 +7114,7 @@
     <!-- Title of a megaphone shown to prompt the user to open Signal on their primary device -->
     <string name="InactivePrimary__title">Nyisd meg a Mollyt a telefonodon!</string>
     <!-- Body of a megaphone shown to prompt the user to open Signal on their primary device -->
-    <string name="InactivePrimary__body">Fiókod aktív állapotban tartásához nyisd meg a Molly alkalmazást az elsődleges eszközödön.</string>
+    <string name="InactivePrimary__body">Fiókod aktív állapotban tartásához nyisd meg a Polly alkalmazást az elsődleges eszközödön.</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will navigate to a support page -->
     <string name="InactivePrimary__learn_more">Tudj meg többet</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will snooze the megaphone -->
@@ -7123,7 +7123,7 @@
     <!-- Text describing how to restore a backup displayed on the on-device backups screen -->
     <string name="OnDeviceBackupsScreen__to_restore_a_backup">"Egy biztonsági mentés visszaállításához először is telepítsd a Mollyt! Nyisd meg az alkalmazást, koppints a Biztonsági mentés visszaállítása opcióra, majd keresd ki a biztonsági mentést tartalmazó mappát!"</string>
     <!-- Body of a dialog shown when turning on on-device backups while "Optimize Signal storage" is enabled, warning that optimized media won\'t be included -->
-    <string name="OnDeviceBackupsScreen__you_have_optimize_signal_storage_on">Be van kapcsolva a „Molly tárhely-optimalizálás” beállítás. Ha az összes médiafájlt bele szeretnéd foglalni az eszközön lévő biztonsági mentésbe, kapcsold ki a beállítást.</string>
+    <string name="OnDeviceBackupsScreen__you_have_optimize_signal_storage_on">Be van kapcsolva a „Polly tárhely-optimalizálás” beállítás. Ha az összes médiafájlt bele szeretnéd foglalni az eszközön lévő biztonsági mentésbe, kapcsold ki a beállítást.</string>
     <!-- Dialog action that takes the user to the "Optimize Signal storage" setting -->
     <string name="OnDeviceBackupsScreen__view_setting">Beállítások megtekintése</string>
     <!-- Dialog action to proceed with turning on on-device backups without turning off "Optimize Signal storage" -->
@@ -7350,7 +7350,7 @@
     <!-- Dialog title when a backup redemption fails -->
     <string name="BackupAlertBottomSheet__couldnt_redeem_your_backups_subscription">Nem sikerült aktiválni a biztonsági mentésre vonatkozó előfizetésedet</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it -->
-    <string name="BackupAlertBottomSheet__an_error_occurred">Hiba történt, és a biztonsági mentést nem lehetett befejezni. Frissíts a legújabb Molly verzióra és próbáld újra! Ha a probléma továbbra is fennáll, fordulj az ügyfélszolgálathoz.</string>
+    <string name="BackupAlertBottomSheet__an_error_occurred">Hiba történt, és a biztonsági mentést nem lehetett befejezni. Frissíts a legújabb Polly verzióra és próbáld újra! Ha a probléma továbbra is fennáll, fordulj az ügyfélszolgálathoz.</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it. Used for out of remote storage space error. -->
     <string name="BackupAlertBottomSheet__an_error_occurred_and">Hiba történt, és a biztonsági mentést nem lehetett befejezni. Ha a probléma továbbra is fennáll, fordulj az ügyfélszolgálathoz.</string>
     <!-- Dialog action button that will allow you to check for any Signal version updates -->
@@ -7432,7 +7432,7 @@
     <!-- Text displayed when a backup could not be completed -->
     <string name="BackupStatusRow__your_last_backup">Az utolsó biztonsági mentést nem lehetett befejezni. Győződj meg róla, hogy a telefonod csatlakozik a wifihez, és az újrapróbálkozáshoz koppints a Biztonsági mentés most lehetőségre.</string>
     <!-- Text displayed when a backup could not be completed and to check that they are on the latest version of Signal -->
-    <string name="BackupStatusRow__your_last_backup_latest_version">Az utolsó biztonsági mentést nem lehetett befejezni. Frissíts a legújabb Molly verzióra és próbáld újra!</string>
+    <string name="BackupStatusRow__your_last_backup_latest_version">Az utolsó biztonsági mentést nem lehetett befejezni. Frissíts a legújabb Polly verzióra és próbáld újra!</string>
     <!-- Text displayed when a backup file exceeds the storage limit during upload. -->
     <string name="BackupStatusRow__backup_file_too_large">Az üzeneteid száma meghaladja a tárhelykorlátot. Törölj néhány üzenetet, és próbáld újra.</string>
     <!-- Text displayed when we\'re not backing up all messages. The placeholder represents the cutoff date for the messages we\'re backing up. -->
@@ -7500,9 +7500,9 @@
     <!-- Setting description for syncing automated chat limit trimming (deleting messages automatically by length or date) to linked devices -->
     <string name="ManageStorageSettingsFragment_apply_limits_description">Ha engedélyezve van, a csevegési korlátok a kapcsolt eszközökről is törlik az üzeneteket.</string>
     <!-- Setting section title header for storage optimization -->
-    <string name="ManageStorageSettingsFragment__on_device_storage">Molly tárhely</string>
+    <string name="ManageStorageSettingsFragment__on_device_storage">Polly tárhely</string>
     <!-- Setting row title for storage optimization -->
-    <string name="ManageStorageSettingsFragment__optimize_on_device_storage">Optimalizáld a Molly-tárhelyedet</string>
+    <string name="ManageStorageSettingsFragment__optimize_on_device_storage">Optimalizáld a Polly-tárhelyedet</string>
     <!-- Setting row explanation for storage optimization -->
     <string name="ManageStorageSettingsFragment__unused_media_will_be_offloaded">A fel nem használt médiafájlokat a rendszer eltávolítja, de bármikor letöltheted őket a biztonsági másolatból.</string>
     <!-- Dialog message for paid tier pending dialog -->
@@ -7510,7 +7510,7 @@
     <!-- Title of a dialog shown when turning on "Optimize Signal storage" while on-device backups are enabled -->
     <string name="ManageStorageSettingsFragment__media_will_be_removed_from_your_on_device_backup">A médiafájlok eltávolításra kerülnek az eszközön lévő biztonsági mentésből.</string>
     <!-- Body of a dialog shown when turning on "Optimize Signal storage" while on-device backups are enabled -->
-    <string name="ManageStorageSettingsFragment__turning_on_optimize_signal_storage_will_offload">A „Molly tárhely-optimalizálás” funkció bekapcsolásával a régi médiafájlok áthelyezésre kerülnek az eszközről. Bármikor újra letöltheted. A régi médiafájlokat is eltávolítod az eszközön lévő biztonsági mentésből.</string>
+    <string name="ManageStorageSettingsFragment__turning_on_optimize_signal_storage_will_offload">A „Polly tárhely-optimalizálás” funkció bekapcsolásával a régi médiafájlok áthelyezésre kerülnek az eszközről. Bármikor újra letöltheted. A régi médiafájlokat is eltávolítod az eszközön lévő biztonsági mentésből.</string>
     <!-- Dialog action to confirm turning on "Optimize Signal storage" -->
     <string name="ManageStorageSettingsFragment__turn_on">Bekapcsolás</string>
 
@@ -7668,7 +7668,7 @@
     <!-- Displays the date the subscription expired. Placeholder is the date. -->
     <string name="RemoteBackupsSettingsFragment__expired_on_s">%1$s dátummal lejárt</string>
     <!-- Displayed at the top of the screen when no backup is currently enabled -->
-    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Készíts biztonsági másolatot az üzenetelőzményeidről, hogy soha ne veszíts el adatot új telefon vásárlásakor vagy a Molly újratelepítésekor.</string>
+    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Készíts biztonsági másolatot az üzenetelőzményeidről, hogy soha ne veszíts el adatot új telefon vásárlásakor vagy a Polly újratelepítésekor.</string>
     <!-- Section header for other ways to back up -->
     <string name="RemoteBackupsSettingsFragment__other_ways_to_backup">A biztonsági mentés egyéb módjai</string>
     <!-- Row title for performing on-device backup -->
@@ -7900,7 +7900,7 @@
     <!-- Screen body shown when upgrading on-device backups to a new recovery key (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__local_backup_upgrade_description_bold">Ez a kulcs lecseréli az eszközön tárolt biztonsági mentés kulcsát.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 1). -->
-    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">A helyreállítási kulcs egy 64 karakteres kód, amely lehetővé teszi a biztonsági másolatok visszaállítását a Molly újratelepítésekor.</string>
+    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">A helyreállítási kulcs egy 64 karakteres kód, amely lehetővé teszi a biztonsági másolatok visszaállítását a Polly újratelepítésekor.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description_bold">Ez ugyanaz, mint az eszközön tárolt helyreállítási kulcs.</string>
     <!-- Screen body shown when enabling on-device backups while Signal Secure Backups are already enabled (part 2, bolded). -->
@@ -7938,7 +7938,7 @@
     <!-- Dialog message shown when there is an error saving the recovery key because no compatible password manager was detected. -->
     <string name="MessageBackupsKeyRecordScreen__missing_password_manager_message">Nincs beállítva jelszókezelő, vagy a használt jelszókezelő nem támogatott.</string>
     <!-- Dialog message shown when there is an error saving the recovery key because the user previously chose not to save Signal passwords to their password manager. -->
-    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Korábban úgy döntöttél, hogy nem mented a Molly jelszavaidat a Google Jelszókezelőbe. A Google Jelszókezelő beállításaiban távolítsd el a Molly elemet az „Elutasított webhelyek és alkalmazások” közül, és próbáld újra.</string>
+    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Korábban úgy döntöttél, hogy nem mented a Polly jelszavaidat a Google Jelszókezelőbe. A Google Jelszókezelő beállításaiban távolítsd el a Polly elemet az „Elutasított webhelyek és alkalmazások” közül, és próbáld újra.</string>
     <!-- Label for a button that navigates to the device settings -->
     <string name="MessageBackupsKeyRecordScreen__go_to_settings">Ugrás a Beállításokhoz</string>
     <!-- Action button label -->
@@ -7946,7 +7946,7 @@
     <!-- Bottom sheet title -->
     <string name="MessageBackupsKeyRecordScreen__keep_your_key_safe">Tartsd biztonságban a kulcsod</string>
     <!-- Bottom sheet subtitle -->
-    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Ha elveszíted a kulcsod, a Molly nem tud segíteni a biztonsági másolat helyreállításában. Tárold biztonságos helyen, és ne oszd meg másokkal.</string>
+    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Ha elveszíted a kulcsod, a Polly nem tud segíteni a biztonsági másolat helyreállításában. Tárold biztonságos helyen, és ne oszd meg másokkal.</string>
     <!-- Sheet action button label -->
     <string name="MessageBackupsKeyRecordScreen__continue">Tovább</string>
     <!-- Sheet secondary action button label -->
@@ -7956,13 +7956,13 @@
     <!-- Dialog title for confirming you need to disable optimized storage and download media to rotate AEP key -->
     <string name="MessageBackupsKeyRecordScreen__download_media">Médiafájl letöltése</string>
     <!-- Dialog body for confirming you need to disable optimized storage and download media to rotate AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">Új helyreállítási kulcs létrehozásához ki kell kapcsolnod a „Molly-tárhely optimalizálása” beállítást, és meg kell várnod, amíg a médiafájl letöltése befejeződik. Amikor a letöltés befejeződött, létrehozhatsz egy új kulcsot.</string>
+    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">Új helyreállítási kulcs létrehozásához ki kell kapcsolnod a „Polly-tárhely optimalizálása” beállítást, és meg kell várnod, amíg a médiafájl letöltése befejeződik. Amikor a letöltés befejeződött, létrehozhatsz egy új kulcsot.</string>
     <!-- Action label to turn off optimized storage and download media -->
     <string name="MessageBackupsKeyRecordScreen__turn_off_and_download">Kikapcsolás és letöltés</string>
     <!-- Bottom Sheet title for creating a new AEP key -->
     <string name="MessageBackupsKeyRecordScreen__create_a_new_backup_key">Új helyreállítási kulcs létrehozása</string>
     <!-- Bottom Sheet body for creating a new AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">Új kulcs létrehozására csak akkor van szükség, ha valaki más is ismeri a kulcsodat. Újra fel kell töltened a biztonsági mentést, beleértve a médiafájlokat is. Ha a „Molly-tárhely optimalizálása” funkciót használod, először le kell töltened az áthelyezett médiatartalmakat.</string>
+    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">Új kulcs létrehozására csak akkor van szükség, ha valaki más is ismeri a kulcsodat. Újra fel kell töltened a biztonsági mentést, beleértve a médiafájlokat is. Ha a „Polly-tárhely optimalizálása” funkciót használod, először le kell töltened az áthelyezett médiatartalmakat.</string>
     <!-- Dialog title shown when user attempts to exit backup setup before completion -->
     <string name="MessageBackupsKeyRecordScreen__exit_backup_setup">Kilépsz a biztonsági mentés beállításából?</string>
     <!-- Dialog body warning user that backup setup is incomplete -->
@@ -8085,7 +8085,7 @@
     <!-- ConfirmBackupCancellationDialog -->
 
     <!-- Email subject when contacting support on a create backup failure -->
-    <string name="BackupAlertBottomSheet_network_failure_support_email">Molly Android biztonsági mentés visszaállítási hálózati hiba</string>
+    <string name="BackupAlertBottomSheet_network_failure_support_email">Polly Android biztonsági mentés visszaállítási hálózati hiba</string>
     <!-- Email filter when contacting support on a create backup failure -->
   <!-- Removed by excludeNonTranslatables <string name="BackupAlertBottomSheet_export_failure_filter" translatable="false">Android SignalBackups Export Failed</string> -->
 
@@ -8477,7 +8477,7 @@
     <string name="CouldNotCompleteBackupRestoreSheet__body_error">Hiba történt, és a biztonsági mentés nem állítható vissza. Ennek az oka az lehet, hogy a biztonsági mentések mappáját áthelyezték az eszközön a biztonsági mentés visszaállítása közben.</string>
 
     <!-- Body of the sheet shown when a local backup restore could not be completed, explaining how to try again -->
-    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">Az újbóli próbálkozáshoz távolítsd el, majd telepítsd újra a Molly alkalmazást ezen az eszközön, és válaszd a „Visszaállítás vagy átvitel” lehetőséget.</string>
+    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">Az újbóli próbálkozáshoz távolítsd el, majd telepítsd újra a Polly alkalmazást ezen az eszközön, és válaszd a „Visszaállítás vagy átvitel” lehetőséget.</string>
 
     <!-- Button on the sheet shown when a local backup restore could not be completed, opening a support article about it -->
     <string name="CouldNotCompleteBackupRestoreSheet__learn_more">Tudj meg többet</string>
@@ -8660,7 +8660,7 @@
     <!-- First paragraph of the bottom sheet body, explaining what a reset does. -->
     <string name="ResetRecoveryKeyBottomSheet__resetting_your_recovery_key_will_create_a_new_key">A helyreállítási kulcs visszaállítása új kulcsot hoz létre a Signal Loginhoz. Erre csak akkor van szükség, ha valaki más is ismeri a kulcsodat.</string>
     <!-- Second paragraph of the bottom sheet body, explaining what a reset means for backups. -->
-    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">Ha a biztonsági mentések engedélyezve vannak, újra fel kell töltened a biztonsági mentést, beleértve a médiafájlokat is. Ha a „Molly-tárhely optimalizálása” funkciót használod, először le kell töltened az áthelyezett médiatartalmakat.</string>
+    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">Ha a biztonsági mentések engedélyezve vannak, újra fel kell töltened a biztonsági mentést, beleértve a médiafájlokat is. Ha a „Polly-tárhely optimalizálása” funkciót használod, először le kell töltened az áthelyezett médiatartalmakat.</string>
     <!-- Bottom sheet action that continues on to reset the recovery key. -->
     <string name="ResetRecoveryKeyBottomSheet__continue">Folytatás</string>
     <!-- Dialog body shown when the recovery key change limit is exhausted and the user does not have backups enabled. -->

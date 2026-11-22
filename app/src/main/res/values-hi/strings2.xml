@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="arrays__on_inactivity_timeout">यदि आप आपके फोन को बिना अनलॉक किये कुछ समय छोड़ते है</string>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly लॉक किया गया है</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly लॉक किया गया है</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play सेवाएं अपडेट हो रही हैं या फिर यह अस्थायी रूप से उपलब्ध नहीं है। कृपया दोबाार कोशिश करें।</string>
     <string name="please_wait">कृपया इंतज़ार करें…</string>
     <string name="NotificationsSettingsFragment__notify_when">तब सूचना भेजें, जब…</string>

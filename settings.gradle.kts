@@ -35,6 +35,18 @@ dependencyResolutionManagement {
       }
     }
     maven {
+      url = uri("https://raw.githubusercontent.com/mollyim/maven/master/argon2/releases/")
+      content {
+        includeModule("im.molly", "argon2")
+      }
+    }
+    maven {
+      url = uri("https://raw.githubusercontent.com/mollyim/maven/master/native-utils/releases/")
+      content {
+        includeModule("im.molly", "native-utils")
+      }
+    }
+    maven {
       url = uri("https://dl.cloudsmith.io/public/mollyim/ringrtc/maven/")
       content {
         includeModule("im.molly", "ringrtc-android")

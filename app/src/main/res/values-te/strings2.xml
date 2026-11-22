@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly లాక్ చేయబడింది</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly లాక్ చేయబడింది</string>
     <string name="app_icon_label_moon">చంద్రుడు</string>
     <string name="app_icon_label_music">సంగీతం</string>
     <string name="arrays__none">ఏదీ లేదు</string>

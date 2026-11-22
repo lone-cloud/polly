@@ -31,7 +31,7 @@
   <!-- Removed by excludeNonTranslatables <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string> -->
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Molly se actualizează…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">Polly se actualizează…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">Eroare de conectare la server!</string>
@@ -77,7 +77,7 @@
     <string name="AttachmentKeyboard_location">Locație</string>
     <!-- Text for a button that will allow users to create a poll -->
     <string name="AttachmentKeyboard_poll">Sondaj</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Molly are nevoie de permisiune ca să afișeze pozele și videoclipurile tale</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Polly are nevoie de permisiune ca să afișeze pozele și videoclipurile tale</string>
     <!-- Text for a button prompting users to allow Signal access to their gallery storage -->
     <string name="AttachmentKeyboard_allow_access">Permite accesul</string>
     <string name="AttachmentKeyboard_payment">Plată</string>
@@ -88,34 +88,34 @@
     <!-- Option in menu to go to settings -->
     <string name="AttachmentKeyboard_go_to_settings">Mergi la Setări</string>
     <!-- Text explaining that Signal has limited access to photos -->
-    <string name="AttachmentKeyboard_signal_has_limited_access">Molly are acces limitat la fotografii sau videoclipuri</string>
+    <string name="AttachmentKeyboard_signal_has_limited_access">Polly are acces limitat la fotografii sau videoclipuri</string>
     <!-- Text shown when user has given no photos for Signal to access and an explanation on how to change those permissions -->
     <string name="AttachmentKeyboard_no_photos_found">Nu s-au descoperit fotografii, selectează fotografii sau videoclipuri care să apară aici sau schimbă permisiunile</string>
 
     <!-- MediaGalleryFragment -->
     <!-- Text describing that no photos or videos are currently found in the gallery and that Signal can only access media that the user allows -->
-    <string name="MediaGalleryFragment__no_photos_found">Nu s-au găsit fotografii sau videoclipuri. Molly are acces numai la fotografiile și videoclipurile pe care le-ai selectat.</string>
+    <string name="MediaGalleryFragment__no_photos_found">Nu s-au găsit fotografii sau videoclipuri. Polly are acces numai la fotografiile și videoclipurile pe care le-ai selectat.</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Nu pot găsi o aplicație pentru selecție media.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Molly are nevoie de permisiunea pentru spațiul de stocare pentru a putea atașa poze, videoclipuri sau audio, dar i-a fost refuzat accesul permanent. Te rugăm continuă în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \"Spațiu de stocare\".</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Molly are nevoie de permisiunea pentru Contacte pentru a putea atașa informații despre contacte, dar i-a fost refuzat accesul permanent. Te rugăm continuă în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \"Contacte\".</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Molly are nevoie de permisiunea pentru Locație pentru a putea atașa o locație dar i-a fost refuzat accesul permanent. Te rugăm continuă în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \'Locație\".</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Polly are nevoie de permisiunea pentru spațiul de stocare pentru a putea atașa poze, videoclipuri sau audio, dar i-a fost refuzat accesul permanent. Te rugăm continuă în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \"Spațiu de stocare\".</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Polly are nevoie de permisiunea pentru Contacte pentru a putea atașa informații despre contacte, dar i-a fost refuzat accesul permanent. Te rugăm continuă în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \"Contacte\".</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Polly are nevoie de permisiunea pentru Locație pentru a putea atașa o locație dar i-a fost refuzat accesul permanent. Te rugăm continuă în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \'Locație\".</string>
 
     <!-- Dialog title asking users for location permission -->
     <string name="AttachmentManager_signal_allow_access_location">Permite accesul la locația ta</string>
     <!-- Dialog description that will explain the steps needed to give location permission -->
     <string name="AttachmentManager_signal_to_send_location">Pentru a trimite locația ta:</string>
     <!-- Alert dialog description asking for location permission -->
-    <string name="AttachmentManager_signal_allow_signal_access_location">Permite accesul Molly pentru a-ți trimite locația.</string>
+    <string name="AttachmentManager_signal_allow_signal_access_location">Permite accesul Polly pentru a-ți trimite locația.</string>
     <!-- Toast text explaining Signal\'s need for location access -->
-    <string name="AttachmentManager_signal_needs_location_access">Molly are nevoie de acces la locația ta pentru a trimite locația curentă.</string>
+    <string name="AttachmentManager_signal_needs_location_access">Polly are nevoie de acces la locația ta pentru a trimite locația curentă.</string>
     <!-- Dialog title asking users for gallery storage permission -->
     <string name="AttachmentManager_signal_allow_storage">Permite accesul la stocare</string>
     <!-- Dialog description that will explain the steps needed to give gallery storage permission -->
     <string name="AttachmentManager_signal_to_show_photos">Ca să afișezi fotografii și videoclipuri:</string>
     <!-- Toast text explaining Signal\'s need for storage access -->
-    <string name="AttachmentManager_signal_needs_storage_access">Molly are nevoie de permisiune pentru a afișa pozele și videoclipurile tale.</string>
+    <string name="AttachmentManager_signal_needs_storage_access">Polly are nevoie de permisiune pentru a afișa pozele și videoclipurile tale.</string>
 
     <!-- Alert dialog title to show the recipient has not activated payments -->
     <string name="AttachmentManager__not_activated_payments">%1$s nu a activat Plățile </string>
@@ -270,12 +270,12 @@
     <string name="CensorshipCircumventionMegaphone_no_thanks">Nu, mulțumesc</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Actualizează Molly</string>
+    <string name="ClientDeprecatedActivity_update_signal">Actualizează Polly</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Această versiune a aplicației nu mai este suportată. Pentru a continua să trimiți și să primești mesaje, actualizează la cea mai recentă versiune.</string>
     <string name="ClientDeprecatedActivity_update">Actualizează</string>
     <string name="ClientDeprecatedActivity_dont_update">Nu Actualiza</string>
     <string name="ClientDeprecatedActivity_warning">Avertizare</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Versiunea ta de Molly a expirat. Poți vedea istoricul mesajelor tale, dar nu vei mai putea trimite sau primi mesaje până nu actualizezi.</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Versiunea ta de Polly a expirat. Poți vedea istoricul mesajelor tale, dar nu vei mai putea trimite sau primi mesaje până nu actualizezi.</string>
 
     <!-- ClockSkewActivity -->
     <!-- Title of the full-screen dialog shown when the device clock is too far off from the real time -->
@@ -307,7 +307,7 @@
     <!-- Title on dialog when quick restore qr code is scanned in system camera -->
     <string name="CommunicationActions__transfer_dialog_title">Transferi contul pe dispozitivul nou?</string>
     <!-- Message on dialog when quick restore qr code is scanned in system camera -->
-    <string name="CommunicationActions__transfer_dialog_message">Pentru a transfera acest cont pe un dispozitiv nou, atinge „Continuă” și scanează din nou codul QR cu camera Molly. Asigură-te că scanezi doar codurile QR care vin direct de la Molly.</string>
+    <string name="CommunicationActions__transfer_dialog_message">Pentru a transfera acest cont pe un dispozitiv nou, atinge „Continuă” și scanează din nou codul QR cu camera Polly. Asigură-te că scanezi doar codurile QR care vin direct de la Polly.</string>
     <string name="CommunicationActions__dont_transfer">Nu transfera</string>
 
     <!-- ConfirmIdentityDialog -->
@@ -331,8 +331,8 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">Mesaj %1$s</string>
-    <string name="ContactsDatabase_signal_call_s">Apel vocal Molly %1$s</string>
-    <string name="ContactsDatabase_signal_video_call_s">Apel video Molly %1$s</string>
+    <string name="ContactsDatabase_signal_call_s">Apel vocal Polly %1$s</string>
+    <string name="ContactsDatabase_signal_video_call_s">Apel video Polly %1$s</string>
 
     <!-- ContactNameEditActivity -->
     <!-- Toolbar title for contact name edit activity -->
@@ -445,10 +445,10 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="ConversationActivity_signal_to_send_audio_messages">Pentru a trimite mesaje vocale:</string>
     <!-- Alert dialog description asking for microphone permission in order to send voice messages -->
-    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Pentru a trimite mesaje audio, permite-i aplicației Molly accesul la microfonul tău.</string>
+    <string name="ConversationActivity_to_send_voice_messages_allow_signal_access_to_your_microphone">Pentru a trimite mesaje audio, permite-i aplicației Polly accesul la microfonul tău.</string>
     <!-- Toast text explaining Signal\'s need for microphone access -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Molly are nevoie de permisiunea pentru microfon pentru a înregistra un mesaj vocal.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Molly are nevoie de permisiunea pentru Microfon pentru a putea trimite mesaje audio dar i-a fost refuzat accesul permanent. Te rugăm să continui în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \"Microfon\".</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_message">Polly are nevoie de permisiunea pentru microfon pentru a înregistra un mesaj vocal.</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Polly are nevoie de permisiunea pentru Microfon pentru a putea trimite mesaje audio dar i-a fost refuzat accesul permanent. Te rugăm să continui în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \"Microfon\".</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
     <string name="ConversationActivity_search_position">%1$d din %2$d</string>
@@ -468,9 +468,9 @@
     <!-- Dialog description that will explain the steps needed to give microphone permissions for a voice call -->
     <string name="ConversationActivity__to_start_call">Pentru a începe un apel:</string>
     <!-- Alert dialog description asking for microphone permission in order to start a voice call -->
-    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Pentru a începe un apel, permite accesul Molly la microfon.</string>
+    <string name="ConversationActivity__to_call_signal_needs_access_to_your_microphone">Pentru a începe un apel, permite accesul Polly la microfon.</string>
     <!-- Toast text explaining Signal\'s need for microphone access for a voice call -->
-    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Molly are nevoie de acces la microfon pentru a începe un apel.</string>
+    <string name="ConversationActivity_signal_needs_microphone_access_voice_call">Polly are nevoie de acces la microfon pentru a începe un apel.</string>
 
 
     <string name="ConversationActivity_join">Alătură-te</string>
@@ -480,15 +480,15 @@
     <string name="ConversationActivity_error_sending_media">Eroare la trimiterea conținutului media</string>
 
     <!-- Message shown when opening an MMS group conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">Mesajele SMS nu mai sunt acceptat în Molly.</string>
+    <string name="ConversationActivity__sms_messaging_is_no_longer_supported">Mesajele SMS nu mai sunt acceptat în Polly.</string>
     <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
     <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Mesajele SMS nu mai sunt acceptate pe Signal. Invită pe %1$s pe Signal ca să continui conversația aici.</string>
     <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
-    <string name="ConversationActivity__this_person_is_no_longer_using_signal">Această persoană nu mai folosește Molly. Invit-o pe Molly ca să continui conversația aici.</string>
+    <string name="ConversationActivity__this_person_is_no_longer_using_signal">Această persoană nu mai folosește Polly. Invit-o pe Polly ca să continui conversația aici.</string>
     <!-- Message shown when opening a conversation with an unregistered user who is not on Signal -->
     <string name="ConversationActivity__this_person_is_not_using_signal">Această persoană nu folosește Signal. Fă-i o invitație, ca să păstrezi conversația aici.</string>
     <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-    <string name="ConversationActivity__invite_to_signal">Invită la Molly</string>
+    <string name="ConversationActivity__invite_to_signal">Invită la Polly</string>
     <!-- Toast message shown when trying to record a voice message during an ongoing call -->
     <string name="ConversationFragment_cannot_record_voice_message_during_call">Nu se poate înregistra mesajul vocal în timpul apelului.</string>
 
@@ -588,15 +588,15 @@
     <!-- Message shown after successfully blocking join requests for a user -->
     <string name="ConversationFragment__blocked">Blocat</string>
     <!-- Action shown to allow a user to update their application because it has expired -->
-    <string name="ConversationFragment__update_build">Actualizează Molly</string>
+    <string name="ConversationFragment__update_build">Actualizează Polly</string>
     <!-- Action shown to allow a user to re-register as they are no longer registered -->
-    <string name="ConversationFragment__reregister_signal">Înregistrează din nou Molly</string>
+    <string name="ConversationFragment__reregister_signal">Înregistrează din nou Polly</string>
     <!-- Action shown in the conversation input area to allow a user to re-link this device as it is no longer linked -->
     <string name="ConversationFragment__relink_signal">Asociază din nou</string>
     <!-- Label for a button displayed in the conversation toolbar to return to the previous screen. -->
     <string name="ConversationFragment__content_description_back_button">Navighează înapoi.</string>
     <!-- Label for a button displayed in the conversation toolbar to open the main screen of the app. -->
-    <string name="ConversationFragment__content_description_launch_signal_button">Deschide Molly</string>
+    <string name="ConversationFragment__content_description_launch_signal_button">Deschide Polly</string>
     <!-- Dialog title shown when more than one contact in a group conversation is no longer verified -->
     <string name="ConversationFragment__no_longer_verified">Nu mai este verificat</string>
     <!-- Button shown in conversation header when in a message request state and no groups in common to show new message safety tips -->
@@ -644,7 +644,7 @@
     <!-- Title of the dialog shown when re-requesting an expired attachment from your primary device fails -->
     <string name="ConversationFragment_attachment_backfill_failed_title">Nu se poate descărca fișierul media</string>
     <!-- Body of the dialog shown when your phone didn\'t respond to a request to re-send an expired attachment -->
-    <string name="ConversationFragment_attachment_backfill_timeout">Verifică dispozitivul și conexiunea la internet a telefonului tău. Deschide Molly pe telefon, apoi încearcă să descarci din nou.</string>
+    <string name="ConversationFragment_attachment_backfill_timeout">Verifică dispozitivul și conexiunea la internet a telefonului tău. Deschide Polly pe telefon, apoi încearcă să descarci din nou.</string>
     <!-- Body of the dialog shown when your phone no longer has the attachment you tried to download -->
     <string name="ConversationFragment_attachment_backfill_not_found">Acest conținut media nu mai este disponibil pe telefonul tău și nu poate fi descărcat.</string>
     <!-- Dialog for how to long to keep a messaged pinned for -->
@@ -714,7 +714,7 @@
     <!-- Bottom sheet text explaining that profile names are chosen by the account holder. Placeholder will be \'Profile names\' -->
     <string name="ProfileNameBottomSheet__profile_names_on_signal">%1$s de pe Signal sunt alese de titularul contului lor.</string>
     <!-- Bottom sheet text explaining that Signal can\'t verify names and photos -->
-    <string name="ProfileNameBottomSheet__signal_cant_verify">Molly nu poate verifica numele și pozele</string>
+    <string name="ProfileNameBottomSheet__signal_cant_verify">Polly nu poate verifica numele și pozele</string>
     <!-- Bottom sheet text explaining that Signal will never contact you for registration code, PIN, or recovery key -->
     <string name="ProfileNameBottomSheet__signal_will_never_contact">Signal nu te va contacta niciodată pentru a-ți cere codul de înregistrare, PIN-ul sau codul de recuperare.</string>
     <!-- Bottom sheet text explaining that accounts can impersonate other people and to be cautious -->
@@ -868,9 +868,9 @@
     <!-- Toolbar title for this screen -->
     <string name="WhoCanSeeMyPhoneNumberFragment__who_can_find_me_by_number">Cine îmi poate găsi numărul?</string>
     <!-- Description for radio item stating anyone can see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">Oricine are numărul tău de telefon va vedea că ești pe Molly și poate începe conversații cu tine.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__anyone_who_has_your">Oricine are numărul tău de telefon va vedea că ești pe Polly și poate începe conversații cu tine.</string>
     <!-- Description for radio item stating no one will be able to see your phone number -->
-    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">Nimeni nu va putea să vadă că eșți pe Molly decât dacă îi trimiți un mesaj sau dacă ai o conversație existentă cu acesta.</string>
+    <string name="WhoCanSeeMyPhoneNumberFragment__nobody_will_be_able">Nimeni nu va putea să vadă că eșți pe Polly decât dacă îi trimiți un mesaj sau dacă ai o conversație existentă cu acesta.</string>
 
     <!-- ChooseBackupFragment -->
 
@@ -896,7 +896,7 @@
     <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Testează parola de backup și asigură-te că se potrivește</string>
     <string name="BackupsPreferenceFragment__turn_on">Activează backup-urile</string>
     <string name="BackupsPreferenceFragment__turn_off">Dezactivează</string>
-    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Pentru a restabili un backup, instalează o copie nouă Molly. Deschide aplicația și atinge \"Restabilire backup\", apoi selectează un fișier de backup. %1$s"</string>
+    <string name="BackupsPreferenceFragment__to_restore_a_backup">"Pentru a restabili un backup, instalează o copie nouă Polly. Deschide aplicația și atinge \"Restabilire backup\", apoi selectează un fișier de backup. %1$s"</string>
     <string name="BackupsPreferenceFragment__learn_more">Află mai multe</string>
     <string name="BackupsPreferenceFragment__in_progress">În curs de desfășurare…</string>
     <!-- Status text shown in backup preferences when verifying a backup -->
@@ -905,7 +905,7 @@
     <string name="BackupsPreferenceFragment__d_so_far">%1$d până acum…</string>
     <!-- Show percentage of completion of backup -->
     <string name="BackupsPreferenceFragment__s_so_far">%1$s%% până acum…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Molly necesită permisiunea de acces la stocarea externă pentru a putea crea backup-uri, dar i-a fost refuzat permanent. Te rugăm continuă la setări aplicație, selectează \"Permisiuni\" și activează \"Stocare\".</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Polly necesită permisiunea de acces la stocarea externă pentru a putea crea backup-uri, dar i-a fost refuzat permanent. Te rugăm continuă la setări aplicație, selectează \"Permisiuni\" și activează \"Stocare\".</string>
     <!-- Title of dialog shown when picking the time to perform a chat backup -->
     <string name="BackupsPreferenceFragment__set_backup_time">Setează timpul de rezervă</string>
 
@@ -986,7 +986,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">Sesiunea conversației a fost resetată</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Molly folosește criptare integrală și câteodată va avea nevoie să reîmprospăteze sesiunile de conversație. Acest lucru nu va afecta securitatea conversațiilor dar s-ar putea să fi ratat un mesaj de la acest contact și ai putea să-l rogi să-l retrimită.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Polly folosește criptare integrală și câteodată va avea nevoie să reîmprospăteze sesiunile de conversație. Acest lucru nu va afecta securitatea conversațiilor dar s-ar putea să fi ratat un mesaj de la acest contact și ai putea să-l rogi să-l retrimită.</string>
 
     <!-- LinkDeviceFragment -->
     <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
@@ -1095,7 +1095,7 @@
     <!-- Bottom sheet title telling users to complete the linking process on the other device  -->
     <string name="AddLinkDeviceFragment__finish_linking_on_other_device">Finalizează asocierea pe celălalt dispozitiv</string>
     <!-- Bottom sheet description telling users to complete the linking process -->
-    <string name="AddLinkDeviceFragment__finish_linking_signal">Finalizează asocierea Molly pe celălalt dispozitiv.</string>
+    <string name="AddLinkDeviceFragment__finish_linking_signal">Finalizează asocierea Polly pe celălalt dispozitiv.</string>
     <!-- Title of dialog when the QR code being scanned is invalid -->
     <string name="AddLinkDeviceFragment__linking_device_failed">Asocierea Dispozitivului a Eșuat</string>
     <!-- Text shown in a dialog when the QR code being scanned is invalid -->
@@ -1140,19 +1140,19 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">Optimizează pentru lipsa serviciilor Play</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Acest dispozitiv nu suportă serviciile Play. Apasă pentru a dezactiva optimizarea de sistem a bateriei care împiedică Molly să preia mesaje cât timp este inactiv.</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Acest dispozitiv nu suportă serviciile Play. Apasă pentru a dezactiva optimizarea de sistem a bateriei care împiedică Polly să preia mesaje cât timp este inactiv.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Această versiune a Molly a expirat. Actualizează acum pentru a trimite și primi mesaje.</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Această versiune a Polly a expirat. Actualizează acum pentru a trimite și primi mesaje.</string>
     <string name="ExpiredBuildReminder_update_now">Actualizează acum</string>
 
     <!-- A message in a banner shown at the top of the screen indicating that the user must upgrade their device to use signal. -->
-    <string name="DeprecatedSdkBanner_body">Molly nu mai funcționează pe acest dispozitiv. Ca să folosești Molly din nou, actualizează-ți dispozitivul pentru o versiune mai nouă a Android sau treci la un dispozitiv mai nou.</string>
+    <string name="DeprecatedSdkBanner_body">Polly nu mai funcționează pe acest dispozitiv. Ca să folosești Polly din nou, actualizează-ți dispozitivul pentru o versiune mai nouă a Android sau treci la un dispozitiv mai nou.</string>
 
     <!-- Title of notification telling users to update Signal -->
-    <string name="DeprecatedNotificationJob_update_signal">Actualizează Molly</string>
+    <string name="DeprecatedNotificationJob_update_signal">Actualizează Polly</string>
     <!-- Message body of notification telling users that this current version of Signal has expired. If pressed, we will direct them to the website APK or PlayStore page -->
-    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Această versiune a Molly a expirat. Atinge pentru actualizare, ca să trimiți și să primești mesaje.</string>
+    <string name="DeprecatedNotificationJob_this_version_of_signal_has_expired">Această versiune a Polly a expirat. Atinge pentru actualizare, ca să trimiți și să primești mesaje.</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
     <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -1298,7 +1298,7 @@
     <!-- Message for dialog asking user to submit logs for debugging a crash -->
     <string name="PromptLogsSlowNotificationsDialog__message">Jurnalele de depanare ne ajută să diagnosticăm și să remediam problema și nu conțin informații de identificare.</string>
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
-    <string name="PromptLogsSlowNotificationsDialog__title_crash">Molly a întâmpinat o problemă. Trimiți jurnalul de depanare?</string>
+    <string name="PromptLogsSlowNotificationsDialog__title_crash">Polly a întâmpinat o problemă. Trimiți jurnalul de depanare?</string>
     <!-- Title for dialog asking user to submit logs for a situation where they\'re not able to connect to the signal service -->
     <string name="PromptLogsSlowNotificationsDialog__title_connectivity_warning">Este posibil să nu primești mesaje. Trimiți jurnalul de depanare?</string>
 
@@ -1306,12 +1306,12 @@
     <!-- Title for dialog asking user to submit logs for debugging slow notification issues -->
     <string name="PromptBatterySaverBottomSheet__title">Este posibil ca notificările să întârzie din cauza optimizării bateriei</string>
     <!-- Message explaining that battery saver may delay notifications -->
-    <string name="PromptBatterySaverBottomSheet__message">Poți să dezactivezi optimizarea bateriei pentru Molly ca să te asiguri că notificările mesajelor să nu fie întârziate.</string>
+    <string name="PromptBatterySaverBottomSheet__message">Poți să dezactivezi optimizarea bateriei pentru Polly ca să te asiguri că notificările mesajelor să nu fie întârziate.</string>
 
     <!-- Title in bottom sheet that states that notifications for this device could be delayed -->
     <string name="DeviceSpecificNotificationBottomSheet__notifications_may_be_delayed">Este posibil ca notificările să întârzie din cauza optimizării bateriei</string>
     <!-- Message in bottom sheet prompting users to fix potential issues by disabling battery optimizations -->
-    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Poți să dezactivezi optimizarea bateriei pentru Molly ca să te asiguri că notificările mesajelor să nu fie întârziate. Atinge \"Continuare\" pentru a vedea instrucțiunile specifice dispozitivului.</string>
+    <string name="DeviceSpecificNotificationBottomSheet__disable_battery_optimizations">Poți să dezactivezi optimizarea bateriei pentru Polly ca să te asiguri că notificările mesajelor să nu fie întârziate. Atinge \"Continuare\" pentru a vedea instrucțiunile specifice dispozitivului.</string>
     <!-- Button to dismiss notification help prompt -->
     <string name="DeviceSpecificNotificationBottomSheet__no_thanks">Nu, mulțumesc</string>
     <!-- Button to continue and go to Signal support website -->
@@ -1320,7 +1320,7 @@
     <!-- Title of a bottom sheet that is shown when the user is having connectivity issues -->
     <string name="ConnectivityWarningBottomSheet_title">Este posibil să nu primești mesaje</string>
     <!-- Body of a bottom sheet that is shown when the user is having connectivity issues -->
-    <string name="ConnectivityWarningBottomSheet_body">Repornirea dispozitivului poate ajuta la rezolvarea problemei de livrare a mesajelor. Dacă această problemă continuă, contactează asistența Molly.</string>
+    <string name="ConnectivityWarningBottomSheet_body">Repornirea dispozitivului poate ajuta la rezolvarea problemei de livrare a mesajelor. Dacă această problemă continuă, contactează asistența Polly.</string>
     <!-- Text for a button in a bottom sheet that is shown when the user is having connectivity issues. Clicking it will dismiss the bottom sheet. -->
     <string name="ConnectivityWarningBottomSheet_dismiss_button">Am înțeles</string>
 
@@ -1515,9 +1515,9 @@
     </plurals>
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Actualizează Molly pentru a folosi linkuri de grupuri</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Versiunea de Molly pe care o folosești nu suportă linkul către acest grup. Actualizează la ultima versiune pentru a te alătura acestui grup printr-un link.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Actualizează Molly</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Actualizează Polly pentru a folosi linkuri de grupuri</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Versiunea de Polly pe care o folosești nu suportă linkul către acest grup. Actualizează la ultima versiune pentru a te alătura acestui grup printr-un link.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Actualizează Polly</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Linkul de grup nu este valid</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -1563,7 +1563,7 @@
     <string name="LongMessageActivity_your_message">Mesajul tău</string>
 
     <!-- MessageRetrievalService -->
-    <string name="MessageRetrievalService_signal">Molly</string>
+    <string name="MessageRetrievalService_signal">Polly</string>
     <string name="MessageRetrievalService_background_connection_enabled">Conexiune în fundal activată</string>
 
     <!-- MediaOverviewActivity -->
@@ -1660,10 +1660,10 @@
   <!-- Removed by excludeNonTranslatables <string name="StarredMessages__s_chevron_s" translatable="false">%1$s \u203A %2$s</string> -->
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager__establishing_signal_call">Se realizează un apel Molly</string>
+    <string name="NotificationBarManager__establishing_signal_call">Se realizează un apel Polly</string>
     <!-- Temporary notification shown when starting the calling service -->
-    <string name="NotificationBarManager__starting_signal_call_service">Se inițializează serviciul de apel Molly</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Se oprește serviciul de apel Molly</string>
+    <string name="NotificationBarManager__starting_signal_call_service">Se inițializează serviciul de apel Polly</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">Se oprește serviciul de apel Polly</string>
     <string name="NotificationBarManager__cancel_call">Anulează apelul</string>
 
     <!-- NotificationsMegaphone -->
@@ -2004,7 +2004,7 @@
     </plurals>
 
     <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Nu mai poți să trimiți mesaje SMS în Molly. Invită pe %1$s pe Molly ca să continui conversația aici.</string>
+    <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Nu mai poți să trimiți mesaje SMS în Polly. Invită pe %1$s pe Polly ca să continui conversația aici.</string>
     <!-- Body for quote when message being quoted is an in-app payment message -->
     <string name="MessageRecord__payment_s">Plată: %1$s</string>
     <!-- Body for quote when message being quoted is an in-app payment message tombstone without an amount -->
@@ -2124,21 +2124,21 @@
     <string name="DeviceProvisioningActivity_link_a_signal_device">Asociez un dispozitiv Signal?</string>
     <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">Pentru a asocia un desktop sau un iPad la acest cont Signal, accesează Dispozitive asociate și atinge „Asociază un dispozitiv nou” și scanează din nou codul QR. Asigură-te că scanezi doar codurile QR care vin direct de la Signal.</string>
 
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Această versiune de Molly va expira astăzi. Actualizează la cea mai recentă versiune.</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Această versiune de Polly va expira astăzi. Actualizează la cea mai recentă versiune.</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="one">Această versiune de Molly va expira mâine. Actualizează la cea mai recentă versiune.</item>
-        <item quantity="few">Această versiune de Molly va expira în %1$d zile. Actualizează la cea mai recentă versiune.</item>
-        <item quantity="other">Această versiune de Molly va expira în %1$d de zile. Actualizează la cea mai recentă versiune.</item>
+        <item quantity="one">Această versiune de Polly va expira mâine. Actualizează la cea mai recentă versiune.</item>
+        <item quantity="few">Această versiune de Polly va expira în %1$d zile. Actualizează la cea mai recentă versiune.</item>
+        <item quantity="other">Această versiune de Polly va expira în %1$d de zile. Actualizează la cea mai recentă versiune.</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Introdu parola</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Pictogramă Molly</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Pictogramă Polly</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Trimite parola</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Parolă incorectă!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Deblochează Molly</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Deblochează Polly</string>
     <!-- This is the subject line for the email that is sent to support -->
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Molly Android - Ecran de Blocare</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Polly Android - Ecran de Blocare</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Hartă</string>
@@ -2165,7 +2165,7 @@
         <item quantity="few">Mai ai %1$d încercări rămase. Dacă rămâi fără încercări, poți crea un cod PIN nou. Poți înregistra și utiliza contul, dar vei pierde unele setări salvate, cum ar fi informațiile despre profil.</item>
         <item quantity="other">Mai ai %1$d de încercări rămase. Dacă rămâi fără încercări, poți crea un cod PIN nou. Poți înregistra și utiliza contul, dar vei pierde unele setări salvate, cum ar fi informațiile despre profil.</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Înregistrare Molly - Am nevoie de asistență pentru PIN Android</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Înregistrare Polly - Am nevoie de asistență pentru PIN Android</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">Creează-ți PIN-ul</string>
@@ -2197,7 +2197,7 @@
 
     <!-- RecaptchaRequiredBottomSheetFragment -->
     <string name="RecaptchaRequiredBottomSheetFragment_verify_to_continue_messaging">Verifică pentru a continua conversația</string>
-    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Pentru a ajuta la prevenirea spam-ului pe Molly, te rugăm să completezi verificarea.</string>
+    <string name="RecaptchaRequiredBottomSheetFragment_to_help_prevent_spam_on_signal">Pentru a ajuta la prevenirea spam-ului pe Polly, te rugăm să completezi verificarea.</string>
     <string name="RecaptchaRequiredBottomSheetFragment_after_verifying_you_can_continue_messaging">După verificare, poți continua să trimiți mesaje. Toate mesajele aflate în pauză vor fi trimise automat.</string>
 
     <!-- Recipient -->
@@ -2205,7 +2205,7 @@
     <!-- Name of recipient representing user\'s \'My Story\' -->
     <string name="Recipient_my_story">Povestea Mea</string>
     <!-- Name of recipient for a call link without a name -->
-    <string name="Recipient_signal_call">Apel Molly</string>
+    <string name="Recipient_signal_call">Apel Polly</string>
 
     <!-- RecipientPreferencesActivity -->
     <string name="RecipientPreferenceActivity_block">Blochează</string>
@@ -2242,7 +2242,7 @@
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Atinge aici pentru a porni camera ta</string>
     <!-- Subtitle shown at top of call where %s is the elapsed time of the call -->
-    <string name="WebRtcCallActivity__signal_s">Molly %1$s</string>
+    <string name="WebRtcCallActivity__signal_s">Polly %1$s</string>
     <string name="WebRtcCallActivity__calling">Apel în curs…</string>
     <!-- Title for dialog warning about lacking bluetooth permissions during a call -->
     <string name="WebRtcCallActivity__bluetooth_permission_denied">Permisiune Bluetooth refuzată</string>
@@ -2257,7 +2257,7 @@
     <!-- Title for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
     <string name="WebRtcCallActivity__others_couldnt_hear_you">Alții nu te-au putut auzi</string>
     <!-- Message for dialog shown when returning to a call after the system muted the microphone because Signal\'s battery setting is "Restricted" -->
-    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">Microfonul tău a avut sunetul dezactivat cât timp Molly era în fundal. Ca să repari asta, atinge Setări și activează activitatea în fundal din setările \"Baterie\".</string>
+    <string name="WebRtcCallActivity__your_microphone_was_muted_while_signal_was_in_the_background">Microfonul tău a avut sunetul dezactivat cât timp Polly era în fundal. Ca să repari asta, atinge Setări și activează activitatea în fundal din setările \"Baterie\".</string>
     <!-- Title for dialog to approve all requests -->
     <plurals name="WebRtcCallActivity__approve_d_requests">
         <item quantity="one">Aprobi solicitarea lui %1$d ?</item>
@@ -2317,11 +2317,11 @@
     <!-- Dialog description explaining why microphone permissions are needed to start or join a call -->
     <string name="WebRtcCallActivity__to_start_call_microphone">Pentru a începe sau a te alătura unui apel, permite accesul semnalului la microfon.</string>
     <!-- Dialog description explaining why camera permissions are needed to enable a user\'s video in a call -->
-    <string name="WebRtcCallActivity__to_enable_video_allow_camera">Pentru a activa înregistrarea video, permite accesul Molly la camera ta de filmat.</string>
+    <string name="WebRtcCallActivity__to_enable_video_allow_camera">Pentru a activa înregistrarea video, permite accesul Polly la camera ta de filmat.</string>
     <!-- Toast describing why microphone permissions are needed to start or join a call -->
-    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Molly are nevoie de permisiuni pentru microfon pentru a începe sau a se alătura unui apel.</string>
+    <string name="WebRtcCallActivity__signal_needs_microphone_start_call">Polly are nevoie de permisiuni pentru microfon pentru a începe sau a se alătura unui apel.</string>
     <!-- Toast describing why camera permissions are needed to enable a video in a call -->
-    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">Molly are nevoie de acces la cameră pentru a-ți activa videoclipul</string>
+    <string name="WebRtcCallActivity__signal_needs_camera_access_enable_video">Polly are nevoie de acces la cameră pentru a-ți activa videoclipul</string>
     <!-- Dialog description that will explain the steps needed to give microphone permissions -->
     <string name="WebRtcCallActivity__to_start_call">Pentru a începe un apel sau pentru a te alătura unui apel:</string>
     <!-- Dialog description that will explain the steps needed to give camera permissions -->
@@ -2334,8 +2334,8 @@
     <string name="MoveableLocalVideoRenderer__expand_local_video">Extinde videoclipul local</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_call">Apel Molly</string>
-    <string name="WebRtcCallView__signal_video_call">Apel Video Molly</string>
+    <string name="WebRtcCallView__signal_call">Apel Polly</string>
+    <string name="WebRtcCallView__signal_video_call">Apel Video Polly</string>
     <string name="WebRtcCallView__start_call">Începe Apelul</string>
     <string name="WebRtcCallView__join_call">Alătură-te apelului</string>
     <string name="WebRtcCallView__call_is_full">Numărul maxim de participanți a fost atins</string>
@@ -2660,7 +2660,7 @@
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">Adaugă la Contacte</string>
-    <string name="SharedContactView_invite_to_signal">Invită la Molly</string>
+    <string name="SharedContactView_invite_to_signal">Invită la Polly</string>
     <!-- Button on a shared contact card that opens a chat with that contact. It can share a row with other buttons, so a short label is preferred -->
     <string name="SharedContactView_message_button">Mesaj</string>
     <!-- Button on a contact card shared in a group chat that adds the person on the card to that group -->
@@ -2792,7 +2792,7 @@
     <!-- Shown when no stickers match the search. The placeholder what was searched. -->
     <string name="StickerManagement_search_no_results_s">Nu s-a găsit nici un rezultat pentru \'%1$s\'</string>
     <!-- Sticker pack button for forwarding a sticker link. -->
-    <string name="StickerManagement_menu_send_signal_pack">Trimite prin Molly</string>
+    <string name="StickerManagement_menu_send_signal_pack">Trimite prin Polly</string>
     <!-- Sticker pack button that opens a bottom sheet with more share options. -->
     <string name="StickerManagement_menu_link_pack">link</string>
     <!-- Sticker pack sheet option for sharing a sticker pack link using the system share sheet. -->
@@ -2958,11 +2958,11 @@
     <string name="ThreadRecord_blocked_group">Blocat</string>
 
     <!-- ApkUpdateNotifications -->
-    <string name="ApkUpdateNotifications_prompt_install_title">Actualizare Molly</string>
-    <string name="ApkUpdateNotifications_prompt_install_body">O nouă versiune de Molly este disponibilă. Apasă pentru actualizare.</string>
-    <string name="ApkUpdateNotifications_failed_general_title">Molly nu a putut fi actualizat</string>
+    <string name="ApkUpdateNotifications_prompt_install_title">Actualizare Polly</string>
+    <string name="ApkUpdateNotifications_prompt_install_body">O nouă versiune de Polly este disponibilă. Apasă pentru actualizare.</string>
+    <string name="ApkUpdateNotifications_failed_general_title">Polly nu a putut fi actualizat</string>
     <string name="ApkUpdateNotifications_failed_general_body">Vom încerca din nou mai târziu.</string>
-    <string name="ApkUpdateNotifications_auto_update_success_title">Molly a fost actualizat cu succes</string>
+    <string name="ApkUpdateNotifications_auto_update_success_title">Polly a fost actualizat cu succes</string>
     <string name="ApkUpdateNotifications_auto_update_success_body">Ai primit o actualizare automată la versiunea %1$s.</string>
     <string name="ApkUpdateNotifications_manual_update_success_body">Ai actualizat la versiunea %1$s.</string>
 
@@ -2990,7 +2990,7 @@
     <string name="VerifyIdentityActivity_our_signal_safety_number">Numărul nostru de siguranță:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">Se pare că nu ai aplicații cu care să poți distribui.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Nu s-a găsit nici un număr de siguranță în clipboard pentru a fi comparat.</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Molly are nevoie de permisiunea pentru Cameră pentru a scana un cod QR dar i-a fost refuzat accesul permanent. Te rugăm mergi în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \"Camera\".</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Polly are nevoie de permisiunea pentru Cameră pentru a scana un cod QR dar i-a fost refuzat accesul permanent. Te rugăm mergi în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \"Camera\".</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Mai întâi trebuie să faci schimb de mesaje pentru a vizualiza numărul de siguranță al lui %1$s</string>
     <!-- Dialog message explaining to user they must exchange messages first to create a safety number -->
     <string name="VerifyIdentityActivity_dialog_exchange_messages_to_create_safety_number_message">Un număr de siguranță va fi creat cu această persoană după ce schimbi mesaje cu ea.</string>
@@ -3027,8 +3027,8 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Atinge pentru a deschide.</string>
-    <string name="KeyCachingService_passphrase_cached">Molly este deblocat</string>
-    <string name="KeyCachingService_lock">Blochează Molly</string>
+    <string name="KeyCachingService_passphrase_cached">Polly este deblocat</string>
+    <string name="KeyCachingService_lock">Blochează Polly</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">Tu</string>
@@ -3083,7 +3083,7 @@
     <string name="MessageNotifier_failed_to_deliver_message">Mesajul nu a putut fi trimis.</string>
     <string name="MessageNotifier_error_delivering_message">A apărut o eroare la trimiterea mesajului.</string>
     <string name="MessageNotifier_message_delivery_paused">Livrarea mesajelor a fost întreruptă.</string>
-    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Verifică pentru a continua conversația pe Molly.</string>
+    <string name="MessageNotifier_verify_to_continue_messaging_on_signal">Verifică pentru a continua conversația pe Polly.</string>
     <string name="MessageNotifier_mark_all_as_read">Marchează tot ca citit</string>
     <string name="MessageNotifier_mark_read">Marchează ca citit</string>
     <string name="MessageNotifier_turn_off_these_notifications">Dezactivează aceste notificări</string>
@@ -3107,7 +3107,7 @@
     <!-- Body of a notification when someone votes in a poll. First placeholder is the poll emoji, second placeholder is the name of the voter and third is the poll question -->
     <string name="MessageNotifier_s_voted_in_poll">%1$s %2$s au votat în sondajul \"%3$s\"</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Dezactivează notificările pentru contact alăturat la Molly? Le poți activa din nou în Molly &gt; Setări &gt; Notificări.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Dezactivează notificările pentru contact alăturat la Polly? Le poți activa din nou în Polly &gt; Setări &gt; Notificări.</string>
 
     <!-- TurnOnNotificationsBottomSheet -->
     <!-- Title for sheet explaining how to turn on app notifications -->
@@ -3187,7 +3187,7 @@
     </plurals>
 
     <!-- Message shown when the app requests permission to save media to the device storage, but that permission has been permanently denied by the user. -->
-    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Molly are nevoie de permisiunea pentru spațiul de stocare extern pentru a salva pe spațiul de stocare extern, dar i-a fost refuzat accesul permanent. Te rugăm mergi în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \"Spațiu de stocare\".</string>
+    <string name="AttachmentSaver__signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Polly are nevoie de permisiunea pentru spațiul de stocare extern pentru a salva pe spațiul de stocare extern, dar i-a fost refuzat accesul permanent. Te rugăm mergi în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \"Spațiu de stocare\".</string>
 
     <!-- Message explaining that it is not possible to save media to the device storage after the user denied the system save to storage permission. -->
     <string name="AttachmentSaver__unable_to_write_to_external_storage_without_permission">Nu se poate salva pe spațiu de stocare extern fără permisiune</string>
@@ -3197,11 +3197,11 @@
     <!-- Dialog title shown when attempting to save media that has been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_media">Nu se pot salva fișierele media</string>
     <!-- Dialog message explaining that media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__media_offloaded_message">Acest fișier media a fost eliminat de pe dispozitiv pentru că este activată funcția Optimizează stocarea Molly. Poți să descarci articolele unul câte unul sau să dezactivezi Optimizează stocarea Molly ca să descarci toate fișierele pe dispozitiv.</string>
+    <string name="AttachmentSaver__media_offloaded_message">Acest fișier media a fost eliminat de pe dispozitiv pentru că este activată funcția Optimizează stocarea Polly. Poți să descarci articolele unul câte unul sau să dezactivezi Optimizează stocarea Polly ca să descarci toate fișierele pe dispozitiv.</string>
     <!-- Dialog title shown when attempting to save multiple media items, some of which have been offloaded from the device by the storage optimization feature. -->
     <string name="AttachmentSaver__cant_save_all_items">Nu se pot salva toate articolele</string>
     <!-- Dialog message explaining that some selected media cannot be saved because it has been offloaded from the device by the storage optimization feature. -->
-    <string name="AttachmentSaver__some_media_offloaded_message">Unele fișiere pe care le-ai selectat au eliminate de pe dispozitiv deoarece este pornită funcția Optimizează stocarea Molly. Poți să salvezi articolele unul câte unul sau să dezactivezi Optimizează stocarea Molly ca să-ți descarci toate fișierele pe dispozitiv.</string>
+    <string name="AttachmentSaver__some_media_offloaded_message">Unele fișiere pe care le-ai selectat au eliminate de pe dispozitiv deoarece este pornită funcția Optimizează stocarea Polly. Poți să salvezi articolele unul câte unul sau să dezactivezi Optimizează stocarea Polly ca să-ți descarci toate fișierele pe dispozitiv.</string>
     <!-- Button label in the offloaded media dialog that navigates to the storage settings screen. -->
     <string name="AttachmentSaver__view_storage_settings">Vezi setările de stocare</string>
 
@@ -3214,7 +3214,7 @@
     <string name="ShortcutLauncherActivity_invalid_shortcut">Scurtătură invalidă</string>
 
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_signal">Molly</string>
+    <string name="SingleRecipientNotificationBuilder_signal">Polly</string>
     <string name="SingleRecipientNotificationBuilder_new_message">Mesaj nou</string>
     <string name="SingleRecipientNotificationBuilder_message_request">Solicitare mesaj</string>
     <string name="SingleRecipientNotificationBuilder_you">Tu</string>
@@ -3291,20 +3291,20 @@
 
     <!-- UnauthorizedReminder -->
     <!-- Message shown in a reminder banner when the user\'s device is no longer registered -->
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Acest dispozitiv nu mai este înregistrat. Acest fapt este posibil pentru că ai înregistrat numărul tău de telefon la Molly de pe un dispozitiv diferit.</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Acest dispozitiv nu mai este înregistrat. Acest fapt este posibil pentru că ai înregistrat numărul tău de telefon la Polly de pe un dispozitiv diferit.</string>
     <!-- Action in reminder banner that will take user to re-register -->
     <string name="UnauthorizedReminder_reregister_action">Înregistrează din Nou Dispozitivul</string>
     <!-- Message shown in a reminder banner when this linked device is no longer linked to a primary device -->
-    <string name="UnauthorizedReminder_this_device_is_no_longer_linked_relink_to_continue_messaging">Dispozitivul nu mai este asociat. Asociază din nou Molly cu telefonul tău pentru a putea continua să trimiți mesaje.</string>
+    <string name="UnauthorizedReminder_this_device_is_no_longer_linked_relink_to_continue_messaging">Dispozitivul nu mai este asociat. Asociază din nou Polly cu telefonul tău pentru a putea continua să trimiți mesaje.</string>
     <!-- Action in reminder banner that will take the user to re-link this device -->
     <string name="UnauthorizedReminder_relink_action">Re-asociază Dispozitivele</string>
 
     <!-- Push notification when the app is forcibly logged out by the server. -->
-    <string name="LoggedOutNotification_you_have_been_logged_out">Te-am deconectat din Molly pe acest dispozitiv.</string>
+    <string name="LoggedOutNotification_you_have_been_logged_out">Te-am deconectat din Polly pe acest dispozitiv.</string>
 
     <!-- EnclaveFailureReminder -->
     <!-- Banner message to update app to use payments -->
-    <string name="EnclaveFailureReminder_update_signal">Actualizează Molly ca să continui să folosești plăți. Soldul este posibil să nu fie actualizat.</string>
+    <string name="EnclaveFailureReminder_update_signal">Actualizează Polly ca să continui să folosești plăți. Soldul este posibil să nu fie actualizat.</string>
     <!-- Banner button to update now -->
 
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Răspuns de pe un dispozitiv asociat.</string>
@@ -3346,14 +3346,14 @@
     <string name="change_passphrase_activity__repeat_new_passphrase">Repetă parola nouă</string>
 
     <!-- contact_selection_activity -->
-    <string name="contact_selection_activity__invite_to_signal">Invită la Molly</string>
+    <string name="contact_selection_activity__invite_to_signal">Invită la Polly</string>
     <string name="contact_selection_activity__new_group">Grup nou</string>
     <!-- Row item title for refreshing contacts -->
     <string name="contact_selection_activity__refresh_contacts">Reîncarcă contactele</string>
     <!-- Row item description for refreshing contacts -->
     <string name="contact_selection_activity__missing_someone">Îți lipsește cineva? Încearcă să reîncarci</string>
     <!-- Row item title for finding people on Signal via your contacts -->
-    <string name="contact_selection_activity__find_people_you_know">Găsește persoane pe care le cunoști pe Molly</string>
+    <string name="contact_selection_activity__find_people_you_know">Găsește persoane pe care le cunoști pe Polly</string>
     <!-- Row item description asking users for access to their contacts to find people they know -->
     <string name="contact_selection_activity__allow_access_to_contacts">Permite accesul la contactele tale</string>
     <!-- Row header title for more section -->
@@ -3372,7 +3372,7 @@
     <string name="SingleContactSelectionActivity_contact_photo">Poză contact</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Molly are nevoie de permisiunea pentru Contacte pentru a putea afișa contactele tale dar i-a fost refuzat accesul permanent. Te rugăm mergi în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \"Contacte\".</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Polly are nevoie de permisiunea pentru Contacte pentru a putea afișa contactele tale dar i-a fost refuzat accesul permanent. Te rugăm mergi în meniul de setări al aplicației, selectează \"Permisiuni\" și activează \"Contacte\".</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Eroare la obținerea contactelor, verifică-ți conexiunea la rețea.</string>
     <string name="ContactSelectionListFragment_username_not_found">Numele de utilizator nu a fost găsit</string>
     <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" nu este un utilizator Signal. Verifică numele de utilizator și încearcă din nou."</string>
@@ -3393,7 +3393,7 @@
     <!-- Dialog title asking users for contact permission -->
     <string name="ContactSelectionListFragment_allow_access_contacts">Permite accesul la contacte</string>
     <!-- Dialog description that will explain the steps needed to give contact permissions -->
-    <string name="ContactSelectionListFragment_to_find_people">Ca să găsești persoane pe care le cunoști pe Molly:</string>
+    <string name="ContactSelectionListFragment_to_find_people">Ca să găsești persoane pe care le cunoști pe Polly:</string>
     <!-- Text on button prompting users to give Signal contact permissions -->
     <string name="ContactSelectionListFragment__allow_access">Permite accesul</string>
     <!-- Text on button to dismiss Signal\'s request for contact permissions -->
@@ -3527,7 +3527,7 @@
 
     <!-- BubbleOptOutTooltip -->
     <!-- Message to inform the user of what Android chat bubbles are -->
-    <string name="BubbleOptOutTooltip__description">Bulele sunt o caracteristică Android pe care o poți opri pentru conversațiile Molly.</string>
+    <string name="BubbleOptOutTooltip__description">Bulele sunt o caracteristică Android pe care o poți opri pentru conversațiile Polly.</string>
     <!-- Button to dismiss the tooltip for opting out of using Android bubbles -->
     <string name="BubbleOptOutTooltip__not_now">Nu acum</string>
     <!-- Button to move to the system settings to control the use of Android bubbles -->
@@ -3670,20 +3670,20 @@
     <!-- Bottom sheet title when encryption is auto-verified -->
     <string name="EncryptionVerifiedSheet__title_success">Criptarea a fost verificată automat pentru acest chat</string>
     <!-- Bottom sheet body when encryption is auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_success">Pentru persoanele cu care te-ai conectat prin numărul de telefon, Molly poate confirma automat dacă conexiunea este sigură folosind un proces numit transparență privind codurile. Pentru o securitate sporită, verifică manual criptarea end-to-end comparând numerele de pe ecranul anterior sau scanând codul de pe dispozitivul utilizatorului.</string>
+    <string name="EncryptionVerifiedSheet__body_success">Pentru persoanele cu care te-ai conectat prin numărul de telefon, Polly poate confirma automat dacă conexiunea este sigură folosind un proces numit transparență privind codurile. Pentru o securitate sporită, verifică manual criptarea end-to-end comparând numerele de pe ecranul anterior sau scanând codul de pe dispozitivul utilizatorului.</string>
     <!-- Bottom sheet title when encryption is no longer auto-verified -->
     <string name="EncryptionVerifiedSheet__title_no_longer_unavailable">Verificarea automată nu este disponibilă pentru acest chat</string>
     <!-- Bottom sheet body when encryption is no longer auto-verified. Placeholder is the name of the person. -->
-    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Molly nu mai poate verifica automat criptarea pentru acest chat. Probabil acest lucru se datorează faptului că %1$s și-a schimbat numărul de telefon sau setările de confidențialitate a numărului de telefon. Verifică manual criptarea end-to-end comparând numerele de pe ecranul anterior sau scanând codul de pe dispozitivul său.</string>
+    <string name="EncryptionVerifiedSheet__body_no_longer_unavailable">Polly nu mai poate verifica automat criptarea pentru acest chat. Probabil acest lucru se datorează faptului că %1$s și-a schimbat numărul de telefon sau setările de confidențialitate a numărului de telefon. Verifică manual criptarea end-to-end comparând numerele de pe ecranul anterior sau scanând codul de pe dispozitivul său.</string>
     <!-- Bottom sheet title when encryption cannot be auto-verified -->
     <string name="EncryptionVerifiedSheet__title_unavailable">Verificarea automată nu este disponibilă pentru acest chat</string>
     <!-- Bottom sheet body when encryption cannot be auto-verified -->
-    <string name="EncryptionVerifiedSheet__body_unavailable">Molly poate verifica automat criptarea doar în conversațiile în care ești conectat cu cineva prin intermediul unui număr de telefon. Dacă chatul a fost inițiat cu un nume de utilizator sau un grup comun, verifică criptarea end-to-end comparând numerele de pe ecranul anterior sau scanând codul pe dispozitivul utilizatorului.</string>
+    <string name="EncryptionVerifiedSheet__body_unavailable">Polly poate verifica automat criptarea doar în conversațiile în care ești conectat cu cineva prin intermediul unui număr de telefon. Dacă chatul a fost inițiat cu un nume de utilizator sau un grup comun, verifică criptarea end-to-end comparând numerele de pe ecranul anterior sau scanând codul pe dispozitivul utilizatorului.</string>
 
     <!-- Title for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__title">Molly poate acum verifica automat criptarea codului</string>
+    <string name="VerifyAutomaticallyEducationSheet__title">Polly poate acum verifica automat criptarea codului</string>
     <!-- Body for auto verification education sheet -->
-    <string name="VerifyAutomaticallyEducationSheet__body">Pentru contactele la care ești conectat/ă prin numărul de telefon, Molly poate confirma automat dacă conexiunea este sigură folosind un proces numit transparență privind codurile. Pentru securitate sporită, poți verifica în continuare conexiunile manual, folosind un cod QR sau un număr de siguranță.</string>
+    <string name="VerifyAutomaticallyEducationSheet__body">Pentru contactele la care ești conectat/ă prin numărul de telefon, Polly poate confirma automat dacă conexiunea este sigură folosind un proces numit transparență privind codurile. Pentru securitate sporită, poți verifica în continuare conexiunile manual, folosind un cod QR sau un număr de siguranță.</string>
     <!-- Button to learn more about automatic verification -->
     <string name="VerifyAutomaticallyEducationSheet__learn_more">Află mai multe</string>
     <!-- Button to go to verification page -->
@@ -3757,7 +3757,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
     <!-- Heading used within support email that lists additional information to help with debugging -->
     <string name="HelpFragment__support_info">Informații suport</string>
-    <string name="HelpFragment__signal_android_support_request">Cerere suport Molly Android</string>
+    <string name="HelpFragment__signal_android_support_request">Cerere suport Polly Android</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__debug_log" translatable="false">Debug Log:</string> -->
     <string name="HelpFragment__could_not_upload_logs">Nu s-au putut încărca jurnalele</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">Te rugăm să fii cât mai descriptiv pentru a ne ajuta să înțelegem problema.</string>
@@ -3869,7 +3869,7 @@
     <string name="preferences__normal">Normal</string>
     <string name="preferences__slow">Încet</string>
     <string name="preferences__advanced">Avansat</string>
-    <string name="preferences__donate_to_signal">Donează pentru Molly</string>
+    <string name="preferences__donate_to_signal">Donează pentru Polly</string>
     <!-- Preference label for stories -->
     <string name="preferences__stories">Povești</string>
     <string name="preferences__storage">Spațiu stocare</string>
@@ -3953,7 +3953,7 @@
     <string name="preferences_communication__category_censorship_circumvention">Ocolire cenzură</string>
     <!-- Title of the \'censorship circumvention\' toggle switch -->
     <string name="preferences_communication__censorship_circumvention">Ocolire cenzură</string>
-    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Dacă este activată, Molly va încerca să ocolească cenzura. Nu activa această funcționalitate doar dacă ești într-o locație unde Molly este cenzurat.</string>
+    <string name="preferences_communication__censorship_circumvention_if_enabled_signal_will_attempt_to_circumvent_censorship">Dacă este activată, Polly va încerca să ocolească cenzura. Nu activa această funcționalitate doar dacă ești într-o locație unde Polly este cenzurat.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that we automatically enabled it because we believe you\'re in a censored country -->
     <string name="preferences_communication__censorship_circumvention_has_been_activated_based_on_your_accounts_phone_number">Ocolirea cenzurii a fost activată pe baza numărului tău de telefon.</string>
     <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
@@ -3981,7 +3981,7 @@
     <!-- Preference title for automatic key verification -->
     <string name="preferences_automatic_key_verification">Verificare automată a codului</string>
     <!-- Preference summary for automatic key verification -->
-    <string name="preferences_automatic_key_verification_body">Când este activat, Molly va încerca să verifice automat criptarea conversațiilor 1:1.</string>
+    <string name="preferences_automatic_key_verification_body">Când este activat, Polly va încerca să verifice automat criptarea conversațiilor 1:1.</string>
 
 
     <!-- Internal only preferences -->
@@ -3998,7 +3998,7 @@
 
     <!-- Displayed on a welcome screen for payments -->
     <string name="PaymentsHomeFragment_introducing_payments">Îți prezentăm plăți</string>
-    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Folosește Molly și trimite și primește MobileCoin, o nouă monedă digitală axată pe confidențialitate. Activează pentru a începe.</string>
+    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Folosește Polly și trimite și primește MobileCoin, o nouă monedă digitală axată pe confidențialitate. Activează pentru a începe.</string>
     <string name="PaymentsHomeFragment__activate_payments">Activare Plăți</string>
     <string name="PaymentsHomeFragment__activating_payments">Se activează plățile…</string>
     <string name="PaymentsHomeFragment__restore_payments_account">Restaurează contul de plăți</string>
@@ -4024,7 +4024,7 @@
     <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Plățile nu sunt disponibile in regiunea ta.</string>
     <string name="PaymentsHomeFragment__could_not_enable_payments">Nu s-au putut activa plățile. Încearcă din nou mai târziu.</string>
     <string name="PaymentsHomeFragment__deactivate_payments_question">Dezactivează Plățile?</string>
-    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Nu vei putea trimite sau primi MobileCoin în Molly, dacă dezactivezi plățile.</string>
+    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Nu vei putea trimite sau primi MobileCoin în Polly, dacă dezactivezi plățile.</string>
     <string name="PaymentsHomeFragment__deactivate">Dezactivare</string>
     <string name="PaymentsHomeFragment__continue">Continuă</string>
     <string name="PaymentsHomeFragment__balance_is_not_currently_available">Soldul nu este disponibil momentan.</string>
@@ -4033,10 +4033,10 @@
     <string name="PaymentsHomeFragment__details">Detalii</string>
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
     <!-- Displayed as a description in a dialog when the user tries to activate payments -->
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Poți folosi Molly pentru a trimite și a primi MobileCoin. Toate plățile sunt supuse Termenilor de utilizare pentru MobileCoins și MobileCoin Wallet. Este posibil să întâmpini probleme, iar soldul sau plățile pierdute nu pot fi recuperate. </string>
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Poți folosi Polly pentru a trimite și a primi MobileCoin. Toate plățile sunt supuse Termenilor de utilizare pentru MobileCoins și MobileCoin Wallet. Este posibil să întâmpini probleme, iar soldul sau plățile pierdute nu pot fi recuperate. </string>
     <string name="PaymentsHomeFragment__activate">Activare</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">Vezi termenii MobileCoin</string>
-    <string name="PaymentsHomeFragment__payments_not_available">Plățile în Molly nu mai sunt disponibile. Poți transfera în continuare fonduri către un exchange, dar nu mai poți trimite sau primi plăți ori adăuga fonduri.</string>
+    <string name="PaymentsHomeFragment__payments_not_available">Plățile în Polly nu mai sunt disponibile. Poți transfera în continuare fonduri către un exchange, dar nu mai poți trimite sau primi plăți ori adăuga fonduri.</string>
 
   <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string> -->
     <!-- Alert dialog title which shows up after a payment to turn on payment lock -->
@@ -4119,9 +4119,9 @@
     <string name="PaymentsTransferFragment__next">Următorul</string>
     <string name="PaymentsTransferFragment__invalid_address">Adresă invalidă</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Verifică adresa portofelului către care dorești să transferi și încearcă din nou.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Nu poți transfera către adresa propriului portofel Molly. Introdu adresa portofelului tău din contul unui exchange acceptat.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Pentru a scana un cod QR, Molly are nevoie de acces la cameră.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Pentru a scana un cod QR, Molly are nevoie de acces la cameră.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Nu poți transfera către adresa propriului portofel Polly. Introdu adresa portofelului tău din contul unui exchange acceptat.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Pentru a scana un cod QR, Polly are nevoie de acces la cameră.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Pentru a scana un cod QR, Polly are nevoie de acces la cameră.</string>
 
     <!-- PaymentsTransferQrScanFragment -->
     <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Scanează codul QR al adresei</string>
@@ -4491,17 +4491,17 @@
 
     <!-- CallNotificationBuilder -->
     <!-- Displayed in a notification when a Signal voice call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_voice_call">Primire apel vocal Molly</string>
+    <string name="CallNotificationBuilder__incoming_signal_voice_call">Primire apel vocal Polly</string>
     <!-- Displayed in a notification when a Signal video call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_video_call">Primire apel video Molly</string>
+    <string name="CallNotificationBuilder__incoming_signal_video_call">Primire apel video Polly</string>
     <!-- Displayed in a notification when a Signal group call is ringing -->
-    <string name="CallNotificationBuilder__incoming_signal_group_call">Primire apel Molly de grup</string>
+    <string name="CallNotificationBuilder__incoming_signal_group_call">Primire apel Polly de grup</string>
     <!-- Displayed in a notification when a Signal voice call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Apel vocal Molly în desfășurare</string>
+    <string name="CallNotificationBuilder__ongoing_signal_voice_call">Apel vocal Polly în desfășurare</string>
     <!-- Displayed in a notification when a Signal video call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_video_call">Apel video Molly în desfășurare</string>
+    <string name="CallNotificationBuilder__ongoing_signal_video_call">Apel video Polly în desfășurare</string>
     <!-- Displayed in a notification when a Signal group call is in progress -->
-    <string name="CallNotificationBuilder__ongoing_signal_group_call">Apel Molly de grup în desfășurare</string>
+    <string name="CallNotificationBuilder__ongoing_signal_group_call">Apel Polly de grup în desfășurare</string>
 
     <string name="CallNotificationBuilder_connecting">Se conectează…</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">Parolă backup</string>
@@ -4529,7 +4529,7 @@
     <string name="BackupDialog_passphrase_was_not_correct">Parola nu a fost corectă</string>
     <string name="LocalBackupJob_creating_signal_backup">Se creează backup-ul…</string>
     <!-- Title for progress notification shown in a system notification while verifying a recent backup. -->
-    <string name="LocalBackupJob_verifying_signal_backup">Se verifică backup-ul Molly…</string>
+    <string name="LocalBackupJob_verifying_signal_backup">Se verifică backup-ul Polly…</string>
     <string name="LocalBackupJobApi29_backup_failed">Backup-ul a eșuat</string>
     <string name="LocalBackupJobApi29_your_backup_directory_has_been_deleted_or_moved">Directorul tău de backup a fost șters sau mutat.</string>
     <string name="LocalBackupJobApi29_your_backup_file_is_too_large">Fișierul de backup este prea mare pentru a fi stocat pe acest volum.</string>
@@ -4544,7 +4544,7 @@
     <string name="RegistrationActivity_call_me_instead_available_in">Sună-mă (%1$02d:%2$02d)</string>
     <!--    Countdown to when the user can request a new SMS code during registration.-->
     <string name="RegistrationActivity_resend_sms_available_in">Retrimite codul (%1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_code_support_subject">Înregistrare Molly - Cod de Verificare pentru Android</string>
+    <string name="RegistrationActivity_code_support_subject">Înregistrare Polly - Cod de Verificare pentru Android</string>
     <string name="RegistrationActivity_incorrect_code">Cod incorect</string>
     <string name="BackupUtil_never">Niciodată</string>
     <!-- Subtext below last backup time when we do not know when the last backup was -->
@@ -4560,11 +4560,11 @@
     <string name="preferences_chats__backups">Backup-uri</string>
 
     <!-- Title text shown when Signal is locked and needs to be unlocked -->
-    <string name="prompt_passphrase_activity__unlock_signal">Deblochează Molly</string>
+    <string name="prompt_passphrase_activity__unlock_signal">Deblochează Polly</string>
     <!-- Description text explaining how to unlock Signal -->
-    <string name="prompt_passphrase_activity__use_your_android_device">Folosește setările de blocare ale dispozitivului Android pentru a debloca Molly.</string>
+    <string name="prompt_passphrase_activity__use_your_android_device">Folosește setările de blocare ale dispozitivului Android pentru a debloca Polly.</string>
     <!-- Text shown in a dialog that further explains how to unlock Signal by using the same unlocking methods that are used to unlock their own device -->
-    <string name="prompt_passphrase_activity__screen_lock_is_on">Blocarea ecranului este activată și Molly este securizat în siguranță cu setările de blocare a dispozitivului. Deblochează Molly în același mod în care ți-ai debloca în mod normal telefonul, prin deblocare facială, deblocare prin amprentă, PIN, parolă sau model.</string>
+    <string name="prompt_passphrase_activity__screen_lock_is_on">Blocarea ecranului este activată și Polly este securizat în siguranță cu setările de blocare a dispozitivului. Deblochează Polly în același mod în care ți-ai debloca în mod normal telefonul, prin deblocare facială, deblocare prin amprentă, PIN, parolă sau model.</string>
     <!-- Button in a dialog that will contact Signal support if pressed -->
     <string name="prompt_passphrase_activity__contact_support">Contactează Asistența</string>
     <!-- Button text to try again after unlocking has previously failed -->
@@ -4583,11 +4583,11 @@
     <!-- Title of an informational card shown on the account settings screen of a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__this_is_a_linked_device">Acesta este un dispozitiv asociat</string>
     <!-- Body of an informational card explaining that account settings must be managed from the primary device -->
-    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">Ca să-ți gestionezi setările contului, deschide Molly pe dispozitivul principal.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__to_manage_your_account_settings">Ca să-ți gestionezi setările contului, deschide Polly pe dispozitivul principal.</string>
     <!-- Title of a settings row that deletes all Signal data from this linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data">Elimină datele aplicației</string>
     <!-- Subtitle of the delete app data row explaining what it does -->
-    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">Această acțiune va elimina toate datele din aplicația Molly de pe acest dispozitiv.</string>
+    <string name="LinkedDeviceAccountSettingsFragment__this_will_remove_all_data">Această acțiune va elimina toate datele din aplicația Polly de pe acest dispozitiv.</string>
     <!-- Title of the confirmation dialog shown when deleting app data from a linked device -->
     <string name="LinkedDeviceAccountSettingsFragment__delete_app_data_question">Ștergi datele aplicației?</string>
     <!-- Message of the confirmation dialog explaining that only this device\'s data is deleted, not the account -->
@@ -4619,10 +4619,10 @@
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">Se caută un dispozitiv nou Android …</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Molly are nevoie de permisiunea de localizare pentru a descoperi și a se conecta la noul dispozitiv Android.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Molly are nevoie de servicii de localizare activate pentru a descoperi și a se conecta cu noul dispozitiv Android.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Molly are nevoie de Wi-Fi activat pentru a descoperi și a se conecta cu noul dispozitiv Android. Wi-Fi trebuie să fie activat dar nu neapărat conectat la o rețea fără fir.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Ne cerem scuze, se pare că acest dispozitiv nu accepta Wi-Fi Direct. Molly folosește Wi-Fi Direct pentru a descoperi și a se conecta cu noul dispozitiv Android. Încă mai poți crea un backup pentru a-ți restaura contul pe noul dispozitiv Android.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Polly are nevoie de permisiunea de localizare pentru a descoperi și a se conecta la noul dispozitiv Android.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Polly are nevoie de servicii de localizare activate pentru a descoperi și a se conecta cu noul dispozitiv Android.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Polly are nevoie de Wi-Fi activat pentru a descoperi și a se conecta cu noul dispozitiv Android. Wi-Fi trebuie să fie activat dar nu neapărat conectat la o rețea fără fir.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Ne cerem scuze, se pare că acest dispozitiv nu accepta Wi-Fi Direct. Polly folosește Wi-Fi Direct pentru a descoperi și a se conecta cu noul dispozitiv Android. Încă mai poți crea un backup pentru a-ți restaura contul pe noul dispozitiv Android.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Creează un backup</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">O eroare neașteptată a apărut în timpul încercării de conectare la noul dispozitiv Android.</string>
 
@@ -4662,7 +4662,7 @@
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">Se transmit datele</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">Ține ambele dispozitive unul lângă celălalt. Nu opri dispozitivele și menține Molly deschis. Transferul este criptat integral.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">Ține ambele dispozitive unul lângă celălalt. Nu opri dispozitivele și menține Polly deschis. Transferul este criptat integral.</string>
     <string name="DeviceTransfer__d_messages_so_far">%1$d mesaje până acum…</string>
     <!-- Filled in with total percentage of messages transferred -->
     <string name="DeviceTransfer__s_of_messages_so_far">%1$s%% din mesaje până acum…</string>
@@ -4676,7 +4676,7 @@
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">Transfer cont</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Descarcă Molly pe noul dispozitiv Android</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Descarcă Polly pe noul dispozitiv Android</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">"Atinge \"Transfer sau restaurare cont\""</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -4757,7 +4757,7 @@
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Oricine cu acest link poate vedea numele și fotografia grupului și poate solicita să se alăture acestuia. Distribuie linkul persoanelor de încredere.</string>
     <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Oricine cu acest link poate vedea numele și fotografia grupului și se poate alătura acestuia. Distribuie linkul persoanelor de încredere.</string>
-    <string name="GroupLinkBottomSheet_share_via_signal">Trimite prin Molly</string>
+    <string name="GroupLinkBottomSheet_share_via_signal">Trimite prin Polly</string>
     <string name="GroupLinkBottomSheet_copy">Copiază</string>
     <string name="GroupLinkBottomSheet_qr_code">Cod QR</string>
     <string name="GroupLinkBottomSheet_share">Distribuie</string>
@@ -4922,7 +4922,7 @@
     <string name="payment_info_card_about_mobilecoin">Despre MobileCoin</string>
     <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin este o nouă monedă digitală axată pe confidențialitate.</string>
     <string name="payment_info_card_adding_funds">Adăugarea fondurilor</string>
-    <string name="payment_info_card_you_can_add_funds_for_use_in">Poți adăuga fonduri pentru a le folosi în Molly transferând MobileCoin către adresa portofelului tău.</string>
+    <string name="payment_info_card_you_can_add_funds_for_use_in">Poți adăuga fonduri pentru a le folosi în Polly transferând MobileCoin către adresa portofelului tău.</string>
     <string name="payment_info_card_cashing_out">Schimbul în numerar</string>
     <string name="payment_info_card_you_can_cash_out_mobilecoin">Poți schimba oricând MobileCoin în numerar la un exchange care acceptă MobileCoin. Nu trebuie decât să faci un transfer către contul tău de la acel exchange.</string>
     <string name="payment_info_card_hide_this_card">Ascunzi această fișă?</string>
@@ -4943,12 +4943,12 @@
     <!-- DeactivateWalletFragment -->
     <string name="DeactivateWalletFragment__deactivate_wallet">Dezactivare Portofel</string>
     <string name="DeactivateWalletFragment__your_balance">Soldul tău</string>
-    <string name="DeactivateWalletFragment__its_recommended_that_you">Este recomandat să îți transferi fondurile către o altă adresă de portofel înainte de a dezactiva plățile. Dacă alegi să nu îți transferi fondurile acum, acestea vor rămâne în portofelul tău asociat cu Molly dacă reactivezi plățile.</string>
+    <string name="DeactivateWalletFragment__its_recommended_that_you">Este recomandat să îți transferi fondurile către o altă adresă de portofel înainte de a dezactiva plățile. Dacă alegi să nu îți transferi fondurile acum, acestea vor rămâne în portofelul tău asociat cu Polly dacă reactivezi plățile.</string>
     <string name="DeactivateWalletFragment__transfer_remaining_balance">Transferă soldul rămas</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring">Dezactivează fără transfer</string>
     <string name="DeactivateWalletFragment__deactivate">Dezactivare</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Dezactivezi fără transfer?</string>
-    <string name="DeactivateWalletFragment__your_balance_will_remain">Soldul tău va rămâne în portofelul asociat cu Molly, dacă alegi sa reactivezi plățile.</string>
+    <string name="DeactivateWalletFragment__your_balance_will_remain">Soldul tău va rămâne în portofelul asociat cu Polly, dacă alegi sa reactivezi plățile.</string>
     <string name="DeactivateWalletFragment__error_deactivating_wallet">Eroare la dezactivarea portofelului.</string>
   <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
 
@@ -5101,7 +5101,7 @@
     <string name="ChangeNumberConfirmFragment__edit_number">Editează număr</string>
 
     <!-- ChangeNumberRegistrationLockFragment -->
-    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Schimbare Număr Molly - Am nevoie de asistență pentru PIN Android (v2 PIN)</string>
+    <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Schimbare Număr Polly - Am nevoie de asistență pentru PIN Android (v2 PIN)</string>
 
     <!-- ChangeNumberPinDiffersFragment -->
     <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN-urile nu se potrivesc</string>
@@ -5711,9 +5711,9 @@
     <string name="MySupportPreference__checking_subscription">Se verifică abonamentul…</string>
 
     <!-- Title of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__title">Actualizează Molly</string>
+    <string name="UpdateSignalExpiredDialog__title">Actualizează Polly</string>
     <!-- Message of dialog telling user they need to update signal as it expired -->
-    <string name="UpdateSignalExpiredDialog__message">Această versiune a Molly a expirat. Actualizează acum ca să continui să folosești Molly.</string>
+    <string name="UpdateSignalExpiredDialog__message">Această versiune a Polly a expirat. Actualizează acum ca să continui să folosești Polly.</string>
     <!-- Button text of expiration dialog, will take user to update the app -->
     <string name="UpdateSignalExpiredDialog__update_action">Actualizează</string>
     <!-- Button text of expiration dialog to cancel the dialog.  -->
@@ -5722,7 +5722,7 @@
     <!-- Title of dialog telling user they need to re-register signal -->
     <string name="ReregisterSignalDialog__title">Dispozitivul nu este înregistrat</string>
     <!-- Message of dialog telling user they need to re-register signal as it is no longer registered -->
-    <string name="ReregisterSignalDialog__message">Acest dispozitiv nu mai este înregistrat. Înregistrează din nou ca să continui să folosești Molly pe acest dispozitiv.</string>
+    <string name="ReregisterSignalDialog__message">Acest dispozitiv nu mai este înregistrat. Înregistrează din nou ca să continui să folosești Polly pe acest dispozitiv.</string>
     <!-- Button text of re-registration dialog to re-register the device.  -->
     <string name="ReregisterSignalDialog__reregister_action">Înregistrează din nou</string>
     <!-- Button text of re-registration dialog to cancel the dialog.  -->
@@ -6003,7 +6003,7 @@
     <!-- Displayed in a toast when we fail to open the ringtone picker -->
     <string name="NotificationSettingsFragment__failed_to_open_picker">Nu s-a putut deschide selectorul.</string>
     <!-- Banner title when notification permission is disabled -->
-    <string name="NotificationSettingsFragment__to_enable_notifications">Pentru a activa notificările, Molly are nevoie de permisiunea ta pentru a le afișa.</string>
+    <string name="NotificationSettingsFragment__to_enable_notifications">Pentru a activa notificările, Polly are nevoie de permisiunea ta pentru a le afișa.</string>
     <!-- Banner action when notification permission is disabled -->
     <string name="NotificationSettingsFragment__turn_on">Activare</string>
 
@@ -6031,7 +6031,7 @@
     <!-- Donation receipts share PNG -->
     <string name="DonationReceiptDetailsFragment__share_receipt">Partajează chitanța</string>
     <!-- Donation receipts list end note -->
-    <string name="DonationReceiptListFragment__if_you_have">Dacă ai reinstalat Molly, bonurile fiscale ale donațiilor precedente nu vor mai fi disponibile.</string>
+    <string name="DonationReceiptListFragment__if_you_have">Dacă ai reinstalat Polly, bonurile fiscale ale donațiilor precedente nu vor mai fi disponibile.</string>
     <!-- Donation receipts document title -->
     <string name="DonationReceiptDetailsFragment__donation_receipt">Chitanță donație</string>
     <!-- Donation receipts amount title -->
@@ -6749,10 +6749,10 @@
     <string name="GatewaySelectorBottomSheet__ideal_wero">iDEAL | Wero</string>
 
     <!-- Dialog title for launching external intent -->
-    <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">Ieși din Molly ca să confirmi donația?</string>
-    <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">După confirmare, revino la Molly pentru a finaliza procesarea donației.</string>
+    <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">Ieși din Polly ca să confirmi donația?</string>
+    <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">După confirmare, revino la Polly pentru a finaliza procesarea donației.</string>
     <!-- Dialog message shown when leaving Signal to complete a donation in an external app. Placeholder is the resolved app name (e.g. a banking app). -->
-    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">Vei fi redirecționat la %1$s. După confirmare, revino la Molly pentru a finaliza procesarea donației.</string>
+    <string name="ExternalNavigationHelper__once_payment_confirmed_in_app">Vei fi redirecționat la %1$s. După confirmare, revino la Polly pentru a finaliza procesarea donației.</string>
 
     <!-- BankTransferMandateFragment -->
     <!-- Title of screen displaying the bank transfer mandate -->
@@ -7125,7 +7125,7 @@
     <!-- Toggle to require approval for all members before joining -->
     <string name="CreateCallLinkBottomSheetDialogFragment__require_admin_approval">Necesită aprobarea administratorului</string>
     <!-- Row label to share the link via Signal -->
-    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Trimite linkul prin Molly</string>
+    <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Trimite linkul prin Polly</string>
     <!-- Row label to copy the link to the clipboard -->
     <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">Copiază linkul</string>
     <!-- Row label to share the link with the external share sheet -->
@@ -7217,7 +7217,7 @@
     <!-- Title of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
     <string name="TurnOnSignalBackups__title">Activează Backup-urile securizate Signal</string>
     <!-- Body of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
-    <string name="TurnOnSignalBackups__body">Nu pierde niciodată un mesaj atunci când primești un telefon nou sau reinstalezi Molly.</string>
+    <string name="TurnOnSignalBackups__body">Nu pierde niciodată un mesaj atunci când primești un telefon nou sau reinstalezi Polly.</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will take the user to the flow to enable backups -->
     <string name="TurnOnSignalBackups__turn_on">Activare</string>
     <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will simply dismiss the megaphone -->
@@ -7278,27 +7278,27 @@
     <!-- Title of the backup setup complete bottom sheet -->
     <string name="BackupSetupCompleteBottomSheet__title">Ești gata. Începe acum backup-ul.</string>
     <!-- Body of the backup setup complete bottom sheet -->
-    <string name="BackupSetupCompleteBottomSheet__body">Asta ar putea dura ceva timp. Poți folosi Molly normal în timp ce faci backup.</string>
+    <string name="BackupSetupCompleteBottomSheet__body">Asta ar putea dura ceva timp. Poți folosi Polly normal în timp ce faci backup.</string>
     <!-- Label for the optimize storage toggle -->
-    <string name="BackupSetupCompleteBottomSheet__optimize_storage">Optimizează stocarea Molly</string>
+    <string name="BackupSetupCompleteBottomSheet__optimize_storage">Optimizează stocarea Polly</string>
     <!-- Subtitle for the optimize storage toggle -->
     <string name="BackupSetupCompleteBottomSheet__optimize_subtitle">Fișierele neutilizate vor fi mutate, dar pot fi descărcate oricând din backup.</string>
     <!-- Primary button on the setup complete bottom sheet -->
     <string name="BackupSetupCompleteBottomSheet__back_up_now">Fă un backup acum</string>
 
     <!-- Title of a megaphone shown to prompt the user to open Signal on their primary device -->
-    <string name="InactivePrimary__title">Deschide Molly pe telefonul tău</string>
+    <string name="InactivePrimary__title">Deschide Polly pe telefonul tău</string>
     <!-- Body of a megaphone shown to prompt the user to open Signal on their primary device -->
-    <string name="InactivePrimary__body">Ca să-ți menții contul activ, deschide Molly pe dispozitivul principal.</string>
+    <string name="InactivePrimary__body">Ca să-ți menții contul activ, deschide Polly pe dispozitivul principal.</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will navigate to a support page -->
     <string name="InactivePrimary__learn_more">Află mai multe</string>
     <!-- Button of a megaphone shown to prompt the user to open Signal on their primary device that will snooze the megaphone -->
     <string name="InactivePrimary__got_it">Am înțeles</string>
 
     <!-- Text describing how to restore a backup displayed on the on-device backups screen -->
-    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"Pentru a restaura un backup, instalează o copie nouă a Molly. Deschide aplicația și atinge Restaurează backup, apoi localizează fișierul de backup."</string>
+    <string name="OnDeviceBackupsScreen__to_restore_a_backup">"Pentru a restaura un backup, instalează o copie nouă a Polly. Deschide aplicația și atinge Restaurează backup, apoi localizează fișierul de backup."</string>
     <!-- Body of a dialog shown when turning on on-device backups while "Optimize Signal storage" is enabled, warning that optimized media won\'t be included -->
-    <string name="OnDeviceBackupsScreen__you_have_optimize_signal_storage_on">Opțiunea „Optimizare stocare Molly” este activată. Dacă dorești să incluzi toate fișierele media în copia de rezervă de pe dispozitiv, dezactivează această setare.</string>
+    <string name="OnDeviceBackupsScreen__you_have_optimize_signal_storage_on">Opțiunea „Optimizare stocare Polly” este activată. Dacă dorești să incluzi toate fișierele media în copia de rezervă de pe dispozitiv, dezactivează această setare.</string>
     <!-- Dialog action that takes the user to the "Optimize Signal storage" setting -->
     <string name="OnDeviceBackupsScreen__view_setting">Afișează setările</string>
     <!-- Dialog action to proceed with turning on on-device backups without turning off "Optimize Signal storage" -->
@@ -7387,7 +7387,7 @@
     <!-- Dialog title for invalid phone number -->
     <string name="FindByActivity__invalid_phone_number">Număr de Telefon Invalid</string>
     <!-- Dialog title when phone number is not a registered signal user -->
-    <string name="FindByActivity__invite_to_signal">Invită la Molly</string>
+    <string name="FindByActivity__invite_to_signal">Invită la Polly</string>
     <!-- Dialog title when username is not found -->
     <string name="FindByActivity__username_not_found">Numele de utilizator nu a fost găsit</string>
     <!-- Dialog body for invalid username. Placeholder is the entered username. -->
@@ -7528,7 +7528,7 @@
     <!-- Dialog title when a backup redemption fails -->
     <string name="BackupAlertBottomSheet__couldnt_redeem_your_backups_subscription">Nu s-a putut recupera abonamentul pentru copiile de rezervă</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it -->
-    <string name="BackupAlertBottomSheet__an_error_occurred">A apărut o eroare și backup-ul nu a putut fi finalizat. Asigură-te că ai cea mai recentă versiune de Molly și încearcă din nou. Dacă această problemă persistă, contactează serviciul de asistență.</string>
+    <string name="BackupAlertBottomSheet__an_error_occurred">A apărut o eroare și backup-ul nu a putut fi finalizat. Asigură-te că ai cea mai recentă versiune de Polly și încearcă din nou. Dacă această problemă persistă, contactează serviciul de asistență.</string>
     <!-- Dialog text for when a backup fails to be created and ways to fix it. Used for out of remote storage space error. -->
     <string name="BackupAlertBottomSheet__an_error_occurred_and">A apărut o eroare și backup-ul nu a putut fi finalizat. Dacă această problemă persistă, contactează serviciul de asistență.</string>
     <!-- Dialog action button that will allow you to check for any Signal version updates -->
@@ -7610,7 +7610,7 @@
     <!-- Text displayed when a backup could not be completed -->
     <string name="BackupStatusRow__your_last_backup">Ultimul backup nu a putut fi finalizat. Asigură-te că telefonul este conectat la Wi-Fi și atinge \"Backup acum\" pentru a încerca din nou.</string>
     <!-- Text displayed when a backup could not be completed and to check that they are on the latest version of Signal -->
-    <string name="BackupStatusRow__your_last_backup_latest_version">Ultimul backup nu a putut fi finalizat. Asigură-te că ai cea mai recentă versiune de Molly și încearcă din nou.</string>
+    <string name="BackupStatusRow__your_last_backup_latest_version">Ultimul backup nu a putut fi finalizat. Asigură-te că ai cea mai recentă versiune de Polly și încearcă din nou.</string>
     <!-- Text displayed when a backup file exceeds the storage limit during upload. -->
     <string name="BackupStatusRow__backup_file_too_large">Numărul de mesaje pe care le ai depășește limita de stocare. Șterge câteva mesaje și încearcă din nou.</string>
     <!-- Text displayed when we\'re not backing up all messages. The placeholder represents the cutoff date for the messages we\'re backing up. -->
@@ -7678,9 +7678,9 @@
     <!-- Setting description for syncing automated chat limit trimming (deleting messages automatically by length or date) to linked devices -->
     <string name="ManageStorageSettingsFragment_apply_limits_description">Atunci când sunt activate, limitele de chat vor elimina și mesajele de pe dispozitivele asociate.</string>
     <!-- Setting section title header for storage optimization -->
-    <string name="ManageStorageSettingsFragment__on_device_storage">Stocare Molly</string>
+    <string name="ManageStorageSettingsFragment__on_device_storage">Stocare Polly</string>
     <!-- Setting row title for storage optimization -->
-    <string name="ManageStorageSettingsFragment__optimize_on_device_storage">Optimizează stocarea Molly</string>
+    <string name="ManageStorageSettingsFragment__optimize_on_device_storage">Optimizează stocarea Polly</string>
     <!-- Setting row explanation for storage optimization -->
     <string name="ManageStorageSettingsFragment__unused_media_will_be_offloaded">Fișierele neutilizate vor fi mutate, dar pot fi descărcate oricând din backup.</string>
     <!-- Dialog message for paid tier pending dialog -->
@@ -7688,7 +7688,7 @@
     <!-- Title of a dialog shown when turning on "Optimize Signal storage" while on-device backups are enabled -->
     <string name="ManageStorageSettingsFragment__media_will_be_removed_from_your_on_device_backup">Fișierele media vor fi eliminate din backupul de pe dispozitiv</string>
     <!-- Body of a dialog shown when turning on "Optimize Signal storage" while on-device backups are enabled -->
-    <string name="ManageStorageSettingsFragment__turning_on_optimize_signal_storage_will_offload">Activarea opțiunii „Optimizare stocare Molly” va elimina fișierele media vechi de pe dispozitivul tău. Îl poți descărca din nou oricând. În plus, va elimina fișierele media vechi din backup-ul de pe dispozitiv.</string>
+    <string name="ManageStorageSettingsFragment__turning_on_optimize_signal_storage_will_offload">Activarea opțiunii „Optimizare stocare Polly” va elimina fișierele media vechi de pe dispozitivul tău. Îl poți descărca din nou oricând. În plus, va elimina fișierele media vechi din backup-ul de pe dispozitiv.</string>
     <!-- Dialog action to confirm turning on "Optimize Signal storage" -->
     <string name="ManageStorageSettingsFragment__turn_on">Activare</string>
 
@@ -7850,7 +7850,7 @@
     <!-- Displays the date the subscription expired. Placeholder is the date. -->
     <string name="RemoteBackupsSettingsFragment__expired_on_s">Expiră la %1$s</string>
     <!-- Displayed at the top of the screen when no backup is currently enabled -->
-    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Fă back-up pentru istoricul mesajelor, astfel încât niciodată să nu pierzi date, atunci când îți iei un telefon nou sau reinstalezi Molly.</string>
+    <string name="RemoteBackupsSettingsFragment__back_up_your_message_history">Fă back-up pentru istoricul mesajelor, astfel încât niciodată să nu pierzi date, atunci când îți iei un telefon nou sau reinstalezi Polly.</string>
     <!-- Section header for other ways to back up -->
     <string name="RemoteBackupsSettingsFragment__other_ways_to_backup">Alte moduri de backup</string>
     <!-- Row title for performing on-device backup -->
@@ -8085,7 +8085,7 @@
     <!-- Screen body shown when upgrading on-device backups to a new recovery key (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__local_backup_upgrade_description_bold">Acest cod va înlocui codul pentru backup-ul de pe dispozitiv.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 1). -->
-    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">Codul de recuperare este un cod din 64 de caractere care îți permite să îți restaurezi backup-ul atunci când reinstalezi Molly.</string>
+    <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description">Codul de recuperare este un cod din 64 de caractere care îți permite să îți restaurezi backup-ul atunci când reinstalezi Polly.</string>
     <!-- Screen body shown when enabling Signal Secure Backups while on-device backups are already enabled (part 2, bolded). -->
     <string name="MessageBackupsKeyEducationScreen__remote_backup_with_local_enabled_description_bold">Aceasta este același cu codul de recuperare de pe dispozitiv.</string>
     <!-- Screen body shown when enabling on-device backups while Signal Secure Backups are already enabled (part 2, bolded). -->
@@ -8123,7 +8123,7 @@
     <!-- Dialog message shown when there is an error saving the recovery key because no compatible password manager was detected. -->
     <string name="MessageBackupsKeyRecordScreen__missing_password_manager_message">Nu ai configurat un manager de parole sau managerul de parole pe care îl folosești nu este acceptat.</string>
     <!-- Dialog message shown when there is an error saving the recovery key because the user previously chose not to save Signal passwords to their password manager. -->
-    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Anterior, ai ales să nu salvezi parolele pentru Molly în Google Password Manager. În setările Google Password Manager, elimină Molly din „Site-uri și aplicații refuzate” și încearcă din nou.</string>
+    <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Anterior, ai ales să nu salvezi parolele pentru Polly în Google Password Manager. În setările Google Password Manager, elimină Polly din „Site-uri și aplicații refuzate” și încearcă din nou.</string>
     <!-- Label for a button that navigates to the device settings -->
     <string name="MessageBackupsKeyRecordScreen__go_to_settings">Mergi la setări</string>
     <!-- Action button label -->
@@ -8131,7 +8131,7 @@
     <!-- Bottom sheet title -->
     <string name="MessageBackupsKeyRecordScreen__keep_your_key_safe">Păstrează-ți codul în siguranță</string>
     <!-- Bottom sheet subtitle -->
-    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Molly nu te va putea ajuta să îți restaurezi backupul dacă îți pierzi codul. Păstrează-l într-un loc sigur și nu îl împărtăși cu alții.</string>
+    <string name="MessageBackupsKeyRecordScreen__signal_will_not">Polly nu te va putea ajuta să îți restaurezi backupul dacă îți pierzi codul. Păstrează-l într-un loc sigur și nu îl împărtăși cu alții.</string>
     <!-- Sheet action button label -->
     <string name="MessageBackupsKeyRecordScreen__continue">Continuă</string>
     <!-- Sheet secondary action button label -->
@@ -8141,13 +8141,13 @@
     <!-- Dialog title for confirming you need to disable optimized storage and download media to rotate AEP key -->
     <string name="MessageBackupsKeyRecordScreen__download_media">Descarcă fișiere media</string>
     <!-- Dialog body for confirming you need to disable optimized storage and download media to rotate AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">Ca să creezi un nou cod de recuperare, trebuie să dezactivezi „Optimizează stocarea Molly” și să aștepți până când fișierele media au fost descărcate. Când descărcarea este completă, poți crea un cod nou.</string>
+    <string name="MessageBackupsKeyRecordScreen__to_create_a_new_backup_key">Ca să creezi un nou cod de recuperare, trebuie să dezactivezi „Optimizează stocarea Polly” și să aștepți până când fișierele media au fost descărcate. Când descărcarea este completă, poți crea un cod nou.</string>
     <!-- Action label to turn off optimized storage and download media -->
     <string name="MessageBackupsKeyRecordScreen__turn_off_and_download">Dezactivează și descarcă</string>
     <!-- Bottom Sheet title for creating a new AEP key -->
     <string name="MessageBackupsKeyRecordScreen__create_a_new_backup_key">Creează un nou cod de recuperare</string>
     <!-- Bottom Sheet body for creating a new AEP key -->
-    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">Crearea unui nou cod este necesară numai dacă l-a aflat altcineva. Va trebui să reîncarci copia de rezervă, inclusiv fișierele media. Dacă folosești „Optimizare stocarea Molly”, va trebui mai întâi să descarci fișierele media descărcate.</string>
+    <string name="MessageBackupsKeyRecordScreen__creating_a_new_key_is_only_necessary">Crearea unui nou cod este necesară numai dacă l-a aflat altcineva. Va trebui să reîncarci copia de rezervă, inclusiv fișierele media. Dacă folosești „Optimizare stocarea Polly”, va trebui mai întâi să descarci fișierele media descărcate.</string>
     <!-- Dialog title shown when user attempts to exit backup setup before completion -->
     <string name="MessageBackupsKeyRecordScreen__exit_backup_setup">Ieși din configurarea backup-ului?</string>
     <!-- Dialog body warning user that backup setup is incomplete -->
@@ -8272,7 +8272,7 @@
     <!-- ConfirmBackupCancellationDialog -->
 
     <!-- Email subject when contacting support on a create backup failure -->
-    <string name="BackupAlertBottomSheet_network_failure_support_email">Eroare de rețea de restabilire a backup-ului Molly Android</string>
+    <string name="BackupAlertBottomSheet_network_failure_support_email">Eroare de rețea de restabilire a backup-ului Polly Android</string>
     <!-- Email filter when contacting support on a create backup failure -->
   <!-- Removed by excludeNonTranslatables <string name="BackupAlertBottomSheet_export_failure_filter" translatable="false">Android SignalBackups Export Failed</string> -->
 
@@ -8302,7 +8302,7 @@
     <!-- Old device Transfer account bottom sheet dialog body -->
     <string name="TransferAccount_continue_on_your_other_device_details">Continuă să-ți transferi contul pe celălalt dispozitiv.</string>
     <!-- Old device Transfer account error dialog body shown when the new device is too old to accept an account that has no phone number -->
-    <string name="TransferAccount_the_device_you_are_transferring_to_is_out_of_date">Dispozitivul pe care te transferi este mai vechi. Actualizează Molly pe acel dispozitiv și încearcă din nou.</string>
+    <string name="TransferAccount_the_device_you_are_transferring_to_is_out_of_date">Dispozitivul pe care te transferi este mai vechi. Actualizează Polly pe acel dispozitiv și încearcă din nou.</string>
 
     <!-- Prepare Device screen title for quick restore flow -->
     <string name="PrepareDevice_title">Se pregătește dispozitivul</string>
@@ -8378,7 +8378,7 @@
     <!-- Notification title for when user is out of remote storage -->
     <string name="Notification_backup_storage_full">Spațiul de stocare pentru backup este plin</string>
     <!-- Notification body for when user is out of remote storage -->
-    <string name="Notification_youve_reached_your_backup_storage_limit">Ai atins limita de stocare pentru copii de rezervă. Eliberează spațiu în Molly pentru a continua să faci backup la chat-uri și fișiere media.</string>
+    <string name="Notification_youve_reached_your_backup_storage_limit">Ai atins limita de stocare pentru copii de rezervă. Eliberează spațiu în Polly pentru a continua să faci backup la chat-uri și fișiere media.</string>
     <!-- Notification title for when initial backup failed -->
     <string name="Notification_backup_failed">Backup-ul a eșuat</string>
     <!-- Notification body for when initial backup failed -->
@@ -8666,7 +8666,7 @@
     <string name="CouldNotCompleteBackupRestoreSheet__body_error">A apărut o eroare și backup-ul nu poate fi restabilit. Este posibil ca acest lucru să se datoreze faptului că dosarul de backup a fost mutat pe dispozitivul tău în timp ce se efectua restaurarea backup-ului.</string>
 
     <!-- Body of the sheet shown when a local backup restore could not be completed, explaining how to try again -->
-    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">Ca să încerci din nou, dezinstalează și reinstalează Molly pe acest dispozitiv, apoi alege „Restaurează sau transferă“.</string>
+    <string name="CouldNotCompleteBackupRestoreSheet__body_retry">Ca să încerci din nou, dezinstalează și reinstalează Polly pe acest dispozitiv, apoi alege „Restaurează sau transferă“.</string>
 
     <!-- Button on the sheet shown when a local backup restore could not be completed, opening a support article about it -->
     <string name="CouldNotCompleteBackupRestoreSheet__learn_more">Află mai multe</string>
@@ -8835,7 +8835,7 @@
     <!-- Context menu entry that copies a shared contact detail to the clipboard -->
     <string name="SharedContactDetailsScreen__copy">Copiază</string>
     <!-- Row that invites a shared contact who is not yet on Signal -->
-    <string name="SharedContactDetailsScreen__invite_to_signal">Invită la Molly</string>
+    <string name="SharedContactDetailsScreen__invite_to_signal">Invită la Polly</string>
     <!-- Row that saves a shared contact into the device address book -->
     <string name="SharedContactDetailsScreen__add_to_phone_contacts">Adaugă la Contacte telefonice</string>
     <!-- Row that adds a shared contact to a Signal group -->
@@ -8847,14 +8847,14 @@
     <!-- Toast shown when there is no map app to open a shared address in -->
     <string name="SharedContactDetailsScreen__couldnt_open_maps">Nu s-a putut deschide harta</string>
     <!-- Subject line of an email invitation to Signal -->
-    <string name="SharedContactDetailsScreen__join_me_on_signal">Hai cu mine pe Molly</string>
+    <string name="SharedContactDetailsScreen__join_me_on_signal">Hai cu mine pe Polly</string>
 
     <!-- Title of the bottom sheet that confirms the user wants a brand new recovery key. -->
     <string name="ResetRecoveryKeyBottomSheet__reset_your_recovery_key">Resetează codul de recuperare</string>
     <!-- First paragraph of the bottom sheet body, explaining what a reset does. -->
     <string name="ResetRecoveryKeyBottomSheet__resetting_your_recovery_key_will_create_a_new_key">Resetarea codului tău de recuperare va crea un nou cod pentru Login Signal. Este necesar doar dacă altcineva îți știe codul.</string>
     <!-- Second paragraph of the bottom sheet body, explaining what a reset means for backups. -->
-    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">Dacă backup-urile sunt activate, va trebui să îți reîncarci backup-ul, inclusiv fișierele. Dacă folosești „Optimizare stocarea Molly”, va trebui mai întâi să descarci fișierele media descărcate.</string>
+    <string name="ResetRecoveryKeyBottomSheet__if_backups_are_enabled_you_will_have_to_re_upload">Dacă backup-urile sunt activate, va trebui să îți reîncarci backup-ul, inclusiv fișierele. Dacă folosești „Optimizare stocarea Polly”, va trebui mai întâi să descarci fișierele media descărcate.</string>
     <!-- Bottom sheet action that continues on to reset the recovery key. -->
     <string name="ResetRecoveryKeyBottomSheet__continue">Continuare</string>
     <!-- Dialog body shown when the recovery key change limit is exhausted and the user does not have backups enabled. -->

@@ -74,10 +74,6 @@ FROM source AS deps-overlay
 # Stage 4: deps-overlay
 # Hook for pre-built dependencies, supplied via named build contexts.
 
-ARG LOA_DEP_LIBSIGNAL=scratch
-COPY --from=${LOA_DEP_LIBSIGNAL} / /molly/prebuilts/
-ARG LOA_DEP_RINGRTC=scratch
-COPY --from=${LOA_DEP_RINGRTC} / /molly/prebuilts/
 
 FROM deps-overlay AS assemble
 

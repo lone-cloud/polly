@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly لاک ہے</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly لاک ہے</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">گوگل پلے سروسز تجدید ہو رہی ہیں یا عارضی طور پر دستیاب نہیں۔ براہ کرم دوبارہ کوشش کریں۔</string>
     <string name="please_wait">برائے مہربانی انتظار کریں. . . .</string>
     <string name="NotificationsSettingsFragment__notify_when">مطلع کریں جب…</string>

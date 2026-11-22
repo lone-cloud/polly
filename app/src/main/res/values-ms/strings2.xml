@@ -4,7 +4,7 @@
     <string name="preferences__map_normal">Biasa</string>
     <string name="arrays__tor_via_orbot">Tor melalui Orbot</string>
     <string name="arrays__none">Tidak ada</string>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly dikunci</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly dikunci</string>
     <string name="arrays__on_inactivity_timeout">Jika anda pergi pada masa tertentu tanpa ‘unlock’ peranti anda</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Perkhidmatan Google Play sedang dikemas kini atau tidak tersedia sementara waktu. Sila cuba sekali lagi.</string>
     <string name="please_wait">Sila tunggu…</string>

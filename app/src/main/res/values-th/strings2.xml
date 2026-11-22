@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="prompt_passphrase_activity__molly_is_locked">Molly ได้ถูกล็อก</string>
+    <string name="prompt_passphrase_activity__molly_is_locked">Polly ได้ถูกล็อก</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Services กำลังปรับรุ่นหรือใช้ไม่ได้ชั่วคราว โปรดลองอีกครั้ง</string>
     <string name="please_wait">โปรดรอ…</string>
     <string name="NotificationsSettingsFragment__notify_when">แจ้งเตือนเมื่อ…</string>
